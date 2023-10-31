@@ -1,0 +1,427 @@
+{
+  "main": {
+    "id": "5e06d1e8899cf213",
+    "type": "split",
+    "children": [
+      {
+        "id": "3d2de8fd7dbc77b2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b328fa34e70c809e",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "记事本/学习/学习计划脚本/学习笔记.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "451d4abc58e4a2ac",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "记事本/学习/学习计划脚本/js学习计划.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "d2d9ae194125e40a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "记事本/学习网站收录/js网站.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "217f315ae87bb617",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "记事本/学习网站收录/nodejs网站.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "a6cf4fbe69d23a4f",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "记事本/学习网站收录/IT技术网站.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "cd94ea20fdf5f6d9",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "汇总所有在线文档.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "3e50b1265d204cfe",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "记事本/服务器相关知识/a 服务器相关命令.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "c3013385857f50d2",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "记事本/学习/学习计划脚本/工作计划梳理和安排.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "b07fdbed87cad001",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "记事本/工作计划（未完成）/最新工作安排/最新工作安排.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "54f7b3933ead6cf9",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "记事本/各种软件/win11快捷键/快捷键.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "3323bb7af2afde9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "记事本/学习/学习计划脚本/js文档学习笔记/1.13 `模块`.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 10
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "518d787edd9ad73c",
+    "type": "split",
+    "children": [
+      {
+        "id": "94e78b54e6b413ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e405668c9acc4e8f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "ba994e9e34161f6d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "html5prox",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "753a0c81016932eb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "42881533af5f1af8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "日记/2023-07-17.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "96eb574e52794393",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 282.5
+  },
+  "right": {
+    "id": "b32627c8247c39ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "db8af3358ee98872",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2efce47c01dbf5b9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "记事本/学习/学习计划脚本/js文档学习笔记/1.13 `模块`.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2f112cc56e456c34",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "记事本/学习/学习计划脚本/js文档学习笔记/1.13 `模块`.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ce2d93e321b54107",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ba09a186edfc3095",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "记事本/学习/学习计划脚本/js文档学习笔记/1.13 `模块`.md"
+              }
+            }
+          },
+          {
+            "id": "fbefdab667b32f51",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "83139e9b2173c9b4",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "18ecbd69540604da",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          },
+          {
+            "id": "b9e14761ca10d41e",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          },
+          {
+            "id": "c4c213a5d8feb455",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "remotely-save:Remotely Save": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "zk-prefixer:创建时间戳笔记": false,
+      "random-note:开始漫游笔记": false,
+      "audio-recorder:开始/结束录音": false,
+      "workspaces:管理工作区布局": false,
+      "obsidian-importer:Open Importer": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "obsidian-day-planner:Week plan": false,
+      "obsidian-daily-notes-viewer:打开 Viewer": false,
+      "obsidian-memos:Memos": false
+    }
+  },
+  "active": "3323bb7af2afde9c",
+  "lastOpenFiles": [
+    "记事本/ai工具/ai工具清单.md",
+    "记事本/ai工具",
+    "记事本/未命名",
+    "记事本/学习/js小知识点/节流和防抖.md",
+    "记事本/学习/git/git文件占用文件问题.md",
+    "记事本/学习/js小知识点/可选链操作符、空值合并操作符、空值合并赋值操作符.md",
+    "记事本/学习/git/git相关文档.md",
+    "记事本/学习/git",
+    "灵感/灵感memo/维度.md",
+    "灵感/灵感memo/世俗.md",
+    "灵感/灵感memo/佛学.md",
+    "灵感/灵感memo/情商顿悟.md",
+    "灵感/灵感memo/生存灵感.md",
+    "灵感/灵感memo/学习使我快乐.md",
+    "obsidian使用相关/Attachment/assets 6-zagger/image-20230705092150-90qfurd.png",
+    "obsidian使用相关/Attachment/assets 6-zagger/image-20230705213808-7ck8gb8.png",
+    "obsidian使用相关/Attachment/assets 6-zagger/image-20230705091201-pfofyc9.png",
+    "obsidian使用相关/Attachment/assets 6-zagger/image-20230705213844-jn73zvh.png",
+    "obsidian使用相关/Attachment/assets 6-zagger/image-20230705092204-535rfto.png",
+    "obsidian使用相关/Attachment/assets 6-zagger/image-20230705092131-dvexqxp.png",
+    "obsidian使用相关/Attachment/assets 6-zagger/image-20230705213819-bgypwz1.png",
+    "obsidian使用相关/Attachment/assets 6-zagger/image-20230706085205-41m19po.png",
+    "obsidian使用相关/Attachment/assets 6-zagger/image-20230705084016-l62i7y8.png",
+    "obsidian使用相关/Attachment/assets 6-zagger/image4-20230705220235-k558spz.png",
+    "obsidian使用相关/Attachment/assets 6-zagger",
+    "obsidian使用相关/Attachment/assets 6",
+    "obsidian使用相关/Attachment/武汉噢易云计算股份有限公司2024届校园招聘简章-0924.doc",
+    "obsidian使用相关/Excalidraw/Drawing 2023-09-19 14.03.40.excalidraw.md",
+    "obsidian使用相关/Attachment/assets",
+    "obsidian使用相关/Attachment/assets 1",
+    "obsidian使用相关/Attachment/assets 4",
+    "obsidian使用相关/Attachment/assets 5",
+    "obsidian使用相关/Excalidraw/PacketReassembler.js.md",
+    "obsidian使用相关/Excalidraw/spice websocket消息处理流程.md",
+    "obsidian使用相关/Excalidraw/reassemblerFatory.js.md",
+    "obsidian使用相关/templater/模板-zagger/会议.md",
+    "obsidian使用相关/templater/模板-zagger/阅读笔记模板.md",
+    "obsidian使用相关/obsidian-zagger/obsidian教程.md",
+    "obsidian使用相关/Excalidraw-zagger/Drawing 2023-09-19 14.03.40.excalidraw.md",
+    "Viewer.md",
+    "obsidian使用相关/Viewer.md",
+    "obsidian使用相关/文章/大学.md",
+    "obsidian使用相关/New/阅读列表.md",
+    "obsidian使用相关/New/10月看板.md",
+    "obsidian使用相关/New/callout.md",
+    "obsidian使用相关/New/todolist.md",
+    "记事本/学习/测试/未命名.canvas"
+  ]
+}

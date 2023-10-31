@@ -1,0 +1,1 @@
+[FileSystemDirectoryHandle - Web APIs | MDN --- FileSystemDirectoryHandle - Web API | FileSystemDirectoryHandle MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Web/API/FileSystemDirectoryHandle)

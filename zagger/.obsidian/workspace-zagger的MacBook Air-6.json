@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "5e06d1e8899cf213",
+    "type": "split",
+    "children": [
+      {
+        "id": "c1591d485196ba8d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bc711b78daa10388",
+            "type": "leaf",
+            "state": {
+              "type": "mindmapview",
+              "state": {
+                "file": "Excalidraw/场景切换过程图解.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "518d787edd9ad73c",
+    "type": "split",
+    "children": [
+      {
+        "id": "94e78b54e6b413ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e405668c9acc4e8f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "ba994e9e34161f6d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "find",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "753a0c81016932eb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 348.5
+  },
+  "right": {
+    "id": "b32627c8247c39ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "db8af3358ee98872",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2efce47c01dbf5b9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Excalidraw/场景切换过程图解.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2f112cc56e456c34",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Excalidraw/场景切换过程图解.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ce2d93e321b54107",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ba09a186edfc3095",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Excalidraw/场景切换过程图解.md"
+              }
+            }
+          },
+          {
+            "id": "fbefdab667b32f51",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "83139e9b2173c9b4",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "random-note:Open random note": false,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-importer:Open Importer": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
+    }
+  },
+  "active": "e405668c9acc4e8f",
+  "lastOpenFiles": [
+    "Attachment/_GP2MBRFGCQE]LU9RVVTA$V.png",
+    "Attachment/Pasted image 20230829163823.png",
+    "Attachment/Pasted image 20230829163541.png",
+    "Attachment/Pasted image 20230829164917.png",
+    "Attachment/Pasted image 20230829161756.png",
+    "记事本/学习/小程序/小程序参考文档.md",
+    "记事本/学习/小程序/小程序前端业务分享.md",
+    "Attachment/软件开发岗位任职资格标准.docx",
+    "Attachment/Pasted image 20230829112457.png",
+    "记事本/学习/小程序/问题清单.md",
+    "记事本/学习/小程序/小程序安装部署.md",
+    "记事本/学习/小程序",
+    "记事本/学习/electron/electron资源导航.md",
+    "记事本/学习/electron",
+    "日记/2023-08-29.md",
+    "日记/2023-08-28.md",
+    "记事本/学习/nodejs/nodejs学习导航.md",
+    "记事本/学习/学习清单.md",
+    "记事本/前端知识矩阵数据看法.md",
+    "记事本/浏览器证书错误问题.md",
+    "记事本/spice黑屏问题.md",
+    "记事本/日志打印.md",
+    "记事本/学习/vue2/nextTick.md",
+    "记事本/业务知识和难题/多语言处理文档/多语言测试要求改样式时最佳处理规范.md",
+    "记事本/服务器相关知识/学习bash.md",
+    "Attachment/Pasted image 20230822162332.png",
+    "日记/2023-08-23.md",
+    "记事本/业务知识和难题/mips上打包electron.md",
+    "日记/2023-08-18.md",
+    "记事本/业务知识和难题/spice/spice问题.md",
+    "记事本/未命名 1.md",
+    "记事本/业务知识和难题/各种问题/ERR_NETWORK_IO_SUSPENDED.md",
+    "Attachment/Pasted image 20230817084900.png",
+    "记事本/未命名.md",
+    "记事本/学习/web api lock.md",
+    "记事本/学习/bash/bash语法知识点.md",
+    "记事本/学习/bash",
+    "Attachment/GJO}AGCNX2V$69E$WBRA]4R 1.png",
+    "Attachment/GJO}AGCNX2V$69E$WBRA]4R.png",
+    "Attachment/image1-20230814113250-ow7u7wm.png",
+    "记事本/学习/linux",
+    "Attachment/localhost-1691481363364.log",
+    "Excalidraw",
+    "记事本/学习/docker",
+    "记事本/学习/vue2",
+    "记事本/工作计划（未完成）/a周计划"
+  ]
+}

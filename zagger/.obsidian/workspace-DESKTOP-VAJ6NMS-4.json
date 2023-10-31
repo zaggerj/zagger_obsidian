@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "5e06d1e8899cf213",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f7d7a9732b77958",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5d94ac5085de399c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "汇总所有在线文档.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "518d787edd9ad73c",
+    "type": "split",
+    "children": [
+      {
+        "id": "94e78b54e6b413ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e405668c9acc4e8f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ba994e9e34161f6d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "753a0c81016932eb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 342.5
+  },
+  "right": {
+    "id": "b32627c8247c39ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "db8af3358ee98872",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2efce47c01dbf5b9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "汇总所有在线文档.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2f112cc56e456c34",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "汇总所有在线文档.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ce2d93e321b54107",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ba09a186edfc3095",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "汇总所有在线文档.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "obsidian-importer:Open Importer": false
+    }
+  },
+  "active": "5d94ac5085de399c",
+  "lastOpenFiles": [
+    "Pasted image 20230727215849.png",
+    "Pasted image 20230727215833.png",
+    "Pasted image 20230727220329.png",
+    "Pasted image 20230727220351.png",
+    "The One.md",
+    "记事本/环境安排和软件安装/十四个神级软件下载地址.md",
+    "记事本/环境安排和软件安装/未命名.md",
+    "记事本/学习/vim学习/Pasted image 20230726112215.png",
+    "记事本/环境安排和软件安装/windows 安装cargo.md",
+    "记事本/工作计划（未完成）/团队组员工作状态回顾.md",
+    "记事本/工作计划（未完成）/WebAssembly.md",
+    "记事本/学习/wasm.md",
+    "Pasted image 20230726154309.png",
+    "Pasted image 20230726154250.png",
+    "多语言处理文档/assets/Pasted image 20230724113211.png",
+    "多语言处理文档/assets/Pasted image 20230724003652.png",
+    "多语言处理文档/assets/Pasted image 20230724003403.png",
+    "多语言处理文档/assets/Pasted image 20230724003044.png",
+    "多语言处理文档/多语言处理总结.md",
+    "记事本/学习/wasm/Worker/web worker.md",
+    "记事本/学习/wasm/Worker/web messaging与Woker分类：漫谈postMessage跨线程跨页面通信.md",
+    "记事本/学习/wasm/Worker/SharedWorker.md",
+    "记事本/学习/wasm/Worker/Service Workers.md",
+    "记事本/学习/wasm/Worker/JS的多线程 - Web Worker.md",
+    "记事本/学习/wasm/Worker/dedicated worker.md",
+    "记事本/工作计划（未完成）/多语言开发规范指导手册/多语言处理文档/多语言处理总结.md",
+    "记事本/工作计划（未完成）/多语言开发规范指导手册/多语言处理文档/assets.md",
+    "记事本/工作计划（未完成）/多语言开发规范指导手册/多语言处理文档.md",
+    "记事本/工作计划（未完成）/多语言开发规范指导手册/I18N 和 L10N的区别.md",
+    "记事本/工作计划（未完成）/团队组员工作状态回顾/团队组员工作状态回顾.md",
+    "多语言处理文档/assets",
+    "多语言处理文档",
+    "记事本/学习/wasm/Worker.md",
+    "记事本/学习/vim学习/AstroNvim/处理 User 自动命令 AstroFile 时发生错误.md",
+    "记事本/学习/vim学习/AstroNvim/neoconf.nvim.md",
+    "记事本/学习/vim学习/AstroNvim/AstroNvim.md",
+    "记事本/学习/vim学习/AstroNvim/AstroNvim 问题解决.md",
+    "记事本/学习/vim学习/AstroNvim/AstroNvim vue问题解决.md",
+    "记事本/学习/vim学习/AstroNvim",
+    "记事本/学习/wasm/Worker",
+    "记事本/学习/wasm",
+    "记事本/学习/js小知识点",
+    "记事本/工作计划（未完成）/多语言开发规范指导手册/多语言处理文档/assets",
+    "记事本/工作计划（未完成）/多语言开发规范指导手册/多语言处理文档",
+    "记事本/工作计划（未完成）/多语言开发规范指导手册",
+    "记事本/工作计划（未完成）/团队组员工作状态回顾"
+  ]
+}

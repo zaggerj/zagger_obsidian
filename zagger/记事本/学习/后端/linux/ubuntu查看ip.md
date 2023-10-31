@@ -1,0 +1,1 @@
+ifconfig eth0 | grep 'inet '| sed 's/inet //g' | sed 's/netmask.*$//g'

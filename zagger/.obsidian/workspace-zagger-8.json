@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "5e06d1e8899cf213",
+    "type": "split",
+    "children": [
+      {
+        "id": "acfaa2fab29ee613",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a650d827e05238d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "记事本/环境安排和软件安装/resilio sync.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "62f87b5ca9f043d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "The One.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "355948fc29977e60",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "汇总所有在线文档.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "518d787edd9ad73c",
+    "type": "split",
+    "children": [
+      {
+        "id": "94e78b54e6b413ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e405668c9acc4e8f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabeticalReverse"
+              }
+            }
+          },
+          {
+            "id": "ba994e9e34161f6d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#For",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "753a0c81016932eb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 342.5
+  },
+  "right": {
+    "id": "b32627c8247c39ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "db8af3358ee98872",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2efce47c01dbf5b9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "汇总所有在线文档.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2f112cc56e456c34",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "汇总所有在线文档.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ce2d93e321b54107",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ba09a186edfc3095",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "汇总所有在线文档.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "random-note:开始漫游笔记": false,
+      "workspaces:管理工作区布局": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "obsidian-importer:Open Importer": false,
+      "zk-prefixer:创建时间戳笔记": false,
+      "audio-recorder:开始/结束录音": false
+    }
+  },
+  "active": "e405668c9acc4e8f",
+  "lastOpenFiles": [
+    "未命名",
+    "New",
+    "Recording 20230727222938.webm",
+    "Recording 20230727222845.webm",
+    "教程.md",
+    "Pasted image 20230727222114.png",
+    "Pasted image 20230727221153.png",
+    "Pasted image 20230727221138.png",
+    "The One.md",
+    "记事本/环境安排和软件安装/resilio sync.md",
+    "Pasted image 20230727220915.png",
+    "Pasted image 20230727220856.png",
+    "Pasted image 20230727220617.png",
+    "Pasted image 20230727220554.png",
+    "Pasted image 20230727220510.png",
+    "Pasted image 20230727220450.png",
+    "Pasted image 20230727220428.png",
+    "记事本/环境安排和软件安装/十四个神级软件下载地址.md",
+    "汇总所有在线文档.md",
+    "多语言处理总结.md",
+    "2023-07-26.md",
+    "记事本/服务器相关知识/a 服务器相关命令.md",
+    "记事本/环境安排和软件安装/软件下载.md",
+    "记事本/环境安排和软件安装/cargo.md",
+    "记事本/环境安排和软件安装/Bitwarden.md",
+    "记事本/环境安排和软件安装/windows terminal安装.md",
+    "记事本/环境安排和软件安装/windows 安装cargo.md",
+    "记事本/环境安排和软件安装/window系统重装指南.md",
+    "记事本/环境安排和软件安装/rsync安装和配置.md",
+    "记事本/wsl2前端部署.md",
+    "daily note.md",
+    "daily note/2023/07/2023-07-07-20230707223527-2vrhc6v.md",
+    "多语言处理文档/多语言处理总结.md",
+    "多语言处理文档/assets",
+    "多语言处理文档",
+    "记事本/工作计划（未完成）/多语言开发规范指导手册/多语言处理文档/多语言处理总结.md",
+    "记事本/工作计划（未完成）/多语言开发规范指导手册/多语言处理文档/assets.md",
+    "记事本/工作计划（未完成）/多语言开发规范指导手册/多语言处理文档/assets",
+    "记事本/工作计划（未完成）/多语言开发规范指导手册/多语言处理文档.md",
+    "记事本/工作计划（未完成）/多语言开发规范指导手册/多语言处理文档",
+    "记事本/工作计划（未完成）/多语言开发规范指导手册/I18N 和 L10N的区别.md",
+    "记事本/工作计划（未完成）/多语言开发规范指导手册",
+    "记事本/工作计划（未完成）/团队组员工作状态回顾/团队组员工作状态回顾.md",
+    "记事本/工作计划（未完成）/团队组员工作状态回顾",
+    "记事本/工作计划（未完成）/团队组员工作状态回顾.md",
+    "记事本/学习/wasm/Worker"
+  ]
+}

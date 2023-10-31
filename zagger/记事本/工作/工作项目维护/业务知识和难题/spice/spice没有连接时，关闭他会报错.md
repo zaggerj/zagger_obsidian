@@ -1,0 +1,1 @@
+Uncaught DOMException: Failed to execute 'close' on 'VideoDecoder': Cannot call 'close' on a closed codec.

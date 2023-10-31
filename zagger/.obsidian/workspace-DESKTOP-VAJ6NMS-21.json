@@ -1,0 +1,214 @@
+{
+  "main": {
+    "id": "5e06d1e8899cf213",
+    "type": "split",
+    "children": [
+      {
+        "id": "972c02fa7b089579",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "754c682e5a388dc5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "汇总所有在线文档.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "518d787edd9ad73c",
+    "type": "split",
+    "children": [
+      {
+        "id": "94e78b54e6b413ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e405668c9acc4e8f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabeticalReverse"
+              }
+            }
+          },
+          {
+            "id": "ba994e9e34161f6d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#For",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "753a0c81016932eb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 229.5
+  },
+  "right": {
+    "id": "b32627c8247c39ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "db8af3358ee98872",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2efce47c01dbf5b9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "汇总所有在线文档.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2f112cc56e456c34",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "汇总所有在线文档.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ce2d93e321b54107",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ba09a186edfc3095",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "汇总所有在线文档.md"
+              }
+            }
+          },
+          {
+            "id": "fbefdab667b32f51",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "random-note:开始漫游笔记": false,
+      "workspaces:管理工作区布局": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "obsidian-importer:Open Importer": false,
+      "zk-prefixer:创建时间戳笔记": false,
+      "audio-recorder:开始/结束录音": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
+    }
+  },
+  "active": "754c682e5a388dc5",
+  "lastOpenFiles": [
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/安装powershell/assets/image4-20230705215226-gtwekt1.png",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/安装powershell/assets/image3-20230705215226-6wru1kl.png",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/安装powershell/assets/image2-20230705215226-ujwrjwi.png",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/安装powershell/assets/image1-20230705215226-8cdtiqv.png",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/安装scoop/scoop 配置 全局安装目录和局部安装目录.md",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/安装scoop/scoop bucket add extras.md",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/安装powershell/powershell.md",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/安装powershell/assets",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/windows terminal安装/windows terminal 配置文件.md",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/assets/image5-20230708221750-6duqbcj.png",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/assets/image4-20230708221750-7kiiiwl.png",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/assets/image3-20230708221750-e8thder.png",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/assets/image2-20230708221750-q128rkf.png",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/assets/image1-20230708221750-q29w1u7.png",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/assets/image1-20230708221750-mtteqnb.png",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/assets/image1-20230705220235-dqzrdn4.png",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/assets/app-20230716140408-rlksfzz.asar",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/安装scoop.md",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/安装scoop",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/安装powershell.md",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/window系统重装指南.md",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/安装powershell",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/windows软件列表.md",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/windows 激活.md",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/windows terminal安装.md",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/windows terminal安装",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/scoop bucket add extras.md",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/git相关.md",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/gitLab配置公钥 SSH Key.md",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/git-ssh-key问题.md",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/clash for windows及汉化功能.md",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/assets",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表",
+    "记事本/环境安排和软件安装/前端开发环境配置/windows软件列表/windows软件列表.md",
+    "Attachment/assets 4",
+    "Attachment/assets 3",
+    "Attachment/assets 2",
+    "记事本/环境安排和软件安装/obsidian/教程.md",
+    "记事本/环境安排和软件安装/obsidian/The One.md",
+    "记事本/环境安排和软件安装/wsl2前端部署/环境配置相关-不常用.md",
+    "记事本/环境安排和软件安装/wsl2前端部署/安装nerd font.md",
+    "记事本/环境安排和软件安装/wsl2前端部署/zsh nvchad.md",
+    "记事本/环境安排和软件安装/wsl2前端部署/wsl2前端部署.md",
+    "记事本/环境安排和软件安装/wsl2前端部署/wsl2 耗费资源解决办法.md",
+    "记事本/环境安排和软件安装/wsl2前端部署/wsl2 docker 环境部署.md",
+    "记事本/环境安排和软件安装/wsl2前端部署/vim快捷键.md"
+  ]
+}
