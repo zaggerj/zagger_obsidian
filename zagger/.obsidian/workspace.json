@@ -121,10 +121,22 @@
               "state": {},
               "pinned": true
             }
+          },
+          {
+            "id": "aabb6afe509b9088",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "日记/2023-10-31.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7,
-        "stacked": true
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -162,7 +174,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#token",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -233,7 +245,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "日记/2023-10-31.md"
+              }
             }
           },
           {
@@ -250,6 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "日记/2023-10-31.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -266,6 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "日记/2023-10-31.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -276,7 +292,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "日记/2023-10-31.md"
+              }
             }
           },
           {
@@ -354,10 +372,16 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "7cf747ad2437515e",
+  "active": "aabb6afe509b9088",
   "lastOpenFiles": [
-    "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token.md",
     "汇总所有在线文档.md",
+    "记事本/学习/学习计划脚本/工作计划梳理和安排.md",
+    "黑曜石使用相关/obsidian教程.md",
+    "obsidian配置文件目录/New/task.md",
+    "记事本/学习/开发软实力/git/git文件占用文件问题.md",
+    "记事本/学习/开发软实力/git/git相关文档.md",
+    "记事本/学习/开发软实力/git/git国内源.md",
+    "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token.md",
     "日记/2023-10-13.md",
     "记事本/学习/前端/前端杂项/记事本.md",
     "日记/2023-10-31.md",
@@ -365,9 +389,6 @@
     "记事本/其他/其他.md",
     "obsidian配置文件目录/Attachment/bbeab787757c6e0eff0236c28bf7ecf 1.jpg",
     "obsidian配置文件目录/Attachment/bbeab787757c6e0eff0236c28bf7ecf.jpg",
-    "黑曜石使用相关/obsidian教程.md",
-    "记事本/学习/学习计划脚本/工作计划梳理和安排.md",
-    "obsidian配置文件目录/New/task.md",
     "黑曜石使用相关/Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币.md",
     "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "记事本/学习/前端/前端杂项/学习清单.md",
@@ -387,9 +408,6 @@
     "记事本/非开发/环境安排和软件安装/家庭办公远程/url.md",
     "记事本/非开发/环境安排和软件安装/家庭办公远程/github提交大文件.md",
     "记事本/学习/非开发/资源素材/环境安排和软件安装/家庭办公远程/家庭办公远程 1.md",
-    "记事本/学习/后端/ftp服务器和npm 临时仓库地址.md",
-    "记事本/学习/后端/shell_code.md",
-    "记事本/学习/后端/postman.md",
     "记事本/工作/工作项目维护/常见问题",
     "记事本/工作/工作计划/有成果的工作",
     "记事本/学习/开发软实力",
