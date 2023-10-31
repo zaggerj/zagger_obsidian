@@ -1,10 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "算法学习链接",
-      "path": "记事本/学习/开发软实力/算法/算法学习链接.md"
-    },
-    {
       "basename": "personal token",
       "path": "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token.md"
     },
@@ -199,6 +195,10 @@
     {
       "basename": "工作计划（未完成）",
       "path": "记事本/工作/工作计划/老的工作计划/工作计划（未完成）.md"
+    },
+    {
+      "basename": "事件循环",
+      "path": "记事本/学习/前端/事件循环和微任务、宏任务/事件循环.md"
     }
   ],
   "omittedPaths": [],

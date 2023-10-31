@@ -125,10 +125,25 @@
           {
             "id": "aabb6afe509b9088",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/2023-10-31.md",
+                "file": "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "627853af428f4739",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "记事本/学习/开发软实力/算法/算法学习链接.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -136,7 +151,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -174,7 +189,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#token",
+                "query": "personal",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -196,6 +211,14 @@
             "type": "leaf",
             "state": {
               "type": "file-tree-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "e023a61ea59438a0",
+            "type": "leaf",
+            "state": {
+              "type": "tagfolder-view",
               "state": {}
             }
           }
@@ -245,7 +268,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "记事本/学习/开发软实力/算法/算法学习链接.md"
+              }
             }
           },
           {
@@ -262,6 +287,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "记事本/学习/开发软实力/算法/算法学习链接.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,6 +304,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "记事本/学习/开发软实力/算法/算法学习链接.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -288,7 +315,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "记事本/学习/开发软实力/算法/算法学习链接.md"
+              }
             }
           },
           {
@@ -340,16 +369,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-day-planner:Timeline": false,
-      "remotely-save:Remotely Save": false,
-      "obsidian-importer:Open Importer": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "cmdr:折叠": false,
-      "custom-sort:Toggle custom sorting": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false,
-      "templater-obsidian:Templater": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -361,27 +380,40 @@
       "random-note:开始漫游笔记": false,
       "audio-recorder:开始/结束录音": false,
       "workspaces:管理工作区布局": false,
+      "obsidian-importer:Open Importer": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-day-planner:Timeline": false,
+      "remotely-save:Remotely Save": false,
+      "cmdr:折叠": false,
+      "custom-sort:Toggle custom sorting": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "templater-obsidian:Templater": false,
       "obsidian-daily-notes-viewer:打开 Viewer": false,
       "float-search:Search Obsidian In Modal": false,
       "obsidian-memos:Memos": false
     }
   },
-  "active": "587097c7d3e0dc04",
+  "active": "627853af428f4739",
   "lastOpenFiles": [
-    "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token-zagger.md",
+    "记事本/工作/工作项目维护/业务知识和难题/spice/spice库代码梳理.md",
+    "记事本/工作/工作计划/有成果的工作/前端知识矩阵数据看法.md",
+    "obsidian配置文件目录/Attachment/Pasted image 20231016230100.png.md",
+    "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token.md",
     "记事本/学习/开发软实力/算法/算法学习链接.md",
     "记事本/学习/开发软实力/算法",
-    "记事本/工作/工作项目维护/业务知识和难题/spice/spice库代码梳理.md",
-    "obsidian配置文件目录/Attachment/Pasted image 20231016230100.png.md",
-    "日记/2023-10-31.md",
+    "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token-zagger.md",
+    "记事本/其他/待整理/帐号密码/github firstToken.md",
+    "记事本/其他/待整理/a 汇总所有在线文档.md",
     "汇总所有在线文档.md",
+    "日记/2023-10-31.md",
     "记事本/学习/学习计划脚本/工作计划梳理和安排.md",
     "黑曜石使用相关/obsidian教程.md",
     "obsidian配置文件目录/New/task.md",
     "记事本/学习/开发软实力/git/git文件占用文件问题.md",
     "记事本/学习/开发软实力/git/git相关文档.md",
     "记事本/学习/开发软实力/git/git国内源.md",
-    "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token.md",
     "日记/2023-10-13.md",
     "记事本/学习/前端/前端杂项/记事本.md",
     "Viewer.md",
@@ -400,9 +432,6 @@
     "obsidian配置文件目录/sortspec.md",
     "zagger_git_obsidian",
     "zagger_git_backups",
-    "记事本/非开发/环境安排和软件安装/家庭办公远程/cpolar相关链接.md",
-    "记事本/非开发/环境安排和软件安装/家庭办公远程/cpolar 软件重启命令.md",
-    "记事本/非开发/环境安排和软件安装/家庭办公远程/同步工具.md",
     "记事本/工作/工作项目维护/常见问题",
     "记事本/工作/工作计划/有成果的工作",
     "记事本/学习/开发软实力",
