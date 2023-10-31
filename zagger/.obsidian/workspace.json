@@ -304,9 +304,17 @@
               "type": "timeline",
               "state": {}
             }
+          },
+          {
+            "id": "587097c7d3e0dc04",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 7
       },
       {
         "id": "888c3f3084370af3",
