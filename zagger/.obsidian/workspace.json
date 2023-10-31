@@ -125,14 +125,16 @@
           {
             "id": "aabb6afe509b9088",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "记事本/其他/待整理/帐号密码/github firstToken.md",
+                "file": "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ],
@@ -207,8 +209,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "73db95bfb166faa1",
@@ -255,7 +256,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/其他/待整理/帐号密码/github firstToken.md"
+                "file": "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token.md"
               }
             }
           },
@@ -273,7 +274,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/其他/待整理/帐号密码/github firstToken.md",
+                "file": "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -290,7 +291,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/其他/待整理/帐号密码/github firstToken.md",
+                "file": "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -302,7 +303,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/其他/待整理/帐号密码/github firstToken.md"
+                "file": "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token.md"
               }
             }
           },
@@ -383,6 +384,7 @@
   },
   "active": "aabb6afe509b9088",
   "lastOpenFiles": [
+    "记事本/其他/待整理/帐号密码/github firstToken.md",
     "记事本/其他/待整理/a 汇总所有在线文档.md",
     "汇总所有在线文档.md",
     "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token.md",
@@ -416,7 +418,6 @@
     "记事本/非开发/环境安排和软件安装/家庭办公远程/同步工具.md",
     "记事本/非开发/环境安排和软件安装/家庭办公远程/家庭办公远程.md",
     "记事本/非开发/环境安排和软件安装/家庭办公远程/url.md",
-    "记事本/非开发/环境安排和软件安装/家庭办公远程/github提交大文件.md",
     "记事本/工作/工作项目维护/常见问题",
     "记事本/工作/工作计划/有成果的工作",
     "记事本/学习/开发软实力",
