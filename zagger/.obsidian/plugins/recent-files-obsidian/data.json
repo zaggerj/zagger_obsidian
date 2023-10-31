@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "personal token",
+      "path": "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token.md"
+    },
+    {
+      "basename": "汇总所有在线文档",
+      "path": "汇总所有在线文档.md"
+    },
+    {
+      "basename": "2023-10-13",
+      "path": "日记/2023-10-13.md"
+    },
+    {
+      "basename": "记事本",
+      "path": "记事本/学习/前端/前端杂项/记事本.md"
+    },
+    {
       "basename": "2023-10-31",
       "path": "日记/2023-10-31.md"
     },
@@ -25,10 +41,6 @@
       "path": "obsidian配置文件目录/New/task.md"
     },
     {
-      "basename": "汇总所有在线文档",
-      "path": "汇总所有在线文档.md"
-    },
-    {
       "basename": "Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币",
       "path": "黑曜石使用相关/Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币.md"
     },
@@ -47,10 +59,6 @@
     {
       "basename": "学习笔记",
       "path": "记事本/学习/学习计划脚本/学习笔记.md"
-    },
-    {
-      "basename": "2023-10-13",
-      "path": "日记/2023-10-13.md"
     },
     {
       "basename": "sortspec",
@@ -75,10 +83,6 @@
     {
       "basename": "url",
       "path": "记事本/非开发/环境安排和软件安装/家庭办公远程/url.md"
-    },
-    {
-      "basename": "personal token",
-      "path": "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token.md"
     },
     {
       "basename": "github提交大文件",
@@ -195,10 +199,6 @@
     {
       "basename": "2023-10-20",
       "path": "日记/2023-10-20.md"
-    },
-    {
-      "basename": "2023-10-16",
-      "path": "日记/2023-10-16.md"
     }
   ],
   "omittedPaths": [],
