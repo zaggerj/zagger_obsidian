@@ -1,0 +1,175 @@
+{
+  "settings": {
+    "migrated": 3,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "none",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "IbCommand",
+      "TiPencilCog",
+      "TiNotes",
+      "SiTypescript",
+      "FasPrescriptionBottleMedical"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [
+      {
+        "rule": "系列",
+        "icon": "BoBxCollection",
+        "for": "everything",
+        "order": 0
+      },
+      {
+        "rule": "日记",
+        "icon": "TiBook",
+        "for": "everything",
+        "order": 1
+      },
+      {
+        "rule": "灵感散记",
+        "icon": "FasBoltLightning",
+        "for": "everything",
+        "order": 2,
+        "color": "#c94a4a"
+      },
+      {
+        "rule": "^灵感$",
+        "icon": "RiLightbulbFlashFill",
+        "for": "everything",
+        "order": 3,
+        "color": "#3bcc1e"
+      },
+      {
+        "rule": "汇总",
+        "icon": "IbStackHorizontal",
+        "for": "everything",
+        "order": 4,
+        "color": "#364cba"
+      },
+      {
+        "rule": "View",
+        "icon": "LiView",
+        "for": "everything",
+        "order": 5,
+        "color": "#43c77c"
+      },
+      {
+        "rule": "规范",
+        "icon": "LiRuler",
+        "for": "everything",
+        "order": 6
+      },
+      {
+        "rule": "日志",
+        "icon": "TiPencilCog",
+        "for": "everything",
+        "order": 7
+      },
+      {
+        "rule": "矩阵",
+        "icon": "SiManageiq",
+        "for": "folders",
+        "order": 8
+      },
+      {
+        "rule": "管理",
+        "icon": "SiManageiq",
+        "for": "everything",
+        "order": 9
+      },
+      {
+        "rule": "bash",
+        "icon": "BoBxHash",
+        "for": "everything",
+        "order": 10
+      },
+      {
+        "rule": "docker",
+        "icon": "SiDocker",
+        "for": "everything",
+        "order": 11
+      },
+      {
+        "rule": "ftp",
+        "icon": "TiUpload",
+        "for": "everything",
+        "order": 12
+      },
+      {
+        "rule": "jenkins",
+        "icon": "SiJenkins",
+        "for": "everything",
+        "order": 13
+      },
+      {
+        "rule": "linux",
+        "icon": "SiLinux",
+        "for": "everything",
+        "order": 14
+      },
+      {
+        "rule": "shell",
+        "icon": "SiShell",
+        "for": "everything",
+        "order": 15
+      },
+      {
+        "rule": "postman",
+        "icon": "SiPostman",
+        "for": "everything",
+        "order": 16
+      }
+    ],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconsBackgroundCheckEnabled": false
+  },
+  "记事本": "TiAddressBook",
+  "记事本/待整理": "IbChevronDoubleDown",
+  "obsidian使用相关": "BoBxsFlag",
+  "记事本/学习": "LiBook",
+  "记事本/学习/学习计划脚本": "RiListCheck",
+  "记事本/学习/学习计划脚本/js文档学习笔记": "FabJs",
+  "记事本/学习/bash": "BoBxHash",
+  "记事本/学习/docker": "SiDocker",
+  "记事本/学习/electron": "SiElectron",
+  "记事本/学习/excel": "SiMicrosoftexcel",
+  "记事本/学习/jenkins": "SiJenkins",
+  "记事本/学习/js小知识点": "FabJs",
+  "记事本/学习/linux": "SiLinux",
+  "记事本/学习/nodejs": "FabNodeJs",
+  "记事本/学习/typescript": "SiTypescript",
+  "记事本/学习/vue2": "FabVuejs",
+  "记事本/学习/webAssembly": "SiWebassembly",
+  "记事本/学习/webpack": "SiWebpack",
+  "记事本/学习/worker": "SiJavascript",
+  "记事本/学习/小程序": "SiWechat",
+  "记事本/学习/测试": "RiTestTubeLine",
+  "记事本/学习/代码风格相关": "SiStylelint",
+  "记事本/学习/二进制相关": "LiBinary",
+  "记事本/学习/事件循环和微任务、宏任务": "TiCalendarEvent",
+  "记事本/学习/一些奇技淫巧": "TiPlanet",
+  "记事本/工作计划（未完成）": "TiStatusChange",
+  "记事本/各种软件": "TiApps",
+  "记事本/服务器相关知识": "LiServer",
+  "记事本/工作项目维护": "BoBxGitRepoForked",
+  "记事本/环境安排和软件安装": "RiInstallLine",
+  "记事本/其他": "SiSpreadshirt",
+  "记事本/发展线路.md": "TiRoad",
+  "记事本/便签20230613.md": "TiNote",
+  "记事本/z娱乐": "IbEntertainment",
+  "记事本/英文": "RiEnglishInput",
+  "记事本/学习网站收录": "IbWebsiteWithImage",
+  "记事本/业务知识和难题": "FasPrescriptionBottleMedical",
+  "记事本/TypeScript 基础讲解.md-zagger": "SiTypescript",
+  "记事本/记事本.md": "TiNotes",
+  "记事本/日志打印.md": "TiPencilCog",
+  "记事本/服务器相关知识/a 服务器相关命令.md": "IbCommand"
+}

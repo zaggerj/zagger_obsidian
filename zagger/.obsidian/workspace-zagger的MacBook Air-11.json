@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "5e06d1e8899cf213",
+    "type": "split",
+    "children": [
+      {
+        "id": "c1591d485196ba8d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bc711b78daa10388",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "记事本/环境安排和软件安装/家庭办公远程/personal token.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "518d787edd9ad73c",
+    "type": "split",
+    "children": [
+      {
+        "id": "94e78b54e6b413ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e405668c9acc4e8f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "ba994e9e34161f6d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "personal",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "753a0c81016932eb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 348.5
+  },
+  "right": {
+    "id": "b32627c8247c39ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "db8af3358ee98872",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2efce47c01dbf5b9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "记事本/环境安排和软件安装/家庭办公远程/personal token.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2f112cc56e456c34",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "记事本/环境安排和软件安装/家庭办公远程/personal token.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ce2d93e321b54107",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ba09a186edfc3095",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "记事本/环境安排和软件安装/家庭办公远程/personal token.md"
+              }
+            }
+          },
+          {
+            "id": "fbefdab667b32f51",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "83139e9b2173c9b4",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "random-note:Open random note": false,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-importer:Open Importer": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
+    }
+  },
+  "active": "e405668c9acc4e8f",
+  "lastOpenFiles": [
+    "记事本/学习/换行符跨平台问题.md",
+    "记事本/工作计划（未完成）/针对打包质量提高的办法和问题.md",
+    "记事本/业务知识和难题/关于sessionStorage的生命周期.md",
+    "记事本/业务知识和难题/vnc业务学习分享.md",
+    "记事本/学习/tsconfig.md",
+    "记事本/业务知识和难题/统一格式化代码.md",
+    "日记/2023-09-06.md",
+    "记事本/业务知识和难题/针对打包质量提高的办法和问题.md",
+    "Attachment/(H}H56Y%OI[9DR7D@(4EHZ6.png",
+    "Attachment/2$7Y$)F$C0Y~3N59SZE@}2E.png",
+    "日记/2023-08-18-zagger.md",
+    "记事本/业务知识和难题/远程问题.md",
+    "记事本/业务知识和难题/diffpatch.md",
+    "日记/2023-09-05.md",
+    "汇总所有在线文档.md",
+    "记事本/记事本.md",
+    "记事本/学习/vim学习/vim快捷键.md",
+    "记事本/服务器相关知识/a 服务器相关命令.md",
+    "记事本/环境安排和软件安装/家庭办公远程/personal token.md",
+    "Excalidraw/场景切换过程图解.md",
+    "Attachment/Pasted image 20230901154839.png",
+    "记事本/业务知识和难题/远程问题/浏览器版本问题导致.md",
+    "记事本/业务知识和难题/远程问题",
+    "记事本/工作计划（未完成）/界面检查.md",
+    "Attachment/Pasted image 20230901094555.png",
+    "记事本/学习/astrnvim/文档astronvim安装youtube视频.md",
+    "记事本/学习/可选链操作符、空值合并操作符、空值合并赋值操作符.md",
+    "Attachment/Pasted image 20230901094345.png",
+    "Attachment/Pasted image 20230901093919.png",
+    "Attachment/Pasted image 20230901094004.png",
+    "Attachment/Pasted image 20230901094336.png",
+    "Attachment/Pasted image 20230901092904.png",
+    "Attachment/Pasted image 20230901093801.png",
+    "记事本/学习/jenkins/jenkins.md",
+    "记事本/学习/jenkins",
+    "记事本/学习/astrnvim/快捷方式.md",
+    "记事本/学习/事件循环和微任务、宏任务/事件循环.md",
+    "记事本/学习/事件循环和微任务、宏任务",
+    "记事本/学习/小程序/小程序开发文档.md",
+    "Attachment/软件开发岗位任职资格标准.docx",
+    "记事本/学习/小程序",
+    "记事本/学习/electron",
+    "记事本/学习/bash",
+    "记事本/学习/linux",
+    "Attachment/localhost-1691481363364.log",
+    "Excalidraw"
+  ]
+}

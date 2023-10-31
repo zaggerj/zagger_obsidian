@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "5e06d1e8899cf213",
+    "type": "split",
+    "children": [
+      {
+        "id": "c1591d485196ba8d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bc711b78daa10388",
+            "type": "leaf",
+            "state": {
+              "type": "mindmapview",
+              "state": {
+                "file": "Excalidraw/场景切换过程图解.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "518d787edd9ad73c",
+    "type": "split",
+    "children": [
+      {
+        "id": "94e78b54e6b413ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e405668c9acc4e8f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "ba994e9e34161f6d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "find",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "753a0c81016932eb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 348.5
+  },
+  "right": {
+    "id": "b32627c8247c39ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "db8af3358ee98872",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2efce47c01dbf5b9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Excalidraw/场景切换过程图解.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2f112cc56e456c34",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Excalidraw/场景切换过程图解.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ce2d93e321b54107",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ba09a186edfc3095",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Excalidraw/场景切换过程图解.md"
+              }
+            }
+          },
+          {
+            "id": "fbefdab667b32f51",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "83139e9b2173c9b4",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "random-note:Open random note": false,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-importer:Open Importer": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
+    }
+  },
+  "active": "e405668c9acc4e8f",
+  "lastOpenFiles": [
+    "记事本/业务知识和难题/各种问题/ERR_NETWORK_IO_SUSPENDED.md",
+    "Attachment/Pasted image 20230817084900.png",
+    "记事本/未命名.md",
+    "记事本/学习/web api lock.md",
+    "记事本/学习/bash/bash语法知识点.md",
+    "记事本/学习/bash",
+    "记事本/学习/opfs.md",
+    "记事本/学习/worker/serviceWorker用于流式下载.md",
+    "记事本/工作计划（未完成）/idp制定.md",
+    "Attachment/GJO}AGCNX2V$69E$WBRA]4R 1.png",
+    "记事本/学习/astrnvim/引导安装astronvim.md",
+    "记事本/业务知识和难题/多语言处理文档/5.5.0英文版多语言总结.md",
+    "记事本/学习/webAssembly/WebAssembly导航.md",
+    "Attachment/GJO}AGCNX2V$69E$WBRA]4R.png",
+    "记事本/学习/webAssembly/WebAssembly,10分钟简介.md",
+    "TypeScript 基础讲解.md/TypeScript 基础讲解.md",
+    "TypeScript 基础讲解.md",
+    "Attachment/image1-20230814113250-ow7u7wm.png",
+    "记事本/学习/linux/学习导航.md",
+    "日记/2023-08-14.md",
+    "记事本/业务知识和难题/spice/spice常见问题.md",
+    "Excalidraw/spice websocket消息处理流程.md",
+    "记事本/发展线路.md",
+    "日记/2023-08-12.md",
+    "记事本/业务知识和难题/spice/spice白屏问题.md",
+    "记事本/学习/vue3.md",
+    "记事本/学习/linux/chmod.md",
+    "记事本/学习/linux",
+    "记事本/业务知识和难题/spice/jsbn.md",
+    "记事本/学习/flowchart和mermaid.md",
+    "记事本/学习/marshall和demarshall.md",
+    "记事本/业务知识和难题/spice/spice网站.md",
+    "Attachment/Pasted image 20230811105320.png",
+    "Attachment/R`5VUGBPS4GQURE7W8_5$GJ.png",
+    "Attachment/Pasted image 20230810093457.png",
+    "Attachment/Pasted image 20230810093456.png",
+    "Paste image 1691548964921image.png",
+    "Attachment/Pasted image 20230809090000.png",
+    "Attachment/localhost-1691481363364.log",
+    "Excalidraw",
+    "记事本/学习/docker",
+    "记事本/学习/vue2",
+    "记事本/工作计划（未完成）/a周计划",
+    "Attachment/Recording 20230727223037.webm",
+    "记事本/业务知识和难题/各种问题",
+    "记事本/业务知识和难题/证书相关"
+  ]
+}

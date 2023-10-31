@@ -1,0 +1,155 @@
+{
+  "callouts": {
+    "custom": [
+      "command",
+      "callout",
+      "foldtab",
+      "layout",
+      "hide",
+      "...",
+      "test",
+      "命令面板"
+    ],
+    "settings": {
+      "123": [
+        {
+          "changes": {
+            "icon": "lucide-cat"
+          }
+        }
+      ],
+      "command": [
+        {
+          "changes": {
+            "icon": "lucide-terminal-square"
+          }
+        }
+      ],
+      "callout": [
+        {
+          "changes": {
+            "icon": "lucide-credit-card",
+            "color": "240, 217, 102"
+          }
+        }
+      ],
+      "foldtab": [
+        {
+          "changes": {
+            "icon": "tabs"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {}
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "210, 102, 240"
+          }
+        }
+      ],
+      "workspace": [
+        {
+          "changes": {
+            "icon": "lucide-layout"
+          }
+        }
+      ],
+      "layout": [
+        {
+          "changes": {
+            "icon": "lucide-layout"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "0, 138, 85"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "19, 236, 153"
+          }
+        }
+      ],
+      "hide": [
+        {
+          "changes": {
+            "icon": "lucide-chevrons-down-up"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "6, 98, 172"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "97, 175, 239"
+          }
+        }
+      ],
+      "...": [
+        {
+          "changes": {
+            "icon": "lucide-more-horizontal"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "211, 55, 3"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "240, 129, 102"
+          }
+        }
+      ],
+      "test": [
+        {
+          "changes": {
+            "icon": "lucide-cat"
+          }
+        }
+      ],
+      "命令面板": [
+        {
+          "changes": {
+            "icon": "lucide-terminal-square"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidianFallbackForced": false,
+    "obsidian": true,
+    "theme": true,
+    "snippet": false
+  }
+}

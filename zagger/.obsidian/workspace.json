@@ -1,0 +1,300 @@
+{
+  "main": {
+    "id": "dce483c947405da3",
+    "type": "split",
+    "children": [
+      {
+        "id": "eb4d9ab17a7033ee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c0416b68fd21754e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "日记/2023-10-13.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "23163e226ba1253c",
+    "type": "split",
+    "children": [
+      {
+        "id": "284346499ce2ea86",
+        "type": "tabs",
+        "dimension": 63.58447488584474,
+        "children": [
+          {
+            "id": "23fad819ff207865",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "03fb6b7e157ad75a",
+            "type": "leaf",
+            "state": {
+              "type": "tagfolder-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "f2b0ffe519625a29",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "remote ",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8cdc7c8bed089ab9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "72af9f44de1e3a7d",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "73db95bfb166faa1",
+        "type": "tabs",
+        "dimension": 36.41552511415525,
+        "children": [
+          {
+            "id": "8b6d8c7e5231700f",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "0b0cb56ba2aa4a0a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 387
+  },
+  "right": {
+    "id": "49b0f6d6f173189c",
+    "type": "split",
+    "children": [
+      {
+        "id": "6d5d1a69e107f675",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "60f931c5f80841ed",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "日记/2023-10-13.md"
+              }
+            }
+          },
+          {
+            "id": "93bfebab27d6467f",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "6480c2a734e3c425",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "日记/2023-10-13.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6355d30f474216e7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "日记/2023-10-13.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "588ad9f7ff43be3a",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "日记/2023-10-13.md"
+              }
+            }
+          },
+          {
+            "id": "113fb1d05a8132cc",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          },
+          {
+            "id": "0f214832174047e1",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "888c3f3084370af3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1e6fe91e5170d39b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 415
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-day-planner:Timeline": false,
+      "remotely-save:Remotely Save": false,
+      "obsidian-importer:Open Importer": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "cmdr:折叠": false,
+      "custom-sort:Toggle custom sorting": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "templater-obsidian:Templater": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "zk-prefixer:创建时间戳笔记": false,
+      "random-note:开始漫游笔记": false,
+      "audio-recorder:开始/结束录音": false,
+      "workspaces:管理工作区布局": false,
+      "obsidian-daily-notes-viewer:打开 Viewer": false,
+      "obsidian-memos:Memos": false,
+      "float-search:Search Obsidian In Modal": false
+    }
+  },
+  "active": "c0416b68fd21754e",
+  "lastOpenFiles": [
+    "obsidian配置文件目录/sortspec.md",
+    "zagger_git_obsidian",
+    "zagger_git_backups",
+    "记事本/非开发/环境安排和软件安装/家庭办公远程/cpolar相关链接.md",
+    "记事本/非开发/环境安排和软件安装/家庭办公远程/cpolar 软件重启命令.md",
+    "记事本/非开发/环境安排和软件安装/家庭办公远程/同步工具.md",
+    "记事本/非开发/环境安排和软件安装/家庭办公远程/家庭办公远程.md",
+    "记事本/非开发/环境安排和软件安装/家庭办公远程/url.md",
+    "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token.md",
+    "记事本/非开发/环境安排和软件安装/家庭办公远程/github提交大文件.md",
+    "记事本/学习/非开发/资源素材/环境安排和软件安装/家庭办公远程/家庭办公远程 1.md",
+    "日记/2023-10-13.md",
+    "汇总所有在线文档.md",
+    "记事本/学习/后端/ftp服务器和npm 临时仓库地址.md",
+    "记事本/学习/后端/shell_code.md",
+    "记事本/学习/后端/postman.md",
+    "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
+    "记事本/学习/后端/linux/linux 命令速记.md",
+    "黑曜石使用相关/obsidian教程.md",
+    "黑曜石使用相关/Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币.md",
+    "记事本/工作/工作项目维护/常见问题/客户端远程改资源.md",
+    "记事本/工作/工作项目维护/常见问题/解决webspice统一的问题.md",
+    "记事本/工作/工作项目维护/常见问题/工作项目维护.md",
+    "记事本/工作/工作项目维护/常见问题",
+    "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/研发业务知识点掌握目标达成办法（草稿）-20230717090100-f3gxbzm.md",
+    "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/研发业务知识点掌握目标达成办法（草稿）.md",
+    "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/新版本.md",
+    "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/碎片.md",
+    "记事本/工作/工作计划/有成果的工作",
+    "记事本/学习/开发软实力",
+    "记事本/非开发",
+    "记事本/学习/前端",
+    "记事本/学习/后端",
+    "记事本/学习/测试/未命名.canvas",
+    "记事本/js脚本",
+    "记事本/工作/工作计划（未完成）/未命名",
+    "obsidian配置文件目录/Attachment/assets 6/image5-20230705220235-zjjdatn.png",
+    "obsidian配置文件目录/Attachment/assets 6/image4-20230705220235-k558spz.png",
+    "obsidian配置文件目录/Attachment/assets 6/image4-20230705220235-9gqacso.png",
+    "obsidian配置文件目录/Attachment/assets 6/image3-20230705220235-v0z5076.png",
+    "obsidian配置文件目录/Attachment/assets 6/image3-20230705220235-e2flkjd.png",
+    "obsidian配置文件目录/Attachment/assets 6/image2-20230705220235-fd2e45f.png",
+    "obsidian配置文件目录/Attachment/assets 6/image2-20230705220235-dytdcrd.png",
+    "obsidian配置文件目录/Attachment/assets 6/image1-20230705220235-z4zs2b6.png",
+    "obsidian配置文件目录/Attachment/assets 6/image1-20230705220235-og6gb0c.png",
+    "obsidian配置文件目录/Attachment/assets 6/image1-20230705220235-obbpdh6.png"
+  ]
+}

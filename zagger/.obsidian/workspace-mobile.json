@@ -1,0 +1,244 @@
+{
+  "main": {
+    "id": "d18f8f1b85359169",
+    "type": "split",
+    "children": [
+      {
+        "id": "606619dba3007707",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d65465e6a57db4a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Viewer.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "935388348d2d3266",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "da11f34f8458085e",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "a5ff0b6f8e755141",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "351776a8bfb4f53a",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "9d4e874b8650d11f",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      },
+      {
+        "id": "d01ad716c958a28e",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency"
+          }
+        }
+      },
+      {
+        "id": "166871a8e3166243",
+        "type": "leaf",
+        "state": {
+          "type": "recent-files",
+          "state": {}
+        }
+      },
+      {
+        "id": "20a79459100895d8",
+        "type": "leaf",
+        "state": {
+          "type": "file-tree-view",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "50c2007abaeee764",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "1a2a5d025d2bf2aa",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Viewer.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "806dec65384b005e",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Viewer.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "321a1cbff31b2174",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Viewer.md"
+          }
+        }
+      },
+      {
+        "id": "88e44396c1cc56bd",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "b4a3f9989474407a",
+        "type": "leaf",
+        "state": {
+          "type": "todo",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "zk-prefixer:创建时间戳笔记": false,
+      "random-note:开始漫游笔记": false,
+      "audio-recorder:开始/结束录音": false,
+      "workspaces:管理工作区布局": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "obsidian-importer:Open Importer": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-day-planner:Week plan": false,
+      "obsidian-daily-notes-viewer:打开 Viewer": false,
+      "remotely-save:Remotely Save": false,
+      "cmdr:折叠": false,
+      "custom-sort:Toggle custom sorting": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-memos:Memos": false
+    }
+  },
+  "active": "da11f34f8458085e",
+  "lastOpenFiles": [
+    "obsidian/obsidian教程.md",
+    "文章/大学.md",
+    "日记/2023-10-28.md",
+    "日记/2023-07-05.md",
+    "灵感/灵感memo/123.md",
+    "灵感/灵感散记.md",
+    "汇总所有在线文档.md",
+    "obsidian使用相关/sortspec.md",
+    "obsidian使用相关/Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币.md",
+    "obsidian使用相关/第4期 Obsidian 必会功能 - 新手入门.md",
+    "记事本/学习/学习计划脚本/js文档学习笔记/1.13 `模块`.md",
+    "desktop.ini",
+    "New/callout.md",
+    "New/代码量少的问题分析.md",
+    "灵感/灵感memo/阿三的发生地方.md",
+    "obsidian使用相关/templater/灵感模板.md",
+    "obsidian使用相关/templater/日记模板.md",
+    "记事本/TypeScript 基础讲解.md/TypeScript 基础讲解.md",
+    "Attachment/Pasted image 20231029002341.png",
+    "灵感/灵感memo",
+    "记事本/TypeScript 基础讲解.md",
+    "obsidian使用相关/templater",
+    "灵感",
+    "obsidian使用相关",
+    "记事本/学习/学习计划脚本/js文档学习笔记/1.14 `杂项`.md",
+    "记事本/学习/学习计划脚本/转换规则总结(巅峰完美诠释文档).md",
+    "记事本/学习/学习计划脚本/js文档学习笔记/1.10 `错误处理`.md",
+    "记事本/学习/学习计划脚本/js文档学习笔记/1.11.1 `简介：回调`.md",
+    "Attachment/Pasted image 20231026180844.png",
+    "Attachment/Pasted image 20231026175808.png",
+    "Attachment/Pasted image 20231026175403.png",
+    "Attachment/Pasted image 20231026175623.png",
+    "Attachment/Pasted image 20231026175124.png",
+    "Attachment/Pasted image 20231026173717.png",
+    "Attachment/Pasted image 20231026172915.png",
+    "记事本/学习/学习计划脚本/js文档学习笔记/1.11.2 `Promise`.md",
+    "Attachment/Pasted image 20231026172940.png",
+    "Attachment/Pasted image 20231026165033.png",
+    "记事本/学习/学习计划脚本/js文档学习笔记/1.11.8 `async&await`.md",
+    "记事本/学习/学习计划脚本/js文档学习笔记/1.12 `Generator，高级 iteration`.md",
+    "记事本/学习/学习计划脚本/js文档学习笔记/1.11.7 `微任务（Microtask）`.md",
+    "记事本/学习/测试/未命名.canvas",
+    "记事本/学习/学习计划脚本/js文档学习笔记",
+    "记事本/学习/webpack",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/assets/app-20230716140408-rlksfzz.asar",
+    "记事本/环境安排和软件安装/windows软件安装/windows软件列表/安装powershell/assets",
+    "记事本/工作计划（未完成）/多语言开发规范指导手册/多语言处理文档/assets"
+  ]
+}

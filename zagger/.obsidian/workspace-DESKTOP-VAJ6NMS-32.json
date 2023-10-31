@@ -1,0 +1,285 @@
+{
+  "main": {
+    "id": "5e06d1e8899cf213",
+    "type": "split",
+    "children": [
+      {
+        "id": "cdef716a8efa2e27",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "96f013d00f857a91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "记事本/业务知识和难题/各种问题/终端状态集合.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "75b3b2cd9f05f95a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "记事本/学习/webAssembly/WebAssembly导航.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "57f90b8851754be1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "记事本/学习/学习清单.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "4e16ce4de58f5590",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5489e12dc6188a6e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "记事本/学习/webAssembly/WebAssembly导航.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "518d787edd9ad73c",
+    "type": "split",
+    "children": [
+      {
+        "id": "94e78b54e6b413ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e405668c9acc4e8f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "ba994e9e34161f6d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "lock",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "753a0c81016932eb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 348.5
+  },
+  "right": {
+    "id": "b32627c8247c39ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "db8af3358ee98872",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2efce47c01dbf5b9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "记事本/学习/webAssembly/WebAssembly导航.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2f112cc56e456c34",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "记事本/学习/webAssembly/WebAssembly导航.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ce2d93e321b54107",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ba09a186edfc3095",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "记事本/学习/webAssembly/WebAssembly导航.md"
+              }
+            }
+          },
+          {
+            "id": "fbefdab667b32f51",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "83139e9b2173c9b4",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "3b7f4cc08258a8a8",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "453fa48527652a69",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 7
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "zk-prefixer:创建时间戳笔记": false,
+      "random-note:开始漫游笔记": false,
+      "audio-recorder:开始/结束录音": false,
+      "workspaces:管理工作区布局": false,
+      "obsidian-importer:Open Importer": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
+    }
+  },
+  "active": "5489e12dc6188a6e",
+  "lastOpenFiles": [
+    "记事本/业务知识和难题/各种问题/终端状态集合.md",
+    "记事本/日志打印.md",
+    "记事本/学习/nodejs/nodejs学习导航.md",
+    "记事本/学习/webAssembly/WebAssembly导航.md",
+    "记事本/学习/学习清单.md",
+    "记事本/学习/nodejs/学习nodejs相关链接-20230709191710-tz0t240.md",
+    "记事本/学习/webAssembly/未命名.md",
+    "记事本/工作计划（未完成）/最新工作安排/最新工作安排.md",
+    "记事本/学习/webAssembly/WebAssembly,10分钟简介.md",
+    "记事本/工作计划（未完成）/最新工作安排/教育前端周计划（20230731-20230804）.md",
+    "记事本/工作计划（未完成）/idp制定.md",
+    "记事本/前端知识矩阵数据看法.md",
+    "记事本/浏览器证书错误问题.md",
+    "记事本/spice黑屏问题.md",
+    "记事本/学习/vue2/nextTick.md",
+    "记事本/学习/promise.md",
+    "汇总所有在线文档.md",
+    "记事本/环境安排和软件安装/obsidian/教程.md",
+    "记事本/业务知识和难题/多语言处理文档/多语言测试要求改样式时最佳处理规范.md",
+    "记事本/服务器相关知识/学习bash.md",
+    "记事本/服务器相关知识/a 服务器相关命令.md",
+    "记事本/服务器相关知识/linux 命令速记.md",
+    "记事本/前端代码管理与提交规范.md",
+    "记事本/发展线路.md",
+    "记事本/未命名思维导图.md",
+    "记事本/便签20230613.md",
+    "Attachment/Pasted image 20230822162332.png",
+    "Attachment/Pasted image 20230817084900.png",
+    "记事本/学习/bash",
+    "Attachment/GJO}AGCNX2V$69E$WBRA]4R 1.png",
+    "Attachment/GJO}AGCNX2V$69E$WBRA]4R.png",
+    "Paste image 1691548964921image.png",
+    "Attachment/image1-20230814113250-ow7u7wm.png",
+    "TypeScript 基础讲解.md/assets",
+    "记事本/学习/linux",
+    "Attachment/Pasted image 20230811105320.png",
+    "Attachment/R`5VUGBPS4GQURE7W8_5$GJ.png",
+    "Attachment/Pasted image 20230810093457.png",
+    "Attachment/Pasted image 20230810093456.png",
+    "Attachment/localhost-1691481363364.log",
+    "Excalidraw",
+    "记事本/学习/docker",
+    "记事本/学习/vue2",
+    "记事本/工作计划（未完成）/a周计划",
+    "Attachment/Recording 20230727223037.webm",
+    "记事本/业务知识和难题/各种问题"
+  ]
+}
