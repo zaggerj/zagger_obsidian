@@ -128,7 +128,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token.md",
+                "file": "记事本/其他/待整理/帐号密码/github firstToken.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -136,7 +136,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -174,7 +174,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#token",
+                "query": "personal",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -208,7 +208,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "73db95bfb166faa1",
@@ -234,7 +234,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -254,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "汇总所有在线文档.md"
+                "file": "记事本/其他/待整理/帐号密码/github firstToken.md"
               }
             }
           },
@@ -272,7 +273,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "汇总所有在线文档.md",
+                "file": "记事本/其他/待整理/帐号密码/github firstToken.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -289,7 +290,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "汇总所有在线文档.md",
+                "file": "记事本/其他/待整理/帐号密码/github firstToken.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -301,7 +302,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "汇总所有在线文档.md"
+                "file": "记事本/其他/待整理/帐号密码/github firstToken.md"
               }
             }
           },
@@ -380,11 +381,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "7cf747ad2437515e",
+  "active": "aabb6afe509b9088",
   "lastOpenFiles": [
+    "记事本/其他/待整理/a 汇总所有在线文档.md",
+    "汇总所有在线文档.md",
     "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token.md",
     "日记/2023-10-31.md",
-    "汇总所有在线文档.md",
     "记事本/学习/学习计划脚本/工作计划梳理和安排.md",
     "黑曜石使用相关/obsidian教程.md",
     "obsidian配置文件目录/New/task.md",
@@ -415,7 +417,6 @@
     "记事本/非开发/环境安排和软件安装/家庭办公远程/家庭办公远程.md",
     "记事本/非开发/环境安排和软件安装/家庭办公远程/url.md",
     "记事本/非开发/环境安排和软件安装/家庭办公远程/github提交大文件.md",
-    "记事本/学习/非开发/资源素材/环境安排和软件安装/家庭办公远程/家庭办公远程 1.md",
     "记事本/工作/工作项目维护/常见问题",
     "记事本/工作/工作计划/有成果的工作",
     "记事本/学习/开发软实力",

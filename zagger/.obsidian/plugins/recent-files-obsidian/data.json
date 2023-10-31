@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "github firstToken",
+      "path": "记事本/其他/待整理/帐号密码/github firstToken.md"
+    },
+    {
+      "basename": "a 汇总所有在线文档",
+      "path": "记事本/其他/待整理/a 汇总所有在线文档.md"
+    },
+    {
+      "basename": "汇总所有在线文档",
+      "path": "汇总所有在线文档.md"
+    },
+    {
       "basename": "personal token",
       "path": "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token.md"
     },
     {
       "basename": "2023-10-31",
       "path": "日记/2023-10-31.md"
-    },
-    {
-      "basename": "汇总所有在线文档",
-      "path": "汇总所有在线文档.md"
     },
     {
       "basename": "工作计划梳理和安排",
@@ -191,14 +199,6 @@
     {
       "basename": "事件循环",
       "path": "记事本/学习/前端/事件循环和微任务、宏任务/事件循环.md"
-    },
-    {
-      "basename": "学习清单",
-      "path": "记事本/非开发/excel/学习清单.md"
-    },
-    {
-      "basename": "daily note",
-      "path": "日记/daily note.md"
     }
   ],
   "omittedPaths": [],
