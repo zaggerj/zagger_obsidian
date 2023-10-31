@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "a 服务器相关命令",
+      "path": "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md"
+    },
+    {
+      "basename": "学习笔记",
+      "path": "记事本/学习/学习计划脚本/学习笔记.md"
+    },
+    {
+      "basename": "学习清单",
+      "path": "记事本/学习/前端/前端杂项/学习清单.md"
+    },
+    {
+      "basename": "工作计划梳理和安排",
+      "path": "记事本/学习/学习计划脚本/工作计划梳理和安排.md"
+    },
+    {
+      "basename": "obsidian教程",
+      "path": "黑曜石使用相关/obsidian教程.md"
+    },
+    {
+      "basename": "汇总所有在线文档",
+      "path": "汇总所有在线文档.md"
+    },
+    {
       "basename": "2023-10-13",
       "path": "日记/2023-10-13.md"
     },
@@ -37,10 +61,6 @@
       "path": "记事本/非开发/环境安排和软件安装/家庭办公远程/github提交大文件.md"
     },
     {
-      "basename": "汇总所有在线文档",
-      "path": "汇总所有在线文档.md"
-    },
-    {
       "basename": "ftp服务器和npm 临时仓库地址",
       "path": "记事本/学习/后端/ftp服务器和npm 临时仓库地址.md"
     },
@@ -51,14 +71,6 @@
     {
       "basename": "postman",
       "path": "记事本/学习/后端/postman.md"
-    },
-    {
-      "basename": "a 服务器相关命令",
-      "path": "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md"
-    },
-    {
-      "basename": "obsidian教程",
-      "path": "黑曜石使用相关/obsidian教程.md"
     },
     {
       "basename": "客户端远程改资源",
@@ -149,10 +161,6 @@
       "path": "记事本/非开发/excel/学习清单.md"
     },
     {
-      "basename": "学习清单",
-      "path": "记事本/学习/前端/前端杂项/学习清单.md"
-    },
-    {
       "basename": "daily note",
       "path": "日记/daily note.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "2023-09-18",
       "path": "日记/2023-09-18.md"
-    },
-    {
-      "basename": "2023-09-06",
-      "path": "日记/2023-09-06.md"
-    },
-    {
-      "basename": "2023-07-07",
-      "path": "日记/2023-07-07.md"
     }
   ],
   "omittedPaths": [],

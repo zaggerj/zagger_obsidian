@@ -4,23 +4,101 @@
     "type": "split",
     "children": [
       {
-        "id": "eb4d9ab17a7033ee",
+        "id": "b9607f3072e70862",
         "type": "tabs",
         "children": [
           {
-            "id": "c0416b68fd21754e",
+            "id": "1ae3c8b52ce8d3fa",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/2023-10-13.md",
+                "file": "汇总所有在线文档.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "0474d68ca5c14d57",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "黑曜石使用相关/obsidian教程.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "9d54ee4662836cd1",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "记事本/学习/学习计划脚本/工作计划梳理和安排.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "1649b9733f977ed6",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "记事本/学习/前端/前端杂项/学习清单.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "9d75613d88c12782",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "记事本/学习/学习计划脚本/学习笔记.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "c50fd5de1a1d5e87",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
             }
           }
         ],
+        "currentTab": 5,
         "stacked": true
       }
     ],
@@ -84,8 +162,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "73db95bfb166faa1",
@@ -131,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2023-10-13.md"
+                "file": "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md"
               }
             }
           },
@@ -149,7 +226,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2023-10-13.md",
+                "file": "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +243,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2023-10-13.md",
+                "file": "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +255,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "日记/2023-10-13.md"
+                "file": "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md"
               }
             }
           },
@@ -244,12 +321,19 @@
       "audio-recorder:开始/结束录音": false,
       "workspaces:管理工作区布局": false,
       "obsidian-daily-notes-viewer:打开 Viewer": false,
-      "obsidian-memos:Memos": false,
-      "float-search:Search Obsidian In Modal": false
+      "float-search:Search Obsidian In Modal": false,
+      "obsidian-memos:Memos": false
     }
   },
-  "active": "c0416b68fd21754e",
+  "active": "c50fd5de1a1d5e87",
   "lastOpenFiles": [
+    "记事本/学习/学习计划脚本/学习笔记.md",
+    "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
+    "记事本/学习/前端/前端杂项/学习清单.md",
+    "记事本/学习/学习计划脚本/工作计划梳理和安排.md",
+    "黑曜石使用相关/obsidian教程.md",
+    "汇总所有在线文档.md",
+    "日记/2023-10-13.md",
     "obsidian配置文件目录/sortspec.md",
     "zagger_git_obsidian",
     "zagger_git_backups",
@@ -261,14 +345,10 @@
     "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token.md",
     "记事本/非开发/环境安排和软件安装/家庭办公远程/github提交大文件.md",
     "记事本/学习/非开发/资源素材/环境安排和软件安装/家庭办公远程/家庭办公远程 1.md",
-    "日记/2023-10-13.md",
-    "汇总所有在线文档.md",
     "记事本/学习/后端/ftp服务器和npm 临时仓库地址.md",
     "记事本/学习/后端/shell_code.md",
     "记事本/学习/后端/postman.md",
-    "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "记事本/学习/后端/linux/linux 命令速记.md",
-    "黑曜石使用相关/obsidian教程.md",
     "黑曜石使用相关/Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币.md",
     "记事本/工作/工作项目维护/常见问题/客户端远程改资源.md",
     "记事本/工作/工作项目维护/常见问题/解决webspice统一的问题.md",
@@ -276,8 +356,6 @@
     "记事本/工作/工作项目维护/常见问题",
     "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/研发业务知识点掌握目标达成办法（草稿）-20230717090100-f3gxbzm.md",
     "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/研发业务知识点掌握目标达成办法（草稿）.md",
-    "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/新版本.md",
-    "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/碎片.md",
     "记事本/工作/工作计划/有成果的工作",
     "记事本/学习/开发软实力",
     "记事本/非开发",
