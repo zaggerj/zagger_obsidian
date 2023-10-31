@@ -134,9 +134,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "864753ceb9fdbee5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "记事本/学习/开发软实力/git/git报错.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -245,7 +258,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "记事本/学习/开发软实力/git/git报错.md"
+              }
             }
           },
           {
@@ -262,6 +277,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "记事本/学习/开发软实力/git/git报错.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,6 +294,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "记事本/学习/开发软实力/git/git报错.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -288,7 +305,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "记事本/学习/开发软实力/git/git报错.md"
+              }
             }
           },
           {
@@ -341,7 +360,6 @@
   "left-ribbon": {
     "hiddenItems": {
       "obsidian-day-planner:Timeline": false,
-      "remotely-save:Remotely Save": false,
       "obsidian-importer:Open Importer": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
@@ -366,20 +384,21 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "587097c7d3e0dc04",
+  "active": "864753ceb9fdbee5",
   "lastOpenFiles": [
-    "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token-zagger.md",
     "记事本/学习/开发软实力/算法/算法学习链接.md",
+    "记事本/学习/开发软实力/git/git报错.md",
+    "记事本/学习/开发软实力/git/git相关文档.md",
+    "日记/2023-10-31.md",
+    "obsidian配置文件目录/New/task.md",
+    "汇总所有在线文档.md",
+    "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token-zagger.md",
     "记事本/学习/开发软实力/算法",
     "记事本/工作/工作项目维护/业务知识和难题/spice/spice库代码梳理.md",
     "obsidian配置文件目录/Attachment/Pasted image 20231016230100.png.md",
-    "日记/2023-10-31.md",
-    "汇总所有在线文档.md",
     "记事本/学习/学习计划脚本/工作计划梳理和安排.md",
     "黑曜石使用相关/obsidian教程.md",
-    "obsidian配置文件目录/New/task.md",
     "记事本/学习/开发软实力/git/git文件占用文件问题.md",
-    "记事本/学习/开发软实力/git/git相关文档.md",
     "记事本/学习/开发软实力/git/git国内源.md",
     "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token.md",
     "日记/2023-10-13.md",
@@ -402,7 +421,6 @@
     "zagger_git_backups",
     "记事本/非开发/环境安排和软件安装/家庭办公远程/cpolar相关链接.md",
     "记事本/非开发/环境安排和软件安装/家庭办公远程/cpolar 软件重启命令.md",
-    "记事本/非开发/环境安排和软件安装/家庭办公远程/同步工具.md",
     "记事本/工作/工作项目维护/常见问题",
     "记事本/工作/工作计划/有成果的工作",
     "记事本/学习/开发软实力",
