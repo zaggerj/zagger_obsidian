@@ -16,30 +16,6 @@
       "key": "1"
     }
   ],
-  "quickadd:choice:c1d9db9a-cb16-4abc-be8e-2b6236276988": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "2"
-    }
-  ],
-  "quickadd:choice:d1070378-4f3e-4801-872a-041ef3c87568": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "3"
-    }
-  ],
-  "quickadd:choice:99b16dcb-f920-42d7-89ad-196b6e4d2f51": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "4"
-    }
-  ],
   "quickadd:choice:51b51fd2-0f99-43e9-966e-d1bb0ba7318d": [
     {
       "modifiers": [
@@ -51,8 +27,8 @@
   "local-backup:run-local-backup": [
     {
       "modifiers": [
-        "Alt",
         "Mod",
+        "Alt",
         "Shift"
       ],
       "key": "S"
@@ -83,6 +59,50 @@
         "Shift"
       ],
       "key": "="
+    }
+  ],
+  "keyboard-analyzer:show-shortcuts-analyzer-view": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "K"
+    }
+  ],
+  "quickadd:choice:4faed75d-0124-4991-be0e-9a1bf7504ef1": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "T"
+    }
+  ],
+  "quickadd:choice:c1d9db9a-cb16-4abc-be8e-2b6236276988": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ],
+  "quickadd:choice:d1070378-4f3e-4801-872a-041ef3c87568": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "1"
+    }
+  ],
+  "quickadd:choice:99b16dcb-f920-42d7-89ad-196b6e4d2f51": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "2"
     }
   ]
 }

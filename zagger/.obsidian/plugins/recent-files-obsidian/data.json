@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-10-31",
+      "path": "日记/2023-10-31.md"
+    },
+    {
+      "basename": "Viewer",
+      "path": "Viewer.md"
+    },
+    {
+      "basename": "其他",
+      "path": "记事本/其他/其他.md"
+    },
+    {
       "basename": "obsidian教程",
       "path": "黑曜石使用相关/obsidian教程.md"
+    },
+    {
+      "basename": "工作计划梳理和安排",
+      "path": "记事本/学习/学习计划脚本/工作计划梳理和安排.md"
     },
     {
       "basename": "task",
       "path": "obsidian配置文件目录/New/task.md"
     },
     {
-      "basename": "最新工作安排-zagger",
-      "path": "记事本/工作/工作计划/老的工作计划/最新工作安排-zagger.md"
+      "basename": "汇总所有在线文档",
+      "path": "汇总所有在线文档.md"
     },
     {
       "basename": "Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币",
@@ -21,20 +37,16 @@
       "path": "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md"
     },
     {
-      "basename": "学习笔记",
-      "path": "记事本/学习/学习计划脚本/学习笔记.md"
-    },
-    {
       "basename": "学习清单",
       "path": "记事本/学习/前端/前端杂项/学习清单.md"
     },
     {
-      "basename": "工作计划梳理和安排",
-      "path": "记事本/学习/学习计划脚本/工作计划梳理和安排.md"
+      "basename": "最新工作安排-zagger",
+      "path": "记事本/工作/工作计划/老的工作计划/最新工作安排-zagger.md"
     },
     {
-      "basename": "汇总所有在线文档",
-      "path": "汇总所有在线文档.md"
+      "basename": "学习笔记",
+      "path": "记事本/学习/学习计划脚本/学习笔记.md"
     },
     {
       "basename": "2023-10-13",
@@ -187,18 +199,6 @@
     {
       "basename": "2023-10-16",
       "path": "日记/2023-10-16.md"
-    },
-    {
-      "basename": "2023-10-18",
-      "path": "日记/2023-10-18.md"
-    },
-    {
-      "basename": "2023-08-29",
-      "path": "日记/2023-08-29.md"
-    },
-    {
-      "basename": "2023-08-28",
-      "path": "日记/2023-08-28.md"
     }
   ],
   "omittedPaths": [],

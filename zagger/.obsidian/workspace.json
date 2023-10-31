@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "黑曜石使用相关/obsidian教程.md",
+                "file": "obsidian配置文件目录/New/task.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -113,16 +113,13 @@
             }
           },
           {
-            "id": "0fee08dc82b0a3a5",
+            "id": "7cf747ad2437515e",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "黑曜石使用相关/obsidian教程.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "keyboard-shortcuts-visualization",
+              "state": {},
+              "pinned": true
             }
           }
         ],
@@ -165,7 +162,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "remote ",
+                "query": "tag:#obsidian",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -220,7 +217,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387
+    "width": 258
   },
   "right": {
     "id": "49b0f6d6f173189c",
@@ -235,9 +232,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "黑曜石使用相关/obsidian教程.md"
-              }
+              "state": {}
             }
           },
           {
@@ -254,7 +249,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "黑曜石使用相关/obsidian教程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +265,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "黑曜石使用相关/obsidian教程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -282,9 +275,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "黑曜石使用相关/obsidian教程.md"
-              }
+              "state": {}
             }
           },
           {
@@ -362,21 +353,26 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "0fee08dc82b0a3a5",
+  "active": "7cf747ad2437515e",
   "lastOpenFiles": [
+    "日记/2023-10-31.md",
+    "Viewer.md",
+    "记事本/其他/其他.md",
+    "obsidian配置文件目录/Attachment/bbeab787757c6e0eff0236c28bf7ecf 1.jpg",
+    "obsidian配置文件目录/Attachment/bbeab787757c6e0eff0236c28bf7ecf.jpg",
+    "黑曜石使用相关/obsidian教程.md",
+    "记事本/学习/学习计划脚本/工作计划梳理和安排.md",
     "obsidian配置文件目录/New/task.md",
+    "汇总所有在线文档.md",
+    "黑曜石使用相关/Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币.md",
+    "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
+    "记事本/学习/前端/前端杂项/学习清单.md",
     "obsidian配置文件目录/Attachment/Pasted image 20231031150252.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231031150246.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231031150227.png",
     "记事本/工作/工作计划/老的工作计划/最新工作安排-zagger.md",
-    "黑曜石使用相关/Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币.md",
-    "黑曜石使用相关/obsidian教程.md",
     "obsidian配置文件目录/Attachment/Pasted image 20231031144109.png",
-    "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "记事本/学习/学习计划脚本/学习笔记.md",
-    "记事本/学习/前端/前端杂项/学习清单.md",
-    "记事本/学习/学习计划脚本/工作计划梳理和安排.md",
-    "汇总所有在线文档.md",
     "日记/2023-10-13.md",
     "obsidian配置文件目录/sortspec.md",
     "zagger_git_obsidian",
@@ -393,8 +389,6 @@
     "记事本/学习/后端/shell_code.md",
     "记事本/学习/后端/postman.md",
     "记事本/学习/后端/linux/linux 命令速记.md",
-    "记事本/工作/工作项目维护/常见问题/客户端远程改资源.md",
-    "记事本/工作/工作项目维护/常见问题/解决webspice统一的问题.md",
     "记事本/工作/工作项目维护/常见问题",
     "记事本/工作/工作计划/有成果的工作",
     "记事本/学习/开发软实力",
@@ -407,8 +401,6 @@
     "obsidian配置文件目录/Attachment/assets 6/image5-20230705220235-zjjdatn.png",
     "obsidian配置文件目录/Attachment/assets 6/image4-20230705220235-k558spz.png",
     "obsidian配置文件目录/Attachment/assets 6/image4-20230705220235-9gqacso.png",
-    "obsidian配置文件目录/Attachment/assets 6/image3-20230705220235-v0z5076.png",
-    "obsidian配置文件目录/Attachment/assets 6/image3-20230705220235-e2flkjd.png",
-    "obsidian配置文件目录/Attachment/assets 6/image2-20230705220235-fd2e45f.png"
+    "obsidian配置文件目录/Attachment/assets 6/image3-20230705220235-v0z5076.png"
   ]
 }
