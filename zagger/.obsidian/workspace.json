@@ -128,7 +128,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/2023-10-31.md",
+                "file": "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -207,7 +207,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "73db95bfb166faa1",
@@ -253,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2023-10-31.md"
+                "file": "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token.md"
               }
             }
           },
@@ -271,7 +272,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2023-10-31.md",
+                "file": "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -288,7 +289,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2023-10-31.md",
+                "file": "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -300,7 +301,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "日记/2023-10-31.md"
+                "file": "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token.md"
               }
             }
           },
@@ -381,6 +382,7 @@
   },
   "active": "23fad819ff207865",
   "lastOpenFiles": [
+    "日记/2023-10-31.md",
     "汇总所有在线文档.md",
     "记事本/学习/学习计划脚本/工作计划梳理和安排.md",
     "黑曜石使用相关/obsidian教程.md",
@@ -391,7 +393,6 @@
     "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token.md",
     "日记/2023-10-13.md",
     "记事本/学习/前端/前端杂项/记事本.md",
-    "日记/2023-10-31.md",
     "Viewer.md",
     "记事本/其他/其他.md",
     "obsidian配置文件目录/Attachment/bbeab787757c6e0eff0236c28bf7ecf 1.jpg",
