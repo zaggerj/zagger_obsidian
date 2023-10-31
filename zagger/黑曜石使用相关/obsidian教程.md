@@ -38,3 +38,6 @@
 3. [obsidian个人常用插件-记录 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/618966265)
 4. [Obsidian | 人人都会做Obsidian分栏，超级方便，无需CSS代码 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/503562540)
 5. [Obsidian教程二 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/492199426?utm_id=0)
+6. [x] [obsidian-tasks-group/obsidian-tasks: Task management for the Obsidian knowledge base. --- obsidian-tasks-group/obsidian-tasks：黑曜石知识库的任务管理。 (github.com)](https://github.com/obsidian-tasks-group/obsidian-tasks): 黑曜石知识库的任务管理。跟踪整个保管库中的任务。查询它们并将它们标记为已完成，无论何时完成。支持截止日期、重复任务（重复）、完成日期、清单项子集和筛选。_您可以在任何视图或查询中切换任务状态，它将更新源文件。_ 📅 2023-10-31 ✅ 2023-10-31
+7. ![[Pasted image 20231031144109.png]]
+8. [Obsidian通过github实现同步（Obsidian Git） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/657924375)
