@@ -141,7 +141,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "记事本/脚本/bash脚本/合并分支脚本.md",
+                "file": "记事本/学习/开发软实力/git/git pull origin 分支.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -259,7 +259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/脚本/bash脚本/合并分支脚本.md"
+                "file": "记事本/学习/开发软实力/git/git pull origin 分支.md"
               }
             }
           },
@@ -277,7 +277,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/脚本/bash脚本/合并分支脚本.md",
+                "file": "记事本/学习/开发软实力/git/git pull origin 分支.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -294,7 +294,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/脚本/bash脚本/合并分支脚本.md",
+                "file": "记事本/学习/开发软实力/git/git pull origin 分支.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +306,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/脚本/bash脚本/合并分支脚本.md"
+                "file": "记事本/学习/开发软实力/git/git pull origin 分支.md"
               }
             }
           },
@@ -386,8 +386,10 @@
   },
   "active": "864753ceb9fdbee5",
   "lastOpenFiles": [
-    "记事本/工作/工作记事.md",
     "记事本/脚本/bash脚本/合并分支脚本.md",
+    "记事本/学习/开发软实力/git/git pull origin 分支.md",
+    "记事本/脚本/js脚本/walkDir.js.md",
+    "记事本/工作/工作记事.md",
     "记事本/脚本/bash脚本",
     "记事本/脚本",
     "obsidian配置文件目录/New/task.md",
@@ -413,10 +415,8 @@
     "日记/2023-10-13.md",
     "记事本/学习/前端/前端杂项/记事本.md",
     "Viewer.md",
-    "记事本/其他/其他.md",
     "obsidian配置文件目录/Attachment/bbeab787757c6e0eff0236c28bf7ecf 1.jpg",
     "obsidian配置文件目录/Attachment/bbeab787757c6e0eff0236c28bf7ecf.jpg",
-    "黑曜石使用相关/Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币.md",
     "obsidian配置文件目录/Attachment/Pasted image 20231031150252.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231031150246.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231031150227.png",

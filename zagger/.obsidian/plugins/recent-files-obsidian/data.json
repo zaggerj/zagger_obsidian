@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "git pull origin 分支",
+      "path": "记事本/学习/开发软实力/git/git pull origin 分支.md"
+    },
+    {
       "basename": "合并分支脚本",
       "path": "记事本/脚本/bash脚本/合并分支脚本.md"
+    },
+    {
+      "basename": "walkDir.js",
+      "path": "记事本/脚本/js脚本/walkDir.js.md"
     },
     {
       "basename": "工作记事",
@@ -191,14 +199,6 @@
     {
       "basename": "前端培训和目标达成（草稿）",
       "path": "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/前端培训和目标达成（草稿）.md"
-    },
-    {
-      "basename": "团队组员工作状态回顾",
-      "path": "记事本/工作/工作计划/有成果的工作/团队组员工作状态回顾/团队组员工作状态回顾.md"
-    },
-    {
-      "basename": "团队组员工作状态回顾 1",
-      "path": "记事本/工作/工作计划/有成果的工作/团队组员工作状态回顾/团队组员工作状态回顾 1.md"
     }
   ],
   "omittedPaths": [],

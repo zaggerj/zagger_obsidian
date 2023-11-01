@@ -260,8 +260,14 @@
         "rule": ".",
         "icon": "🐾",
         "for": "everything",
-        "order": 39,
+        "order": 40,
         "useFilePath": false
+      },
+      {
+        "rule": "js",
+        "icon": "TiFileTypeJs",
+        "for": "everything",
+        "order": 39
       }
     ],
     "extraMargin": {
