@@ -141,7 +141,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git pull origin 分支.md",
+                "file": "记事本/学习/开发软实力/git/使用rebase还是merge.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -259,7 +259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git pull origin 分支.md"
+                "file": "记事本/学习/开发软实力/git/使用rebase还是merge.md"
               }
             }
           },
@@ -277,7 +277,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git pull origin 分支.md",
+                "file": "记事本/学习/开发软实力/git/使用rebase还是merge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -294,7 +294,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git pull origin 分支.md",
+                "file": "记事本/学习/开发软实力/git/使用rebase还是merge.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +306,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git pull origin 分支.md"
+                "file": "记事本/学习/开发软实力/git/使用rebase还是merge.md"
               }
             }
           },
@@ -386,8 +386,9 @@
   },
   "active": "864753ceb9fdbee5",
   "lastOpenFiles": [
-    "记事本/脚本/bash脚本/合并分支脚本.md",
     "记事本/学习/开发软实力/git/git pull origin 分支.md",
+    "记事本/学习/开发软实力/git/使用rebase还是merge.md",
+    "记事本/脚本/bash脚本/合并分支脚本.md",
     "记事本/脚本/js脚本/walkDir.js.md",
     "记事本/工作/工作记事.md",
     "记事本/脚本/bash脚本",
@@ -414,7 +415,6 @@
     "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token.md",
     "日记/2023-10-13.md",
     "记事本/学习/前端/前端杂项/记事本.md",
-    "Viewer.md",
     "obsidian配置文件目录/Attachment/bbeab787757c6e0eff0236c28bf7ecf 1.jpg",
     "obsidian配置文件目录/Attachment/bbeab787757c6e0eff0236c28bf7ecf.jpg",
     "obsidian配置文件目录/Attachment/Pasted image 20231031150252.png",
