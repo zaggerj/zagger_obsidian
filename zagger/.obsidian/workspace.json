@@ -174,7 +174,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#图形化git文档",
+                "query": "\"> [!download] 需要插件> > Editor Syntax Highlight\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -199,7 +199,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "73db95bfb166faa1",
@@ -371,8 +372,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "aabb6afe509b9088",
+  "active": "f2b0ffe519625a29",
   "lastOpenFiles": [
+    "obsidian配置文件目录/New/task.md",
+    "黑曜石使用相关/Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币.md",
     "黑曜石使用相关/obsidian教程.md",
     "记事本/学习/开发软实力/git/git fetch参数.md",
     "记事本/其他/待整理/解决微软账号登录不了的问题.md",
@@ -400,8 +403,6 @@
     "记事本/其他/其他.md",
     "记事本/学习/开发软实力/git/git 使用rebase还是merge.md",
     "记事本/学习/开发软实力/git/git报错.md",
-    "记事本/学习/开发软实力/git/git国内源.md",
-    "记事本/脚本/bash脚本/合并分支脚本.md",
     "记事本/脚本/bash脚本",
     "记事本/脚本",
     "记事本/学习/开发软实力/算法",
