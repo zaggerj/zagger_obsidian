@@ -123,47 +123,22 @@
             }
           },
           {
-            "id": "aabb6afe509b9088",
+            "id": "666ebfbc06f7204d",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/2023-10-31.md",
+                "file": "obsidian配置文件目录/sortspec.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "864753ceb9fdbee5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "记事本/学习/开发软实力/git/git报错.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8eb904e31c791312",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "记事本/其他/待整理/linux命令.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ],
-        "currentTab": 7
-        "currentTab": 10
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -272,9 +247,8 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
               "state": {
-                "file": "记事本/其他/待整理/linux命令.md"
+                "file": "obsidian配置文件目录/sortspec.md"
               }
             }
           },
@@ -292,7 +266,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/其他/待整理/linux命令.md",
+                "file": "obsidian配置文件目录/sortspec.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -309,7 +283,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/其他/待整理/linux命令.md",
+                "file": "obsidian配置文件目录/sortspec.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -320,9 +294,8 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
               "state": {
-                "file": "记事本/其他/待整理/linux命令.md"
+                "file": "obsidian配置文件目录/sortspec.md"
               }
             }
           },
@@ -403,13 +376,25 @@
   },
   "active": "23fad819ff207865",
   "lastOpenFiles": [
+    "obsidian配置文件目录/sortspec.md",
+    "记事本/非开发/其他/其他.md",
+    "记事本/非开发/其他.md",
     "conflict-files-obsidian-git.md",
-    "记事本/非开发/其他.md",
-    "记事本/非开发/其他.md",
+    "记事本/非开发/其他/readme.md",
+    "记事本/非开发/其他/a 汇总所有在线文档.md",
+    "记事本/非开发/帐号密码/共享目录.md",
+    "记事本/非开发/帐号密码/gitlab 密码.md",
+    "记事本/非开发/帐号密码/github firstToken.md",
+    "记事本/其他/待整理/生活.md",
+    "记事本/其他/待整理/文件备份.md",
+    "记事本/其他/待整理/正则和算法.md",
+    "记事本/其他/待整理/思想建设.md",
+    "记事本/其他/待整理/帐号密码.md",
+    "记事本/其他/待整理/linux命令.md",
     "记事本/其他/待整理/一些奇技淫巧.md",
     "记事本/其他/待整理/待整理.md",
     "记事本/其他/待整理/优化工作.md",
-    "记事本/非开发/未命名",
+    "记事本/非开发/其他",
     "记事本/学习/开发软实力/vscode/vscode git graph.md",
     "黑曜石使用相关/obsidian教程.md",
     "记事本/学习/开发软实力/vscode",
@@ -419,30 +404,11 @@
     "记事本/工作/工作记事.md",
     "记事本/学习/开发软实力/git/git 设置远程追踪分支的方法.md",
     "记事本/学习/开发软实力/git/git 使用rebase还是merge.md",
-    "记事本/学习/开发软实力/git/git push参数.md",
     "obsidian配置文件目录/Attachment/Pasted image 20231101182904.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231101182658.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231101182555.png",
-    "记事本/脚本/bash脚本/合并分支脚本.md",
     "记事本/脚本/bash脚本",
     "记事本/学习/开发软实力/正则和算法/算法",
-    "obsidian配置文件目录/Attachment/bbeab787757c6e0eff0236c28bf7ecf 1.jpg",
-    "obsidian配置文件目录/Attachment/bbeab787757c6e0eff0236c28bf7ecf.jpg",
-    "obsidian配置文件目录/Attachment/Pasted image 20231031150252.png",
-    "obsidian配置文件目录/Attachment/Pasted image 20231031150246.png",
-    "obsidian配置文件目录/Attachment/Pasted image 20231031150227.png",
-    "obsidian配置文件目录/Attachment/Pasted image 20231031144109.png",
-    "记事本/学习/开发软实力/算法/算法学习链接.md",
-    "记事本/学习/开发软实力/git/git相关文档.md",
-    "obsidian配置文件目录/New/task.md",
-    "汇总所有在线文档.md",
-    "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token-zagger.md",
-    "记事本/学习/开发软实力/算法",
-    "记事本/工作/工作项目维护/业务知识和难题/spice/spice库代码梳理.md",
-    "obsidian配置文件目录/Attachment/Pasted image 20231016230100.png.md",
-    "记事本/学习/学习计划脚本/工作计划梳理和安排.md",
-    "记事本/学习/开发软实力/git/git文件占用文件问题.md",
-    "记事本/学习/开发软实力/git/git国内源.md",
     "obsidian配置文件目录/Attachment/bbeab787757c6e0eff0236c28bf7ecf 1.jpg",
     "obsidian配置文件目录/Attachment/bbeab787757c6e0eff0236c28bf7ecf.jpg",
     "obsidian配置文件目录/Attachment/Pasted image 20231031150252.png",
