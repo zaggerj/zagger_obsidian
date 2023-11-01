@@ -141,7 +141,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian配置文件目录/New/callout.md",
+                "file": "记事本/工作/工作记事.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -259,7 +259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian配置文件目录/New/callout.md"
+                "file": "记事本/工作/工作记事.md"
               }
             }
           },
@@ -277,7 +277,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian配置文件目录/New/callout.md",
+                "file": "记事本/工作/工作记事.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -294,7 +294,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian配置文件目录/New/callout.md",
+                "file": "记事本/工作/工作记事.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +306,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "obsidian配置文件目录/New/callout.md"
+                "file": "记事本/工作/工作记事.md"
               }
             }
           },
@@ -386,13 +386,17 @@
   },
   "active": "864753ceb9fdbee5",
   "lastOpenFiles": [
+    "obsidian配置文件目录/New/task.md",
+    "记事本/工作/工作记事.md",
+    "obsidian配置文件目录/New/10月看板.md",
+    "obsidian配置文件目录/New/markdown语法.md",
+    "obsidian配置文件目录/New/callout.md",
     "obsidian配置文件目录/New/todolist.md",
     "日记/todolist.md",
     "记事本/学习/开发软实力/git/git报错.md",
     "记事本/学习/开发软实力/算法/算法学习链接.md",
     "记事本/学习/开发软实力/git/git相关文档.md",
     "日记/2023-10-31.md",
-    "obsidian配置文件目录/New/task.md",
     "汇总所有在线文档.md",
     "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token-zagger.md",
     "记事本/学习/开发软实力/算法",
@@ -411,14 +415,10 @@
     "obsidian配置文件目录/Attachment/bbeab787757c6e0eff0236c28bf7ecf.jpg",
     "黑曜石使用相关/Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币.md",
     "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
-    "记事本/学习/前端/前端杂项/学习清单.md",
     "obsidian配置文件目录/Attachment/Pasted image 20231031150252.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231031150246.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231031150227.png",
-    "记事本/工作/工作计划/老的工作计划/最新工作安排-zagger.md",
     "obsidian配置文件目录/Attachment/Pasted image 20231031144109.png",
-    "记事本/学习/学习计划脚本/学习笔记.md",
-    "obsidian配置文件目录/sortspec.md",
     "zagger_git_obsidian",
     "zagger_git_backups",
     "记事本/工作/工作项目维护/常见问题",
