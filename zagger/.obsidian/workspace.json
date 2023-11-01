@@ -143,7 +143,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "记事本/学习/后端/linux/linux查看网络命令集合.md",
+                "file": "记事本/工作/工作记事.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -261,7 +261,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/学习/后端/linux/linux查看网络命令集合.md"
+                "file": "记事本/工作/工作记事.md"
               }
             }
           },
@@ -279,7 +279,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/学习/后端/linux/linux查看网络命令集合.md",
+                "file": "记事本/工作/工作记事.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -296,7 +296,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/学习/后端/linux/linux查看网络命令集合.md",
+                "file": "记事本/工作/工作记事.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -308,7 +308,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/学习/后端/linux/linux查看网络命令集合.md"
+                "file": "记事本/工作/工作记事.md"
               }
             }
           },
@@ -389,6 +389,7 @@
   },
   "active": "d39b9ff6dc692741",
   "lastOpenFiles": [
+    "记事本/学习/后端/linux/linux查看网络命令集合.md",
     "obsidian配置文件目录/Attachment/Pasted image 20231101231016.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231101230857.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231101230556.png",
@@ -399,9 +400,7 @@
     "obsidian配置文件目录/Attachment/Pasted image 20231101230036.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231101225956.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231101225551.png",
-    "obsidian配置文件目录/Attachment/Pasted image 20231101225422.png",
     "记事本/学习/前端/vue2/vue学习清单.md",
-    "记事本/学习/后端/linux/linux查看网络命令集合.md",
     "记事本/学习/前端/nodejs/nodejs学习导航.md",
     "记事本/学习/后端/nginx/nginx.md",
     "记事本/学习/后端/nginx/未命名.md",
