@@ -162,6 +162,7 @@
             }
           }
         ],
+        "currentTab": 7
         "currentTab": 10
       }
     ],
@@ -271,6 +272,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+              "state": {}
               "state": {
                 "file": "记事本/其他/待整理/linux命令.md"
               }
@@ -318,6 +320,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
+              "state": {}
               "state": {
                 "file": "记事本/其他/待整理/linux命令.md"
               }
@@ -422,6 +425,13 @@
     "记事本/学习/开发软实力/git/git 文档清单.md",
     "记事本/脚本/bash脚本/合并分支脚本.md",
     "记事本/脚本/bash脚本",
+    "记事本/学习/开发软实力/正则和算法/算法",
+    "obsidian配置文件目录/Attachment/bbeab787757c6e0eff0236c28bf7ecf 1.jpg",
+    "obsidian配置文件目录/Attachment/bbeab787757c6e0eff0236c28bf7ecf.jpg",
+    "obsidian配置文件目录/Attachment/Pasted image 20231031150252.png",
+    "obsidian配置文件目录/Attachment/Pasted image 20231031150246.png",
+    "obsidian配置文件目录/Attachment/Pasted image 20231031150227.png",
+    "obsidian配置文件目录/Attachment/Pasted image 20231031144109.png",
     "记事本/学习/开发软实力/算法/算法学习链接.md",
     "记事本/学习/开发软实力/git/git相关文档.md",
     "obsidian配置文件目录/New/task.md",
