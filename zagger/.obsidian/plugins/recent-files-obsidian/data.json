@@ -1,10 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "vscode git graph",
-      "path": "记事本/学习/开发软实力/vscode/vscode git graph.md"
-    },
-    {
       "basename": "obsidian教程",
       "path": "黑曜石使用相关/obsidian教程.md"
     },
@@ -13,20 +9,152 @@
       "path": "记事本/学习/开发软实力/git/git fetch参数.md"
     },
     {
-      "basename": "git报错",
-      "path": "记事本/学习/开发软实力/git/git报错.md"
+      "basename": "a 汇总所有在线文档",
+      "path": "记事本/其他/待整理/a 汇总所有在线文档.md"
+    },
+    {
+      "basename": "Pasted image 20231101182658",
+      "path": "obsidian配置文件目录/Attachment/Pasted image 20231101182658.png"
+    },
+    {
+      "basename": "Pasted image 20231101182555",
+      "path": "obsidian配置文件目录/Attachment/Pasted image 20231101182555.png"
+    },
+    {
+      "basename": "Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币",
+      "path": "黑曜石使用相关/Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币.md"
+    },
+    {
+      "basename": "{P(}4B5BO5G%WK$])4%5`)V",
+      "path": "obsidian配置文件目录/Attachment/{P(}4B5BO5G%WK$])4%5`)V.png"
+    },
+    {
+      "basename": "a 服务器相关命令",
+      "path": "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md"
+    },
+    {
+      "basename": "task",
+      "path": "obsidian配置文件目录/New/task.md"
+    },
+    {
+      "basename": "解决微软账号登录不了的问题",
+      "path": "记事本/其他/待整理/解决微软账号登录不了的问题.md"
+    },
+    {
+      "basename": "焦虑",
+      "path": "记事本/其他/待整理/思想建设/焦虑.md"
+    },
+    {
+      "basename": "关于工作和生活",
+      "path": "记事本/其他/待整理/思想建设/关于工作和生活.md"
+    },
+    {
+      "basename": "豆豆上学导学",
+      "path": "记事本/其他/待整理/思想建设/豆豆上学导学.md"
+    },
+    {
+      "basename": "脚本文件",
+      "path": "记事本/其他/待整理/文件备份/脚本文件.md"
+    },
+    {
+      "basename": "windows zsh配置备份 20234015",
+      "path": "记事本/其他/待整理/文件备份/windows zsh配置备份 20234015.md"
+    },
+    {
+      "basename": "拼接类型化数组",
+      "path": "记事本/其他/待整理/正则和算法/拼接类型化数组.md"
+    },
+    {
+      "basename": "资源网站",
+      "path": "记事本/其他/待整理/生活/资源网站.md"
+    },
+    {
+      "basename": "有声小说",
+      "path": "记事本/其他/待整理/生活/有声小说.md"
+    },
+    {
+      "basename": "git pull origin 分支",
+      "path": "记事本/学习/开发软实力/git/git pull origin 分支.md"
+    },
+    {
+      "basename": "git文件占用文件问题",
+      "path": "记事本/学习/开发软实力/git/git文件占用文件问题.md"
+    },
+    {
+      "basename": "git 文档清单",
+      "path": "记事本/学习/开发软实力/git/git 文档清单.md"
+    },
+    {
+      "basename": "git push参数",
+      "path": "记事本/学习/开发软实力/git/git push参数.md"
+    },
+    {
+      "basename": "git 设置远程追踪分支的方法",
+      "path": "记事本/学习/开发软实力/git/git 设置远程追踪分支的方法.md"
     },
     {
       "basename": "2023-10-31",
       "path": "日记/2023-10-31.md"
     },
     {
-      "basename": "算法学习链接",
-      "path": "记事本/学习/开发软实力/算法/算法学习链接.md"
+      "basename": "git相关",
+      "path": "记事本/非开发/环境安排和软件安装/windows软件安装/windows软件列表/git相关.md"
     },
     {
-      "basename": "task",
-      "path": "obsidian配置文件目录/New/task.md"
+      "basename": "git相关",
+      "path": "记事本/非开发/环境安排和软件安装/前端开发环境配置/git相关.md"
+    },
+    {
+      "basename": "其他",
+      "path": "记事本/其他/其他.md"
+    },
+    {
+      "basename": "git 使用rebase还是merge",
+      "path": "记事本/学习/开发软实力/git/git 使用rebase还是merge.md"
+    },
+    {
+      "basename": "git报错",
+      "path": "记事本/学习/开发软实力/git/git报错.md"
+    },
+    {
+      "basename": "git国内源",
+      "path": "记事本/学习/开发软实力/git/git国内源.md"
+    },
+    {
+      "basename": "合并分支脚本",
+      "path": "记事本/脚本/bash脚本/合并分支脚本.md"
+    },
+    {
+      "basename": "walkDir.js",
+      "path": "记事本/脚本/js脚本/walkDir.js.md"
+    },
+    {
+      "basename": "工作记事",
+      "path": "记事本/工作/工作记事.md"
+    },
+    {
+      "basename": "10月看板",
+      "path": "obsidian配置文件目录/New/10月看板.md"
+    },
+    {
+      "basename": "markdown语法",
+      "path": "obsidian配置文件目录/New/markdown语法.md"
+    },
+    {
+      "basename": "callout",
+      "path": "obsidian配置文件目录/New/callout.md"
+    },
+    {
+      "basename": "todolist",
+      "path": "obsidian配置文件目录/New/todolist.md"
+    },
+    {
+      "basename": "todolist",
+      "path": "日记/todolist.md"
+    },
+    {
+      "basename": "算法学习链接",
+      "path": "记事本/学习/开发软实力/算法/算法学习链接.md"
     },
     {
       "basename": "汇总所有在线文档",
@@ -41,164 +169,12 @@
       "path": "记事本/其他/待整理/帐号密码/github firstToken.md"
     },
     {
-      "basename": "a 汇总所有在线文档",
-      "path": "记事本/其他/待整理/a 汇总所有在线文档.md"
-    },
-    {
       "basename": "工作计划梳理和安排",
       "path": "记事本/学习/学习计划脚本/工作计划梳理和安排.md"
     },
     {
-      "basename": "git文件占用文件问题",
-      "path": "记事本/学习/开发软实力/git/git文件占用文件问题.md"
-    },
-    {
-      "basename": "git国内源",
-      "path": "记事本/学习/开发软实力/git/git国内源.md"
-    },
-    {
       "basename": "2023-10-13",
       "path": "日记/2023-10-13.md"
-    },
-    {
-      "basename": "记事本",
-      "path": "记事本/学习/前端/前端杂项/记事本.md"
-    },
-    {
-      "basename": "Viewer",
-      "path": "Viewer.md"
-    },
-    {
-      "basename": "其他",
-      "path": "记事本/其他/其他.md"
-    },
-    {
-      "basename": "Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币",
-      "path": "黑曜石使用相关/Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币.md"
-    },
-    {
-      "basename": "a 服务器相关命令",
-      "path": "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md"
-    },
-    {
-      "basename": "学习清单",
-      "path": "记事本/学习/前端/前端杂项/学习清单.md"
-    },
-    {
-      "basename": "最新工作安排-zagger",
-      "path": "记事本/工作/工作计划/老的工作计划/最新工作安排-zagger.md"
-    },
-    {
-      "basename": "学习笔记",
-      "path": "记事本/学习/学习计划脚本/学习笔记.md"
-    },
-    {
-      "basename": "sortspec",
-      "path": "obsidian配置文件目录/sortspec.md"
-    },
-    {
-      "basename": "cpolar相关链接",
-      "path": "记事本/非开发/环境安排和软件安装/家庭办公远程/cpolar相关链接.md"
-    },
-    {
-      "basename": "cpolar 软件重启命令",
-      "path": "记事本/非开发/环境安排和软件安装/家庭办公远程/cpolar 软件重启命令.md"
-    },
-    {
-      "basename": "同步工具",
-      "path": "记事本/非开发/环境安排和软件安装/家庭办公远程/同步工具.md"
-    },
-    {
-      "basename": "家庭办公远程",
-      "path": "记事本/非开发/环境安排和软件安装/家庭办公远程/家庭办公远程.md"
-    },
-    {
-      "basename": "url",
-      "path": "记事本/非开发/环境安排和软件安装/家庭办公远程/url.md"
-    },
-    {
-      "basename": "github提交大文件",
-      "path": "记事本/非开发/环境安排和软件安装/家庭办公远程/github提交大文件.md"
-    },
-    {
-      "basename": "ftp服务器和npm 临时仓库地址",
-      "path": "记事本/学习/后端/ftp服务器和npm 临时仓库地址.md"
-    },
-    {
-      "basename": "shell_code",
-      "path": "记事本/学习/后端/shell_code.md"
-    },
-    {
-      "basename": "postman",
-      "path": "记事本/学习/后端/postman.md"
-    },
-    {
-      "basename": "客户端远程改资源",
-      "path": "记事本/工作/工作项目维护/常见问题/客户端远程改资源.md"
-    },
-    {
-      "basename": "解决webspice统一的问题",
-      "path": "记事本/工作/工作项目维护/常见问题/解决webspice统一的问题.md"
-    },
-    {
-      "basename": "工作项目维护",
-      "path": "记事本/工作/工作项目维护/常见问题/工作项目维护.md"
-    },
-    {
-      "basename": "研发业务知识点掌握目标达成办法（草稿）-20230717090100-f3gxbzm",
-      "path": "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/研发业务知识点掌握目标达成办法（草稿）-20230717090100-f3gxbzm.md"
-    },
-    {
-      "basename": "研发业务知识点掌握目标达成办法（草稿）",
-      "path": "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/研发业务知识点掌握目标达成办法（草稿）.md"
-    },
-    {
-      "basename": "新版本",
-      "path": "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/新版本.md"
-    },
-    {
-      "basename": "碎片",
-      "path": "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/碎片.md"
-    },
-    {
-      "basename": "前端培训和目标达成（草稿）-20230717090100-osf67be",
-      "path": "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/前端培训和目标达成（草稿）-20230717090100-osf67be.md"
-    },
-    {
-      "basename": "前端培训和目标达成（草稿）",
-      "path": "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/前端培训和目标达成（草稿）.md"
-    },
-    {
-      "basename": "团队组员工作状态回顾",
-      "path": "记事本/工作/工作计划/有成果的工作/团队组员工作状态回顾/团队组员工作状态回顾.md"
-    },
-    {
-      "basename": "团队组员工作状态回顾 1",
-      "path": "记事本/工作/工作计划/有成果的工作/团队组员工作状态回顾/团队组员工作状态回顾 1.md"
-    },
-    {
-      "basename": "团队组员工作状态回顾 2",
-      "path": "记事本/工作/工作计划/有成果的工作/团队组员工作状态回顾/团队组员工作状态回顾 2.md"
-    },
-    {
-      "basename": "最新工作安排",
-      "path": "记事本/工作/工作计划/最新工作安排/最新工作安排.md"
-    },
-    {
-      "basename": "禅道规范",
-      "path": "记事本/工作/工作计划/有成果的工作/禅道规范.md"
-    },
-    {
-      "basename": "idp",
-      "path": "记事本/工作/工作计划/未完成工作计划/idp.md"
-    },
-    {
-      "basename": "教育前端周计划（20230731-20230804）",
-      "path": "记事本/工作/工作计划/老的工作计划/教育前端周计划（20230731-20230804）.md"
-    },
-    {
-      "basename": "最新工作安排(20230419)",
-      "path": "记事本/工作/工作计划/老的工作计划/最新工作安排(20230419).md"
     }
   ],
   "omittedPaths": [],
