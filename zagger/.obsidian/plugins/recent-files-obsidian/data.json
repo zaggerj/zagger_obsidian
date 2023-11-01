@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "linux查看网络命令集合",
+      "path": "记事本/学习/后端/linux/linux查看网络命令集合.md"
+    },
+    {
+      "basename": "vue学习清单",
+      "path": "记事本/学习/前端/vue2/vue学习清单.md"
+    },
+    {
+      "basename": "nodejs学习导航",
+      "path": "记事本/学习/前端/nodejs/nodejs学习导航.md"
+    },
+    {
+      "basename": "nginx",
+      "path": "记事本/学习/后端/nginx/nginx.md"
+    },
+    {
+      "basename": "vscode git graph",
+      "path": "记事本/学习/开发软实力/vscode/vscode git graph.md"
+    },
+    {
+      "basename": "其他",
+      "path": "记事本/非开发/其他.md"
+    },
+    {
+      "basename": "git 文档清单",
+      "path": "记事本/学习/开发软实力/git/git 文档清单.md"
+    },
+    {
       "basename": "sortspec",
       "path": "obsidian配置文件目录/sortspec.md"
     },
@@ -27,10 +55,6 @@
     {
       "basename": "github firstToken",
       "path": "记事本/非开发/帐号密码/github firstToken.md"
-    },
-    {
-      "basename": "vscode git graph",
-      "path": "记事本/学习/开发软实力/vscode/vscode git graph.md"
     },
     {
       "basename": "obsidian教程",
@@ -175,26 +199,6 @@
     {
       "basename": "前端培训和目标达成（草稿）-20230717090100-osf67be",
       "path": "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/前端培训和目标达成（草稿）-20230717090100-osf67be.md"
-    },
-    {
-      "basename": "前端培训和目标达成（草稿）",
-      "path": "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/前端培训和目标达成（草稿）.md"
-    },
-    {
-      "basename": "团队组员工作状态回顾",
-      "path": "记事本/工作/工作计划/有成果的工作/团队组员工作状态回顾/团队组员工作状态回顾.md"
-    },
-    {
-      "basename": "团队组员工作状态回顾 1",
-      "path": "记事本/工作/工作计划/有成果的工作/团队组员工作状态回顾/团队组员工作状态回顾 1.md"
-    },
-    {
-      "basename": "团队组员工作状态回顾 2",
-      "path": "记事本/工作/工作计划/有成果的工作/团队组员工作状态回顾/团队组员工作状态回顾 2.md"
-    },
-    {
-      "basename": "最新工作安排",
-      "path": "记事本/工作/工作计划/最新工作安排/最新工作安排.md"
     }
   ],
   "omittedPaths": [],

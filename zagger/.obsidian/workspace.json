@@ -136,9 +136,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "d39b9ff6dc692741",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "记事本/学习/后端/linux/linux查看网络命令集合.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -248,7 +261,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian配置文件目录/sortspec.md"
+                "file": "记事本/学习/后端/linux/linux查看网络命令集合.md"
               }
             }
           },
@@ -266,7 +279,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian配置文件目录/sortspec.md",
+                "file": "记事本/学习/后端/linux/linux查看网络命令集合.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +296,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian配置文件目录/sortspec.md",
+                "file": "记事本/学习/后端/linux/linux查看网络命令集合.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -295,7 +308,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "obsidian配置文件目录/sortspec.md"
+                "file": "记事本/学习/后端/linux/linux查看网络命令集合.md"
               }
             }
           },
@@ -374,11 +387,20 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "23fad819ff207865",
+  "active": "d39b9ff6dc692741",
   "lastOpenFiles": [
+    "obsidian配置文件目录/Attachment/Pasted image 20231101222739.png",
+    "记事本/学习/前端/vue2/vue学习清单.md",
+    "记事本/学习/后端/linux/linux查看网络命令集合.md",
+    "记事本/学习/前端/nodejs/nodejs学习导航.md",
+    "记事本/学习/后端/nginx/nginx.md",
+    "记事本/学习/后端/nginx/未命名.md",
+    "记事本/学习/开发软实力/vscode/vscode git graph.md",
+    "记事本/学习/后端/nginx",
+    "记事本/非开发/其他.md",
+    "记事本/学习/开发软实力/git/git 文档清单.md",
     "obsidian配置文件目录/sortspec.md",
     "记事本/非开发/其他/其他.md",
-    "记事本/非开发/其他.md",
     "conflict-files-obsidian-git.md",
     "记事本/非开发/其他/readme.md",
     "记事本/非开发/其他/a 汇总所有在线文档.md",
@@ -395,15 +417,7 @@
     "记事本/其他/待整理/待整理.md",
     "记事本/其他/待整理/优化工作.md",
     "记事本/非开发/其他",
-    "记事本/学习/开发软实力/vscode/vscode git graph.md",
-    "黑曜石使用相关/obsidian教程.md",
     "记事本/学习/开发软实力/vscode",
-    "记事本/学习/开发软实力/git/git fetch参数.md",
-    "记事本/学习/开发软实力/git/git报错.md",
-    "日记/2023-10-31.md",
-    "记事本/工作/工作记事.md",
-    "记事本/学习/开发软实力/git/git 设置远程追踪分支的方法.md",
-    "记事本/学习/开发软实力/git/git 使用rebase还是merge.md",
     "obsidian配置文件目录/Attachment/Pasted image 20231101182904.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231101182658.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231101182555.png",
@@ -420,7 +434,6 @@
     "记事本/工作/工作项目维护/常见问题",
     "记事本/工作/工作计划/有成果的工作",
     "记事本/学习/开发软实力",
-    "记事本/非开发",
     "记事本/学习/测试/未命名.canvas",
     "obsidian配置文件目录/Attachment/assets 6/image5-20230705220235-zjjdatn.png"
   ]

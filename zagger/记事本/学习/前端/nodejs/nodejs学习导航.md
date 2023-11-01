@@ -8,3 +8,4 @@
 7. [浅读-《深入浅出Nodejs》 - 掘金 (juejin.cn)](https://juejin.cn/post/7216133455296561211?searchId=202308141157089D79EC78572867DEA2A1)
 8. [nodejs - 搜索 - 掘金 (juejin.cn)](https://juejin.cn/search?utm_source=gold_browser_extension&query=nodejs&fromSeo=0&fromHistory=0&enterFrom=home_page&type=0&sort=1)
 9. [child_process 子进程 | Node.js v20 文档 (nodejs.cn)](https://nodejs.cn/api/child_process.html#child_processexecsynccommand-options)
+10. [Nodejs项目（get、post、渲染、搜索、npm）_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1xw411F7bX/?spm_id_from=333.1007.tianma.6-2-20.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
