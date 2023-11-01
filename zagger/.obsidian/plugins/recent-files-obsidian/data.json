@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "git文档清单",
+      "path": "记事本/学习/开发软实力/git/git文档清单.md"
+    },
+    {
+      "basename": "git相关",
+      "path": "记事本/非开发/环境安排和软件安装/windows软件安装/windows软件列表/git相关.md"
+    },
+    {
+      "basename": "git相关",
+      "path": "记事本/非开发/环境安排和软件安装/前端开发环境配置/git相关.md"
+    },
+    {
+      "basename": "其他",
+      "path": "记事本/其他/其他.md"
+    },
+    {
+      "basename": "使用rebase还是merge",
+      "path": "记事本/学习/开发软实力/git/使用rebase还是merge.md"
+    },
+    {
       "basename": "git文件占用文件问题",
       "path": "记事本/学习/开发软实力/git/git文件占用文件问题.md"
     },
@@ -11,10 +31,6 @@
     {
       "basename": "git pull origin 分支",
       "path": "记事本/学习/开发软实力/git/git pull origin 分支.md"
-    },
-    {
-      "basename": "使用rebase还是merge",
-      "path": "记事本/学习/开发软实力/git/使用rebase还是merge.md"
     },
     {
       "basename": "git国内源",
@@ -61,10 +77,6 @@
       "path": "记事本/学习/开发软实力/算法/算法学习链接.md"
     },
     {
-      "basename": "git相关文档",
-      "path": "记事本/学习/开发软实力/git/git相关文档.md"
-    },
-    {
       "basename": "2023-10-31",
       "path": "日记/2023-10-31.md"
     },
@@ -103,10 +115,6 @@
     {
       "basename": "Viewer",
       "path": "Viewer.md"
-    },
-    {
-      "basename": "其他",
-      "path": "记事本/其他/其他.md"
     },
     {
       "basename": "Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币",
@@ -191,14 +199,6 @@
     {
       "basename": "新版本",
       "path": "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/新版本.md"
-    },
-    {
-      "basename": "碎片",
-      "path": "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/碎片.md"
-    },
-    {
-      "basename": "前端培训和目标达成（草稿）-20230717090100-osf67be",
-      "path": "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/前端培训和目标达成（草稿）-20230717090100-osf67be.md"
     }
   ],
   "omittedPaths": [],

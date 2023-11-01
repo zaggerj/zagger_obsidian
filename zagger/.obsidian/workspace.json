@@ -141,7 +141,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git文件占用文件问题.md",
+                "file": "记事本/学习/开发软实力/git/git文档清单.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -212,8 +212,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "73db95bfb166faa1",
@@ -260,7 +259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git文件占用文件问题.md"
+                "file": "记事本/学习/开发软实力/git/git文档清单.md"
               }
             }
           },
@@ -278,7 +277,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git文件占用文件问题.md",
+                "file": "记事本/学习/开发软实力/git/git文档清单.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +294,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git文件占用文件问题.md",
+                "file": "记事本/学习/开发软实力/git/git文档清单.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -307,7 +306,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git文件占用文件问题.md"
+                "file": "记事本/学习/开发软实力/git/git文档清单.md"
               }
             }
           },
@@ -384,12 +383,16 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "f2b0ffe519625a29",
+  "active": "864753ceb9fdbee5",
   "lastOpenFiles": [
-    "记事本/学习/开发软实力/git/git报错.md",
-    "记事本/学习/开发软实力/git/git pull origin 分支.md",
+    "记事本/非开发/环境安排和软件安装/windows软件安装/windows软件列表/git相关.md",
+    "记事本/非开发/环境安排和软件安装/前端开发环境配置/git相关.md",
+    "记事本/其他/待整理/管理工作.md",
+    "记事本/其他/其他.md",
     "记事本/学习/开发软实力/git/使用rebase还是merge.md",
     "记事本/学习/开发软实力/git/git文件占用文件问题.md",
+    "记事本/学习/开发软实力/git/git报错.md",
+    "记事本/学习/开发软实力/git/git pull origin 分支.md",
     "记事本/学习/开发软实力/git/git国内源.md",
     "记事本/脚本/bash脚本/合并分支脚本.md",
     "记事本/脚本/js脚本/walkDir.js.md",
@@ -403,7 +406,7 @@
     "obsidian配置文件目录/New/todolist.md",
     "日记/todolist.md",
     "记事本/学习/开发软实力/算法/算法学习链接.md",
-    "记事本/学习/开发软实力/git/git相关文档.md",
+    "记事本/学习/开发软实力/git/git文档清单.md",
     "日记/2023-10-31.md",
     "汇总所有在线文档.md",
     "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token-zagger.md",
@@ -411,10 +414,6 @@
     "记事本/工作/工作项目维护/业务知识和难题/spice/spice库代码梳理.md",
     "obsidian配置文件目录/Attachment/Pasted image 20231016230100.png.md",
     "记事本/学习/学习计划脚本/工作计划梳理和安排.md",
-    "黑曜石使用相关/obsidian教程.md",
-    "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token.md",
-    "日记/2023-10-13.md",
-    "记事本/学习/前端/前端杂项/记事本.md",
     "obsidian配置文件目录/Attachment/bbeab787757c6e0eff0236c28bf7ecf 1.jpg",
     "obsidian配置文件目录/Attachment/bbeab787757c6e0eff0236c28bf7ecf.jpg",
     "obsidian配置文件目录/Attachment/Pasted image 20231031150252.png",
