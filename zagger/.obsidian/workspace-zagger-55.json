@@ -154,7 +154,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "记事本/其他/待整理/linux命令.md",
+                "file": "记事本/非开发/其他.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -174,7 +174,7 @@
       {
         "id": "284346499ce2ea86",
         "type": "tabs",
-        "dimension": 80.38067349926794,
+        "dimension": 63.58447488584474,
         "children": [
           {
             "id": "23fad819ff207865",
@@ -230,7 +230,7 @@
       {
         "id": "73db95bfb166faa1",
         "type": "tabs",
-        "dimension": 19.619326500732065,
+        "dimension": 36.41552511415525,
         "children": [
           {
             "id": "8b6d8c7e5231700f",
@@ -256,7 +256,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 371
+    "width": 258
   },
   "right": {
     "id": "49b0f6d6f173189c",
@@ -272,7 +272,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/其他/待整理/linux命令.md"
+                "file": "记事本/非开发/其他.md"
               }
             }
           },
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/其他/待整理/linux命令.md",
+                "file": "记事本/非开发/其他.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/其他/待整理/linux命令.md",
+                "file": "记事本/非开发/其他.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -319,7 +319,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/其他/待整理/linux命令.md"
+                "file": "记事本/非开发/其他.md"
               }
             }
           },
@@ -400,11 +400,6 @@
   },
   "active": "23fad819ff207865",
   "lastOpenFiles": [
-    "记事本/非开发/其他.md",
-    "记事本/其他/待整理/一些奇技淫巧.md",
-    "记事本/其他/待整理/待整理.md",
-    "记事本/其他/待整理/优化工作.md",
-    "记事本/非开发/未命名",
     "记事本/学习/开发软实力/vscode/vscode git graph.md",
     "黑曜石使用相关/obsidian教程.md",
     "记事本/学习/开发软实力/vscode",
@@ -433,6 +428,10 @@
     "记事本/学习/学习计划脚本/工作计划梳理和安排.md",
     "记事本/学习/开发软实力/git/git文件占用文件问题.md",
     "记事本/学习/开发软实力/git/git国内源.md",
+    "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token.md",
+    "日记/2023-10-13.md",
+    "记事本/学习/前端/前端杂项/记事本.md",
+    "Viewer.md",
     "obsidian配置文件目录/Attachment/bbeab787757c6e0eff0236c28bf7ecf 1.jpg",
     "obsidian配置文件目录/Attachment/bbeab787757c6e0eff0236c28bf7ecf.jpg",
     "obsidian配置文件目录/Attachment/Pasted image 20231031150252.png",
@@ -445,6 +444,7 @@
     "记事本/工作/工作计划/有成果的工作",
     "记事本/学习/开发软实力",
     "记事本/非开发",
+    "记事本/学习/前端",
     "记事本/学习/测试/未命名.canvas",
     "obsidian配置文件目录/Attachment/assets 6/image5-20230705220235-zjjdatn.png"
   ]

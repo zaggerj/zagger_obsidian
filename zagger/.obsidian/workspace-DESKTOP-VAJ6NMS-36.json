@@ -98,6 +98,16 @@
             }
           },
           {
+            "id": "efdfb69606065522",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "obsidian配置文件目录/Attachment/{P(}4B5BO5G%WK$])4%5`)V.png"
+              }
+            }
+          },
+          {
             "id": "88e501511da96760",
             "type": "leaf",
             "pinned": true,
@@ -128,33 +138,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/2023-10-31.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "864753ceb9fdbee5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "记事本/学习/开发软实力/git/git报错.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8eb904e31c791312",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "记事本/其他/待整理/linux命令.md",
+                "file": "黑曜石使用相关/obsidian教程.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -162,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -174,7 +158,7 @@
       {
         "id": "284346499ce2ea86",
         "type": "tabs",
-        "dimension": 80.38067349926794,
+        "dimension": 63.58447488584474,
         "children": [
           {
             "id": "23fad819ff207865",
@@ -200,7 +184,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#token",
+                "query": "\"> [!download] 需要插件> > Editor Syntax Highlight\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -230,7 +214,7 @@
       {
         "id": "73db95bfb166faa1",
         "type": "tabs",
-        "dimension": 19.619326500732065,
+        "dimension": 36.41552511415525,
         "children": [
           {
             "id": "8b6d8c7e5231700f",
@@ -256,7 +240,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 371
+    "width": 416
   },
   "right": {
     "id": "49b0f6d6f173189c",
@@ -272,7 +256,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/其他/待整理/linux命令.md"
+                "file": "黑曜石使用相关/obsidian教程.md"
               }
             }
           },
@@ -290,7 +274,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/其他/待整理/linux命令.md",
+                "file": "黑曜石使用相关/obsidian教程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +291,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/其他/待整理/linux命令.md",
+                "file": "黑曜石使用相关/obsidian教程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -319,7 +303,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/其他/待整理/linux命令.md"
+                "file": "黑曜石使用相关/obsidian教程.md"
               }
             }
           },
@@ -398,54 +382,54 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "23fad819ff207865",
+  "active": "aabb6afe509b9088",
   "lastOpenFiles": [
-    "记事本/非开发/其他.md",
-    "记事本/其他/待整理/一些奇技淫巧.md",
-    "记事本/其他/待整理/待整理.md",
-    "记事本/其他/待整理/优化工作.md",
-    "记事本/非开发/未命名",
+    "记事本/非开发/翻墙/翻墙清单啊.md",
+    "记事本/非开发/翻墙",
+    "记事本/工作/管理工作/新人.md",
+    "记事本/工作/管理工作",
     "记事本/学习/开发软实力/vscode/vscode git graph.md",
-    "黑曜石使用相关/obsidian教程.md",
     "记事本/学习/开发软实力/vscode",
-    "记事本/学习/开发软实力/git/git fetch参数.md",
-    "记事本/学习/开发软实力/git/git报错.md",
-    "日记/2023-10-31.md",
-    "记事本/工作/工作记事.md",
-    "记事本/学习/开发软实力/git/git 设置远程追踪分支的方法.md",
-    "记事本/学习/开发软实力/git/git 使用rebase还是merge.md",
-    "记事本/学习/开发软实力/git/git push参数.md",
-    "记事本/学习/开发软实力/git/git pull origin 分支.md",
     "obsidian配置文件目录/Attachment/Pasted image 20231101182904.png",
+    "记事本/学习/开发软实力/git/git fetch参数.md",
+    "记事本/其他/待整理/a 汇总所有在线文档.md",
     "obsidian配置文件目录/Attachment/Pasted image 20231101182658.png",
+    "obsidian配置文件目录/Attachment/Pasted image 20231101182646.png",
+    "obsidian配置文件目录/Attachment/Pasted image 20231101182642.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231101182555.png",
-    "记事本/学习/开发软实力/git/git 文档清单.md",
-    "记事本/脚本/bash脚本/合并分支脚本.md",
-    "记事本/脚本/bash脚本",
-    "记事本/学习/开发软实力/算法/算法学习链接.md",
-    "记事本/学习/开发软实力/git/git相关文档.md",
+    "obsidian配置文件目录/Attachment/Pasted image 20231101165611.png",
+    "黑曜石使用相关/Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币.md",
+    "obsidian配置文件目录/Attachment/{P(}4B5BO5G%WK$])4%5`)V.png",
+    "obsidian配置文件目录/Attachment/Pasted image 20231101165456.png",
+    "obsidian配置文件目录/Attachment/Pasted image 20231101182122.png",
+    "obsidian配置文件目录/Attachment/Pasted image 20231101182133.png",
+    "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "obsidian配置文件目录/New/task.md",
-    "汇总所有在线文档.md",
-    "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token-zagger.md",
-    "记事本/学习/开发软实力/算法",
-    "记事本/工作/工作项目维护/业务知识和难题/spice/spice库代码梳理.md",
-    "obsidian配置文件目录/Attachment/Pasted image 20231016230100.png.md",
-    "记事本/学习/学习计划脚本/工作计划梳理和安排.md",
+    "黑曜石使用相关/obsidian教程.md",
+    "记事本/其他/待整理/解决微软账号登录不了的问题.md",
+    "记事本/其他/待整理/思想建设/焦虑.md",
+    "记事本/其他/待整理/思想建设/关于工作和生活.md",
+    "记事本/其他/待整理/思想建设/豆豆上学导学.md",
+    "记事本/其他/待整理/文件备份/脚本文件.md",
+    "记事本/其他/待整理/文件备份/windows zsh配置备份 20234015.md",
+    "记事本/其他/待整理/正则和算法/拼接类型化数组.md",
+    "记事本/其他/待整理/生活/资源网站.md",
+    "记事本/其他/待整理/生活/有声小说.md",
+    "记事本/其他/待整理/管理工作/新人.md",
+    "记事本/学习/开发软实力/git/git pull origin 分支.md",
     "记事本/学习/开发软实力/git/git文件占用文件问题.md",
-    "记事本/学习/开发软实力/git/git国内源.md",
-    "obsidian配置文件目录/Attachment/bbeab787757c6e0eff0236c28bf7ecf 1.jpg",
-    "obsidian配置文件目录/Attachment/bbeab787757c6e0eff0236c28bf7ecf.jpg",
-    "obsidian配置文件目录/Attachment/Pasted image 20231031150252.png",
-    "obsidian配置文件目录/Attachment/Pasted image 20231031150246.png",
-    "obsidian配置文件目录/Attachment/Pasted image 20231031150227.png",
-    "obsidian配置文件目录/Attachment/Pasted image 20231031144109.png",
+    "记事本/学习/开发软实力/git/git 文档清单.md",
+    "记事本/学习/开发软实力/git/git push参数.md",
+    "记事本/学习/开发软实力/git/git 设置远程追踪分支的方法.md",
+    "日记/2023-10-31.md",
+    "记事本/非开发/环境安排和软件安装/windows软件安装/windows软件列表/git相关.md",
+    "记事本/脚本/bash脚本",
+    "记事本/脚本",
+    "记事本/学习/开发软实力/算法",
     "zagger_git_obsidian",
     "zagger_git_backups",
     "记事本/工作/工作项目维护/常见问题",
     "记事本/工作/工作计划/有成果的工作",
-    "记事本/学习/开发软实力",
-    "记事本/非开发",
-    "记事本/学习/测试/未命名.canvas",
-    "obsidian配置文件目录/Attachment/assets 6/image5-20230705220235-zjjdatn.png"
+    "记事本/学习/测试/未命名.canvas"
   ]
 }
