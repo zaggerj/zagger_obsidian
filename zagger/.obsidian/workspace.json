@@ -101,12 +101,9 @@
             "id": "efdfb69606065522",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git fetch参数.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "obsidian配置文件目录/Attachment/{P(}4B5BO5G%WK$])4%5`)V.png"
               }
             }
           },
@@ -141,7 +138,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "黑曜石使用相关/Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币.md",
+                "file": "黑曜石使用相关/obsidian教程.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -149,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -243,7 +240,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258
+    "width": 416
   },
   "right": {
     "id": "49b0f6d6f173189c",
@@ -259,7 +256,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git fetch参数.md"
+                "file": "黑曜石使用相关/obsidian教程.md"
               }
             }
           },
@@ -277,7 +274,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git fetch参数.md",
+                "file": "黑曜石使用相关/obsidian教程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -294,7 +291,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git fetch参数.md",
+                "file": "黑曜石使用相关/obsidian教程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +303,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git fetch参数.md"
+                "file": "黑曜石使用相关/obsidian教程.md"
               }
             }
           },
@@ -385,17 +382,23 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "efdfb69606065522",
+  "active": "aabb6afe509b9088",
   "lastOpenFiles": [
-    "obsidian配置文件目录/Attachment/Pasted image 20231101182410.png",
-    "obsidian配置文件目录/Attachment/Pasted image 20231101182219.png",
+    "obsidian配置文件目录/Attachment/Pasted image 20231101182904.png",
     "记事本/学习/开发软实力/git/git fetch参数.md",
-    "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
-    "黑曜石使用相关/Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币.md",
-    "obsidian配置文件目录/Attachment/Pasted image 20231101182135.png",
-    "obsidian配置文件目录/Attachment/Pasted image 20231101182133.png",
-    "obsidian配置文件目录/Attachment/Pasted image 20231101182122.png",
+    "记事本/其他/待整理/a 汇总所有在线文档.md",
+    "obsidian配置文件目录/Attachment/Pasted image 20231101182658.png",
+    "obsidian配置文件目录/Attachment/Pasted image 20231101182646.png",
+    "obsidian配置文件目录/Attachment/Pasted image 20231101182642.png",
+    "obsidian配置文件目录/Attachment/Pasted image 20231101182555.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231101165611.png",
+    "黑曜石使用相关/Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币.md",
+    "obsidian配置文件目录/Attachment/{P(}4B5BO5G%WK$])4%5`)V.png",
+    "obsidian配置文件目录/Attachment/Pasted image 20231101165456.png",
+    "obsidian配置文件目录/Attachment/Pasted image 20231101182122.png",
+    "obsidian配置文件目录/Attachment/Pasted image 20231101182133.png",
+    "obsidian配置文件目录/Attachment/Pasted image 20231101182135.png",
+    "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "obsidian配置文件目录/New/task.md",
     "黑曜石使用相关/obsidian教程.md",
     "记事本/其他/待整理/解决微软账号登录不了的问题.md",
@@ -412,20 +415,14 @@
     "记事本/学习/开发软实力/git/git文件占用文件问题.md",
     "记事本/学习/开发软实力/git/git 文档清单.md",
     "记事本/学习/开发软实力/git/git push参数.md",
-    "obsidian配置文件目录/Attachment/Pasted image 20231101165517.png",
-    "obsidian配置文件目录/Attachment/Pasted image 20231101165456.png",
     "记事本/学习/开发软实力/git/git 设置远程追踪分支的方法.md",
     "日记/2023-10-31.md",
     "记事本/非开发/环境安排和软件安装/windows软件安装/windows软件列表/git相关.md",
     "记事本/非开发/环境安排和软件安装/前端开发环境配置/git相关.md",
     "记事本/其他/待整理/管理工作.md",
-    "记事本/其他/其他.md",
     "记事本/脚本/bash脚本",
     "记事本/脚本",
     "记事本/学习/开发软实力/算法",
-    "obsidian配置文件目录/Attachment/bbeab787757c6e0eff0236c28bf7ecf 1.jpg",
-    "obsidian配置文件目录/Attachment/bbeab787757c6e0eff0236c28bf7ecf.jpg",
-    "obsidian配置文件目录/Attachment/Pasted image 20231031150252.png",
     "zagger_git_obsidian",
     "zagger_git_backups",
     "记事本/工作/工作项目维护/常见问题",

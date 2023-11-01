@@ -43,3 +43,4 @@
 8. [Obsidian通过github实现同步（Obsidian Git） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/657924375)
 9. [ozntel/file-tree-alternative: This Obsidian Plugin allows users to have a different file explorer experience. --- ozntel/file-tree-alternative：这个黑曜石插件允许用户拥有不同的文件浏览器体验。 (github.com)](https://github.com/ozntel/file-tree-alternative): Obsidian 的默认文件资源管理器将所有文件和文件夹放在一个视图中。File Tree Alternative 插件可帮助您为文件夹和文件提供单独的视图。
 10. Git 备份：[zaggerj/zagger_obsidian at 1.0.0 (github.com)](https://github.com/zaggerj/zagger_obsidian/tree/1.0.0) | https://gitee.com/zaggerzj/zagger_obsidian.git
+11. 类似的结构会导致图片不展示，整页都不展示：`<>`，外部加上引号就没有问题 ![[Pasted image 20231101182904.png]]
