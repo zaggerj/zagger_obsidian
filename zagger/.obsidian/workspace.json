@@ -141,7 +141,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "记事本/工作/工作记事.md",
+                "file": "记事本/脚本/bash脚本/合并分支脚本.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -259,7 +259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/工作/工作记事.md"
+                "file": "记事本/脚本/bash脚本/合并分支脚本.md"
               }
             }
           },
@@ -277,7 +277,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/工作/工作记事.md",
+                "file": "记事本/脚本/bash脚本/合并分支脚本.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -294,7 +294,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/工作/工作记事.md",
+                "file": "记事本/脚本/bash脚本/合并分支脚本.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +306,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/工作/工作记事.md"
+                "file": "记事本/脚本/bash脚本/合并分支脚本.md"
               }
             }
           },
@@ -386,8 +386,11 @@
   },
   "active": "864753ceb9fdbee5",
   "lastOpenFiles": [
-    "obsidian配置文件目录/New/task.md",
     "记事本/工作/工作记事.md",
+    "记事本/脚本/bash脚本/合并分支脚本.md",
+    "记事本/脚本/bash脚本",
+    "记事本/脚本",
+    "obsidian配置文件目录/New/task.md",
     "obsidian配置文件目录/New/10月看板.md",
     "obsidian配置文件目录/New/markdown语法.md",
     "obsidian配置文件目录/New/callout.md",
@@ -414,7 +417,6 @@
     "obsidian配置文件目录/Attachment/bbeab787757c6e0eff0236c28bf7ecf 1.jpg",
     "obsidian配置文件目录/Attachment/bbeab787757c6e0eff0236c28bf7ecf.jpg",
     "黑曜石使用相关/Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币.md",
-    "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "obsidian配置文件目录/Attachment/Pasted image 20231031150252.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231031150246.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231031150227.png",
@@ -426,9 +428,7 @@
     "记事本/学习/开发软实力",
     "记事本/非开发",
     "记事本/学习/前端",
-    "记事本/学习/后端",
     "记事本/学习/测试/未命名.canvas",
-    "记事本/js脚本",
     "obsidian配置文件目录/Attachment/assets 6/image5-20230705220235-zjjdatn.png",
     "obsidian配置文件目录/Attachment/assets 6/image4-20230705220235-k558spz.png",
     "obsidian配置文件目录/Attachment/assets 6/image4-20230705220235-9gqacso.png",
