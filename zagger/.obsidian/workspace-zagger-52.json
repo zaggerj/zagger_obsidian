@@ -149,7 +149,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -212,7 +212,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "73db95bfb166faa1",
@@ -259,7 +260,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2023-10-31.md"
+                "file": "记事本/学习/开发软实力/git/git报错.md"
               }
             }
           },
@@ -277,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2023-10-31.md",
+                "file": "记事本/学习/开发软实力/git/git报错.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -294,7 +295,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2023-10-31.md",
+                "file": "记事本/学习/开发软实力/git/git报错.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +307,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "日记/2023-10-31.md"
+                "file": "记事本/学习/开发软实力/git/git报错.md"
               }
             }
           },
@@ -385,22 +386,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "aabb6afe509b9088",
+  "active": "864753ceb9fdbee5",
   "lastOpenFiles": [
-    "记事本/学习/开发软实力/git/git报错.md",
-    "记事本/工作/工作记事.md",
-    "记事本/学习/开发软实力/git/git 设置远程追踪分支的方法.md",
-    "记事本/学习/开发软实力/git/git 使用rebase还是merge.md",
-    "记事本/学习/开发软实力/git/git push参数.md",
-    "记事本/学习/开发软实力/git/git pull origin 分支.md",
-    "记事本/学习/开发软实力/git/git fetch参数.md",
-    "obsidian配置文件目录/Attachment/Pasted image 20231101182904.png",
-    "obsidian配置文件目录/Attachment/Pasted image 20231101182658.png",
-    "obsidian配置文件目录/Attachment/Pasted image 20231101182555.png",
-    "记事本/学习/开发软实力/git/git 文档清单.md",
     "记事本/脚本/bash脚本/合并分支脚本.md",
     "记事本/脚本/bash脚本",
     "记事本/学习/开发软实力/算法/算法学习链接.md",
+    "记事本/学习/开发软实力/git/git报错.md",
     "记事本/学习/开发软实力/git/git相关文档.md",
     "日记/2023-10-31.md",
     "obsidian配置文件目录/New/task.md",
@@ -420,12 +411,19 @@
     "记事本/其他/其他.md",
     "obsidian配置文件目录/Attachment/bbeab787757c6e0eff0236c28bf7ecf 1.jpg",
     "obsidian配置文件目录/Attachment/bbeab787757c6e0eff0236c28bf7ecf.jpg",
+    "黑曜石使用相关/Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币.md",
+    "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
+    "记事本/学习/前端/前端杂项/学习清单.md",
     "obsidian配置文件目录/Attachment/Pasted image 20231031150252.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231031150246.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231031150227.png",
+    "记事本/工作/工作计划/老的工作计划/最新工作安排-zagger.md",
     "obsidian配置文件目录/Attachment/Pasted image 20231031144109.png",
+    "记事本/学习/学习计划脚本/学习笔记.md",
+    "obsidian配置文件目录/sortspec.md",
     "zagger_git_obsidian",
     "zagger_git_backups",
+    "记事本/非开发/环境安排和软件安装/家庭办公远程/cpolar相关链接.md",
     "记事本/工作/工作项目维护/常见问题",
     "记事本/工作/工作计划/有成果的工作",
     "记事本/学习/开发软实力",
@@ -433,6 +431,9 @@
     "记事本/学习/前端",
     "记事本/学习/后端",
     "记事本/学习/测试/未命名.canvas",
-    "obsidian配置文件目录/Attachment/assets 6/image5-20230705220235-zjjdatn.png"
+    "obsidian配置文件目录/Attachment/assets 6/image5-20230705220235-zjjdatn.png",
+    "obsidian配置文件目录/Attachment/assets 6/image4-20230705220235-k558spz.png",
+    "obsidian配置文件目录/Attachment/assets 6/image4-20230705220235-9gqacso.png",
+    "obsidian配置文件目录/Attachment/assets 6/image3-20230705220235-v0z5076.png"
   ]
 }
