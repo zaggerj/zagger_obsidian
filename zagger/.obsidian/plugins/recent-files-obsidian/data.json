@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "callout",
+      "path": "obsidian配置文件目录/New/callout.md"
+    },
+    {
+      "basename": "todolist",
+      "path": "obsidian配置文件目录/New/todolist.md"
+    },
+    {
+      "basename": "todolist",
+      "path": "日记/todolist.md"
+    },
+    {
       "basename": "git报错",
       "path": "记事本/学习/开发软实力/git/git报错.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "idp",
       "path": "记事本/工作/工作计划/未完成工作计划/idp.md"
-    },
-    {
-      "basename": "教育前端周计划（20230731-20230804）",
-      "path": "记事本/工作/工作计划/老的工作计划/教育前端周计划（20230731-20230804）.md"
-    },
-    {
-      "basename": "最新工作安排(20230419)",
-      "path": "记事本/工作/工作计划/老的工作计划/最新工作安排(20230419).md"
-    },
-    {
-      "basename": "最新工作安排(20230321)",
-      "path": "记事本/工作/工作计划/老的工作计划/最新工作安排(20230321).md"
     }
   ],
   "omittedPaths": [],
