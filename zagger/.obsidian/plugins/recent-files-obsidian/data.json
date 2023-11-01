@@ -1,20 +1,76 @@
 {
   "recentFiles": [
     {
-      "basename": "git 文档清单",
-      "path": "记事本/学习/开发软实力/git/git 文档清单.md"
+      "basename": "Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币",
+      "path": "黑曜石使用相关/Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币.md"
     },
     {
-      "basename": "Pasted image 20231101165611",
-      "path": "obsidian配置文件目录/Attachment/Pasted image 20231101165611.png"
+      "basename": "obsidian教程",
+      "path": "黑曜石使用相关/obsidian教程.md"
     },
     {
       "basename": "git fetch参数",
       "path": "记事本/学习/开发软实力/git/git fetch参数.md"
     },
     {
+      "basename": "解决微软账号登录不了的问题",
+      "path": "记事本/其他/待整理/解决微软账号登录不了的问题.md"
+    },
+    {
+      "basename": "焦虑",
+      "path": "记事本/其他/待整理/思想建设/焦虑.md"
+    },
+    {
+      "basename": "关于工作和生活",
+      "path": "记事本/其他/待整理/思想建设/关于工作和生活.md"
+    },
+    {
+      "basename": "豆豆上学导学",
+      "path": "记事本/其他/待整理/思想建设/豆豆上学导学.md"
+    },
+    {
+      "basename": "脚本文件",
+      "path": "记事本/其他/待整理/文件备份/脚本文件.md"
+    },
+    {
+      "basename": "windows zsh配置备份 20234015",
+      "path": "记事本/其他/待整理/文件备份/windows zsh配置备份 20234015.md"
+    },
+    {
+      "basename": "拼接类型化数组",
+      "path": "记事本/其他/待整理/正则和算法/拼接类型化数组.md"
+    },
+    {
+      "basename": "资源网站",
+      "path": "记事本/其他/待整理/生活/资源网站.md"
+    },
+    {
+      "basename": "有声小说",
+      "path": "记事本/其他/待整理/生活/有声小说.md"
+    },
+    {
+      "basename": "新人",
+      "path": "记事本/其他/待整理/管理工作/新人.md"
+    },
+    {
+      "basename": "git pull origin 分支",
+      "path": "记事本/学习/开发软实力/git/git pull origin 分支.md"
+    },
+    {
+      "basename": "git文件占用文件问题",
+      "path": "记事本/学习/开发软实力/git/git文件占用文件问题.md"
+    },
+    {
+      "basename": "git 文档清单",
+      "path": "记事本/学习/开发软实力/git/git 文档清单.md"
+    },
+    {
       "basename": "git push参数",
       "path": "记事本/学习/开发软实力/git/git push参数.md"
+    },
+    {
+      "basename": "Pasted image 20231101165611",
+      "path": "obsidian配置文件目录/Attachment/Pasted image 20231101165611.png"
     },
     {
       "basename": "git 设置远程追踪分支的方法",
@@ -41,16 +97,8 @@
       "path": "记事本/学习/开发软实力/git/git 使用rebase还是merge.md"
     },
     {
-      "basename": "git文件占用文件问题",
-      "path": "记事本/学习/开发软实力/git/git文件占用文件问题.md"
-    },
-    {
       "basename": "git报错",
       "path": "记事本/学习/开发软实力/git/git报错.md"
-    },
-    {
-      "basename": "git pull origin 分支",
-      "path": "记事本/学习/开发软实力/git/git pull origin 分支.md"
     },
     {
       "basename": "git国内源",
@@ -117,10 +165,6 @@
       "path": "记事本/学习/学习计划脚本/工作计划梳理和安排.md"
     },
     {
-      "basename": "obsidian教程",
-      "path": "黑曜石使用相关/obsidian教程.md"
-    },
-    {
       "basename": "2023-10-13",
       "path": "日记/2023-10-13.md"
     },
@@ -131,10 +175,6 @@
     {
       "basename": "Viewer",
       "path": "Viewer.md"
-    },
-    {
-      "basename": "Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币",
-      "path": "黑曜石使用相关/Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币.md"
     },
     {
       "basename": "a 服务器相关命令",
@@ -159,42 +199,6 @@
     {
       "basename": "cpolar相关链接",
       "path": "记事本/非开发/环境安排和软件安装/家庭办公远程/cpolar相关链接.md"
-    },
-    {
-      "basename": "cpolar 软件重启命令",
-      "path": "记事本/非开发/环境安排和软件安装/家庭办公远程/cpolar 软件重启命令.md"
-    },
-    {
-      "basename": "同步工具",
-      "path": "记事本/非开发/环境安排和软件安装/家庭办公远程/同步工具.md"
-    },
-    {
-      "basename": "家庭办公远程",
-      "path": "记事本/非开发/环境安排和软件安装/家庭办公远程/家庭办公远程.md"
-    },
-    {
-      "basename": "url",
-      "path": "记事本/非开发/环境安排和软件安装/家庭办公远程/url.md"
-    },
-    {
-      "basename": "github提交大文件",
-      "path": "记事本/非开发/环境安排和软件安装/家庭办公远程/github提交大文件.md"
-    },
-    {
-      "basename": "ftp服务器和npm 临时仓库地址",
-      "path": "记事本/学习/后端/ftp服务器和npm 临时仓库地址.md"
-    },
-    {
-      "basename": "shell_code",
-      "path": "记事本/学习/后端/shell_code.md"
-    },
-    {
-      "basename": "postman",
-      "path": "记事本/学习/后端/postman.md"
-    },
-    {
-      "basename": "客户端远程改资源",
-      "path": "记事本/工作/工作项目维护/常见问题/客户端远程改资源.md"
     }
   ],
   "omittedPaths": [],
