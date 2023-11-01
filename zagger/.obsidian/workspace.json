@@ -147,9 +147,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8eb904e31c791312",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "记事本/学习/开发软实力/git/git fetch参数.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -259,7 +272,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2023-10-31.md"
+                "file": "记事本/学习/开发软实力/git/git fetch参数.md"
               }
             }
           },
@@ -277,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2023-10-31.md",
+                "file": "记事本/学习/开发软实力/git/git fetch参数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -294,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2023-10-31.md",
+                "file": "记事本/学习/开发软实力/git/git fetch参数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +319,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "日记/2023-10-31.md"
+                "file": "记事本/学习/开发软实力/git/git fetch参数.md"
               }
             }
           },
@@ -385,9 +398,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "aabb6afe509b9088",
+  "active": "8eb904e31c791312",
   "lastOpenFiles": [
     "记事本/学习/开发软实力/git/git报错.md",
+    "日记/2023-10-31.md",
     "记事本/工作/工作记事.md",
     "记事本/学习/开发软实力/git/git 设置远程追踪分支的方法.md",
     "记事本/学习/开发软实力/git/git 使用rebase还是merge.md",
@@ -402,7 +416,6 @@
     "记事本/脚本/bash脚本",
     "记事本/学习/开发软实力/算法/算法学习链接.md",
     "记事本/学习/开发软实力/git/git相关文档.md",
-    "日记/2023-10-31.md",
     "obsidian配置文件目录/New/task.md",
     "汇总所有在线文档.md",
     "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token-zagger.md",
