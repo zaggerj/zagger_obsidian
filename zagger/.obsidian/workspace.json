@@ -128,20 +128,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/2023-10-31.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "864753ceb9fdbee5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "记事本/学习/开发软实力/git/push参数.md",
+                "file": "记事本/学习/开发软实力/git/git 文档清单.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -149,7 +136,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -259,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/学习/开发软实力/git/push参数.md"
+                "file": "记事本/学习/开发软实力/git/git 文档清单.md"
               }
             }
           },
@@ -277,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/学习/开发软实力/git/push参数.md",
+                "file": "记事本/学习/开发软实力/git/git 文档清单.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -294,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/学习/开发软实力/git/push参数.md",
+                "file": "记事本/学习/开发软实力/git/git 文档清单.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +293,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/学习/开发软实力/git/push参数.md"
+                "file": "记事本/学习/开发软实力/git/git 文档清单.md"
               }
             }
           },
@@ -384,16 +371,21 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "864753ceb9fdbee5",
+  "active": "aabb6afe509b9088",
   "lastOpenFiles": [
-    "记事本/学习/开发软实力/git/设置远程追踪分支的方法.md",
-    "记事本/学习/开发软实力/git/push参数.md",
-    "记事本/学习/开发软实力/git/git文档清单.md",
+    "obsidian配置文件目录/Attachment/Pasted image 20231101165611.png",
+    "obsidian配置文件目录/Attachment/Pasted image 20231101165517.png",
+    "记事本/学习/开发软实力/git/git fetch参数.md",
+    "obsidian配置文件目录/Attachment/Pasted image 20231101165456.png",
+    "记事本/学习/开发软实力/git/git push参数.md",
+    "记事本/学习/开发软实力/git/git 文档清单.md",
+    "记事本/学习/开发软实力/git/git 设置远程追踪分支的方法.md",
+    "日记/2023-10-31.md",
     "记事本/非开发/环境安排和软件安装/windows软件安装/windows软件列表/git相关.md",
     "记事本/非开发/环境安排和软件安装/前端开发环境配置/git相关.md",
     "记事本/其他/待整理/管理工作.md",
     "记事本/其他/其他.md",
-    "记事本/学习/开发软实力/git/使用rebase还是merge.md",
+    "记事本/学习/开发软实力/git/git 使用rebase还是merge.md",
     "记事本/学习/开发软实力/git/git文件占用文件问题.md",
     "记事本/学习/开发软实力/git/git报错.md",
     "记事本/学习/开发软实力/git/git pull origin 分支.md",
@@ -410,11 +402,8 @@
     "obsidian配置文件目录/New/todolist.md",
     "日记/todolist.md",
     "记事本/学习/开发软实力/算法/算法学习链接.md",
-    "日记/2023-10-31.md",
     "汇总所有在线文档.md",
-    "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token-zagger.md",
     "记事本/学习/开发软实力/算法",
-    "记事本/工作/工作项目维护/业务知识和难题/spice/spice库代码梳理.md",
     "obsidian配置文件目录/Attachment/bbeab787757c6e0eff0236c28bf7ecf 1.jpg",
     "obsidian配置文件目录/Attachment/bbeab787757c6e0eff0236c28bf7ecf.jpg",
     "obsidian配置文件目录/Attachment/Pasted image 20231031150252.png",
@@ -429,9 +418,6 @@
     "记事本/非开发",
     "记事本/学习/前端",
     "记事本/学习/测试/未命名.canvas",
-    "obsidian配置文件目录/Attachment/assets 6/image5-20230705220235-zjjdatn.png",
-    "obsidian配置文件目录/Attachment/assets 6/image4-20230705220235-k558spz.png",
-    "obsidian配置文件目录/Attachment/assets 6/image4-20230705220235-9gqacso.png",
-    "obsidian配置文件目录/Attachment/assets 6/image3-20230705220235-v0z5076.png"
+    "obsidian配置文件目录/Attachment/assets 6/image5-20230705220235-zjjdatn.png"
   ]
 }
