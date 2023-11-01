@@ -154,7 +154,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git fetch参数.md",
+                "file": "黑曜石使用相关/obsidian教程.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -272,7 +272,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git fetch参数.md"
+                "file": "黑曜石使用相关/obsidian教程.md"
               }
             }
           },
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git fetch参数.md",
+                "file": "黑曜石使用相关/obsidian教程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git fetch参数.md",
+                "file": "黑曜石使用相关/obsidian教程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -319,7 +319,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git fetch参数.md"
+                "file": "黑曜石使用相关/obsidian教程.md"
               }
             }
           },
@@ -400,6 +400,7 @@
   },
   "active": "8eb904e31c791312",
   "lastOpenFiles": [
+    "记事本/学习/开发软实力/git/git fetch参数.md",
     "记事本/学习/开发软实力/git/git报错.md",
     "日记/2023-10-31.md",
     "记事本/工作/工作记事.md",
@@ -407,7 +408,6 @@
     "记事本/学习/开发软实力/git/git 使用rebase还是merge.md",
     "记事本/学习/开发软实力/git/git push参数.md",
     "记事本/学习/开发软实力/git/git pull origin 分支.md",
-    "记事本/学习/开发软实力/git/git fetch参数.md",
     "obsidian配置文件目录/Attachment/Pasted image 20231101182904.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231101182658.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231101182555.png",
