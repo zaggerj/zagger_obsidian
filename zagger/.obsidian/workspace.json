@@ -187,7 +187,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git ",
+                "query": "tag:#图形化git文档",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -212,7 +212,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "73db95bfb166faa1",
@@ -383,7 +384,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "864753ceb9fdbee5",
+  "active": "f2b0ffe519625a29",
   "lastOpenFiles": [
     "记事本/非开发/环境安排和软件安装/windows软件安装/windows软件列表/git相关.md",
     "记事本/非开发/环境安排和软件安装/前端开发环境配置/git相关.md",
