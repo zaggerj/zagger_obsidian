@@ -17,7 +17,7 @@
 
 `git pull origin bar~1:bugFix` 相当于：
 
-`git fetch origin bar~1:bugFix; git merge bugFix`
+`git fetch origin bar~1:bugFix; git merge bugFix` 写错了 bar~1
 
 看到了? git pull 实际上就是 fetch + merge 的缩写, git pull 唯一关注的是提交最终合并到哪里（也就是为 git fetch 所提供的 destination 参数）
 
