@@ -43,5 +43,6 @@
 ```shell
 git fetch origin master:side
 git pull origin bar:foo
+git 
 
 ```
