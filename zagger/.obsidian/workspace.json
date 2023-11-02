@@ -154,7 +154,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian配置文件目录/New/群公告-开发记事本.md",
+                "file": "记事本/非开发/资源素材/环境安装和软件安装/同步软件/resilio sync.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -272,7 +272,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian配置文件目录/New/群公告-开发记事本.md"
+                "file": "记事本/非开发/资源素材/环境安装和软件安装/同步软件/resilio sync.md"
               }
             }
           },
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian配置文件目录/New/群公告-开发记事本.md",
+                "file": "记事本/非开发/资源素材/环境安装和软件安装/同步软件/resilio sync.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian配置文件目录/New/群公告-开发记事本.md",
+                "file": "记事本/非开发/资源素材/环境安装和软件安装/同步软件/resilio sync.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -319,7 +319,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "obsidian配置文件目录/New/群公告-开发记事本.md"
+                "file": "记事本/非开发/资源素材/环境安装和软件安装/同步软件/resilio sync.md"
               }
             }
           },
@@ -400,18 +400,19 @@
   },
   "active": "06fba4976e2c5589",
   "lastOpenFiles": [
+    "记事本/非开发/资源素材/环境安装和软件安装/window系统重装指南.md",
+    "记事本/非开发/资源素材/环境安装和软件安装/最新实用油猴脚本推荐.md",
+    "记事本/非开发/资源素材/环境安装和软件安装/软件下载.md",
+    "记事本/非开发/资源素材/环境安装和软件安装/rsync安装和配置.md",
+    "obsidian配置文件目录/New/群公告-开发记事本.md",
     "obsidian配置文件目录/Attachment/群公告-开发记事本.md",
     "obsidian配置文件目录/sortspec.md",
-    "obsidian配置文件目录/New/群公告-开发记事本.md",
     "记事本/非开发/其他/其他 1.md",
     "记事本/非开发/文件备份/windows zsh配置备份 20234015.md",
     "记事本/非开发/文件备份/脚本文件.md",
     "记事本/非开发/脚本/脚本集合/补丁脚本.md",
-    "记事本/非开发/资源素材/环境安装和软件安装/window系统重装指南.md",
     "记事本/非开发/环境安排和软件安装/window系统重装指南 1.md",
-    "记事本/非开发/资源素材/环境安装和软件安装/软件下载.md",
     "记事本/非开发/环境安排和软件安装/软件下载-20230705215136-k4fyeyi.md",
-    "记事本/非开发/资源素材/环境安装和软件安装/最新实用油猴脚本推荐.md",
     "记事本/学习/开发软实力/git/git报错.md",
     "记事本/非开发/资源素材/翻墙/翻墙清单啊.md",
     "记事本/非开发/资源素材/翻墙",
@@ -429,7 +430,6 @@
     "记事本/工作/管理工作/优化工作/IndexedDB.md",
     "记事本/工作/管理工作/优化工作/angularjs命名标准.md",
     "记事本/工作/管理工作/优化工作",
-    "记事本/非开发/生活/思想建设/豆豆上学导学.md",
     "记事本/非开发/生活/思想建设",
     "记事本/非开发/生活",
     "记事本/非开发/文件备份",
