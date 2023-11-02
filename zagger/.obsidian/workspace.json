@@ -154,7 +154,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git fetch参数.md",
+                "file": "记事本/学习/开发软实力/git/古怪的 source.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -272,7 +272,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git fetch参数.md"
+                "file": "记事本/学习/开发软实力/git/古怪的 source.md"
               }
             }
           },
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git fetch参数.md",
+                "file": "记事本/学习/开发软实力/git/古怪的 source.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git fetch参数.md",
+                "file": "记事本/学习/开发软实力/git/古怪的 source.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -319,7 +319,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git fetch参数.md"
+                "file": "记事本/学习/开发软实力/git/古怪的 source.md"
               }
             }
           },
@@ -400,10 +400,12 @@
   },
   "active": "06fba4976e2c5589",
   "lastOpenFiles": [
+    "obsidian配置文件目录/Attachment/Pasted image 20231102180557.png",
+    "记事本/学习/开发软实力/git/git fetch参数.md",
+    "记事本/学习/开发软实力/git/古怪的 source.md",
     "obsidian配置文件目录/Attachment/Pasted image 20231102175119.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231102175100.png",
     "记事本/学习/开发软实力/git/learn-git-branching两个显示全的命令.md",
-    "记事本/学习/开发软实力/git/git fetch参数.md",
     "obsidian配置文件目录/Attachment/Pasted image 20231102173242.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231102173138.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231102173033.png",
@@ -412,10 +414,8 @@
     "obsidian配置文件目录/Attachment/Pasted image 20231102172616.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231102171956.png",
     "记事本/学习/开发软实力/git/git fetch.md",
-    "记事本/学习/开发软实力/git/未命名.md",
     "记事本/学习/开发软实力/git/git push参数2.md",
     "obsidian配置文件目录/Attachment/Pasted image 20231102170615.png",
-    "obsidian配置文件目录/Attachment/Pasted image 20231102170556.png",
     "记事本/学习/开发软实力/git/git push参数.md",
     "记事本/学习/开发软实力/git/远程跟踪分支.md",
     "记事本/学习/开发软实力/git/合并特性分支.md",

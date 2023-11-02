@@ -60,3 +60,11 @@ Git 会到远程仓库的 `foo` 分支上，然后获取所有本地不存在�
 
 目标：
 ![[Pasted image 20231102175100.png]]
+
+
+```shell
+git fetch origin master^:foo
+git fetch origin foo:master
+git checkout foo
+git merge master
+```
