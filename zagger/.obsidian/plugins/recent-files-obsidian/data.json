@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "远程分支",
+      "path": "记事本/学习/开发软实力/git/远程分支.md"
+    },
+    {
+      "basename": "git 设置远程追踪分支的方法",
+      "path": "记事本/学习/开发软实力/git/git 设置远程追踪分支的方法.md"
+    },
+    {
+      "basename": "git clone命令",
+      "path": "记事本/学习/开发软实力/git/git clone命令.md"
+    },
+    {
+      "basename": "git pull origin 分支",
+      "path": "记事本/学习/开发软实力/git/git pull origin 分支.md"
+    },
+    {
       "basename": "git 使用rebase还是merge",
       "path": "记事本/学习/开发软实力/git/git 使用rebase还是merge.md"
     },
@@ -15,10 +31,6 @@
     {
       "basename": "git 文档清单",
       "path": "记事本/学习/开发软实力/git/git 文档清单.md"
-    },
-    {
-      "basename": "git pull origin 分支",
-      "path": "记事本/学习/开发软实力/git/git pull origin 分支.md"
     },
     {
       "basename": "git rebase",
@@ -39,10 +51,6 @@
     {
       "basename": "git文件占用文件问题",
       "path": "记事本/学习/开发软实力/git/git文件占用文件问题.md"
-    },
-    {
-      "basename": "git 设置远程追踪分支的方法",
-      "path": "记事本/学习/开发软实力/git/git 设置远程追踪分支的方法.md"
     },
     {
       "basename": "奥卡姆剃刀原理",
@@ -191,14 +199,6 @@
     {
       "basename": "shell_code",
       "path": "记事本/学习/后端/shell_code.md"
-    },
-    {
-      "basename": "postman",
-      "path": "记事本/学习/后端/postman.md"
-    },
-    {
-      "basename": "客户端远程改资源",
-      "path": "记事本/工作/工作项目维护/常见问题/客户端远程改资源.md"
     }
   ],
   "omittedPaths": [],
