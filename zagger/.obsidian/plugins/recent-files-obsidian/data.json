@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "【git 整理提交】git rebase -i 命令详解",
+      "path": "记事本/学习/开发软实力/git/git rebase专辑/【git 整理提交】git rebase -i 命令详解.md"
+    },
+    {
       "basename": "git rebase清单",
       "path": "记事本/学习/开发软实力/git/git rebase专辑/git rebase清单.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "碎片",
       "path": "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/碎片.md"
-    },
-    {
-      "basename": "前端培训和目标达成（草稿）-20230717090100-osf67be",
-      "path": "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/前端培训和目标达成（草稿）-20230717090100-osf67be.md"
     }
   ],
   "omittedPaths": [],
