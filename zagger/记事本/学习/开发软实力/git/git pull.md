@@ -14,3 +14,7 @@
 
 ![[Pasted image 20231102143757.png]]
 ![[Pasted image 20231102143936.png]]
+![[Pasted image 20231102144714.png]] 
+![[Pasted image 20231102144824.png]]
+Git pull
+![[Pasted image 20231102144834.png]]
