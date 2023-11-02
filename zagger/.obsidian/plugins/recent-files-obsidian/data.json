@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "合并特性分支",
+      "path": "记事本/学习/开发软实力/git/合并特性分支.md"
+    },
+    {
+      "basename": "learn-git-branching两个显示全的命令",
+      "path": "记事本/学习/开发软实力/git/learn-git-branching两个显示全的命令.md"
+    },
+    {
       "basename": "偏离的工作",
       "path": "记事本/学习/开发软实力/git/偏离的工作.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "cpolar 软件重启命令",
       "path": "记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/cpolar 软件重启命令.md"
-    },
-    {
-      "basename": "同步工具",
-      "path": "记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/同步工具.md"
-    },
-    {
-      "basename": "家庭办公远程",
-      "path": "记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/家庭办公远程.md"
     }
   ],
   "omittedPaths": [],
