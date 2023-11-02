@@ -154,7 +154,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git push参数2.md",
+                "file": "记事本/学习/开发软实力/git/git fetch参数.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -256,7 +256,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271
+    "width": 300
   },
   "right": {
     "id": "49b0f6d6f173189c",
@@ -272,7 +272,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git push参数2.md"
+                "file": "记事本/学习/开发软实力/git/git fetch参数.md"
               }
             }
           },
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git push参数2.md",
+                "file": "记事本/学习/开发软实力/git/git fetch参数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git push参数2.md",
+                "file": "记事本/学习/开发软实力/git/git fetch参数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -319,7 +319,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git push参数2.md"
+                "file": "记事本/学习/开发软实力/git/git fetch参数.md"
               }
             }
           },
@@ -400,10 +400,14 @@
   },
   "active": "06fba4976e2c5589",
   "lastOpenFiles": [
+    "obsidian配置文件目录/Attachment/Pasted image 20231102171956.png",
+    "记事本/学习/开发软实力/git/git fetch.md",
+    "记事本/学习/开发软实力/git/未命名.md",
+    "记事本/学习/开发软实力/git/git fetch参数.md",
+    "记事本/学习/开发软实力/git/git push参数2.md",
     "obsidian配置文件目录/Attachment/Pasted image 20231102170615.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231102170556.png",
     "记事本/学习/开发软实力/git/git push参数.md",
-    "记事本/学习/开发软实力/git/git push参数2.md",
     "记事本/学习/开发软实力/git/远程跟踪分支.md",
     "obsidian配置文件目录/Attachment/Pasted image 20231102165224.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231102165141.png",
@@ -413,7 +417,6 @@
     "obsidian配置文件目录/Attachment/Pasted image 20231102164354.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231102164347.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231102164131.png",
-    "obsidian配置文件目录/Attachment/Pasted image 20231102164114.png",
     "记事本/学习/开发软实力/git/合并特性分支.md",
     "记事本/学习/开发软实力/git/为什么不用merge.md",
     "记事本/学习/开发软实力/git/git 远程分支.md",
@@ -421,12 +424,10 @@
     "记事本/学习/开发软实力/git/learn-git-branching两个显示全的命令.md",
     "记事本/学习/开发软实力/git/偏离的工作.md",
     "记事本/学习/开发软实力/git/git pull.md",
-    "记事本/学习/开发软实力/git/git fetch.md",
     "记事本/学习/开发软实力/git/git push.md",
     "记事本/学习/开发软实力/git/git 使用rebase还是merge.md",
     "记事本/学习/开发软实力/git/git clone命令.md",
     "记事本/学习/开发软实力/git/git pull origin 分支.md",
-    "记事本/学习/开发软实力/git/git fetch参数.md",
     "记事本/学习/开发软实力/git/git 文档清单.md",
     "记事本/学习/开发软实力/git/git rebase专辑/git rebase.md",
     "记事本/学习/开发软实力/git/git rebase专辑/git rebase清单.md",
@@ -436,7 +437,6 @@
     "记事本/学习/开发软实力/奥卡姆剃刀原理.md",
     "记事本/学习/开发软实力/git/git rebase专辑",
     "记事本/非开发/资源素材/环境安装和软件安装/同步软件/onedrive.md",
-    "记事本/非开发/资源素材/环境安装和软件安装/同步软件/resilio sync.md",
     "记事本/非开发/资源素材/翻墙",
     "记事本/非开发/资源素材/学习网站收录",
     "记事本/非开发/资源素材/excel",

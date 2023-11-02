@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "git fetch参数",
+      "path": "记事本/学习/开发软实力/git/git fetch参数.md"
+    },
+    {
+      "basename": "git fetch",
+      "path": "记事本/学习/开发软实力/git/git fetch.md"
+    },
+    {
       "basename": "git push参数2",
       "path": "记事本/学习/开发软实力/git/git push参数2.md"
     },
@@ -41,10 +49,6 @@
       "path": "记事本/学习/开发软实力/git/git pull.md"
     },
     {
-      "basename": "git fetch",
-      "path": "记事本/学习/开发软实力/git/git fetch.md"
-    },
-    {
       "basename": "git push",
       "path": "记事本/学习/开发软实力/git/git push.md"
     },
@@ -59,10 +63,6 @@
     {
       "basename": "git pull origin 分支",
       "path": "记事本/学习/开发软实力/git/git pull origin 分支.md"
-    },
-    {
-      "basename": "git fetch参数",
-      "path": "记事本/学习/开发软实力/git/git fetch参数.md"
     },
     {
       "basename": "git 文档清单",
@@ -195,10 +195,6 @@
     {
       "basename": "学习清单",
       "path": "记事本/学习/前端/前端杂项/学习清单.md"
-    },
-    {
-      "basename": "最新工作安排-zagger",
-      "path": "记事本/工作/工作计划/老的工作计划/最新工作安排-zagger.md"
     }
   ],
   "omittedPaths": [],

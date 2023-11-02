@@ -41,5 +41,7 @@ Source这个参数实际的值是个 refspec，“refspec” 是一个自造的�
 ![[Pasted image 20231102170556.png]]
 
 
-```
+```shell
+git push origin master^:foo;
+git push origin foo:master
 ```
