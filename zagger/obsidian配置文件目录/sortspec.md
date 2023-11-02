@@ -122,6 +122,25 @@ sorting-spec: "target-folder: /
   其他
 
 
+  target-folder: 记事本/非开发/资源素材
+
+  各种软件
+
+  环境安装和软件安装
+
+  学习网站收录
+
+  AI工具
+
+  翻墙
+
+  图片网站
+
+  excel
+
+  z娱乐
+
+
   target-folder: 记事本/工作/工作计划
 
   最新工作安排
