@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "偏离的工作",
+      "path": "记事本/学习/开发软实力/git/偏离的工作.md"
+    },
+    {
       "basename": "git push",
       "path": "记事本/学习/开发软实力/git/git push.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "家庭办公远程",
       "path": "记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/家庭办公远程.md"
-    },
-    {
-      "basename": "url",
-      "path": "记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/url.md"
     }
   ],
   "omittedPaths": [],
