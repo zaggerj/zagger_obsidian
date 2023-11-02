@@ -123,27 +123,25 @@
             }
           },
           {
-            "id": "666ebfbc06f7204d",
+            "id": "aabb6afe509b9088",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian配置文件目录/sortspec.md",
+                "file": "日记/2023-10-31.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              },
-              "pinned": true
+              }
             }
           },
           {
-            "id": "d39b9ff6dc692741",
+            "id": "864753ceb9fdbee5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "记事本/工作/工作记事.md",
+                "file": "记事本/学习/开发软实力/git/git报错.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -261,7 +259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/工作/工作记事.md"
+                "file": "记事本/学习/开发软实力/git/git报错.md"
               }
             }
           },
@@ -279,7 +277,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/工作/工作记事.md",
+                "file": "记事本/学习/开发软实力/git/git报错.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -296,7 +294,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/工作/工作记事.md",
+                "file": "记事本/学习/开发软实力/git/git报错.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -308,7 +306,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/工作/工作记事.md"
+                "file": "记事本/学习/开发软实力/git/git报错.md"
               }
             }
           },
@@ -387,9 +385,46 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "d39b9ff6dc692741",
+  "active": "864753ceb9fdbee5",
   "lastOpenFiles": [
-    "记事本/学习/后端/linux/linux查看网络命令集合.md",
+    "记事本/非开发/资源素材/翻墙/翻墙清单啊.md",
+    "记事本/非开发/资源素材/翻墙",
+    "记事本/非开发/资源素材/学习网站收录/python网站.md",
+    "记事本/非开发/资源素材/学习网站收录/nodejs网站.md",
+    "记事本/非开发/资源素材/学习网站收录/IT技术网站.md",
+    "记事本/非开发/资源素材/学习网站收录/js网站.md",
+    "记事本/非开发/资源素材/学习网站收录",
+    "记事本/非开发/资源素材/excel/学习清单.md",
+    "记事本/非开发/资源素材/excel",
+    "记事本/工作/管理工作/优化工作/版本构建工具.md",
+    "记事本/工作/管理工作/优化工作/代码优化.md",
+    "记事本/工作/管理工作/优化工作/visibilitychange.md",
+    "记事本/工作/管理工作/优化工作/js worker.md",
+    "记事本/工作/管理工作/优化工作/IndexedDB.md",
+    "记事本/工作/管理工作/优化工作/angularjs命名标准.md",
+    "记事本/工作/管理工作/优化工作",
+    "记事本/非开发/生活/思想建设/豆豆上学导学.md",
+    "记事本/非开发/生活/思想建设/关于工作和生活.md",
+    "记事本/非开发/生活/思想建设/焦虑.md",
+    "记事本/非开发/生活/资源网站.md",
+    "记事本/非开发/生活/有声小说.md",
+    "记事本/非开发/生活/投诉话术.md",
+    "记事本/非开发/生活/思想建设",
+    "记事本/非开发/生活",
+    "记事本/非开发/文件备份/脚本文件.md",
+    "记事本/非开发/文件备份/windows zsh配置备份 20234015.md",
+    "记事本/非开发/文件备份/vscode配置文件备份.md",
+    "记事本/非开发/文件备份/compose.md",
+    "记事本/非开发/文件备份/aliases.sh.md",
+    "记事本/非开发/文件备份/bash_profile.md",
+    "记事本/非开发/文件备份",
+    "记事本/非开发/帐号密码/共享目录.md",
+    "记事本/非开发/帐号密码/gitlab 密码.md",
+    "记事本/非开发/帐号密码",
+    "记事本/非开发/其他",
+    "记事本/学习/开发软实力/正则和算法/assets/image1-20230708221750-3xs4yo1.png",
+    "记事本/学习/开发软实力/正则和算法/算法",
+    "obsidian配置文件目录/Attachment/assets 8/image1-20230705220235-az8rqxi.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231101231016.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231101230857.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231101230556.png",
@@ -398,42 +433,6 @@
     "obsidian配置文件目录/Attachment/Pasted image 20231101230406.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231101230109.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231101230036.png",
-    "obsidian配置文件目录/Attachment/Pasted image 20231101225956.png",
-    "obsidian配置文件目录/Attachment/Pasted image 20231101225551.png",
-    "记事本/学习/前端/vue2/vue学习清单.md",
-    "记事本/学习/前端/nodejs/nodejs学习导航.md",
-    "记事本/学习/后端/nginx/nginx.md",
-    "记事本/学习/后端/nginx/未命名.md",
-    "记事本/学习/开发软实力/vscode/vscode git graph.md",
-    "记事本/学习/后端/nginx",
-    "记事本/非开发/其他.md",
-    "记事本/学习/开发软实力/git/git 文档清单.md",
-    "obsidian配置文件目录/sortspec.md",
-    "记事本/非开发/其他/其他.md",
-    "conflict-files-obsidian-git.md",
-    "记事本/非开发/其他/readme.md",
-    "记事本/非开发/其他/a 汇总所有在线文档.md",
-    "记事本/非开发/帐号密码/共享目录.md",
-    "记事本/非开发/帐号密码/gitlab 密码.md",
-    "记事本/非开发/帐号密码/github firstToken.md",
-    "记事本/其他/待整理/生活.md",
-    "记事本/其他/待整理/文件备份.md",
-    "记事本/其他/待整理/正则和算法.md",
-    "记事本/其他/待整理/思想建设.md",
-    "记事本/其他/待整理/帐号密码.md",
-    "记事本/其他/待整理/linux命令.md",
-    "记事本/其他/待整理/一些奇技淫巧.md",
-    "记事本/其他/待整理/待整理.md",
-    "记事本/其他/待整理/优化工作.md",
-    "记事本/非开发/其他",
-    "记事本/学习/开发软实力/vscode",
-    "记事本/脚本/bash脚本",
-    "记事本/学习/开发软实力/正则和算法/算法",
-    "zagger_git_obsidian",
-    "zagger_git_backups",
-    "记事本/工作/工作项目维护/常见问题",
-    "记事本/工作/工作计划/有成果的工作",
-    "记事本/学习/开发软实力",
     "记事本/学习/测试/未命名.canvas"
   ]
 }
