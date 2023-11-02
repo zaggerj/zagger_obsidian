@@ -17,3 +17,15 @@
 比如, 提交 C1 可以被 rebase 到 C3 之后。这看起来 C1 中的工作是在 C3 之后进行的，但实际上是在 C3 之前。
 
 一些开发人员喜欢保留提交历史，因此更偏爱 merge。而其他人（比如我自己）可能更喜欢干净的提交树，于是偏爱 rebase。仁者见仁，智者见智。 : D；
+
+```shell
+git checkout master
+git pull
+git merge side1
+git merge side2
+git merge side3
+git push
+```
+
+
+![[Pasted image 20231102155324.png]]
