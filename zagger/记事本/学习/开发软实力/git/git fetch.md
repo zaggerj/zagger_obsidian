@@ -31,4 +31,4 @@ Git 远程仓库的操作实际可以归纳为两点：向远程仓库传输数�
 
 
 ![[Pasted image 20231102143029.png]] ![[Pasted image 20231102143123.png]]
-Git fetch 将两个分支
+Git fetch 将两个分支的远程分支都更新到最新了

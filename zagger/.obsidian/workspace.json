@@ -154,7 +154,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git fetch.md",
+                "file": "记事本/学习/开发软实力/git/git pull.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -272,7 +272,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git fetch.md"
+                "file": "记事本/学习/开发软实力/git/git pull.md"
               }
             }
           },
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git fetch.md",
+                "file": "记事本/学习/开发软实力/git/git pull.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git fetch.md",
+                "file": "记事本/学习/开发软实力/git/git pull.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -319,7 +319,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git fetch.md"
+                "file": "记事本/学习/开发软实力/git/git pull.md"
               }
             }
           },
@@ -400,11 +400,12 @@
   },
   "active": "06fba4976e2c5589",
   "lastOpenFiles": [
+    "记事本/学习/开发软实力/git/git fetch.md",
+    "记事本/学习/开发软实力/git/git pull.md",
     "obsidian配置文件目录/Attachment/Pasted image 20231102143123.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231102143029.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231102142624.png",
     "记事本/学习/开发软实力/git/git 远程分支.md",
-    "记事本/学习/开发软实力/git/git fetch.md",
     "obsidian配置文件目录/Attachment/Pasted image 20231102142323.png",
     "记事本/学习/开发软实力/git/git 设置远程追踪分支的方法.md",
     "记事本/学习/开发软实力/git/git clone命令.md",
@@ -445,7 +446,6 @@
     "obsidian配置文件目录/Attachment/assets 8/image1-20230705220235-az8rqxi.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231101231016.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231101230857.png",
-    "obsidian配置文件目录/Attachment/Pasted image 20231101230556.png",
     "记事本/学习/测试/未命名.canvas"
   ]
 }
