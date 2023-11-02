@@ -257,17 +257,41 @@
         "order": 38
       },
       {
-        "rule": ".",
-        "icon": "🐾",
-        "for": "everything",
-        "order": 40,
-        "useFilePath": false
-      },
-      {
         "rule": "js",
         "icon": "TiFileTypeJs",
         "for": "everything",
         "order": 39
+      },
+      {
+        "rule": "安装",
+        "icon": "RiInstallLine",
+        "for": "everything",
+        "order": 40
+      },
+      {
+        "rule": "AI",
+        "icon": "BoBxsMagicWand",
+        "for": "everything",
+        "order": 41
+      },
+      {
+        "rule": "娱乐",
+        "icon": "IbEntertainment",
+        "for": "everything",
+        "order": 42
+      },
+      {
+        "rule": ".",
+        "icon": "🐾",
+        "for": "everything",
+        "order": 44,
+        "useFilePath": false
+      },
+      {
+        "rule": "搜索",
+        "icon": "LiSearch",
+        "for": "everything",
+        "order": 43
       }
     ],
     "extraMargin": {
