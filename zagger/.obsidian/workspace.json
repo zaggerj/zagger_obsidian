@@ -154,7 +154,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "记事本/学习/开发软实力/奥卡姆剃刀原理.md",
+                "file": "记事本/学习/开发软实力/git/git rebase专辑/【git 整理提交】git rebase -i 命令详解.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -272,7 +272,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/学习/开发软实力/奥卡姆剃刀原理.md"
+                "file": "记事本/学习/开发软实力/git/git rebase专辑/【git 整理提交】git rebase -i 命令详解.md"
               }
             }
           },
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/学习/开发软实力/奥卡姆剃刀原理.md",
+                "file": "记事本/学习/开发软实力/git/git rebase专辑/【git 整理提交】git rebase -i 命令详解.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/学习/开发软实力/奥卡姆剃刀原理.md",
+                "file": "记事本/学习/开发软实力/git/git rebase专辑/【git 整理提交】git rebase -i 命令详解.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -319,7 +319,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/学习/开发软实力/奥卡姆剃刀原理.md"
+                "file": "记事本/学习/开发软实力/git/git rebase专辑/【git 整理提交】git rebase -i 命令详解.md"
               }
             }
           },
@@ -398,12 +398,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "06fba4976e2c5589",
+  "active": "23fad819ff207865",
   "lastOpenFiles": [
-    "记事本/学习/开发软实力/git/git rebase专辑/【git 整理提交】git rebase -i 命令详解.md",
-    "记事本/学习/开发软实力/奥卡姆剃刀原理.md",
-    "记事本/学习/开发软实力/git/git rebase专辑/git rebase清单.md",
     "记事本/学习/开发软实力/git/git rebase专辑/git rebase.md",
+    "记事本/学习/开发软实力/git/git rebase专辑/git rebase清单.md",
+    "记事本/学习/开发软实力/奥卡姆剃刀原理.md",
+    "记事本/学习/开发软实力/git/git rebase专辑/【git 整理提交】git rebase -i 命令详解.md",
     "记事本/学习/开发软实力/git/git rebase专辑",
     "obsidian配置文件目录/Attachment/Pasted image 20231102094346.png",
     "记事本/非开发/资源素材/环境安装和软件安装/同步软件/onedrive.md",
