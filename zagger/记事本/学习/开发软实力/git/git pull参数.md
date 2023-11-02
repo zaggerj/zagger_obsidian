@@ -17,8 +17,14 @@
 
 `git pull origin bar~1:bugFix` 相当于：
 
-`git fetch origin bar~1:bugFix; git merge bugFix` 写错了 bar~1
+`git fetch origin bar~1:bugFix; git merge bugFix` ~~写错了 bar~1~~，没错，git fetch 默认从远程仓库 master 下载到本地远程分支 o/master, 最终 merge 的是更新之后的分支。
 
 看到了? git pull 实际上就是 fetch + merge 的缩写, git pull 唯一关注的是提交最终合并到哪里（也就是为 git fetch 所提供的 destination 参数）
 
 一起来看个例子吧：
+
+![[Pasted image 20231102182504.png]]
+
+当前分支在 bar 分支，git merge 更新（git）之后的
+
+![[Pasted image 20231102182519.png]]
