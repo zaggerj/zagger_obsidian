@@ -281,6 +281,12 @@
         "order": 42
       },
       {
+        "rule": "搜索",
+        "icon": "LiSearch",
+        "for": "everything",
+        "order": 43
+      },
+      {
         "rule": ".",
         "icon": "🐾",
         "for": "everything",
@@ -288,10 +294,10 @@
         "useFilePath": false
       },
       {
-        "rule": "搜索",
-        "icon": "LiSearch",
+        "rule": "excel",
+        "icon": "SiMicrosoftexcel",
         "for": "everything",
-        "order": 43
+        "order": 45
       }
     ],
     "extraMargin": {
