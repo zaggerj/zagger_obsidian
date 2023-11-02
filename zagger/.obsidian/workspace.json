@@ -154,7 +154,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git pull.md",
+                "file": "记事本/学习/开发软实力/git/git push.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -272,7 +272,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git pull.md"
+                "file": "记事本/学习/开发软实力/git/git push.md"
               }
             }
           },
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git pull.md",
+                "file": "记事本/学习/开发软实力/git/git push.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git pull.md",
+                "file": "记事本/学习/开发软实力/git/git push.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -319,7 +319,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git pull.md"
+                "file": "记事本/学习/开发软实力/git/git push.md"
               }
             }
           },
@@ -400,13 +400,18 @@
   },
   "active": "06fba4976e2c5589",
   "lastOpenFiles": [
+    "obsidian配置文件目录/Attachment/Pasted image 20231102145543.png",
+    "obsidian配置文件目录/Attachment/Pasted image 20231102145531.png",
+    "记事本/学习/开发软实力/git/git 使用rebase还是merge.md",
+    "记事本/学习/开发软实力/git/git push参数.md",
+    "记事本/学习/开发软实力/git/git push.md",
+    "记事本/学习/开发软实力/git/git pull.md",
     "obsidian配置文件目录/Attachment/Pasted image 20231102144834.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231102144824.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231102144714.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231102143936.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231102143757.png",
     "记事本/学习/开发软实力/git/git fetch.md",
-    "记事本/学习/开发软实力/git/git pull.md",
     "obsidian配置文件目录/Attachment/Pasted image 20231102143123.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231102143029.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231102142624.png",
@@ -415,9 +420,6 @@
     "记事本/学习/开发软实力/git/git 设置远程追踪分支的方法.md",
     "记事本/学习/开发软实力/git/git clone命令.md",
     "记事本/学习/开发软实力/git/git pull origin 分支.md",
-    "obsidian配置文件目录/Attachment/Pasted image 20231102141945.png",
-    "记事本/学习/开发软实力/git/git 使用rebase还是merge.md",
-    "记事本/学习/开发软实力/git/git push参数.md",
     "记事本/学习/开发软实力/git/git fetch参数.md",
     "记事本/学习/开发软实力/git/git 文档清单.md",
     "记事本/学习/开发软实力/git/git rebase专辑/git rebase.md",
@@ -427,7 +429,6 @@
     "记事本/学习/开发软实力/git/git文件占用文件问题.md",
     "记事本/学习/开发软实力/奥卡姆剃刀原理.md",
     "记事本/学习/开发软实力/git/git rebase专辑",
-    "obsidian配置文件目录/Attachment/Pasted image 20231102094346.png",
     "记事本/非开发/资源素材/环境安装和软件安装/同步软件/onedrive.md",
     "记事本/非开发/资源素材/环境安装和软件安装/同步软件/resilio sync.md",
     "记事本/非开发/资源素材/环境安装和软件安装/window系统重装指南.md",
@@ -436,7 +437,6 @@
     "记事本/非开发/资源素材/环境安装和软件安装/rsync安装和配置.md",
     "obsidian配置文件目录/New/群公告-开发记事本.md",
     "obsidian配置文件目录/Attachment/群公告-开发记事本.md",
-    "obsidian配置文件目录/sortspec.md",
     "记事本/非开发/资源素材/翻墙",
     "记事本/非开发/资源素材/学习网站收录",
     "记事本/非开发/资源素材/excel",
