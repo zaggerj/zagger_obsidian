@@ -29,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "黑曜石使用相关/obsidian教程.md",
+                "file": "黑曜石使用相关/obsidian/obsidian教程.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -149,9 +149,48 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f7c5782178482a16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "黑曜石使用相关/obsidian/obsidian工作流.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6559b70b3afa1282",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "记事本/非开发/其他/其他.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d7856247cfe4fa39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "记事本/学习/学习计划脚本/转换规则总结(巅峰完美诠释文档).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -261,7 +300,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/工作/工作记事.md"
+                "file": "记事本/学习/学习计划脚本/转换规则总结(巅峰完美诠释文档).md"
               }
             }
           },
@@ -279,7 +318,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/工作/工作记事.md",
+                "file": "记事本/学习/学习计划脚本/转换规则总结(巅峰完美诠释文档).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -296,7 +335,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/工作/工作记事.md",
+                "file": "记事本/学习/学习计划脚本/转换规则总结(巅峰完美诠释文档).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -308,7 +347,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/工作/工作记事.md"
+                "file": "记事本/学习/学习计划脚本/转换规则总结(巅峰完美诠释文档).md"
               }
             }
           },
@@ -387,10 +426,27 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "d39b9ff6dc692741",
+  "active": "d7856247cfe4fa39",
   "lastOpenFiles": [
-    "记事本/工作/工作记事-zagger.md",
+    "记事本/学习/学习计划脚本/脚本.md",
+    "记事本/学习/学习计划脚本/js学习计划脚本.md",
+    "记事本/学习/学习计划脚本/js学习计划.md",
+    "记事本/学习/学习计划脚本/学习笔记.md",
+    "记事本/学习/学习计划脚本/工作计划梳理和安排.md",
+    "obsidian配置文件目录/sortspec.md",
+    "记事本/非开发/其他/其他.md",
+    "记事本/非开发/其他.md",
+    "黑曜石使用相关/obsidian/obsidian工作流.md",
+    "黑曜石使用相关/obsidian/教程 1.md",
+    "黑曜石使用相关/obsidian/The One 1.md",
+    "黑曜石使用相关/obsidian/The One.md",
+    "记事本/非开发/文件备份/windows zsh配置备份 20234015-zagger.md",
+    "记事本/非开发/文件备份/windows zsh配置备份 20234015.md",
+    "记事本/非开发/账号密码/共享目录.md",
+    "记事本/非开发/账号密码/gitlab 密码.md",
+    "记事本/非开发/账号密码/github firstToken.md",
     "记事本/工作/工作记事.md",
+    "记事本/工作/工作记事-zagger.md",
     "记事本/学习/开发软实力/奥卡姆剃刀原理.md",
     "记事本/学习/开发软实力/git/远程跟踪分支.md",
     "记事本/学习/开发软实力/git/合并特性分支.md",
@@ -398,15 +454,6 @@
     "记事本/学习/开发软实力/git/偏离的工作.md",
     "记事本/学习/开发软实力/git/为什么不用merge.md",
     "记事本/学习/开发软实力/git/learn-git-branching两个显示全的命令.md",
-    "记事本/学习/开发软实力/git/git 远程分支.md",
-    "记事本/学习/开发软实力/git/git push参数2.md",
-    "记事本/学习/开发软实力/git/git push.md",
-    "记事本/学习/开发软实力/git/git pull参数.md",
-    "记事本/学习/开发软实力/git/git pull.md",
-    "记事本/学习/开发软实力/git/git fetch.md",
-    "记事本/学习/开发软实力/git/git clone命令.md",
-    "obsidian配置文件目录/New/群公告-开发记事本.md",
-    "obsidian配置文件目录/Attachment/群公告-开发记事本.md",
     "obsidian配置文件目录/Attachment/Pasted image 20231102183256.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231102183250.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231102182929.png",
@@ -417,16 +464,8 @@
     "obsidian配置文件目录/Attachment/Pasted image 20231102180651.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231102180638.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231102180557.png",
-    "记事本/学习/开发软实力/git/git rebase专辑/【git 整理提交】git rebase -i 命令详解.md",
-    "记事本/学习/开发软实力/git/git rebase专辑/git rebase清单.md",
-    "记事本/学习/开发软实力/git/git rebase专辑/git rebase.md",
     "记事本/学习/开发软实力/git/git rebase专辑",
-    "记事本/非开发/资源素材/AI工具/ai工具清单.md",
     "记事本/非开发/资源素材/AI工具",
-    "记事本/非开发/资源素材/搜索资源方式.md",
-    "记事本/非开发/其他/其他 1.md",
-    "记事本/非开发/文件备份/windows zsh配置备份 20234015-zagger.md",
-    "记事本/非开发/资源素材/环境安装和软件安装/windows软件安装/windows软件列表/安装scoop/scoop 配置 全局安装目录和局部安装目录.md",
     "记事本/非开发/资源素材/环境安装和软件安装/windows软件安装/windows软件列表/安装powershell/assets",
     "记事本/非开发/资源素材/环境安装和软件安装/windows软件安装/windows软件列表/assets/app-20230716140408-rlksfzz.asar",
     "记事本/非开发/资源素材/环境安装和软件安装/windows软件安装/windows软件列表/安装scoop",

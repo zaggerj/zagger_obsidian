@@ -104,6 +104,14 @@ sorting-spec: "target-folder: /
 
   docker
 
+  nginx
+
+  ftp服务器和npm 临时仓库地址
+
+  postman
+
+  shell_code
+
 
   target-folder: 记事本/非开发
 
@@ -173,7 +181,7 @@ sorting-spec: "target-folder: /
 
   target-folder: 黑曜石使用相关
 
-  obsidian教程
+  obsidian
 
   Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币
 
