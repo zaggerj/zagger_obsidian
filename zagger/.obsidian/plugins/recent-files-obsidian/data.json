@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "onedrive",
+      "path": "记事本/非开发/资源素材/环境安装和软件安装/同步软件/onedrive.md"
+    },
+    {
       "basename": "resilio sync",
       "path": "记事本/非开发/资源素材/环境安装和软件安装/同步软件/resilio sync.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "团队组员工作状态回顾",
       "path": "记事本/工作/工作计划/有成果的工作/团队组员工作状态回顾/团队组员工作状态回顾.md"
-    },
-    {
-      "basename": "团队组员工作状态回顾 1",
-      "path": "记事本/工作/工作计划/有成果的工作/团队组员工作状态回顾/团队组员工作状态回顾 1.md"
     }
   ],
   "omittedPaths": [],
