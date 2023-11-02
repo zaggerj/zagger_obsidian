@@ -154,7 +154,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "记事本/非开发/资源素材/环境安装和软件安装/同步软件/onedrive.md",
+                "file": "记事本/学习/开发软实力/git/git rebase.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -272,7 +272,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/非开发/资源素材/环境安装和软件安装/同步软件/onedrive.md"
+                "file": "记事本/学习/开发软实力/git/git rebase.md"
               }
             }
           },
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/非开发/资源素材/环境安装和软件安装/同步软件/onedrive.md",
+                "file": "记事本/学习/开发软实力/git/git rebase.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/非开发/资源素材/环境安装和软件安装/同步软件/onedrive.md",
+                "file": "记事本/学习/开发软实力/git/git rebase.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -319,7 +319,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/非开发/资源素材/环境安装和软件安装/同步软件/onedrive.md"
+                "file": "记事本/学习/开发软实力/git/git rebase.md"
               }
             }
           },
@@ -400,8 +400,10 @@
   },
   "active": "06fba4976e2c5589",
   "lastOpenFiles": [
-    "记事本/非开发/资源素材/环境安装和软件安装/同步软件/resilio sync.md",
+    "obsidian配置文件目录/Attachment/Pasted image 20231102094346.png",
     "记事本/非开发/资源素材/环境安装和软件安装/同步软件/onedrive.md",
+    "记事本/学习/开发软实力/git/git rebase.md",
+    "记事本/非开发/资源素材/环境安装和软件安装/同步软件/resilio sync.md",
     "记事本/非开发/资源素材/环境安装和软件安装/window系统重装指南.md",
     "记事本/非开发/资源素材/环境安装和软件安装/最新实用油猴脚本推荐.md",
     "记事本/非开发/资源素材/环境安装和软件安装/软件下载.md",
@@ -427,8 +429,6 @@
     "记事本/非开发/资源素材/excel",
     "记事本/工作/管理工作/优化工作/版本构建工具.md",
     "记事本/工作/管理工作/优化工作/代码优化.md",
-    "记事本/工作/管理工作/优化工作/visibilitychange.md",
-    "记事本/工作/管理工作/优化工作/js worker.md",
     "记事本/工作/管理工作/优化工作",
     "记事本/非开发/生活/思想建设",
     "记事本/非开发/生活",
