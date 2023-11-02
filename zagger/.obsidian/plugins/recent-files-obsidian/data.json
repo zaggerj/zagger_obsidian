@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "合并特性分支",
+      "path": "记事本/学习/开发软实力/git/合并特性分支.md"
+    },
+    {
+      "basename": "learn-git-branching两个显示全的命令",
+      "path": "记事本/学习/开发软实力/git/learn-git-branching两个显示全的命令.md"
+    },
+    {
+      "basename": "偏离的工作",
+      "path": "记事本/学习/开发软实力/git/偏离的工作.md"
+    },
+    {
       "basename": "git pull",
       "path": "记事本/学习/开发软实力/git/git pull.md"
     },
@@ -13,20 +25,8 @@
       "path": "记事本/学习/开发软实力/git/git push.md"
     },
     {
-      "basename": "偏离的工作",
-      "path": "记事本/学习/开发软实力/git/偏离的工作.md"
-    },
-    {
       "basename": "为什么不用merge",
       "path": "记事本/学习/开发软实力/git/为什么不用merge.md"
-    },
-    {
-      "basename": "合并特性分支",
-      "path": "记事本/学习/开发软实力/git/合并特性分支.md"
-    },
-    {
-      "basename": "learn-git-branching两个显示全的命令",
-      "path": "记事本/学习/开发软实力/git/learn-git-branching两个显示全的命令.md"
     },
     {
       "basename": "git 使用rebase还是merge",
