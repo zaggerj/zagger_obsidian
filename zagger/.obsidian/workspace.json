@@ -141,7 +141,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git报错.md",
+                "file": "记事本/非开发/文件备份/windows zsh配置备份 20234015.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -259,7 +259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git报错.md"
+                "file": "记事本/非开发/文件备份/windows zsh配置备份 20234015.md"
               }
             }
           },
@@ -277,7 +277,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git报错.md",
+                "file": "记事本/非开发/文件备份/windows zsh配置备份 20234015.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -294,7 +294,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git报错.md",
+                "file": "记事本/非开发/文件备份/windows zsh配置备份 20234015.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +306,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git报错.md"
+                "file": "记事本/非开发/文件备份/windows zsh配置备份 20234015.md"
               }
             }
           },
@@ -385,9 +385,16 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "864753ceb9fdbee5",
+  "active": "23fad819ff207865",
   "lastOpenFiles": [
-<<<<<<< HEAD
+    "记事本/非开发/文件备份/脚本文件.md",
+    "记事本/非开发/脚本/脚本集合/补丁脚本.md",
+    "记事本/非开发/环境安排和软件安装/window系统重装指南.md",
+    "记事本/非开发/环境安排和软件安装/window系统重装指南 1.md",
+    "记事本/非开发/环境安排和软件安装/软件下载.md",
+    "记事本/非开发/环境安排和软件安装/软件下载-20230705215136-k4fyeyi.md",
+    "记事本/非开发/环境安排和软件安装/最新实用油猴脚本推荐.md",
+    "记事本/学习/开发软实力/git/git报错.md",
     "记事本/非开发/资源素材/翻墙/翻墙清单啊.md",
     "记事本/非开发/资源素材/翻墙",
     "记事本/非开发/资源素材/学习网站收录/python网站.md",
@@ -412,15 +419,7 @@
     "记事本/非开发/生活/投诉话术.md",
     "记事本/非开发/生活/思想建设",
     "记事本/非开发/生活",
-    "记事本/非开发/文件备份/脚本文件.md",
-    "记事本/非开发/文件备份/windows zsh配置备份 20234015.md",
-    "记事本/非开发/文件备份/vscode配置文件备份.md",
-    "记事本/非开发/文件备份/compose.md",
-    "记事本/非开发/文件备份/aliases.sh.md",
-    "记事本/非开发/文件备份/bash_profile.md",
     "记事本/非开发/文件备份",
-    "记事本/非开发/帐号密码/共享目录.md",
-    "记事本/非开发/帐号密码/gitlab 密码.md",
     "记事本/非开发/帐号密码",
     "记事本/非开发/其他",
     "记事本/学习/开发软实力/正则和算法/assets/image1-20230708221750-3xs4yo1.png",
@@ -435,54 +434,5 @@
     "obsidian配置文件目录/Attachment/Pasted image 20231101230109.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231101230036.png",
     "记事本/学习/测试/未命名.canvas"
-=======
-    "记事本/其他/待整理/linux命令.md",
-    "记事本/学习/开发软实力/git/git报错.md",
-    "汇总所有在线文档.md",
-    "记事本/非开发/其他.md",
-    "记事本/其他/待整理/一些奇技淫巧.md",
-    "记事本/其他/待整理/待整理.md",
-    "记事本/其他/待整理/优化工作.md",
-    "记事本/非开发/未命名",
-    "记事本/学习/开发软实力/vscode/vscode git graph.md",
-    "黑曜石使用相关/obsidian教程.md",
-    "记事本/学习/开发软实力/vscode",
-    "记事本/学习/开发软实力/git/git fetch参数.md",
-    "日记/2023-10-31.md",
-    "记事本/工作/工作记事.md",
-    "记事本/学习/开发软实力/git/git 设置远程追踪分支的方法.md",
-    "记事本/学习/开发软实力/git/git 使用rebase还是merge.md",
-    "记事本/学习/开发软实力/git/git push参数.md",
-    "记事本/学习/开发软实力/git/git pull origin 分支.md",
-    "obsidian配置文件目录/Attachment/Pasted image 20231101182904.png",
-    "obsidian配置文件目录/Attachment/Pasted image 20231101182658.png",
-    "obsidian配置文件目录/Attachment/Pasted image 20231101182555.png",
-    "记事本/学习/开发软实力/git/git 文档清单.md",
-    "记事本/脚本/bash脚本/合并分支脚本.md",
-    "记事本/脚本/bash脚本",
-    "记事本/学习/开发软实力/算法/算法学习链接.md",
-    "记事本/学习/开发软实力/git/git相关文档.md",
-    "obsidian配置文件目录/New/task.md",
-    "记事本/非开发/环境安排和软件安装/家庭办公远程/personal token-zagger.md",
-    "记事本/学习/开发软实力/算法",
-    "记事本/工作/工作项目维护/业务知识和难题/spice/spice库代码梳理.md",
-    "obsidian配置文件目录/Attachment/Pasted image 20231016230100.png.md",
-    "记事本/学习/学习计划脚本/工作计划梳理和安排.md",
-    "记事本/学习/开发软实力/git/git文件占用文件问题.md",
-    "obsidian配置文件目录/Attachment/bbeab787757c6e0eff0236c28bf7ecf 1.jpg",
-    "obsidian配置文件目录/Attachment/bbeab787757c6e0eff0236c28bf7ecf.jpg",
-    "obsidian配置文件目录/Attachment/Pasted image 20231031150252.png",
-    "obsidian配置文件目录/Attachment/Pasted image 20231031150246.png",
-    "obsidian配置文件目录/Attachment/Pasted image 20231031150227.png",
-    "obsidian配置文件目录/Attachment/Pasted image 20231031144109.png",
-    "zagger_git_obsidian",
-    "zagger_git_backups",
-    "记事本/工作/工作项目维护/常见问题",
-    "记事本/工作/工作计划/有成果的工作",
-    "记事本/学习/开发软实力",
-    "记事本/非开发",
-    "记事本/学习/测试/未命名.canvas",
-    "obsidian配置文件目录/Attachment/assets 6/image5-20230705220235-zjjdatn.png"
->>>>>>> ebc7c07 (vault backup: 2023-11-02 08:29:56)
   ]
 }
