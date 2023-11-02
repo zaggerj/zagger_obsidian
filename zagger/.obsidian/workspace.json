@@ -154,7 +154,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git pull origin 分支.md",
+                "file": "记事本/学习/开发软实力/git/git 使用rebase还是merge.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -272,7 +272,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git pull origin 分支.md"
+                "file": "记事本/学习/开发软实力/git/git 使用rebase还是merge.md"
               }
             }
           },
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git pull origin 分支.md",
+                "file": "记事本/学习/开发软实力/git/git 使用rebase还是merge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git pull origin 分支.md",
+                "file": "记事本/学习/开发软实力/git/git 使用rebase还是merge.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -319,7 +319,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/学习/开发软实力/git/git pull origin 分支.md"
+                "file": "记事本/学习/开发软实力/git/git 使用rebase还是merge.md"
               }
             }
           },
@@ -398,19 +398,19 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "23fad819ff207865",
+  "active": "06fba4976e2c5589",
   "lastOpenFiles": [
-    "记事本/学习/开发软实力/git/git rebase专辑/git rebase.md",
+    "记事本/学习/开发软实力/git/git push参数.md",
     "记事本/学习/开发软实力/git/git fetch参数.md",
     "记事本/学习/开发软实力/git/git 文档清单.md",
+    "记事本/学习/开发软实力/git/git pull origin 分支.md",
+    "记事本/学习/开发软实力/git/git rebase专辑/git rebase.md",
     "记事本/学习/开发软实力/git/git rebase专辑/git rebase清单.md",
+    "记事本/学习/开发软实力/git/git rebase专辑/【git 整理提交】git rebase -i 命令详解.md",
     "记事本/学习/开发软实力/git/git报错.md",
     "记事本/学习/开发软实力/git/git文件占用文件问题.md",
     "记事本/学习/开发软实力/git/git 使用rebase还是merge.md",
     "记事本/学习/开发软实力/git/git 设置远程追踪分支的方法.md",
-    "记事本/学习/开发软实力/git/git push参数.md",
-    "记事本/学习/开发软实力/git/git pull origin 分支.md",
-    "记事本/学习/开发软实力/git/git rebase专辑/【git 整理提交】git rebase -i 命令详解.md",
     "记事本/学习/开发软实力/奥卡姆剃刀原理.md",
     "记事本/学习/开发软实力/git/git rebase专辑",
     "obsidian配置文件目录/Attachment/Pasted image 20231102094346.png",

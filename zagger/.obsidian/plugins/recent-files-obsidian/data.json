@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "git pull origin 分支",
-      "path": "记事本/学习/开发软实力/git/git pull origin 分支.md"
+      "basename": "git 使用rebase还是merge",
+      "path": "记事本/学习/开发软实力/git/git 使用rebase还是merge.md"
     },
     {
-      "basename": "git rebase",
-      "path": "记事本/学习/开发软实力/git/git rebase专辑/git rebase.md"
+      "basename": "git push参数",
+      "path": "记事本/学习/开发软实力/git/git push参数.md"
     },
     {
       "basename": "git fetch参数",
@@ -17,8 +17,20 @@
       "path": "记事本/学习/开发软实力/git/git 文档清单.md"
     },
     {
+      "basename": "git pull origin 分支",
+      "path": "记事本/学习/开发软实力/git/git pull origin 分支.md"
+    },
+    {
+      "basename": "git rebase",
+      "path": "记事本/学习/开发软实力/git/git rebase专辑/git rebase.md"
+    },
+    {
       "basename": "git rebase清单",
       "path": "记事本/学习/开发软实力/git/git rebase专辑/git rebase清单.md"
+    },
+    {
+      "basename": "【git 整理提交】git rebase -i 命令详解",
+      "path": "记事本/学习/开发软实力/git/git rebase专辑/【git 整理提交】git rebase -i 命令详解.md"
     },
     {
       "basename": "git报错",
@@ -29,20 +41,8 @@
       "path": "记事本/学习/开发软实力/git/git文件占用文件问题.md"
     },
     {
-      "basename": "git 使用rebase还是merge",
-      "path": "记事本/学习/开发软实力/git/git 使用rebase还是merge.md"
-    },
-    {
       "basename": "git 设置远程追踪分支的方法",
       "path": "记事本/学习/开发软实力/git/git 设置远程追踪分支的方法.md"
-    },
-    {
-      "basename": "git push参数",
-      "path": "记事本/学习/开发软实力/git/git push参数.md"
-    },
-    {
-      "basename": "【git 整理提交】git rebase -i 命令详解",
-      "path": "记事本/学习/开发软实力/git/git rebase专辑/【git 整理提交】git rebase -i 命令详解.md"
     },
     {
       "basename": "奥卡姆剃刀原理",
