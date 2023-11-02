@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "奥卡姆剃刀原理",
+      "path": "记事本/学习/开发软实力/奥卡姆剃刀原理.md"
+    },
+    {
       "basename": "【git 整理提交】git rebase -i 命令详解",
       "path": "记事本/学习/开发软实力/git/git rebase专辑/【git 整理提交】git rebase -i 命令详解.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "新版本",
       "path": "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/新版本.md"
-    },
-    {
-      "basename": "碎片",
-      "path": "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/碎片.md"
     }
   ],
   "omittedPaths": [],
