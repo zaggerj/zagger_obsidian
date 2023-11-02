@@ -19,7 +19,7 @@
 
 `git fetch origin bar~1:bugFix; git merge bugFix` ~~写错了 bar~1~~，没错，git fetch 默认从远程仓库 master 下载到本地远程分支 o/master, 最终 merge 的是更新之后的分支。
 
-看到了? git pull 实际上就是 fetch + merge 的缩写, git pull 唯一关注的是提交最终合并到哪里（也就是为 git fetch 所提供的 destination 参数）
+看到了? git pull 实际上就是 fetch + merge 的缩写, git pull **唯一关注的是提交最终合并到哪里**（也就是为 git fetch 所提供的 destination 参数）
 
 一起来看个例子吧：
 
@@ -32,3 +32,16 @@
 ![[Pasted image 20231102182717.png]]
 
 ![[Pasted image 20231102182929.png]]
+
+
+![[Pasted image 20231102183256.png]]
+
+
+![[Pasted image 20231102183250.png]]
+
+
+```shell
+git fetch origin master:side
+git pull origin bar:foo
+
+```
