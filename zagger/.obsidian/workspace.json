@@ -141,7 +141,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "记事本/非开发/文件备份/windows zsh配置备份 20234015.md",
+                "file": "obsidian配置文件目录/sortspec.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -259,7 +259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/非开发/文件备份/windows zsh配置备份 20234015.md"
+                "file": "obsidian配置文件目录/sortspec.md"
               }
             }
           },
@@ -277,7 +277,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/非开发/文件备份/windows zsh配置备份 20234015.md",
+                "file": "obsidian配置文件目录/sortspec.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -294,7 +294,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/非开发/文件备份/windows zsh配置备份 20234015.md",
+                "file": "obsidian配置文件目录/sortspec.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +306,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/非开发/文件备份/windows zsh配置备份 20234015.md"
+                "file": "obsidian配置文件目录/sortspec.md"
               }
             }
           },
@@ -387,13 +387,15 @@
   },
   "active": "23fad819ff207865",
   "lastOpenFiles": [
+    "记事本/非开发/其他/其他 1.md",
+    "记事本/非开发/文件备份/windows zsh配置备份 20234015.md",
     "记事本/非开发/文件备份/脚本文件.md",
     "记事本/非开发/脚本/脚本集合/补丁脚本.md",
-    "记事本/非开发/环境安排和软件安装/window系统重装指南.md",
+    "记事本/非开发/资源素材/环境安排和软件安装/window系统重装指南.md",
     "记事本/非开发/环境安排和软件安装/window系统重装指南 1.md",
-    "记事本/非开发/环境安排和软件安装/软件下载.md",
+    "记事本/非开发/资源素材/环境安排和软件安装/软件下载.md",
     "记事本/非开发/环境安排和软件安装/软件下载-20230705215136-k4fyeyi.md",
-    "记事本/非开发/环境安排和软件安装/最新实用油猴脚本推荐.md",
+    "记事本/非开发/资源素材/环境安排和软件安装/最新实用油猴脚本推荐.md",
     "记事本/学习/开发软实力/git/git报错.md",
     "记事本/非开发/资源素材/翻墙/翻墙清单啊.md",
     "记事本/非开发/资源素材/翻墙",
@@ -415,12 +417,10 @@
     "记事本/非开发/生活/思想建设/关于工作和生活.md",
     "记事本/非开发/生活/思想建设/焦虑.md",
     "记事本/非开发/生活/资源网站.md",
-    "记事本/非开发/生活/有声小说.md",
-    "记事本/非开发/生活/投诉话术.md",
     "记事本/非开发/生活/思想建设",
     "记事本/非开发/生活",
     "记事本/非开发/文件备份",
-    "记事本/非开发/帐号密码",
+    "记事本/非开发/账号密码",
     "记事本/非开发/其他",
     "记事本/学习/开发软实力/正则和算法/assets/image1-20230708221750-3xs4yo1.png",
     "记事本/学习/开发软实力/正则和算法/算法",

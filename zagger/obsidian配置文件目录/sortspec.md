@@ -105,17 +105,21 @@ sorting-spec: "target-folder: /
   docker
 
 
-  target-folder: 记事本/学习/非开发
+  target-folder: 记事本/非开发
 
-  环境安排和软件安装
-
-  学习网站收录
-
-  英文
+  生活
 
   资源素材
 
-  excel
+  英文
+
+  脚本
+
+  文件备份
+
+  账号密码
+
+  其他
 
 
   target-folder: 记事本/工作/工作计划
