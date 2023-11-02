@@ -298,6 +298,12 @@
         "icon": "SiMicrosoftexcel",
         "for": "everything",
         "order": 45
+      },
+      {
+        "rule": "翻墙",
+        "icon": "TiWall",
+        "for": "everything",
+        "order": 46
       }
     ],
     "extraMargin": {

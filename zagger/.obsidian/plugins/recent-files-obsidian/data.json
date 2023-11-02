@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "群公告-开发记事本",
+      "path": "obsidian配置文件目录/New/群公告-开发记事本.md"
+    },
+    {
       "basename": "sortspec",
       "path": "obsidian配置文件目录/sortspec.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "最新工作安排",
       "path": "记事本/工作/工作计划/最新工作安排/最新工作安排.md"
-    },
-    {
-      "basename": "禅道规范",
-      "path": "记事本/工作/工作计划/有成果的工作/禅道规范.md"
     }
   ],
   "omittedPaths": [],
