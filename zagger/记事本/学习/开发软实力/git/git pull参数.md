@@ -25,6 +25,10 @@
 
 ![[Pasted image 20231102182504.png]]
 
-当前分支在 bar 分支，git merge 更新（git）之后的
+当前分支在 bar 分支，git merge 更新（git fetch origin master）之后的 o/master 分支
 
 ![[Pasted image 20231102182519.png]]
+
+![[Pasted image 20231102182717.png]]
+
+![[Pasted image 20231102182929.png]]
