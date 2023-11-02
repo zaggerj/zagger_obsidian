@@ -23,18 +23,19 @@ _切到本地仓库中的“master”分支，获取所有的提交，再到远�
 
 ![[Pasted image 20231102164114.png]]
 
-You
+如果不给参数，默认是从当前分支推送，
+游离 HEAD 没有跟踪任何分支；
+
 ![[Pasted image 20231102164131.png]]
 
 
-## `<place>` 参数详解
+![[Pasted image 20231102164354.png]]
 
-还记得之前课程说的吧，当为 git push 指定 place 参数为 `master` 时，我们同时指定了提交记录的来源和去向。
 
-要同时为源和目的地指定 `<place>` 的话，只需要用冒号 `:` 将二者连起来就可以了：
+```shell
+git push origin master
+git push origin foo
+```
 
-`git push origin <source>:<destination>`
+![[Pasted image 20231102164347.png]]
 
-这个参数实际的值是个 refspec，“refspec” 是一个自造的词，意思是 Git 能识别的位置（比如分支 `foo` 或者 `HEAD~1`）
-
-一旦你指定了独立的来源和目的地，就可以组织出言简意赅的远程操作命令了，让我们看看演示！
