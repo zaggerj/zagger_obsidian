@@ -52,7 +52,8 @@ msg:{
 this.$emit('on-click', event)
 ```
 
-方法二
+方法二 
+原生是按钮自己触发的
 
 ```css
 加上.native就是原生方法
@@ -64,11 +65,12 @@ this.$emit('on-click', event)
 
 ## slot
 
-`<slot>` 节点就是指定的一个插槽的位置,v-slot:[name]可以指定插槽的位置，有了name就叫具名插槽
+子组件中使用： `<slot>` 节点就是指定的一个插槽的位置,
+父组件中使用：v-slot:[name]可以指定插槽的位置，有了 name 就叫具名插槽
 
 #### 具名slot
 
-元素可以用一个特殊的属性 name 来配置如何分发内容。多个 slot 可以有不同的名字。具名 slot 将匹配内容片段中有对应 slot 特性的元素 父组件
+子组件中，`<slot>` 元素可以用一个特殊的属性 name 来配置如何分发内容。多个 slot 可以有不同的名字。具名 slot 将匹配内容片段中有对应 slot 特性的元素父组件
 
 ```xml
     <slotshow>
