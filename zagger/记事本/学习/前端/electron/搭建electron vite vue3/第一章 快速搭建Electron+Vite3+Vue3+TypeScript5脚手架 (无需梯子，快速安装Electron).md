@@ -268,9 +268,9 @@ plugins: [vue()],
 > `pnpm build` 出现过一次失败，github 被墙了，命令行设置有 setproxy 之后，安装成功了。
 ![[Pasted image 20231103100720.png]]
 
-问题二
-Prettier 格式化 ts 文件时报错了
-原来是 package. son
+> 问题二
+> Prettier 格式化 ts 文件时报错了
+> 原来是 `package.json` 文件中带有注释，导致报错了，干掉注释，解决问题
 
 ![](https://img-blog.csdnimg.cn/432a32ee57684d58ba4ea27f2cd7bb0f.png)
 
