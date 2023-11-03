@@ -3,7 +3,7 @@
   "lifecycleSetting": "1",
   "backupsPerDaySetting": "3",
   "winSavePathSetting": "D:\\oneDrive\\config_sync\\obsidian",
-  "unixSavePathSetting": "/Users/zagger/obsidian",
+  "unixSavePathSetting": "/Users/zagger/Library/CloudStorage/OneDrive-个人/config_sync/obsidian",
   "customizeNameSetting": "zagger-Backup-%Y_%m_%d_%H_%M_%S",
   "intervalToggleSetting": true,
   "intervalValueSetting": "120",
