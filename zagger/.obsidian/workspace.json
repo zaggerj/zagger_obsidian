@@ -139,7 +139,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "记事本/学习/前端/electron/搭建electron vite vue3/第二章 Electron自定义界面(最大化、最小化、关闭、图标等等).md",
+                "file": "记事本/学习/后端/linux/linux查看网络命令集合.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -210,8 +210,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "73db95bfb166faa1",
@@ -258,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/学习/前端/electron/搭建electron vite vue3/第二章 Electron自定义界面(最大化、最小化、关闭、图标等等).md"
+                "file": "记事本/学习/后端/linux/linux查看网络命令集合.md"
               }
             }
           },
@@ -276,7 +275,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/学习/前端/electron/搭建electron vite vue3/第二章 Electron自定义界面(最大化、最小化、关闭、图标等等).md",
+                "file": "记事本/学习/后端/linux/linux查看网络命令集合.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -293,7 +292,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/学习/前端/electron/搭建electron vite vue3/第二章 Electron自定义界面(最大化、最小化、关闭、图标等等).md",
+                "file": "记事本/学习/后端/linux/linux查看网络命令集合.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -305,7 +304,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/学习/前端/electron/搭建electron vite vue3/第二章 Electron自定义界面(最大化、最小化、关闭、图标等等).md"
+                "file": "记事本/学习/后端/linux/linux查看网络命令集合.md"
               }
             }
           },
@@ -386,8 +385,8 @@
   },
   "active": "06fba4976e2c5589",
   "lastOpenFiles": [
-    "记事本/学习/前端/electron/搭建electron vite vue3/第一章 快速搭建Electron+Vite3+Vue3+TypeScript5脚手架 (无需梯子，快速安装Electron).md",
     "记事本/学习/前端/electron/搭建electron vite vue3/第二章 Electron自定义界面(最大化、最小化、关闭、图标等等).md",
+    "记事本/学习/前端/electron/搭建electron vite vue3/第一章 快速搭建Electron+Vite3+Vue3+TypeScript5脚手架 (无需梯子，快速安装Electron).md",
     "obsidian配置文件目录/Attachment/Pasted image 20231103100720.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231103093813.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231103093256.png",
