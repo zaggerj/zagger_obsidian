@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "github 使用本地刚初始化项目",
-      "path": "记事本/学习/开发软实力/git/github 使用本地刚初始化项目.md"
+      "basename": "nodejs学习导航",
+      "path": "记事本/学习/前端/nodejs/nodejs学习导航.md"
+    },
+    {
+      "basename": "nodejs学习路线(2023-4-15)",
+      "path": "记事本/学习/前端/nodejs/nodejs学习路线(2023-4-15).md"
     },
     {
       "basename": "electron搭建清单",
       "path": "记事本/学习/前端/electron/搭建electron vite vue3/electron搭建清单.md"
+    },
+    {
+      "basename": "github 使用本地刚初始化项目",
+      "path": "记事本/学习/开发软实力/git/github 使用本地刚初始化项目.md"
     },
     {
       "basename": "vue学习清单",
@@ -191,14 +199,6 @@
     {
       "basename": "第一章 快速搭建Electron+Vite3+Vue3+TypeScript5脚手架 (无需梯子，快速安装Electron)",
       "path": "记事本/学习/前端/electron/搭建electron vite vue3/第一章 快速搭建Electron+Vite3+Vue3+TypeScript5脚手架 (无需梯子，快速安装Electron).md"
-    },
-    {
-      "basename": "git pull参数",
-      "path": "记事本/学习/开发软实力/git/git pull参数.md"
-    },
-    {
-      "basename": "git fetch参数",
-      "path": "记事本/学习/开发软实力/git/git fetch参数.md"
     }
   ],
   "omittedPaths": [],

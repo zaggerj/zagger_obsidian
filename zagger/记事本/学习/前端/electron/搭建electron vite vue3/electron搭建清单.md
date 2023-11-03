@@ -12,8 +12,11 @@
 11. [第七章 Electron Vue3实现音乐播放器_vue音乐播放器-CSDN博客](https://blog.csdn.net/qq_19991931/article/details/131123013)
 12. [第八章 Electron 实现音乐播放器之爬虫播放音乐_electron爬虫-CSDN博客](https://blog.csdn.net/qq_19991931/article/details/131226481)
 13. [摸鱼派 (fishpi.cn)](https://fishpi.cn/)
+14. [华为云开发者联盟 (csdn.net)](https://huaweicloud.csdn.net/?utm_source=blog_detail)
 
 # 学习策略
+[Home | Vite中文网 (vitejs.cn)](https://vitejs.cn/)
+[开始 | Vite 官方中文文档 (vitejs.dev)](https://cn.vitejs.dev/guide/)
 1. Vite 文档熟悉大概
 2. Vue 3 了解一下
 3. Vue 2 复习下
