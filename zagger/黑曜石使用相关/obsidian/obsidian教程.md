@@ -4,6 +4,7 @@
 3. [Enchancing mindmap--实现思维导图自由【玩转Obsidian的保姆级教程】 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/404805883)
 4. [一个日清单的工作流【玩转Obsidian的保姆级教程】 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/403675420)
 5. [玩转Obsidian的保姆级教程 - 知乎 (zhihu.com)](https://www.zhihu.com/column/c_1413472005866266624)
+6. [Obsidian极简日记配置教程 - 哔哩哔哩 (bilibili.com)](https://www.bilibili.com/read/cv21481911/)
 ## 同步问题：
 1. [【ios福音】obsidian第三方同步方案(remotely插件+腾讯云cos)-保姆级教程 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/479961754?utm_id=0)
 2. [remotely-save/remotely-save --- 远程保存/远程保存 (github.com)](https://github.com/remotely-save/remotely-save)
