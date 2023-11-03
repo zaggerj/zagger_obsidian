@@ -94,11 +94,149 @@ if (!gotTheLock) {
 	app.quit()
 } else {
 	app.on('second-instance', (event, commandLine, workingDirectory) => {
-	if (win) {
-	if (win.isMinimized()) win.restore()
-	win.focus()
-	}
+		if (win) {
+			if (win.isMinimized()) win.restore()
+			win.focus()
+		}
 	})
+}
+app.on('window-all-closed', function () {
+	if(process.platform !== 'darwin') app.quit()
+})
+
+```
+
+接着修改 package.json 文件
+![[Pasted image 20231103093813.png]]
+配置完成以后分别启动 yarn dev 和 yarn start，出现以下窗口表示搭建成功了。
+
+![](https://img-blog.csdnimg.cn/20d6ecf828aa4e07b20edf1c268e96f8.jpeg)
+
+## 四、优化 😆 😁 😉
+
+因为现在需要启动两个服务，比较麻烦，可以借助concurrently插件整合。一个命令完成多个应用的启动。同时安装cross-env插件设置我们的环境变量。wait-on进行一个端口启动监听。
+
+```bash
+yarn add concurrently wait-on cross-env -D
+```
+
+![](https://img-blog.csdnimg.cn/03c7dfdcd8a34e238a13155a2987ac76.png)
+
+安装完成以后修改启动和打包命令 
+
+```TypeScript
+"scripts": {
+	"dev": "concurrently -k \"vite\" \"yarn dev:electron\"",
+	"dev:electron": "wait-on tcp:5173 && cross-env NODE_ENV=development electron .",
+	"build": "vite build && electron-builder --win --config",
+	"build:mac": "vite build && electron-builder --mac --config",
+	"build:linux": "vite build && electron-builder --linux --config"
+},
+
+```
+![](https://img-blog.csdnimg.cn/d7b3f358eb00438f9695c08ecfaf5637.png)
+
+```json
+{
+"name": "demo",
+"private": true,
+"version": "0.0.0",
+"type": "module",
+"main": "electron/main.ts",
+"scripts": {
+"dev": "concurrently -k \"vite\" \"yarn dev:electron\"",
+"dev:electron": "wait-on tcp:5173 && cross-env NODE_ENV=development electron .",
+"build": "vite build && electron-builder --win --config",
+"build:mac": "vite build && electron-builder --mac --config",
+"build:linux": "vite build && electron-builder --linux --config"
+},
+"build": {
+"productName": "TigerSong", // 生成的exe文件名
+"copyright": "Copyright @ 2023 TigerSong", //版权
+"directories": { // 输出文件夹
+"output": "dist"
+},
+"files": [
+"dist/**/*",
+"electron/**/*"
+],
+"nsis": {
+"oneClick": false, // 是否一键安装
+"allowElevation": true, // 允许请求提升
+"allowToChangeInstallationDirectory": true, // 安装时可以修改安装目录
+"createDesktopShortcut": false, // 创建桌面图标
+"createStartMenuShortcut": false // 创建开始菜单图标
+}
+},
+"dependencies": {
+"vue": "^3.2.47"
+},
+"devDependencies": {
+"@vitejs/plugin-vue": "^4.1.0",
+"concurrently": "^8.0.1",
+"cross-env": "^7.0.3",
+"electron": "^24.3.1",
+"electron-builder": "^23.6.0",
+"typescript": "^5.0.2",
+"vite": "^4.3.2",
+"vue-tsc": "^1.4.2",
+"wait-on": "^7.0.1"
+}
+}
+
+```
+
+接着修改我们的 electron 文件夹下的 main.ts 文件。
+
+```js
+const { app, BrowserWindow } = require('electron')
+const path = require('path')
+const NODE_ENV = process.env.NODE_ENV
+let win
+/**
+* @Description: electron程序入口
+* @Author: Etc.End
+* @Copyright: TigerSong
+* @CreationDate 2023-05-20 14:39:26
+*/
+const createWindow = () => {
+win = new BrowserWindow({
+width: 1200,
+height: 800,
+minWidth: 1200,
+minHeight: 800,
+center: true,
+skipTaskbar: false,
+transparent: false,
+webPreferences: {
+contextIsolation: false,
+webSecurity: false,
+}
+})
+win.loadURL(
+NODE_ENV === 'development' ? 'http://localhost:5173/' : `file://${path.join(__dirname, '../dist/index.html')}`
+)
+if (NODE_ENV === 'development') {
+win.webContents.openDevTools()
+}
+}
+app.whenReady().then(() => {
+createWindow()
+})
+/**
+* @Description: 限制只能打开一个页面
+* @CreationDate 2023-05-20 14:35:52
+*/
+const gotTheLock = app.requestSingleInstanceLock()
+if (!gotTheLock) {
+app.quit()
+} else {
+app.on('second-instance', (event, commandLine, workingDirectory) => {
+if (win) {
+if (win.isMinimized()) win.restore()
+win.focus()
+}
+})
 }
 app.on('window-all-closed', function () {
 if(process.platform !== 'darwin') app.quit()
@@ -106,4 +244,36 @@ if(process.platform !== 'darwin') app.quit()
 
 ```
 
-接着修改package.json文件
+执行 yarn dev 进行检测，出现下面的内容表示配置成功，基础脚手架就已经搭建完成了。
+
+![](https://img-blog.csdnimg.cn/7cb4754b873d474c8fd083a91dc3796c.png)
+
+接着测试我们的打包是否正常。
+
+修改 vite.config.ts
+
+```js
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+export default defineConfig({
+base: './',
+plugins: [vue()],
+})
+
+```
+
+执行 yarn build，这个第一次可能优点慢，看自己的网速如何了。也可能会出现连接失败，下载失败的情况，多尝试几次。
+
+![](https://img-blog.csdnimg.cn/432a32ee57684d58ba4ea27f2cd7bb0f.png)
+
+像上面一样就说明我们已经打包成功了。打开程序
+
+![](https://img-blog.csdnimg.cn/844c97511b0b48f5871f8cc17c154fe2.jpeg)
+
+运行起来后出现下图表示我们的打包已没有任何问题了。
+
+![](https://img-blog.csdnimg.cn/eeec50e329fc40c99d577b876648c86f.png)
+
+dist目录下还有生成的安装程序，可以拷贝至其他目录进行自定义安装。到此我们的程序已经搭建结束了，接着下一篇开始讲解如何使用electron进行爬虫实现自己音乐播放器。感兴趣的小伙伴可以关注我的[Electron](https://blog.csdn.net/qq_19991931/category_12304922.html?spm=1001.2014.3001.5482 "Electron")专栏，在不断更新中。
+
+![](https://img-blog.csdnimg.cn/9e55a71e147b419b9c05d32588929054.png)
