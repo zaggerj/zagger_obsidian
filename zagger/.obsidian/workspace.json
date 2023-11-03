@@ -128,7 +128,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "记事本/学习/前端/vue2/vue高级/vue高级进阶 清单.md",
+                "file": "记事本/学习/前端/electron/搭建electron vite vue3/electron搭建清单.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -246,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/学习/前端/vue2/vue高级/vue高级进阶 清单.md"
+                "file": "记事本/学习/前端/electron/搭建electron vite vue3/electron搭建清单.md"
               }
             }
           },
@@ -264,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/学习/前端/vue2/vue高级/vue高级进阶 清单.md",
+                "file": "记事本/学习/前端/electron/搭建electron vite vue3/electron搭建清单.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/学习/前端/vue2/vue高级/vue高级进阶 清单.md",
+                "file": "记事本/学习/前端/electron/搭建electron vite vue3/electron搭建清单.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -293,7 +293,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/学习/前端/vue2/vue高级/vue高级进阶 清单.md"
+                "file": "记事本/学习/前端/electron/搭建electron vite vue3/electron搭建清单.md"
               }
             }
           },
@@ -374,10 +374,10 @@
   },
   "active": "5e63631d9157362f",
   "lastOpenFiles": [
-    "记事本/学习/前端/vue2/如何优化Vue template 中的大量条件选择v-if.md",
-    "记事本/学习/前端/vue2/vue高级/vue高级进阶 清单.md",
-    "记事本/学习/前端/vue2/vue高级/vue 高级进阶( 一 ) 组件精髓概述.md",
     "记事本/学习/前端/vue2/vue学习清单.md",
+    "记事本/学习/前端/vue2/vue高级/vue高级进阶 清单.md",
+    "记事本/学习/前端/vue2/如何优化Vue template 中的大量条件选择v-if.md",
+    "记事本/学习/前端/vue2/vue高级/vue 高级进阶( 一 ) 组件精髓概述.md",
     "obsidian配置文件目录/Attachment/Pasted image 20231103163005.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231103161643.png",
     "记事本/学习/前端/vue2/vue高级",

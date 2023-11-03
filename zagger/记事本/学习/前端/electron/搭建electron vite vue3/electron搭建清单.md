@@ -11,6 +11,7 @@
 10. [第六章 Electron|Node 实现license激活机制_license node项目-CSDN博客](https://blog.csdn.net/qq_19991931/article/details/131010518)
 11. [第七章 Electron Vue3实现音乐播放器_vue音乐播放器-CSDN博客](https://blog.csdn.net/qq_19991931/article/details/131123013)
 12. [第八章 Electron 实现音乐播放器之爬虫播放音乐_electron爬虫-CSDN博客](https://blog.csdn.net/qq_19991931/article/details/131226481)
+13. [摸鱼派 (fishpi.cn)](https://fishpi.cn/)
 
 # 学习策略
 1. Vite 文档熟悉大概

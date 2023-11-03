@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "electron搭建清单",
+      "path": "记事本/学习/前端/electron/搭建electron vite vue3/electron搭建清单.md"
+    },
+    {
+      "basename": "vue学习清单",
+      "path": "记事本/学习/前端/vue2/vue学习清单.md"
+    },
+    {
       "basename": "vue高级进阶 清单",
       "path": "记事本/学习/前端/vue2/vue高级/vue高级进阶 清单.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "vue 高级进阶( 一 ) 组件精髓概述",
       "path": "记事本/学习/前端/vue2/vue高级/vue 高级进阶( 一 ) 组件精髓概述.md"
-    },
-    {
-      "basename": "vue学习清单",
-      "path": "记事本/学习/前端/vue2/vue学习清单.md"
     },
     {
       "basename": "obsidian教程",
@@ -143,10 +147,6 @@
     {
       "basename": "学习笔记",
       "path": "记事本/学习/学习计划脚本/学习笔记.md"
-    },
-    {
-      "basename": "electron搭建清单",
-      "path": "记事本/学习/前端/electron/搭建electron vite vue3/electron搭建清单.md"
     },
     {
       "basename": "工作记事",
