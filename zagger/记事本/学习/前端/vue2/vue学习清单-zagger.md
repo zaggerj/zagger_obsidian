@@ -1,2 +1,0 @@
-# #vue 参考链接
-1. [Vue.js官方文档跟读计划，从花森开源项目入手，介绍前端和Vue.js的基础知识。_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Gh4y1i7K9/?spm_id_from=333.1007.tianma.7-4-26.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
