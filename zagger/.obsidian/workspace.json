@@ -159,7 +159,7 @@
       {
         "id": "284346499ce2ea86",
         "type": "tabs",
-        "dimension": 60.82164328657315,
+        "dimension": 60.821643286573156,
         "children": [
           {
             "id": "23fad819ff207865",
@@ -210,7 +210,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "73db95bfb166faa1",
