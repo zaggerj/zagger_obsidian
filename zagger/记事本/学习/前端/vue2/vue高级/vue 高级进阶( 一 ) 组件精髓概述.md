@@ -70,7 +70,9 @@ this.$emit('on-click', event)
 
 #### 具名slot
 
-子组件中，`<slot>` 元素可以用一个特殊的属性 name 来配置如何分发内容。多个 slot 可以有不同的名字。具名 slot 将匹配内容片段中有对应 slot 特性的元素父组件
+子组件中，`<slot>` 元素可以用一个特殊的属性 name 来配置如何分发内容。
+多个 slot 可以有不同的名字。
+具名 slot 将匹配内容片段中有对应 slot 特性的元素父组件
 
 ```xml
     <slotshow>
