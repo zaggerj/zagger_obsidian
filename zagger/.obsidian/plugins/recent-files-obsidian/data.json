@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "会议",
+      "path": "obsidian配置文件目录/templater/模板/会议.md"
+    },
+    {
+      "basename": "阅读笔记模板",
+      "path": "obsidian配置文件目录/templater/模板/阅读笔记模板.md"
+    },
+    {
+      "basename": "灵感模板",
+      "path": "obsidian配置文件目录/templater/灵感模板.md"
+    },
+    {
+      "basename": "英文单词模板",
+      "path": "obsidian配置文件目录/templater/英文单词模板.md"
+    },
+    {
+      "basename": "周记模板",
+      "path": "obsidian配置文件目录/templater/周记模板.md"
+    },
+    {
+      "basename": "日记模板",
+      "path": "obsidian配置文件目录/templater/日记模板.md"
+    },
+    {
+      "basename": "Calweek-2023-44",
+      "path": "Week Planner/Weeks/Calweek-2023-44.md"
+    },
+    {
       "basename": "最新工作安排",
       "path": "记事本/工作/工作计划/最新工作安排/最新工作安排.md"
     },
@@ -171,34 +199,6 @@
     {
       "basename": "learn-git-branching两个显示全的命令",
       "path": "记事本/学习/开发软实力/git/learn-git-branching两个显示全的命令.md"
-    },
-    {
-      "basename": "git push参数",
-      "path": "记事本/学习/开发软实力/git/git push参数.md"
-    },
-    {
-      "basename": "git 远程分支",
-      "path": "记事本/学习/开发软实力/git/git 远程分支.md"
-    },
-    {
-      "basename": "git 设置远程追踪分支的方法",
-      "path": "记事本/学习/开发软实力/git/git 设置远程追踪分支的方法.md"
-    },
-    {
-      "basename": "git push",
-      "path": "记事本/学习/开发软实力/git/git push.md"
-    },
-    {
-      "basename": "git 使用rebase还是merge",
-      "path": "记事本/学习/开发软实力/git/git 使用rebase还是merge.md"
-    },
-    {
-      "basename": "git clone命令",
-      "path": "记事本/学习/开发软实力/git/git clone命令.md"
-    },
-    {
-      "basename": "git 文档清单",
-      "path": "记事本/学习/开发软实力/git/git 文档清单.md"
     }
   ],
   "omittedPaths": [],
