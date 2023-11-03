@@ -139,7 +139,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "记事本/非开发/脚本/油猴脚本/油猴脚本清单.md",
+                "file": "记事本/学习/前端/electron/搭建electron vite vue3/Vite4 + Vue3 + vue-router4 动态路由.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -257,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/非开发/脚本/油猴脚本/油猴脚本清单.md"
+                "file": "记事本/学习/前端/electron/搭建electron vite vue3/Vite4 + Vue3 + vue-router4 动态路由.md"
               }
             }
           },
@@ -275,7 +275,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/非开发/脚本/油猴脚本/油猴脚本清单.md",
+                "file": "记事本/学习/前端/electron/搭建electron vite vue3/Vite4 + Vue3 + vue-router4 动态路由.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -292,7 +292,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/非开发/脚本/油猴脚本/油猴脚本清单.md",
+                "file": "记事本/学习/前端/electron/搭建electron vite vue3/Vite4 + Vue3 + vue-router4 动态路由.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -304,7 +304,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/非开发/脚本/油猴脚本/油猴脚本清单.md"
+                "file": "记事本/学习/前端/electron/搭建electron vite vue3/Vite4 + Vue3 + vue-router4 动态路由.md"
               }
             }
           },
@@ -383,13 +383,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "06fba4976e2c5589",
+  "active": "23fad819ff207865",
   "lastOpenFiles": [
+    "记事本/非开发/脚本/油猴脚本/油猴脚本清单.md",
     "记事本/学习/前端/electron/搭建electron vite vue3/Vite4 + Vue3 + vue-router4 动态路由.md",
     "记事本/学习/前端/electron/搭建electron vite vue3/Vite4 + Vue3 + vue-router4 动态路由.pdf",
     "记事本/工作/工作项目维护/业务知识和难题/spice/spice库代码梳理.md",
     "obsidian配置文件目录/Attachment/Pasted image 20231016230100.png.md",
-    "记事本/非开发/脚本/油猴脚本/油猴脚本清单.md",
     "记事本/学习/后端/linux/linux查看网络命令集合.md",
     "记事本/非开发/脚本/油猴脚本",
     "记事本/学习/后端/linux/linux查看网络命令集合-zagger.md",
