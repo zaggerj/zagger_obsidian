@@ -128,7 +128,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "记事本/学习/前端/electron/搭建electron vite vue3/electron搭建清单.md",
+                "file": "记事本/学习/学习计划脚本/js学习计划.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -156,7 +156,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "alphabetical"
               }
             }
           },
@@ -246,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/学习/前端/electron/搭建electron vite vue3/electron搭建清单.md"
+                "file": "记事本/学习/学习计划脚本/js学习计划.md"
               }
             }
           },
@@ -264,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/学习/前端/electron/搭建electron vite vue3/electron搭建清单.md",
+                "file": "记事本/学习/学习计划脚本/js学习计划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/学习/前端/electron/搭建electron vite vue3/electron搭建清单.md",
+                "file": "记事本/学习/学习计划脚本/js学习计划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -293,7 +293,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/学习/前端/electron/搭建electron vite vue3/electron搭建清单.md"
+                "file": "记事本/学习/学习计划脚本/js学习计划.md"
               }
             }
           },
@@ -374,6 +374,14 @@
   },
   "active": "5e63631d9157362f",
   "lastOpenFiles": [
+    "记事本/学习/学习计划脚本/js学习计划脚本.md",
+    "记事本/学习/学习计划脚本/工作计划梳理和安排.md",
+    "记事本/学习/学习计划脚本/脚本.md",
+    "记事本/学习/学习计划脚本/js学习计划.md",
+    "记事本/学习/学习计划脚本/转换规则总结(巅峰完美诠释文档).md",
+    "记事本/学习/学习计划脚本/学习清单链接.md",
+    "记事本/学习/学习计划脚本/学习笔记.md",
+    "记事本/学习/前端/electron/搭建electron vite vue3/electron搭建清单.md",
     "记事本/工作/工作记事.md",
     "obsidian配置文件目录/sortspec.md",
     "记事本/工作/工作记事-zagger.md",
@@ -388,7 +396,6 @@
     "记事本/非开发/脚本/油猴脚本",
     "记事本/学习/后端/linux/linux查看网络命令集合-zagger.md",
     "记事本/学习/前端/electron/搭建electron vite vue3/Vite4+Pinia2+vue-router4+ElmentPlus搭建Vue3项目(组件、图标等按需引入).md",
-    "记事本/学习/前端/electron/搭建electron vite vue3/electron搭建清单.md",
     "记事本/学习/前端/electron/搭建electron vite vue3/第二章 Electron自定义界面(最大化、最小化、关闭、图标等等).md",
     "记事本/学习/前端/electron/搭建electron vite vue3/第一章 快速搭建Electron+Vite3+Vue3+TypeScript5脚手架 (无需梯子，快速安装Electron).md",
     "obsidian配置文件目录/Attachment/Pasted image 20231103100720.png",
@@ -402,13 +409,6 @@
     "conflict-files-obsidian-git.md",
     "黑曜石使用相关/obsidian/obsidian教程.md",
     "记事本/非开发/文件备份/脚本文件-zagger.md",
-    "记事本/非开发/文件备份/windows zsh配置备份 20234015-zagger.md",
-    "记事本/非开发/帐号密码/共享目录.md",
-    "记事本/非开发/帐号密码/gitlab 密码.md",
-    "记事本/非开发/帐号密码/github firstToken.md",
-    "记事本/非开发/其他/其他-zagger.md",
-    "记事本/学习/后端/nginx/nginx-zagger.md",
-    "记事本/学习/前端/vue2/vue学习清单-zagger.md",
     "obsidian配置文件目录/Attachment/assets 7-zagger/image-20230713184819-2zhv1jp.png",
     "obsidian配置文件目录/Attachment/assets 7-zagger/image1-20230705215226-aeltfec.png",
     "obsidian配置文件目录/Attachment/assets 7-zagger/image1-20230708221750-l3h0pfh.png",
