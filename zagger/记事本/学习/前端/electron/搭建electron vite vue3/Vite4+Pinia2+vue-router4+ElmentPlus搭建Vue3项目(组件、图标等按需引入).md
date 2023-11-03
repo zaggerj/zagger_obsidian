@@ -279,15 +279,90 @@ app.mount('#app')
 
 **home.vue**
 
-`1. <template>      2.   <div style="background: rgb(217, 217, 217);height: 100vh;width: 100%;display: flex;align-items: center;justify-content: center;">      3.     <el-button type="primary" @click="goHome">去home</el-button>      4.     <el-button type="primary" @click="changeCount">++++</el-button>      5.     <div style="color: red;font-size: 22px;">{{ count }}</div>      6.   </div>      7. </template>       9. <script lang="ts">      10. import {useRouter} from "vue-router";       12. export default defineComponent({      13.   setup() {       15.     const router = useRouter();       17.     let data = reactive({      18.       count: 1,      19.     })       21.     const changeCount = () => {      22.       data.count++      23.     }       25.     const goHome = () => {      26.       router.push({      27.         path: '/home1'      28.       })      29.     }       31.     return {      32.       changeCount,      33.       goHome,      34.       ...toRefs(data)      35.     }      36.   }      37. })      38. </script>` 
+```vue
+<template>
+<div style="background: rgb(217, 217, 217);height: 100vh;width: 100%;display: flex;align-items: center;justify-content: center;">
+<el-button type="primary" @click="goHome">去home</el-button>
+<el-button type="primary" @click="changeCount">++++</el-button>
+<div style="color: red;font-size: 22px;">{{ count }}</div>
+</div>
+</template>
+<script lang="ts">
+import {useRouter} from "vue-router";
+export default defineComponent({
+setup() {
+const router = useRouter();
+let data = reactive({
+count: 1,
+})
+const changeCount = () => {
+data.count++
+}
+const goHome = () => {
+router.push({
+path: '/home1'
+})
+}
+return {
+changeCount,
+goHome,
+...toRefs(data)
+}
+}
+})
+</script>
+
+```
 
 **hom1.vue**
 
-`1. <template>      2.   <div style="background: #ffffff;height: 100vh;width: 100%;display: flex;align-items: center;justify-content: center;">      3.     <el-button type="primary" @click="goHome1">回home</el-button>      4.     <el-button type="primary" @click="changeCount">++++</el-button>      5.     <div style="color: red;font-size: 22px;">{{ count }}</div>      6.   </div>      7. </template>       9. <script lang="ts">      10. import {useRouter} from "vue-router";       12. export default defineComponent({      13.   setup() {       15.     const router = useRouter();       17.     let data = reactive({      18.       count: 1,      19.     })       21.     const changeCount = () => {      22.       data.count++      23.     }       25.     const goHome1 = () => {      26.       router.push({      27.         path: '/'      28.       })      29.     }       31.     return {      32.       changeCount,      33.       goHome1,      34.       ...toRefs(data)      35.     }      36.   }      37. })      38. </script>` 
+```vue
+<template>
+<div style="background: #ffffff;height: 100vh;width: 100%;display: flex;align-items: center;justify-content: center;">
+<el-button type="primary" @click="goHome1">回home</el-button>
+<el-button type="primary" @click="changeCount">++++</el-button>
+<div style="color: red;font-size: 22px;">{{ count }}</div>
+</div>
+</template>
+<script lang="ts">
+import {useRouter} from "vue-router";
+export default defineComponent({
+setup() {
+const router = useRouter();
+let data = reactive({
+count: 1,
+})
+const changeCount = () => {
+data.count++
+}
+const goHome1 = () => {
+router.push({
+path: '/'
+})
+}
+return {
+changeCount,
+goHome1,
+...toRefs(data)
+}
+}
+})
+</script>
+
+```
 
 #### 6️⃣ App.vue修改,这里就使用到了animate.css,给切换路由增加一些动画
 
-`   1. <template>      2.   <router-view #default="{route, Component}">      3.     <transition leave-from-class="ts-web-fade--leave-to" enter-active-class="animate__animated animate__bounceInRight">      4.       <component :is="Component"></component>      5.     </transition>      6.   </router-view>      7. </template>        `
+```vue
+<template>
+<router-view #default="{route, Component}">
+<transition leave-from-class="ts-web-fade--leave-to" enter-active-class="animate__animated animate__bounceInRight">
+<component :is="Component"></component>
+</transition>
+</router-view>
+</template>
+
+```
 
 #### 7️⃣ 项目目录
 
@@ -309,23 +384,215 @@ app.mount('#app')
 
 #### 2️⃣ /pinia/modules/views.ts
 
-``   1. import { defineStore } from 'pinia'       3. export interface IViewsState {      4.     count?: number      5.     title?: string      6. }       8. // 创建一个pinia, defineStore接受两个参数，第一个是id(唯一的)。参数二是配置项      9. export const viewsModule = defineStore('VIEWS',{      10.     state(): IViewsState {      11.         return {      12.             count: 1,      13.             title: 'Etc.End'      14.         }      15.     },      16.     //可以操作异步 和 同步提交state      17.     actions:{      18.         // 这里因为我的count定义的类型不是必有参数,所有它会存在空的情况.      19.         // 后面只需要加个!让编译器知道它不会未定义或不会为null      20.         // 也可以把上面的count?: number更改为count: number,下面就不用加!了      21.         incremental() {      22.             this.count!++      23.         },      24.         getCount() {      25.             return this.count      26.         }      27.     },      28.     // 类似于computed 可以帮我们去修饰我们的值      29.     getters:{      30.         newCount ():number | string {      31.             return this.count = 0      32.         },      33.         newTitle ():string {      34.             return `$-${this.title}`      35.         }      36.     },      37. })        ``
+```ts
+import { defineStore } from 'pinia'
+export interface IViewsState {
+count?: number
+title?: string
+}
+// 创建一个pinia, defineStore接受两个参数，第一个是id(唯一的)。参数二是配置项
+export const viewsModule = defineStore('VIEWS',{
+state(): IViewsState {
+return {
+count: 1,
+title: 'Etc.End'
+}
+},
+//可以操作异步 和 同步提交state
+actions:{
+// 这里因为我的count定义的类型不是必有参数,所有它会存在空的情况.
+// 后面只需要加个!让编译器知道它不会未定义或不会为null
+// 也可以把上面的count?: number更改为count: number,下面就不用加!了
+incremental() {
+this.count!++
+},
+getCount() {
+return this.count
+}
+},
+// 类似于computed 可以帮我们去修饰我们的值
+getters:{
+newCount ():number | string {
+return this.count = 0
+},
+newTitle ():string {
+return `$-${this.title}`
+}
+},
+})
+
+```
 
 #### 3️⃣ /pinia/index.ts
 
-`   1. import { viewsModule } from './modules/views';       3. export interface IAppStore {      4.     viewsModule: ReturnType<typeof viewsModule>;      5. }       7. const appStore: IAppStore = {} as IAppStore;       9. export const registerStore = () => {      10.     appStore.viewsModule = viewsModule();      11. };       13. export default appStore;        `
+```ts
+import { viewsModule } from './modules/views';
+export interface IAppStore {
+viewsModule: ReturnType<typeof viewsModule>;
+}
+const appStore: IAppStore = {} as IAppStore;
+export const registerStore = () => {
+appStore.viewsModule = viewsModule();
+};
+export default appStore;
+
+```
 
 #### 4️⃣ main.ts
 
-`   1. import { createApp } from 'vue'       3. import App from './App.vue'      4. import 'animate.css'      5. import { createPinia } from 'pinia';      6. import { registerStore } from '@/pinia';      7. import router from '@/router';      8. import '@/router/permission'      9. import 'element-plus/theme-chalk/dark/css-vars.css'       11. const app = createApp(App);       13. app.use(router)      14. app.use(createPinia())      15. // 这里是进行一个注册，不然的话页面上是拿不到值的      16. registerStore()       18. app.mount('#app')        `
+```ts
+import { createApp } from 'vue'
+import App from './App.vue'
+import 'animate.css'
+import { createPinia } from 'pinia';
+import { registerStore } from '@/pinia';
+import router from '@/router';
+import '@/router/permission'
+import 'element-plus/theme-chalk/dark/css-vars.css'
+const app = createApp(App);
+app.use(router)
+app.use(createPinia())
+// 这里是进行一个注册，不然的话页面上是拿不到值的
+registerStore()
+app.mount('#app')
+
+```
 
 #### 5️⃣ 修改之前的home.vue页面
 
-`1. <template>      2.   <div style="background: rgb(217, 217, 217);height: 100vh;width: 100%;padding-top: 100px;">      3.     <div style="text-align: center;margin-top: 50px;">      4.       <el-button type="primary" @click="goHome">去home1</el-button>      5.     </div>      6.     <div style="text-align: center;margin-top: 50px;">      7.       <el-button type="primary" @click="directChange">直接修改count的值</el-button>      8.       <el-button type="primary" @click="batchChange">批量修改pinia的值</el-button>      9.       <el-button type="primary" @click="callAction">actions修改pinia的值</el-button>      10.     </div>      11.     <div style="text-align: center;margin-top: 50px;color: red;font-size: 22px;">      12.       <div>{{ count }}</div>      13.       <div>{{ title }}</div>      14.     </div>      15.   </div>      16. </template>       18. <script lang="ts">      19. import {useRouter} from "vue-router";      20. import { storeToRefs } from 'pinia';      21. import appStore from '@/pinia';       23. export default defineComponent({      24.   setup() {       26.     const router = useRouter();       28.     // 这里是个小知识点,因为pinia不允许直接解构,比如下面      29.     // const { count, title } = appStore.viewsModule      30.     // 这样写的话会失去响应式,所以得使用storeToRefs      31.     const { count, title } = storeToRefs(appStore.viewsModule)       33.     // 直接修改views里面的count值      34.     const directChange = () => {      35.       appStore.viewsModule.count!++      36.     }       38.     // 批量修改views的值      39.     const batchChange = () => {      40.       appStore.viewsModule.$patch({      41.         count: 100,      42.         title: 'Etc-End'      43.       })      44.       // 还可以这样写,和上面一样的效果      45.       // appStore.viewsModule.$state = {      46.       //   count: 100,      47.       //   title: 'Etc-End'      48.       // }      49.     }       51.     const callAction = () => {      52.       appStore.viewsModule.incremental()      53.     }       55.     const goHome = () => {      56.       router.push({      57.         path: '/home1'      58.       })      59.     }       61.     return {      62.       directChange,      63.       batchChange,      64.       callAction,      65.       goHome,      66.       count,      67.       title      68.     }      69.   }      70. })      71. </script>` 
+```vue
+<template>
+<div style="background: rgb(217, 217, 217);height: 100vh;width: 100%;padding-top: 100px;">
+<div style="text-align: center;margin-top: 50px;">
+<el-button type="primary" @click="goHome">去home1</el-button>
+</div>
+<div style="text-align: center;margin-top: 50px;">
+<el-button type="primary" @click="directChange">直接修改count的值</el-button>
+<el-button type="primary" @click="batchChange">批量修改pinia的值</el-button>
+<el-button type="primary" @click="callAction">actions修改pinia的值</el-button>
+</div>
+<div style="text-align: center;margin-top: 50px;color: red;font-size: 22px;">
+<div>{{ count }}</div>
+<div>{{ title }}</div>
+</div>
+</div>
+</template>
+<script lang="ts">
+import {useRouter} from "vue-router";
+import { storeToRefs } from 'pinia';
+import appStore from '@/pinia';
+export default defineComponent({
+setup() {
+const router = useRouter();
+// 这里是个小知识点,因为pinia不允许直接解构,比如下面
+// const { count, title } = appStore.viewsModule
+// 这样写的话会失去响应式,所以得使用storeToRefs
+const { count, title } = storeToRefs(appStore.viewsModule)
+// 直接修改views里面的count值
+const directChange = () => {
+appStore.viewsModule.count!++
+}
+// 批量修改views的值
+const batchChange = () => {
+appStore.viewsModule.$patch({
+count: 100,
+title: 'Etc-End'
+})
+// 还可以这样写,和上面一样的效果
+// appStore.viewsModule.$state = {
+// count: 100,
+// title: 'Etc-End'
+// }
+}
+const callAction = () => {
+appStore.viewsModule.incremental()
+}
+const goHome = () => {
+router.push({
+path: '/home1'
+})
+}
+return {
+directChange,
+batchChange,
+callAction,
+goHome,
+count,
+title
+}
+}
+})
+</script>
+
+```
 
 #### 6️⃣ 修改之前的home1.vue页面
 
-`1. <template>      2.   <div style="background: rgb(217, 217, 217);height: 100vh;width: 100%;padding-top: 100px;">      3.     <div style="text-align: center;margin-top: 50px;">      4.       <el-button type="primary" @click="goHome">回home</el-button>      5.     </div>      6.     <div style="text-align: center;margin-top: 50px;">      7.       <el-button type="primary" @click="directChange">直接修改count的值</el-button>      8.       <el-button type="primary" @click="batchChange">批量修改pinia的值</el-button>      9.       <el-button type="primary" @click="callAction">actions修改pinia的值</el-button>      10.     </div>      11.     <div style="text-align: center;margin-top: 50px;color: red;font-size: 22px;">      12.       <div>{{ count }}</div>      13.       <div>{{ title }}</div>      14.     </div>      15.   </div>      16. </template>       18. <script lang="ts">      19. import {useRouter} from "vue-router";      20. import { storeToRefs } from 'pinia';      21. import appStore from '@/pinia';       23. export default defineComponent({      24.   setup() {       26.     const router = useRouter();       28.     // 这里是个小知识点,因为pinia不允许直接解构,比如下面      29.     // const { count, title } = appStore.viewsModule      30.     // 这样写的话会失去响应式,所以得使用storeToRefs      31.     const { count, title } = storeToRefs(appStore.viewsModule)       33.     // 直接修改views里面的count值      34.     const directChange = () => {      35.       appStore.viewsModule.count!++      36.     }       38.     // 批量修改views的值      39.     const batchChange = () => {      40.       appStore.viewsModule.$patch({      41.         count: 100,      42.         title: 'Etc-End'      43.       })      44.       // 还可以这样写,和上面一样的效果      45.       // appStore.viewsModule.$state = {      46.       //   count: 100,      47.       //   title: 'Etc-End'      48.       // }      49.     }       51.     const callAction = () => {      52.       appStore.viewsModule.incremental()      53.     }       55.     const goHome = () => {      56.       router.push({      57.         path: '/'      58.       })      59.     }       61.     return {      62.       directChange,      63.       batchChange,      64.       callAction,      65.       goHome,      66.       count,      67.       title      68.     }      69.   }      70. })      71. </script>` 
+```vue
+<template>
+<div style="background: rgb(217, 217, 217);height: 100vh;width: 100%;padding-top: 100px;">
+<div style="text-align: center;margin-top: 50px;">
+<el-button type="primary" @click="goHome">回home</el-button>
+</div>
+<div style="text-align: center;margin-top: 50px;">
+<el-button type="primary" @click="directChange">直接修改count的值</el-button>
+<el-button type="primary" @click="batchChange">批量修改pinia的值</el-button>
+<el-button type="primary" @click="callAction">actions修改pinia的值</el-button>
+</div>
+<div style="text-align: center;margin-top: 50px;color: red;font-size: 22px;">
+<div>{{ count }}</div>
+<div>{{ title }}</div>
+</div>
+</div>
+</template>
+<script lang="ts">
+import {useRouter} from "vue-router";
+import { storeToRefs } from 'pinia';
+import appStore from '@/pinia';
+export default defineComponent({
+setup() {
+const router = useRouter();
+// 这里是个小知识点,因为pinia不允许直接解构,比如下面
+// const { count, title } = appStore.viewsModule
+// 这样写的话会失去响应式,所以得使用storeToRefs
+const { count, title } = storeToRefs(appStore.viewsModule)
+// 直接修改views里面的count值
+const directChange = () => {
+appStore.viewsModule.count!++
+}
+// 批量修改views的值
+const batchChange = () => {
+appStore.viewsModule.$patch({
+count: 100,
+title: 'Etc-End'
+})
+// 还可以这样写,和上面一样的效果
+// appStore.viewsModule.$state = {
+// count: 100,
+// title: 'Etc-End'
+// }
+}
+const callAction = () => {
+appStore.viewsModule.incremental()
+}
+const goHome = () => {
+router.push({
+path: '/'
+})
+}
+return {
+directChange,
+batchChange,
+callAction,
+goHome,
+count,
+title
+}
+}
+})
+</script>
+
+```
 
 #### 7️⃣ 最终效果，下图中可以看到，状态管理已经到达效果。切换路由后，拿到的count和title值都是更改后的。
 

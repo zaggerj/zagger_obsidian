@@ -314,7 +314,8 @@
     },
     "iconInTabsEnabled": false,
     "iconInTitleEnabled": false,
-    "iconsBackgroundCheckEnabled": false
+    "iconsBackgroundCheckEnabled": false,
+    "iconInFrontmatterEnabled": false
   },
   "记事本": "TiAddressBook",
   "记事本/学习": "LiBook",

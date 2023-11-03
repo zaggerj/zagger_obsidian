@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Vite4 + Vue3 + vue-router4 动态路由",
+      "path": "记事本/学习/前端/electron/搭建electron vite vue3/Vite4 + Vue3 + vue-router4 动态路由.md"
+    },
+    {
       "basename": "Vite4+Pinia2+vue-router4+ElmentPlus搭建Vue3项目(组件、图标等按需引入)",
       "path": "记事本/学习/前端/electron/搭建electron vite vue3/Vite4+Pinia2+vue-router4+ElmentPlus搭建Vue3项目(组件、图标等按需引入).md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "记事本",
       "path": "记事本/学习/前端/前端杂项/记事本.md"
-    },
-    {
-      "basename": "Viewer",
-      "path": "Viewer.md"
     }
   ],
   "omittedPaths": [],
