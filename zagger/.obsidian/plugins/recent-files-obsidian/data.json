@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "electron搭建清单",
+      "path": "记事本/学习/前端/electron/搭建electron vite vue3/electron搭建清单.md"
+    },
+    {
+      "basename": "工作记事",
+      "path": "记事本/工作/工作记事.md"
+    },
+    {
+      "basename": "sortspec",
+      "path": "obsidian配置文件目录/sortspec.md"
+    },
+    {
+      "basename": "2023-10-31",
+      "path": "日记/2023-10-31.md"
+    },
+    {
+      "basename": "汇总所有在线文档",
+      "path": "汇总所有在线文档.md"
+    },
+    {
       "basename": "Vite4 + Vue3 + vue-router4 动态路由",
       "path": "记事本/学习/前端/electron/搭建electron vite vue3/Vite4 + Vue3 + vue-router4 动态路由.md"
     },
@@ -17,16 +37,8 @@
       "path": "记事本/学习/前端/electron/搭建electron vite vue3/Vite4+Pinia2+vue-router4+ElmentPlus搭建Vue3项目(组件、图标等按需引入).md"
     },
     {
-      "basename": "electron搭建清单",
-      "path": "记事本/学习/前端/electron/搭建electron vite vue3/electron搭建清单.md"
-    },
-    {
       "basename": "第二章 Electron自定义界面(最大化、最小化、关闭、图标等等)",
       "path": "记事本/学习/前端/electron/搭建electron vite vue3/第二章 Electron自定义界面(最大化、最小化、关闭、图标等等).md"
-    },
-    {
-      "basename": "汇总所有在线文档",
-      "path": "汇总所有在线文档.md"
     },
     {
       "basename": "第一章 快速搭建Electron+Vite3+Vue3+TypeScript5脚手架 (无需梯子，快速安装Electron)",
@@ -71,10 +83,6 @@
     {
       "basename": "git fetch",
       "path": "记事本/学习/开发软实力/git/git fetch.md"
-    },
-    {
-      "basename": "sortspec",
-      "path": "obsidian配置文件目录/sortspec.md"
     },
     {
       "basename": "古怪的 source",
@@ -175,10 +183,6 @@
     {
       "basename": "vscode git graph",
       "path": "记事本/学习/开发软实力/vscode/vscode git graph.md"
-    },
-    {
-      "basename": "2023-10-31",
-      "path": "日记/2023-10-31.md"
     },
     {
       "basename": "task",

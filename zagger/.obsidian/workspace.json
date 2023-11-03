@@ -108,21 +108,9 @@
             }
           },
           {
-            "id": "aabb6afe509b9088",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "日记/2023-10-31.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "864753ceb9fdbee5",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -130,16 +118,17 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
-            "id": "06fba4976e2c5589",
+            "id": "5e63631d9157362f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "记事本/学习/前端/electron/搭建electron vite vue3/Vite4 + Vue3 + vue-router4 动态路由.md",
+                "file": "记事本/学习/前端/electron/搭建electron vite vue3/electron搭建清单.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -147,7 +136,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -257,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/学习/前端/electron/搭建electron vite vue3/Vite4 + Vue3 + vue-router4 动态路由.md"
+                "file": "记事本/学习/前端/electron/搭建electron vite vue3/electron搭建清单.md"
               }
             }
           },
@@ -275,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/学习/前端/electron/搭建electron vite vue3/Vite4 + Vue3 + vue-router4 动态路由.md",
+                "file": "记事本/学习/前端/electron/搭建electron vite vue3/electron搭建清单.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -292,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/学习/前端/electron/搭建electron vite vue3/Vite4 + Vue3 + vue-router4 动态路由.md",
+                "file": "记事本/学习/前端/electron/搭建electron vite vue3/electron搭建清单.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -304,7 +293,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/学习/前端/electron/搭建electron vite vue3/Vite4 + Vue3 + vue-router4 动态路由.md"
+                "file": "记事本/学习/前端/electron/搭建electron vite vue3/electron搭建清单.md"
               }
             }
           },
@@ -383,10 +372,15 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "23fad819ff207865",
+  "active": "5e63631d9157362f",
   "lastOpenFiles": [
-    "记事本/非开发/脚本/油猴脚本/油猴脚本清单.md",
+    "记事本/工作/工作记事.md",
+    "obsidian配置文件目录/sortspec.md",
+    "记事本/工作/工作记事-zagger.md",
+    "日记/2023-10-31.md",
+    "汇总所有在线文档.md",
     "记事本/学习/前端/electron/搭建electron vite vue3/Vite4 + Vue3 + vue-router4 动态路由.md",
+    "记事本/非开发/脚本/油猴脚本/油猴脚本清单.md",
     "记事本/学习/前端/electron/搭建electron vite vue3/Vite4 + Vue3 + vue-router4 动态路由.pdf",
     "记事本/工作/工作项目维护/业务知识和难题/spice/spice库代码梳理.md",
     "obsidian配置文件目录/Attachment/Pasted image 20231016230100.png.md",
@@ -396,7 +390,6 @@
     "记事本/学习/前端/electron/搭建electron vite vue3/Vite4+Pinia2+vue-router4+ElmentPlus搭建Vue3项目(组件、图标等按需引入).md",
     "记事本/学习/前端/electron/搭建electron vite vue3/electron搭建清单.md",
     "记事本/学习/前端/electron/搭建electron vite vue3/第二章 Electron自定义界面(最大化、最小化、关闭、图标等等).md",
-    "汇总所有在线文档.md",
     "记事本/学习/前端/electron/搭建electron vite vue3/第一章 快速搭建Electron+Vite3+Vue3+TypeScript5脚手架 (无需梯子，快速安装Electron).md",
     "obsidian配置文件目录/Attachment/Pasted image 20231103100720.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231103093813.png",
@@ -416,9 +409,6 @@
     "记事本/非开发/其他/其他-zagger.md",
     "记事本/学习/后端/nginx/nginx-zagger.md",
     "记事本/学习/前端/vue2/vue学习清单-zagger.md",
-    "记事本/学习/前端/nodejs/nodejs学习导航-zagger.md",
-    "记事本/非开发/其他.md",
-    "记事本/工作/工作记事-zagger.md",
     "obsidian配置文件目录/Attachment/assets 7-zagger/image-20230713184819-2zhv1jp.png",
     "obsidian配置文件目录/Attachment/assets 7-zagger/image1-20230705215226-aeltfec.png",
     "obsidian配置文件目录/Attachment/assets 7-zagger/image1-20230708221750-l3h0pfh.png",

@@ -11,3 +11,16 @@
 10. [第六章 Electron|Node 实现license激活机制_license node项目-CSDN博客](https://blog.csdn.net/qq_19991931/article/details/131010518)
 11. [第七章 Electron Vue3实现音乐播放器_vue音乐播放器-CSDN博客](https://blog.csdn.net/qq_19991931/article/details/131123013)
 12. [第八章 Electron 实现音乐播放器之爬虫播放音乐_electron爬虫-CSDN博客](https://blog.csdn.net/qq_19991931/article/details/131226481)
+
+# 学习策略
+1. Vite 文档熟悉大概
+2. Vue 3 了解一下
+3. Vue 2 复习下
+4. Pinia
+5. 然后继续此教程，完成 electron 选型大概架构
+6. 还有日志系统搭建
+7. 主线程和渲染线程通讯的最佳实践方式等
+
+# 最终效果
+1. 将多语言组织到一个模块中。
+2. 
