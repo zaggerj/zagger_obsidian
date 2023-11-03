@@ -128,7 +128,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "记事本/学习/前端/vue2/vue学习清单.md",
+                "file": "记事本/学习/前端/vue2/vue高级/vue 高级进阶( 一 ) 组件精髓概述.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -246,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/学习/前端/vue2/vue学习清单.md"
+                "file": "记事本/学习/前端/vue2/vue高级/vue 高级进阶( 一 ) 组件精髓概述.md"
               }
             }
           },
@@ -264,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/学习/前端/vue2/vue学习清单.md",
+                "file": "记事本/学习/前端/vue2/vue高级/vue 高级进阶( 一 ) 组件精髓概述.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/学习/前端/vue2/vue学习清单.md",
+                "file": "记事本/学习/前端/vue2/vue高级/vue 高级进阶( 一 ) 组件精髓概述.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -293,7 +293,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/学习/前端/vue2/vue学习清单.md"
+                "file": "记事本/学习/前端/vue2/vue高级/vue 高级进阶( 一 ) 组件精髓概述.md"
               }
             }
           },
@@ -374,8 +374,11 @@
   },
   "active": "5e63631d9157362f",
   "lastOpenFiles": [
-    "记事本/学习/前端/vue2/vue学习清单-zagger.md",
+    "obsidian配置文件目录/Attachment/Pasted image 20231103161643.png",
     "记事本/学习/前端/vue2/vue学习清单.md",
+    "记事本/学习/前端/vue2/vue高级/vue 高级进阶( 一 ) 组件精髓概述.md",
+    "记事本/学习/前端/vue2/vue高级",
+    "记事本/学习/前端/vue2/vue学习清单-zagger.md",
     "记事本/学习/前端/vue2/如何优化Vue template 中的大量条件选择v-if.md",
     "黑曜石使用相关/obsidian/obsidian教程.md",
     "黑曜石使用相关/obsidian/关于Obsidian的基本使用.md",
@@ -400,8 +403,6 @@
     "记事本/学习/学习计划脚本/爬取文档中的章节.md",
     "记事本/学习/学习计划脚本/脚本.md",
     "记事本/学习/学习计划脚本/工作计划梳理和安排.md",
-    "记事本/学习/前端/一些奇技淫巧/搜索资源方式.md",
-    "记事本/学习/前端/一些奇技淫巧/搜索技巧.md",
     "记事本/学习/前端/electron/搭建electron vite vue3/Vite4 + Vue3 + vue-router4 动态路由.pdf",
     "记事本/非开发/脚本/油猴脚本",
     "obsidian配置文件目录/Attachment/Pasted image 20231103100720.png",
@@ -419,7 +420,6 @@
     "obsidian配置文件目录/Attachment/assets 7-zagger",
     "记事本/学习/开发软实力/git/git rebase专辑",
     "记事本/非开发/资源素材/翻墙",
-    "记事本/学习/学习网站收录",
     "记事本/学习/测试/未命名.canvas"
   ]
 }
