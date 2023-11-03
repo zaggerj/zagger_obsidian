@@ -1,6 +1,6 @@
 {
   "searchViewState": {
-    "query": "awk",
+    "query": " xargs kill",
     "matchingCase": false,
     "explainSearch": false,
     "collapseAll": false,

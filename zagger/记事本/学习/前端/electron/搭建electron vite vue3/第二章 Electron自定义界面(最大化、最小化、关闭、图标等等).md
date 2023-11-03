@@ -13,3 +13,6 @@
 修改Electron下的main.ts文件，修改完成以后重新启动自带的导航就不会在显示了。
 
 ![](https://img-blog.csdnimg.cn/c085e8a9df234964964557aa46c48a55.jpeg)
+
+
+`netstat -ano | grep 9527|awk '{print $5}' | xargs kill -9`
