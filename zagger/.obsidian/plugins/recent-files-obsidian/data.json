@@ -1,128 +1,168 @@
 {
   "recentFiles": [
     {
-      "basename": "转换规则总结(巅峰完美诠释文档)",
-      "path": "记事本/学习/学习计划脚本/转换规则总结(巅峰完美诠释文档).md"
-    },
-    {
-      "basename": "脚本",
-      "path": "记事本/学习/学习计划脚本/脚本.md"
-    },
-    {
-      "basename": "js学习计划脚本",
-      "path": "记事本/学习/学习计划脚本/js学习计划脚本.md"
-    },
-    {
-      "basename": "js学习计划",
-      "path": "记事本/学习/学习计划脚本/js学习计划.md"
-    },
-    {
-      "basename": "学习笔记",
-      "path": "记事本/学习/学习计划脚本/学习笔记.md"
-    },
-    {
-      "basename": "工作计划梳理和安排",
-      "path": "记事本/学习/学习计划脚本/工作计划梳理和安排.md"
-    },
-    {
-      "basename": "sortspec",
-      "path": "obsidian配置文件目录/sortspec.md"
-    },
-    {
-      "basename": "其他",
-      "path": "记事本/非开发/其他/其他.md"
-    },
-    {
-      "basename": "obsidian工作流",
-      "path": "黑曜石使用相关/obsidian/obsidian工作流.md"
-    },
-    {
-      "basename": "The One",
-      "path": "黑曜石使用相关/obsidian/The One.md"
-    },
-    {
-      "basename": "windows zsh配置备份 20234015-zagger",
-      "path": "记事本/非开发/文件备份/windows zsh配置备份 20234015-zagger.md"
-    },
-    {
-      "basename": "共享目录",
-      "path": "记事本/非开发/账号密码/共享目录.md"
-    },
-    {
-      "basename": "gitlab 密码",
-      "path": "记事本/非开发/账号密码/gitlab 密码.md"
-    },
-    {
-      "basename": "github firstToken",
-      "path": "记事本/非开发/账号密码/github firstToken.md"
-    },
-    {
-      "basename": "工作记事",
-      "path": "记事本/工作/工作记事.md"
-    },
-    {
-      "basename": "linux查看网络命令集合",
-      "path": "记事本/学习/后端/linux/linux查看网络命令集合.md"
-    },
-    {
-      "basename": "vue学习清单",
-      "path": "记事本/学习/前端/vue2/vue学习清单.md"
-    },
-    {
-      "basename": "nodejs学习导航",
-      "path": "记事本/学习/前端/nodejs/nodejs学习导航.md"
-    },
-    {
-      "basename": "nginx",
-      "path": "记事本/学习/后端/nginx/nginx.md"
-    },
-    {
-      "basename": "vscode git graph",
-      "path": "记事本/学习/开发软实力/vscode/vscode git graph.md"
-    },
-    {
-      "basename": "git 文档清单",
-      "path": "记事本/学习/开发软实力/git/git 文档清单.md"
-    },
-    {
-      "basename": "readme",
-      "path": "记事本/非开发/其他/readme.md"
-    },
-    {
-      "basename": "a 汇总所有在线文档",
-      "path": "记事本/非开发/其他/a 汇总所有在线文档.md"
-    },
-    {
-      "basename": "obsidian教程",
-      "path": "黑曜石使用相关/obsidian/obsidian教程.md"
+      "basename": "git pull参数",
+      "path": "记事本/学习/开发软实力/git/git pull参数.md"
     },
     {
       "basename": "git fetch参数",
       "path": "记事本/学习/开发软实力/git/git fetch参数.md"
     },
     {
+      "basename": "git push参数2",
+      "path": "记事本/学习/开发软实力/git/git push参数2.md"
+    },
+    {
+      "basename": "偏离的工作",
+      "path": "记事本/学习/开发软实力/git/偏离的工作.md"
+    },
+    {
+      "basename": "为什么不用merge",
+      "path": "记事本/学习/开发软实力/git/为什么不用merge.md"
+    },
+    {
+      "basename": "合并特性分支",
+      "path": "记事本/学习/开发软实力/git/合并特性分支.md"
+    },
+    {
+      "basename": "远程跟踪分支",
+      "path": "记事本/学习/开发软实力/git/远程跟踪分支.md"
+    },
+    {
+      "basename": "git pull",
+      "path": "记事本/学习/开发软实力/git/git pull.md"
+    },
+    {
+      "basename": "git pull origin 分支",
+      "path": "记事本/学习/开发软实力/git/git pull origin 分支.md"
+    },
+    {
+      "basename": "git fetch",
+      "path": "记事本/学习/开发软实力/git/git fetch.md"
+    },
+    {
+      "basename": "sortspec",
+      "path": "obsidian配置文件目录/sortspec.md"
+    },
+    {
+      "basename": "古怪的 source",
+      "path": "记事本/学习/开发软实力/git/古怪的 source.md"
+    },
+    {
+      "basename": "learn-git-branching两个显示全的命令",
+      "path": "记事本/学习/开发软实力/git/learn-git-branching两个显示全的命令.md"
+    },
+    {
+      "basename": "git push参数",
+      "path": "记事本/学习/开发软实力/git/git push参数.md"
+    },
+    {
+      "basename": "git 远程分支",
+      "path": "记事本/学习/开发软实力/git/git 远程分支.md"
+    },
+    {
+      "basename": "git 设置远程追踪分支的方法",
+      "path": "记事本/学习/开发软实力/git/git 设置远程追踪分支的方法.md"
+    },
+    {
+      "basename": "git push",
+      "path": "记事本/学习/开发软实力/git/git push.md"
+    },
+    {
+      "basename": "git 使用rebase还是merge",
+      "path": "记事本/学习/开发软实力/git/git 使用rebase还是merge.md"
+    },
+    {
+      "basename": "git clone命令",
+      "path": "记事本/学习/开发软实力/git/git clone命令.md"
+    },
+    {
+      "basename": "git 文档清单",
+      "path": "记事本/学习/开发软实力/git/git 文档清单.md"
+    },
+    {
+      "basename": "git rebase",
+      "path": "记事本/学习/开发软实力/git/git rebase专辑/git rebase.md"
+    },
+    {
+      "basename": "git rebase清单",
+      "path": "记事本/学习/开发软实力/git/git rebase专辑/git rebase清单.md"
+    },
+    {
+      "basename": "【git 整理提交】git rebase -i 命令详解",
+      "path": "记事本/学习/开发软实力/git/git rebase专辑/【git 整理提交】git rebase -i 命令详解.md"
+    },
+    {
       "basename": "git报错",
       "path": "记事本/学习/开发软实力/git/git报错.md"
     },
     {
-      "basename": "2023-10-31",
-      "path": "日记/2023-10-31.md"
+      "basename": "git文件占用文件问题",
+      "path": "记事本/学习/开发软实力/git/git文件占用文件问题.md"
     },
     {
-      "basename": "算法学习链接",
-      "path": "记事本/学习/开发软实力/正则和算法/算法/算法学习链接.md"
+      "basename": "奥卡姆剃刀原理",
+      "path": "记事本/学习/开发软实力/奥卡姆剃刀原理.md"
     },
     {
-      "basename": "task",
-      "path": "obsidian配置文件目录/New/task.md"
+      "basename": "onedrive",
+      "path": "记事本/非开发/资源素材/环境安装和软件安装/同步软件/onedrive.md"
+    },
+    {
+      "basename": "resilio sync",
+      "path": "记事本/非开发/资源素材/环境安装和软件安装/同步软件/resilio sync.md"
+    },
+    {
+      "basename": "window系统重装指南",
+      "path": "记事本/非开发/资源素材/环境安装和软件安装/window系统重装指南.md"
+    },
+    {
+      "basename": "最新实用油猴脚本推荐",
+      "path": "记事本/非开发/资源素材/环境安装和软件安装/最新实用油猴脚本推荐.md"
+    },
+    {
+      "basename": "软件下载",
+      "path": "记事本/非开发/资源素材/环境安装和软件安装/软件下载.md"
+    },
+    {
+      "basename": "rsync安装和配置",
+      "path": "记事本/非开发/资源素材/环境安装和软件安装/rsync安装和配置.md"
+    },
+    {
+      "basename": "群公告-开发记事本",
+      "path": "obsidian配置文件目录/New/群公告-开发记事本.md"
+    },
+    {
+      "basename": "脚本文件",
+      "path": "记事本/非开发/文件备份/脚本文件.md"
+    },
+    {
+      "basename": "补丁脚本",
+      "path": "记事本/非开发/脚本/脚本集合/补丁脚本.md"
     },
     {
       "basename": "汇总所有在线文档",
       "path": "汇总所有在线文档.md"
     },
     {
-      "basename": "git文件占用文件问题",
-      "path": "记事本/学习/开发软实力/git/git文件占用文件问题.md"
+      "basename": "vscode git graph",
+      "path": "记事本/学习/开发软实力/vscode/vscode git graph.md"
+    },
+    {
+      "basename": "2023-10-31",
+      "path": "日记/2023-10-31.md"
+    },
+    {
+      "basename": "task",
+      "path": "obsidian配置文件目录/New/task.md"
+    },
+    {
+      "basename": "personal token",
+      "path": "记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/personal token.md"
+    },
+    {
+      "basename": "工作计划梳理和安排",
+      "path": "记事本/学习/学习计划脚本/工作计划梳理和安排.md"
     },
     {
       "basename": "git国内源",
@@ -143,58 +183,6 @@
     {
       "basename": "Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币",
       "path": "黑曜石使用相关/Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币.md"
-    },
-    {
-      "basename": "a 服务器相关命令",
-      "path": "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md"
-    },
-    {
-      "basename": "学习清单",
-      "path": "记事本/学习/前端/前端杂项/学习清单.md"
-    },
-    {
-      "basename": "最新工作安排-zagger",
-      "path": "记事本/工作/工作计划/老的工作计划/最新工作安排-zagger.md"
-    },
-    {
-      "basename": "ftp服务器和npm 临时仓库地址",
-      "path": "记事本/学习/后端/ftp服务器和npm 临时仓库地址.md"
-    },
-    {
-      "basename": "shell_code",
-      "path": "记事本/学习/后端/shell_code.md"
-    },
-    {
-      "basename": "postman",
-      "path": "记事本/学习/后端/postman.md"
-    },
-    {
-      "basename": "客户端远程改资源",
-      "path": "记事本/工作/工作项目维护/常见问题/客户端远程改资源.md"
-    },
-    {
-      "basename": "解决webspice统一的问题",
-      "path": "记事本/工作/工作项目维护/常见问题/解决webspice统一的问题.md"
-    },
-    {
-      "basename": "工作项目维护",
-      "path": "记事本/工作/工作项目维护/常见问题/工作项目维护.md"
-    },
-    {
-      "basename": "研发业务知识点掌握目标达成办法（草稿）-20230717090100-f3gxbzm",
-      "path": "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/研发业务知识点掌握目标达成办法（草稿）-20230717090100-f3gxbzm.md"
-    },
-    {
-      "basename": "研发业务知识点掌握目标达成办法（草稿）",
-      "path": "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/研发业务知识点掌握目标达成办法（草稿）.md"
-    },
-    {
-      "basename": "新版本",
-      "path": "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/新版本.md"
-    },
-    {
-      "basename": "碎片",
-      "path": "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/碎片.md"
     }
   ],
   "omittedPaths": [],
