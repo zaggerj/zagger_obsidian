@@ -53,5 +53,6 @@
   "float-search",
   "better-search-views",
   "obsidian-linter",
-  "obsidian-git"
+  "obsidian-git",
+  "file-explorer-note-count"
 ]

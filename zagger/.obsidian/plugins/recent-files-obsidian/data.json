@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "周记模板",
+      "path": "obsidian配置文件目录/templater/周记模板.md"
+    },
+    {
+      "basename": "英文单词模板",
+      "path": "obsidian配置文件目录/templater/英文单词模板.md"
+    },
+    {
       "basename": "会议",
       "path": "obsidian配置文件目录/templater/模板/会议.md"
     },
@@ -11,14 +19,6 @@
     {
       "basename": "灵感模板",
       "path": "obsidian配置文件目录/templater/灵感模板.md"
-    },
-    {
-      "basename": "英文单词模板",
-      "path": "obsidian配置文件目录/templater/英文单词模板.md"
-    },
-    {
-      "basename": "周记模板",
-      "path": "obsidian配置文件目录/templater/周记模板.md"
     },
     {
       "basename": "日记模板",
