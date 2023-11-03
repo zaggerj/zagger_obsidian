@@ -7,3 +7,5 @@ git branch -M main
 git remote add origin https://github.com/zaggerj/my_desk_app.git
 git push -u origin main
 ```
+
+![[Pasted image 20231103175601.png]]
