@@ -35,7 +35,8 @@ msg:{
 
 - Validator 校验，有一个参数 value
 	- ![[Pasted image 20231103161643.png]]
-- inheritAttrs 是否继承html特性
+- InheritAttrs 是否继承 html 特性
+	- ![[Pasted image 20231103163005.png]]
 - 子组件不能修改父组件传递过来的prop
 
 ## event
