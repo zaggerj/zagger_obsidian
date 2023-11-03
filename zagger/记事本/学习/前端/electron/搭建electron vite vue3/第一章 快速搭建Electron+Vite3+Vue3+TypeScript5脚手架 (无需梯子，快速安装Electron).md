@@ -264,6 +264,14 @@ plugins: [vue()],
 
 执行 yarn build，这个第一次可能优点慢，看自己的网速如何了。也可能会出现连接失败，下载失败的情况，多尝试几次。
 
+> 问题一
+> `pnpm build` 出现过一次失败，github 被墙了，命令行设置有 setproxy 之后，安装成功了。
+![[Pasted image 20231103100720.png]]
+
+问题二
+Prettier 格式化 ts 文件时报错了
+原来是 package. son
+
 ![](https://img-blog.csdnimg.cn/432a32ee57684d58ba4ea27f2cd7bb0f.png)
 
 像上面一样就说明我们已经打包成功了。打开程序
