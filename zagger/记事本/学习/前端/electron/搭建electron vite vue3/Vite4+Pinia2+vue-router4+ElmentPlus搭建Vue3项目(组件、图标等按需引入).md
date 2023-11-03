@@ -42,7 +42,51 @@
 
 #### 5️⃣ 项目根目录下修改tsconfig.json
 
-`   1. {      2.   "compilerOptions": {      3.     "target": "esnext", // 目标语言的版本      4.     "useDefineForClassFields": true,      5.     "module": "esnext", // 生成代码的模板标准      6.     "moduleResolution": "node", // 模块解析策略，ts默认用node的解析策略，即相对的方式导入      7.     "strict": true, // 开启所有严格的类型检查      8.     "jsx": "preserve", // 指定将 JSX 编译成什么形式      9.     "jsxFactory": "h", // 当使用经典的JSX运行时编译JSX元素时，更改.js文件中调用的函数，默认：React.createElement 。      10.     "jsxFragmentFactory": "Fragment",      11.     "sourceMap": true, // 生成目标文件的sourceMap文件      12.     "resolveJsonModule": true, // 指定 JSX 片段工厂函数在指定了 jsxFactory 编译器选项的情况下针对 react JSX 发出时使用。      13.     "esModuleInterop": true, // 允许export=导出，由import from 导入      14.     // TS需要引用的库，即声明文件，es5 默认引用dom、es5、scripthost,如需要使用es的高级版本特性，通常都需要配置，如es8的数组新特性需要引入"ES2019.Array"      15.     "lib": ["esnext", "dom"],      16.     "types": ["vite/client", "element-plus/global", "unplugin-icons/types/vue"], // 加载的声明文件包      17.     "baseUrl": ".", // 解析非相对模块的基地址，默认是当前目录      18.     "skipLibCheck": true, // 忽略所有的声明文件（ *.d.ts）的类型检查。      19.     "paths": { // 路径映射，相对于baseUrl      20.       "@/*": [      21.         "src/*"      22.       ]      23.     }      24.   },      25.   // 指定一个匹配列表（属于自动指定该路径下的所有ts相关文件）      26.   "include": ["src/**/*.ts", "**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/autoImport/*.d.ts"],      27.   "exclude": [      28.     "node_modules"      29.   ]      30. }        `
+```json
+{
+  "compilerOptions": {
+    "target": "esnext", // 目标语言的版本
+    "useDefineForClassFields": true,
+    "module": "esnext", // 生成代码的模板标准
+    "moduleResolution": "node", // 模块解析策略，ts默认用node的解析策略，即相对的方式导入
+    "strict": true, // 开启所有严格的类型检查
+    "jsx": "preserve", // 指定将 JSX 编译成什么形式
+    "jsxFactory": "h", // 当使用经典的JSX运行时编译JSX元素时，更改.js文件中调用的函数，默认：React.createElement 。
+    "jsxFragmentFactory": "Fragment",
+    "sourceMap": true, // 生成目标文件的sourceMap文件
+    "resolveJsonModule": true, // 指定 JSX 片段工厂函数在指定了 jsxFactory 编译器选项的情况下针对 react JSX 发出时使用。
+    "esModuleInterop": true, // 允许export=导出，由import from 导入
+    // TS需要引用的库，即声明文件，es5 默认引用dom、es5、scripthost,如需要使用es的高级版本特性，通常都需要配置，如es8的数组新特性需要引入"ES2019.Array"
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "types": [
+      "vite/client",
+      "element-plus/global",
+      "unplugin-icons/types/vue"
+    ], // 加载的声明文件包
+    "baseUrl": ".", // 解析非相对模块的基地址，默认是当前目录
+    "skipLibCheck": true, // 忽略所有的声明文件（ *.d.ts）的类型检查。
+    "paths": { // 路径映射，相对于baseUrl
+      "@/*": [
+        "src/*"
+      ]
+    }
+  },
+  // 指定一个匹配列表（属于自动指定该路径下的所有ts相关文件）
+  "include": [
+    "src/**/*.ts",
+    "**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "src/autoImport/*.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
+```
 
 ## 叁、配置ElementPlus、图标库，vueAPI等按需引入，支持jsx、tsx等 😉😉😉😉
 
@@ -52,11 +96,105 @@
 
 **注：**按需引入这里需要在src文件夹下新建一个autoImport的文件夹存在按需引入生成的文件。这样做的目的是，后期如果传git，可以屏蔽这个文件夹。
 
-`   1. import { defineConfig } from 'vite'      2. import path from 'path'      3. import vue from '@vitejs/plugin-vue'      4. import Icons from 'unplugin-icons/vite'      5. import IconsResolver from 'unplugin-icons/resolver'      6. import AutoImport from 'unplugin-auto-import/vite'      7. import Components from 'unplugin-vue-components/vite'      8. import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'      9. import vueJsx from '@vitejs/plugin-vue-jsx';      10. const pathSrc = path.resolve(__dirname, 'src')       12. export default defineConfig({      13.   resolve: {      14.     alias: {      15.       '@': pathSrc, // 文件系统路径别名      16.     }      17.   },      18.   plugins: [      19.     vue(),      20.     vueJsx(), // 支持jsx、tsx的写法      21.     AutoImport({      22.       imports: ['vue'],      23.       resolvers: [      24.         ElementPlusResolver(),      25.         IconsResolver({      26.           prefix: 'Icon'      27.         })      28.       ],      29.       dts: path.resolve(pathSrc + '/autoImport', 'auto-imports.d.ts')      30.     }),      31.     Components({      32.       resolvers: [      33.         ElementPlusResolver(),      34.         IconsResolver({      35.           enabledCollections: ['ep', 'carbon', 'noto']      36.         })      37.       ],      38.       dts: path.resolve(pathSrc + '/autoImport', 'components.d.ts')      39.     }),      40.     Icons({      41.       autoInstall: true,      42.       compiler: 'vue3'      43.     })      44.   ],      45.   server: {      46.     host: '0.0.0.0', // 指定服务器应该监听哪个 IP 地址      47.     port: 9527, // 指定开发服务器端口      48.     strictPort: true, // 若端口已被占用则会直接退出      49.     https: false, // 启用 TLS + HTTP/2      50.     open: false, // 启动时自动在浏览器中打开应用程序      51.   }      52. })        `
+```js
+import { defineConfig } from 'vite'
+import path from 'path'
+import vue from '@vitejs/plugin-vue'
+import Icons from 'unplugin-icons/vite'
+import IconsResolver from 'unplugin-icons/resolver'
+import AutoImport from 'unplugin-auto-import/vite'
+import Components from 'unplugin-vue-components/vite'
+import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
+import vueJsx from '@vitejs/plugin-vue-jsx'
+const pathSrc = path.resolve(__dirname, 'src')
+export default defineConfig({
+  resolve: {
+    alias: {
+      '@': pathSrc // 文件系统路径别名
+    }
+  },
+  plugins: [
+    vue(),
+    vueJsx(), // 支持jsx、tsx的写法
+    AutoImport({
+      imports: ['vue'],
+      resolvers: [
+        ElementPlusResolver(),
+        IconsResolver({
+          prefix: 'Icon'
+        })
+      ],
+      dts: path.resolve(pathSrc + '/autoImport', 'auto-imports.d.ts')
+    }),
+    Components({
+      resolvers: [
+        ElementPlusResolver(),
+        IconsResolver({
+          enabledCollections: ['ep', 'carbon', 'noto']
+        })
+      ],
+      dts: path.resolve(pathSrc + '/autoImport', 'components.d.ts')
+    }),
+    Icons({
+      autoInstall: true,
+      compiler: 'vue3'
+    })
+  ],
+  server: {
+    host: '0.0.0.0', // 指定服务器应该监听哪个 IP 地址
+    port: 9527, // 指定开发服务器端口
+    strictPort: true, // 若端口已被占用则会直接退出
+    https: false, // 启用 TLS + HTTP/2
+    open: false // 启动时自动在浏览器中打开应用程序
+  }
+})
+```
 
 #### 2️⃣ 测试ElementPlus、图标以及vue3API等按需引入情况。修改App.vue文件。
 
-`1. <template>      2.   <el-row :gutter="20">      3.     <el-col :span="6">      4.       <el-button type="primary">Primary</el-button>      5.     </el-col>      6.     <el-col :span="6">      7.       <el-button type="success">Success</el-button>      8.     </el-col>      9.     <el-col :span="6">      10.       <el-button type="info">Info</el-button>      11.     </el-col>      12.     <el-col :span="6">      13.       <el-button type="warning"><i-ep-delete />Warning</el-button>      14.     </el-col>      15.   </el-row>      16.   <br/>      17.   <br/>      18.   <br/>      19.   <el-button type="primary" @click="changeCount">++++</el-button>      20.   <br/>      21.   <br/>      22.   <br/>      23.   <span style="color: red;font-size: 22px;">{{ count }}</span>      24. </template>       26. <script lang="ts">      27. export default defineComponent({      28.   setup() {       30.     let data = reactive({      31.       count: 1,      32.     })       34.     const changeCount = () => {      35.       data.count++      36.     }       38.     return {      39.       changeCount,      40.       ...toRefs(data)      41.     }      42.   }      43. })      44. </script>` 
+```vue
+<template>
+<el-row :gutter="20">
+<el-col :span="6">
+<el-button type="primary">Primary</el-button>
+</el-col>
+<el-col :span="6">
+<el-button type="success">Success</el-button>
+</el-col>
+<el-col :span="6">
+<el-button type="info">Info</el-button>
+</el-col>
+<el-col :span="6">
+<el-button type="warning"><i-ep-delete />Warning</el-button>
+</el-col>
+</el-row>
+<br/>
+<br/>
+<br/>
+<el-button type="primary" @click="changeCount">++++</el-button>
+<br/>
+<br/>
+<br/>
+<span style="color: red;font-size: 22px;">{{ count }}</span>
+</template>
+<script lang="ts">
+export default defineComponent({
+setup() {
+let data = reactive({
+count: 1,
+})
+const changeCount = () => {
+data.count++
+}
+return {
+changeCount,
+...toRefs(data)
+}
+}
+})
+</script>
+
+```
 
 #### 3️⃣ 成功运行至下列效果表示按需引入没有任何问题 👇👇👇👇
 
@@ -70,15 +208,72 @@
 
 #### 2️⃣ index.ts 路由配置
 
-`   1. import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'       3. export const asyncRoutes: RouteRecordRaw[] = [      4.     {      5.         path: '/',      6.         name: 'home',      7.         meta: {      8.             title: 'home'      9.         },      10.         component: () => import('@/views/home.vue')      11.     },      12.     {      13.         path: '/home1',      14.         name: 'home1',      15.         meta: {      16.             title: 'home1'      17.         },      18.         component: () => import('@/views/home1.vue')      19.     }      20. ]       22. const router = createRouter({      23.     history: createWebHashHistory(),      24.     routes: asyncRoutes,      25.     scrollBehavior: () => ({ left: 0, top: 0 })      26. })       28. export default router        `
+```typescript
+import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
+export const asyncRoutes: RouteRecordRaw[] = [
+{
+path: '/',
+name: 'home',
+meta: {
+title: 'home'
+},
+component: () => import('@/views/home.vue')
+},
+{
+path: '/home1',
+name: 'home1',
+meta: {
+title: 'home1'
+},
+component: () => import('@/views/home1.vue')
+}
+]
+const router = createRouter({
+history: createWebHashHistory(),
+routes: asyncRoutes,
+scrollBehavior: () => ({ left: 0, top: 0 })
+})
+export default router
+
+```
 
 #### 3️⃣ permission.ts路由拦截器,这里面使用到了nprogress顶部加载效果
 
-`   1. import router from '@/router'      2. // @ts-ignore      3. import NProgress from 'nprogress'      4. import 'nprogress/nprogress.css'       6. NProgress.configure({      7.     easing: 'ease', // 动画方式      8.     showSpinner: true, // 是否显示加载ico      9.     trickleSpeed: 200, // 自动递增间隔      10.     minimum: 0.4, // 更改启动时使用的最小百分比      11. })       13. const whiteList = ['/login', '/redirect']       15. router.beforeEach((to, form, next) => {      16.     // 这里处理自己的逻辑,比如需要登录以后才能访问其他页面等等      17.     NProgress.start()      18.     next()      19.     NProgress.done()      20. })        `
+```typescript
+import router from '@/router'
+// @ts-ignore
+import NProgress from 'nprogress'
+import 'nprogress/nprogress.css'
+NProgress.configure({
+easing: 'ease', // 动画方式
+showSpinner: true, // 是否显示加载ico
+trickleSpeed: 200, // 自动递增间隔
+minimum: 0.4, // 更改启动时使用的最小百分比
+})
+const whiteList = ['/login', '/redirect']
+router.beforeEach((to, form, next) => {
+// 这里处理自己的逻辑,比如需要登录以后才能访问其他页面等等
+NProgress.start()
+next()
+NProgress.done()
+})
+
+```
 
 #### 4️⃣ src下main.ts 文件修改
 
-`1. import { createApp } from 'vue'       3. import App from './App.vue'      4. import 'animate.css'      5. import router from '@/router';      6. import '@/router/permission'      7. import 'element-plus/theme-chalk/dark/css-vars.css'       9. const app = createApp(App);       11. app.use(router)       13. app.mount('#app')` 
+```ts
+import { createApp } from 'vue'
+import App from './App.vue'
+import 'animate.css'
+import router from '@/router';
+import '@/router/permission'
+import 'element-plus/theme-chalk/dark/css-vars.css'
+const app = createApp(App);
+app.use(router)
+app.mount('#app')
+
+```
 
 #### 5️⃣ src下新建views文件夹,文件夹下新建home.vue和home1.vue两个文件
 
