@@ -1,6 +1,6 @@
 {
   "searchViewState": {
-    "query": " xargs kill",
+    "query": "kill",
     "matchingCase": false,
     "explainSearch": false,
     "collapseAll": false,

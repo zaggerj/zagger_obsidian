@@ -185,7 +185,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": " xargs kill",
+                "query": "kill",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -210,7 +210,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "73db95bfb166faa1",
@@ -257,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/学习/前端/electron/搭建electron vite vue3/第二章 Electron自定义界面(最大化、最小化、关闭、图标等等).md"
+                "file": "汇总所有在线文档.md"
               }
             }
           },
@@ -275,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/学习/前端/electron/搭建electron vite vue3/第二章 Electron自定义界面(最大化、最小化、关闭、图标等等).md",
+                "file": "汇总所有在线文档.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -292,7 +293,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/学习/前端/electron/搭建electron vite vue3/第二章 Electron自定义界面(最大化、最小化、关闭、图标等等).md",
+                "file": "汇总所有在线文档.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -304,7 +305,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/学习/前端/electron/搭建electron vite vue3/第二章 Electron自定义界面(最大化、最小化、关闭、图标等等).md"
+                "file": "汇总所有在线文档.md"
               }
             }
           },
@@ -383,7 +384,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "06fba4976e2c5589",
+  "active": "f2b0ffe519625a29",
   "lastOpenFiles": [
     "记事本/学习/后端/linux/linux查看网络命令集合.md",
     "记事本/学习/前端/electron/搭建electron vite vue3/第二章 Electron自定义界面(最大化、最小化、关闭、图标等等).md",
