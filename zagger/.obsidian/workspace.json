@@ -113,16 +113,6 @@
             }
           },
           {
-            "id": "7cf747ad2437515e",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "keyboard-shortcuts-visualization",
-              "state": {},
-              "pinned": true
-            }
-          },
-          {
             "id": "666ebfbc06f7204d",
             "type": "leaf",
             "pinned": true,
@@ -190,7 +180,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -433,10 +423,10 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "23fad819ff207865",
+  "active": "00ac91a597a49962",
   "lastOpenFiles": [
-    "obsidian配置文件目录/templater/日记模板.md",
     "obsidian配置文件目录/templater/模板/周记模板.md",
+    "obsidian配置文件目录/templater/日记模板.md",
     "obsidian配置文件目录/templater/模板/日记模板.md",
     "日记周记/日记/2023-07-05.md",
     "日记周记/daily note.md",
