@@ -204,6 +204,41 @@
       },
       "openFile": false,
       "openFileInMode": "default"
+    },
+    {
+      "id": "dcc3a4e3-f9ca-441a-a782-e35f1e9323fc",
+      "name": "创建日报",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "记事本/工作/工作记录/日报/{date}.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": true,
+        "template": "obsidian配置文件目录/templater/工作记录/日报模板.md"
+      },
+      "format": {
+        "enabled": true,
+        "format": "```js quickadd \nlet text = \"\";\ntext = await this.quickAddApi.inputPrompt(\"todo\",\"输入todo\",text);\ntext = text.replace(\"\\n\",\"<br>\"); \ntext = \"- [ ] \" + text ;\nreturn text\n```"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
     }
   ],
   "macros": [],
