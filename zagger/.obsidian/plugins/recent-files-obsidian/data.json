@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "obsidian清单",
-      "path": "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md"
-    },
-    {
       "basename": "日记模板",
       "path": "obsidian配置文件目录/templater/模板/日记模板.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "记事本/工作/工作记录/日报/Untitled.md"
+    },
+    {
+      "basename": "日报模板",
+      "path": "obsidian配置文件目录/templater/模板/工作记录/日报模板.md"
+    },
+    {
+      "basename": "obsidian清单",
+      "path": "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md"
     },
     {
       "basename": "日记：2023年11月04日",
@@ -191,14 +199,6 @@
     {
       "basename": "git国内源",
       "path": "记事本/学习/开发软实力/git/git国内源.md"
-    },
-    {
-      "basename": "2023-10-13",
-      "path": "日记周记/日记/2023-10-13.md"
-    },
-    {
-      "basename": "记事本",
-      "path": "记事本/学习/前端/前端杂项/记事本.md"
     }
   ],
   "omittedPaths": [],
