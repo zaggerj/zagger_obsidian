@@ -53,7 +53,18 @@
   },
   "treeData": [
     {
-      "id": "325be28fc19bb2f4",
+      "id": "754f2a545d2214e1",
+      "parent": 0,
+      "droppable": true,
+      "text": "滴答_百度搜索",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "40570abf031a81d0",
       "parent": 0,
       "droppable": true,
       "text": "收集箱 - 滴答清单",
