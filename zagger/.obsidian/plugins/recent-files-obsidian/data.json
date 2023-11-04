@@ -195,10 +195,6 @@
     {
       "basename": "git 文档清单",
       "path": "记事本/学习/开发软实力/git/git 文档清单.md"
-    },
-    {
-      "basename": "readme",
-      "path": "记事本/非开发/其他/readme.md"
     }
   ],
   "omittedPaths": [],
