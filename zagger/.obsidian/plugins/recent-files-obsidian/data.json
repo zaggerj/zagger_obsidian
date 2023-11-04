@@ -195,10 +195,6 @@
     {
       "basename": "ftp服务器和npm 临时仓库地址",
       "path": "记事本/学习/后端/ftp服务器和npm 临时仓库地址.md"
-    },
-    {
-      "basename": "shell_code",
-      "path": "记事本/学习/后端/shell_code.md"
     }
   ],
   "omittedPaths": [],

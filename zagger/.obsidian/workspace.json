@@ -418,10 +418,14 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "d7856247cfe4fa39",
+  "active": "23fad819ff207865",
   "lastOpenFiles": [
-    "黑曜石使用相关/obsidian/obsidian清单.md",
+    "记事本/工作/工作记录/日报",
+    "记事本/工作/工作记录/未命名.md",
     "obsidian配置文件目录/templater/模板/日记模板.md",
+    "记事本/工作/工作记录",
+    "日记周记/工作",
+    "黑曜石使用相关/obsidian/obsidian清单.md",
     "obsidian配置文件目录/templater/模板/排期计划.md",
     "日记周记/排期计划.md",
     "obsidian配置文件目录/templater/日记模板.md",
@@ -460,12 +464,8 @@
     "记事本/其他/待整理/正则和算法/运算符.md",
     "记事本/其他/待整理/生活/投诉话术.md",
     "记事本/其他/待整理/正则和算法/通过匹配文本打开文件.md",
-    "记事本/其他/待整理/正则和算法/iex & {$(irm get.scoop.sh)} -RunAsAdmin.md",
-    "记事本/其他/待整理/正则和算法/空行正则.md",
     "记事本/其他/待整理/正则和算法/assets",
     "记事本/其他/待整理/管理工作",
-    "记事本/其他/待整理/生活",
-    "记事本/其他/待整理/正则和算法",
     "记事本/学习/测试/未命名.canvas"
   ]
 }
