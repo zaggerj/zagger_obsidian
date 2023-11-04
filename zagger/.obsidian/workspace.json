@@ -331,14 +331,6 @@
             }
           },
           {
-            "id": "0f214832174047e1",
-            "type": "leaf",
-            "state": {
-              "type": "timeline",
-              "state": {}
-            }
-          },
-          {
             "id": "587097c7d3e0dc04",
             "type": "leaf",
             "state": {
@@ -355,7 +347,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       },
       {
         "id": "888c3f3084370af3",
@@ -392,7 +384,6 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-day-planner:Timeline": false,
       "obsidian-memos:Memos": false,
       "cmdr:折叠": false,
       "custom-sort:Toggle custom sorting": false,
@@ -400,7 +391,8 @@
       "remotely-save:Remotely Save": false,
       "templater-obsidian:Templater": false,
       "obsidian-daily-notes-viewer:打开 Viewer": false,
-      "float-search:Search Obsidian In Modal": false
+      "float-search:Search Obsidian In Modal": false,
+      "obsidian-day-planner:Timeline": false
     }
   },
   "active": "284e6aa35d3b0c63",
