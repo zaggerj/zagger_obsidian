@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Untitled",
-      "path": "记事本/工作/工作记录/日报/Untitled.md"
+      "basename": "Viewer",
+      "path": "Viewer.md"
     },
     {
       "basename": "日记：2023年11月04日",
       "path": "日记周记/日记/日记：2023年11月04日.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "记事本/工作/工作记录/日报/Untitled.md"
     },
     {
       "basename": "日记模板",
@@ -195,10 +199,6 @@
     {
       "basename": "git fetch参数",
       "path": "记事本/学习/开发软实力/git/git fetch参数.md"
-    },
-    {
-      "basename": "git报错",
-      "path": "记事本/学习/开发软实力/git/git报错.md"
     }
   ],
   "omittedPaths": [],

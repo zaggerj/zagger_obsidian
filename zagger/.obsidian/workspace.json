@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "记事本/工作/工作记录/日报/Untitled.md",
+                "file": "Viewer.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -282,7 +282,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/工作/工作记录/日报/Untitled.md"
+                "file": "Viewer.md"
               }
             }
           },
@@ -300,7 +300,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/工作/工作记录/日报/Untitled.md",
+                "file": "Viewer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -317,7 +317,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/工作/工作记录/日报/Untitled.md",
+                "file": "Viewer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -329,7 +329,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/工作/工作记录/日报/Untitled.md"
+                "file": "Viewer.md"
               }
             }
           },
@@ -373,8 +373,17 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "b6fec8d35877681a",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -409,9 +418,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "c684adc08d4729b1",
+  "active": "b6fec8d35877681a",
   "lastOpenFiles": [
     "日记周记/日记/日记：2023年11月04日.md",
+    "记事本/工作/工作记录/日报/Untitled.md",
     "obsidian配置文件目录/templater/模板/日记模板.md",
     "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md",
     "日记周记/日记/日记Database.md",
@@ -420,7 +430,6 @@
     "obsidian配置文件目录/templater/模板/极简日记模板.md",
     "obsidian配置文件目录/templater/英文单词模板.md",
     "obsidian配置文件目录/templater/日记模板.md",
-    "记事本/工作/工作记录/日报/Untitled.md",
     "obsidian配置文件目录/templater/模板/工作记录/日报模板.md",
     "obsidian配置文件目录/templater/模板/工作记录",
     "日记周记/日记/日记：2023年11月03日.md",
