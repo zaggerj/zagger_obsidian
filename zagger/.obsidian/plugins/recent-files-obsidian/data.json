@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "task",
-      "path": "obsidian配置文件目录/New/task.md"
+      "basename": "日记模板",
+      "path": "obsidian配置文件目录/templater/模板/日记模板.md"
     },
     {
       "basename": "日记：2023年10月30日",
       "path": "日记周记/日记/日记：2023年10月30日.md"
     },
     {
-      "basename": "日记：2023年11月04日",
-      "path": "日记周记/日记/日记：2023年11月04日.md"
+      "basename": "obsidian清单",
+      "path": "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md"
     },
     {
-      "basename": "日记模板",
-      "path": "obsidian配置文件目录/templater/模板/日记模板.md"
+      "basename": "task",
+      "path": "obsidian配置文件目录/New/task.md"
+    },
+    {
+      "basename": "日记：2023年11月04日",
+      "path": "日记周记/日记/日记：2023年11月04日.md"
     },
     {
       "basename": "日记：2023年10月31日",
@@ -59,10 +63,6 @@
     {
       "basename": "基础模板",
       "path": "obsidian配置文件目录/templater/模板/基础模板.md"
-    },
-    {
-      "basename": "obsidian清单",
-      "path": "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md"
     },
     {
       "basename": "排期计划",
