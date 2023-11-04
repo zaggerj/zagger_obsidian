@@ -261,6 +261,7 @@ columns:
       task_hide_completed: true
       footer_type: none
       persist_changes: false
+      wrap_content: true
   早起:
     input: text
     accessorKey: 早起
@@ -286,6 +287,25 @@ columns:
     key: 心情
     id: 心情
     label: 心情
+    position: 100
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+  日期:
+    input: calendar
+    accessorKey: 日期
+    key: 日期
+    id: 日期
+    label: 日期
     position: 100
     skipPersist: false
     isHidden: false
