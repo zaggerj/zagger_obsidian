@@ -18,7 +18,7 @@ columns:
     skipPersist: false
     isDragDisabled: false
     csvCandidate: true
-    position: 0
+    position: 1
     isHidden: false
     sortIndex: -1
     config:
@@ -41,7 +41,7 @@ columns:
     skipPersist: false
     csvCandidate: true
     isHidden: true
-    position: 0
+    position: 2
     sortIndex: -1
     config:
       enable_media_view: true
@@ -63,7 +63,7 @@ columns:
     skipPersist: false
     csvCandidate: true
     isHidden: true
-    position: 0
+    position: 3
     sortIndex: -1
     config:
       enable_media_view: true
@@ -85,7 +85,7 @@ columns:
     skipPersist: false
     csvCandidate: false
     width: 292
-    position: 0
+    position: 5
     isHidden: false
     sortIndex: -1
     config:
@@ -108,7 +108,7 @@ columns:
     skipPersist: false
     csvCandidate: false
     isHidden: true
-    position: 0
+    position: 6
     sortIndex: -1
     config:
       enable_media_view: true
@@ -130,7 +130,7 @@ columns:
     skipPersist: false
     csvCandidate: false
     isHidden: true
-    position: 0
+    position: 7
     sortIndex: -1
     config:
       enable_media_view: true
@@ -151,7 +151,7 @@ columns:
     isDragDisabled: false
     skipPersist: false
     csvCandidate: false
-    position: 0
+    position: 8
     isHidden: false
     sortIndex: -1
     config:
@@ -169,7 +169,7 @@ columns:
     key: 要事
     id: 要事
     label: 要事
-    position: 100
+    position: 9
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -189,7 +189,7 @@ columns:
     key: 反思
     id: 反思
     label: 反思
-    position: 100
+    position: 10
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -209,7 +209,7 @@ columns:
     key: 随想
     id: 随想
     label: 随想
-    position: 100
+    position: 11
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -229,7 +229,7 @@ columns:
     key: 标签
     id: 标签
     label: 标签
-    position: 100
+    position: 12
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -248,7 +248,7 @@ columns:
     key: 天气
     id: 天气
     label: 天气
-    position: 100
+    position: 13
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -268,7 +268,7 @@ columns:
     key: 早起
     id: 早起
     label: 早起
-    position: 100
+    position: 14
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -287,7 +287,7 @@ columns:
     key: 心情
     id: 心情
     label: 心情
-    position: 100
+    position: 15
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -306,7 +306,7 @@ columns:
     key: 日期
     id: 日期
     label: 日期
-    position: 100
+    position: 4
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -352,4 +352,12 @@ config:
 filters:
   enabled: false
   conditions:
+      - condition: AND
+        disabled: true
+        color: "hsl(329, 95%, 90%)"
+        filters:
+        - field: 标签
+          operator: CONTAINS
+          value: ""
+          type: text
 ```
