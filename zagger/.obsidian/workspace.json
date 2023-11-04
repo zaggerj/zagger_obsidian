@@ -128,32 +128,6 @@
             }
           },
           {
-            "id": "d39b9ff6dc692741",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "记事本/工作/工作记事.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f7c5782178482a16",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "黑曜石使用相关/obsidian/obsidian工作流.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6559b70b3afa1282",
             "type": "leaf",
             "state": {
@@ -172,15 +146,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian配置文件目录/templater/模板/日记模板.md",
+                "file": "黑曜石使用相关/obsidian/obsidian清单.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": true
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "468234f4d554dc56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian配置文件目录/templater/模板/周记模板.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -297,7 +284,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian配置文件目录/templater/模板/日记模板.md"
+                "file": "obsidian配置文件目录/templater/模板/周记模板.md"
               }
             }
           },
@@ -315,7 +302,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian配置文件目录/templater/模板/日记模板.md",
+                "file": "obsidian配置文件目录/templater/模板/周记模板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -332,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian配置文件目录/templater/模板/日记模板.md",
+                "file": "obsidian配置文件目录/templater/模板/周记模板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -344,7 +331,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "obsidian配置文件目录/templater/模板/日记模板.md"
+                "file": "obsidian配置文件目录/templater/模板/周记模板.md"
               }
             }
           },
@@ -423,17 +410,24 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "d7856247cfe4fa39",
+  "active": "468234f4d554dc56",
   "lastOpenFiles": [
-    "obsidian配置文件目录/templater/模板/周记模板.md",
-    "obsidian配置文件目录/templater/日记模板.md",
     "obsidian配置文件目录/templater/模板/日记模板.md",
+    "obsidian配置文件目录/templater/模板/周记模板.md",
+    "日记周记/周记/2023年44周.md",
+    "obsidian配置文件目录/sortspec.md",
+    "日记/周记/2023年44周.md",
+    "黑曜石使用相关/obsidian/obsidian清单.md",
+    "日记周记/日记/日记：2023年11月4日.md",
+    "日记/周记",
+    "日记",
+    "黑曜石使用相关/obsidian/obsidian工作流.md",
+    "obsidian配置文件目录/templater/日记模板.md",
     "日记周记/日记/2023-07-05.md",
     "日记周记/daily note.md",
     "日记周记/日记/2023-10-31.md",
     "日记周记/周记",
     "日记周记/日记",
-    "黑曜石使用相关/obsidian/obsidian清单.md",
     "黑曜石使用相关/obsidian/obsidian教程.md",
     "黑曜石使用相关/obsidian/obsidian教程-zagger.md",
     "记事本/学习/学习计划脚本/转换规则总结(巅峰完美诠释文档).md",
@@ -460,17 +454,10 @@
     "记事本/其他/待整理/正则和算法/空行正则.md",
     "记事本/其他/待整理/正则和算法/拼接类型化数组.md",
     "记事本/其他/待整理/正则和算法/匹配value =.md",
-    "记事本/其他/待整理/文件备份/windows zsh配置备份 20234015.md",
     "记事本/其他/待整理/正则和算法/assets",
-    "记事本/其他/待整理/正则和算法/^.DEBUG..md",
-    "记事本/其他/待整理/文件备份/脚本文件.md",
-    "记事本/其他/待整理/文件备份/vscode配置文件备份.md",
-    "记事本/其他/待整理/文件备份/compose.md",
     "记事本/其他/待整理/管理工作",
     "记事本/其他/待整理/生活",
     "记事本/其他/待整理/正则和算法",
-    "记事本/其他/待整理/文件备份",
-    "记事本/其他/待整理/思想建设",
     "记事本/学习/测试/未命名.canvas"
   ]
 }
