@@ -15,6 +15,14 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
+      "folder": "日记周记/日记",
+      "template": "obsidian配置文件目录/templater/模板/日记模板.md"
+    },
+    {
+      "folder": "日记周记/周记",
+      "template": "obsidian配置文件目录/templater/模板/周记模板.md"
+    },
+    {
       "folder": "",
       "template": ""
     }

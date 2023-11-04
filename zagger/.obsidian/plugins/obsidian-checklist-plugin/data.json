@@ -8,7 +8,7 @@
   "sortDirectionItems": "new->old",
   "sortDirectionGroups": "new->old",
   "sortDirectionSubGroups": "new->old",
-  "includeFiles": "",
+  "includeFiles": "!{}",
   "lookAndFeel": "classic",
   "_collapsedSections": [
     "New/todolist.md",
