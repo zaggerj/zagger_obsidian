@@ -5,6 +5,14 @@
       "path": "obsidian配置文件目录/templater/模板/日记模板.md"
     },
     {
+      "basename": "obsidian清单",
+      "path": "黑曜石使用相关/obsidian/obsidian清单.md"
+    },
+    {
+      "basename": "排期计划",
+      "path": "obsidian配置文件目录/templater/模板/排期计划.md"
+    },
+    {
       "basename": "排期计划",
       "path": "日记周记/排期计划.md"
     },
@@ -27,10 +35,6 @@
     {
       "basename": "sortspec",
       "path": "obsidian配置文件目录/sortspec.md"
-    },
-    {
-      "basename": "obsidian清单",
-      "path": "黑曜石使用相关/obsidian/obsidian清单.md"
     },
     {
       "basename": "obsidian工作流",
@@ -195,10 +199,6 @@
     {
       "basename": "shell_code",
       "path": "记事本/学习/后端/shell_code.md"
-    },
-    {
-      "basename": "postman",
-      "path": "记事本/学习/后端/postman.md"
     }
   ],
   "omittedPaths": [],

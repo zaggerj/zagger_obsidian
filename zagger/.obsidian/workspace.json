@@ -146,7 +146,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "黑曜石使用相关/obsidian/obsidian清单.md",
+                "file": "obsidian配置文件目录/templater/模板/日记模板.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -159,7 +159,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian配置文件目录/templater/模板/日记模板.md",
+                "file": "obsidian配置文件目录/templater/模板/排期计划.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -167,7 +167,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -418,17 +418,18 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "468234f4d554dc56",
+  "active": "d7856247cfe4fa39",
   "lastOpenFiles": [
-    "日记周记/排期计划.md",
+    "黑曜石使用相关/obsidian/obsidian清单.md",
+    "obsidian配置文件目录/templater/模板/排期计划.md",
     "obsidian配置文件目录/templater/模板/日记模板.md",
+    "日记周记/排期计划.md",
     "obsidian配置文件目录/templater/日记模板.md",
     "日记周记/日记/日记：2023年11月4日.md",
     "obsidian配置文件目录/templater/模板/周记模板.md",
     "日记周记/周记/2023年44周.md",
     "obsidian配置文件目录/sortspec.md",
     "日记/周记/2023年44周.md",
-    "黑曜石使用相关/obsidian/obsidian清单.md",
     "日记/周记",
     "日记",
     "黑曜石使用相关/obsidian/obsidian工作流.md",
@@ -461,7 +462,6 @@
     "记事本/其他/待整理/正则和算法/通过匹配文本打开文件.md",
     "记事本/其他/待整理/正则和算法/iex & {$(irm get.scoop.sh)} -RunAsAdmin.md",
     "记事本/其他/待整理/正则和算法/空行正则.md",
-    "记事本/其他/待整理/正则和算法/拼接类型化数组.md",
     "记事本/其他/待整理/正则和算法/assets",
     "记事本/其他/待整理/管理工作",
     "记事本/其他/待整理/生活",
