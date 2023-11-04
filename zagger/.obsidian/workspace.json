@@ -182,7 +182,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "记事本/学习/学习计划脚本/转换规则总结(巅峰完美诠释文档).md",
+                "file": "黑曜石使用相关/obsidian/obsidian清单.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -252,6 +252,14 @@
               "type": "file-tree-view",
               "state": {}
             }
+          },
+          {
+            "id": "b1705953f1ac2acf",
+            "type": "leaf",
+            "state": {
+              "type": "tagfolder-view",
+              "state": {}
+            }
           }
         ]
       },
@@ -279,8 +287,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -300,7 +307,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/学习/学习计划脚本/转换规则总结(巅峰完美诠释文档).md"
+                "file": "黑曜石使用相关/obsidian/obsidian清单.md"
               }
             }
           },
@@ -318,7 +325,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/学习/学习计划脚本/转换规则总结(巅峰完美诠释文档).md",
+                "file": "黑曜石使用相关/obsidian/obsidian清单.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -335,7 +342,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/学习/学习计划脚本/转换规则总结(巅峰完美诠释文档).md",
+                "file": "黑曜石使用相关/obsidian/obsidian清单.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -347,7 +354,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/学习/学习计划脚本/转换规则总结(巅峰完美诠释文档).md"
+                "file": "黑曜石使用相关/obsidian/obsidian清单.md"
               }
             }
           },
@@ -400,16 +407,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "remotely-save:Remotely Save": false,
-      "obsidian-day-planner:Timeline": false,
-      "obsidian-importer:Open Importer": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "cmdr:折叠": false,
-      "custom-sort:Toggle custom sorting": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false,
-      "templater-obsidian:Templater": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -421,59 +418,69 @@
       "random-note:开始漫游笔记": false,
       "audio-recorder:开始/结束录音": false,
       "workspaces:管理工作区布局": false,
+      "obsidian-importer:Open Importer": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-day-planner:Timeline": false,
+      "obsidian-memos:Memos": false,
+      "cmdr:折叠": false,
+      "custom-sort:Toggle custom sorting": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "remotely-save:Remotely Save": false,
+      "templater-obsidian:Templater": false,
       "obsidian-daily-notes-viewer:打开 Viewer": false,
-      "float-search:Search Obsidian In Modal": false,
-      "obsidian-memos:Memos": false
+      "float-search:Search Obsidian In Modal": false
     }
   },
   "active": "d7856247cfe4fa39",
   "lastOpenFiles": [
-    "记事本/非开发/其他/其他-zagger.md",
-    "记事本/非开发/其他.md",
-    "记事本/学习/开发软实力/git/github 使用本地刚初始化项目.md",
-    "记事本/学习/前端/vue2/vue高级/vue高级进阶 清单.md",
-    "记事本/学习/前端/vue2/vue高级/vue 高级进阶( 一 ) 组件精髓概述.md",
-    "记事本/学习/前端/vue2/vue高级",
-    "记事本/学习/前端/electron/搭建electron vite vue3/第二章 Electron自定义界面(最大化、最小化、关闭、图标等等).md",
-    "记事本/学习/前端/electron/搭建electron vite vue3/electron搭建清单.md",
-    "记事本/学习/前端/electron/搭建electron vite vue3/第一章 快速搭建Electron+Vite3+Vue3+TypeScript5脚手架 (无需梯子，快速安装Electron).md",
-    "记事本/学习/前端/electron/搭建electron vite vue3/Vite4+Pinia2+vue-router4+ElmentPlus搭建Vue3项目(组件、图标等按需引入).md",
-    "记事本/学习/前端/electron/搭建electron vite vue3/Vite4 + Vue3 + vue-router4 动态路由.md",
-    "记事本/学习/前端/electron/electron资源导航.md",
-    "记事本/学习/前端/electron/搭建electron vite vue3",
-    "记事本/学习/前端/electron",
-    "obsidian配置文件目录/templater/模板/日记模板.md",
-    "obsidian配置文件目录/Attachment/Pasted image 20231103175601.png",
-    "obsidian配置文件目录/Attachment/Pasted image 20231103163005.png",
-    "obsidian配置文件目录/Attachment/Pasted image 20231103161643.png",
-    "记事本/学习/学习计划脚本/脚本.md",
-    "记事本/学习/学习计划脚本/js学习计划脚本.md",
-    "记事本/学习/学习计划脚本/js学习计划.md",
-    "记事本/学习/学习计划脚本/学习笔记.md",
-    "记事本/学习/学习计划脚本/工作计划梳理和安排.md",
-    "obsidian配置文件目录/sortspec.md",
-    "记事本/非开发/其他/其他.md",
-    "黑曜石使用相关/obsidian/obsidian工作流.md",
-    "黑曜石使用相关/obsidian/教程 1.md",
-    "黑曜石使用相关/obsidian/The One 1.md",
-    "黑曜石使用相关/obsidian/The One.md",
-    "记事本/非开发/文件备份/windows zsh配置备份 20234015-zagger.md",
-    "记事本/非开发/文件备份/windows zsh配置备份 20234015.md",
-    "记事本/非开发/账号密码/共享目录.md",
-    "obsidian配置文件目录/Attachment/Pasted image 20231102183256.png",
-    "obsidian配置文件目录/Attachment/Pasted image 20231102183250.png",
-    "obsidian配置文件目录/Attachment/Pasted image 20231102182929.png",
-    "obsidian配置文件目录/Attachment/Pasted image 20231102182717.png",
-    "obsidian配置文件目录/Attachment/Pasted image 20231102182519.png",
-    "obsidian配置文件目录/Attachment/Pasted image 20231102182504.png",
-    "obsidian配置文件目录/Attachment/Pasted image 20231102180737.png",
-    "记事本/学习/开发软实力/git/git rebase专辑",
-    "记事本/非开发/资源素材/AI工具",
-    "记事本/非开发/资源素材/环境安装和软件安装/windows软件安装/windows软件列表/安装powershell/assets",
-    "记事本/非开发/资源素材/环境安装和软件安装/windows软件安装/windows软件列表/assets/app-20230716140408-rlksfzz.asar",
-    "记事本/非开发/资源素材/环境安装和软件安装/windows软件安装/windows软件列表/安装scoop",
-    "记事本/非开发/资源素材/环境安装和软件安装/windows软件安装/windows软件列表/安装powershell",
-    "记事本/非开发/资源素材/环境安装和软件安装/windows软件安装/windows软件列表/windows terminal安装",
+    "黑曜石使用相关/obsidian/obsidian教程.md",
+    "黑曜石使用相关/obsidian/obsidian清单.md",
+    "黑曜石使用相关/obsidian/obsidian教程-zagger.md",
+    "记事本/学习/学习计划脚本/转换规则总结(巅峰完美诠释文档).md",
+    "obsidian配置文件目录/Attachment/Pasted image 20231101224153.png",
+    "obsidian配置文件目录/Attachment/Pasted image 20231101224105.png",
+    "obsidian配置文件目录/Attachment/Pasted image 20231101222739.png",
+    "obsidian配置文件目录/Attachment/Pasted image 20231101182904.png",
+    "obsidian配置文件目录/Attachment/Pasted image 20231101182658.png",
+    "obsidian配置文件目录/Attachment/Pasted image 20231101182555.png",
+    "obsidian配置文件目录/Attachment/Pasted image 20231031150252.png",
+    "obsidian配置文件目录/Attachment/Pasted image 20231031150246.png",
+    "obsidian配置文件目录/Attachment/Pasted image 20231031150227.png",
+    "obsidian配置文件目录/Attachment/Pasted image 20231031144109.png",
+    "Week Planner/Weeks/Calweek-2023-44.md",
+    "Week Planner/Weeks",
+    "Week Planner",
+    "记事本/其他/待整理/管理工作/新人.md",
+    "记事本/其他/待整理/生活/资源网站.md",
+    "记事本/其他/待整理/生活/有声小说.md",
+    "记事本/其他/待整理/正则和算法/运算符.md",
+    "记事本/其他/待整理/生活/投诉话术.md",
+    "记事本/其他/待整理/正则和算法/通过匹配文本打开文件.md",
+    "记事本/其他/待整理/正则和算法/iex & {$(irm get.scoop.sh)} -RunAsAdmin.md",
+    "记事本/其他/待整理/正则和算法/空行正则.md",
+    "记事本/其他/待整理/正则和算法/拼接类型化数组.md",
+    "记事本/其他/待整理/正则和算法/匹配value =.md",
+    "记事本/其他/待整理/文件备份/windows zsh配置备份 20234015.md",
+    "记事本/其他/待整理/正则和算法/assets",
+    "记事本/其他/待整理/正则和算法/^.DEBUG..md",
+    "记事本/其他/待整理/文件备份/脚本文件.md",
+    "记事本/其他/待整理/文件备份/vscode配置文件备份.md",
+    "记事本/其他/待整理/文件备份/compose.md",
+    "记事本/其他/待整理/文件备份/aliases.sh.md",
+    "记事本/其他/待整理/文件备份/bash_profile.md",
+    "记事本/其他/待整理/思想建设/豆豆上学导学.md",
+    "记事本/其他/待整理/思想建设/焦虑.md",
+    "记事本/其他/待整理/帐号密码/github firstToken.md",
+    "记事本/其他/待整理/思想建设/关于工作和生活.md",
+    "记事本/其他/待整理/管理工作",
+    "记事本/其他/待整理/生活",
+    "记事本/其他/待整理/正则和算法",
+    "记事本/其他/待整理/文件备份",
+    "记事本/其他/待整理/思想建设",
+    "记事本/其他/待整理/帐号密码",
+    "记事本/其他/待整理/优化工作",
     "记事本/学习/测试/未命名.canvas"
   ]
 }
