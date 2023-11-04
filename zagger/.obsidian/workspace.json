@@ -150,9 +150,29 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "68da8749c31f794b",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://www.dida365.com/webapp/#g/60c0155aaac21040f25f856c/tasks"
+              }
+            }
+          },
+          {
+            "id": "4e21a322dfbfc746",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "file://index.html"
+              }
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -222,6 +242,14 @@
               "type": "tagfolder-view",
               "state": {}
             }
+          },
+          {
+            "id": "5ca620075b6a18da",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-tab-tree",
+              "state": {}
+            }
           }
         ]
       },
@@ -268,9 +296,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md"
-              }
+              "state": {}
             }
           },
           {
@@ -287,7 +313,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -304,7 +329,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -315,9 +339,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md"
-              }
+              "state": {}
             }
           },
           {
@@ -405,10 +427,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "45727072895218af",
+  "active": "4e21a322dfbfc746",
   "lastOpenFiles": [
-    "记事本/工作/工作记录/日报/2023-11-04.md",
     "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md",
+    "记事本/工作/工作记录/日报/2023-11-04.md",
     "obsidian配置文件目录/templater/模板/工作记录/日报模板.md",
     "obsidian配置文件目录/New/task.md",
     "obsidian配置文件目录/templater/模板/极简日记模板.md",
