@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "c93ac145513d5556",
+        "id": "c8b8e14dc78eddff",
         "type": "tabs",
         "children": [
           {
@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30 - 阅读笔记/00. 图书馆.md",
+                "file": "40 - Obsidian/主页/00. 主页.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -80,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30 - 阅读笔记/00. 图书馆.md"
+                "file": "40 - Obsidian/主页/00. 主页.md"
               }
             }
           },
@@ -90,7 +90,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30 - 阅读笔记/00. 图书馆.md",
+                "file": "40 - Obsidian/主页/00. 导航.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30 - 阅读笔记/00. 图书馆.md",
+                "file": "40 - Obsidian/主页/00. 主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,31 +177,31 @@
   },
   "active": "53c2b5d46760f3a1",
   "lastOpenFiles": [
+    "CIT593-M13-slides.pdf.md",
+    "20 - 工作学习/学习/CIT593/593-W01.md",
+    "20 - 工作学习/学习/CIT593/00. MCIT593.md",
     "40 - Obsidian/主页/00. 主页.md",
-    "10 - 人员管理/家人/秦某.md",
-    "30 - 阅读笔记/00. 图书馆.md",
+    "20 - 工作学习/学习/CIT594/594-W01.md",
+    "20 - 工作学习/学习/CIT594/594-W02.md",
     "20 - 工作学习/工作/00. 工作.md",
+    "Rainbell库用户实例.md",
+    "更新日志.md",
+    "常见问题.md",
+    "2023年第44周鹦鹉记录.md",
+    "2022年04月25日.md",
+    "40 - Obsidian/脚本/修复项目统计20220530.md",
+    "40 - Obsidian/脚本/每日总结汇总20220606.md",
+    "40 - Obsidian/模板/每日日记模板.md",
+    "00 - 每日日记/DailyNote/2022年05月10日.md",
+    "30 - 阅读笔记/成吉思汗：征战、帝国及其遗产.md",
+    "30 - 阅读笔记/00. 图书馆.md",
+    "10 - 人员管理/家人/秦某.md",
     "40 - Obsidian/主页/00. 参考汇总.md",
     "50 - 卡片知识/00. 卡片盒.md",
-    "20 - 工作学习/学习/CIT594/594-W01.md",
     "40 - Obsidian/主页/00. 导航.md",
     "40 - Obsidian/主页/00. 文件管理.md",
     "10 - 人员管理/宠物/00. 宠物.md",
     "10 - 人员管理/家人/00. 人员.md",
-    "10 - 人员管理/家人/爸爸.md",
-    "2022年04月25日.md",
-    "00 - 每日日记/WeeklyNote/2022年17周记录.md",
-    "20 - 工作学习/学习/英语学习/瓦尔登湖.md",
-    "20 - 工作学习/学习/英语学习/00. 英语学习.md",
-    "20 - 工作学习/学习/英语学习/渔人与它的灵魂.md",
-    "2023年第44周鹦鹉记录.md",
-    "00 - 每日日记/DailyNote/2023年11月04日.md",
-    "20 - 工作学习/代码库/00. 代码库.md",
-    "00 - 每日日记/DailyNote/2022年05月09日.md",
-    "20 - 工作学习/游戏/王者荣耀/百里守约.md",
-    "20 - 工作学习/学习/00. 学习.md",
-    "30 - 阅读笔记/成吉思汗：征战、帝国及其遗产.md",
-    "30 - 阅读笔记/锁麟囊.md",
-    "30 - 阅读笔记/破译金庸密码.md"
+    "10 - 人员管理/家人/爸爸.md"
   ]
 }

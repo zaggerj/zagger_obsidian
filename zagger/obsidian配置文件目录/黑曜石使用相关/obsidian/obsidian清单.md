@@ -17,3 +17,6 @@
 16. [PKM-er/Blue-topaz-example: Blue topaz themes example vault for Obsidian (github.com)](https://github.com/PKM-er/Blue-topaz-example)
 17. [Rainbell129/Obsidian-Homepage: A dashboard for your obsidian vault. (github.com)](https://github.com/Rainbell129/Obsidian-Homepage)
 18. [大家一直想要的项目、论文状态追踪管理效率模板来了 (qq.com)](https://mp.weixin.qq.com/s?__biz=MzI4NDQ4NjU0MA==&mid=2247751446&idx=1&sn=aa6012807e4744e4ae393a57b91982da&chksm=ebf7e9f5dc8060e3063e6ac403a13e4989ac564f3e0959dc9ba990feae657572deb273323cb6&scene=27)
+19. [大家一直想要的项目、论文状态追踪管理效率模板来了 (qq.com)](https://mp.weixin.qq.com/s?__biz=MzI4NDQ4NjU0MA==&mid=2247751446&idx=1&sn=aa6012807e4744e4ae393a57b91982da&chksm=ebf7e9f5dc8060e3063e6ac403a13e4989ac564f3e0959dc9ba990feae657572deb273323cb6&scene=27)
+20. [#科研工具/神器 (qq.com)](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI4NDQ4NjU0MA==&action=getalbum&album_id=1500675956766736385&scene=173&from_msgid=2247751446&from_itemidx=1&count=3&nolastread=1#wechat_redirect)
+21. [#科研笔记神器 (qq.com)](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI4NDQ4NjU0MA==&action=getalbum&album_id=2336961249412284416&scene=173&from_msgid=2247751446&from_itemidx=1&count=3&nolastread=1#wechat_redirect)

@@ -1,20 +1,80 @@
 {
   "recentFiles": [
     {
-      "basename": "00. 图书馆",
-      "path": "30 - 阅读笔记/00. 图书馆.md"
-    },
-    {
       "basename": "00. 主页",
       "path": "40 - Obsidian/主页/00. 主页.md"
     },
     {
-      "basename": "秦某",
-      "path": "10 - 人员管理/家人/秦某.md"
+      "basename": "CIT593-M13-slides.pdf",
+      "path": "CIT593-M13-slides.pdf.md"
+    },
+    {
+      "basename": "593-W01",
+      "path": "20 - 工作学习/学习/CIT593/593-W01.md"
+    },
+    {
+      "basename": "00. MCIT593",
+      "path": "20 - 工作学习/学习/CIT593/00. MCIT593.md"
+    },
+    {
+      "basename": "594-W01",
+      "path": "20 - 工作学习/学习/CIT594/594-W01.md"
+    },
+    {
+      "basename": "594-W02",
+      "path": "20 - 工作学习/学习/CIT594/594-W02.md"
     },
     {
       "basename": "00. 工作",
       "path": "20 - 工作学习/工作/00. 工作.md"
+    },
+    {
+      "basename": "Rainbell库用户实例",
+      "path": "Rainbell库用户实例.md"
+    },
+    {
+      "basename": "更新日志",
+      "path": "更新日志.md"
+    },
+    {
+      "basename": "常见问题",
+      "path": "常见问题.md"
+    },
+    {
+      "basename": "2023年第44周鹦鹉记录",
+      "path": "2023年第44周鹦鹉记录.md"
+    },
+    {
+      "basename": "2022年04月25日",
+      "path": "2022年04月25日.md"
+    },
+    {
+      "basename": "修复项目统计20220530",
+      "path": "40 - Obsidian/脚本/修复项目统计20220530.md"
+    },
+    {
+      "basename": "每日总结汇总20220606",
+      "path": "40 - Obsidian/脚本/每日总结汇总20220606.md"
+    },
+    {
+      "basename": "每日日记模板",
+      "path": "40 - Obsidian/模板/每日日记模板.md"
+    },
+    {
+      "basename": "2022年05月10日",
+      "path": "00 - 每日日记/DailyNote/2022年05月10日.md"
+    },
+    {
+      "basename": "成吉思汗：征战、帝国及其遗产",
+      "path": "30 - 阅读笔记/成吉思汗：征战、帝国及其遗产.md"
+    },
+    {
+      "basename": "00. 图书馆",
+      "path": "30 - 阅读笔记/00. 图书馆.md"
+    },
+    {
+      "basename": "秦某",
+      "path": "10 - 人员管理/家人/秦某.md"
     },
     {
       "basename": "00. 参考汇总",
@@ -23,10 +83,6 @@
     {
       "basename": "00. 卡片盒",
       "path": "50 - 卡片知识/00. 卡片盒.md"
-    },
-    {
-      "basename": "594-W01",
-      "path": "20 - 工作学习/学习/CIT594/594-W01.md"
     },
     {
       "basename": "00. 导航",
@@ -49,10 +105,6 @@
       "path": "10 - 人员管理/家人/爸爸.md"
     },
     {
-      "basename": "2022年04月25日",
-      "path": "2022年04月25日.md"
-    },
-    {
       "basename": "2022年17周记录",
       "path": "00 - 每日日记/WeeklyNote/2022年17周记录.md"
     },
@@ -67,10 +119,6 @@
     {
       "basename": "渔人与它的灵魂",
       "path": "20 - 工作学习/学习/英语学习/渔人与它的灵魂.md"
-    },
-    {
-      "basename": "2023年第44周鹦鹉记录",
-      "path": "2023年第44周鹦鹉记录.md"
     },
     {
       "basename": "2023年11月04日",
@@ -93,20 +141,12 @@
       "path": "30 - 阅读笔记/中国古代衣食住行.md"
     },
     {
-      "basename": "成吉思汗：征战、帝国及其遗产",
-      "path": "30 - 阅读笔记/成吉思汗：征战、帝国及其遗产.md"
-    },
-    {
       "basename": "锁麟囊",
       "path": "30 - 阅读笔记/锁麟囊.md"
     },
     {
       "basename": "破译金庸密码",
       "path": "30 - 阅读笔记/破译金庸密码.md"
-    },
-    {
-      "basename": "常见问题",
-      "path": "常见问题.md"
     },
     {
       "basename": "项目一",
@@ -125,20 +165,8 @@
       "path": "10 - 人员管理/家人/女儿.md"
     },
     {
-      "basename": "更新日志",
-      "path": "更新日志.md"
-    },
-    {
-      "basename": "Rainbell库用户实例",
-      "path": "Rainbell库用户实例.md"
-    },
-    {
       "basename": "百里守约绝影神枪",
       "path": "40 - Obsidian/附件/百里守约绝影神枪.png"
-    },
-    {
-      "basename": "修复项目统计20220530",
-      "path": "40 - Obsidian/脚本/修复项目统计20220530.md"
     },
     {
       "basename": "2022年06月07日",
@@ -161,10 +189,6 @@
       "path": "40 - Obsidian/脚本/Obsidian活动汇总.md"
     },
     {
-      "basename": "每日总结汇总20220606",
-      "path": "40 - Obsidian/脚本/每日总结汇总20220606.md"
-    },
-    {
       "basename": "Screen Shot 2022-06-02 at 15.10.29",
       "path": "40 - Obsidian/附件/Screen Shot 2022-06-02 at 15.10.29.png"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "anemone",
       "path": "50 - 卡片知识/anemone.md"
-    },
-    {
-      "basename": "Baader-Meinhof Phenomenon",
-      "path": "50 - 卡片知识/Baader-Meinhof Phenomenon.md"
-    },
-    {
-      "basename": "meridian",
-      "path": "50 - 卡片知识/meridian.md"
-    },
-    {
-      "basename": "chariot",
-      "path": "50 - 卡片知识/chariot.md"
-    },
-    {
-      "basename": "Dunciad",
-      "path": "50 - 卡片知识/Dunciad.md"
-    },
-    {
-      "basename": "Faun",
-      "path": "50 - 卡片知识/Faun.md"
-    },
-    {
-      "basename": "coral reef",
-      "path": "50 - 卡片知识/coral reef.md"
     }
   ],
   "omittedPaths": [],
