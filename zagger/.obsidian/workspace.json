@@ -113,19 +113,6 @@
             }
           },
           {
-            "id": "c684adc08d4729b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Viewer.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f52b7f261765daa4",
             "type": "leaf",
             "state": {
@@ -163,9 +150,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ceb2f4d00c2738aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "记事本/工作/工作记录/日报/2023-11-04.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -282,7 +282,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Viewer.md"
+                "file": "记事本/工作/工作记录/日报/2023-11-04.md"
               }
             }
           },
@@ -300,7 +300,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Viewer.md",
+                "file": "记事本/工作/工作记录/日报/2023-11-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -317,7 +317,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Viewer.md",
+                "file": "记事本/工作/工作记录/日报/2023-11-04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -329,7 +329,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Viewer.md"
+                "file": "记事本/工作/工作记录/日报/2023-11-04.md"
               }
             }
           },
@@ -418,9 +418,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "c684adc08d4729b1",
+  "active": "ceb2f4d00c2738aa",
   "lastOpenFiles": [
+    "obsidian配置文件目录/templater/模板/工作记录/日报模板.md",
     "记事本/工作/工作记录/日报/2023-11-04.md",
+    "obsidian配置文件目录/New/task.md",
+    "obsidian配置文件目录/templater/模板/极简日记模板.md",
     "Viewer.md",
     "记事本/工作/工作记录/日报/Untitled.md",
     "记事本/工作/工作记录/日报/{date}.md",
@@ -430,10 +433,8 @@
     "日记周记/日记/日记Database.md",
     "日记周记/日记/2023-07-05.md",
     "日记周记/日记/2023-11-04.md",
-    "obsidian配置文件目录/templater/模板/极简日记模板.md",
     "obsidian配置文件目录/templater/英文单词模板.md",
     "obsidian配置文件目录/templater/日记模板.md",
-    "obsidian配置文件目录/templater/模板/工作记录/日报模板.md",
     "obsidian配置文件目录/templater/模板/工作记录",
     "日记周记/日记/日记：2023年11月03日.md",
     "日记周记/日记/日记：2023年10月30日.md",
@@ -441,7 +442,6 @@
     "日记周记/日记/日记：2023年11月02日.md",
     "日记周记/日记/日记：2023年11月01日.md",
     "日记周记/日记/日记：2023年10月31日.md",
-    "obsidian配置文件目录/New/task.md",
     "obsidian配置文件目录/sortspec.md",
     "obsidian配置文件目录/templater/模板/周记模板.md",
     "obsidian配置文件目录/templater/模板/排期计划.md",

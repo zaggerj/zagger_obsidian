@@ -220,17 +220,17 @@
       },
       "format": {
         "enabled": true,
-        "format": "```js quickadd \nlet text = \"\";\ntext = await this.quickAddApi.inputPrompt(\"todo\",\"输入todo\",text);\ntext = text.replace(\"\\n\",\"<br>\"); \ntext = \"- [ ] \" + text ;\nreturn text\n```"
+        "format": "```js quickadd \nlet text = \"\";\ntext = await this.quickAddApi.inputPrompt(\"todo\",\"输入todo\",text);\ntext = text.replace(\"\\n\",\"<br>\"); \ntext = \"\\n - [ ] \" + text ;\nreturn text\n```"
       },
       "insertAfter": {
-        "enabled": false,
-        "after": "",
+        "enabled": true,
+        "after": "今日计划",
         "insertAtEnd": false,
         "considerSubsections": false,
         "createIfNotFound": false,
         "createIfNotFoundLocation": "top"
       },
-      "prepend": true,
+      "prepend": false,
       "task": false,
       "openFileInNewTab": {
         "enabled": false,
