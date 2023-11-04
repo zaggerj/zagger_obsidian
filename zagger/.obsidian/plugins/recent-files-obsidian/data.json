@@ -5,6 +5,14 @@
       "path": "日记周记/日记/日记Database.md"
     },
     {
+      "basename": "2023-07-05",
+      "path": "日记周记/日记/2023-07-05.md"
+    },
+    {
+      "basename": "日记：2023年11月04日",
+      "path": "日记周记/日记/日记：2023年11月04日.md"
+    },
+    {
       "basename": "日记模板",
       "path": "obsidian配置文件目录/templater/模板/日记模板.md"
     },
@@ -35,10 +43,6 @@
     {
       "basename": "日报模板",
       "path": "obsidian配置文件目录/templater/模板/工作记录/日报模板.md"
-    },
-    {
-      "basename": "日记：2023年11月04日",
-      "path": "日记周记/日记/日记：2023年11月04日.md"
     },
     {
       "basename": "日记：2023年11月03日",
@@ -99,10 +103,6 @@
     {
       "basename": "obsidian工作流",
       "path": "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian工作流.md"
-    },
-    {
-      "basename": "2023-07-05",
-      "path": "日记周记/日记/2023-07-05.md"
     },
     {
       "basename": "2023-10-31",

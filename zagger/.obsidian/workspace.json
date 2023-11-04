@@ -142,6 +142,19 @@
             "id": "284e6aa35d3b0c63",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "日记周记/日记/2023-07-05.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "45727072895218af",
+            "type": "leaf",
+            "state": {
               "type": "database-plugin",
               "state": {
                 "file": "日记周记/日记/日记Database.md"
@@ -149,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -381,7 +394,6 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-memos:Memos": false,
       "cmdr:折叠": false,
       "custom-sort:Toggle custom sorting": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
@@ -390,11 +402,14 @@
       "obsidian-daily-notes-viewer:打开 Viewer": false,
       "float-search:Search Obsidian In Modal": false,
       "obsidian-day-planner:Timeline": false,
-      "dbfolder:创建一个新数据库表": false
+      "dbfolder:创建一个新数据库表": false,
+      "obsidian-memos:Memos": false
     }
   },
-  "active": "284e6aa35d3b0c63",
+  "active": "45727072895218af",
   "lastOpenFiles": [
+    "日记周记/日记/2023-07-05.md",
+    "日记周记/日记/日记：2023年11月04日.md",
     "obsidian配置文件目录/templater/模板/日记模板.md",
     "日记周记/日记/日记Database.md",
     "日记周记/日记/2023-11-04.md",
@@ -405,7 +420,6 @@
     "记事本/工作/工作记录/日报/Untitled.md",
     "obsidian配置文件目录/templater/模板/工作记录/日报模板.md",
     "obsidian配置文件目录/templater/模板/工作记录",
-    "日记周记/日记/日记：2023年11月04日.md",
     "日记周记/日记/日记：2023年11月03日.md",
     "日记周记/日记/日记：2023年10月30日.md",
     "日记周记/周记/周记：2023年44周.md",

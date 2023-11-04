@@ -350,14 +350,14 @@ config:
   enable_footer: false
   implementation: default
 filters:
-  enabled: false
+  enabled: true
   conditions:
       - condition: AND
-        disabled: true
+        disabled: false
         color: "hsl(329, 95%, 90%)"
         filters:
-        - field: 标签
+        - field: 日期
           operator: CONTAINS
           value: ""
-          type: text
+          type: calendar
 ```
