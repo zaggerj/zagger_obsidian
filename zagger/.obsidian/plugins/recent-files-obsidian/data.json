@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "极简日记模板",
+      "path": "obsidian配置文件目录/templater/模板/极简日记模板.md"
+    },
+    {
+      "basename": "英文单词模板",
+      "path": "obsidian配置文件目录/templater/英文单词模板.md"
+    },
+    {
+      "basename": "日记模板",
+      "path": "obsidian配置文件目录/templater/日记模板.md"
+    },
+    {
       "basename": "日记模板",
       "path": "obsidian配置文件目录/templater/模板/日记模板.md"
+    },
+    {
+      "basename": "obsidian清单",
+      "path": "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md"
     },
     {
       "basename": "Untitled",
@@ -11,10 +27,6 @@
     {
       "basename": "日报模板",
       "path": "obsidian配置文件目录/templater/模板/工作记录/日报模板.md"
-    },
-    {
-      "basename": "obsidian清单",
-      "path": "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md"
     },
     {
       "basename": "日记：2023年11月04日",
@@ -75,10 +87,6 @@
     {
       "basename": "排期计划",
       "path": "日记周记/排期计划.md"
-    },
-    {
-      "basename": "日记模板",
-      "path": "obsidian配置文件目录/templater/日记模板.md"
     },
     {
       "basename": "obsidian工作流",
@@ -191,14 +199,6 @@
     {
       "basename": "汇总所有在线文档",
       "path": "汇总所有在线文档.md"
-    },
-    {
-      "basename": "git文件占用文件问题",
-      "path": "记事本/学习/开发软实力/git/git文件占用文件问题.md"
-    },
-    {
-      "basename": "git国内源",
-      "path": "记事本/学习/开发软实力/git/git国内源.md"
     }
   ],
   "omittedPaths": [],

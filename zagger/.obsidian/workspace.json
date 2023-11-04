@@ -144,10 +144,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian配置文件目录/templater/模板/日记模板.md",
+                "file": "obsidian配置文件目录/templater/模板/极简日记模板.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": false
+                "source": true
               }
             }
           }
@@ -269,7 +269,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian配置文件目录/templater/模板/日记模板.md"
+                "file": "obsidian配置文件目录/templater/模板/极简日记模板.md"
               }
             }
           },
@@ -287,7 +287,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian配置文件目录/templater/模板/日记模板.md",
+                "file": "obsidian配置文件目录/templater/模板/极简日记模板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -304,7 +304,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian配置文件目录/templater/模板/日记模板.md",
+                "file": "obsidian配置文件目录/templater/模板/极简日记模板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -316,7 +316,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "obsidian配置文件目录/templater/模板/日记模板.md"
+                "file": "obsidian配置文件目录/templater/模板/极简日记模板.md"
               }
             }
           },
@@ -392,16 +392,20 @@
       "templater-obsidian:Templater": false,
       "obsidian-daily-notes-viewer:打开 Viewer": false,
       "float-search:Search Obsidian In Modal": false,
-      "obsidian-day-planner:Timeline": false
+      "obsidian-day-planner:Timeline": false,
+      "dbfolder:创建一个新数据库表": false
     }
   },
   "active": "284e6aa35d3b0c63",
   "lastOpenFiles": [
+    "obsidian配置文件目录/templater/英文单词模板.md",
+    "obsidian配置文件目录/templater/模板/极简日记模板.md",
+    "obsidian配置文件目录/templater/日记模板.md",
+    "obsidian配置文件目录/templater/模板/日记模板.md",
+    "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md",
     "记事本/工作/工作记录/日报/Untitled.md",
     "obsidian配置文件目录/templater/模板/工作记录/日报模板.md",
-    "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md",
     "obsidian配置文件目录/templater/模板/工作记录",
-    "obsidian配置文件目录/templater/模板/日记模板.md",
     "日记周记/日记/日记：2023年11月04日.md",
     "日记周记/日记/日记：2023年11月03日.md",
     "日记周记/日记/日记：2023年10月30日.md",
@@ -424,11 +428,8 @@
     "记事本/工作/工作记录",
     "日记周记/工作",
     "日记周记/排期计划.md",
-    "obsidian配置文件目录/templater/日记模板.md",
-    "日记/周记/2023年44周.md",
     "日记/周记",
     "日记",
-    "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian工作流.md",
     "日记周记/周记",
     "日记周记/日记",
     "obsidian配置文件目录/Attachment/Pasted image 20231101224153.png",
