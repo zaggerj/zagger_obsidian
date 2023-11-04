@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "obsidian清单",
+      "path": "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md"
+    },
+    {
+      "basename": "每周小结模板",
+      "path": "obsidian配置文件目录/templater/模板/每周小结模板.md"
+    },
+    {
+      "basename": "代码量少的问题分析",
+      "path": "obsidian配置文件目录/New/代码量少的问题分析.md"
+    },
+    {
+      "basename": "todolist",
+      "path": "obsidian配置文件目录/New/todolist.md"
+    },
+    {
+      "basename": "markdown语法",
+      "path": "obsidian配置文件目录/New/markdown语法.md"
+    },
+    {
+      "basename": "task",
+      "path": "obsidian配置文件目录/New/task.md"
+    },
+    {
+      "basename": "群公告-开发记事本",
+      "path": "obsidian配置文件目录/New/群公告-开发记事本.md"
+    },
+    {
+      "basename": "阅读列表",
+      "path": "obsidian配置文件目录/New/阅读列表.md"
+    },
+    {
+      "basename": "看板模板",
+      "path": "obsidian配置文件目录/New/看板模板.md"
+    },
+    {
+      "basename": "10月看板",
+      "path": "obsidian配置文件目录/New/10月看板.md"
+    },
+    {
+      "basename": "排期计划",
+      "path": "obsidian配置文件目录/templater/模板/排期计划.md"
+    },
+    {
+      "basename": "排期计划",
+      "path": "日记周记/排期计划.md"
+    },
+    {
       "basename": "a 服务器相关命令",
       "path": "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md"
     },
@@ -11,10 +59,6 @@
     {
       "basename": "日记模板",
       "path": "obsidian配置文件目录/templater/模板/日记模板.md"
-    },
-    {
-      "basename": "obsidian清单",
-      "path": "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md"
     },
     {
       "basename": "2023-07-05",
@@ -31,10 +75,6 @@
     {
       "basename": "日报模板",
       "path": "obsidian配置文件目录/templater/模板/工作记录/日报模板.md"
-    },
-    {
-      "basename": "task",
-      "path": "obsidian配置文件目录/New/task.md"
     },
     {
       "basename": "极简日记模板",
@@ -97,20 +137,12 @@
       "path": "obsidian配置文件目录/templater/模板/周记模板.md"
     },
     {
-      "basename": "排期计划",
-      "path": "obsidian配置文件目录/templater/模板/排期计划.md"
-    },
-    {
       "basename": "未命名",
       "path": "obsidian配置文件目录/黑曜石使用相关/未命名.md"
     },
     {
       "basename": "基础模板",
       "path": "obsidian配置文件目录/templater/模板/基础模板.md"
-    },
-    {
-      "basename": "排期计划",
-      "path": "日记周记/排期计划.md"
     },
     {
       "basename": "obsidian工作流",
@@ -167,34 +199,6 @@
     {
       "basename": "github firstToken",
       "path": "记事本/非开发/账号密码/github firstToken.md"
-    },
-    {
-      "basename": "工作记事",
-      "path": "记事本/工作/工作记事.md"
-    },
-    {
-      "basename": "linux查看网络命令集合",
-      "path": "记事本/学习/后端/linux/linux查看网络命令集合.md"
-    },
-    {
-      "basename": "vue学习清单",
-      "path": "记事本/学习/前端/vue2/vue学习清单.md"
-    },
-    {
-      "basename": "nodejs学习导航",
-      "path": "记事本/学习/前端/nodejs/nodejs学习导航.md"
-    },
-    {
-      "basename": "nginx",
-      "path": "记事本/学习/后端/nginx/nginx.md"
-    },
-    {
-      "basename": "vscode git graph",
-      "path": "记事本/学习/开发软实力/vscode/vscode git graph.md"
-    },
-    {
-      "basename": "git 文档清单",
-      "path": "记事本/学习/开发软实力/git/git 文档清单.md"
     }
   ],
   "omittedPaths": [],

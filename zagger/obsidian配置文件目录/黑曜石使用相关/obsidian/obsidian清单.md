@@ -14,3 +14,6 @@
 13. [Obsidian | 说好不用Ob做日程管理的，这次我又“食言”了 - 哔哩哔哩 (bilibili.com)](https://www.bilibili.com/read/cv19526990/)
 14. [Obsidian白板&一个白板插件 - 哔哩哔哩 (bilibili.com)](https://www.bilibili.com/read/cv20661353/)
 15. [维客笔记博客-维客笔记专栏文章-文集-哔哩哔哩视频 (bilibili.com)](https://space.bilibili.com/305034274/article)
+16. [PKM-er/Blue-topaz-example: Blue topaz themes example vault for Obsidian (github.com)](https://github.com/PKM-er/Blue-topaz-example)
+17. [Rainbell129/Obsidian-Homepage: A dashboard for your obsidian vault. (github.com)](https://github.com/Rainbell129/Obsidian-Homepage)
+18. [大家一直想要的项目、论文状态追踪管理效率模板来了 (qq.com)](https://mp.weixin.qq.com/s?__biz=MzI4NDQ4NjU0MA==&mid=2247751446&idx=1&sn=aa6012807e4744e4ae393a57b91982da&chksm=ebf7e9f5dc8060e3063e6ac403a13e4989ac564f3e0959dc9ba990feae657572deb273323cb6&scene=27)

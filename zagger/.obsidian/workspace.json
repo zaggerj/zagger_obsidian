@@ -4,142 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b9607f3072e70862",
+        "id": "b0562c106a5fb70c",
         "type": "tabs",
         "children": [
           {
-            "id": "1ae3c8b52ce8d3fa",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "汇总所有在线文档.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "0474d68ca5c14d57",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian教程.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "9d54ee4662836cd1",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "记事本/学习/学习计划脚本/工作计划梳理和安排.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "1649b9733f977ed6",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "记事本/学习/前端/前端杂项/学习清单.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "9d75613d88c12782",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "记事本/学习/学习计划脚本/学习笔记.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "c50fd5de1a1d5e87",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "88e501511da96760",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian配置文件目录/New/task.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "f52b7f261765daa4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "284e6aa35d3b0c63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "日记周记/日记/2023-07-05.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "45727072895218af",
+            "id": "4f7c003fcc12b089",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -150,19 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "ffc752ae1aed5293",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://app.yinxiang.com/Home.action?login=true#n=3f299631-4540-427b-bed4-7775697579c8&s=s50&ses=4&sh=2&sds=5&"
-              }
-            }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -241,8 +99,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "73db95bfb166faa1",
@@ -288,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md"
+                "file": "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md"
               }
             }
           },
@@ -301,12 +158,20 @@
             }
           },
           {
+            "id": "587097c7d3e0dc04",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
             "id": "6480c2a734e3c425",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
+                "file": "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -323,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
+                "file": "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -335,7 +200,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md"
+                "file": "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md"
               }
             }
           },
@@ -350,14 +215,6 @@
             }
           },
           {
-            "id": "587097c7d3e0dc04",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
-          },
-          {
             "id": "a9e5936d53b3df5a",
             "type": "leaf",
             "state": {
@@ -366,7 +223,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       },
       {
         "id": "888c3f3084370af3",
@@ -425,40 +282,35 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "f52b7f261765daa4",
+  "active": "4f7c003fcc12b089",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md",
+    "obsidian配置文件目录/templater/模板/每周小结模板.md",
+    "obsidian配置文件目录/New/代码量少的问题分析.md",
+    "obsidian配置文件目录/New/todolist.md",
+    "obsidian配置文件目录/New/markdown语法.md",
+    "obsidian配置文件目录/New/task.md",
+    "obsidian配置文件目录/New/群公告-开发记事本.md",
+    "obsidian配置文件目录/New/阅读列表.md",
+    "obsidian配置文件目录/New/看板模板.md",
+    "obsidian配置文件目录/New/10月看板.md",
+    "obsidian配置文件目录/templater/模板/排期计划.md",
+    "日记周记/排期计划.md",
     "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
+    "conflict-files-obsidian-git.md",
     "记事本/非开发/其他/其他-zagger.md",
     "记事本/非开发/其他/其他.md",
     "obsidian配置文件目录/templater/模板/日记模板.md",
     "日记周记/日记/2023-07-05.md",
-    "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md",
     "obsidian配置文件目录/templater/模板/日记模板.md",
     "汇总所有在线文档.md",
     "记事本/工作/工作记录/日报/2023-11-04.md",
     "obsidian配置文件目录/templater/模板/工作记录/日报模板.md",
-    "obsidian配置文件目录/New/task.md",
     "obsidian配置文件目录/templater/模板/极简日记模板.md",
     "Viewer.md",
     "记事本/工作/工作记录/日报/Untitled.md",
     "记事本/工作/工作记录/日报/{date}.md",
-    "日记周记/日记/日记：2023年11月04日.md",
-    "日记周记/日记/日记Database.md",
-    "日记周记/日记/2023-11-04.md",
-    "obsidian配置文件目录/templater/英文单词模板.md",
-    "obsidian配置文件目录/templater/日记模板.md",
     "obsidian配置文件目录/templater/模板/工作记录",
-    "日记周记/日记/日记：2023年11月03日.md",
-    "日记周记/日记/日记：2023年10月30日.md",
-    "日记周记/周记/周记：2023年44周.md",
-    "日记周记/日记/日记：2023年11月02日.md",
-    "日记周记/日记/日记：2023年11月01日.md",
-    "日记周记/日记/日记：2023年10月31日.md",
-    "obsidian配置文件目录/sortspec.md",
-    "obsidian配置文件目录/templater/模板/周记模板.md",
-    "obsidian配置文件目录/templater/模板/排期计划.md",
-    "日记周记/日记/日记：2023年59月6日.md",
     "记事本/工作/工作记录/日报",
     "记事本/工作/工作记录",
     "日记周记/工作",
