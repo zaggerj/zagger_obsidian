@@ -354,18 +354,10 @@ filters:
   conditions:
       - condition: AND
         disabled: false
-        color: "hsl(329, 95%, 90%)"
+        color: "hsl(64, 95%, 90%)"
         filters:
         - field: 日期
           operator: CONTAINS
           value: ""
           type: calendar
-      - condition: AND
-        disabled: false
-        color: "hsl(190, 95%, 90%)"
-        filters:
-        - field: 标签
-          operator: CONTAINS
-          value: ""
-          type: text
 ```
