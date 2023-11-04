@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled database",
+      "path": "日记周记/日记/Untitled database.md"
+    },
+    {
+      "basename": "2023-11-04",
+      "path": "日记周记/日记/2023-11-04.md"
+    },
+    {
       "basename": "极简日记模板",
       "path": "obsidian配置文件目录/templater/模板/极简日记模板.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "git报错",
       "path": "记事本/学习/开发软实力/git/git报错.md"
-    },
-    {
-      "basename": "算法学习链接",
-      "path": "记事本/学习/开发软实力/正则和算法/算法/算法学习链接.md"
-    },
-    {
-      "basename": "汇总所有在线文档",
-      "path": "汇总所有在线文档.md"
     }
   ],
   "omittedPaths": [],
