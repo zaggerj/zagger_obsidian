@@ -315,7 +315,7 @@ columns:
       link_alias_enabled: true
       media_width: 100
       media_height: 100
-      isInline: true
+      isInline: false
       task_hide_completed: true
       footer_type: none
       persist_changes: false
@@ -435,7 +435,7 @@ filters:
           type: text
       - condition: AND
         disabled: false
-        label: "10"
+        label: "10月"
         color: "hsl(225, 95%, 90%)"
         filters:
         - field: file.name
@@ -443,11 +443,21 @@ filters:
           value: "2023-10"
           type: text
       - condition: AND
-        disabled: false
+        disabled: true
+        label: "11月"
         color: "hsl(319, 95%, 90%)"
         filters:
         - field: file.name
           operator: CONTAINS
-          value: ""
+          value: "2023-11"
+          type: text
+      - condition: AND
+        disabled: true
+        label: "12月"
+        color: "hsl(159, 95%, 90%)"
+        filters:
+        - field: file.name
+          operator: CONTAINS
+          value: "2023-12"
           type: text
 ```
