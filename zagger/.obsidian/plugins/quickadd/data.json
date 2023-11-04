@@ -211,12 +211,12 @@
       "type": "Capture",
       "command": true,
       "appendLink": false,
-      "captureTo": "记事本/工作/工作记录/日报/{date}.md",
+      "captureTo": "记事本/工作/工作记录/日报/{{date}}.md",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
         "enabled": true,
         "createWithTemplate": true,
-        "template": "obsidian配置文件目录/templater/工作记录/日报模板.md"
+        "template": "obsidian配置文件目录/templater/模板/工作记录/日报模板.md"
       },
       "format": {
         "enabled": true,
