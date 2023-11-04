@@ -5,6 +5,10 @@
       "path": "obsidian配置文件目录/templater/模板/日记模板.md"
     },
     {
+      "basename": "排期计划",
+      "path": "日记周记/排期计划.md"
+    },
+    {
       "basename": "日记模板",
       "path": "obsidian配置文件目录/templater/日记模板.md"
     },

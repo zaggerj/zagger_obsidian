@@ -418,10 +418,11 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "a9e5936d53b3df5a",
+  "active": "468234f4d554dc56",
   "lastOpenFiles": [
-    "obsidian配置文件目录/templater/日记模板.md",
+    "日记周记/排期计划.md",
     "obsidian配置文件目录/templater/模板/日记模板.md",
+    "obsidian配置文件目录/templater/日记模板.md",
     "日记周记/日记/日记：2023年11月4日.md",
     "obsidian配置文件目录/templater/模板/周记模板.md",
     "日记周记/周记/2023年44周.md",
@@ -461,7 +462,6 @@
     "记事本/其他/待整理/正则和算法/iex & {$(irm get.scoop.sh)} -RunAsAdmin.md",
     "记事本/其他/待整理/正则和算法/空行正则.md",
     "记事本/其他/待整理/正则和算法/拼接类型化数组.md",
-    "记事本/其他/待整理/正则和算法/匹配value =.md",
     "记事本/其他/待整理/正则和算法/assets",
     "记事本/其他/待整理/管理工作",
     "记事本/其他/待整理/生活",
