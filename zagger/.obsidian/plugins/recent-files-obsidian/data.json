@@ -5,8 +5,8 @@
       "path": "obsidian配置文件目录/templater/模板/周记模板.md"
     },
     {
-      "basename": "2023年44周",
-      "path": "日记周记/周记/2023年44周.md"
+      "basename": "周记：2023年44周",
+      "path": "日记周记/周记/周记：2023年44周.md"
     },
     {
       "basename": "日记：2023年11月4日",
@@ -195,10 +195,6 @@
     {
       "basename": "学习清单",
       "path": "记事本/学习/前端/前端杂项/学习清单.md"
-    },
-    {
-      "basename": "最新工作安排-zagger",
-      "path": "记事本/工作/工作计划/老的工作计划/最新工作安排-zagger.md"
     }
   ],
   "omittedPaths": [],
