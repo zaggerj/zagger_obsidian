@@ -1,0 +1,301 @@
+{
+  "settings": {
+    "migrated": 3,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "twemoji",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "IbCommand",
+      "TiPencilCog",
+      "TiNotes",
+      "SiTypescript",
+      "FasPrescriptionBottleMedical"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [
+      {
+        "rule": "系列",
+        "icon": "BoBxCollection",
+        "for": "everything",
+        "order": 0
+      },
+      {
+        "rule": "日记",
+        "icon": "TiBook",
+        "for": "everything",
+        "order": 1
+      },
+      {
+        "rule": "灵感散记",
+        "icon": "FasBoltLightning",
+        "for": "everything",
+        "order": 2,
+        "color": "#c94a4a"
+      },
+      {
+        "rule": "^灵感$",
+        "icon": "RiLightbulbFlashFill",
+        "for": "everything",
+        "order": 3,
+        "color": "#3bcc1e"
+      },
+      {
+        "rule": "汇总",
+        "icon": "IbStackHorizontal",
+        "for": "everything",
+        "order": 4,
+        "color": "#364cba"
+      },
+      {
+        "rule": "View",
+        "icon": "LiView",
+        "for": "everything",
+        "order": 5,
+        "color": "#43c77c"
+      },
+      {
+        "rule": "规范",
+        "icon": "LiRuler",
+        "for": "everything",
+        "order": 6
+      },
+      {
+        "rule": "日志",
+        "icon": "TiPencilCog",
+        "for": "everything",
+        "order": 7
+      },
+      {
+        "rule": "矩阵",
+        "icon": "SiManageiq",
+        "for": "folders",
+        "order": 8
+      },
+      {
+        "rule": "管理",
+        "icon": "SiManageiq",
+        "for": "everything",
+        "order": 9
+      },
+      {
+        "rule": "bash",
+        "icon": "BoBxHash",
+        "for": "everything",
+        "order": 10
+      },
+      {
+        "rule": "docker",
+        "icon": "SiDocker",
+        "for": "everything",
+        "order": 11
+      },
+      {
+        "rule": "ftp",
+        "icon": "TiUpload",
+        "for": "everything",
+        "order": 12
+      },
+      {
+        "rule": "jenkins",
+        "icon": "SiJenkins",
+        "for": "everything",
+        "order": 13
+      },
+      {
+        "rule": "linux",
+        "icon": "SiLinux",
+        "for": "everything",
+        "order": 14
+      },
+      {
+        "rule": "shell",
+        "icon": "SiShell",
+        "for": "everything",
+        "order": 15
+      },
+      {
+        "rule": "postman",
+        "icon": "SiPostman",
+        "for": "everything",
+        "order": 16
+      },
+      {
+        "rule": "nvim",
+        "icon": "SiNeovim",
+        "for": "everything",
+        "order": 17
+      },
+      {
+        "rule": "vim",
+        "icon": "SiVim",
+        "for": "everything",
+        "order": 18
+      },
+      {
+        "rule": "clash",
+        "icon": "TiWall",
+        "for": "everything",
+        "order": 19
+      },
+      {
+        "rule": "打包",
+        "icon": "SiPacker",
+        "for": "everything",
+        "order": 20
+      },
+      {
+        "rule": "前端",
+        "icon": "FasQuestion",
+        "for": "everything",
+        "order": 21
+      },
+      {
+        "rule": "团队",
+        "icon": "RiTeamFill",
+        "for": "everything",
+        "order": 22
+      },
+      {
+        "rule": "业务",
+        "icon": "TiBusinessplan",
+        "for": "everything",
+        "order": 23
+      },
+      {
+        "rule": "新",
+        "icon": "LiTimer",
+        "for": "everything",
+        "order": 24
+      },
+      {
+        "rule": "灵感",
+        "icon": "LiSunrise",
+        "for": "everything",
+        "order": 25,
+        "color": "#f41f1f",
+        "useFilePath": true
+      },
+      {
+        "rule": "问题",
+        "icon": "BoBxsHourglassTop",
+        "for": "everything",
+        "order": 26
+      },
+      {
+        "rule": "剩余",
+        "icon": "LiListTodo",
+        "for": "everything",
+        "order": 27
+      },
+      {
+        "rule": "工作",
+        "icon": "IbHammer",
+        "for": "files",
+        "order": 28,
+        "color": "#e6d1d1"
+      },
+      {
+        "rule": "git",
+        "icon": "SiGit",
+        "for": "everything",
+        "order": 29
+      },
+      {
+        "rule": "ai",
+        "icon": "TiArticleFilledFilled",
+        "for": "everything",
+        "order": 30,
+        "color": "#9f4141"
+      },
+      {
+        "rule": "资源",
+        "icon": "TiBasket",
+        "for": "everything",
+        "order": 31
+      },
+      {
+        "rule": "素材",
+        "icon": "SiMaterialdesignicons",
+        "for": "everything",
+        "order": 32
+      },
+      {
+        "rule": "图片",
+        "icon": "LiImage",
+        "for": "everything",
+        "order": 33
+      },
+      {
+        "rule": "服务器",
+        "icon": "LiServer",
+        "for": "everything",
+        "order": 34
+      },
+      {
+        "rule": "obsidian",
+        "icon": "SiObsidian",
+        "for": "everything",
+        "order": 35
+      },
+      {
+        "rule": "工作",
+        "icon": "TiHammer",
+        "for": "everything",
+        "order": 36
+      },
+      {
+        "rule": "学习",
+        "icon": "LiBookOpen",
+        "for": "everything",
+        "order": 37
+      },
+      {
+        "rule": "其他",
+        "icon": "RiRestTimeLine",
+        "for": "everything",
+        "order": 38
+      },
+      {
+        "rule": ".",
+        "icon": "🐾",
+        "for": "everything",
+        "order": 40,
+        "useFilePath": false
+      },
+      {
+        "rule": "js",
+        "icon": "TiFileTypeJs",
+        "for": "everything",
+        "order": 39
+      }
+    ],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconsBackgroundCheckEnabled": false
+  },
+  "记事本": "TiAddressBook",
+  "记事本/学习": "LiBook",
+  "记事本/学习/学习计划脚本": "RiListCheck",
+  "记事本/学习/学习计划脚本/js文档学习笔记": "FabJs",
+  "记事本/学习/学习目录/服务器相关知识": "LiServer",
+  "记事本/学习/学习目录/服务器相关知识/a 服务器相关命令.md": "IbCommand",
+  "记事本/学习/学习目录/工作/工作计划（未完成）": "TiStatusChange",
+  "记事本/学习/学习目录/工作/工作项目维护": "BoBxGitRepoForked",
+  "记事本/学习/学习目录/工作/工作项目维护/业务知识和难题": "FasPrescriptionBottleMedical",
+  "记事本/学习/学习目录/工作/工作项目维护/日志打印.md": "TiPencilCog",
+  "记事本/学习/前端/二进制相关": "LiBinary",
+  "记事本/学习/前端/小程序": "SiWechat",
+  "记事本/学习/前端/事件循环和微任务、宏任务": "TiCalendarEvent",
+  "记事本/学习/开发软实力/代码风格相关": "SiStylelint",
+  "记事本/学习/开发软实力/测试": "RiTestTubeLine",
+  "记事本/学习/前端/前端杂项/便签20230613.md": "TiNote",
+  "记事本/学习/前端/前端杂项/发展线路.md": "TiRoad",
+  "记事本/学习/前端/前端杂项/记事本.md": "TiNotes"
+}

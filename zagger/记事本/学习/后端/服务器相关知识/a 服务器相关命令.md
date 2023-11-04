@@ -1,11 +1,15 @@
 # a 服务器相关命令
 
 #查看etc目录占用比较大的目录
+
+```shell
 du -h /etc | grep G
+```
+
 ![[obsidian配置文件目录/Attachment/Pasted image 20231018111633.png]]
 
 #跳过检查
-git commit --no-verify
+> git commit --no-verify
 #终端快捷键
 ctrl+u 
 ctrl+k
