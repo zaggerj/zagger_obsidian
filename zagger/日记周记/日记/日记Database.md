@@ -360,4 +360,12 @@ filters:
           operator: CONTAINS
           value: ""
           type: calendar
+      - condition: AND
+        disabled: false
+        color: "hsl(190, 95%, 90%)"
+        filters:
+        - field: 标签
+          operator: CONTAINS
+          value: ""
+          type: text
 ```
