@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian配置文件目录/templater/模板/日记模板.md",
+                "file": "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -241,8 +241,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 6
+        ]
       },
       {
         "id": "73db95bfb166faa1",
@@ -287,7 +286,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md"
+              }
             }
           },
           {
@@ -304,6 +305,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -320,6 +322,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +333,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md"
+              }
             }
           },
           {
@@ -420,7 +425,11 @@
   },
   "active": "325be28fc19bb2f4",
   "lastOpenFiles": [
+    "记事本/非开发/其他/其他.md",
+    "obsidian配置文件目录/templater/模板/日记模板.md",
+    "日记周记/日记/2023-07-05.md",
     "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md",
+    "汇总所有在线文档.md",
     "记事本/工作/工作记录/日报/2023-11-04.md",
     "obsidian配置文件目录/templater/模板/工作记录/日报模板.md",
     "obsidian配置文件目录/New/task.md",
