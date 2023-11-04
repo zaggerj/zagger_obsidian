@@ -115,7 +115,6 @@
           {
             "id": "666ebfbc06f7204d",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -123,8 +122,7 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              },
-              "pinned": true
+              }
             }
           },
           {
@@ -167,45 +165,6 @@
             }
           },
           {
-            "id": "651ae6acf1282019",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "日记周记/日记/日记：2023年11月04日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5c0d6aeb72750a14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian配置文件目录/templater/模板/日记模板.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1030a5f48da000ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian配置文件目录/templater/模板/周记模板.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
             "id": "468234f4d554dc56",
             "type": "leaf",
             "state": {
@@ -219,7 +178,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -336,7 +295,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian配置文件目录/templater/模板/周记模板.md"
+                "file": "日记周记/周记/周记：2023年44周.md"
               }
             }
           },
@@ -354,7 +313,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian配置文件目录/templater/模板/周记模板.md",
+                "file": "日记周记/周记/周记：2023年44周.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -371,7 +330,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian配置文件目录/templater/模板/周记模板.md",
+                "file": "日记周记/周记/周记：2023年44周.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -383,7 +342,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "obsidian配置文件目录/templater/模板/周记模板.md"
+                "file": "日记周记/周记/周记：2023年44周.md"
               }
             }
           },
@@ -470,12 +429,16 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "1030a5f48da000ff",
+  "active": "3790f295c41f1514",
   "lastOpenFiles": [
-    "日记周记/周记/周记：2023年44周.md",
     "obsidian配置文件目录/templater/模板/周记模板.md",
-    "obsidian配置文件目录/templater/模板/日记模板.md",
+    "日记周记/周记/周记：2023年44周.md",
     "日记周记/日记/日记：2023年11月04日.md",
+    "日记周记/日记/日记：2023年10月31日.md",
+    "日记周记/日记/日记：2023年11月01日.md",
+    "日记周记/日记/日记：2023年11月02日.md",
+    "日记周记/日记/日记：2023年11月03日.md",
+    "obsidian配置文件目录/templater/模板/日记模板.md",
     "日记周记/日记/日记：2023年59月6日.md",
     "日记周记/日记/日记：2023年11月4日.md",
     "日记周记/周记/2023年44周.md",
@@ -501,8 +464,6 @@
     "日记周记/周记",
     "日记周记/日记",
     "黑曜石使用相关/obsidian/obsidian教程.md",
-    "黑曜石使用相关/obsidian/obsidian教程-zagger.md",
-    "记事本/学习/学习计划脚本/转换规则总结(巅峰完美诠释文档).md",
     "obsidian配置文件目录/Attachment/Pasted image 20231101224153.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231101224105.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231101222739.png",
@@ -513,10 +474,8 @@
     "obsidian配置文件目录/Attachment/Pasted image 20231031150246.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231031150227.png",
     "obsidian配置文件目录/Attachment/Pasted image 20231031144109.png",
-    "Week Planner/Weeks/Calweek-2023-44.md",
     "Week Planner/Weeks",
     "Week Planner",
-    "记事本/其他/待整理/管理工作/新人.md",
     "记事本/其他/待整理/正则和算法/assets",
     "记事本/学习/测试/未命名.canvas"
   ]

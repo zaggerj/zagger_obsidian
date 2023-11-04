@@ -1,20 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "周记模板",
-      "path": "obsidian配置文件目录/templater/模板/周记模板.md"
-    },
-    {
       "basename": "周记：2023年44周",
       "path": "日记周记/周记/周记：2023年44周.md"
     },
     {
-      "basename": "日记模板",
-      "path": "obsidian配置文件目录/templater/模板/日记模板.md"
+      "basename": "周记模板",
+      "path": "obsidian配置文件目录/templater/模板/周记模板.md"
     },
     {
       "basename": "日记：2023年11月04日",
       "path": "日记周记/日记/日记：2023年11月04日.md"
+    },
+    {
+      "basename": "日记：2023年10月31日",
+      "path": "日记周记/日记/日记：2023年10月31日.md"
+    },
+    {
+      "basename": "日记：2023年11月01日",
+      "path": "日记周记/日记/日记：2023年11月01日.md"
+    },
+    {
+      "basename": "日记：2023年11月02日",
+      "path": "日记周记/日记/日记：2023年11月02日.md"
+    },
+    {
+      "basename": "日记：2023年11月03日",
+      "path": "日记周记/日记/日记：2023年11月03日.md"
+    },
+    {
+      "basename": "日记模板",
+      "path": "obsidian配置文件目录/templater/模板/日记模板.md"
     },
     {
       "basename": "其他",
@@ -183,18 +199,6 @@
     {
       "basename": "Viewer",
       "path": "Viewer.md"
-    },
-    {
-      "basename": "Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币",
-      "path": "黑曜石使用相关/Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币.md"
-    },
-    {
-      "basename": "a 服务器相关命令",
-      "path": "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md"
-    },
-    {
-      "basename": "学习清单",
-      "path": "记事本/学习/前端/前端杂项/学习清单.md"
     }
   ],
   "omittedPaths": [],
