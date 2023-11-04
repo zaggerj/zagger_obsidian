@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "obsidian清单",
+      "path": "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md"
+    },
+    {
       "basename": "2023-11-04",
       "path": "记事本/工作/工作记录/日报/2023-11-04.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "日记模板",
       "path": "obsidian配置文件目录/templater/模板/日记模板.md"
-    },
-    {
-      "basename": "obsidian清单",
-      "path": "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md"
     },
     {
       "basename": "日记Database",

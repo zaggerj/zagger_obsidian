@@ -220,7 +220,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "```js quickadd \nlet text = \"\";\ntext = await this.quickAddApi.inputPrompt(\"todo\",\"输入todo\",text);\ntext = text.replace(\"\\n\",\"<br>\"); \ntext = \"\\n - [ ] \" + text ;\nreturn text\n```"
+        "format": "```js quickadd \nlet text = \"\";\ntext = await this.quickAddApi.inputPrompt(\"todo\",\"输入todo\",text);\ntext = text.replace(\"\\n\",\"<br>\"); \ntext = \"- [ ] \" + text + \"\\n\";\nreturn text\n```"
       },
       "insertAfter": {
         "enabled": true,
