@@ -353,11 +353,30 @@ filters:
   enabled: true
   conditions:
       - condition: AND
-        disabled: false
+        disabled: true
+        label: "1月"
         color: "hsl(64, 95%, 90%)"
         filters:
         - field: 日期
           operator: CONTAINS
+          value: ""
+          type: calendar
+      - condition: AND
+        disabled: true
+        label: "2月"
+        color: "hsl(104, 95%, 90%)"
+        filters:
+        - field: 日期
+          operator: CONTAINS
+          value: ""
+          type: calendar
+      - condition: AND
+        disabled: true
+        label: "7月"
+        color: "hsl(115, 95%, 90%)"
+        filters:
+        - field: 日期
+          operator: GREATER_THAN_OR_EQUAL
           value: ""
           type: calendar
 ```
