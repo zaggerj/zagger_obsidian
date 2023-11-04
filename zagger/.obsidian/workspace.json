@@ -172,7 +172,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian配置文件目录/templater/模板/周记模板.md",
+                "file": "obsidian配置文件目录/templater/模板/日记模板.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -297,7 +297,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian配置文件目录/templater/模板/周记模板.md"
+                "file": "obsidian配置文件目录/templater/模板/日记模板.md"
               }
             }
           },
@@ -315,7 +315,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian配置文件目录/templater/模板/周记模板.md",
+                "file": "obsidian配置文件目录/templater/模板/日记模板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -332,7 +332,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian配置文件目录/templater/模板/周记模板.md",
+                "file": "obsidian配置文件目录/templater/模板/日记模板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -344,7 +344,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "obsidian配置文件目录/templater/模板/周记模板.md"
+                "file": "obsidian配置文件目录/templater/模板/日记模板.md"
               }
             }
           },
@@ -423,7 +423,7 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "00ac91a597a49962",
+  "active": "d7856247cfe4fa39",
   "lastOpenFiles": [
     "obsidian配置文件目录/templater/模板/周记模板.md",
     "obsidian配置文件目录/templater/日记模板.md",
