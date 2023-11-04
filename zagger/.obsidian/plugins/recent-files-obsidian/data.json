@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "2023-07-05",
-      "path": "日记周记/日记/2023-07-05.md"
+      "basename": "日记模板",
+      "path": "obsidian配置文件目录/templater/模板/日记模板.md"
     },
     {
       "basename": "obsidian清单",
       "path": "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md"
+    },
+    {
+      "basename": "2023-07-05",
+      "path": "日记周记/日记/2023-07-05.md"
     },
     {
       "basename": "汇总所有在线文档",
@@ -35,10 +39,6 @@
     {
       "basename": "日记：2023年11月04日",
       "path": "日记周记/日记/日记：2023年11月04日.md"
-    },
-    {
-      "basename": "日记模板",
-      "path": "obsidian配置文件目录/templater/模板/日记模板.md"
     },
     {
       "basename": "日记Database",

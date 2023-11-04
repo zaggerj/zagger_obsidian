@@ -152,29 +152,17 @@
             }
           },
           {
-            "id": "754f2a545d2214e1",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0&fenlei=256&rsv_pq=0xac770d380014f4f2&rsv_t=b6eepvZyofjGp%2FcuskWDNzVMuhpjxRSsk%2B9ztPxJOSQMsuQ0HYzqR0zGXqEo&rqlang=en&rsv_dl=ib&rsv_enter=1&rsv_sug3=25&rsv_sug1=18&rsv_sug7=101"
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "d9b2e5d53b34439c",
+            "id": "ffc752ae1aed5293",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://app.yinxiang.com/ChangePassword.action?passwordReset="
+                "url": "https://app.yinxiang.com/Home.action?login=true#n=3f299631-4540-427b-bed4-7775697579c8&s=s50&ses=4&sh=2&sds=5&"
               }
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -299,7 +287,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md"
+                "file": "obsidian配置文件目录/templater/模板/日记模板.md"
               }
             }
           },
@@ -317,7 +305,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
+                "file": "obsidian配置文件目录/templater/模板/日记模板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -334,7 +322,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
+                "file": "obsidian配置文件目录/templater/模板/日记模板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -346,7 +334,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md"
+                "file": "obsidian配置文件目录/templater/模板/日记模板.md"
               }
             }
           },
@@ -377,7 +365,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       },
       {
         "id": "888c3f3084370af3",
@@ -436,12 +424,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "d9b2e5d53b34439c",
+  "active": "f52b7f261765daa4",
   "lastOpenFiles": [
     "记事本/非开发/其他/其他.md",
     "obsidian配置文件目录/templater/模板/日记模板.md",
     "日记周记/日记/2023-07-05.md",
     "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md",
+    "obsidian配置文件目录/templater/模板/日记模板.md",
     "汇总所有在线文档.md",
     "记事本/工作/工作记录/日报/2023-11-04.md",
     "obsidian配置文件目录/templater/模板/工作记录/日报模板.md",
@@ -451,7 +440,6 @@
     "记事本/工作/工作记录/日报/Untitled.md",
     "记事本/工作/工作记录/日报/{date}.md",
     "日记周记/日记/日记：2023年11月04日.md",
-    "obsidian配置文件目录/templater/模板/日记模板.md",
     "日记周记/日记/日记Database.md",
     "日记周记/日记/2023-11-04.md",
     "obsidian配置文件目录/templater/英文单词模板.md",

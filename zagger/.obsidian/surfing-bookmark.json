@@ -1,6 +1,30 @@
 {
   "bookmarks": [
     {
+      "id": "1227183378",
+      "name": "有道云笔记",
+      "url": "https://note.youdao.com/web/#/file/recent/note/WEB2239dc0c610344eab624bb9f26a9c972/",
+      "description": "",
+      "category": [
+        "ROOT"
+      ],
+      "tags": "",
+      "created": 1699079611033,
+      "modified": 1699079611033
+    },
+    {
+      "id": "-1359511049",
+      "name": "ctrl + Y | 印象笔记网页版",
+      "url": "https://app.yinxiang.com/Home.action?login=true#n=3f299631-4540-427b-bed4-7775697579c8&s=s50&ses=4&sh=2&sds=5&",
+      "description": "",
+      "category": [
+        "ROOT"
+      ],
+      "tags": "",
+      "created": 1699079544952,
+      "modified": 1699079544952
+    },
+    {
       "id": "-912791277",
       "name": "收集箱 - 滴答清单",
       "url": "https://www.dida365.com/webapp/#p/inbox/tasks",

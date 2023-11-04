@@ -53,32 +53,10 @@
   },
   "treeData": [
     {
-      "id": "754f2a545d2214e1",
+      "id": "ffc752ae1aed5293",
       "parent": 0,
       "droppable": true,
-      "text": "滴答_百度搜索",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    },
-    {
-      "id": "40570abf031a81d0",
-      "parent": 0,
-      "droppable": true,
-      "text": "收集箱 - 滴答清单",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    },
-    {
-      "id": "d9b2e5d53b34439c",
-      "parent": 0,
-      "droppable": true,
-      "text": "欢迎回来",
+      "text": "New Tab",
       "data": {
         "fileType": "site",
         "fileSize": "",
