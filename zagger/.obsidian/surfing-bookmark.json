@@ -1,6 +1,18 @@
 {
   "bookmarks": [
     {
+      "id": "-912791277",
+      "name": "收集箱 - 滴答清单",
+      "url": "https://www.dida365.com/webapp/#p/inbox/tasks",
+      "description": "",
+      "category": [
+        "ROOT"
+      ],
+      "tags": "",
+      "created": 1699079286630,
+      "modified": 1699079286630
+    },
+    {
       "id": "2014068036",
       "name": "Obsidian",
       "url": "https://obsidian.md/",

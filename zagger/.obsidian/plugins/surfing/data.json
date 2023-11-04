@@ -25,7 +25,7 @@
   "customHighlightFormat": false,
   "highlightFormat": "[{CONTENT}]({URL})",
   "highlightInSameTab": false,
-  "openInSameTab": true,
+  "openInSameTab": false,
   "showRefreshButton": true,
   "openInObsidianWeb": true,
   "useCustomIcons": false,
@@ -68,6 +68,17 @@
       "parent": 0,
       "droppable": true,
       "text": "收集箱 - 滴答清单",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "d9b2e5d53b34439c",
+      "parent": 0,
+      "droppable": true,
+      "text": "欢迎回来",
       "data": {
         "fileType": "site",
         "fileSize": "",
