@@ -133,6 +133,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "日记周记/日记/日记：2023年11月4日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "485950aa39065642",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "obsidian配置文件目录/templater/模板/周记模板.md",
                 "mode": "source",
                 "backlinks": true,
@@ -154,7 +167,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -405,8 +418,11 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "6559b70b3afa1282",
+  "active": "485950aa39065642",
   "lastOpenFiles": [
+    "日记周记/日记/日记：2023年11月4日.md",
+    "日记周记/周记/2023年44周.md",
+    "obsidian配置文件目录/templater/模板/周记模板.md",
     "obsidian配置文件目录/templater/模板/日记模板.md",
     "记事本/非开发/其他/其他.md",
     "黑曜石使用相关/未命名.md",
@@ -419,9 +435,6 @@
     "obsidian配置文件目录/templater/模板/排期计划.md",
     "日记周记/排期计划.md",
     "obsidian配置文件目录/templater/日记模板.md",
-    "日记周记/日记/日记：2023年11月4日.md",
-    "obsidian配置文件目录/templater/模板/周记模板.md",
-    "日记周记/周记/2023年44周.md",
     "obsidian配置文件目录/sortspec.md",
     "日记/周记/2023年44周.md",
     "日记/周记",
