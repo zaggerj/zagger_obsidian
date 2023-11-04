@@ -1,3 +1,0 @@
-# daily note
-
-‍

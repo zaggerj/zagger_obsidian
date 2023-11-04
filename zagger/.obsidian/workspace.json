@@ -182,7 +182,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian配置文件目录/templater/周记模板.md",
+                "file": "日记周记/日记/2023-07-05.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -307,7 +307,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian配置文件目录/templater/周记模板.md"
+                "file": "日记周记/日记/2023-07-05.md"
               }
             }
           },
@@ -325,7 +325,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian配置文件目录/templater/周记模板.md",
+                "file": "日记周记/日记/2023-07-05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -342,7 +342,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian配置文件目录/templater/周记模板.md",
+                "file": "日记周记/日记/2023-07-05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "obsidian配置文件目录/templater/周记模板.md"
+                "file": "日记周记/日记/2023-07-05.md"
               }
             }
           },
@@ -435,6 +435,13 @@
   },
   "active": "d7856247cfe4fa39",
   "lastOpenFiles": [
+    "日记周记/daily note.md",
+    "日记周记/日记/2023-07-05.md",
+    "日记周记/日记/2023-10-31.md",
+    "obsidian配置文件目录/templater/周记模板.md",
+    "日记周记/周记",
+    "日记周记/日记",
+    "obsidian配置文件目录/templater/模板/日记模板.md",
     "黑曜石使用相关/obsidian/obsidian清单.md",
     "黑曜石使用相关/obsidian/obsidian教程.md",
     "黑曜石使用相关/obsidian/obsidian教程-zagger.md",
@@ -469,18 +476,11 @@
     "记事本/其他/待整理/文件备份/vscode配置文件备份.md",
     "记事本/其他/待整理/文件备份/compose.md",
     "记事本/其他/待整理/文件备份/aliases.sh.md",
-    "记事本/其他/待整理/文件备份/bash_profile.md",
-    "记事本/其他/待整理/思想建设/豆豆上学导学.md",
-    "记事本/其他/待整理/思想建设/焦虑.md",
-    "记事本/其他/待整理/帐号密码/github firstToken.md",
-    "记事本/其他/待整理/思想建设/关于工作和生活.md",
     "记事本/其他/待整理/管理工作",
     "记事本/其他/待整理/生活",
     "记事本/其他/待整理/正则和算法",
     "记事本/其他/待整理/文件备份",
     "记事本/其他/待整理/思想建设",
-    "记事本/其他/待整理/帐号密码",
-    "记事本/其他/待整理/优化工作",
     "记事本/学习/测试/未命名.canvas"
   ]
 }
