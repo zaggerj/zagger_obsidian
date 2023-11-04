@@ -54,5 +54,6 @@
   "better-search-views",
   "obsidian-linter",
   "obsidian-git",
-  "file-explorer-note-count"
+  "file-explorer-note-count",
+  "obsidian-toggle-list"
 ]
