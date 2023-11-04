@@ -133,23 +133,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "记事本/非开发/其他/其他.md",
+                "file": "obsidian配置文件目录/templater/模板/周记模板.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "d7856247cfe4fa39",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "黑曜石使用相关/未命名.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
               }
             }
           },
@@ -167,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -284,7 +271,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "黑曜石使用相关/未命名.md"
+                "file": "obsidian配置文件目录/templater/模板/周记模板.md"
               }
             }
           },
@@ -302,7 +289,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "黑曜石使用相关/未命名.md",
+                "file": "obsidian配置文件目录/templater/模板/周记模板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -319,7 +306,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "黑曜石使用相关/未命名.md",
+                "file": "obsidian配置文件目录/templater/模板/周记模板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -331,7 +318,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "黑曜石使用相关/未命名.md"
+                "file": "obsidian配置文件目录/templater/模板/周记模板.md"
               }
             }
           },
@@ -418,11 +405,12 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "d7856247cfe4fa39",
+  "active": "6559b70b3afa1282",
   "lastOpenFiles": [
-    "obsidian配置文件目录/templater/模板/基础模板.md",
-    "黑曜石使用相关/未命名.md",
     "obsidian配置文件目录/templater/模板/日记模板.md",
+    "记事本/非开发/其他/其他.md",
+    "黑曜石使用相关/未命名.md",
+    "obsidian配置文件目录/templater/模板/基础模板.md",
     "记事本/工作/工作记录/日报",
     "记事本/工作/工作记录/未命名.md",
     "记事本/工作/工作记录",
@@ -464,7 +452,6 @@
     "记事本/其他/待整理/生活/资源网站.md",
     "记事本/其他/待整理/生活/有声小说.md",
     "记事本/其他/待整理/正则和算法/运算符.md",
-    "记事本/其他/待整理/生活/投诉话术.md",
     "记事本/其他/待整理/正则和算法/assets",
     "记事本/学习/测试/未命名.canvas"
   ]
