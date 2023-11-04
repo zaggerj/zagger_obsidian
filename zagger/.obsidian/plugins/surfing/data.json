@@ -4,15 +4,23 @@
     {
       "name": "duckduckgo",
       "url": "https://duckduckgo.com/?q="
+    },
+    {
+      "name": "谷歌",
+      "url": "https://www.google.com/search?q="
+    },
+    {
+      "name": "百度",
+      "url": "https://www.google.com/search?q="
     }
   ],
   "ignoreList": [
     "notion",
     "craft"
   ],
-  "alwaysShowCustomSearch": false,
-  "showOtherSearchEngines": false,
-  "showSearchBarInPage": false,
+  "alwaysShowCustomSearch": true,
+  "showOtherSearchEngines": true,
+  "showSearchBarInPage": true,
   "markdownPath": "/",
   "customHighlightFormat": false,
   "highlightFormat": "[{CONTENT}]({URL})",
@@ -25,8 +33,8 @@
   "useIconList": true,
   "darkMode": false,
   "bookmarkManager": {
-    "openBookMark": false,
-    "saveBookMark": false,
+    "openBookMark": true,
+    "saveBookMark": true,
     "sendToReadWise": false,
     "pagination": "12",
     "category": "- Computer\n    - 算法\n    - 数据结构\n- obsidian\n    - surfing\n    - dataview\n",
@@ -45,21 +53,10 @@
   },
   "treeData": [
     {
-      "id": "68da8749c31f794b",
+      "id": "325be28fc19bb2f4",
       "parent": 0,
       "droppable": true,
-      "text": "滴答清单",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    },
-    {
-      "id": "4e21a322dfbfc746",
-      "parent": 0,
-      "droppable": true,
-      "text": "New Tab",
+      "text": "收集箱 - 滴答清单",
       "data": {
         "fileType": "site",
         "fileSize": "",

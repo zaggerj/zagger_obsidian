@@ -152,27 +152,17 @@
             }
           },
           {
-            "id": "68da8749c31f794b",
+            "id": "325be28fc19bb2f4",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://www.dida365.com/webapp/#g/60c0155aaac21040f25f856c/tasks"
-              }
-            }
-          },
-          {
-            "id": "4e21a322dfbfc746",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "file://index.html"
+                "url": "https://www.dida365.com/webapp/#p/inbox/tasks"
               }
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -251,7 +241,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 6
       },
       {
         "id": "73db95bfb166faa1",
@@ -427,7 +418,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "4e21a322dfbfc746",
+  "active": "325be28fc19bb2f4",
   "lastOpenFiles": [
     "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md",
     "记事本/工作/工作记录/日报/2023-11-04.md",
