@@ -182,10 +182,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "黑曜石使用相关/obsidian/obsidian清单.md",
+                "file": "obsidian配置文件目录/templater/周记模板.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": false
+                "source": true
               }
             }
           }
@@ -307,7 +307,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "黑曜石使用相关/obsidian/obsidian清单.md"
+                "file": "obsidian配置文件目录/templater/周记模板.md"
               }
             }
           },
@@ -325,7 +325,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "黑曜石使用相关/obsidian/obsidian清单.md",
+                "file": "obsidian配置文件目录/templater/周记模板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -342,7 +342,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "黑曜石使用相关/obsidian/obsidian清单.md",
+                "file": "obsidian配置文件目录/templater/周记模板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "黑曜石使用相关/obsidian/obsidian清单.md"
+                "file": "obsidian配置文件目录/templater/周记模板.md"
               }
             }
           },
@@ -435,8 +435,8 @@
   },
   "active": "d7856247cfe4fa39",
   "lastOpenFiles": [
-    "黑曜石使用相关/obsidian/obsidian教程.md",
     "黑曜石使用相关/obsidian/obsidian清单.md",
+    "黑曜石使用相关/obsidian/obsidian教程.md",
     "黑曜石使用相关/obsidian/obsidian教程-zagger.md",
     "记事本/学习/学习计划脚本/转换规则总结(巅峰完美诠释文档).md",
     "obsidian配置文件目录/Attachment/Pasted image 20231101224153.png",

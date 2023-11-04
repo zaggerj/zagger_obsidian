@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "周记模板",
+      "path": "obsidian配置文件目录/templater/周记模板.md"
+    },
+    {
       "basename": "obsidian清单",
       "path": "黑曜石使用相关/obsidian/obsidian清单.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "新版本",
       "path": "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/新版本.md"
-    },
-    {
-      "basename": "碎片",
-      "path": "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/碎片.md"
     }
   ],
   "omittedPaths": [],

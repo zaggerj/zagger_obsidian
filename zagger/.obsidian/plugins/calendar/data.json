@@ -3,7 +3,7 @@
   "weekStart": "locale",
   "wordsPerDot": 250,
   "showWeeklyNote": true,
-  "weeklyNoteFormat": "",
+  "weeklyNoteFormat": "gggg-ww-周记",
   "weeklyNoteTemplate": "周记模板",
   "weeklyNoteFolder": "obsidian配置文件目录/templater/",
   "localeOverride": "system-default"
