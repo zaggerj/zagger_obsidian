@@ -315,7 +315,7 @@ columns:
       link_alias_enabled: true
       media_width: 100
       media_height: 100
-      isInline: false
+      isInline: true
       task_hide_completed: true
       footer_type: none
       persist_changes: false
@@ -357,26 +357,97 @@ filters:
         label: "1月"
         color: "hsl(64, 95%, 90%)"
         filters:
-        - field: 日期
+        - field: file.name
           operator: CONTAINS
-          value: ""
-          type: calendar
+          value: "2023-01"
+          type: text
       - condition: AND
         disabled: true
         label: "2月"
         color: "hsl(104, 95%, 90%)"
         filters:
-        - field: 日期
+        - field: file.name
           operator: CONTAINS
-          value: ""
-          type: calendar
+          value: "2023-02"
+          type: text
+      - condition: AND
+        disabled: true
+        label: "3月"
+        color: "hsl(115, 95%, 90%)"
+        filters:
+        - field: file.name
+          operator: CONTAINS
+          value: "2023-03"
+          type: text
+      - condition: AND
+        disabled: true
+        label: "4月"
+        color: "hsl(100, 95%, 90%)"
+        filters:
+        - field: file.name
+          operator: CONTAINS
+          value: "2023-04"
+          type: text
+      - condition: AND
+        disabled: true
+        label: "5月"
+        color: "hsl(56, 95%, 90%)"
+        filters:
+        - field: file.name
+          operator: CONTAINS
+          value: "2023-05"
+          type: text
+      - condition: AND
+        disabled: true
+        label: "6月"
+        color: "hsl(153, 95%, 90%)"
+        filters:
+        - field: file.name
+          operator: CONTAINS
+          value: "2023-06"
+          type: text
       - condition: AND
         disabled: true
         label: "7月"
-        color: "hsl(115, 95%, 90%)"
+        color: "hsl(119, 95%, 90%)"
         filters:
-        - field: 日期
-          operator: GREATER_THAN_OR_EQUAL
+        - field: file.name
+          operator: CONTAINS
+          value: "2023-07"
+          type: text
+      - condition: AND
+        disabled: true
+        label: "8月"
+        color: "hsl(15, 95%, 90%)"
+        filters:
+        - field: file.name
+          operator: CONTAINS
+          value: "2023-08"
+          type: text
+      - condition: AND
+        disabled: true
+        label: "9月"
+        color: "hsl(95, 95%, 90%)"
+        filters:
+        - field: file.name
+          operator: CONTAINS
+          value: "2023-09"
+          type: text
+      - condition: AND
+        disabled: false
+        label: "10"
+        color: "hsl(225, 95%, 90%)"
+        filters:
+        - field: file.name
+          operator: CONTAINS
+          value: "2023-10"
+          type: text
+      - condition: AND
+        disabled: false
+        color: "hsl(319, 95%, 90%)"
+        filters:
+        - field: file.name
+          operator: CONTAINS
           value: ""
-          type: calendar
+          type: text
 ```
