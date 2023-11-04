@@ -5,5 +5,8 @@
   "textFontFamily": "FantasqueSansMono NFM",
   "monospaceFontFamily": "FiraCode Nerd Font Propo",
   "baseFontSize": 14,
-  "theme": "system"
+  "theme": "system",
+  "enabledCssSnippets": [
+    "GoblinCwl@CSS"
+  ]
 }

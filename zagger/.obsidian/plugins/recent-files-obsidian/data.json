@@ -1,6 +1,162 @@
 {
   "recentFiles": [
     {
+      "basename": "obsidian清单",
+      "path": "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md"
+    },
+    {
+      "basename": "每周小结模板",
+      "path": "obsidian配置文件目录/templater/模板/每周小结模板.md"
+    },
+    {
+      "basename": "代码量少的问题分析",
+      "path": "obsidian配置文件目录/New/代码量少的问题分析.md"
+    },
+    {
+      "basename": "todolist",
+      "path": "obsidian配置文件目录/New/todolist.md"
+    },
+    {
+      "basename": "markdown语法",
+      "path": "obsidian配置文件目录/New/markdown语法.md"
+    },
+    {
+      "basename": "task",
+      "path": "obsidian配置文件目录/New/task.md"
+    },
+    {
+      "basename": "群公告-开发记事本",
+      "path": "obsidian配置文件目录/New/群公告-开发记事本.md"
+    },
+    {
+      "basename": "阅读列表",
+      "path": "obsidian配置文件目录/New/阅读列表.md"
+    },
+    {
+      "basename": "看板模板",
+      "path": "obsidian配置文件目录/New/看板模板.md"
+    },
+    {
+      "basename": "10月看板",
+      "path": "obsidian配置文件目录/New/10月看板.md"
+    },
+    {
+      "basename": "排期计划",
+      "path": "obsidian配置文件目录/templater/模板/排期计划.md"
+    },
+    {
+      "basename": "排期计划",
+      "path": "日记周记/排期计划.md"
+    },
+    {
+      "basename": "a 服务器相关命令",
+      "path": "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md"
+    },
+    {
+      "basename": "其他",
+      "path": "记事本/非开发/其他/其他.md"
+    },
+    {
+      "basename": "日记模板",
+      "path": "obsidian配置文件目录/templater/模板/日记模板.md"
+    },
+    {
+      "basename": "2023-07-05",
+      "path": "日记周记/日记/2023-07-05.md"
+    },
+    {
+      "basename": "汇总所有在线文档",
+      "path": "汇总所有在线文档.md"
+    },
+    {
+      "basename": "2023-11-04",
+      "path": "记事本/工作/工作记录/日报/2023-11-04.md"
+    },
+    {
+      "basename": "日报模板",
+      "path": "obsidian配置文件目录/templater/模板/工作记录/日报模板.md"
+    },
+    {
+      "basename": "极简日记模板",
+      "path": "obsidian配置文件目录/templater/模板/极简日记模板.md"
+    },
+    {
+      "basename": "Viewer",
+      "path": "Viewer.md"
+    },
+    {
+      "basename": "日记：2023年11月04日",
+      "path": "日记周记/日记/日记：2023年11月04日.md"
+    },
+    {
+      "basename": "日记Database",
+      "path": "日记周记/日记/日记Database.md"
+    },
+    {
+      "basename": "2023-11-04",
+      "path": "日记周记/日记/2023-11-04.md"
+    },
+    {
+      "basename": "英文单词模板",
+      "path": "obsidian配置文件目录/templater/英文单词模板.md"
+    },
+    {
+      "basename": "日记模板",
+      "path": "obsidian配置文件目录/templater/日记模板.md"
+    },
+    {
+      "basename": "日记：2023年11月03日",
+      "path": "日记周记/日记/日记：2023年11月03日.md"
+    },
+    {
+      "basename": "日记：2023年10月30日",
+      "path": "日记周记/日记/日记：2023年10月30日.md"
+    },
+    {
+      "basename": "周记：2023年44周",
+      "path": "日记周记/周记/周记：2023年44周.md"
+    },
+    {
+      "basename": "日记：2023年11月02日",
+      "path": "日记周记/日记/日记：2023年11月02日.md"
+    },
+    {
+      "basename": "日记：2023年11月01日",
+      "path": "日记周记/日记/日记：2023年11月01日.md"
+    },
+    {
+      "basename": "日记：2023年10月31日",
+      "path": "日记周记/日记/日记：2023年10月31日.md"
+    },
+    {
+      "basename": "sortspec",
+      "path": "obsidian配置文件目录/sortspec.md"
+    },
+    {
+      "basename": "周记模板",
+      "path": "obsidian配置文件目录/templater/模板/周记模板.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "obsidian配置文件目录/黑曜石使用相关/未命名.md"
+    },
+    {
+      "basename": "基础模板",
+      "path": "obsidian配置文件目录/templater/模板/基础模板.md"
+    },
+    {
+      "basename": "obsidian工作流",
+      "path": "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian工作流.md"
+    },
+    {
+      "basename": "2023-10-31",
+      "path": "日记周记/日记/2023-10-31.md"
+    },
+    {
+      "basename": "obsidian教程",
+      "path": "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian教程.md"
+    },
+    {
       "basename": "转换规则总结(巅峰完美诠释文档)",
       "path": "记事本/学习/学习计划脚本/转换规则总结(巅峰完美诠释文档).md"
     },
@@ -25,20 +181,8 @@
       "path": "记事本/学习/学习计划脚本/工作计划梳理和安排.md"
     },
     {
-      "basename": "sortspec",
-      "path": "obsidian配置文件目录/sortspec.md"
-    },
-    {
-      "basename": "其他",
-      "path": "记事本/非开发/其他/其他.md"
-    },
-    {
-      "basename": "obsidian工作流",
-      "path": "黑曜石使用相关/obsidian/obsidian工作流.md"
-    },
-    {
       "basename": "The One",
-      "path": "黑曜石使用相关/obsidian/The One.md"
+      "path": "obsidian配置文件目录/黑曜石使用相关/obsidian/The One.md"
     },
     {
       "basename": "windows zsh配置备份 20234015-zagger",
@@ -55,146 +199,6 @@
     {
       "basename": "github firstToken",
       "path": "记事本/非开发/账号密码/github firstToken.md"
-    },
-    {
-      "basename": "工作记事",
-      "path": "记事本/工作/工作记事.md"
-    },
-    {
-      "basename": "linux查看网络命令集合",
-      "path": "记事本/学习/后端/linux/linux查看网络命令集合.md"
-    },
-    {
-      "basename": "vue学习清单",
-      "path": "记事本/学习/前端/vue2/vue学习清单.md"
-    },
-    {
-      "basename": "nodejs学习导航",
-      "path": "记事本/学习/前端/nodejs/nodejs学习导航.md"
-    },
-    {
-      "basename": "nginx",
-      "path": "记事本/学习/后端/nginx/nginx.md"
-    },
-    {
-      "basename": "vscode git graph",
-      "path": "记事本/学习/开发软实力/vscode/vscode git graph.md"
-    },
-    {
-      "basename": "git 文档清单",
-      "path": "记事本/学习/开发软实力/git/git 文档清单.md"
-    },
-    {
-      "basename": "readme",
-      "path": "记事本/非开发/其他/readme.md"
-    },
-    {
-      "basename": "a 汇总所有在线文档",
-      "path": "记事本/非开发/其他/a 汇总所有在线文档.md"
-    },
-    {
-      "basename": "obsidian教程",
-      "path": "黑曜石使用相关/obsidian/obsidian教程.md"
-    },
-    {
-      "basename": "git fetch参数",
-      "path": "记事本/学习/开发软实力/git/git fetch参数.md"
-    },
-    {
-      "basename": "git报错",
-      "path": "记事本/学习/开发软实力/git/git报错.md"
-    },
-    {
-      "basename": "2023-10-31",
-      "path": "日记/2023-10-31.md"
-    },
-    {
-      "basename": "算法学习链接",
-      "path": "记事本/学习/开发软实力/正则和算法/算法/算法学习链接.md"
-    },
-    {
-      "basename": "task",
-      "path": "obsidian配置文件目录/New/task.md"
-    },
-    {
-      "basename": "汇总所有在线文档",
-      "path": "汇总所有在线文档.md"
-    },
-    {
-      "basename": "git文件占用文件问题",
-      "path": "记事本/学习/开发软实力/git/git文件占用文件问题.md"
-    },
-    {
-      "basename": "git国内源",
-      "path": "记事本/学习/开发软实力/git/git国内源.md"
-    },
-    {
-      "basename": "2023-10-13",
-      "path": "日记/2023-10-13.md"
-    },
-    {
-      "basename": "记事本",
-      "path": "记事本/学习/前端/前端杂项/记事本.md"
-    },
-    {
-      "basename": "Viewer",
-      "path": "Viewer.md"
-    },
-    {
-      "basename": "Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币",
-      "path": "黑曜石使用相关/Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币.md"
-    },
-    {
-      "basename": "a 服务器相关命令",
-      "path": "记事本/学习/后端/服务器相关知识/a 服务器相关命令.md"
-    },
-    {
-      "basename": "学习清单",
-      "path": "记事本/学习/前端/前端杂项/学习清单.md"
-    },
-    {
-      "basename": "最新工作安排-zagger",
-      "path": "记事本/工作/工作计划/老的工作计划/最新工作安排-zagger.md"
-    },
-    {
-      "basename": "ftp服务器和npm 临时仓库地址",
-      "path": "记事本/学习/后端/ftp服务器和npm 临时仓库地址.md"
-    },
-    {
-      "basename": "shell_code",
-      "path": "记事本/学习/后端/shell_code.md"
-    },
-    {
-      "basename": "postman",
-      "path": "记事本/学习/后端/postman.md"
-    },
-    {
-      "basename": "客户端远程改资源",
-      "path": "记事本/工作/工作项目维护/常见问题/客户端远程改资源.md"
-    },
-    {
-      "basename": "解决webspice统一的问题",
-      "path": "记事本/工作/工作项目维护/常见问题/解决webspice统一的问题.md"
-    },
-    {
-      "basename": "工作项目维护",
-      "path": "记事本/工作/工作项目维护/常见问题/工作项目维护.md"
-    },
-    {
-      "basename": "研发业务知识点掌握目标达成办法（草稿）-20230717090100-f3gxbzm",
-      "path": "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/研发业务知识点掌握目标达成办法（草稿）-20230717090100-f3gxbzm.md"
-    },
-    {
-      "basename": "研发业务知识点掌握目标达成办法（草稿）",
-      "path": "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/研发业务知识点掌握目标达成办法（草稿）.md"
-    },
-    {
-      "basename": "新版本",
-      "path": "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/新版本.md"
-    },
-    {
-      "basename": "碎片",
-      "path": "记事本/工作/工作计划/有成果的工作/业务知识学习和推进方案/碎片.md"
     }
   ],
   "omittedPaths": [],

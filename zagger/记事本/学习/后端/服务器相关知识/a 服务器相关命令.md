@@ -1,5 +1,11 @@
 # a 服务器相关命令
 
+# 快速清空工作区 #clean #empty
+`git checkout -- .;git clean -fd;`
+
+# mac干掉不要的文件 #find #\.DS_Store
+`find . -type f -name ".DS_Store" | xargs rm -rf`
+
 #查看etc目录占用比较大的目录
 
 ```shell

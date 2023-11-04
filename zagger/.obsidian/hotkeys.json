@@ -1,107 +1,73 @@
 {
   "quickadd:choice:854735a1-2d09-4ca3-8a64-cb0991fc90a9": [
     {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
+      "modifiers": ["Mod", "Shift"],
       "key": "B"
     }
   ],
   "cmdr:macro-0": [
     {
-      "modifiers": [
-        "Ctrl"
-      ],
+      "modifiers": ["Ctrl"],
       "key": "1"
     }
   ],
   "quickadd:choice:51b51fd2-0f99-43e9-966e-d1bb0ba7318d": [
     {
-      "modifiers": [
-        "Mod"
-      ],
+      "modifiers": ["Mod"],
       "key": "5"
     }
   ],
   "local-backup:run-local-backup": [
     {
-      "modifiers": [
-        "Mod",
-        "Alt",
-        "Shift"
-      ],
+      "modifiers": ["Mod", "Alt", "Shift"],
       "key": "S"
     }
   ],
   "obsidian-git:commit": [
     {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
+      "modifiers": ["Alt", "Shift"],
       "key": "0"
     }
   ],
   "obsidian-git:pull": [
     {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
+      "modifiers": ["Alt", "Shift"],
       "key": "-"
     }
   ],
   "obsidian-git:push2": [
     {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
+      "modifiers": ["Alt", "Shift"],
       "key": "="
     }
   ],
   "keyboard-analyzer:show-shortcuts-analyzer-view": [
     {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
+      "modifiers": ["Alt", "Shift"],
       "key": "K"
     }
   ],
   "quickadd:choice:4faed75d-0124-4991-be0e-9a1bf7504ef1": [
     {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
+      "modifiers": ["Alt", "Shift"],
       "key": "T"
     }
   ],
   "quickadd:choice:c1d9db9a-cb16-4abc-be8e-2b6236276988": [
     {
-      "modifiers": [
-        "Alt"
-      ],
+      "modifiers": ["Alt"],
       "key": "T"
     }
   ],
   "quickadd:choice:d1070378-4f3e-4801-872a-041ef3c87568": [
     {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
+      "modifiers": ["Alt", "Shift"],
       "key": "1"
     }
   ],
   "quickadd:choice:99b16dcb-f920-42d7-89ad-196b6e4d2f51": [
     {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
+      "modifiers": ["Alt", "Shift"],
       "key": "2"
     }
   ]

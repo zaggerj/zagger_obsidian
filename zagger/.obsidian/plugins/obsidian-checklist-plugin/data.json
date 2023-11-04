@@ -8,7 +8,7 @@
   "sortDirectionItems": "new->old",
   "sortDirectionGroups": "new->old",
   "sortDirectionSubGroups": "new->old",
-  "includeFiles": "",
+  "includeFiles": "!{obsiduan配置文件目录/templater/模板/**,}",
   "lookAndFeel": "classic",
   "_collapsedSections": [
     "New/todolist.md",
