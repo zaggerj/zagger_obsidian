@@ -1,6 +1,6 @@
 # a 服务器相关命令
 
-
+# 快速清空工作区
 `git checkout -- .;git clean -fd;`
 
 # #find #\.DS_Store
