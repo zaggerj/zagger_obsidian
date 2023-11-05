@@ -1,20 +1,60 @@
 {
   "recentFiles": [
     {
+      "basename": "00. 主页",
+      "path": "40 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "music and birthday countdown 2",
+      "path": "40 - Obsidian/react组件/music and birthday countdown 2.md"
+    },
+    {
+      "basename": "Dataviewjs参考",
+      "path": "20 - 工作学习/代码库/Dataviewjs参考.md"
+    },
+    {
       "basename": "obsidian清单",
       "path": "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md"
     },
     {
-      "basename": "未命名",
-      "path": "记事本/未命名.md"
+      "basename": "爸爸",
+      "path": "10 - 人员管理/家人/爸爸.md"
     },
     {
-      "basename": "00. 卡片盒",
-      "path": "50 - 卡片知识/00. 卡片盒.md"
+      "basename": "宠物",
+      "path": "10 - 人员管理/宠物/宠物.md"
     },
     {
-      "basename": "conundrum",
-      "path": "50 - 卡片知识/conundrum.md"
+      "basename": "00. 宠物",
+      "path": "10 - 人员管理/宠物/00. 宠物.md"
+    },
+    {
+      "basename": "胖胖",
+      "path": "10 - 人员管理/宠物/胖胖.md"
+    },
+    {
+      "basename": "每日总结汇总20220606",
+      "path": "40 - Obsidian/脚本/每日总结汇总20220606.md"
+    },
+    {
+      "basename": "脚本",
+      "path": "40 - Obsidian/脚本/脚本.md"
+    },
+    {
+      "basename": "2022年19周记录",
+      "path": "00 - 每日日记/WeeklyNote/2022年19周记录.md"
+    },
+    {
+      "basename": "WeeklyNote",
+      "path": "00 - 每日日记/WeeklyNote/WeeklyNote.md"
+    },
+    {
+      "basename": "DailyNote",
+      "path": "00 - 每日日记/DailyNote/DailyNote.md"
+    },
+    {
+      "basename": "porpoises",
+      "path": "50 - 卡片知识/porpoises.md"
     },
     {
       "basename": "汇总所有在线文档",
@@ -159,46 +199,6 @@
     {
       "basename": "obsidian工作流",
       "path": "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian工作流.md"
-    },
-    {
-      "basename": "2023-10-31",
-      "path": "日记周记/日记/2023-10-31.md"
-    },
-    {
-      "basename": "obsidian教程",
-      "path": "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian教程.md"
-    },
-    {
-      "basename": "转换规则总结(巅峰完美诠释文档)",
-      "path": "记事本/学习/学习计划脚本/转换规则总结(巅峰完美诠释文档).md"
-    },
-    {
-      "basename": "脚本",
-      "path": "记事本/学习/学习计划脚本/脚本.md"
-    },
-    {
-      "basename": "js学习计划脚本",
-      "path": "记事本/学习/学习计划脚本/js学习计划脚本.md"
-    },
-    {
-      "basename": "js学习计划",
-      "path": "记事本/学习/学习计划脚本/js学习计划.md"
-    },
-    {
-      "basename": "学习笔记",
-      "path": "记事本/学习/学习计划脚本/学习笔记.md"
-    },
-    {
-      "basename": "工作计划梳理和安排",
-      "path": "记事本/学习/学习计划脚本/工作计划梳理和安排.md"
-    },
-    {
-      "basename": "The One",
-      "path": "obsidian配置文件目录/黑曜石使用相关/obsidian/The One.md"
-    },
-    {
-      "basename": "windows zsh配置备份 20234015-zagger",
-      "path": "记事本/非开发/文件备份/windows zsh配置备份 20234015-zagger.md"
     }
   ],
   "omittedPaths": [],
