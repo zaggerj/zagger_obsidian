@@ -8,7 +8,7 @@
   "livePreview": true,
   "showFrontmatter": true,
   "spellcheck": false,
-  "spellcheckLanguages": [],
+  "spellcheckLanguages": null,
   "attachmentFolderPath": "99-Attachment",
   "showLineNumber": true,
   "defaultViewMode": "preview",

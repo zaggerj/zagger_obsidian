@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "24c9f47e37b9341e",
+        "id": "c3b5d0dac890caf2",
         "type": "tabs",
         "children": [
           {
@@ -13,41 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "347179ec093b4b09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "40 - Obsidian/主页/00. 文件管理.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "2203a01c52ed66d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20 - 工作学习/学习/CIT593/593-W01.md",
+                "file": "40 - Obsidian/模板/每周周记模板.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "40 - Obsidian/主页/00. 文件管理.md"
+                "file": "40 - Obsidian/模板/每周周记模板.md"
               }
             }
           },
@@ -146,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "40 - Obsidian/主页/00. 文件管理.md",
+                "file": "40 - Obsidian/模板/每周周记模板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,40 +169,43 @@
       "markdown-importer:打开 Markdown 格式转换器": false,
       "workspaces:管理工作区布局": false,
       "homepage:Open homepage": false,
-      "obsidian-memos:Memos": false,
       "templater-obsidian:Templater": false,
       "big-calendar:Big Calendar": false,
-      "periodic-notes:Open today": false
+      "obsidian-memos:Memos": false,
+      "periodic-notes:Open today": false,
+      "templates:插入模板": false
     }
   },
-  "active": "347179ec093b4b09",
+  "active": "7408259d9b92b5f4",
   "lastOpenFiles": [
+    "40 - Obsidian/模板/每日日记模板.md",
+    "40 - Obsidian/模板/每周周记模板.md",
     "40 - Obsidian/主页/00. 主页.md",
-    "20 - 工作学习/代码库/00. 代码库.md",
-    "40 - Obsidian/主页/00. 文件管理.md",
-    "20 - 工作学习/学习/CIT593/593-W01.md",
-    "40 - Obsidian/主页/00. 参考汇总.md",
-    "40 - Obsidian/主页/00. 导航.md",
-    "30 - 阅读笔记/00. 图书馆.md",
+    "20 - 工作学习/学习/00. 学习.md",
     "40 - Obsidian/模板/新建代码模板.md",
-    "40 - Obsidian/脚本/修复项目统计20220530.md",
-    "20 - 工作学习/学习/CIT594/594-W01.md",
-    "20 - 工作学习/学习/未命名.md",
-    "20 - 工作学习/学习/CIT594/594-W02.md",
-    "20 - 工作学习/工作/00. 工作.md",
-    "20 - 工作学习/学习/英语学习/00. 英语学习.md",
-    "00 - 每日日记/DailyNote/2022年06月07日.md",
-    "zagger库用户实例.md",
-    "00 - 每日日记/DailyNote/2022年05月12日.md",
-    "40 - Obsidian/脚本/小鸟统计20220606.md",
-    "00 - 每日日记/DailyNote/2022年05月13日.md",
-    "CIT593-M13-slides.pdf.md",
-    "Rainbell库用户实例.md",
-    "20 - 工作学习/工作/项目二.md",
-    "50 - 卡片知识/Baader-Meinhof Phenomenon.md",
-    "50 - 卡片知识/Anarch.md",
-    "50 - 卡片知识/00. 卡片盒.md",
-    "50 - 卡片知识/address operator.md",
+    "40 - Obsidian/未命名.md",
+    "40 - Obsidian/附件/banners/banners.md",
+    "20 - 工作学习/游戏/王者荣耀/王者荣耀.md",
+    "20 - 工作学习/学习/英语学习/英语学习.md",
+    "20 - 工作学习/学习/CIT594/CIT594.md",
+    "20 - 工作学习/学习/CIT593/CIT593.md",
+    "40 - Obsidian/附件/附件.md",
+    "40 - Obsidian/脚本/脚本.md",
+    "40 - Obsidian/模板/模板.md",
+    "40 - Obsidian/主页/主页.md",
+    "20 - 工作学习/游戏/游戏.md",
+    "20 - 工作学习/工作/工作.md",
+    "20 - 工作学习/学习/学习.md",
+    "20 - 工作学习/代码库/代码库.md",
+    "00 - 每日日记/WeeklyNote/WeeklyNote.md",
+    "00 - 每日日记/DailyNote/DailyNote.md",
+    "10 - 人员管理/家人/家人.md",
+    "10 - 人员管理/宠物/宠物.md",
+    "10 - 人员管理/员工/员工.md",
+    "40 - Obsidian/tp/tp_foldermoc-Include-subfolders.md",
+    "40 - Obsidian/tp/tp.md",
+    "40 - Obsidian/tp",
+    "40 - Obsidian/模板/tp",
     "40 - Obsidian/附件/50021653820977_.pic.jpg",
     "40 - Obsidian/附件/100911654141903_.pic.jpg",
     "40 - Obsidian/附件/163221654582836_.pic.jpg",

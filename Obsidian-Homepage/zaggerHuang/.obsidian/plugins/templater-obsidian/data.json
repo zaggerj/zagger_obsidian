@@ -15,8 +15,8 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "",
-      "template": ""
+      "folder": "/",
+      "template": "40 - Obsidian/tp/tp-自动选择模板.md"
     }
   ],
   "syntax_highlighting": true,

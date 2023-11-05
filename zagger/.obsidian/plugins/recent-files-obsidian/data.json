@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "汇总所有在线文档",
-      "path": "汇总所有在线文档.md"
-    },
-    {
       "basename": "obsidian清单",
       "path": "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "记事本/未命名.md"
+    },
+    {
+      "basename": "00. 卡片盒",
+      "path": "50 - 卡片知识/00. 卡片盒.md"
+    },
+    {
+      "basename": "conundrum",
+      "path": "50 - 卡片知识/conundrum.md"
+    },
+    {
+      "basename": "汇总所有在线文档",
+      "path": "汇总所有在线文档.md"
     },
     {
       "basename": "每周小结模板",
@@ -187,18 +199,6 @@
     {
       "basename": "windows zsh配置备份 20234015-zagger",
       "path": "记事本/非开发/文件备份/windows zsh配置备份 20234015-zagger.md"
-    },
-    {
-      "basename": "共享目录",
-      "path": "记事本/非开发/账号密码/共享目录.md"
-    },
-    {
-      "basename": "gitlab 密码",
-      "path": "记事本/非开发/账号密码/gitlab 密码.md"
-    },
-    {
-      "basename": "github firstToken",
-      "path": "记事本/非开发/账号密码/github firstToken.md"
     }
   ],
   "omittedPaths": [],
