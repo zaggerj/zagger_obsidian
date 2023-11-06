@@ -4,32 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "b0562c106a5fb70c",
+        "id": "5d9d38a89677f8d0",
         "type": "tabs",
         "children": [
           {
-            "id": "f954be3d845dd3d0",
+            "id": "afc66369d869defc",
             "type": "leaf",
             "state": {
-              "type": "surfing-bookmark-manager",
+              "type": "empty",
               "state": {}
             }
-          },
-          {
-            "id": "57b451246027de49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,9 +101,16 @@
               "type": "VIEW_TYPE_LONGFORM_EXPLORER",
               "state": {}
             }
+          },
+          {
+            "id": "2bc6335185a15709",
+            "type": "leaf",
+            "state": {
+              "type": "tagfolder-view",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "73db95bfb166faa1",
@@ -162,9 +155,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md"
-              }
+              "state": {}
             }
           },
           {
@@ -189,7 +180,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +196,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,9 +206,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md"
-              }
+              "state": {}
             }
           },
           {
@@ -273,63 +260,62 @@
   "left-ribbon": {
     "hiddenItems": {
       "homepage:Open homepage": false,
-      "surfing:surfing-bookmark-manager": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "markdown-importer:打开 Markdown 格式转换器": false,
-      "zk-prefixer:创建时间戳笔记": false,
-      "random-note:开始漫游笔记": false,
+      "markdown-importer:打开 Markdown 格式转换器": true,
+      "zk-prefixer:创建时间戳笔记": true,
+      "random-note:开始漫游笔记": true,
       "audio-recorder:开始/结束录音": false,
       "workspaces:管理工作区布局": false,
-      "obsidian-importer:Open Importer": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-importer:Open Importer": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": true,
+      "mermaid-tools:Open Mermaid Toolbar": true,
+      "obsidian-day-planner:Timeline": true,
       "cmdr:折叠": false,
       "custom-sort:Toggle custom sorting": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "file-tree-alternative:File Tree Alternative Plugin": true,
+      "templater-obsidian:Templater": true,
       "remotely-save:Remotely Save": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-daily-notes-viewer:打开 Viewer": false,
       "float-search:Search Obsidian In Modal": false,
-      "obsidian-day-planner:Timeline": false,
-      "dbfolder:创建一个新数据库表": false,
+      "dbfolder:创建一个新数据库表": true,
+      "surfing:surfing-bookmark-manager": false,
       "big-calendar:Big Calendar": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": true,
       "obsidian-memos:Memos": false
     }
   },
-  "active": "57b451246027de49",
+  "active": "afc66369d869defc",
   "lastOpenFiles": [
+    "50 - 卡片知识/meridian.md",
+    "40 - Obsidian/主页/00. 主页.md",
+    "40 - Obsidian/react组件/music and birthday countdown 1.md",
+    "00 - 每日日记/Viewer.md",
+    "30 - 阅读笔记/破译金庸密码.md",
+    "40 - Obsidian/主页/汇总所有在线文档.md",
+    "00 - 每日日记/todolist.md",
+    "记事本/未命名.md",
+    "40 - Obsidian/模板/大学.md",
+    "obsidian配置文件目录/sortspec-zagger.md",
+    "00 - 每日日记/排期计划.md",
+    "00 - 每日日记/DailyNote/DailyNote.md",
+    "00 - 每日日记/DailyNote/2023年11月04日.md",
+    "00 - 每日日记/DailyNote/日记/日记：2023年11月02日.md",
+    "40 - Obsidian/附件/附件.md",
+    "40 - Obsidian/主页/00. 导航.md",
+    "00 - 每日日记/未命名.md",
     "40 - Obsidian/react组件/music and birthday countdown 2.md",
     "20 - 工作学习/代码库/Dataviewjs参考.md",
-    "obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md",
-    "40 - Obsidian/主页/00. 主页.md",
+    "40 - Obsidian/obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md",
     "Home.md",
     "10 - 人员管理/家人/爸爸.md",
     "10 - 人员管理/宠物/宠物.md",
     "10 - 人员管理/宠物/00. 宠物.md",
     "10 - 人员管理/宠物/胖胖.md",
     "40 - Obsidian/脚本/每日总结汇总20220606.md",
-    "40 - Obsidian/脚本/脚本.md",
-    "00 - 每日日记/WeeklyNote/2022年19周记录.md",
-    "00 - 每日日记/WeeklyNote/WeeklyNote.md",
-    "00 - 每日日记/DailyNote/DailyNote.md",
-    "50 - 卡片知识/porpoises.md",
-    "汇总所有在线文档.md",
-    "记事本/未命名.md",
-    "50 - 卡片知识/meridian.md",
-    "50 - 卡片知识/coral reef.md",
-    "50 - 卡片知识/conundrum.md",
-    "50 - 卡片知识/cohort.md",
-    "50 - 卡片知识/chariot.md",
-    "50 - 卡片知识/barnacles.md",
-    "50 - 卡片知识/beads.md",
-    "50 - 卡片知识/anemone.md",
-    "50 - 卡片知识/algae.md",
     "50 - 卡片知识",
     "40 - Obsidian/附件/banners/rainy-day-bird.gif",
     "40 - Obsidian/附件/banners/rainy-day-bird-2.gif",

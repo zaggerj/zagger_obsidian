@@ -7,9 +7,21 @@
         "name": "thumbs-up",
         "type": "font-awesome"
       },
-      "command": false,
+      "command": true,
       "injectColor": true,
       "noTitle": false
+    },
+    "col2": {
+      "type": "col2",
+      "color": "#7d7d7d",
+      "icon": {
+        "name": "adjust",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": true,
+      "copy": false
     }
   },
   "syntaxHighlight": false,

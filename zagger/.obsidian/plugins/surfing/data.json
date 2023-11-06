@@ -51,39 +51,5 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": [
-    {
-      "id": "57b451246027de49",
-      "parent": 0,
-      "droppable": true,
-      "text": "tp.frontmatter - Templater",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    },
-    {
-      "id": "f954be3d845dd3d0",
-      "parent": 0,
-      "droppable": true,
-      "text": "Dataview",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    },
-    {
-      "id": "3063093fcbc1f69d",
-      "parent": 0,
-      "droppable": true,
-      "text": "Obsidian - Sharpen your thinking",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    }
-  ]
+  "treeData": []
 }

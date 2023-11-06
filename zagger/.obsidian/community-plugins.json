@@ -43,7 +43,6 @@
   "local-backup",
   "multi-column-markdown",
   "auto-card-link",
-  "obsidian-daily-notes-viewer",
   "convert-url-to-iframe",
   "keyboard-analyzer",
   "obsidian-mind-map",
@@ -65,5 +64,6 @@
   "metaedit",
   "big-calendar",
   "obsidian-charts",
-  "obsidian-tracker"
+  "obsidian-tracker",
+  "obsidian-activity-history"
 ]
