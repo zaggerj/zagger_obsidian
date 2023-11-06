@@ -1,13 +1,12 @@
 {
   "accentColor": "",
   "cssTheme": "Blue Topaz",
-  "interfaceFontFamily": "ComicShannsMono Nerd Font Propo",
-  "textFontFamily": "FantasqueSansMono NFM",
-  "monospaceFontFamily": "FiraCode Nerd Font Propo",
-  "baseFontSize": 14,
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
+  "monospaceFontFamily": "",
+  "baseFontSize": 16,
   "theme": "system",
   "enabledCssSnippets": [
-    "GoblinCwl@CSS",
     "【边栏图标】sidepane",
     "【分栏支持】admonition-col2-col3-flex",
     "【进度颜色】colourful progress bar",

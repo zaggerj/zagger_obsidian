@@ -1,6 +1,6 @@
 {
-  "folder": "日记周记/日记",
-  "template": "obsidian配置文件目录/templater/模板/日记模板",
+  "folder": "00 - 每日日记",
+  "template": "40 - Obsidian/模板/每日日记模板",
   "autorun": false,
   "format": "日记：yyyy年MM月DD日"
 }

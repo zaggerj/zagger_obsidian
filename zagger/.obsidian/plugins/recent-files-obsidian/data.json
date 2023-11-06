@@ -1,16 +1,68 @@
 {
   "recentFiles": [
     {
-      "basename": "00. 导航",
-      "path": "40 - Obsidian/主页/00. 导航.md"
-    },
-    {
       "basename": "00. 主页",
       "path": "40 - Obsidian/主页/00. 主页.md"
     },
     {
+      "basename": "tp-日记模板",
+      "path": "40 - Obsidian/模板/tp-日记模板.md"
+    },
+    {
+      "basename": "日记模板",
+      "path": "40 - Obsidian/模板/日记模板.md"
+    },
+    {
+      "basename": "大学",
+      "path": "40 - Obsidian/模板/大学.md"
+    },
+    {
+      "basename": "每周小结模板",
+      "path": "40 - Obsidian/模板/每周小结模板.md"
+    },
+    {
+      "basename": "灵感模板",
+      "path": "40 - Obsidian/模板/灵感模板.md"
+    },
+    {
+      "basename": "00. 导航",
+      "path": "40 - Obsidian/主页/00. 导航.md"
+    },
+    {
+      "basename": "mips上打包electron",
+      "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/mips上打包electron.md"
+    },
+    {
       "basename": "webspice kos系统 中无法上传",
       "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/webspice kos系统 中无法上传.md"
+    },
+    {
+      "basename": "spice没有安装guesttool",
+      "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/spice没有安装guesttool.md"
+    },
+    {
+      "basename": "kos2023透明效果问题",
+      "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/kos2023透明效果问题.md"
+    },
+    {
+      "basename": "spice打开文件传输拖入功能",
+      "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/spice打开文件传输拖入功能.md"
+    },
+    {
+      "basename": "spice画面质量参数h264",
+      "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/spice画面质量参数h264.md"
+    },
+    {
+      "basename": "spice白屏问题",
+      "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/spice白屏问题.md"
+    },
+    {
+      "basename": "spice项目",
+      "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/spice项目.md"
+    },
+    {
+      "basename": "远程问题",
+      "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/远程问题.md"
     },
     {
       "basename": "idp代理连不上问题",
@@ -147,58 +199,6 @@
     {
       "basename": "Pasted image 20231103175601",
       "path": "40 - Obsidian/附件/Attachment/Pasted image 20231103175601.png"
-    },
-    {
-      "basename": "群公告-开发记事本",
-      "path": "40 - Obsidian/附件/Attachment/群公告-开发记事本.md"
-    },
-    {
-      "basename": "附件",
-      "path": "40 - Obsidian/附件/附件.md"
-    },
-    {
-      "basename": "obsidian清单",
-      "path": "40 - Obsidian/obsidian配置文件目录/黑曜石使用相关/obsidian/obsidian清单.md"
-    },
-    {
-      "basename": "meridian",
-      "path": "50 - 卡片知识/meridian.md"
-    },
-    {
-      "basename": "music and birthday countdown 1",
-      "path": "40 - Obsidian/react组件/music and birthday countdown 1.md"
-    },
-    {
-      "basename": "汇总所有在线文档",
-      "path": "40 - Obsidian/主页/汇总所有在线文档.md"
-    },
-    {
-      "basename": "todolist",
-      "path": "00 - 每日日记/todolist.md"
-    },
-    {
-      "basename": "大学",
-      "path": "40 - Obsidian/模板/大学.md"
-    },
-    {
-      "basename": "排期计划",
-      "path": "00 - 每日日记/排期计划.md"
-    },
-    {
-      "basename": "DailyNote",
-      "path": "00 - 每日日记/DailyNote/DailyNote.md"
-    },
-    {
-      "basename": "2023年11月04日",
-      "path": "00 - 每日日记/DailyNote/2023年11月04日.md"
-    },
-    {
-      "basename": "日记：2023年11月02日",
-      "path": "00 - 每日日记/DailyNote/日记/日记：2023年11月02日.md"
-    },
-    {
-      "basename": "music and birthday countdown 2",
-      "path": "40 - Obsidian/react组件/music and birthday countdown 2.md"
     }
   ],
   "omittedPaths": [],

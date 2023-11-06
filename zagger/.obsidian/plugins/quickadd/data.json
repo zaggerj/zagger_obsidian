@@ -5,7 +5,7 @@
       "name": "阅读笔记",
       "type": "Template",
       "command": true,
-      "templatePath": "模板/阅读笔记模板.md",
+      "templatePath": "40 - Obsidian/模板/阅读笔记模板",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -13,7 +13,7 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "文章"
+          "30 - 阅读笔记"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -36,12 +36,12 @@
       "type": "Capture",
       "command": true,
       "appendLink": false,
-      "captureTo": "灵感/灵感memo/{{VALUE:灵感标题}}.md",
+      "captureTo": "00 - 每日日记/灵感/{{VALUE:灵感标题}}.md",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
         "enabled": true,
         "createWithTemplate": true,
-        "template": "obsidian配置文件目录/templater/灵感模板.md"
+        "template": "40 - Obsidian/模板/灵感模板.md"
       },
       "format": {
         "enabled": true,
@@ -71,7 +71,7 @@
       "type": "Capture",
       "command": true,
       "appendLink": false,
-      "captureTo": "灵感/灵感散记.md",
+      "captureTo": "00 - 每日日记/灵感/灵感散记.md",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
         "enabled": false,
@@ -106,7 +106,7 @@
       "type": "Capture",
       "command": true,
       "appendLink": false,
-      "captureTo": "日记/{{date}}.md",
+      "captureTo": "00 - 每日日记/DailyNote/日记//{{date}}.md",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
         "enabled": false,
@@ -141,12 +141,12 @@
       "type": "Capture",
       "command": true,
       "appendLink": false,
-      "captureTo": "记事本/学习工具资源/英文/{{VALUE:英文单词}}.md",
+      "captureTo": "50 - 卡片知识/{{VALUE}}.md",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
         "enabled": true,
         "createWithTemplate": true,
-        "template": "obsidian配置文件目录/templater/英文单词模板.md"
+        "template": "40 - Obsidian/模板/英文单词模板.md"
       },
       "format": {
         "enabled": true,
@@ -176,7 +176,7 @@
       "type": "Capture",
       "command": true,
       "appendLink": false,
-      "captureTo": "日记/todolist.md",
+      "captureTo": "00 - 每日日记/todolist.md",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
         "enabled": true,
@@ -211,12 +211,12 @@
       "type": "Capture",
       "command": true,
       "appendLink": false,
-      "captureTo": "记事本/工作/工作记录/日报/{{date}}.md",
+      "captureTo": "20 - 工作学习/记事本/工作/工作记录/日报/{{date}}.md",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
         "enabled": true,
         "createWithTemplate": true,
-        "template": "obsidian配置文件目录/templater/模板/工作记录/日报模板.md"
+        "template": "40 - Obsidian/模板/日报模板"
       },
       "format": {
         "enabled": true,
@@ -244,7 +244,7 @@
   "macros": [],
   "inputPrompt": "single-line",
   "devMode": false,
-  "templateFolderPath": "obsidian使用相关",
+  "templateFolderPath": "40 - Obsidian/模板",
   "announceUpdates": true,
   "version": "1.4.0",
   "disableOnlineFeatures": true,
