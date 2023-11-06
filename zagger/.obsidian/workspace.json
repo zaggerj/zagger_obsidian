@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c8d37999170e4f05",
+        "id": "101193a74273c938",
         "type": "tabs",
         "children": [
           {
-            "id": "28bb428178708c09",
+            "id": "d835b58d6ad1a6d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -115,8 +115,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "73db95bfb166faa1",
@@ -141,9 +140,22 @@
                 "useHierarchy": false
               }
             }
+          },
+          {
+            "id": "cd06d04dbc147ecb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "40 - Obsidian/主页/00. 导航.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -163,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md"
+                "file": "40 - Obsidian/主页/00. 导航.md"
               }
             }
           },
@@ -189,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md",
+                "file": "40 - Obsidian/主页/00. 导航.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md",
+                "file": "40 - Obsidian/主页/00. 导航.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +230,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md"
+                "file": "40 - Obsidian/主页/00. 导航.md"
               }
             }
           },
@@ -301,10 +313,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "28bb428178708c09",
+  "active": "cd06d04dbc147ecb",
   "lastOpenFiles": [
-    "40 - Obsidian/主页/00. 导航.md",
     "40 - Obsidian/主页/00. 主页.md",
+    "40 - Obsidian/主页/00. 导航.md",
     "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/webspice kos系统 中无法上传.md",
     "40 - Obsidian/附件/}[YAY}4`V3EH[RB]0}29_00.png",
     "40 - Obsidian/附件/[~K(71OO1}}VQG9IP3{7UDA.png",
