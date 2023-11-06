@@ -66,5 +66,7 @@
   "obsidian-charts",
   "obsidian-tracker",
   "obsidian-activity-history",
-  "obsidian-image-auto-upload-plugin"
+  "obsidian-image-auto-upload-plugin",
+  "customizable-page-header-buttons",
+  "obsidian-dynamic-toc"
 ]

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "00. 导航",
+      "path": "40 - Obsidian/主页/00. 导航.md"
+    },
+    {
       "basename": "00. 主页",
       "path": "40 - Obsidian/主页/00. 主页.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "灵感模板",
       "path": "40 - Obsidian/模板/灵感模板.md"
-    },
-    {
-      "basename": "00. 导航",
-      "path": "40 - Obsidian/主页/00. 导航.md"
     },
     {
       "basename": "mips上打包electron",

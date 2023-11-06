@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "915d40bf390010a3",
+        "id": "101193a74273c938",
         "type": "tabs",
         "children": [
           {
-            "id": "a765d5cd026a20b4",
+            "id": "d835b58d6ad1a6d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md"
+                "file": "40 - Obsidian/主页/00. 导航.md"
               }
             }
           },
@@ -201,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md",
+                "file": "40 - Obsidian/主页/00. 导航.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md",
+                "file": "40 - Obsidian/主页/00. 导航.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +230,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md"
+                "file": "40 - Obsidian/主页/00. 导航.md"
               }
             }
           },
@@ -313,9 +313,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "a765d5cd026a20b4",
+  "active": "cd06d04dbc147ecb",
   "lastOpenFiles": [
     "40 - Obsidian/主页/00. 主页.md",
+    "20 - 工作学习/工作/汇总所有在线文档.md",
+    "20 - 工作学习/汇总所有在线文档.md",
     "40 - Obsidian/模板/tp-日记模板.md",
     "40 - Obsidian/模板/日记模板.md",
     "40 - Obsidian/模板/大学.md",
@@ -339,8 +341,6 @@
     "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/spice项目.md",
     "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/spice项目 1.md",
     "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/远程问题.md",
-    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/远程问题 1.md",
-    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/idp代理连不上问题.md",
     "obsidian配置文件目录/Attachment/assets 9/image5-20230708221750-odzmzc1.jpeg",
     "obsidian配置文件目录/Attachment/assets 9/image4-20230708221750-wgh63jq.jpeg",
     "obsidian配置文件目录/Attachment/assets 9/image1-20230708221750-h01538o.jpeg",
