@@ -239,6 +239,36 @@
       },
       "openFile": false,
       "openFileInMode": "default"
+    },
+    {
+      "id": "0b533ab7-517e-40ae-a4ae-48a5ce88048f",
+      "name": "新建代码",
+      "type": "Template",
+      "command": true,
+      "templatePath": "40 - Obsidian/模板/新建代码模板.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "20 - 工作学习/代码库"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
     }
   ],
   "macros": [],

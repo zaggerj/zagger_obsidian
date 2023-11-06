@@ -15,7 +15,7 @@
       "type": "col2",
       "color": "#7d7d7d",
       "icon": {
-        "name": "adjust",
+        "name": "ad",
         "type": "font-awesome"
       },
       "command": false,
@@ -32,7 +32,8 @@
       },
       "command": false,
       "injectColor": true,
-      "noTitle": true
+      "noTitle": true,
+      "copy": false
     },
     "col3": {
       "type": "col3",
@@ -47,7 +48,7 @@
     },
     "translation": {
       "type": "translation",
-      "color": "#7d7d7d",
+      "color": "97, 204, 191",
       "icon": {
         "name": "language",
         "type": "font-awesome"
@@ -55,7 +56,8 @@
       "command": false,
       "title": "翻译",
       "injectColor": true,
-      "noTitle": false
+      "noTitle": false,
+      "copy": false
     },
     "exp": {
       "type": "exp",

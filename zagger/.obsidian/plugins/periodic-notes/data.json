@@ -3,14 +3,16 @@
   "hasMigratedDailyNoteSettings": false,
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
-    "format": "",
-    "template": "",
-    "folder": ""
+    "format": "YYYY年MM月DD日",
+    "template": "40 - Obsidian/模板/每日日记模板.md",
+    "folder": "00 - 每日日记/DailyNote",
+    "enabled": true
   },
   "weekly": {
-    "format": "",
-    "template": "",
-    "folder": ""
+    "format": "YYYY年WW周记录",
+    "template": "40 - Obsidian/模板/每周周记模板.md",
+    "folder": "00 - 每日日记/WeeklyNote",
+    "enabled": true
   },
   "monthly": {
     "format": "",

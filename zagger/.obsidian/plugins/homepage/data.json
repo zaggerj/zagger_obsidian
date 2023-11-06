@@ -2,8 +2,8 @@
   "version": 3,
   "homepages": {
     "Main Homepage": {
-      "value": "40 - Obsidian/主页/00. 主页",
-      "kind": "File",
+      "value": "homepage",
+      "kind": "Workspace",
       "openOnStartup": true,
       "openMode": "Replace all open notes",
       "manualOpenMode": "Keep open notes",
