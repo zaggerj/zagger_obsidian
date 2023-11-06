@@ -4,63 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4f9d4e5f0ccbcb3d",
+        "id": "101193a74273c938",
         "type": "tabs",
         "children": [
           {
-            "id": "cc2421322d0af894",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9f2c5bad71e591ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "40 - Obsidian/tp/tp-自动选择模板.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "81fbace23d165aa6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "40 - Obsidian/tp/tp-默认笔记模板.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8758022c3af0fdf2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/webspice kos系统 中无法上传.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "841611028117b8be",
+            "id": "d835b58d6ad1a6d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -71,152 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "8c9365fe8ed80147",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10 - 人员管理/家人/妈妈.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "013753484a7005d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20 - 工作学习/代码库/Dataviewjs参考.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4ee8ccf5014ffbf1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "30 - 阅读笔记/破译金庸密码.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d1f3501efe9e1f12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20 - 工作学习/工作/项目二.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c1a0f8bc53f28bd6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20 - 工作学习/工作/项目一.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d16f5ba36156e969",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/idp代理连不上问题.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f06da30ac393b9db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20 - 工作学习/工作/工作.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "46b23a648bad9f1a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20 - 工作学习/工作/00. 工作.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c85d9e1f56b9bdc9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20 - 工作学习/学习/英语学习/瓦尔登湖.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "001440361a7d857c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 - 每日日记/DailyNote/2022年06月01日.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a9f7c54e20afb286",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 - 每日日记/WeeklyNote/2022年20周记录.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -338,7 +142,7 @@
             }
           },
           {
-            "id": "2ce0aabb7bee7184",
+            "id": "cd06d04dbc147ecb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -350,7 +154,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -370,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/webspice kos系统 中无法上传.md"
+                "file": "40 - Obsidian/主页/00. 主页.md"
               }
             }
           },
@@ -396,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/webspice kos系统 中无法上传.md",
+                "file": "40 - Obsidian/主页/00. 主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -413,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/webspice kos系统 中无法上传.md",
+                "file": "40 - Obsidian/主页/00. 主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -425,7 +230,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/webspice kos系统 中无法上传.md"
+                "file": "40 - Obsidian/主页/00. 主页.md"
               }
             }
           },
@@ -508,8 +313,9 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "8758022c3af0fdf2",
+  "active": "d835b58d6ad1a6d7",
   "lastOpenFiles": [
+    "40 - Obsidian/主页/00. 导航.md",
     "40 - Obsidian/主页/00. 主页.md",
     "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/webspice kos系统 中无法上传.md",
     "40 - Obsidian/附件/}[YAY}4`V3EH[RB]0}29_00.png",
@@ -537,7 +343,6 @@
     "20 - 工作学习/工作/00. 工作.md",
     "20 - 工作学习/工作/工作.md",
     "10 - 人员管理/宠物/胖胖.md",
-    "40 - Obsidian/主页/00. 导航.md",
     "20 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "40 - Obsidian/tp/tp-默认笔记模板.md",
     "40 - Obsidian/tp/tp-自动选择模板.md",
