@@ -1,16 +1,23 @@
 ---
 UID: 20231105215716
-aliases: 
+aliases:
+  - 服务器命令
 tags:
   - 远程桌面/idp
   - 排查问题/idp
   - 工作
+  - 服务器
+  - 命令
+  - Linux
 source: 
 cssclasses: 
 created: 2023-11-06
 ---
 
 ## ✍内容
+
+记录好如下的命令，下次排查问题好照旧！
+
 ![[M{994[AZF%U`8I2}DK([W4A.png]]
 
 ### 查看weboeidp服务
