@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "101193a74273c938",
+        "id": "c8d37999170e4f05",
         "type": "tabs",
         "children": [
           {
-            "id": "d835b58d6ad1a6d7",
+            "id": "28bb428178708c09",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -115,7 +115,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "73db95bfb166faa1",
@@ -140,22 +141,9 @@
                 "useHierarchy": false
               }
             }
-          },
-          {
-            "id": "cd06d04dbc147ecb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "40 - Obsidian/主页/00. 导航.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -313,7 +301,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "d835b58d6ad1a6d7",
+  "active": "28bb428178708c09",
   "lastOpenFiles": [
     "40 - Obsidian/主页/00. 导航.md",
     "40 - Obsidian/主页/00. 主页.md",
