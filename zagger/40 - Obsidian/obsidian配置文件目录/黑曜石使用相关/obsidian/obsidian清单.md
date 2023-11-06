@@ -24,3 +24,11 @@
 22. [用 Obsidian 管理 23 只鸟 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/486882929)
 23. [obsidian 插件 文章标注 booknote\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1JW4y1e7Xv/?spm_id_from=pageDriver&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 24. [zagger129/Obsidian-Homepage: A dashboard for your obsidian vault. (github.com)](https://github.com/zagger129/Obsidian-Homepage)
+25.[PKM-er/Blue-topaz-example: Blue topaz themes example vault for Obsidian (github.com)](https://github.com/PKM-er/Blue-topaz-example/tree/main)
+# Start
+
+1. install the [picgo](https://github.com/Molunerfinn/PicGo) and config it
+2. open the tool and open the setting "设置 server"
+3. install the plugin in obsidian
+4. open the plugin setting, and set the "picGo server" `http://127.0.0.1:{{port in picgo}}/upload`（example：`http://127.0.0.1:36677/upload`）
+5. try paste image
