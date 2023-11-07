@@ -33,8 +33,16 @@
       "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/mips上打包electron.md"
     },
     {
-      "basename": "webspice kos系统 中无法上传",
-      "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/webspice kos系统 中无法上传.md"
+      "basename": "00. 主页",
+      "path": "40 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "tp-默认笔记模板",
+      "path": "40 - Obsidian/tp/tp-默认笔记模板.md"
+    },
+    {
+      "basename": "DailyNote",
+      "path": "00 - 每日日记/DailyNote/DailyNote.md"
     },
     {
       "basename": "spice没有安装guesttool",
@@ -63,6 +71,42 @@
     {
       "basename": "远程问题",
       "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/远程问题.md"
+    },
+    {
+      "basename": "00. 导航",
+      "path": "40 - Obsidian/主页/00. 导航.md"
+    },
+    {
+      "basename": "tp-日记模板",
+      "path": "40 - Obsidian/模板/tp-日记模板.md"
+    },
+    {
+      "basename": "日记模板",
+      "path": "40 - Obsidian/模板/日记模板.md"
+    },
+    {
+      "basename": "大学",
+      "path": "40 - Obsidian/模板/大学.md"
+    },
+    {
+      "basename": "每周小结模板",
+      "path": "40 - Obsidian/模板/每周小结模板.md"
+    },
+    {
+      "basename": "灵感模板",
+      "path": "40 - Obsidian/模板/灵感模板.md"
+    },
+    {
+      "basename": "mips上打包electron",
+      "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/mips上打包electron.md"
+    },
+    {
+      "basename": "webspice kos系统 中无法上传",
+      "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/webspice kos系统 中无法上传.md"
+    },
+    {
+      "basename": "00. 导航",
+      "path": "40 - Obsidian/主页/00. 导航.md"
     },
     {
       "basename": "idp代理连不上问题",
@@ -123,10 +167,6 @@
     {
       "basename": "a 服务器相关命令",
       "path": "20 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md"
-    },
-    {
-      "basename": "tp-默认笔记模板",
-      "path": "40 - Obsidian/tp/tp-默认笔记模板.md"
     },
     {
       "basename": "tp-自动选择模板",
