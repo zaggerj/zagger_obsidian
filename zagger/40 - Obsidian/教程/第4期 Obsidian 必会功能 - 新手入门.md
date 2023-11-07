@@ -1,4 +1,8 @@
 ---
+tags: 
+- 教程/obsidian/blog
+- obsidian
+- 教程
 aliases:
   - 必会功能
 ---

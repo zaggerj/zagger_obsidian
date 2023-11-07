@@ -1,3 +1,12 @@
+---
+tags:
+  - 教程/obsidian/blog
+  - obsidian
+  - blog
+aliases:
+  - Obsidian的基本使用
+---
+
 ## 关于Obsidian的基本使用，这一篇足矣。
 
 > 写在开头的话：  

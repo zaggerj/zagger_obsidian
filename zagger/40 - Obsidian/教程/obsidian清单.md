@@ -1,3 +1,11 @@
+---
+tags:
+  - 教程/obsidian/清单
+  - obsidian
+aliases:
+  - obsidian指南
+---
+
 # Obsidian 同步仓库
 
 1. [zaggerj/zagger_obsidian at 1.0.0 (github.com)](https://github.com/zaggerj/zagger_obsidian/tree/1.0.0)

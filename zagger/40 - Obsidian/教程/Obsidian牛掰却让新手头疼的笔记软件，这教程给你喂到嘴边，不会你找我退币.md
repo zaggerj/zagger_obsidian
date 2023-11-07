@@ -1,4 +1,12 @@
+---
+tags:
+- 教程/obsidian/blog
+- obsidian
+- 教程
+---
+
 #obsidian #教程 #菜有隐 #插件
+
 # obsidian 内容点集锦
 
 - [3] 外观主题：卡片界面，配色，彩虹文件样式，文件图标，泡泡条，工具栏，callout 样式，程序块高亮样式，文字色块，ckecklist 样式

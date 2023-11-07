@@ -1,3 +1,9 @@
+---
+tags:
+  - 教程/obsidian/清单
+---
+
+
 ## 参考链接
 1. [想一小时上手obsidian？这一篇就够了。【玩转Obsidian的保姆级教程】 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/428519519?utm_id=0)
 2. [Obsidian 怎么用？新人全套教程 - 简单易懂 - 最好用的笔记软件 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/637932708)

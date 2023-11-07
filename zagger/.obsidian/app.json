@@ -18,5 +18,5 @@
   },
   "newLinkFormat": "shortest",
   "useMarkdownLinks": false,
-  "defaultViewMode": "preview"
+  "defaultViewMode": "source"
 }

@@ -60,6 +60,16 @@
       "id": "obsidian-tasks-plugin:toggle-done",
       "name": "Tasks: Toggle task done",
       "icon": "check-in-circle"
+    },
+    {
+      "id": "metaedit:metaEditRun",
+      "name": "MetaEdit: Run MetaEdit",
+      "icon": "add-note-glyph"
+    },
+    {
+      "id": "obsidian-admonition:insert-callout",
+      "name": "Admonition: Insert Callout",
+      "icon": "remix-BarricadeFill"
     }
   ],
   "appendMethod": "workspace",

@@ -1,3 +1,9 @@
+---
+tags:
+  - 教程/obsidian/清单
+  - obsidian
+---
+
 # 参考链接
 1. [我的 Obsidian 工作流：模板+QuickAdd+Dataview 快速创建和自动索引 - 少数派 (sspai.com)](https://sspai.com/post/68350)
 2. [想一小时上手obsidian？这一篇就够了。【玩转Obsidian的保姆级教程】 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/428519519)
