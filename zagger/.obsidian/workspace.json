@@ -19,48 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "8f2b3653b4fc2705",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "40 - Obsidian/脚本/homepage-课后作业.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1e1f6f8dfe136184",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "40 - Obsidian/教程/关于Obsidian的基本使用.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6ba6dc90758e847e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "40 - Obsidian/教程/obsidian清单.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -215,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "40 - Obsidian/脚本/homepage-课后作业.md"
+                "file": "40 - Obsidian/主页/00. 导航.md"
               }
             }
           },
@@ -241,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "40 - Obsidian/脚本/homepage-课后作业.md",
+                "file": "40 - Obsidian/主页/00. 导航.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -258,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "40 - Obsidian/脚本/homepage-课后作业.md",
+                "file": "40 - Obsidian/主页/00. 导航.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,7 +230,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "40 - Obsidian/脚本/homepage-课后作业.md"
+                "file": "40 - Obsidian/主页/00. 导航.md"
               }
             }
           },
@@ -354,16 +314,33 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "8f2b3653b4fc2705",
+  "active": "23fad819ff207865",
   "lastOpenFiles": [
-    "40 - Obsidian/obsidian",
+    "40 - Obsidian/obsidian/style-settings/style-settings-Blue_Topaz_Theme.json.md",
+    "40 - Obsidian/obsidian/style-settings",
+    "Daily",
+    "Daily/Invalid date.md",
+    "40 - Obsidian/obsidian/Obsidian07/Metting-work.md",
+    "40 - Obsidian/obsidian/Obsidian07/Metting-work",
+    "40 - Obsidian/obsidian/Obsidian07/zzz-metting.md",
+    "40 - Obsidian/obsidian/Obsidian07/zzz-insert-metadata.md",
+    "40 - Obsidian/obsidian/Obsidian07/zzz-daily.md",
+    "MeetNote/2023",
+    "MeetNote",
+    "40 - Obsidian/obsidian/Obsidian07/zzz-daily",
+    "40 - Obsidian/obsidian/Obsidian07/zzz-insert-metadata",
+    "40 - Obsidian/obsidian/Obsidian07/zzz-metting",
+    "MeetNote/2023/Metting-work.md",
+    "40 - Obsidian/obsidian/Obsidian07",
+    "40 - Obsidian/obsidian/css/hide-link_icon.css.md",
+    "40 - Obsidian/obsidian/css",
+    "40 - Obsidian/脚本/homepage-right-daily.md",
+    "40 - Obsidian/脚本/homepage-right-最近修改.md",
+    "40 - Obsidian/脚本/homepage-right-闪念胶囊.md",
     "40 - Obsidian/脚本/homepage-right-PodCast.md",
     "40 - Obsidian/脚本/homepage-课后作业.md",
-    "40 - Obsidian/脚本/homepage-right-闪念胶囊.md",
     "40 - Obsidian/脚本/homepage-left-未完成的blog.md",
     "40 - Obsidian/脚本/homepage-right-稍后读.md",
-    "40 - Obsidian/脚本/homepage-right-最近修改.md",
-    "40 - Obsidian/脚本/homepage-right-daily.md",
     "40 - Obsidian/脚本/homepage-归档笔记.md",
     "40 - Obsidian/脚本/homepage-未完成摘录.md",
     "40 - Obsidian/教程/关于Obsidian的基本使用.md",
@@ -375,14 +352,6 @@
     "40 - Obsidian/主页/00. 导航.md",
     "30 - 阅读笔记/00. 图书馆.md",
     "40 - Obsidian/脚本/最近修改.md",
-    "40 - Obsidian/脚本/最近三天创建的文件.md",
-    "40 - Obsidian/教程/第4期 Obsidian 必会功能 - 新手入门.md",
-    "40 - Obsidian/教程/The One.md",
-    "40 - Obsidian/教程/Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币.md",
-    "40 - Obsidian/教程/obsidian工作流.md",
-    "40 - Obsidian/教程",
-    "00 - 每日日记/DailyNote/2023年11月06日.md",
-    "20 - 工作学习/工作/汇总所有在线文档.md",
     "obsidian配置文件目录/Attachment/assets 9/image5-20230708221750-odzmzc1.jpeg",
     "obsidian配置文件目录/Attachment/assets 9/image4-20230708221750-wgh63jq.jpeg",
     "obsidian配置文件目录/Attachment/assets 9/image1-20230708221750-h01538o.jpeg",
@@ -393,15 +362,6 @@
     "obsidian配置文件目录/Attachment/assets 7-zagger/image-20230713184819-2zhv1jp.png",
     "obsidian配置文件目录/Attachment/assets 6-zagger/image-20230705092204-535rfto.png",
     "obsidian配置文件目录/Attachment/assets 6-zagger/image-20230705213819-bgypwz1.png",
-    "记事本/非开发/资源素材/环境安装和软件安装/windows软件安装/windows软件列表/assets/app-20230716140408-rlksfzz.asar",
-    "记事本/非开发/资源素材/环境安装和软件安装/windows软件安装/windows软件列表/安装powershell/assets",
-    "记事本/工作/工作计划/有成果的工作/多语言开发规范指导手册/多语言处理文档/assets",
-    "记事本/非开发/资源素材/环境安装和软件安装/windows软件安装/windows软件列表/assets",
-    "记事本/非开发/资源素材/环境安装和软件安装/windows软件安装/windows软件列表/安装scoop",
-    "记事本/非开发/资源素材/环境安装和软件安装/windows软件安装/windows软件列表/安装powershell",
-    "记事本/非开发/资源素材/环境安装和软件安装/windows软件安装/windows软件列表/windows terminal安装",
-    "记事本/非开发/资源素材/各种软件/vim学习/assets",
-    "记事本/非开发/资源素材/各种软件/vim学习/AstroNvim",
     "记事本/学习/测试/未命名.canvas"
   ]
 }

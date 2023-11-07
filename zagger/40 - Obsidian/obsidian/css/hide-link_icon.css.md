@@ -1,0 +1,16 @@
+# hide-link_icon.css
+
+```css hide-link_icon.css
+.link-icon > * {
+ display: none;
+}
+
+.internal-link::after {
+ content: "\00a0";
+}
+
+.cm-formatting-link-end~.data-link-text::after {
+ content: "";
+}
+
+```

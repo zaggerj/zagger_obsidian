@@ -1,3 +1,6 @@
+# style-settings-Blue_Topaz_Theme.json
+
+```json style-settings-Blue_Topaz_Theme.json
 {
   "blue-topaz-theme@@color-scheme-options": "color-scheme-options-simplicity-topaz",
   "blue-topaz-theme@@background-image-settings-switch": true,
@@ -68,3 +71,4 @@
   "blue-topaz-theme@@full-width-backlinks": true,
   "blue-topaz-theme@@quiet-outline-optimize": true
 }
+```

@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "homepage-课后作业",
-      "path": "40 - Obsidian/脚本/homepage-课后作业.md"
+      "basename": "00. 导航",
+      "path": "40 - Obsidian/主页/00. 导航.md"
+    },
+    {
+      "basename": "homepage-归档笔记",
+      "path": "40 - Obsidian/脚本/homepage-归档笔记.md"
+    },
+    {
+      "basename": "homepage-right-daily",
+      "path": "40 - Obsidian/脚本/homepage-right-daily.md"
+    },
+    {
+      "basename": "homepage-right-最近修改",
+      "path": "40 - Obsidian/脚本/homepage-right-最近修改.md"
+    },
+    {
+      "basename": "homepage-right-闪念胶囊",
+      "path": "40 - Obsidian/脚本/homepage-right-闪念胶囊.md"
     },
     {
       "basename": "homepage-right-PodCast",
       "path": "40 - Obsidian/脚本/homepage-right-PodCast.md"
     },
     {
-      "basename": "homepage-right-闪念胶囊",
-      "path": "40 - Obsidian/脚本/homepage-right-闪念胶囊.md"
+      "basename": "homepage-课后作业",
+      "path": "40 - Obsidian/脚本/homepage-课后作业.md"
     },
     {
       "basename": "homepage-left-未完成的blog",
@@ -19,18 +35,6 @@
     {
       "basename": "homepage-right-稍后读",
       "path": "40 - Obsidian/脚本/homepage-right-稍后读.md"
-    },
-    {
-      "basename": "homepage-right-最近修改",
-      "path": "40 - Obsidian/脚本/homepage-right-最近修改.md"
-    },
-    {
-      "basename": "homepage-right-daily",
-      "path": "40 - Obsidian/脚本/homepage-right-daily.md"
-    },
-    {
-      "basename": "homepage-归档笔记",
-      "path": "40 - Obsidian/脚本/homepage-归档笔记.md"
     },
     {
       "basename": "homepage-未完成摘录",
@@ -59,10 +63,6 @@
     {
       "basename": "00. 主页",
       "path": "40 - Obsidian/主页/00. 主页.md"
-    },
-    {
-      "basename": "00. 导航",
-      "path": "40 - Obsidian/主页/00. 导航.md"
     },
     {
       "basename": "tp-日记模板",
