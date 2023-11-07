@@ -1,16 +1,68 @@
 {
   "recentFiles": [
     {
+      "basename": "2023年45周记录",
+      "path": "00 - 每日日记/WeeklyNote/2023年45周记录.md"
+    },
+    {
+      "basename": "每日日记模板",
+      "path": "40 - Obsidian/模板/每日日记模板.md"
+    },
+    {
+      "basename": "2023年11月06日",
+      "path": "00 - 每日日记/DailyNote/2023年11月06日.md"
+    },
+    {
+      "basename": "每周周记模板",
+      "path": "40 - Obsidian/模板/每周周记模板.md"
+    },
+    {
+      "basename": "2023年11月07日",
+      "path": "00 - 每日日记/DailyNote/2023年11月07日.md"
+    },
+    {
+      "basename": "2022年05月20日",
+      "path": "00 - 每日日记/DailyNote/2022年05月20日.md"
+    },
+    {
+      "basename": "00. 导航",
+      "path": "40 - Obsidian/主页/00. 导航.md"
+    },
+    {
+      "basename": "2022年20周记录",
+      "path": "00 - 每日日记/WeeklyNote/2022年20周记录.md"
+    },
+    {
+      "basename": "webspice kos系统 中无法上传",
+      "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/webspice kos系统 中无法上传.md"
+    },
+    {
+      "basename": "2022年05月10日",
+      "path": "00 - 每日日记/DailyNote/2022年05月10日.md"
+    },
+    {
+      "basename": "最近三天创建的文件",
+      "path": "40 - Obsidian/脚本/最近三天创建的文件.md"
+    },
+    {
+      "basename": "tp-自动选择模板",
+      "path": "40 - Obsidian/tp/tp-自动选择模板.md"
+    },
+    {
+      "basename": "tp-默认笔记模板",
+      "path": "40 - Obsidian/tp/tp-默认笔记模板.md"
+    },
+    {
+      "basename": "每日总结汇总20220606",
+      "path": "40 - Obsidian/脚本/每日总结汇总20220606.md"
+    },
+    {
       "basename": "a 服务器相关命令",
       "path": "20 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md"
     },
     {
       "basename": "obsidian清单",
       "path": "40 - Obsidian/教程/obsidian清单.md"
-    },
-    {
-      "basename": "00. 导航",
-      "path": "40 - Obsidian/主页/00. 导航.md"
     },
     {
       "basename": "项目一",
@@ -137,10 +189,6 @@
       "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/mips上打包electron.md"
     },
     {
-      "basename": "tp-默认笔记模板",
-      "path": "40 - Obsidian/tp/tp-默认笔记模板.md"
-    },
-    {
       "basename": "DailyNote",
       "path": "00 - 每日日记/DailyNote/DailyNote.md"
     },
@@ -151,54 +199,6 @@
     {
       "basename": "kos2023透明效果问题",
       "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/kos2023透明效果问题.md"
-    },
-    {
-      "basename": "spice打开文件传输拖入功能",
-      "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/spice打开文件传输拖入功能.md"
-    },
-    {
-      "basename": "spice画面质量参数h264",
-      "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/spice画面质量参数h264.md"
-    },
-    {
-      "basename": "spice白屏问题",
-      "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/spice白屏问题.md"
-    },
-    {
-      "basename": "spice项目",
-      "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/spice项目.md"
-    },
-    {
-      "basename": "远程问题",
-      "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/远程问题.md"
-    },
-    {
-      "basename": "tp-日记模板",
-      "path": "40 - Obsidian/模板/tp-日记模板.md"
-    },
-    {
-      "basename": "日记模板",
-      "path": "40 - Obsidian/模板/日记模板.md"
-    },
-    {
-      "basename": "大学",
-      "path": "40 - Obsidian/模板/大学.md"
-    },
-    {
-      "basename": "每周小结模板",
-      "path": "40 - Obsidian/模板/每周小结模板.md"
-    },
-    {
-      "basename": "灵感模板",
-      "path": "40 - Obsidian/模板/灵感模板.md"
-    },
-    {
-      "basename": "mips上打包electron",
-      "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/mips上打包electron.md"
-    },
-    {
-      "basename": "webspice kos系统 中无法上传",
-      "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/webspice kos系统 中无法上传.md"
     }
   ],
   "omittedPaths": [],
