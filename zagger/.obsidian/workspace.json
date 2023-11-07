@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "101193a74273c938",
+        "id": "603c58479a919a07",
         "type": "tabs",
         "children": [
           {
-            "id": "d835b58d6ad1a6d7",
+            "id": "d99d94fa460a1409",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -174,9 +169,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "40 - Obsidian/主页/00. 导航.md"
-              }
+              "state": {}
             }
           },
           {
@@ -201,7 +194,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "40 - Obsidian/主页/00. 导航.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +210,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "40 - Obsidian/主页/00. 导航.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,9 +220,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "40 - Obsidian/主页/00. 导航.md"
-              }
+              "state": {}
             }
           },
           {
@@ -314,44 +303,43 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "23fad819ff207865",
+  "active": "d99d94fa460a1409",
   "lastOpenFiles": [
-    "40 - Obsidian/obsidian/style-settings/style-settings-Blue_Topaz_Theme.json.md",
-    "40 - Obsidian/obsidian/style-settings",
-    "Daily",
-    "Daily/Invalid date.md",
-    "40 - Obsidian/obsidian/Obsidian07/Metting-work.md",
-    "40 - Obsidian/obsidian/Obsidian07/Metting-work",
-    "40 - Obsidian/obsidian/Obsidian07/zzz-metting.md",
-    "40 - Obsidian/obsidian/Obsidian07/zzz-insert-metadata.md",
-    "40 - Obsidian/obsidian/Obsidian07/zzz-daily.md",
-    "MeetNote/2023",
-    "MeetNote",
-    "40 - Obsidian/obsidian/Obsidian07/zzz-daily",
-    "40 - Obsidian/obsidian/Obsidian07/zzz-insert-metadata",
-    "40 - Obsidian/obsidian/Obsidian07/zzz-metting",
-    "MeetNote/2023/Metting-work.md",
-    "40 - Obsidian/obsidian/Obsidian07",
-    "40 - Obsidian/obsidian/css/hide-link_icon.css.md",
-    "40 - Obsidian/obsidian/css",
-    "40 - Obsidian/脚本/homepage-right-daily.md",
-    "40 - Obsidian/脚本/homepage-right-最近修改.md",
-    "40 - Obsidian/脚本/homepage-right-闪念胶囊.md",
-    "40 - Obsidian/脚本/homepage-right-PodCast.md",
-    "40 - Obsidian/脚本/homepage-课后作业.md",
-    "40 - Obsidian/脚本/homepage-left-未完成的blog.md",
-    "40 - Obsidian/脚本/homepage-right-稍后读.md",
-    "40 - Obsidian/脚本/homepage-归档笔记.md",
-    "40 - Obsidian/脚本/homepage-未完成摘录.md",
-    "40 - Obsidian/教程/关于Obsidian的基本使用.md",
-    "40 - Obsidian/教程/obsidian清单.md",
-    "40 - Obsidian/教程/教程.md",
-    "40 - Obsidian/教程/obsidian教程.md",
-    "00 - 每日日记/DailyNote/2023年11月07日 1.md",
+    "00 - 每日日记/DailyNote/2023-11-08_周三.md",
+    "40 - Obsidian/模板/tp/tp-daily.md",
+    "40 - Obsidian/模板/tp/tp-自动选择模板.md",
+    "00 - 每日日记/日记-日记.md",
+    "00 - 每日日记/DailyNote/2023-11-07_周二.md",
     "40 - Obsidian/主页/00. 主页.md",
     "40 - Obsidian/主页/00. 导航.md",
-    "30 - 阅读笔记/00. 图书馆.md",
-    "40 - Obsidian/脚本/最近修改.md",
+    "40 - Obsidian/模板/tp/tp-日记模板-心情2.md",
+    "40 - Obsidian/模板/tp/tp-插件启停模板.md",
+    "40 - Obsidian/模板/tp/tp-日记模板-日历.md",
+    "40 - Obsidian/模板/tp/tp-笔记分类模板.md",
+    "40 - Obsidian/模板/tp/tp-默认笔记模板.md",
+    "40 - Obsidian/模板/tp/tp-笔记收集箱.md",
+    "40 - Obsidian/模板/tp/tp-通用模板.md",
+    "00 - 每日日记/日记-日记2.md",
+    "00 - 每日日记/日记.md",
+    "40 - Obsidian/模板/tp/tp-movie-douban.md",
+    "00 - 每日日记/Workbench.md",
+    "30 - 阅读笔记/xx-xx.md",
+    "00 - 每日日记/xx-日记.md",
+    "00 - 每日日记/日记-本.md",
+    "00 - 每日日记/日记本.md",
+    "40 - Obsidian/tp/未命名.md",
+    "00 - 每日日记/日记-.md",
+    "00 - 每日日记/Daily/2023-11-07_周二.md",
+    "00 - 每日日记/Daily",
+    "40 - Obsidian/obsidian/Obsidian07/Metting-work",
+    "00 - 每日日记/MeetNote/2023",
+    "00 - 每日日记/MeetNote",
+    "40 - Obsidian/obsidian/Obsidian07/zzz-metting",
+    "40 - Obsidian/obsidian/Obsidian07/zzz-insert-metadata",
+    "40 - Obsidian/obsidian/Obsidian07/zzz-daily",
+    "Daily",
+    "MeetNote/2023",
+    "MeetNote",
     "obsidian配置文件目录/Attachment/assets 9/image5-20230708221750-odzmzc1.jpeg",
     "obsidian配置文件目录/Attachment/assets 9/image4-20230708221750-wgh63jq.jpeg",
     "obsidian配置文件目录/Attachment/assets 9/image1-20230708221750-h01538o.jpeg",
