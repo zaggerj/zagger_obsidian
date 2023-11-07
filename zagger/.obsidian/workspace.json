@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md",
-                "mode": "preview",
+                "file": "20 - 工作学习/记事本/工作/工作计划/有成果的工作/前端代码管理与提交规范.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md"
+                "file": "20 - 工作学习/记事本/工作/工作计划/有成果的工作/前端代码管理与提交规范.md"
               }
             }
           },
@@ -201,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md",
+                "file": "20 - 工作学习/记事本/工作/工作计划/有成果的工作/前端代码管理与提交规范.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md",
+                "file": "20 - 工作学习/记事本/工作/工作计划/有成果的工作/前端代码管理与提交规范.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +230,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md"
+                "file": "20 - 工作学习/记事本/工作/工作计划/有成果的工作/前端代码管理与提交规范.md"
               }
             }
           },
@@ -275,7 +275,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -283,6 +284,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "periodic-notes:Open today": false,
       "homepage:Open homepage": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -309,38 +311,37 @@
       "surfing:surfing-bookmark-manager": false,
       "big-calendar:Big Calendar": false,
       "obsidian-excalidraw-plugin:新建绘图文件": true,
-      "obsidian-memos:Memos": false,
-      "periodic-notes:Open today": false
+      "obsidian-memos:Memos": false
     }
   },
-  "active": "b6fec8d35877681a",
+  "active": "d835b58d6ad1a6d7",
   "lastOpenFiles": [
-    "00 - 每日日记/DailyNote/2023年11月06日.md",
     "40 - Obsidian/主页/00. 导航.md",
-    "40 - Obsidian/主页/00. 主页.md",
+    "20 - 工作学习/记事本/工作/管理工作/管理工作.md",
+    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/远程问题/浏览器版本问题导致.md",
+    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/证书相关/彻底搞懂HTTPS的加密原理 1.md",
+    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/各种问题/数据盘种类.md",
+    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/远程问题/浏览器版本问题导致 1.md",
+    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/各种问题/tspace教室场景 分配终端逻辑 1.md",
+    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/各种问题/小程序管理台前端开发环境、部署、项目结构分享 1.md",
+    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/各种问题/数据盘种类 1.md",
+    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/多语言处理文档/多语言处理总结.md",
+    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/多语言处理文档/多语言处理总结 1.md",
+    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/各种问题/轮询问题.md",
+    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/各种问题/从浏览器中启动客户端应用程序 1.md",
+    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/各种问题/噢易产品授权标识 1.md",
+    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/各种问题/管理台前端 1.md",
+    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/各种问题/管理台-优化 1.md",
+    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/各种问题/终端状态集合 1.md",
+    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/多语言处理文档/多语言测试要求改样式时最佳处理规范.md",
     "20 - 工作学习/工作/汇总所有在线文档.md",
+    "20 - 工作学习/工作/工作.md",
+    "20 - 工作学习/工作/项目二.md",
+    "20 - 工作学习/工作/00. 工作.md",
+    "00 - 每日日记/排期计划.md",
+    "00 - 每日日记/DailyNote/2023年11月06日.md",
+    "40 - Obsidian/主页/00. 主页.md",
     "20 - 工作学习/汇总所有在线文档.md",
-    "40 - Obsidian/模板/tp-日记模板.md",
-    "40 - Obsidian/模板/日记模板.md",
-    "40 - Obsidian/模板/大学.md",
-    "40 - Obsidian/模板/每周小结模板.md",
-    "40 - Obsidian/模板/灵感模板.md",
-    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/withCredential 1.md",
-    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/mips上打包electron 1.md",
-    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/mips上打包electron.md",
-    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/webspice kos系统 中无法上传.md",
-    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/Document is not focused 1.md",
-    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/spice没有安装guesttool.md",
-    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/spice没有安装guesttool 1.md",
-    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/kos2023透明效果问题.md",
-    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/kos2023透明效果问题 1.md",
-    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/spice打开文件传输拖入功能 1.md",
-    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/spice打开文件传输拖入功能.md",
-    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/spice画面质量参数h264.md",
-    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/spice白屏问题 1.md",
-    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/spice白屏问题.md",
-    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/spice项目.md",
-    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/spice项目 1.md",
     "obsidian配置文件目录/Attachment/assets 9/image5-20230708221750-odzmzc1.jpeg",
     "obsidian配置文件目录/Attachment/assets 9/image4-20230708221750-wgh63jq.jpeg",
     "obsidian配置文件目录/Attachment/assets 9/image1-20230708221750-h01538o.jpeg",

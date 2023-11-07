@@ -1,12 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "00. 主页",
-      "path": "40 - Obsidian/主页/00. 主页.md"
+      "basename": "前端代码管理与提交规范",
+      "path": "20 - 工作学习/记事本/工作/工作计划/有成果的工作/前端代码管理与提交规范.md"
     },
     {
       "basename": "00. 导航",
       "path": "40 - Obsidian/主页/00. 导航.md"
+    },
+    {
+      "basename": "管理工作",
+      "path": "20 - 工作学习/记事本/工作/管理工作/管理工作.md"
+    },
+    {
+      "basename": "浏览器版本问题导致",
+      "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/远程问题/浏览器版本问题导致.md"
+    },
+    {
+      "basename": "数据盘种类",
+      "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/各种问题/数据盘种类.md"
+    },
+    {
+      "basename": "多语言处理总结",
+      "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/多语言处理文档/多语言处理总结.md"
+    },
+    {
+      "basename": "轮询问题",
+      "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/各种问题/轮询问题.md"
+    },
+    {
+      "basename": "多语言测试要求改样式时最佳处理规范",
+      "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/多语言处理文档/多语言测试要求改样式时最佳处理规范.md"
+    },
+    {
+      "basename": "汇总所有在线文档",
+      "path": "20 - 工作学习/工作/汇总所有在线文档.md"
+    },
+    {
+      "basename": "工作",
+      "path": "20 - 工作学习/工作/工作.md"
+    },
+    {
+      "basename": "项目二",
+      "path": "20 - 工作学习/工作/项目二.md"
+    },
+    {
+      "basename": "00. 工作",
+      "path": "20 - 工作学习/工作/00. 工作.md"
+    },
+    {
+      "basename": "排期计划",
+      "path": "00 - 每日日记/排期计划.md"
+    },
+    {
+      "basename": "00. 主页",
+      "path": "40 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "tp-日记模板",
@@ -73,10 +121,6 @@
       "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/远程问题.md"
     },
     {
-      "basename": "00. 导航",
-      "path": "40 - Obsidian/主页/00. 导航.md"
-    },
-    {
       "basename": "tp-日记模板",
       "path": "40 - Obsidian/模板/tp-日记模板.md"
     },
@@ -105,10 +149,6 @@
       "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/webspice kos系统 中无法上传.md"
     },
     {
-      "basename": "00. 导航",
-      "path": "40 - Obsidian/主页/00. 导航.md"
-    },
-    {
       "basename": "idp代理连不上问题",
       "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/idp代理连不上问题.md"
     },
@@ -123,10 +163,6 @@
     {
       "basename": "项目一",
       "path": "20 - 工作学习/工作/项目一.md"
-    },
-    {
-      "basename": "项目二",
-      "path": "20 - 工作学习/工作/项目二.md"
     },
     {
       "basename": "未命名",
@@ -153,14 +189,6 @@
       "path": "20 - 工作学习/学习/英语学习/瓦尔登湖.md"
     },
     {
-      "basename": "00. 工作",
-      "path": "20 - 工作学习/工作/00. 工作.md"
-    },
-    {
-      "basename": "工作",
-      "path": "20 - 工作学习/工作/工作.md"
-    },
-    {
       "basename": "胖胖",
       "path": "10 - 人员管理/宠物/胖胖.md"
     },
@@ -171,74 +199,6 @@
     {
       "basename": "tp-自动选择模板",
       "path": "40 - Obsidian/tp/tp-自动选择模板.md"
-    },
-    {
-      "basename": "tp-通用模板",
-      "path": "40 - Obsidian/tp/tp-通用模板.md"
-    },
-    {
-      "basename": "tp",
-      "path": "40 - Obsidian/tp/tp.md"
-    },
-    {
-      "basename": "tp-日记模板-心情",
-      "path": "40 - Obsidian/tp/tp-日记模板-心情.md"
-    },
-    {
-      "basename": "tp-日记模板-日历",
-      "path": "40 - Obsidian/tp/tp-日记模板-日历.md"
-    },
-    {
-      "basename": "image1-20230705220235-az8rqxi",
-      "path": "40 - Obsidian/附件/Attachment/assets 8/image1-20230705220235-az8rqxi.png"
-    },
-    {
-      "basename": "image-20230713184819-2zhv1jp",
-      "path": "40 - Obsidian/附件/Attachment/assets 7-zagger/image-20230713184819-2zhv1jp.png"
-    },
-    {
-      "basename": "image-20230713184833-8djjuaw",
-      "path": "40 - Obsidian/附件/Attachment/assets 7-zagger/image-20230713184833-8djjuaw.png"
-    },
-    {
-      "basename": "image1-20230705215226-aeltfec",
-      "path": "40 - Obsidian/附件/Attachment/assets 7-zagger/image1-20230705215226-aeltfec.png"
-    },
-    {
-      "basename": "image1-20230708221750-l3h0pfh",
-      "path": "40 - Obsidian/附件/Attachment/assets 7-zagger/image1-20230708221750-l3h0pfh.png"
-    },
-    {
-      "basename": "image4-20230705220235-k558spz",
-      "path": "40 - Obsidian/附件/Attachment/assets 6-zagger/image4-20230705220235-k558spz.png"
-    },
-    {
-      "basename": "image4-20230705220235-9gqacso",
-      "path": "40 - Obsidian/附件/Attachment/assets 6-zagger/image4-20230705220235-9gqacso.png"
-    },
-    {
-      "basename": "image5-20230705220235-zjjdatn",
-      "path": "40 - Obsidian/附件/Attachment/assets 6-zagger/image5-20230705220235-zjjdatn.png"
-    },
-    {
-      "basename": "image5-20230705220235-zjjdatn",
-      "path": "40 - Obsidian/附件/Attachment/assets 6/image5-20230705220235-zjjdatn.png"
-    },
-    {
-      "basename": "其他",
-      "path": "20 - 工作学习/记事本/非开发/其他.md"
-    },
-    {
-      "basename": "bbeab787757c6e0eff0236c28bf7ecf",
-      "path": "40 - Obsidian/附件/Attachment/bbeab787757c6e0eff0236c28bf7ecf.jpg"
-    },
-    {
-      "basename": "bbeab787757c6e0eff0236c28bf7ecf 1",
-      "path": "40 - Obsidian/附件/Attachment/bbeab787757c6e0eff0236c28bf7ecf 1.jpg"
-    },
-    {
-      "basename": "Pasted image 20231103175601",
-      "path": "40 - Obsidian/附件/Attachment/Pasted image 20231103175601.png"
     }
   ],
   "omittedPaths": [],
