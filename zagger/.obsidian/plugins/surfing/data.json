@@ -51,5 +51,17 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": []
+  "treeData": [
+    {
+      "id": "6462772fac2cf645",
+      "parent": 0,
+      "droppable": true,
+      "text": "GitHub - zaggerj/zagger_obsidian at 1.0.0",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    }
+  ]
 }

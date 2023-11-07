@@ -1,4 +1,27 @@
-# a 服务器相关命令
+---
+tags:
+  - linux
+  - 命令/linux/集合
+  - 命令
+aliases:
+  - 服务器命令集合
+---
+
+
+```shell
+ps -ef | grep mysql
+netstat -tunlp | grep mysql
+mysql -u oseasy
+mysql -u oseasy -p cloudhan
+mysql -u oseasy -pcloudhan
+service firewalld restart
+python /var/www/console/thor-console.pyc shell
+service vdi-* restart
+vdi-thor-gunicorn restart
+python /var/www/console/thor-console.pyc shell
+service vdi-thor-gunicorn restart
+```
+
 
 # 快速清空工作区 #clean #empty
 `git checkout -- .;git clean -fd;`
