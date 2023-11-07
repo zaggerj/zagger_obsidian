@@ -14,7 +14,8 @@ created: 2023-11-07
 let pages = dv.pages("#Blog and -#Blog/Done");
 dv.table(
 	["Name","genre" ],
+	// sort(compareFn, descStr)
 	pages.sort(b => b.file.mtime, "desc")
-	.map(b => b.file.link, b.genre)
+		.map(b => [b.file.link, b.genre])
 )
 ```

@@ -53,10 +53,10 @@
   },
   "treeData": [
     {
-      "id": "39858009fc2b8f9d",
+      "id": "9c5e06b44dbefdd9",
       "parent": 0,
       "droppable": true,
-      "text": "玩转 Obsidian 08：利用 Dataview 打造自动化 HomePage - 少数派",
+      "text": "New Tab",
       "data": {
         "fileType": "site",
         "fileSize": "",
