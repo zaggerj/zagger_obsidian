@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6a5290495e9c8e71",
+        "id": "101193a74273c938",
         "type": "tabs",
         "children": [
           {
-            "id": "60a1fb5fd8f0e6ce",
+            "id": "d835b58d6ad1a6d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - 每日日记/DailyNote/2023年11月07日 1.md",
-                "mode": "source",
+                "file": "40 - Obsidian/主页/00. 主页.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 - 每日日记/DailyNote/2023年11月07日 1.md"
+                "file": "40 - Obsidian/主页/00. 主页.md"
               }
             }
           },
@@ -201,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 - 每日日记/DailyNote/2023年11月07日 1.md",
+                "file": "40 - Obsidian/主页/00. 主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 - 每日日记/DailyNote/2023年11月07日 1.md",
+                "file": "40 - Obsidian/主页/00. 主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +230,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00 - 每日日记/DailyNote/2023年11月07日 1.md"
+                "file": "40 - Obsidian/主页/00. 主页.md"
               }
             }
           },
@@ -314,14 +314,25 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "23fad819ff207865",
+  "active": "d835b58d6ad1a6d7",
   "lastOpenFiles": [
-    "00 - 每日日记/DailyNote/2023年11月07日.md",
+    "40 - Obsidian/主页/00. 导航.md",
+    "20 - 工作学习/代码库/代码库.md",
+    "20 - 工作学习/代码库/小鸟dataview检索.md",
+    "20 - 工作学习/代码库/人生进度条.md",
+    "20 - 工作学习/代码库/Dataviewjs参考.md",
+    "20 - 工作学习/代码库/测试代码.md",
+    "20 - 工作学习/代码库/00. 算法主页.md",
+    "20 - 工作学习/代码库/00. 代码库.md",
+    "00 - 每日日记/排期计划.md",
+    "10 - 人员管理/家人/妈妈.md",
+    "00 - 每日日记/WeeklyNote/周记/周记：2023年44周.md",
+    "00 - 每日日记/DailyNote/日记/日记：2023年11月02日.md",
     "00 - 每日日记/DailyNote/2023年11月07日 1.md",
+    "00 - 每日日记/DailyNote/2023年11月07日.md",
     "00 - 每日日记/WeeklyNote/2023年45周记录.md",
     "00 - 每日日记/DailyNote/2023年11月06日 1.md",
     "40 - Obsidian/主页/00. 主页.md",
-    "40 - Obsidian/主页/00. 导航.md",
     "00 - 每日日记/DailyNote/2023年11月06日.md",
     "20 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "10 - 人员管理/家人/秦某.md",
@@ -331,17 +342,6 @@
     "40 - Obsidian/脚本/每日总结汇总20220606.md",
     "40 - Obsidian/模板/每周周记模板.md",
     "40 - Obsidian/脚本/Obsidian活动汇总.md",
-    "40 - Obsidian/脚本/小鸟统计20220606.md",
-    "40 - Obsidian/脚本/修复项目统计20220530.md",
-    "40 - Obsidian/脚本/脚本.md",
-    "00 - 每日日记/DailyNote/2023年11月08日.md",
-    "40 - Obsidian/教程/obsidian清单.md",
-    "00 - 每日日记/DailyNote/2022年05月20日.md",
-    "00 - 每日日记/WeeklyNote/WeeklyNote.md",
-    "10 - 人员管理/宠物/小灰灰.md",
-    "10 - 人员管理/宠物/胖胖.md",
-    "00 - 每日日记/WeeklyNote/2022年20周记录.md",
-    "00 - 每日日记/WeeklyNote/2023年11月11日.md",
     "obsidian配置文件目录/Attachment/assets 9/image5-20230708221750-odzmzc1.jpeg",
     "obsidian配置文件目录/Attachment/assets 9/image4-20230708221750-wgh63jq.jpeg",
     "obsidian配置文件目录/Attachment/assets 9/image1-20230708221750-h01538o.jpeg",
