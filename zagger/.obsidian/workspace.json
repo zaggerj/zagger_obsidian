@@ -19,87 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "bf33ba8ce134e452",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 - 每日日记/DailyNote/2023年11月06日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ef2fb694744bf3b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "40 - Obsidian/模板/每周周记模板.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "17e75bb4afada2d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "40 - Obsidian/模板/每日日记模板.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "88386e98f796313c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 - 每日日记/DailyNote/2022年05月20日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dc227671176f6600",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 - 每日日记/DailyNote/2023年11月07日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "06c3fe9cd102df5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 - 每日日记/WeeklyNote/2023年45周记录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -254,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 - 每日日记/WeeklyNote/2023年45周记录.md"
+                "file": "40 - Obsidian/主页/00. 主页.md"
               }
             }
           },
@@ -280,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 - 每日日记/WeeklyNote/2023年45周记录.md",
+                "file": "40 - Obsidian/主页/00. 主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -297,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 - 每日日记/WeeklyNote/2023年45周记录.md",
+                "file": "40 - Obsidian/主页/00. 主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -309,7 +230,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00 - 每日日记/WeeklyNote/2023年45周记录.md"
+                "file": "40 - Obsidian/主页/00. 主页.md"
               }
             }
           },
@@ -393,34 +314,34 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "06c3fe9cd102df5f",
+  "active": "d835b58d6ad1a6d7",
   "lastOpenFiles": [
-    "40 - Obsidian/模板/每日日记模板.md",
-    "00 - 每日日记/DailyNote/2023年11月06日.md",
-    "00 - 每日日记/WeeklyNote/2023年45周记录.md",
-    "40 - Obsidian/模板/每周周记模板.md",
-    "00 - 每日日记/DailyNote/2023年11月07日.md",
-    "00 - 每日日记/DailyNote/2022年05月20日.md",
     "40 - Obsidian/主页/00. 导航.md",
-    "00 - 每日日记/WeeklyNote/2022年20周记录.md",
-    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/webspice kos系统 中无法上传.md",
-    "00 - 每日日记/WeeklyNote/2023年11月11日.md",
-    "00 - 每日日记/DailyNote/2022年05月10日.md",
-    "40 - Obsidian/脚本/最近三天创建的文件.md",
-    "40 - Obsidian/脚本/人.md",
-    "40 - Obsidian/脚本/三天内创建的文件.md",
-    "40 - Obsidian/tp/tp-自动选择模板.md",
-    "40 - Obsidian/tp/tp-默认笔记模板.md",
-    "40 - Obsidian/脚本/每日总结汇总20220606.md",
+    "40 - Obsidian/主页/00. 主页.md",
+    "00 - 每日日记/DailyNote/2023年11月07日.md",
+    "00 - 每日日记/DailyNote/2023年11月06日.md",
     "20 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
+    "10 - 人员管理/家人/秦某.md",
+    "30 - 阅读笔记/00. 图书馆.md",
+    "40 - Obsidian/模板/每日日记模板.md",
+    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/webspice kos系统 中无法上传.md",
+    "40 - Obsidian/脚本/每日总结汇总20220606.md",
+    "40 - Obsidian/模板/每周周记模板.md",
+    "40 - Obsidian/脚本/Obsidian活动汇总.md",
+    "40 - Obsidian/脚本/小鸟统计20220606.md",
+    "40 - Obsidian/脚本/修复项目统计20220530.md",
+    "40 - Obsidian/脚本/脚本.md",
+    "00 - 每日日记/DailyNote/2023年11月07日 1.md",
+    "00 - 每日日记/DailyNote/2023年11月06日 1.md",
+    "00 - 每日日记/DailyNote/2023年11月08日.md",
     "40 - Obsidian/教程/obsidian清单.md",
-    "40 - Obsidian/教程/教程.md",
-    "40 - Obsidian/教程/第4期 Obsidian 必会功能 - 新手入门.md",
-    "40 - Obsidian/教程/关于Obsidian的基本使用.md",
-    "40 - Obsidian/obsidian配置文件目录/黑曜石使用相关/未命名.md",
-    "40 - Obsidian/教程/Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币.md",
-    "40 - Obsidian/教程/obsidian教程.md",
-    "40 - Obsidian/教程/The One.md",
+    "00 - 每日日记/DailyNote/2022年05月20日.md",
+    "00 - 每日日记/WeeklyNote/2023年45周记录.md",
+    "00 - 每日日记/WeeklyNote/WeeklyNote.md",
+    "10 - 人员管理/宠物/小灰灰.md",
+    "10 - 人员管理/宠物/胖胖.md",
+    "00 - 每日日记/WeeklyNote/2022年20周记录.md",
+    "00 - 每日日记/WeeklyNote/2023年11月11日.md",
     "obsidian配置文件目录/Attachment/assets 9/image5-20230708221750-odzmzc1.jpeg",
     "obsidian配置文件目录/Attachment/assets 9/image4-20230708221750-wgh63jq.jpeg",
     "obsidian配置文件目录/Attachment/assets 9/image1-20230708221750-h01538o.jpeg",
