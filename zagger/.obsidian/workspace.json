@@ -19,8 +19,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "39858009fc2b8f9d",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://ios.sspai.com/post/73958"
+              }
+            }
+          },
+          {
+            "id": "db55da03dc74290f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "40 - Obsidian/脚本/最近修改.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "17858d4c3380646c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "40 - Obsidian/脚本/homepage-left-未完成的blog.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -175,7 +212,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md"
+                "file": "40 - Obsidian/脚本/homepage-left-未完成的blog.md"
               }
             }
           },
@@ -201,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md",
+                "file": "40 - Obsidian/脚本/homepage-left-未完成的blog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +255,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md",
+                "file": "40 - Obsidian/脚本/homepage-left-未完成的blog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +267,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md"
+                "file": "40 - Obsidian/脚本/homepage-left-未完成的blog.md"
               }
             }
           },
@@ -314,10 +351,15 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "d835b58d6ad1a6d7",
+  "active": "17858d4c3380646c",
   "lastOpenFiles": [
-    "40 - Obsidian/主页/00. 导航.md",
+    "40 - Obsidian/脚本/最近修改.md",
+    "40 - Obsidian/脚本/homepage-left-未完成的blog.md",
+    "40 - Obsidian/脚本/Obsidian活动汇总.md",
+    "40 - Obsidian/脚本/最近三天创建的文件.md",
+    "00 - 每日日记/DailyNote/2023年11月07日 1.md",
     "40 - Obsidian/主页/00. 主页.md",
+    "40 - Obsidian/主页/00. 导航.md",
     "20 - 工作学习/代码库/代码库.md",
     "20 - 工作学习/代码库/小鸟dataview检索.md",
     "20 - 工作学习/代码库/人生进度条.md",
@@ -329,7 +371,6 @@
     "10 - 人员管理/家人/妈妈.md",
     "00 - 每日日记/WeeklyNote/周记/周记：2023年44周.md",
     "00 - 每日日记/DailyNote/日记/日记：2023年11月02日.md",
-    "00 - 每日日记/DailyNote/2023年11月07日 1.md",
     "00 - 每日日记/DailyNote/2023年11月07日.md",
     "00 - 每日日记/WeeklyNote/2023年45周记录.md",
     "00 - 每日日记/DailyNote/2023年11月06日 1.md",
@@ -338,10 +379,6 @@
     "10 - 人员管理/家人/秦某.md",
     "30 - 阅读笔记/00. 图书馆.md",
     "40 - Obsidian/模板/每日日记模板.md",
-    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/webspice kos系统 中无法上传.md",
-    "40 - Obsidian/脚本/每日总结汇总20220606.md",
-    "40 - Obsidian/模板/每周周记模板.md",
-    "40 - Obsidian/脚本/Obsidian活动汇总.md",
     "obsidian配置文件目录/Attachment/assets 9/image5-20230708221750-odzmzc1.jpeg",
     "obsidian配置文件目录/Attachment/assets 9/image4-20230708221750-wgh63jq.jpeg",
     "obsidian配置文件目录/Attachment/assets 9/image1-20230708221750-h01538o.jpeg",
