@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "00. 主页",
+      "path": "40 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "00. 导航",
+      "path": "40 - Obsidian/主页/00. 导航.md"
+    },
+    {
+      "basename": "2023年11月07日 1",
+      "path": "00 - 每日日记/DailyNote/2023年11月07日 1.md"
+    },
+    {
+      "basename": "每日日记模板",
+      "path": "40 - Obsidian/模板/每日日记模板.md"
+    },
+    {
+      "basename": "kos2023透明效果问题",
+      "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/kos2023透明效果问题.md"
+    },
+    {
+      "basename": "2022年05月13日",
+      "path": "00 - 每日日记/DailyNote/2022年05月13日.md"
+    },
+    {
+      "basename": "所有未完成任务",
+      "path": "40 - Obsidian/脚本/所有未完成任务.md"
+    },
+    {
+      "basename": "style-setting",
+      "path": "40 - Obsidian/脚本/style-setting.md"
+    },
+    {
       "basename": "2023-11-08_周三",
       "path": "00 - 每日日记/DailyNote/2023-11-08_周三.md"
     },
@@ -15,14 +47,6 @@
     {
       "basename": "2023-11-07_周二",
       "path": "00 - 每日日记/DailyNote/2023-11-07_周二.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "40 - Obsidian/主页/00. 主页.md"
-    },
-    {
-      "basename": "00. 导航",
-      "path": "40 - Obsidian/主页/00. 导航.md"
     },
     {
       "basename": "tp-人物模板",
@@ -71,14 +95,6 @@
     {
       "basename": "2023年11月07日",
       "path": "00 - 每日日记/DailyNote/2023年11月07日.md"
-    },
-    {
-      "basename": "2023年11月07日 1",
-      "path": "00 - 每日日记/DailyNote/2023年11月07日 1.md"
-    },
-    {
-      "basename": "每日日记模板",
-      "path": "40 - Obsidian/模板/每日日记模板.md"
     },
     {
       "basename": "日记模板",
@@ -165,10 +181,6 @@
       "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/spice没有安装guesttool.md"
     },
     {
-      "basename": "kos2023透明效果问题",
-      "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/kos2023透明效果问题.md"
-    },
-    {
       "basename": "spice打开文件传输拖入功能",
       "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/spice打开文件传输拖入功能.md"
     },
@@ -187,14 +199,6 @@
     {
       "basename": "远程问题",
       "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/远程问题.md"
-    },
-    {
-      "basename": "idp代理连不上问题",
-      "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/idp代理连不上问题.md"
-    },
-    {
-      "basename": "Dataviewjs参考",
-      "path": "20 - 工作学习/代码库/Dataviewjs参考.md"
     }
   ],
   "omittedPaths": [],
