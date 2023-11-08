@@ -272,7 +272,7 @@
     }
   ],
   "macros": [],
-  "inputPrompt": "single-line",
+  "inputPrompt": "multi-line",
   "devMode": false,
   "templateFolderPath": "40 - Obsidian/模板",
   "announceUpdates": true,

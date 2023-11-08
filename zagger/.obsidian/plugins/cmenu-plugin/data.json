@@ -70,6 +70,12 @@
       "id": "obsidian-admonition:insert-callout",
       "name": "Admonition: Insert Callout",
       "icon": "remix-BarricadeFill"
+    },
+    {
+      "id": "obsidian-emoji-toolbar:emoji-picker:open-picker",
+      "name": "Emoji Toolbar: Open emoji picker",
+      "hotkeys": [],
+      "icon": "remix-EmotionSadLine"
     }
   ],
   "appendMethod": "workspace",

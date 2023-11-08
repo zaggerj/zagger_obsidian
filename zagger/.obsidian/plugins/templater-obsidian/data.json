@@ -11,7 +11,7 @@
   "auto_jump_to_cursor": true,
   "enable_system_commands": false,
   "shell_path": "",
-  "user_scripts_folder": "",
+  "user_scripts_folder": "40 - Obsidian/模板/script",
   "enable_folder_templates": true,
   "folder_templates": [
     {
@@ -24,7 +24,15 @@
     },
     {
       "folder": "00 - 每日日记",
-      "template": "40 - Obsidian/模板/tp/tp-daily.md"
+      "template": "40 - Obsidian/模板/templater/tp-daily.md"
+    },
+    {
+      "folder": "/",
+      "template": "40 - Obsidian/模板/templater/01 自动选择模板.md"
+    },
+    {
+      "folder": "60 - 临时",
+      "template": "40 - Obsidian/模板/templater/01 自动选择模板.md"
     }
   ],
   "syntax_highlighting": true,

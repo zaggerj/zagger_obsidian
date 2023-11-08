@@ -9,7 +9,7 @@
   "strictLineBreaks": false,
   "readableLineLength": false,
   "autoConvertHtml": true,
-  "promptDelete": true,
+  "promptDelete": false,
   "pdfExportSettings": {
     "pageSize": "Letter",
     "landscape": false,
@@ -18,5 +18,6 @@
   },
   "newLinkFormat": "shortest",
   "useMarkdownLinks": false,
-  "defaultViewMode": "source"
+  "defaultViewMode": "source",
+  "showUnsupportedFiles": true
 }

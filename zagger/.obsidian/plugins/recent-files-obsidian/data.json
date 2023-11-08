@@ -1,16 +1,64 @@
 {
   "recentFiles": [
     {
-      "basename": "00. 主页",
-      "path": "40 - Obsidian/主页/00. 主页.md"
+      "basename": "obsidian教程",
+      "path": "40 - Obsidian/教程/obsidian教程.md"
+    },
+    {
+      "basename": "obsidian清单",
+      "path": "40 - Obsidian/教程/obsidian清单.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "20 - 工作学习/02 软件学习/未命名.md"
+    },
+    {
+      "basename": "02 手动选择模板",
+      "path": "40 - Obsidian/模板/templater/02 手动选择模板.md"
+    },
+    {
+      "basename": "01 自动选择模板",
+      "path": "40 - Obsidian/模板/templater/01 自动选择模板.md"
+    },
+    {
+      "basename": "tp-默认笔记模板",
+      "path": "40 - Obsidian/模板/templater/tp-默认笔记模板.md"
+    },
+    {
+      "basename": "tp-人物模板",
+      "path": "40 - Obsidian/模板/templater/tp-人物模板.md"
+    },
+    {
+      "basename": "tp-物品模板",
+      "path": "40 - Obsidian/模板/templater/tp-物品模板.md"
+    },
+    {
+      "basename": "tp-长青笔记模板",
+      "path": "40 - Obsidian/模板/templater/tp-长青笔记模板.md"
+    },
+    {
+      "basename": "03 选择学习相关模板",
+      "path": "40 - Obsidian/模板/templater/03 选择学习相关模板.md"
+    },
+    {
+      "basename": "00. 导航",
+      "path": "40 - Obsidian/主页/00. 导航.md"
+    },
+    {
+      "basename": "基础模板",
+      "path": "40 - Obsidian/模板/基础模板.md"
+    },
+    {
+      "basename": "每日日记模板",
+      "path": "40 - Obsidian/模板/每日日记模板.md"
     },
     {
       "basename": "汇总所有在线文档",
       "path": "20 - 工作学习/工作/汇总所有在线文档.md"
     },
     {
-      "basename": "obsidian清单",
-      "path": "40 - Obsidian/教程/obsidian清单.md"
+      "basename": "00. 主页",
+      "path": "40 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "}[YAY}4`V3EH[RB]0}29_00",
@@ -37,64 +85,12 @@
       "path": "40 - Obsidian/教程/玩转 Obsidian 02：基础设置篇 - 少数派.md"
     },
     {
-      "basename": "00. 导航",
-      "path": "40 - Obsidian/主页/00. 导航.md"
-    },
-    {
-      "basename": "tp-自动选择模板",
-      "path": "40 - Obsidian/模板/tp/tp-自动选择模板.md"
-    },
-    {
-      "basename": "tp-daily",
-      "path": "40 - Obsidian/模板/tp/tp-daily.md"
-    },
-    {
-      "basename": "tp-movie-douban",
-      "path": "40 - Obsidian/模板/tp/tp-movie-douban.md"
-    },
-    {
-      "basename": "tp-book-callout",
-      "path": "40 - Obsidian/模板/tp/tp-book-callout.md"
-    },
-    {
-      "basename": "tp-日记模板-心情2",
-      "path": "40 - Obsidian/模板/tp/tp-日记模板-心情2.md"
-    },
-    {
-      "basename": "tp-默认笔记模板",
-      "path": "40 - Obsidian/模板/tp/tp-默认笔记模板.md"
-    },
-    {
-      "basename": "tp-movie",
-      "path": "40 - Obsidian/模板/tp/tp-movie.md"
-    },
-    {
-      "basename": "tp-笔记收集箱",
-      "path": "40 - Obsidian/模板/tp/tp-笔记收集箱.md"
-    },
-    {
-      "basename": "tp",
-      "path": "40 - Obsidian/模板/tp/tp.md"
-    },
-    {
-      "basename": "tp_foldermoc-Include-subfolders",
-      "path": "40 - Obsidian/模板/tp/tp_foldermoc-Include-subfolders.md"
-    },
-    {
-      "basename": "tp-通用模板",
-      "path": "40 - Obsidian/模板/tp/tp-通用模板.md"
-    },
-    {
       "basename": "tp-日记模板",
       "path": "40 - Obsidian/模板/tp-日记模板.md"
     },
     {
       "basename": "2023年11月07日 1",
       "path": "00 - 每日日记/DailyNote/2023年11月07日 1.md"
-    },
-    {
-      "basename": "每日日记模板",
-      "path": "40 - Obsidian/模板/每日日记模板.md"
     },
     {
       "basename": "kos2023透明效果问题",
@@ -107,98 +103,6 @@
     {
       "basename": "所有未完成任务",
       "path": "40 - Obsidian/脚本/所有未完成任务.md"
-    },
-    {
-      "basename": "style-setting",
-      "path": "40 - Obsidian/脚本/style-setting.md"
-    },
-    {
-      "basename": "2023-11-08_周三",
-      "path": "00 - 每日日记/DailyNote/2023-11-08_周三.md"
-    },
-    {
-      "basename": "2023-11-07_周二",
-      "path": "00 - 每日日记/DailyNote/2023-11-07_周二.md"
-    },
-    {
-      "basename": "tp-人物模板",
-      "path": "40 - Obsidian/模板/tp/tp-人物模板.md"
-    },
-    {
-      "basename": "tp-插件启停模板",
-      "path": "40 - Obsidian/模板/tp/tp-插件启停模板.md"
-    },
-    {
-      "basename": "tp-日记模板-日历",
-      "path": "40 - Obsidian/模板/tp/tp-日记模板-日历.md"
-    },
-    {
-      "basename": "tp-笔记分类模板",
-      "path": "40 - Obsidian/模板/tp/tp-笔记分类模板.md"
-    },
-    {
-      "basename": "Workbench",
-      "path": "00 - 每日日记/Workbench.md"
-    },
-    {
-      "basename": "2023年11月08日",
-      "path": "00 - 每日日记/DailyNote/2023年11月08日.md"
-    },
-    {
-      "basename": "2023年11月07日",
-      "path": "00 - 每日日记/DailyNote/2023年11月07日.md"
-    },
-    {
-      "basename": "日记模板",
-      "path": "40 - Obsidian/模板/日记模板.md"
-    },
-    {
-      "basename": "homepage-归档笔记",
-      "path": "40 - Obsidian/脚本/homepage-归档笔记.md"
-    },
-    {
-      "basename": "homepage-right-daily",
-      "path": "40 - Obsidian/脚本/homepage-right-daily.md"
-    },
-    {
-      "basename": "homepage-right-最近修改",
-      "path": "40 - Obsidian/脚本/homepage-right-最近修改.md"
-    },
-    {
-      "basename": "homepage-right-闪念胶囊",
-      "path": "40 - Obsidian/脚本/homepage-right-闪念胶囊.md"
-    },
-    {
-      "basename": "homepage-right-PodCast",
-      "path": "40 - Obsidian/脚本/homepage-right-PodCast.md"
-    },
-    {
-      "basename": "homepage-课后作业",
-      "path": "40 - Obsidian/脚本/homepage-课后作业.md"
-    },
-    {
-      "basename": "homepage-left-未完成的blog",
-      "path": "40 - Obsidian/脚本/homepage-left-未完成的blog.md"
-    },
-    {
-      "basename": "homepage-right-稍后读",
-      "path": "40 - Obsidian/脚本/homepage-right-稍后读.md"
-    },
-    {
-      "basename": "homepage-未完成摘录",
-      "path": "40 - Obsidian/脚本/homepage-未完成摘录.md"
-    },
-    {
-      "basename": "关于Obsidian的基本使用",
-      "path": "40 - Obsidian/教程/关于Obsidian的基本使用.md"
-    },
-    {
-      "basename": "教程",
-      "path": "40 - Obsidian/教程/教程.md"
-    },
-    {
-      "basename": "obsidian教程",
-      "path": "40 - Obsidian/教程/obsidian教程.md"
     }
   ],
   "omittedPaths": [],
