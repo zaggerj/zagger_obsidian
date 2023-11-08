@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "689b5419311a58e9",
+        "id": "101193a74273c938",
         "type": "tabs",
         "children": [
           {
-            "id": "20931013165583e7",
+            "id": "d835b58d6ad1a6d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40 - Obsidian/模板/tp/tp-自动选择模板.md",
-                "mode": "source",
+                "file": "40 - Obsidian/主页/00. 主页.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -40,7 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "40 - Obsidian/模板/tp/tp-自动选择模板.md"
+                "file": "40 - Obsidian/主页/00. 导航.md"
               }
             }
           },
@@ -201,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "40 - Obsidian/模板/tp/tp-自动选择模板.md",
+                "file": "40 - Obsidian/主页/00. 导航.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "40 - Obsidian/模板/tp/tp-自动选择模板.md",
+                "file": "40 - Obsidian/主页/00. 导航.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +230,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "40 - Obsidian/模板/tp/tp-自动选择模板.md"
+                "file": "40 - Obsidian/主页/00. 导航.md"
               }
             }
           },
@@ -314,44 +314,44 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "20931013165583e7",
+  "active": "23fad819ff207865",
   "lastOpenFiles": [
-    "40 - Obsidian/模板/templater/示例库内置的插件列表.md",
-    "40 - Obsidian/模板/templater/打开文档的第一个外链接.md",
-    "40 - Obsidian/模板/templater/常用工具react.md",
-    "40 - Obsidian/模板/templater/常用工具.md",
-    "40 - Obsidian/模板/templater/彩色时钟.md",
-    "40 - Obsidian/模板/templater/便签.md",
-    "40 - Obsidian/模板/templater/🎵Music.md",
-    "40 - Obsidian/模板/templater/home.md",
-    "40 - Obsidian/模板/templater/FastStart-StartupScript.md",
-    "40 - Obsidian/模板/templater/FastStart-Plugins-simple.md",
-    "40 - Obsidian/模板/templater/FastStart-Plugins-ShortDelay.md",
-    "40 - Obsidian/模板/templater/FastStart-Plugins-LongDelay.md",
-    "40 - Obsidian/模板/templater/FastStart-GenerateListOfInstalledPlugins.md",
-    "40 - Obsidian/模板/templater/chinese_stopwords.md",
-    "40 - Obsidian/模板/templater/Calendar2021-2022.md",
-    "40 - Obsidian/模板/templater/button.md",
-    "40 - Obsidian/模板/templater/88-Template.md",
-    "40 - Obsidian/模板/templater",
-    "40 - Obsidian/模板/新建文件夹",
-    "40 - Obsidian/模板/tp/tp-daily.md",
-    "40 - Obsidian/模板/tp/tp-movie-douban.md",
-    "40 - Obsidian/模板/tp/tp-book-callout.md",
-    "40 - Obsidian/模板/tp/tp-自动选择模板.md",
-    "40 - Obsidian/模板/tp/tp-日记模板-心情2.md",
-    "40 - Obsidian/模板/tp/tp-默认笔记模板.md",
-    "40 - Obsidian/模板/tp/tp-movie.md",
-    "40 - Obsidian/模板/tp/tp-笔记收集箱.md",
-    "40 - Obsidian/模板/tp/tp.md",
-    "00 - 每日日记/Daily",
-    "40 - Obsidian/obsidian/Obsidian07/Metting-work",
-    "00 - 每日日记/MeetNote/2023",
-    "00 - 每日日记/MeetNote",
-    "40 - Obsidian/obsidian/Obsidian07/zzz-metting",
-    "40 - Obsidian/obsidian/Obsidian07/zzz-insert-metadata",
-    "40 - Obsidian/obsidian/Obsidian07/zzz-daily",
-    "Daily",
+    "40 - Obsidian/教程/00-Tips/插件介绍/Any block/9. 高级功能.md",
+    "40 - Obsidian/教程/00-Tips/插件介绍/Any block/9. TODO.md",
+    "40 - Obsidian/教程/00-Tips/插件介绍/Any block/4. 设计理念.md",
+    "40 - Obsidian/教程/00-Tips/插件介绍/Any block/1. 使用示例 - 列表选择器.md",
+    "40 - Obsidian/教程/00-Tips/插件介绍/Any block/3. 使用示例 - 全局选择器.md",
+    "40 - Obsidian/教程/00-Tips/插件介绍/Any block/2. 使用示例 - 代码块引用块选择器.md",
+    "40 - Obsidian/教程/00-Tips/插件介绍/Any block/0. 基础教程.md",
+    "40 - Obsidian/教程/00-Tips/示例库移植说明/迁移 Blue Topaz 示例库的Obsidian文件夹.md",
+    "40 - Obsidian/教程/00-Tips/示例库移植说明/示例库移植说明.md",
+    "40 - Obsidian/教程/00-Tips/示例库移植说明/如何在OB里添加多彩时钟和音乐播放器.md",
+    "40 - Obsidian/教程/00-Tips/示例库移植说明/如何移植主页的各个元素？.md",
+    "40 - Obsidian/教程/00-Tips/示例库移植说明/用 VSCode 改 Blue Topaz 示例库内的路径.md",
+    "40 - Obsidian/教程/00-Tips/示例库移植说明/如何把示例库移植到你现有的库中？.md",
+    "40 - Obsidian/教程/00-Tips/示例库移植说明/如何全功能移植Blue Topaz 示例库到自己的库中.md",
+    "40 - Obsidian/教程/00-Tips/示例库移植说明/Blue Topaz 示例库迁移详细步骤.md",
+    "40 - Obsidian/教程/00-Tips/插件介绍/表格增强插件.md",
+    "40 - Obsidian/教程/00-Tips/插件介绍/插件介绍.md",
+    "40 - Obsidian/教程/00-Tips/插件介绍/Obsidian 插件之 Obsidian Projects .html",
+    "40 - Obsidian/教程/00-Tips/插件介绍/Obsidian Editing Toolbar Plugin.md",
+    "40 - Obsidian/教程/00-Tips/插件介绍/floating toc.md",
+    "40 - Obsidian/教程/00-Tips/插件介绍/booknote插件-更好的pdf office文档阅读和标注神器.md",
+    "40 - Obsidian/教程/00-Tips/插件介绍/Any block",
+    "40 - Obsidian/教程/00-Tips/🥑Blue Topaz Themes Tips.md",
+    "40 - Obsidian/教程/00-Tips/魔方配色设置说明.md",
+    "40 - Obsidian/教程/00-Tips/配色分享monokai pro 配色.md",
+    "40 - Obsidian/教程/00-Tips/示例库移植说明",
+    "40 - Obsidian/教程/00-Tips/插件介绍",
+    "40 - Obsidian/教程/00-Tips/如何提高Obsidian的启动速度？.md",
+    "40 - Obsidian/教程/00-Tips/如何快速生成MOC(文件夹的文件目录列表)？.md",
+    "40 - Obsidian/教程/00-Tips/如何快速停用或者启动插件？.md",
+    "40 - Obsidian/教程/00-Tips",
+    "40 - Obsidian/教程/10-Help/Dataview系列教程/入门到退坑系列",
+    "40 - Obsidian/教程/10-Help/回归 Obsidian 的纯与真，写给普通人的入门指南.html",
+    "40 - Obsidian/教程/10-Help/【Html】Blue topaz--style setting 插件设置内容 简介.html",
+    "40 - Obsidian/教程/10-Help/Dataview系列教程",
+    "40 - Obsidian/教程/10-Help/css基础教学.pdf",
     "obsidian配置文件目录/Attachment/assets 9/image5-20230708221750-odzmzc1.jpeg",
     "obsidian配置文件目录/Attachment/assets 9/image4-20230708221750-wgh63jq.jpeg",
     "obsidian配置文件目录/Attachment/assets 9/image1-20230708221750-h01538o.jpeg",
