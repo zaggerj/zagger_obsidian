@@ -17,9 +17,8 @@ await tp.file.move(`${myFilePath}`);
 myFilePath = "/60 - 临时/" +  `${title}`;
 await tp.file.move(`${myFilePath}`);
 } else { 
-tp.file.cursor(1)
+tp.file.cursor(1);
 }
-
 -%>
 
 alias: 

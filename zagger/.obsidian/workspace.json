@@ -8,19 +8,98 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d835b58d6ad1a6d7",
+            "id": "32e8478e99e89c44",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md",
-                "mode": "preview",
+                "file": "40 - Obsidian/模板/templater/tp-默认笔记模板.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dca68de27fc446f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "40 - Obsidian/模板/templater/01 自动选择模板.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "559d80a040ad55c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "60 - 临时/123.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3aec5124c34ab129",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "40 - Obsidian/模板/templater/03 选择学习相关模板.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "7fc46c8d0ca50fa2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "40 - Obsidian/模板/templater/02 手动选择模板.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1921f6c2e6aed82d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "40 - Obsidian/模板/templater/tp-默认笔记模板.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "29b32b3eaeae83aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "40 - Obsidian/教程/obsidian清单.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -175,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md"
+                "file": "60 - 临时/123.md"
               }
             }
           },
@@ -201,7 +280,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md",
+                "file": "60 - 临时/123.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +297,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md",
+                "file": "60 - 临时/123.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +309,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md"
+                "file": "60 - 临时/123.md"
               }
             }
           },
@@ -314,25 +393,32 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "d835b58d6ad1a6d7",
+  "active": "559d80a040ad55c2",
   "lastOpenFiles": [
+    "40 - Obsidian/模板/templater/tp-长青笔记模板.md",
+    "60 - 临时/123.md",
+    "40 - Obsidian/模板/templater/tp-默认笔记模板.md",
+    "40 - Obsidian/模板/templater/02 手动选择模板.md",
+    "40 - Obsidian/模板/templater/03 选择学习相关模板.md",
+    "40 - Obsidian/教程/obsidian清单.md",
+    "40 - Obsidian/教程/[.md",
+    "40 - Obsidian/模板/templater/01 自动选择模板.md",
+    "20 - 工作学习/02 软件学习/未命名.md",
+    "20 - 工作学习/03 其他/未命名.md",
+    "20 - 工作学习/03 其他",
+    "10 - 人员管理/生活/01 物品/未命名.md",
+    "10 - 人员管理/生活/01 物品",
+    "10 - 人员管理/生活",
+    "40 - Obsidian/模板/templater/tp-人物模板.md",
+    "40 - Obsidian/模板/templater/tp-物品模板.md",
+    "40 - Obsidian/主页/00. 主页.md",
     "40 - Obsidian/主页/00. 导航.md",
     "40 - Obsidian/教程/obsidian教程.md",
-    "40 - Obsidian/教程/obsidian清单.md",
     "40 - Obsidian/教程/玩转 Obsidian 02：基础设置篇 - 少数派.md",
     "40 - Obsidian/教程/玩转 Obsidian 01：打造知识循环利器 - 少数派.md",
-    "40 - Obsidian/教程/[.md",
-    "20 - 工作学习/02 软件学习/未命名.md",
     "40 - Obsidian/教程/任务.md",
     "40 - Obsidian/教程/人物-任务.md",
     "20 - 工作学习/02 软件学习",
-    "40 - Obsidian/模板/templater/02 手动选择模板.md",
-    "40 - Obsidian/模板/templater/01 自动选择模板.md",
-    "40 - Obsidian/模板/templater/tp-默认笔记模板.md",
-    "40 - Obsidian/模板/templater/tp-人物模板.md",
-    "40 - Obsidian/模板/templater/tp-物品模板.md",
-    "40 - Obsidian/模板/templater/tp-长青笔记模板.md",
-    "40 - Obsidian/模板/templater/03 选择学习相关模板.md",
     "40 - Obsidian/模板/templater/tp-daily.md",
     "40 - Obsidian/模板/tp",
     "40 - Obsidian/模板/templater/🎵Music.md",
@@ -345,15 +431,8 @@
     "60 - 临时",
     "40 - Obsidian/模板/人-人.md",
     "40 - Obsidian/模板/tp/tp-自动选择模板.md",
-    "40 - Obsidian/模板/tp/tp.md",
-    "40 - Obsidian/模板/tp/手动选择模板.md",
-    "40 - Obsidian/模板/tp/02 手动选择模板.md",
-    "40 - Obsidian/模板/tp/人-人-人.md",
-    "40 - Obsidian/模板/script/getTitleSnippet.js",
-    "40 - Obsidian/模板/script",
     "40 - Obsidian/附件/}[YAY}4`V3EH[RB]0}29_00.png",
     "40 - Obsidian/附件/100911654141903_.pic.jpg",
-    "40 - Obsidian/教程/00-Tips/插件介绍/Obsidian 插件之 Obsidian Projects .html",
     "obsidian配置文件目录/Attachment/assets 9/image5-20230708221750-odzmzc1.jpeg",
     "obsidian配置文件目录/Attachment/assets 9/image4-20230708221750-wgh63jq.jpeg",
     "obsidian配置文件目录/Attachment/assets 9/image1-20230708221750-h01538o.jpeg",
