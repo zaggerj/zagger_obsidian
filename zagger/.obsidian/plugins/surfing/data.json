@@ -51,5 +51,17 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": []
+  "treeData": [
+    {
+      "id": "0d9e669ecfd0c73d",
+      "parent": 0,
+      "droppable": true,
+      "text": "玩转 Obsidian 01：打造知识循环利器 - 少数派",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    }
+  ]
 }

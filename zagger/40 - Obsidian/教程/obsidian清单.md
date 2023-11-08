@@ -33,11 +33,57 @@ aliases:
 23. [用 Obsidian 管理 23 只鸟 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/486882929)
 24. [obsidian 插件 文章标注 booknote\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1JW4y1e7Xv/?spm_id_from=pageDriver&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 25. [zagger129/Obsidian-Homepage: A dashboard for your obsidian vault. (github.com)](https://github.com/zagger129/Obsidian-Homepage)
-25.[PKM-er/Blue-topaz-example: Blue topaz themes example vault for Obsidian (github.com)](https://github.com/PKM-er/Blue-topaz-example/tree/main)
-# Start
+26. [PKM-er/Blue-topaz-example: Blue topaz themes example vault for Obsidian (github.com)](https://github.com/PKM-er/Blue-topaz-example/tree/main)
+27. [tp.config - Templater --- tp.config - 模板器 (silentvoid13.github.io)](https://silentvoid13.github.io/Templater/internal-functions/internal-modules/config-module.html)
+28. [Dataview --- 数据视图 (blacksmithgu.github.io)](https://blacksmithgu.github.io/obsidian-dataview/)
+
+
+- [[玩转 Obsidian 01：打造知识循环利器 - 少数派]] [玩转 Obsidian 01：打造知识循环利器 - 少数派](https://sspai.com/post/62414)
+- [[玩转 Obsidian 02：基础设置篇 - 少数派]] [玩转 Obsidian 02：基础设置篇 - 少数派](https://sspai.com/post/63481)
+
+
+<mark style="background: #FFF3A3A6;">DEMO: youtube.com/watch?v=UzseaoxaSEM</mark>
+Roam-highlighter Shortcut Keys (v2.1.1)
+
+> [ALT + X]
+> 	- Activate Extension and Show/Hide Side Window
+> 
+> [Ctrl + X] (WIN) or [CMD + X] (MAC)
+> 	- Highlights selected text
+> 	- To remove part of a highlight, select text and press [Ctrl + X]
+> 
+> [Alt + Click]
+> 	- Removes an entire highlight
+> 
+> [ALT + Q]
+> 	- Remove all highlights on the page
+> 
+> [ALT + A]
+> 	- Makes selected highlighted a "header"; highlights following will nest until another highlight is selected as a "header"
+> 
+> [Double-Click] a Single Word (has to be highlighted already)
+> 	- Adds [[Double Brackets]] for Roam "Page Linking"
+> 
+> [ALT + Z] (must already be highlighted)
+> 	- Adds [[Double Brackets]] around selection for Roam "Page Linking"
+
+[玩转 Obsidian 01：打造知识循环利器 - 少数派](https://sspai.com/post/62414) [[Obsidian-Highlights]]
+
+- 工具推荐：Roam-highlighter
+- Roam-highlighter 如何使用
+	- `Alt + X` ，显示和隐藏窗体
+	- `Ctrl + X or CMD + X` ，对选中的文字进行高亮或取消高亮
+	- `Alt + Click` ，移除鼠标点击所在的高亮内容。
+	- `Alt + Q` ，移除所有已经高亮内容。
+
+
 
 1. install the [picgo](https://github.com/Molunerfinn/PicGo) and config it
 2. open the tool and open the setting "设置 server"
 3. install the plugin in obsidian
 4. open the plugin setting, and set the "picGo server" `http://127.0.0.1:{{port in picgo}}/upload`（example：`http://127.0.0.1:36677/upload`）
 5. try paste image
+![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/pic20231108112226.png)
+
+![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/pic20231108112327.png)
+![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/pic20231108112353.png)
