@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0ae635d9979359fd",
+        "id": "101193a74273c938",
         "type": "tabs",
         "children": [
           {
-            "id": "69c4ef491336a439",
+            "id": "d835b58d6ad1a6d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40 - Obsidian/教程/obsidian教程.md",
-                "mode": "source",
+                "file": "40 - Obsidian/主页/00. 主页.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -58,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "正则",
+                "query": "html5",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "40 - Obsidian/教程/obsidian教程.md"
+                "file": "40 - Obsidian/主页/00. 主页.md"
               }
             }
           },
@@ -201,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "40 - Obsidian/教程/obsidian教程.md",
+                "file": "40 - Obsidian/主页/00. 主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "40 - Obsidian/教程/obsidian教程.md",
+                "file": "40 - Obsidian/主页/00. 主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +230,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "40 - Obsidian/教程/obsidian教程.md"
+                "file": "40 - Obsidian/主页/00. 主页.md"
               }
             }
           },
@@ -314,8 +314,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "69c4ef491336a439",
+  "active": "d835b58d6ad1a6d7",
   "lastOpenFiles": [
+    "40 - Obsidian/主页/00. 导航.md",
+    "40 - Obsidian/教程/obsidian教程.md",
     "40 - Obsidian/教程/obsidian清单.md",
     "40 - Obsidian/教程/玩转 Obsidian 02：基础设置篇 - 少数派.md",
     "40 - Obsidian/教程/玩转 Obsidian 01：打造知识循环利器 - 少数派.md",
@@ -333,7 +335,6 @@
     "40 - Obsidian/模板/templater/03 选择学习相关模板.md",
     "40 - Obsidian/模板/templater/tp-daily.md",
     "40 - Obsidian/模板/tp",
-    "40 - Obsidian/主页/00. 导航.md",
     "40 - Obsidian/模板/templater/🎵Music.md",
     "40 - 生活/01 物品/未命名.md",
     "40 - 生活/01 物品",
@@ -348,7 +349,6 @@
     "40 - Obsidian/模板/tp/手动选择模板.md",
     "40 - Obsidian/模板/tp/02 手动选择模板.md",
     "40 - Obsidian/模板/tp/人-人-人.md",
-    "40 - Obsidian/模板/tp/tp-test.md",
     "40 - Obsidian/模板/script/getTitleSnippet.js",
     "40 - Obsidian/模板/script",
     "40 - Obsidian/附件/}[YAY}4`V3EH[RB]0}29_00.png",
