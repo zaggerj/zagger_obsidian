@@ -11,8 +11,6 @@ if (tp.file.title.includes("-")){
 <%-tp.file.include("[[tp-流水账模板]]")-%>
 <%-* } else if (tp.file.title.startsWith("人物")) { -%>
 <%-tp.file.include("[[tp-人物模板]]")-%>
-<%-* } else if (tp.file.title.startsWith("日记") || trigger === "日记") { -%>
-<%-tp.file.include("[[tp-daily]]")-%>
 <%-* } else if (trigger === "人") { -%>
 <%-tp.file.include("[[tp-人物模板]]")-%>
 <%-* } else if (tp.file.title.startsWith("笔记")||trigger === "学习"||trigger === "note"||trigger === "inbox") {  -%>

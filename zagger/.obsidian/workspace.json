@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "101193a74273c938",
+        "id": "689b5419311a58e9",
         "type": "tabs",
         "children": [
           {
-            "id": "d835b58d6ad1a6d7",
+            "id": "20931013165583e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md",
-                "mode": "preview",
+                "file": "40 - Obsidian/模板/tp/tp-自动选择模板.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -40,7 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "alphabetical"
               }
             }
           },
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md"
+                "file": "40 - Obsidian/模板/tp/tp-自动选择模板.md"
               }
             }
           },
@@ -201,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md",
+                "file": "40 - Obsidian/模板/tp/tp-自动选择模板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md",
+                "file": "40 - Obsidian/模板/tp/tp-自动选择模板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +230,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md"
+                "file": "40 - Obsidian/模板/tp/tp-自动选择模板.md"
               }
             }
           },
@@ -314,34 +314,36 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "d835b58d6ad1a6d7",
+  "active": "20931013165583e7",
   "lastOpenFiles": [
-    "40 - Obsidian/主页/00. 导航.md",
-    "40 - Obsidian/主页/00. 主页.md",
-    "00 - 每日日记/DailyNote/2023年11月07日 1.md",
-    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/webspice kos系统 中无法上传.md",
-    "40 - Obsidian/模板/每日日记模板.md",
-    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/kos2023透明效果问题.md",
-    "00 - 每日日记/DailyNote/2022年05月13日.md",
-    "40 - Obsidian/脚本/所有未完成任务.md",
-    "40 - Obsidian/脚本/style-setting.md",
-    "00 - 每日日记/DailyNote/2023-11-08_周三.md",
+    "40 - Obsidian/模板/templater/示例库内置的插件列表.md",
+    "40 - Obsidian/模板/templater/打开文档的第一个外链接.md",
+    "40 - Obsidian/模板/templater/常用工具react.md",
+    "40 - Obsidian/模板/templater/常用工具.md",
+    "40 - Obsidian/模板/templater/彩色时钟.md",
+    "40 - Obsidian/模板/templater/便签.md",
+    "40 - Obsidian/模板/templater/🎵Music.md",
+    "40 - Obsidian/模板/templater/home.md",
+    "40 - Obsidian/模板/templater/FastStart-StartupScript.md",
+    "40 - Obsidian/模板/templater/FastStart-Plugins-simple.md",
+    "40 - Obsidian/模板/templater/FastStart-Plugins-ShortDelay.md",
+    "40 - Obsidian/模板/templater/FastStart-Plugins-LongDelay.md",
+    "40 - Obsidian/模板/templater/FastStart-GenerateListOfInstalledPlugins.md",
+    "40 - Obsidian/模板/templater/chinese_stopwords.md",
+    "40 - Obsidian/模板/templater/Calendar2021-2022.md",
+    "40 - Obsidian/模板/templater/button.md",
+    "40 - Obsidian/模板/templater/88-Template.md",
+    "40 - Obsidian/模板/templater",
+    "40 - Obsidian/模板/新建文件夹",
     "40 - Obsidian/模板/tp/tp-daily.md",
-    "40 - Obsidian/模板/tp/tp-自动选择模板.md",
-    "00 - 每日日记/日记-日记.md",
-    "00 - 每日日记/DailyNote/2023-11-07_周二.md",
-    "40 - Obsidian/模板/tp/tp-日记模板-心情2.md",
-    "40 - Obsidian/模板/tp/tp-插件启停模板.md",
-    "40 - Obsidian/模板/tp/tp-日记模板-日历.md",
-    "40 - Obsidian/模板/tp/tp-笔记分类模板.md",
-    "40 - Obsidian/模板/tp/tp-默认笔记模板.md",
-    "40 - Obsidian/模板/tp/tp-笔记收集箱.md",
-    "40 - Obsidian/模板/tp/tp-通用模板.md",
-    "00 - 每日日记/日记-日记2.md",
-    "00 - 每日日记/日记.md",
     "40 - Obsidian/模板/tp/tp-movie-douban.md",
-    "00 - 每日日记/Workbench.md",
-    "30 - 阅读笔记/xx-xx.md",
+    "40 - Obsidian/模板/tp/tp-book-callout.md",
+    "40 - Obsidian/模板/tp/tp-自动选择模板.md",
+    "40 - Obsidian/模板/tp/tp-日记模板-心情2.md",
+    "40 - Obsidian/模板/tp/tp-默认笔记模板.md",
+    "40 - Obsidian/模板/tp/tp-movie.md",
+    "40 - Obsidian/模板/tp/tp-笔记收集箱.md",
+    "40 - Obsidian/模板/tp/tp.md",
     "00 - 每日日记/Daily",
     "40 - Obsidian/obsidian/Obsidian07/Metting-work",
     "00 - 每日日记/MeetNote/2023",
@@ -350,8 +352,6 @@
     "40 - Obsidian/obsidian/Obsidian07/zzz-insert-metadata",
     "40 - Obsidian/obsidian/Obsidian07/zzz-daily",
     "Daily",
-    "MeetNote/2023",
-    "MeetNote",
     "obsidian配置文件目录/Attachment/assets 9/image5-20230708221750-odzmzc1.jpeg",
     "obsidian配置文件目录/Attachment/assets 9/image4-20230708221750-wgh63jq.jpeg",
     "obsidian配置文件目录/Attachment/assets 9/image1-20230708221750-h01538o.jpeg",

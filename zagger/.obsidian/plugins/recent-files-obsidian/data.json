@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "tp-自动选择模板",
+      "path": "40 - Obsidian/模板/tp/tp-自动选择模板.md"
+    },
+    {
+      "basename": "tp-daily",
+      "path": "40 - Obsidian/模板/tp/tp-daily.md"
+    },
+    {
+      "basename": "tp-movie-douban",
+      "path": "40 - Obsidian/模板/tp/tp-movie-douban.md"
+    },
+    {
+      "basename": "tp-book-callout",
+      "path": "40 - Obsidian/模板/tp/tp-book-callout.md"
+    },
+    {
+      "basename": "tp-日记模板-心情2",
+      "path": "40 - Obsidian/模板/tp/tp-日记模板-心情2.md"
+    },
+    {
+      "basename": "tp-默认笔记模板",
+      "path": "40 - Obsidian/模板/tp/tp-默认笔记模板.md"
+    },
+    {
+      "basename": "tp-movie",
+      "path": "40 - Obsidian/模板/tp/tp-movie.md"
+    },
+    {
+      "basename": "tp-笔记收集箱",
+      "path": "40 - Obsidian/模板/tp/tp-笔记收集箱.md"
+    },
+    {
+      "basename": "tp",
+      "path": "40 - Obsidian/模板/tp/tp.md"
+    },
+    {
+      "basename": "tp_foldermoc-Include-subfolders",
+      "path": "40 - Obsidian/模板/tp/tp_foldermoc-Include-subfolders.md"
+    },
+    {
+      "basename": "tp-通用模板",
+      "path": "40 - Obsidian/模板/tp/tp-通用模板.md"
+    },
+    {
+      "basename": "tp-日记模板",
+      "path": "40 - Obsidian/模板/tp-日记模板.md"
+    },
+    {
       "basename": "00. 主页",
       "path": "40 - Obsidian/主页/00. 主页.md"
     },
@@ -37,24 +85,12 @@
       "path": "00 - 每日日记/DailyNote/2023-11-08_周三.md"
     },
     {
-      "basename": "tp-daily",
-      "path": "40 - Obsidian/模板/tp/tp-daily.md"
-    },
-    {
-      "basename": "tp-自动选择模板",
-      "path": "40 - Obsidian/模板/tp/tp-自动选择模板.md"
-    },
-    {
       "basename": "2023-11-07_周二",
       "path": "00 - 每日日记/DailyNote/2023-11-07_周二.md"
     },
     {
       "basename": "tp-人物模板",
       "path": "40 - Obsidian/模板/tp/tp-人物模板.md"
-    },
-    {
-      "basename": "tp-日记模板-心情2",
-      "path": "40 - Obsidian/模板/tp/tp-日记模板-心情2.md"
     },
     {
       "basename": "tp-插件启停模板",
@@ -67,22 +103,6 @@
     {
       "basename": "tp-笔记分类模板",
       "path": "40 - Obsidian/模板/tp/tp-笔记分类模板.md"
-    },
-    {
-      "basename": "tp-默认笔记模板",
-      "path": "40 - Obsidian/模板/tp/tp-默认笔记模板.md"
-    },
-    {
-      "basename": "tp-笔记收集箱",
-      "path": "40 - Obsidian/模板/tp/tp-笔记收集箱.md"
-    },
-    {
-      "basename": "tp-通用模板",
-      "path": "40 - Obsidian/模板/tp/tp-通用模板.md"
-    },
-    {
-      "basename": "tp-movie-douban",
-      "path": "40 - Obsidian/模板/tp/tp-movie-douban.md"
     },
     {
       "basename": "Workbench",
@@ -153,10 +173,6 @@
       "path": "40 - Obsidian/教程/obsidian教程.md"
     },
     {
-      "basename": "tp-日记模板",
-      "path": "40 - Obsidian/模板/tp-日记模板.md"
-    },
-    {
       "basename": "大学",
       "path": "40 - Obsidian/模板/大学.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "spice打开文件传输拖入功能",
       "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/spice打开文件传输拖入功能.md"
-    },
-    {
-      "basename": "spice画面质量参数h264",
-      "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/spice画面质量参数h264.md"
-    },
-    {
-      "basename": "spice白屏问题",
-      "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/spice白屏问题.md"
-    },
-    {
-      "basename": "spice项目",
-      "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/spice项目.md"
-    },
-    {
-      "basename": "远程问题",
-      "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/远程问题.md"
     }
   ],
   "omittedPaths": [],
