@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "60 - 临时/未命名.md",
+                "file": "40 - Obsidian/模板/templater/tp-每日日记模板.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "60 - 临时/未命名.md"
+                "file": "40 - Obsidian/模板/templater/tp-每日日记模板.md"
               }
             }
           },
@@ -201,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "60 - 临时/未命名.md",
+                "file": "40 - Obsidian/模板/templater/tp-每日日记模板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "60 - 临时/未命名.md",
+                "file": "40 - Obsidian/模板/templater/tp-每日日记模板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +230,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "60 - 临时/未命名.md"
+                "file": "40 - Obsidian/模板/templater/tp-每日日记模板.md"
               }
             }
           },
@@ -316,9 +316,10 @@
   },
   "active": "d835b58d6ad1a6d7",
   "lastOpenFiles": [
-    "40 - Obsidian/主页/00. 主页.md",
+    "60 - 临时/未命名 1.md",
     "60 - 临时/未命名.md",
     "40 - Obsidian/主页/00. 导航.md",
+    "40 - Obsidian/主页/00. 主页.md",
     "40 - Obsidian/模板/templater/tp-默认笔记模板.md",
     "40 - Obsidian/模板/templater/tp-每日日记模板.md",
     "40 - Obsidian/模板/templater/02 手动选择模板.md",
@@ -326,7 +327,6 @@
     "40 - Obsidian/模板/templater/tp-长青笔记模板.md",
     "20 - 工作学习/游戏/游戏.md",
     "20 - 工作学习/学习/ .md",
-    "60 - 临时/未命名 1.md",
     "60 - 临时/未命名 2.md",
     "40 - Obsidian/模板/templater/tp-人物模板.md",
     "40 - Obsidian/模板/templater/03 选择学习相关模板.md",
