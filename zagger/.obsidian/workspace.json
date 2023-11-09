@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40 - Obsidian/模板/templater/tp-每日日记模板.md",
+                "file": "40 - Obsidian/教程/obsidian贴图.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1947d03b5be12ac2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/personal token.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "40 - Obsidian/模板/templater/tp-每日日记模板.md"
+                "file": "20 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/personal token.md"
               }
             }
           },
@@ -201,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "40 - Obsidian/模板/templater/tp-每日日记模板.md",
+                "file": "20 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/personal token.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "40 - Obsidian/模板/templater/tp-每日日记模板.md",
+                "file": "20 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/personal token.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +244,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "40 - Obsidian/模板/templater/tp-每日日记模板.md"
+                "file": "20 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/personal token.md"
               }
             }
           },
@@ -314,12 +328,15 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "d835b58d6ad1a6d7",
+  "active": "1947d03b5be12ac2",
   "lastOpenFiles": [
+    "40 - Obsidian/教程/obsidian贴图.md",
+    "20 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/personal token.md",
     "60 - 临时/未命名 1.md",
     "60 - 临时/未命名.md",
-    "40 - Obsidian/主页/00. 导航.md",
+    "00 - 每日日记/DailyNote/2023年11月09日.md",
     "40 - Obsidian/主页/00. 主页.md",
+    "40 - Obsidian/主页/00. 导航.md",
     "40 - Obsidian/模板/templater/tp-默认笔记模板.md",
     "40 - Obsidian/模板/templater/tp-每日日记模板.md",
     "40 - Obsidian/模板/templater/02 手动选择模板.md",
@@ -340,9 +357,6 @@
     "60 - 临时",
     "40 - Obsidian/教程/obsidian教程.md",
     "40 - Obsidian/教程/obsidian清单.md",
-    "40 - Obsidian/教程/玩转 Obsidian 02：基础设置篇 - 少数派.md",
-    "40 - Obsidian/教程/玩转 Obsidian 01：打造知识循环利器 - 少数派.md",
-    "40 - Obsidian/教程/[.md",
     "20 - 工作学习/02 软件学习",
     "40 - Obsidian/模板/tp",
     "40 - 生活/01 物品",
