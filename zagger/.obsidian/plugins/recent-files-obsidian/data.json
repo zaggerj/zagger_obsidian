@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "模糊分类",
+      "path": "60 - 临时/模糊分类.md"
+    },
+    {
       "basename": "a 服务器相关命令",
       "path": "20 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md"
     },
@@ -13,20 +17,12 @@
       "path": "40 - Obsidian/主页/00. 导航.md"
     },
     {
-      "basename": "模糊分类",
-      "path": "60 - 临时/模糊分类.md"
-    },
-    {
       "basename": "obsidian清单",
       "path": "40 - Obsidian/教程/obsidian清单.md"
     },
     {
       "basename": "tp-长青笔记模板",
       "path": "40 - Obsidian/模板/templater/tp-长青笔记模板.md"
-    },
-    {
-      "basename": "2023年11月09日",
-      "path": "00 - 每日日记/DailyNote/2023年11月09日.md"
     },
     {
       "basename": "每日日记模板",
@@ -63,10 +59,6 @@
     {
       "basename": "第二章 Electron自定义界面(最大化、最小化、关闭、图标等等)",
       "path": "20 - 工作学习/记事本/学习/前端/electron/搭建electron vite vue3/第二章 Electron自定义界面(最大化、最小化、关闭、图标等等).md"
-    },
-    {
-      "basename": "obsidian贴图",
-      "path": "40 - Obsidian/教程/obsidian贴图.md"
     },
     {
       "basename": "02 手动选择模板",
@@ -109,16 +101,8 @@
       "path": "20 - 工作学习/记事本/学习/开发软实力/git/git国内源.md"
     },
     {
-      "basename": "什么是MOC",
-      "path": "20 - 工作学习/学习/什么是MOC.md"
-    },
-    {
       "basename": "学习",
       "path": "20 - 工作学习/学习/学习.md"
-    },
-    {
-      "basename": "dataviewjs-收集链接",
-      "path": "20 - 工作学习/01 写作学习/dataviewjs-收集链接.md"
     },
     {
       "basename": "所有未完成任务",

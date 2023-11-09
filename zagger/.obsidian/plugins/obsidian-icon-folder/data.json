@@ -6,11 +6,8 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "IbCommand",
-      "TiPencilCog",
-      "TiNotes",
-      "SiTypescript",
-      "FasPrescriptionBottleMedical"
+      "FabAdversal",
+      "IbCommand"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -23,7 +20,7 @@
       {
         "rule": "日记",
         "icon": "TiBook",
-        "for": "everything",
+        "for": "files",
         "order": 1
       },
       {
@@ -75,7 +72,7 @@
       {
         "rule": "管理",
         "icon": "SiManageiq",
-        "for": "everything",
+        "for": "files",
         "order": 9
       },
       {
@@ -189,13 +186,6 @@
         "order": 27
       },
       {
-        "rule": "工作",
-        "icon": "IbHammer",
-        "for": "files",
-        "order": 28,
-        "color": "#e6d1d1"
-      },
-      {
         "rule": "git",
         "icon": "SiGit",
         "for": "everything",
@@ -241,7 +231,7 @@
       {
         "rule": "工作",
         "icon": "TiHammer",
-        "for": "everything",
+        "for": "files",
         "order": 36
       },
       {

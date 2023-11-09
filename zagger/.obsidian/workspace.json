@@ -13,9 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
-                "mode": "source",
-                "file": "20 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
+                "file": "60 - 临时/模糊分类.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -177,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md"
+                "file": "60 - 临时/模糊分类.md"
               }
             }
           },
@@ -203,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
+                "file": "60 - 临时/模糊分类.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "20 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
+                "file": "60 - 临时/模糊分类.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -232,7 +230,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "20 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md"
+                "file": "60 - 临时/模糊分类.md"
               }
             }
           },
@@ -318,7 +316,9 @@
   },
   "active": "d835b58d6ad1a6d7",
   "lastOpenFiles": [
+    "20 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "60 - 临时/模糊分类.md",
+    "60 - 临时",
     "40 - Obsidian/主页/00. 主页.md",
     "40 - Obsidian/主页/00. 导航.md",
     "40 - Obsidian/教程/obsidian清单.md",
@@ -337,7 +337,6 @@
     "00 - 每日日记/DailyNote/2023-11-08_周三.md",
     "00 - 每日日记/DailyNote/2023-11-07_周二.md",
     "20 - 工作学习/记事本/学习/前端/electron/搭建electron vite vue3/第二章 Electron自定义界面(最大化、最小化、关闭、图标等等).md",
-    "20 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "40 - Obsidian/教程/obsidian贴图.md",
     "40 - Obsidian/教程/templater-modificationDate.md",
     "40 - Obsidian/模板/templater/02 手动选择模板.md",
