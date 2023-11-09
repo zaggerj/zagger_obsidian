@@ -44,11 +44,8 @@ var require_universalify = __commonJS({
           fn.apply(this, args);
         else {
           return new Promise((resolve, reject) => {
-            fn.call(
-              this,
-              ...args,
-              (err, res) => err != null ? reject(err) : resolve(res)
-            );
+            args.push((err, res) => err != null ? reject(err) : resolve(res));
+            fn.apply(this, args);
           });
         }
       }, "name", { value: fn.name });
@@ -58,8 +55,10 @@ var require_universalify = __commonJS({
         const cb = args[args.length - 1];
         if (typeof cb !== "function")
           return fn.apply(this, args);
-        else
-          fn.apply(this, args.slice(0, -1)).then((r) => cb(null, r), cb);
+        else {
+          args.pop();
+          fn.apply(this, args).then((r) => cb(null, r), cb);
+        }
       }, "name", { value: fn.name });
     };
   }
@@ -3006,7 +3005,7 @@ var require_entryHeader = __commonJS({
         val.getMinutes() << 5 | // b05-10 minute
         val.getSeconds() >> 1;
       }
-      setTime(+new Date());
+      setTime(+/* @__PURE__ */ new Date());
       return {
         get made() {
           return _verMade;
@@ -4798,9 +4797,6 @@ __export(main_exports, {
 module.exports = __toCommonJS(main_exports);
 var import_obsidian2 = require("obsidian");
 var import_path = require("path");
-var path = __toESM(require("path"));
-var fs = __toESM(require_lib());
-var import_adm_zip = __toESM(require_adm_zip());
 
 // src/settings.ts
 var import_obsidian = require("obsidian");
@@ -4813,15 +4809,15 @@ var LocalBackupSettingTab = class extends import_obsidian.PluginSettingTab {
     const { containerEl } = this;
     containerEl.empty();
     new import_obsidian.Setting(containerEl).setName("Backup once on startup").setDesc("Run local backup once on Obsidian starts.").addToggle(
-      (toggle) => toggle.setValue(this.plugin.settings.startupSetting).onChange(async (value) => {
-        this.plugin.settings.startupSetting = value;
+      (toggle) => toggle.setValue(this.plugin.settings.startupBackupStatus).onChange(async (value) => {
+        this.plugin.settings.startupBackupStatus = value;
         await this.plugin.saveSettings();
       })
     );
     new import_obsidian.Setting(containerEl).setName("Backup history length (days)").setDesc(
       "Specify the number of days backups should be retained. (0 -- Infinity)"
     ).addText(
-      (text) => text.setValue(this.plugin.settings.lifecycleSetting).onChange(async (value) => {
+      (text) => text.setValue(this.plugin.settings.lifecycleValue).onChange(async (value) => {
         const numericValue = parseFloat(value);
         if (isNaN(numericValue) || numericValue < 0) {
           new import_obsidian.Notice(
@@ -4829,14 +4825,14 @@ var LocalBackupSettingTab = class extends import_obsidian.PluginSettingTab {
           );
           return;
         }
-        this.plugin.settings.lifecycleSetting = value;
+        this.plugin.settings.lifecycleValue = value;
         await this.plugin.saveSettings();
       })
     );
     new import_obsidian.Setting(containerEl).setName("Backups per day").setDesc(
       "Specify the number of backups per day to keep. (0 -- Infinity)"
     ).addText(
-      (text) => text.setValue(this.plugin.settings.backupsPerDaySetting).onChange(async (value) => {
+      (text) => text.setValue(this.plugin.settings.backupsPerDayValue).onChange(async (value) => {
         const numericValue = parseFloat(value);
         if (isNaN(numericValue) || numericValue < 0) {
           new import_obsidian.Notice(
@@ -4844,19 +4840,19 @@ var LocalBackupSettingTab = class extends import_obsidian.PluginSettingTab {
           );
           return;
         }
-        this.plugin.settings.backupsPerDaySetting = value;
+        this.plugin.settings.backupsPerDayValue = value;
         await this.plugin.saveSettings();
       })
     );
     new import_obsidian.Setting(containerEl).setName("Windows output path (optional)").setDesc("Setup a Windows backup storage path. eg. D:\\documents\\Obsidian").addText(
-      (text) => text.setValue(this.plugin.settings.winSavePathSetting).onChange(async (value) => {
-        this.plugin.settings.winSavePathSetting = value;
+      (text) => text.setValue(this.plugin.settings.winSavePathValue).onChange(async (value) => {
+        this.plugin.settings.winSavePathValue = value;
         await this.plugin.saveSettings();
       })
     );
     new import_obsidian.Setting(containerEl).setName("Linux/MacOS output path (optional)").setDesc("Setup a Unix backup storage path. eg. /home/user/Documents/Obsidian").addText(
-      (text) => text.setValue(this.plugin.settings.unixSavePathSetting).onChange(async (value) => {
-        this.plugin.settings.unixSavePathSetting = value;
+      (text) => text.setValue(this.plugin.settings.unixSavePathValue).onChange(async (value) => {
+        this.plugin.settings.unixSavePathValue = value;
         await this.plugin.saveSettings();
       })
     );
@@ -4891,39 +4887,53 @@ var LocalBackupSettingTab = class extends import_obsidian.PluginSettingTab {
       text: "Default: {vaultName}-Backup-%Y_%m_%d-%H_%M_%S"
     });
     new import_obsidian.Setting(containerEl).setName("File name").setDesc(fileNameFragment).addText(
-      (text) => text.setValue(this.plugin.settings.customizeNameSetting).onChange(async (value) => {
-        this.plugin.settings.customizeNameSetting = value;
+      (text) => text.setValue(this.plugin.settings.fileNameFormatValue).onChange(async (value) => {
+        this.plugin.settings.fileNameFormatValue = value;
         await this.plugin.saveSettings();
       })
     );
     new import_obsidian.Setting(containerEl).setName("Interval backups").setDesc("Enable to create backups at regular intervals").addToggle(
-      (toggle) => toggle.setValue(this.plugin.settings.intervalToggleSetting).onChange(async (value) => {
-        this.plugin.settings.intervalToggleSetting = value;
+      (toggle) => toggle.setValue(this.plugin.settings.intervalBackupStatus).onChange(async (value) => {
+        this.plugin.settings.intervalBackupStatus = value;
         await this.plugin.saveSettings();
       })
     );
     new import_obsidian.Setting(containerEl).setName("Backup frequency").setDesc("Set the frequency of backups in minutes.").addText(
-      (text) => text.setValue(this.plugin.settings.intervalValueSetting).onChange(async (value) => {
+      (text) => text.setValue(this.plugin.settings.backupFrequencyValue).onChange(async (value) => {
         const numericValue = parseFloat(value);
         if (isNaN(numericValue) || numericValue <= 0) {
           new import_obsidian.Notice(
             "Backup intervals must be a positive number."
           );
           return;
+        } else {
+          this.plugin.settings.backupFrequencyValue = value;
+          await this.plugin.saveSettings();
+          await this.plugin.applySettings();
         }
-        this.plugin.settings.intervalValueSetting = value;
+      })
+    );
+    new import_obsidian.Setting(containerEl).setName("Backup by Calling external file archiver (experimental)").setDesc("If toggled, backups will be created by calling external file archiver.").addToggle(
+      (toggle) => toggle.setValue(this.plugin.settings.callingArchiverStatus).onChange(async (value) => {
+        this.plugin.settings.callingArchiverStatus = value;
         await this.plugin.saveSettings();
       })
     );
-    new import_obsidian.Setting(containerEl).setName("Backup by 7-Zip (experimental)").setDesc("7-Zip for Windows, 7-Zip/p7zip for Unix is required.").addToggle(
-      (toggle) => toggle.setValue(this.plugin.settings.sevenZipBackupToggleSetting).onChange(async (value) => {
-        this.plugin.settings.sevenZipBackupToggleSetting = value;
+    new import_obsidian.Setting(containerEl).setName("Select file archiver (experimental)").setDesc("The selected archiver must be installed.").addDropdown((dropDown) => {
+      dropDown.addOption("sevenZip", "7-Zip").addOption("winRAR", "WinRAR").setValue(this.plugin.settings.archiverTypeValue).onChange(async (value) => {
+        this.plugin.settings.archiverTypeValue = value;
         await this.plugin.saveSettings();
-      })
-    );
-    new import_obsidian.Setting(containerEl).setName("7-Zip path").setDesc("Full path of 7z. eg. D:\\software\\7-Zip\\7z.exe for Windows, /usr/bin/7z for Unix.").addText(
-      (text) => text.setValue(this.plugin.settings.sevenZipPathSetting).onChange(async (value) => {
-        this.plugin.settings.sevenZipPathSetting = value;
+      });
+    });
+    new import_obsidian.Setting(containerEl).setName("Select archive file type (experimental)").setDesc("7-Zip for Windows, 7-Zip/p7zip for Unix is required.").addDropdown((dropDown) => {
+      dropDown.addOption("zip", "zip").addOption("7z", "7z").addOption("rar", "rar").setValue(this.plugin.settings.archiveFileTypeValue).onChange(async (value) => {
+        this.plugin.settings.archiveFileTypeValue = value;
+        await this.plugin.saveSettings();
+      });
+    });
+    new import_obsidian.Setting(containerEl).setName("File archiver path (experimental)").setDesc("Full path of Archiver. eg. D:\\software\\7-Zip\\7z.exe for Windows, /usr/bin/7z for Unix.").addText(
+      (text) => text.setValue(this.plugin.settings.archiverPathValue).onChange(async (value) => {
+        this.plugin.settings.archiverPathValue = value;
         await this.plugin.saveSettings();
       })
     );
@@ -4932,18 +4942,17 @@ var LocalBackupSettingTab = class extends import_obsidian.PluginSettingTab {
         await this.plugin.restoreDefault();
         new import_obsidian.Notice("Settings restored to default.");
       })
-    ).addButton(
-      (btn) => btn.setTooltip("Apply settings now").setButtonText("Apply settings").onClick(async () => {
-        new import_obsidian.Notice("Applying Local Backup settings.");
-        await this.plugin.applySettings();
-      })
     );
   }
 };
 
 // src/utils.ts
+var path = __toESM(require("path"));
+var fs = __toESM(require_lib());
+var import_adm_zip = __toESM(require_adm_zip());
+var import_child_process = require("child_process");
 var replaceDatePlaceholdersWithValues = (value) => {
-  const now = new Date();
+  const now = /* @__PURE__ */ new Date();
   if (value.includes("%Y")) {
     value = value.replace(/%Y/g, now.getFullYear().toString());
   }
@@ -4982,20 +4991,159 @@ var getDatePlaceholdersForISO = (includeTime) => {
   }
   return "%Y_%m_%d";
 };
+function getDefaultPath() {
+  const defaultPath = path.dirname(this.app.vault.adapter.basePath);
+  return defaultPath;
+}
+function getDefaultName() {
+  const vaultName = this.app.vault.getName();
+  const defaultDatePlaceholders = getDatePlaceholdersForISO(true);
+  return `${vaultName}-Backup-${defaultDatePlaceholders}`;
+}
+function deleteBackupsByLifeCycle(winSavePath, unixSavePath, fileNameFormat, lifecycle) {
+  console.log("Run deleteBackupsByLifeCycle");
+  const os = require("os");
+  const platform = os.platform();
+  let savePathSetting = "";
+  if (platform === "win32") {
+    savePathSetting = winSavePath;
+  } else if (platform === "linux" || platform === "darwin") {
+    savePathSetting = unixSavePath;
+  }
+  const currentDate = /* @__PURE__ */ new Date();
+  if (parseInt(lifecycle) !== 0) {
+    currentDate.setDate(currentDate.getDate() - parseInt(lifecycle));
+  }
+  fs.readdir(savePathSetting, (err, files) => {
+    if (err) {
+      console.error(err);
+      return;
+    }
+    if (parseInt(lifecycle) !== 0) {
+      files.forEach((file) => {
+        const filePath = path.join(savePathSetting, file);
+        const stats = fs.statSync(filePath);
+        const fileNameRegex = generateRegexFromCustomPattern(fileNameFormat);
+        const matchFileName = file.match(fileNameRegex);
+        if (stats.isFile() && matchFileName !== null) {
+          const parseTime = stats.mtime;
+          const createDate = new Date(parseTime.getFullYear(), parseTime.getMonth(), parseTime.getDate());
+          if (createDate < currentDate) {
+            fs.remove(filePath);
+            console.log(`Backup removed by deleteBackupsByLifeCycle: ${filePath}`);
+          }
+        }
+      });
+    }
+  });
+}
+function deletePerDayBackups(winSavePath, unixSavePath, fileNameFormat, backupsPerDay) {
+  console.log("Run deletePerDayBackups");
+  const os = require("os");
+  const platform = os.platform();
+  let savePathSetting = "";
+  if (platform === "win32") {
+    savePathSetting = winSavePath;
+  } else if (platform === "linux" || platform === "darwin") {
+    savePathSetting = unixSavePath;
+  }
+  fs.readdir(savePathSetting, (err, files) => {
+    if (err) {
+      console.error(err);
+      return;
+    }
+    const currentDate = /* @__PURE__ */ new Date();
+    currentDate.setHours(0, 0, 0, 0);
+    const fileNameRegex = generateRegexFromCustomPattern(fileNameFormat);
+    const backupFiles = files.filter((file) => {
+      const filePath = path.join(savePathSetting, file);
+      const stats = fs.statSync(filePath);
+      const matchFileName = file.match(fileNameRegex);
+      return stats.isFile() && matchFileName !== null;
+    });
+    const todayBackupFiles = backupFiles.filter((file) => {
+      const filePath = path.join(savePathSetting, file);
+      const stats = fs.statSync(filePath);
+      const parseTime = stats.mtime;
+      const createDate = new Date(parseTime.getFullYear(), parseTime.getMonth(), parseTime.getDate());
+      return createDate.getTime() === currentDate.getTime();
+    });
+    if (todayBackupFiles.length > parseInt(backupsPerDay)) {
+      const filesToDelete = todayBackupFiles.slice(0, todayBackupFiles.length - parseInt(backupsPerDay));
+      filesToDelete.forEach((file) => {
+        const filePath = path.join(savePathSetting, file);
+        fs.remove(filePath, (err2) => {
+          if (err2) {
+            console.error(`Failed to remove backup file: ${filePath}`, err2);
+          } else {
+            console.log(`Backup removed by deletePerDayBackups: ${filePath}`);
+          }
+        });
+      });
+    }
+  });
+}
+function generateRegexFromCustomPattern(customPattern) {
+  const regexPattern = customPattern.replace(/%Y/g, "\\d{4}").replace(/%m/g, "\\d{2}").replace(/%d/g, "\\d{2}").replace(/%H/g, "\\d{2}").replace(/%M/g, "\\d{2}").replace(/%S/g, "\\d{2}");
+  return new RegExp(regexPattern);
+}
+function createZipByAdmZip(vaultPath, backupZipPath) {
+  const zip = new import_adm_zip.default();
+  zip.addLocalFolder(vaultPath);
+  zip.writeZip(backupZipPath);
+}
+async function createFileByArchiver(archiverType, archiverPath, archiveFileType, vaultPath, backupFilePath) {
+  switch (archiverType) {
+    case "sevenZip":
+      const sevenZipPromise = new Promise((resolve, reject) => {
+        const command = `"${archiverPath}" a "${backupFilePath}" "${vaultPath}"`;
+        console.log(`command: ${command}`);
+        (0, import_child_process.exec)(command, (error, stdout, stderr) => {
+          if (error) {
+            console.error("Failed to create file by 7-Zip:", error);
+            reject(error);
+          } else {
+            console.log("File created by 7-Zip successfully.");
+            resolve();
+          }
+        });
+      });
+      return sevenZipPromise;
+    case "winRAR":
+      const winRARPromise = new Promise((resolve, reject) => {
+        const command = `"${archiverPath}" a -ep1 -rh "${backupFilePath}" "${vaultPath}*"`;
+        console.log(`command: ${command}`);
+        (0, import_child_process.exec)(command, (error, stdout, stderr) => {
+          if (error) {
+            console.error("Failed to create file by WinRAR:", error);
+            reject(error);
+          } else {
+            console.log("File created by WinRAR successfully.");
+            resolve();
+          }
+        });
+      });
+      return winRARPromise;
+    default:
+      break;
+  }
+}
 
 // src/main.ts
-var import_child_process = require("child_process");
 var DEFAULT_SETTINGS = {
-  startupSetting: false,
-  lifecycleSetting: "3",
-  backupsPerDaySetting: "3",
-  winSavePathSetting: getDefaultPath(),
-  unixSavePathSetting: getDefaultPath(),
-  customizeNameSetting: getDefaultName(),
-  intervalToggleSetting: false,
-  intervalValueSetting: "10",
-  sevenZipBackupToggleSetting: false,
-  sevenZipPathSetting: ""
+  versionValue: "",
+  startupBackupStatus: false,
+  lifecycleValue: "3",
+  backupsPerDayValue: "3",
+  winSavePathValue: getDefaultPath(),
+  unixSavePathValue: getDefaultPath(),
+  fileNameFormatValue: getDefaultName(),
+  intervalBackupStatus: false,
+  backupFrequencyValue: "10",
+  callingArchiverStatus: false,
+  archiverTypeValue: "sevenZip",
+  archiveFileTypeValue: "zip",
+  archiverPathValue: ""
 };
 var LocalBackupPlugin = class extends import_obsidian2.Plugin {
   constructor() {
@@ -5004,6 +5152,15 @@ var LocalBackupPlugin = class extends import_obsidian2.Plugin {
   }
   async onload() {
     await this.loadSettings();
+    if (this.manifest.version === "0.1.1") {
+      try {
+        if (this.settings.versionValue === "") {
+          new import_obsidian2.Notice("Please recofig `Local Backup` after upgrading to 0.1.0!", 1e4);
+        }
+      } catch (error) {
+        new import_obsidian2.Notice("Please recofig `Local Backup` after upgrading to 0.1.0!", 1e4);
+      }
+    }
     this.addCommand({
       id: "run-local-backup",
       name: "Run local backup",
@@ -5012,7 +5169,7 @@ var LocalBackupPlugin = class extends import_obsidian2.Plugin {
       }
     });
     this.addSettingTab(new LocalBackupSettingTab(this.app, this));
-    if (this.settings.startupSetting) {
+    if (this.settings.startupBackupStatus) {
       await this.archiveVaultAsync();
     }
     await this.applySettings();
@@ -5023,7 +5180,7 @@ var LocalBackupPlugin = class extends import_obsidian2.Plugin {
   async archiveVaultAsync() {
     try {
       await this.loadSettings();
-      const fileName = this.settings.customizeNameSetting;
+      const fileName = this.settings.fileNameFormatValue;
       const fileNameWithDateValues = replaceDatePlaceholdersWithValues(fileName);
       const backupZipName = `${fileNameWithDateValues}.zip`;
       const vaultPath = this.app.vault.adapter.basePath;
@@ -5031,23 +5188,29 @@ var LocalBackupPlugin = class extends import_obsidian2.Plugin {
       const platform = os.platform();
       let savePathSetting = "";
       if (platform == "win32") {
-        savePathSetting = this.settings.winSavePathSetting;
+        savePathSetting = this.settings.winSavePathValue;
       } else if (platform == "linux" || platform == "darwin") {
-        savePathSetting = this.settings.unixSavePathSetting;
+        savePathSetting = this.settings.unixSavePathValue;
       }
-      const backupZipPath = (0, import_path.join)(savePathSetting, backupZipName);
-      if (this.settings.sevenZipBackupToggleSetting) {
-        await createZipBySevenZip(this.settings.sevenZipPathSetting, vaultPath, backupZipPath);
+      let backupFilePath = (0, import_path.join)(savePathSetting, backupZipName);
+      if (this.settings.callingArchiverStatus) {
+        backupFilePath = (0, import_path.join)(savePathSetting, `${fileNameWithDateValues}.${this.settings.archiveFileTypeValue}`);
+        await createFileByArchiver(this.settings.archiverTypeValue, this.settings.archiverPathValue, this.settings.archiveFileTypeValue, vaultPath, backupFilePath);
       } else {
-        createZipByAdmZip(vaultPath, backupZipPath);
+        createZipByAdmZip(vaultPath, backupFilePath);
       }
-      new import_obsidian2.Notice(`Vault backup created: ${backupZipPath}`);
-      autoDeleteBackups(
-        this.settings.winSavePathSetting,
-        this.settings.unixSavePathSetting,
-        this.settings.customizeNameSetting,
-        this.settings.lifecycleSetting,
-        this.settings.backupsPerDaySetting
+      new import_obsidian2.Notice(`Vault backup created: ${backupFilePath}`);
+      deleteBackupsByLifeCycle(
+        this.settings.winSavePathValue,
+        this.settings.unixSavePathValue,
+        this.settings.fileNameFormatValue,
+        this.settings.lifecycleValue
+      );
+      deletePerDayBackups(
+        this.settings.winSavePathValue,
+        this.settings.unixSavePathValue,
+        this.settings.fileNameFormatValue,
+        this.settings.backupsPerDayValue
       );
     } catch (error) {
       new import_obsidian2.Notice(`Failed to create vault backup: ${error}`);
@@ -5090,6 +5253,7 @@ var LocalBackupPlugin = class extends import_obsidian2.Plugin {
     );
   }
   async saveSettings() {
+    this.settings.versionValue = this.manifest.version;
     await this.saveData(this.settings);
   }
   /**
@@ -5097,12 +5261,12 @@ var LocalBackupPlugin = class extends import_obsidian2.Plugin {
    */
   async applySettings() {
     await this.loadSettings();
-    if (this.settings.intervalToggleSetting && !isNaN(parseInt(this.settings.intervalValueSetting))) {
+    if (this.settings.intervalBackupStatus && !isNaN(parseInt(this.settings.backupFrequencyValue))) {
       const intervalMinutes = parseInt(
-        this.settings.intervalValueSetting
+        this.settings.backupFrequencyValue
       );
       await this.startAutoBackupInterval(intervalMinutes);
-    } else if (!this.settings.intervalToggleSetting) {
+    } else if (!this.settings.intervalBackupStatus) {
       this.stopAutoBackupInterval();
     }
   }
@@ -5110,113 +5274,19 @@ var LocalBackupPlugin = class extends import_obsidian2.Plugin {
    * Restore default settings
    */
   async restoreDefault() {
-    this.settings.startupSetting = DEFAULT_SETTINGS.startupSetting;
-    this.settings.lifecycleSetting = DEFAULT_SETTINGS.lifecycleSetting;
-    this.settings.backupsPerDaySetting = DEFAULT_SETTINGS.backupsPerDaySetting;
-    this.settings.winSavePathSetting = DEFAULT_SETTINGS.winSavePathSetting;
-    this.settings.unixSavePathSetting = DEFAULT_SETTINGS.unixSavePathSetting;
-    this.settings.customizeNameSetting = DEFAULT_SETTINGS.customizeNameSetting;
-    this.settings.intervalToggleSetting = DEFAULT_SETTINGS.intervalToggleSetting;
-    this.settings.intervalValueSetting = DEFAULT_SETTINGS.intervalValueSetting;
-    this.settings.sevenZipBackupToggleSetting = DEFAULT_SETTINGS.sevenZipBackupToggleSetting;
-    this.settings.sevenZipPathSetting = DEFAULT_SETTINGS.sevenZipPathSetting;
+    this.settings.versionValue = DEFAULT_SETTINGS.versionValue;
+    this.settings.startupBackupStatus = DEFAULT_SETTINGS.startupBackupStatus;
+    this.settings.lifecycleValue = DEFAULT_SETTINGS.lifecycleValue;
+    this.settings.backupsPerDayValue = DEFAULT_SETTINGS.backupsPerDayValue;
+    this.settings.winSavePathValue = DEFAULT_SETTINGS.winSavePathValue;
+    this.settings.unixSavePathValue = DEFAULT_SETTINGS.unixSavePathValue;
+    this.settings.fileNameFormatValue = DEFAULT_SETTINGS.fileNameFormatValue;
+    this.settings.intervalBackupStatus = DEFAULT_SETTINGS.intervalBackupStatus;
+    this.settings.backupFrequencyValue = DEFAULT_SETTINGS.backupFrequencyValue;
+    this.settings.callingArchiverStatus = DEFAULT_SETTINGS.callingArchiverStatus;
+    this.settings.archiverTypeValue = DEFAULT_SETTINGS.archiverTypeValue;
+    this.settings.archiveFileTypeValue = DEFAULT_SETTINGS.archiveFileTypeValue;
+    this.settings.archiverPathValue = DEFAULT_SETTINGS.archiverPathValue;
     await this.saveSettings();
   }
 };
-function getDefaultPath() {
-  const defaultPath = path.dirname(this.app.vault.adapter.basePath);
-  return defaultPath;
-}
-function getDefaultName() {
-  const vaultName = this.app.vault.getName();
-  const defaultDatePlaceholders = getDatePlaceholdersForISO(true);
-  return `${vaultName}-Backup-${defaultDatePlaceholders}`;
-}
-function autoDeleteBackups(winSavePathSetting, unixSavePathSetting, customizeNameSetting, lifecycleSetting, backupsPerDaySetting) {
-  console.log("Run auto delete method");
-  const currentDate = new Date();
-  currentDate.setDate(currentDate.getDate() - parseInt(lifecycleSetting));
-  const os = require("os");
-  const platform = os.platform();
-  let savePathSetting = "";
-  if (platform == "win32") {
-    savePathSetting = winSavePathSetting;
-  } else if (platform == "linux" || platform == "darwin") {
-    savePathSetting = unixSavePathSetting;
-  }
-  fs.readdir(savePathSetting, (err, files) => {
-    if (err) {
-      console.error(err);
-      return;
-    }
-    if (parseInt(lifecycleSetting) != 0) {
-      files.forEach((file) => {
-        const filePath = path.join(savePathSetting, file);
-        const stats = fs.statSync(filePath);
-        const fileNameRegex = generateRegexFromCustomPattern(customizeNameSetting);
-        const matchFileName = file.match(fileNameRegex);
-        if (stats.isFile() && matchFileName != null) {
-          const stats2 = fs.statSync(filePath);
-          const parseTime = stats2.birthtime;
-          const createDate = new Date(parseTime.getFullYear(), parseTime.getMonth(), parseTime.getDate());
-          if (createDate < currentDate) {
-            fs.remove(filePath);
-          }
-        }
-      });
-    }
-    if (parseInt(backupsPerDaySetting) != 0) {
-      console.log(backupsPerDaySetting);
-      const backupFiles = files.filter((file) => {
-        const filePath = path.join(savePathSetting, file);
-        const stats = fs.statSync(filePath);
-        const fileNameRegex = generateRegexFromCustomPattern(customizeNameSetting);
-        const matchFileName = file.match(fileNameRegex);
-        return stats.isFile() && matchFileName !== null;
-      });
-      backupFiles.sort((a, b) => {
-        const filePathA = path.join(savePathSetting, a);
-        const filePathB = path.join(savePathSetting, b);
-        const statsA = fs.statSync(filePathA);
-        const statsB = fs.statSync(filePathB);
-        return statsA.birthtime.getTime() - statsB.birthtime.getTime();
-      });
-      const excessBackupsCount = backupFiles.length - parseInt(backupsPerDaySetting);
-      if (excessBackupsCount > 0) {
-        for (let i = 0; i < excessBackupsCount; i++) {
-          const filePath = path.join(savePathSetting, backupFiles[i]);
-          fs.remove(filePath, (err2) => {
-            if (err2) {
-              console.error(`Failed to remove backup file: ${filePath}`, err2);
-            } else {
-              console.log(`Backup file removed: ${filePath}`);
-            }
-          });
-        }
-      }
-    }
-  });
-}
-function generateRegexFromCustomPattern(customPattern) {
-  const regexPattern = customPattern.replace(/%Y/g, "\\d{4}").replace(/%m/g, "\\d{2}").replace(/%d/g, "\\d{2}").replace(/%H/g, "\\d{2}").replace(/%M/g, "\\d{2}").replace(/%S/g, "\\d{2}");
-  return new RegExp(regexPattern);
-}
-function createZipByAdmZip(vaultPath, backupZipPath) {
-  const zip = new import_adm_zip.default();
-  zip.addLocalFolder(vaultPath);
-  zip.writeZip(backupZipPath);
-}
-async function createZipBySevenZip(sevenZipPath, vaultPath, backupZipPath) {
-  return new Promise((resolve, reject) => {
-    const command = `"${sevenZipPath}" a "${backupZipPath}" "${vaultPath}"`;
-    (0, import_child_process.exec)(command, (error, stdout, stderr) => {
-      if (error) {
-        console.error("Failed to create zip file by 7-Zip:", error);
-        reject(error);
-      } else {
-        console.log("Zip file created by 7-Zip successfully.");
-        resolve();
-      }
-    });
-  });
-}

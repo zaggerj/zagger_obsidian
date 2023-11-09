@@ -51,17 +51,5 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": [
-    {
-      "id": "14335c49805f6bac",
-      "parent": 0,
-      "droppable": true,
-      "text": "tp.file - Templater",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    }
-  ]
+  "treeData": []
 }

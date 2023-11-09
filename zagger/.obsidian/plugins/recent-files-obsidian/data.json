@@ -1,16 +1,72 @@
 {
   "recentFiles": [
     {
-      "basename": "123",
-      "path": "60 - 临时/123.md"
+      "basename": "00. 主页",
+      "path": "40 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "00. 导航",
+      "path": "40 - Obsidian/主页/00. 导航.md"
+    },
+    {
+      "basename": "模糊分类",
+      "path": "60 - 临时/模糊分类.md"
+    },
+    {
+      "basename": "obsidian清单",
+      "path": "40 - Obsidian/教程/obsidian清单.md"
     },
     {
       "basename": "tp-长青笔记模板",
       "path": "40 - Obsidian/模板/templater/tp-长青笔记模板.md"
     },
     {
-      "basename": "tp-默认笔记模板",
-      "path": "40 - Obsidian/模板/templater/tp-默认笔记模板.md"
+      "basename": "2023年11月09日",
+      "path": "00 - 每日日记/DailyNote/2023年11月09日.md"
+    },
+    {
+      "basename": "每日日记模板",
+      "path": "40 - Obsidian/模板/每日日记模板.md"
+    },
+    {
+      "basename": "tp-daily",
+      "path": "40 - Obsidian/模板/templater/tp-daily.md"
+    },
+    {
+      "basename": "每周周记模板",
+      "path": "40 - Obsidian/模板/每周周记模板.md"
+    },
+    {
+      "basename": "2023年11月07日",
+      "path": "00 - 每日日记/DailyNote/2023年11月07日.md"
+    },
+    {
+      "basename": "2023年11月08日",
+      "path": "00 - 每日日记/DailyNote/2023年11月08日.md"
+    },
+    {
+      "basename": "2023年45周记录",
+      "path": "00 - 每日日记/WeeklyNote/2023年45周记录.md"
+    },
+    {
+      "basename": "2023年11月06日",
+      "path": "00 - 每日日记/DailyNote/2023年11月06日.md"
+    },
+    {
+      "basename": "2022年05月13日",
+      "path": "00 - 每日日记/DailyNote/2022年05月13日.md"
+    },
+    {
+      "basename": "第二章 Electron自定义界面(最大化、最小化、关闭、图标等等)",
+      "path": "20 - 工作学习/记事本/学习/前端/electron/搭建electron vite vue3/第二章 Electron自定义界面(最大化、最小化、关闭、图标等等).md"
+    },
+    {
+      "basename": "a 服务器相关命令",
+      "path": "20 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md"
+    },
+    {
+      "basename": "obsidian贴图",
+      "path": "40 - Obsidian/教程/obsidian贴图.md"
     },
     {
       "basename": "02 手动选择模板",
@@ -21,28 +77,52 @@
       "path": "40 - Obsidian/模板/templater/03 选择学习相关模板.md"
     },
     {
-      "basename": "obsidian清单",
-      "path": "40 - Obsidian/教程/obsidian清单.md"
-    },
-    {
       "basename": "01 自动选择模板",
       "path": "40 - Obsidian/模板/templater/01 自动选择模板.md"
-    },
-    {
-      "basename": "tp-人物模板",
-      "path": "40 - Obsidian/模板/templater/tp-人物模板.md"
     },
     {
       "basename": "tp-物品模板",
       "path": "40 - Obsidian/模板/templater/tp-物品模板.md"
     },
     {
-      "basename": "00. 主页",
-      "path": "40 - Obsidian/主页/00. 主页.md"
+      "basename": "tp-人物模板",
+      "path": "40 - Obsidian/模板/templater/tp-人物模板.md"
     },
     {
-      "basename": "00. 导航",
-      "path": "40 - Obsidian/主页/00. 导航.md"
+      "basename": "tp-默认笔记模板",
+      "path": "40 - Obsidian/模板/templater/tp-默认笔记模板.md"
+    },
+    {
+      "basename": "personal token",
+      "path": "20 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/personal token.md"
+    },
+    {
+      "basename": "2023-10-13",
+      "path": "00 - 每日日记/DailyNote/日记/2023-10-13.md"
+    },
+    {
+      "basename": "记事本",
+      "path": "20 - 工作学习/记事本/学习/前端/前端杂项/记事本.md"
+    },
+    {
+      "basename": "git国内源",
+      "path": "20 - 工作学习/记事本/学习/开发软实力/git/git国内源.md"
+    },
+    {
+      "basename": "什么是MOC",
+      "path": "20 - 工作学习/学习/什么是MOC.md"
+    },
+    {
+      "basename": "学习",
+      "path": "20 - 工作学习/学习/学习.md"
+    },
+    {
+      "basename": "dataviewjs-收集链接",
+      "path": "20 - 工作学习/01 写作学习/dataviewjs-收集链接.md"
+    },
+    {
+      "basename": "所有未完成任务",
+      "path": "40 - Obsidian/脚本/所有未完成任务.md"
     },
     {
       "basename": "obsidian教程",
@@ -51,10 +131,6 @@
     {
       "basename": "基础模板",
       "path": "40 - Obsidian/模板/基础模板.md"
-    },
-    {
-      "basename": "每日日记模板",
-      "path": "40 - Obsidian/模板/每日日记模板.md"
     },
     {
       "basename": "汇总所有在线文档",
@@ -89,20 +165,8 @@
       "path": "40 - Obsidian/模板/tp-日记模板.md"
     },
     {
-      "basename": "2023年11月07日 1",
-      "path": "00 - 每日日记/DailyNote/2023年11月07日 1.md"
-    },
-    {
       "basename": "kos2023透明效果问题",
       "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/kos2023透明效果问题.md"
-    },
-    {
-      "basename": "2022年05月13日",
-      "path": "00 - 每日日记/DailyNote/2022年05月13日.md"
-    },
-    {
-      "basename": "所有未完成任务",
-      "path": "40 - Obsidian/脚本/所有未完成任务.md"
     }
   ],
   "omittedPaths": [],

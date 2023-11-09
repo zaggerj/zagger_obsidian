@@ -8,98 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "32e8478e99e89c44",
+            "id": "d835b58d6ad1a6d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40 - Obsidian/模板/templater/tp-默认笔记模板.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dca68de27fc446f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "40 - Obsidian/模板/templater/01 自动选择模板.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "559d80a040ad55c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "60 - 临时/123.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3aec5124c34ab129",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "40 - Obsidian/模板/templater/03 选择学习相关模板.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "7fc46c8d0ca50fa2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "40 - Obsidian/模板/templater/02 手动选择模板.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1921f6c2e6aed82d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "40 - Obsidian/模板/templater/tp-默认笔记模板.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "29b32b3eaeae83aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "40 - Obsidian/教程/obsidian清单.md",
+                "file": "20 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -254,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "60 - 临时/123.md"
+                "file": "20 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md"
               }
             }
           },
@@ -280,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "60 - 临时/123.md",
+                "file": "20 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -297,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "60 - 临时/123.md",
+                "file": "20 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -309,7 +230,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "60 - 临时/123.md"
+                "file": "20 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md"
               }
             }
           },
@@ -393,44 +314,43 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "559d80a040ad55c2",
+  "active": "d835b58d6ad1a6d7",
   "lastOpenFiles": [
-    "40 - Obsidian/模板/templater/tp-长青笔记模板.md",
-    "60 - 临时/123.md",
-    "40 - Obsidian/模板/templater/tp-默认笔记模板.md",
-    "40 - Obsidian/模板/templater/02 手动选择模板.md",
-    "40 - Obsidian/模板/templater/03 选择学习相关模板.md",
-    "40 - Obsidian/教程/obsidian清单.md",
-    "40 - Obsidian/教程/[.md",
-    "40 - Obsidian/模板/templater/01 自动选择模板.md",
-    "20 - 工作学习/02 软件学习/未命名.md",
-    "20 - 工作学习/03 其他/未命名.md",
-    "20 - 工作学习/03 其他",
-    "10 - 人员管理/生活/01 物品/未命名.md",
-    "10 - 人员管理/生活/01 物品",
-    "10 - 人员管理/生活",
-    "40 - Obsidian/模板/templater/tp-人物模板.md",
-    "40 - Obsidian/模板/templater/tp-物品模板.md",
+    "60 - 临时/模糊分类.md",
+    "60 - 临时",
     "40 - Obsidian/主页/00. 主页.md",
     "40 - Obsidian/主页/00. 导航.md",
-    "40 - Obsidian/教程/obsidian教程.md",
-    "40 - Obsidian/教程/玩转 Obsidian 02：基础设置篇 - 少数派.md",
-    "40 - Obsidian/教程/玩转 Obsidian 01：打造知识循环利器 - 少数派.md",
-    "40 - Obsidian/教程/任务.md",
-    "40 - Obsidian/教程/人物-任务.md",
-    "20 - 工作学习/02 软件学习",
+    "40 - Obsidian/教程/obsidian清单.md",
+    "40 - Obsidian/模板/templater/tp-长青笔记模板.md",
+    "00 - 每日日记/DailyNote/2023年11月09日.md",
+    "40 - Obsidian/模板/每日日记模板.md",
     "40 - Obsidian/模板/templater/tp-daily.md",
+    "40 - Obsidian/模板/每周周记模板.md",
+    "00 - 每日日记/DailyNote/2023年11月08日.md",
+    "00 - 每日日记/DailyNote/2023年11月07日.md",
+    "00 - 每日日记/WeeklyNote/2023年45周记录.md",
+    "00 - 每日日记/WeeklyNote/WeeklyNote.md",
+    "00 - 每日日记/DailyNote/2023年11月06日.md",
+    "00 - 每日日记/DailyNote/2023年11月06日.md",
+    "00 - 每日日记/DailyNote/2022年05月13日.md",
+    "00 - 每日日记/DailyNote/2023-11-08_周三.md",
+    "00 - 每日日记/DailyNote/2023-11-07_周二.md",
+    "20 - 工作学习/记事本/学习/前端/electron/搭建electron vite vue3/第二章 Electron自定义界面(最大化、最小化、关闭、图标等等).md",
+    "20 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
+    "40 - Obsidian/教程/obsidian贴图.md",
+    "40 - Obsidian/教程/templater-modificationDate.md",
+    "40 - Obsidian/模板/templater/02 手动选择模板.md",
+    "40 - Obsidian/模板/templater/03 选择学习相关模板.md",
+    "40 - Obsidian/模板/templater/01 自动选择模板.md",
+    "10 - 人员管理/生活/01 物品",
+    "20 - 工作学习/非开发",
+    "20 - 工作学习/01 写作学习",
+    "10 - 人员管理/人脉/01 亲人",
+    "10 - 人员管理/人脉",
+    "10 - 人员管理/生活",
+    "20 - 工作学习/03 其他",
+    "20 - 工作学习/02 软件学习",
     "40 - Obsidian/模板/tp",
-    "40 - Obsidian/模板/templater/🎵Music.md",
-    "40 - 生活/01 物品/未命名.md",
-    "40 - 生活/01 物品",
-    "40 - 生活",
-    "50 - 人脉/01 亲人/未命名.md",
-    "50 - 人脉/01 亲人",
-    "50 - 人脉",
-    "60 - 临时",
-    "40 - Obsidian/模板/人-人.md",
-    "40 - Obsidian/模板/tp/tp-自动选择模板.md",
     "40 - Obsidian/附件/}[YAY}4`V3EH[RB]0}29_00.png",
     "40 - Obsidian/附件/100911654141903_.pic.jpg",
     "obsidian配置文件目录/Attachment/assets 9/image5-20230708221750-odzmzc1.jpeg",

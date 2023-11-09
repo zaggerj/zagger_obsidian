@@ -6,7 +6,7 @@ tags:
 aliases:
   - 服务器命令集合
 ---
-
+`netstat -ano | grep 9527|awk '{print $5}' | xargs kill -9`
 
 ```shell
 ps -ef | grep mysql

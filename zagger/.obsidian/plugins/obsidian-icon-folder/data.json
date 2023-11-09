@@ -287,13 +287,6 @@
         "order": 43
       },
       {
-        "rule": ".",
-        "icon": "🐾",
-        "for": "everything",
-        "order": 44,
-        "useFilePath": false
-      },
-      {
         "rule": "excel",
         "icon": "SiMicrosoftexcel",
         "for": "everything",

@@ -9,7 +9,7 @@ alias:
 tags: 
 cdate: <% tp.file.creation_date() %>
 uid: <% tp.date.now("YYYYMMDDHHmmss") %> 
-Update: <%+ tp.file.last_modified_date("YYYY-MM-DD dddd HH:mm:ss") %>
+Update: <%+ tp.file.last_modified_date("YYYY-MM-DD HH:mm:ss") %>
 cssclass: 
 Cover: 
 ---
