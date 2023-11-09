@@ -14,7 +14,7 @@ uid: <% tp.date.now("YYYYMMDDHHmmss") %>
 cssclass: 
 ---
 
-# 基本信息
+# 1 基本信息
 进出状态:: <% tp.system.suggester(["支出", "收入"], ["支出", "收入"]) %>
 物品价格:: <% tp.system.prompt("物品价格", "") %>
 购买状态:: <% tp.system.suggester(["已购买", "想要"], ["已购买", "想要"]) %>

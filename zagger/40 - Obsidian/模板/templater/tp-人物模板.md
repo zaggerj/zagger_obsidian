@@ -6,10 +6,10 @@ await tp.file.rename(`${title}`);
 
 let filetype = await tp.system.suggester(["亲人", "其他"], ["亲人", "其他"], false, "Which template do you want to use?") 
 if (filetype === "亲人") { 
-myFilePath = "/10 - 人员管理/人脉/01 亲人/" +  `${title}`;
+myFilePath = "/10 - 人员管理/家人/" +  `${title}`;
 await tp.file.move(`${myFilePath}`);
 } else if (filetype === "其他") { 
-myFilePath = "/10 - 人员管理/人脉/02 其他/" +  `${title}`;
+myFilePath = "/10 - 人员管理/人脉/" +  `${title}`;
 await tp.file.move(`${myFilePath}`);
 } else { 
 tp.file.cursor(1)
@@ -25,7 +25,7 @@ uid: <% tp.date.now("YYYYMMDDHHmmss") %>
 cssclass: 
 ---
 
-# 基本信息
+# 1 基本信息
 姓名:: <% `${title}` %>
 性别:: <% tp.system.suggester(["男", "女"], ["男", "女"]) %>
 年龄:: `$= let date = moment(dv.current().birthday.toString(),"yyyy-MM-DD"); let today = moment().startOf('day'); today.diff(date,"years")`岁

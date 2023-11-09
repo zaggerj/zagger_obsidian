@@ -16,11 +16,11 @@
   "folder_templates": [
     {
       "folder": "00 - 每日日记/DailyNote",
-      "template": "40 - Obsidian/模板/每日日记模板.md"
+      "template": "40 - Obsidian/模板/templater/tp-每日日记模板.md"
     },
     {
       "folder": "00 - 每日日记/WeeklyNote",
-      "template": "40 - Obsidian/模板/每周周记模板.md"
+      "template": "40 - Obsidian/模板/templater/tp-每周周记模板.md"
     },
     {
       "folder": "00 - 每日日记",
