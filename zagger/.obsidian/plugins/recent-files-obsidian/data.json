@@ -1,7 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "2023年45周记录",
+      "basename": "00. 主页",
+      "path": "40 - Obsidian/主页/00. 主页.md""basename": "2023年45周记录",
       "path": "00 - 每日日记/WeeklyNote/2023年45周记录.md"
     },
     {
@@ -77,8 +78,8 @@
       "path": "20 - 工作学习/记事本/学习/前端/electron/搭建electron vite vue3/第二章 Electron自定义界面(最大化、最小化、关闭、图标等等).md"
     },
     {
-      "basename": "02 手动选择模板",
-      "path": "40 - Obsidian/模板/templater/02 手动选择模板.md"
+      "basename": "00. 导航",
+      "path": "40 - Obsidian/主页/00. 导航.md"
     },
     {
       "basename": "03 选择学习相关模板",
@@ -101,7 +102,12 @@
       "path": "40 - Obsidian/模板/templater/tp-默认笔记模板.md"
     },
     {
-      "basename": "personal token",
+      "basename": "tp-长青笔记模板",
+      "path": "40 - Obsidian/模板/templater/tp-长青笔记模板.md"
+    },
+    {
+      "basename": "tp-默认笔记模板",
+      "path": "40 - Obsidian/模板/templater/tp-默认笔记模板.md""basename": "personal token",
       "path": "20 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/personal token.md"
     },
     {
@@ -113,7 +119,8 @@
       "path": "20 - 工作学习/记事本/学习/前端/前端杂项/记事本.md"
     },
     {
-      "basename": "git国内源",
+      "basename": "obsidian清单",
+      "path": "40 - Obsidian/教程/obsidian清单.md""basename": "git国内源",
       "path": "20 - 工作学习/记事本/学习/开发软实力/git/git国内源.md"
     },
     {
@@ -127,6 +134,14 @@
     {
       "basename": "obsidian教程",
       "path": "40 - Obsidian/教程/obsidian教程.md"
+    },
+    {
+      "basename": "02 手动选择模板",
+      "path": "40 - Obsidian/模板/templater/02 手动选择模板.md"
+    },
+    {
+      "basename": "01 自动选择模板",
+      "path": "40 - Obsidian/模板/templater/01 自动选择模板.md"
     },
     {
       "basename": "基础模板",

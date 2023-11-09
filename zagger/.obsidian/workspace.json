@@ -13,6 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "40 - Obsidian/主页/00. 主页.md",
+                "mode": "preview",
                 "file": "00 - 每日日记/WeeklyNote/2023年45周记录.md",
                 "mode": "source",
                 "backlinks": true,
@@ -253,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 - 每日日记/WeeklyNote/2023年45周记录.md"
+                "file": "40 - Obsidian/主页/00. 主页.md""file": "00 - 每日日记/WeeklyNote/2023年45周记录.md"
               }
             }
           },
@@ -279,6 +281,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "40 - Obsidian/主页/00. 主页.md",
                 "file": "00 - 每日日记/WeeklyNote/2023年45周记录.md",
                 "collapseAll": false,
                 "extraContext": false,
@@ -296,6 +299,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "40 - Obsidian/主页/00. 主页.md",
                 "file": "00 - 每日日记/WeeklyNote/2023年45周记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
@@ -308,7 +312,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00 - 每日日记/WeeklyNote/2023年45周记录.md"
+                "file": "40 - Obsidian/主页/00. 主页.md""file": "00 - 每日日记/WeeklyNote/2023年45周记录.md"
               }
             }
           },
@@ -428,9 +432,14 @@
     "10 - 人员管理/生活",
     "20 - 工作学习/03 其他",
     "20 - 工作学习/02 软件学习",
+    "40 - Obsidian/模板/templater/02 手动选择模板.md",
+    "40 - Obsidian/模板/templater/01 自动选择模板.md",
+    "40 - Obsidian/模板/templater/03 选择学习相关模板.md",
+    "40 - Obsidian/模板/templater/tp-daily.md",
     "40 - Obsidian/模板/tp",
     "40 - Obsidian/附件/}[YAY}4`V3EH[RB]0}29_00.png",
     "40 - Obsidian/附件/100911654141903_.pic.jpg",
+    "40 - Obsidian/教程/00-Tips/插件介绍/Obsidian 插件之 Obsidian Projects .html",
     "obsidian配置文件目录/Attachment/assets 9/image5-20230708221750-odzmzc1.jpeg",
     "obsidian配置文件目录/Attachment/assets 9/image4-20230708221750-wgh63jq.jpeg",
     "obsidian配置文件目录/Attachment/assets 9/image1-20230708221750-h01538o.jpeg",
