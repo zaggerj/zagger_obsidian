@@ -237,7 +237,7 @@
       {
         "rule": "学习",
         "icon": "LiBookOpen",
-        "for": "everything",
+        "for": "files",
         "order": 37
       },
       {
