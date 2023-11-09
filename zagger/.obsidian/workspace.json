@@ -19,8 +19,48 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7777a3ca7f5bc49b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 - 每日日记/DailyNote/2023年11月09日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c8ad27f59cb1991a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 - 每日日记/WeeklyNote/2023年45周记录.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "19918b4f6e9fe2be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 - 每日日记/DailyNote/2023年11月07日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -58,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "html5",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -175,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md"
+                "file": "00 - 每日日记/DailyNote/2023年11月09日.md"
               }
             }
           },
@@ -201,7 +241,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md",
+                "file": "00 - 每日日记/DailyNote/2023年11月09日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +258,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md",
+                "file": "00 - 每日日记/DailyNote/2023年11月09日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +270,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md"
+                "file": "00 - 每日日记/DailyNote/2023年11月09日.md"
               }
             }
           },
@@ -275,8 +315,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -314,22 +353,24 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "d835b58d6ad1a6d7",
+  "active": "7777a3ca7f5bc49b",
   "lastOpenFiles": [
+    "00 - 每日日记/WeeklyNote/2023年45周记录.md",
+    "00 - 每日日记/DailyNote/2023年11月09日.md",
+    "00 - 每日日记/DailyNote/2023年11月07日.md",
+    "20 - 工作学习/记事本/学习/开发软实力/git/git 文档清单.md",
+    "20 - 工作学习/01 写作学习/dataviewjs-收集链接.md",
+    "40 - Obsidian/主页/00. 主页.md",
     "40 - Obsidian/主页/00. 导航.md",
     "20 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "60 - 临时/模糊分类.md",
     "60 - 临时",
-    "40 - Obsidian/主页/00. 主页.md",
     "40 - Obsidian/教程/obsidian清单.md",
     "40 - Obsidian/模板/templater/tp-长青笔记模板.md",
-    "00 - 每日日记/DailyNote/2023年11月09日.md",
     "40 - Obsidian/模板/每日日记模板.md",
     "40 - Obsidian/模板/templater/tp-daily.md",
     "40 - Obsidian/模板/每周周记模板.md",
     "00 - 每日日记/DailyNote/2023年11月08日.md",
-    "00 - 每日日记/DailyNote/2023年11月07日.md",
-    "00 - 每日日记/WeeklyNote/2023年45周记录.md",
     "00 - 每日日记/WeeklyNote/WeeklyNote.md",
     "00 - 每日日记/DailyNote/2023年11月06日.md",
     "00 - 每日日记/DailyNote/2023年11月06日.md",
@@ -341,7 +382,6 @@
     "40 - Obsidian/教程/templater-modificationDate.md",
     "40 - Obsidian/模板/templater/02 手动选择模板.md",
     "40 - Obsidian/模板/templater/03 选择学习相关模板.md",
-    "40 - Obsidian/模板/templater/01 自动选择模板.md",
     "10 - 人员管理/生活/01 物品",
     "20 - 工作学习/非开发",
     "20 - 工作学习/01 写作学习",
