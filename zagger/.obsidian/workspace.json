@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40 - Obsidian/教程/obsidian贴图.md",
+                "file": "00 - 每日日记/WeeklyNote/2023年45周记录.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,64 @@
             }
           },
           {
-            "id": "1947d03b5be12ac2",
+            "id": "9a76e7cabc90f11e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/personal token.md",
+                "file": "20 - 工作学习/记事本/工作/工作计划/最新工作安排/最新工作安排.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0f353bb75f18c4a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 - 每日日记/DailyNote/2023年11月07日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b411ad1ea0b149ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 - 每日日记/DailyNote/2023年11月06日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1a58e54ded066c02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 - 每日日记/DailyNote/2023年11月08日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a607ba276f3046ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 - 每日日记/DailyNote/2023年11月09日.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -189,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/personal token.md"
+                "file": "00 - 每日日记/WeeklyNote/2023年45周记录.md"
               }
             }
           },
@@ -215,7 +267,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/personal token.md",
+                "file": "00 - 每日日记/WeeklyNote/2023年45周记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +284,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "20 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/personal token.md",
+                "file": "00 - 每日日记/WeeklyNote/2023年45周记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -244,7 +296,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "20 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/personal token.md"
+                "file": "00 - 每日日记/WeeklyNote/2023年45周记录.md"
               }
             }
           },
@@ -289,8 +341,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -328,46 +379,49 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "1947d03b5be12ac2",
   "lastOpenFiles": [
-    "40 - Obsidian/教程/obsidian贴图.md",
-    "20 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/personal token.md",
-    "60 - 临时/未命名 1.md",
-    "60 - 临时/未命名.md",
-    "00 - 每日日记/DailyNote/2023年11月09日.md",
-    "40 - Obsidian/主页/00. 主页.md",
-    "40 - Obsidian/主页/00. 导航.md",
-    "40 - Obsidian/模板/templater/tp-默认笔记模板.md",
     "40 - Obsidian/模板/templater/tp-每日日记模板.md",
     "40 - Obsidian/模板/templater/02 手动选择模板.md",
     "40 - Obsidian/模板/templater/01 自动选择模板.md",
     "40 - Obsidian/模板/templater/tp-长青笔记模板.md",
     "20 - 工作学习/游戏/游戏.md",
     "20 - 工作学习/学习/ .md",
-    "60 - 临时/未命名 2.md",
     "40 - Obsidian/模板/templater/tp-人物模板.md",
     "40 - Obsidian/模板/templater/03 选择学习相关模板.md",
     "40 - Obsidian/模板/templater/tp-物品模板.md",
     "40 - Obsidian/模板/templater/tp-每周周记模板.md",
+    "20 - 工作学习/记事本/工作/工作计划/最新工作安排/最新工作安排.md",
+    "00 - 每日日记/DailyNote/2023年11月07日.md",
+    "00 - 每日日记/DailyNote/2023年11月06日.md",
+    "00 - 每日日记/DailyNote/2023年11月08日.md",
+    "00 - 每日日记/DailyNote/2023年11月09日.md",
+    "40 - Obsidian/模板/每日日记模板.md",
+    "00 - 每日日记/WeeklyNote/2023年45周记录.md",
+    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/webspice kos系统 中无法上传.md",
+    "40 - Obsidian/主页/00. 主页.md",
+    "40 - Obsidian/主页/00. 导航.md",
     "00 - 每日日记/DailyNote/DailyNote.md",
-    "40 - Obsidian/react组件/music and birthday countdown 1.md",
-    "40 - Obsidian/react组件/music and birthday countdown 2.md",
+    "20 - 工作学习/记事本/学习/开发软实力/git/git 文档清单.md",
+    "20 - 工作学习/01 写作学习/dataviewjs-收集链接.md",
+    "20 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "60 - 临时/模糊分类.md",
-    "60 - 临时/123.md",
     "60 - 临时",
-    "40 - Obsidian/教程/obsidian教程.md",
     "40 - Obsidian/教程/obsidian清单.md",
+    "40 - Obsidian/模板/templater/tp-daily.md",
+    "40 - Obsidian/模板/每周周记模板.md",
+    "00 - 每日日记/WeeklyNote/WeeklyNote.md",
+    "00 - 每日日记/DailyNote/2022年05月13日.md",
+    "00 - 每日日记/DailyNote/2023-11-08_周三.md",
+    "10 - 人员管理/生活/01 物品",
+    "20 - 工作学习/非开发",
+    "20 - 工作学习/01 写作学习",
+    "10 - 人员管理/人脉/01 亲人",
+    "10 - 人员管理/人脉",
+    "10 - 人员管理/生活",
     "20 - 工作学习/02 软件学习",
     "40 - Obsidian/模板/tp",
-    "40 - 生活/01 物品",
-    "40 - 生活",
-    "50 - 人脉/01 亲人",
-    "50 - 人脉",
-    "40 - Obsidian/模板/script/getTitleSnippet.js",
-    "40 - Obsidian/模板/script",
     "40 - Obsidian/附件/}[YAY}4`V3EH[RB]0}29_00.png",
     "40 - Obsidian/附件/100911654141903_.pic.jpg",
-    "40 - Obsidian/教程/00-Tips/插件介绍/Obsidian 插件之 Obsidian Projects .html",
     "obsidian配置文件目录/Attachment/assets 9/image5-20230708221750-odzmzc1.jpeg",
     "obsidian配置文件目录/Attachment/assets 9/image4-20230708221750-wgh63jq.jpeg",
     "obsidian配置文件目录/Attachment/assets 9/image1-20230708221750-h01538o.jpeg",
