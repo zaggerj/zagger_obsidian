@@ -1,3 +1,7 @@
+---
+created: 2023-11-06T08:20
+updated: 2023-11-06T08:20
+---
 {
 
                 "commandline": "C:\\GlobalScoopApps\\apps\\git\\2.40.0.windows.1\\bin\\bash.exe --login -i",

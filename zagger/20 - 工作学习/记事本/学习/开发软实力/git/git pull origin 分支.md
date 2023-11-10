@@ -1,3 +1,7 @@
+---
+created: 2023-11-06T08:20
+updated: 2023-11-06T08:20
+---
 Git pull origin 5.6.1-bug 这行代码到底做了啥，origin 是啥
 
 `git pull origin 5.6.1-bug` 是一个 Git 命令，用于从远程仓库（通常称为 "origin"）拉取（即获取）指定分支（在此例中为 "5.6.1-bug"）的最新代码更新。

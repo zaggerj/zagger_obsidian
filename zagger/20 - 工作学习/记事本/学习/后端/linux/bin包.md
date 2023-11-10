@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-03T22:29
+---
 # bin包
 ## 参考链接
 1. [Linux下创建可执行bin安装文件-腾讯云开发者社区-腾讯云 (tencent.com)](https://cloud.tencent.com/developer/article/1163695?from=15425)

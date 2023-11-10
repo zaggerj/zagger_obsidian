@@ -1,3 +1,7 @@
+---
+created: 2023-11-06T08:20
+updated: 2023-11-06T08:20
+---
 ## 链接地址
 1. [9个免费学习Python的网站和教程（2023年最新资源） | 学吧导航 (xue8nav.com)](https://www.xue8nav.com/1545.html)
 2. [Python 教程 — Python 3.12.0 文档](https://docs.python.org/zh-cn/3/tutorial/index.html)

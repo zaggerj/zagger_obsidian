@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-03T22:29
+---
 # physic-, physico-, physi-, physio-, phy-【希腊】表示“自然，天性”
 
 　　physicist/'fɪzɪsɪst/

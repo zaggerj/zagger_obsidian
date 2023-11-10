@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-03T22:29
+---
 # 通过 Service workers 让 PWA 离线工作
 
 * [上一页](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps/Tutorials/js13kGames/App_structure)

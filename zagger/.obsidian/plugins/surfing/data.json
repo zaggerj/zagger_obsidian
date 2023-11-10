@@ -51,17 +51,5 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": [
-    {
-      "id": "d126371f8a8bc89f",
-      "parent": 0,
-      "droppable": true,
-      "text": "快捷键 - 搜索结果 - 知乎",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    }
-  ]
+  "treeData": []
 }

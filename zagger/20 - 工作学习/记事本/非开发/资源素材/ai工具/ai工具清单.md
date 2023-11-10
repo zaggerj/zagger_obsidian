@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-03T22:29
+---
 # #chatgpt
 1. [AIchatOS (binjie.fun)](https://c.binjie.fun/#/chat/1689508527219)
 2. [Poe - Git Diff](https://poe.com/chat/2jcxpx3zbfqgcnyrgzn)

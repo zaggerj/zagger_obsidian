@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-03T22:29
+---
 # js unload和beforeunload 是否来得及发送postMessage给父窗口
 
 　　js unload和beforeunload 是否来得及发送postMessage给父窗口

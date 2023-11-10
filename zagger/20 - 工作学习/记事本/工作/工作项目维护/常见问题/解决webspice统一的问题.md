@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-03T22:29
+---
 # 解决webspice统一的问题
 
 　　1.关于如何改变linux中，对只有Read-only filesystem的文件，如何改为为可写、可读权限？

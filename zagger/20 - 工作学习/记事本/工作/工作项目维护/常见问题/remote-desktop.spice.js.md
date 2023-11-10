@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-03T22:29
+---
 # remote-desktop.spice.js
 
 1. init方法，会加载script，在加载后，返回defer对象，并在defer对象promise时，调用`bootstrapSpice`​方法

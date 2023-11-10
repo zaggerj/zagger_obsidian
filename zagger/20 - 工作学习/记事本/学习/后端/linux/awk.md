@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-06T12:24
+---
 ## 参考链接
 1. [linux三剑客之三（awk）(最强大） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/419494231)
 

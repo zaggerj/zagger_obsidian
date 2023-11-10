@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-03T22:29
+---
 ## 参考文档
 1. [常规 General | Clash for Windows (lbyczf.com)](https://docs.cfw.lbyczf.com/contents/ui/general.html#%E9%80%89%E9%A1%B9%E8%AF%B4%E6%98%8E)
 2. ![[1697423248385 1.yml]]

@@ -1,3 +1,7 @@
+---
+created: 2023-11-06T08:20
+updated: 2023-11-06T08:20
+---
 # visibilitychange
 
 　　visibilitychange事件是在用户离开或返回当前页面时触发的事件，即当浏览器当前页面的可见性状态发生变化时会触发。

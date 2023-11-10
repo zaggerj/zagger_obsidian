@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-03T22:29
+---
 文章首发公众号→[程序员王天](https://link.juejin.cn?target=https%3A%2F%2Flink.zhihu.com%2F%3Ftarget%3Dhttps%253A%2F%2Fimg-cdn.dslcv.com%2Fwt_gzh.png "https://link.zhihu.com/?target=https%3A//img-cdn.dslcv.com/wt_gzh.png")←欢迎关注
 
 # tsconfig.json

@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-06T12:24
+---
 ![[Pasted image 20230901092904.png]]
 ![[Pasted image 20230901093228.png]]
 ![[Pasted image 20230901093248.png]]

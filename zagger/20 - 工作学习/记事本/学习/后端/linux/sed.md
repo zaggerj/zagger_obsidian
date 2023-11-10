@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-03T22:29
+---
 ## 参考链接
 1. [Linux sed 命令 | 菜鸟教程 (runoob.com)](https://www.runoob.com/linux/linux-comm-sed.html)
 2. [sed命令_Linux sed命令：替换、删除、更新文件中的内容 (biancheng.net)](http://c.biancheng.net/linux/sed.html)

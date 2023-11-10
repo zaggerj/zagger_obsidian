@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-06T12:24
+---
 ## 参考链接
 1. [AngularJS 如何使用Mocha测试AngularJS代码|极客教程 (geek-docs.com)](https://geek-docs.com/angularjs/angularjs-ask-answer/510_angularjs_how_do_i_test_angularjs_code_using_mocha.html)
 2. [AngularJS单元测试——karma+mocha配置及实例-CSDN博客](https://blog.csdn.net/u014291497/article/details/50373703)

@@ -1,3 +1,7 @@
+---
+created: 2023-11-06T08:20
+updated: 2023-11-06T08:20
+---
 ## Git fetch 的参数
 
 我们刚学习了 git push 的参数，很酷的 `<place>` 参数，还有用冒号分隔的 refspecs（`<source>:<destination>`）。 这些参数可以用于 `git fetch` 吗？

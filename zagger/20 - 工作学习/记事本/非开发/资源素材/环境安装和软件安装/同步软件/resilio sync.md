@@ -1,3 +1,7 @@
+---
+created: 2023-11-06T08:20
+updated: 2023-11-06T08:20
+---
 # 参考文档
 
 1. [去中心化网盘 Resilio Sync 介绍及其使用 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/556523750)

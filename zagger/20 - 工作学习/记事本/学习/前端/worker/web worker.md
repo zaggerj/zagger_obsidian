@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-03T22:29
+---
 ## [使用 web workers](https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Asynchronous/Introducing_workers#%E4%BD%BF%E7%94%A8_web_workers)
 
 　　还记得在第一篇文章中，我们有一个计算质数的页面吗？我们将使用一个 worker 来运行质数运算，因此我们的页面对用户操作保持响应。

@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-03T22:29
+---
 # agent.js
 
 　　onAgentData-VD_AGENT_FILE_RECEIVE_START事件触发，如果上一个文件下载的过程不被处理，下一个下载会一直等待上一次的过程，只到下载结束。

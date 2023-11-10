@@ -73,7 +73,10 @@
   "obsidian-view-mode-by-frontmatter",
   "obsidian-hotkeys-for-templates",
   "hotkey-helper",
-  "mousewheel-image-zoom",
   "obsidian-full-calendar",
-  "obsidian-plugin-todo"
+  "obsidian-reading-time",
+  "privacy-glasses",
+  "tasks-calendar-wrapper",
+  "update-time-on-edit",
+  "obsidian-linter"
 ]

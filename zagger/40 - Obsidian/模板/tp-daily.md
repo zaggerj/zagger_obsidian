@@ -1,5 +1,8 @@
 ---
+searchType: tpl
 number headings: auto, first-level 1, max 6, start-at 1, 1.1
+created: 2023-11-08T08:21
+updated: 2023-11-10T15:21
 ---
 <%*
 let today = tp.date.now("YYYY-MM-DD")

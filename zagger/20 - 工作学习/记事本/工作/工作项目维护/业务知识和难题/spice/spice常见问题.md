@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-03T22:29
+---
 1.常见日志路径
 
   代理：/var/log/html5proxy/spice.log

@@ -1,3 +1,7 @@
+---
+created: 2023-11-06T08:20
+updated: 2023-11-10T12:33
+---
 # windows zsh配置备份 20234015
 
 　　\# If you come from bash you might have to change your \$PATH.

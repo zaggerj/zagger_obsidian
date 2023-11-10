@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-03T22:29
+---
 [flowchart.js](http://flowchart.js.org/)
 [Flowchart流程图和 Mermaid流程图的对比_flowchart mermaid_Mr.Idleman的博客-CSDN博客](https://blog.csdn.net/qq_42059060/article/details/121054380)
 [Mermaid | Diagramming and charting tool](https://mermaid.js.org/#/flowchart?id=flowcharts-basic-syntax)

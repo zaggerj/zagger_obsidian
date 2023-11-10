@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-03T22:29
+---
 ​**`SharedWorker`**​ 接口代表一种特定类型的 worker，可以从几个浏览上下文中*访问*，例如几个窗口、iframe 或其他 worker。它们实现一个不同于普通 worker 的接口，具有不同的全局作用域，[`SharedWorkerGlobalScope`](https://developer.mozilla.org/en-US/docs/Web/API/SharedWorkerGlobalScope "Currently only available in English (US)")​[ (en-US)](https://developer.mozilla.org/en-US/docs/Web/API/SharedWorkerGlobalScope "Currently only available in English (US)") 。
 
 　　**备注：** 如果要使 **SharedWorker** 连接到多个不同的页面，这些页面必须是同源的（相同的协议、host 以及端口）。

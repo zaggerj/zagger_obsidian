@@ -1,3 +1,7 @@
+---
+created: 2023-11-06T08:20
+updated: 2023-11-06T08:20
+---
 # comic-shanns
 
 　　[shannpersand/comic-shanns: a classy font (github.com)](https://github.com/shannpersand/comic-shanns)

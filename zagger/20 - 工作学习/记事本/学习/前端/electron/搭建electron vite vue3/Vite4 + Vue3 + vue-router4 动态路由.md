@@ -1,3 +1,7 @@
+---
+created: 2023-11-06T08:20
+updated: 2023-11-06T08:20
+---
 # Vite4 + Vue3 + vue-router4 动态路由
 
 分类专栏： [Vue3全家桶](https://blog.csdn.net/qq_19991931/category_12265210.html) 文章标签： [javascript](https://so.csdn.net/so/search/s.do?q=javascript&t=all&o=vip&s=&l=&f=&viparticle=) [前端](https://so.csdn.net/so/search/s.do?q=%E5%89%8D%E7%AB%AF&t=all&o=vip&s=&l=&f=&viparticle=) [vue.js](https://so.csdn.net/so/search/s.do?q=vue.js&t=all&o=vip&s=&l=&f=&viparticle=) [开发语言](https://so.csdn.net/so/search/s.do?q=%E5%BC%80%E5%8F%91%E8%AF%AD%E8%A8%80&t=all&o=vip&s=&l=&f=&viparticle=) [typescript](https://so.csdn.net/so/search/s.do?q=typescript&t=all&o=vip&s=&l=&f=&viparticle=)

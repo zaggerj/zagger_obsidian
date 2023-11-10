@@ -1,3 +1,7 @@
+---
+created: 2023-11-06T08:20
+updated: 2023-11-06T08:20
+---
 # clash for windows及汉化功能
 
 　　[app.asar](app-20230716140408-rlksfzz.asar)

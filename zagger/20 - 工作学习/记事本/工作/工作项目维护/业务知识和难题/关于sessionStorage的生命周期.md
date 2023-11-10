@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-03T22:29
+---
 # sessionStorage应用场景
 > 应用场景：在需要重新打开子页面时，通过sessionStorage来传递数据，并且需要在关闭窗口时，销毁sessionStorage。
 > 特点：sessionStorage如果缓存数据，跟打开之前的数据在对应上，比较严格：比方说，用户门户场景，每次缓存的数据，包含场景数据，还有当前登录的账号的用户信息；vnc打开子页面，每次sessionStorage缓存了接口返回的refresh_token；

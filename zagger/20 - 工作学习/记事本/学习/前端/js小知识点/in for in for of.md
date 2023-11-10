@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-03T22:29
+---
 ## 参考链接
 1. [详解JS中for...of、in关键字_js of关键字_MonsterQy的博客-CSDN博客](https://blog.csdn.net/XIAO_A_fighting/article/details/116258308)
 2. [for...of - JavaScript | MDN (mozilla.org)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/for...of)

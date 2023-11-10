@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-03T22:29
+---
 解决报错 Failed to run `config` for mason-nvim-dap.nvim
 module 'dap.utils' not dound  
 模块 'dap.utils' 不是 dound

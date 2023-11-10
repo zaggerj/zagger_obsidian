@@ -1,32 +1,100 @@
 {
   "recentFiles": [
     {
-      "basename": "教程",
-      "path": "40 - Obsidian/教程/教程.md"
+      "basename": "00. 导航",
+      "path": "40 - Obsidian/主页/00. 导航.md"
+    },
+    {
+      "basename": "2023年11月09日",
+      "path": "00 - 每日日记/DailyNote/2023年11月09日.md"
     },
     {
       "basename": "obsidian清单",
       "path": "40 - Obsidian/教程/obsidian清单.md"
     },
     {
-      "basename": "obsidian贴图",
-      "path": "40 - Obsidian/教程/obsidian贴图.md"
+      "basename": "obsidian插件列表",
+      "path": "20 - 工作学习/学习/obsidian插件列表.md"
     },
     {
-      "basename": "00. 导航",
-      "path": "40 - Obsidian/主页/00. 导航.md"
-    },
-    {
-      "basename": "10 - 人员管理",
-      "path": "10 - 人员管理/10 - 人员管理.md"
+      "basename": "2023年11月10日",
+      "path": "00 - 每日日记/DailyNote/2023年11月10日.md"
     },
     {
       "basename": "00. 主页",
       "path": "40 - Obsidian/主页/00. 主页.md"
     },
     {
+      "basename": "迁移wsl2",
+      "path": "20 - 工作学习/工作/迁移wsl2.md"
+    },
+    {
+      "basename": "personal token",
+      "path": "20 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/personal token.md"
+    },
+    {
       "basename": "a 服务器相关命令",
       "path": "20 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md"
+    },
+    {
+      "basename": "教程",
+      "path": "40 - Obsidian/教程/教程.md"
+    },
+    {
+      "basename": "多语言系统化实现",
+      "path": "20 - 工作学习/工作/多语言系统化实现.md"
+    },
+    {
+      "basename": "引发的管理台项目可配置",
+      "path": "20 - 工作学习/工作/引发的管理台项目可配置.md"
+    },
+    {
+      "basename": "obsidian贴图",
+      "path": "40 - Obsidian/教程/obsidian贴图.md"
+    },
+    {
+      "basename": "2023年45周记录",
+      "path": "00 - 每日日记/WeeklyNote/2023年45周记录.md"
+    },
+    {
+      "basename": "DailyNote",
+      "path": "00 - 每日日记/DailyNote/DailyNote.md"
+    },
+    {
+      "basename": "2023年11月06日",
+      "path": "00 - 每日日记/DailyNote/2023年11月06日.md"
+    },
+    {
+      "basename": "2023年11月08日",
+      "path": "00 - 每日日记/DailyNote/2023年11月08日.md"
+    },
+    {
+      "basename": "模板",
+      "path": "40 - Obsidian/模板/模板.md"
+    },
+    {
+      "basename": "tp-daily",
+      "path": "40 - Obsidian/模板/tp-daily.md"
+    },
+    {
+      "basename": "tp-每日日记模板",
+      "path": "40 - Obsidian/模板/tp-每日日记模板.md"
+    },
+    {
+      "basename": "新建代码模板",
+      "path": "40 - Obsidian/模板/新建代码模板.md"
+    },
+    {
+      "basename": "阅读笔记模板",
+      "path": "40 - Obsidian/模板/阅读笔记模板.md"
+    },
+    {
+      "basename": "The One",
+      "path": "40 - Obsidian/教程/The One.md"
+    },
+    {
+      "basename": "10 - 人员管理",
+      "path": "10 - 人员管理/10 - 人员管理.md"
     },
     {
       "basename": "localsend",
@@ -65,14 +133,6 @@
       "path": "40 - Obsidian/模板/基础模板.md"
     },
     {
-      "basename": "引发的管理台项目可配置",
-      "path": "20 - 工作学习/工作/引发的管理台项目可配置.md"
-    },
-    {
-      "basename": "personal token",
-      "path": "20 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/personal token.md"
-    },
-    {
       "basename": "linux文件系统",
       "path": "20 - 工作学习/学习/linux文件系统.md"
     },
@@ -81,28 +141,8 @@
       "path": "40 - Obsidian/模板/tp-长青笔记模板.md"
     },
     {
-      "basename": "2023年11月10日",
-      "path": "00 - 每日日记/DailyNote/2023年11月10日.md"
-    },
-    {
       "basename": "tp-默认笔记模板",
       "path": "40 - Obsidian/模板/tp-默认笔记模板.md"
-    },
-    {
-      "basename": "2023年11月09日",
-      "path": "00 - 每日日记/DailyNote/2023年11月09日.md"
-    },
-    {
-      "basename": "2023年11月08日",
-      "path": "00 - 每日日记/DailyNote/2023年11月08日.md"
-    },
-    {
-      "basename": "tp-每日日记模板",
-      "path": "40 - Obsidian/模板/tp-每日日记模板.md"
-    },
-    {
-      "basename": "2023年45周记录",
-      "path": "00 - 每日日记/WeeklyNote/2023年45周记录.md"
     },
     {
       "basename": "2023年11月07日",
@@ -117,24 +157,12 @@
       "path": "40 - Obsidian/模板/tp-每周周记模板.md"
     },
     {
-      "basename": "2023年11月06日",
-      "path": "00 - 每日日记/DailyNote/2023年11月06日.md"
-    },
-    {
-      "basename": "DailyNote",
-      "path": "00 - 每日日记/DailyNote/DailyNote.md"
-    },
-    {
       "basename": "git 文档清单",
       "path": "20 - 工作学习/记事本/学习/开发软实力/git/git 文档清单.md"
     },
     {
       "basename": "模糊分类",
       "path": "60 - 临时/模糊分类.md"
-    },
-    {
-      "basename": "tp-daily",
-      "path": "40 - Obsidian/模板/tp-daily.md"
     },
     {
       "basename": "2022年05月13日",
@@ -171,34 +199,6 @@
     {
       "basename": "记事本",
       "path": "20 - 工作学习/记事本/学习/前端/前端杂项/记事本.md"
-    },
-    {
-      "basename": "git国内源",
-      "path": "20 - 工作学习/记事本/学习/开发软实力/git/git国内源.md"
-    },
-    {
-      "basename": "学习",
-      "path": "20 - 工作学习/学习/学习.md"
-    },
-    {
-      "basename": "所有未完成任务",
-      "path": "40 - Obsidian/脚本/所有未完成任务.md"
-    },
-    {
-      "basename": "obsidian教程",
-      "path": "40 - Obsidian/教程/obsidian教程.md"
-    },
-    {
-      "basename": "汇总所有在线文档",
-      "path": "20 - 工作学习/工作/汇总所有在线文档.md"
-    },
-    {
-      "basename": "}[YAY}4`V3EH[RB]0}29_00",
-      "path": "40 - Obsidian/附件/}[YAY}4`V3EH[RB]0}29_00.png"
-    },
-    {
-      "basename": "personal token-zagger",
-      "path": "20 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/personal token-zagger.md"
     }
   ],
   "omittedPaths": [],

@@ -1,9 +1,12 @@
 ---
+searchType: tpl
 tags:
   - 周记
 searchterm: "#bird"
 duration: 1 year
-cssclasses:
+cssclasses: 
+created: 2023-11-09T20:40
+updated: 2023-11-10T15:21
 ---
 
 记录日期：{{monday:YYYY年MM月DD日}} ~ {{friday:YYYY年MM月DD日}}

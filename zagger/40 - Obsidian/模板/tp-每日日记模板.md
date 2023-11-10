@@ -1,6 +1,9 @@
 ---
-banner: "40 - Obsidian/附件/banners/daily-note-banner.gif"
+searchType: tpl
+banner: 40 - Obsidian/附件/banners/daily-note-banner.gif
 number headings: auto, first-level 1, max 6, start-at 1, 1.1.
+created: 2023-11-09T20:40
+updated: 2023-11-10T15:21
 ---
 
 ---

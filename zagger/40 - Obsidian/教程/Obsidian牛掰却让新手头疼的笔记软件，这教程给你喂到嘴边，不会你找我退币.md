@@ -1,9 +1,11 @@
 ---
 searchType: obsidian
 tags:
-- 教程/obsidian/blog
-- obsidian
-- 教程
+  - 教程/obsidian/blog
+  - obsidian
+  - 教程
+created: 2023-11-06T08:24
+updated: 2023-11-10T15:21
 ---
 
 #obsidian #教程 #菜有隐 #插件

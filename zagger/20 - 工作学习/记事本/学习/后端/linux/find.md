@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-06T12:24
+---
 ## 参考链接
 1. [linux之find -regex 使用正则表达式_find 正则_慕城南风的博客-CSDN博客](https://blog.csdn.net/lovedingd/article/details/107896981)
 2. [Linux系统find命令详解 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/556919811?utm_id=0)

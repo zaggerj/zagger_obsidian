@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-06T12:24
+---
 # TypeScript 基础讲解
 
 ![ts学习(1).png](image1-20230814113250-ow7u7wm.png)

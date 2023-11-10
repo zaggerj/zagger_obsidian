@@ -1,5 +1,7 @@
 ---
 tags: zettelkasten 心理学
+created: 2023-11-06T08:24
+updated: 2023-11-06T08:24
 ---
 
 description :: 一种基于认知过滤的频率偏差现象，描述当人们接触一个陌生事物后很快又会遇见它。

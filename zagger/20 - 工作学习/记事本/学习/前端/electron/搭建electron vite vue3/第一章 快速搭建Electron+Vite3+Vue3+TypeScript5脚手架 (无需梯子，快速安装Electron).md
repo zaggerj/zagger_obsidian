@@ -1,3 +1,7 @@
+---
+created: 2023-11-06T08:20
+updated: 2023-11-06T08:20
+---
 # 搭建Vite+Vue3+TypeScript项目
 ## 一、Vite 官网
 1. [Home | Vite中文网 (vitejs.cn)](https://vitejs.cn/)

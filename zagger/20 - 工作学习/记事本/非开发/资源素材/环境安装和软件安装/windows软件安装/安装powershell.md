@@ -1,3 +1,7 @@
+---
+created: 2023-11-06T08:20
+updated: 2023-11-06T12:24
+---
 # 安装powershell
 
 1. netsh winhttp set proxy "127.0.0.1:7890"

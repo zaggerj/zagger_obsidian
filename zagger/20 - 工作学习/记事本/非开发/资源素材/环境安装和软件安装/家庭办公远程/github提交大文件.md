@@ -1,3 +1,7 @@
+---
+created: 2023-11-06T08:20
+updated: 2023-11-06T08:20
+---
 # github提交大文件
 
 [Git Large File Storage | Git Large File Storage (LFS) replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server like GitHub.com or GitHub Enterprise. --- Git 大文件存储 |Git 大文件存储 （LFS） 将音频样本、视频、数据集和图形等大文件替换为 Git 中的文本指针，同时将文件内容存储在 GitHub.com 或 GitHub Enterprise 等远程服务器上。 (git-lfs.com)](https://git-lfs.com/)

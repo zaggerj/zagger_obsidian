@@ -1,3 +1,7 @@
+---
+created: 2023-11-06T08:20
+updated: 2023-11-06T08:20
+---
 # wsl2 docker 环境部署
 
 　　[返回](siyuan://blocks/20230704220020-mlenixa)

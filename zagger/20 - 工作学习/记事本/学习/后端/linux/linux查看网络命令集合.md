@@ -1,3 +1,7 @@
+---
+created: 2023-11-06T08:20
+updated: 2023-11-06T08:20
+---
 # #Linux #network 参考文档
 [5分钟学会查看Linux端口占用情况_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1M94y157Dy/?spm_id_from=333.1007.tianma.8-3-29.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 [5分钟学会Linux的ps命令_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1dN4y1r7y5/?vd_source=af94dc11f0a1751ebb3c2090844ad9f6)

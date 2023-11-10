@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-03T22:29
+---
 > _WASM支持将C/C++/Go/Rust等语言实现的代码编译为浏览器可执行的机器码，从而支持浏览器以接近原生应用的性能运行相关应用。在边缘计算领域，WASM也在尝试建立自己的用例，为边缘应用提供统一的运行环境。原文：Introduction to WebAssembly (WASM)[1]_
 
 WebAssembly于2015年首次发布，第一次演示是在Firefox、Chrome和Edge上执行Unity的Angry Bots游戏。但仅仅过了4年，它就成为了官方标准，是继HTML、CSS和JavaScript之后的第四种Web语言。到目前为止，94%的浏览器已经支持了WebAssembly。它能够在浏览器中实现接近本机的执行速度，使得我们有可能将桌面应用(如AutoCAD)甚至电子游戏(如《Doom 3》)移植到Web。

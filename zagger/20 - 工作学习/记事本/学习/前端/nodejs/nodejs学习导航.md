@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-06T08:20
+---
 # 参考文档
 1. [nodejs版本管理工具（windows） - 掘金 (juejin.cn)](https://juejin.cn/post/7269385060612014095?searchId=202308241507021445E4322701EEDE26A8)
 2. [Nodejs爬虫（高级爬） - 掘金 (juejin.cn)](https://juejin.cn/post/7264753569835810876?searchId=20230814115730609F8B9A1DB229DC8160)

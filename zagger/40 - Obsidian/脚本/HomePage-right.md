@@ -1,3 +1,7 @@
+---
+created: 2023-11-08T08:31
+updated: 2023-11-08T08:31
+---
 ![[Group Copy@2x.png]]
 Photo by [Spencer Davis](https://unsplash.com/@spencerdavis?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/big-sur?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 

@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-06T12:24
+---
 # ftp服务器和npm 临时仓库地址
 
 　　[http://192.168.0.161/releases/trunk/console_ui](http://192.168.0.161/releases/trunk/console_ui)

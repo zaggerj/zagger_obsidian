@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-03T22:29
+---
 # AstroNvim
 
 [(53条消息) 搭建云上的IDE: AstroNvim_Paisins的博客-CSDN博客](https://blog.csdn.net/Dsky_A/article/details/127699321)

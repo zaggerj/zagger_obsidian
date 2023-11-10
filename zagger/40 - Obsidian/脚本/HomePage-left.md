@@ -1,3 +1,7 @@
+---
+created: 2023-11-08T08:31
+updated: 2023-11-08T08:31
+---
 ![[bernd-dittrich-fiXjuBOECs4-unsplash@2x.png]]
 Photo by [Bernd Dittrich](https://unsplash.com/@hdbernd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 

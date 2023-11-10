@@ -1,3 +1,7 @@
+---
+created: 2023-11-08T08:32
+updated: 2023-11-08T08:33
+---
 ```json
 {
   "blue-topaz-theme@@color-scheme-options": "color-scheme-options-simplicity-topaz",

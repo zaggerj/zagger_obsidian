@@ -6,6 +6,8 @@ tags:
   - blog
 aliases:
   - Obsidian的基本使用
+created: 2023-11-06T08:24
+updated: 2023-11-10T15:21
 ---
 
 ## 关于Obsidian的基本使用，这一篇足矣。

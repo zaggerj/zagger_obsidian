@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-03T22:29
+---
 　marshalling  
 　　adj.编组的，集结待发的;  
 　　n.信号编集;  

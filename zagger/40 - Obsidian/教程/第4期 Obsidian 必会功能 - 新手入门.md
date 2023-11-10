@@ -1,11 +1,13 @@
 ---
 searchType: obsidian
-tags: 
-- 教程/obsidian/blog
-- obsidian
-- 教程
+tags:
+  - 教程/obsidian/blog
+  - obsidian
+  - 教程
 aliases:
   - 必会功能
+created: 2023-11-06T08:24
+updated: 2023-11-10T15:21
 ---
 > [!link] TOC
 > [[第1期 Obsidian 牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币|入门基石]] | [[obsidian使用相关/obsidian/第4期 Obsidian 必会功能 - 新手入门|必会功能]]

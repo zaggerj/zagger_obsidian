@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-03T22:29
+---
 ## 参考链接
 1. [自定义指令 — Vue.js (vuejs.org)](https://v2.cn.vuejs.org/v2/guide/custom-directive.html#ad)
 2. [一个指令,释放 1000 行屎山代码 - 掘金 (juejin.cn)](https://juejin.cn/post/7274072378606223415?utm_source=gold_browser_extension)

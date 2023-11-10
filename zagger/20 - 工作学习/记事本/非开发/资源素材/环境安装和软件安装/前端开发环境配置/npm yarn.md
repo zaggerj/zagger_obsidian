@@ -1,3 +1,7 @@
+---
+created: 2023-11-06T08:20
+updated: 2023-11-06T08:20
+---
 # npm yarn
 
 　　npm i -g nrm --registry=[https://registry.npmmirror.com](https://registry.npmmirror.com)

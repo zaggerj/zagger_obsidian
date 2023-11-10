@@ -1,3 +1,7 @@
+---
+created: 2023-11-06T08:20
+updated: 2023-11-06T08:20
+---
 ## 链接地址
 1. [JavaScript中文网 - 现代 JavaScript 教程 (p2hp.com)](https://javascript.p2hp.com/index.html#tab-3)
 2. [开始 – React (p2hp.com)](https://reactjs.p2hp.com/docs/getting-started.html#javascript-resources)

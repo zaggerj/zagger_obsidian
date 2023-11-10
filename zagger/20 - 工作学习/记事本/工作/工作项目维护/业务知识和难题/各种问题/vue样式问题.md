@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-03T22:29
+---
 # vue样式问题
 
 　　1\. scoped 配合 /deep/ \>\>\> ::/deep/，想修改element-ui某个深层元素

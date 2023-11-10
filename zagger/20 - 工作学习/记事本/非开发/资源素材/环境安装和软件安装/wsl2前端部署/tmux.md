@@ -1,3 +1,7 @@
+---
+created: 2023-11-06T08:20
+updated: 2023-11-06T08:20
+---
 # tmux
 
 　　[一文了解终端神器tmux - sureZ_ok - 博客园 (cnblogs.com)](https://www.cnblogs.com/sureZ-learning/p/16754905.html)

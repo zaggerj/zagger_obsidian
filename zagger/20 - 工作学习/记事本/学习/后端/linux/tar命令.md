@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-03T22:29
+---
 # tar命令
 ## 参考文档
 1. [Linux笔记06-压缩解压命令_tar -zcf_浮尘笔记的博客-CSDN博客](https://blog.csdn.net/rxbook/article/details/106059408)

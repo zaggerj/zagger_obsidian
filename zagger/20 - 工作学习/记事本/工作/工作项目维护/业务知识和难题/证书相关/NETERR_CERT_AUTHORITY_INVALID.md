@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-03T22:29
+---
 # NET::ERR_CERT_AUTHORITY_INVALID
 
 - 错误类型：浏览器错误

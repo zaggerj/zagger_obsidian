@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-03T22:29
+---
 # busconnection.js
 
 　　init: 接收ws,接收了集群节点选择？，是否是二进制？

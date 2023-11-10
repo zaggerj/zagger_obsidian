@@ -1,5 +1,7 @@
 ---
-tags: zettelkasten 生词/英文 
+tags: zettelkasten 生词/英文
+created: 2023-11-06T08:24
+updated: 2023-11-06T08:24
 ---
 
 A _cohort_ is a group of people who are around the same age, like a _cohort_ of college students who have similar experiences and concerns.

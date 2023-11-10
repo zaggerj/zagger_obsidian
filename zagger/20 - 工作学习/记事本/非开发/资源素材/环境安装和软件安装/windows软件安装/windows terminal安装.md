@@ -1,3 +1,7 @@
+---
+created: 2023-11-06T08:20
+updated: 2023-11-06T08:20
+---
 # windows terminal安装
 
 　　等距更纱黑体 SC 下载

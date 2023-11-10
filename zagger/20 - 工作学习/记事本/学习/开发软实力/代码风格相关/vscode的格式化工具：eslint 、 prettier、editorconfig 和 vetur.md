@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-03T22:29
+---
 # vscode的格式化工具：eslint 、 prettier、editorconfig 和 vetur
 
 ### 文章目录

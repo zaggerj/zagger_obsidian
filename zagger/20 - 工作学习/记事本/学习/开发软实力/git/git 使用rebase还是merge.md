@@ -1,3 +1,7 @@
+---
+created: 2023-11-06T08:20
+updated: 2023-11-06T08:20
+---
 # AI 的答案 #merge和rebase
 1. 问题：合并分支的最佳实践方式 git merge git rebase
 2. 答案：

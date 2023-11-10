@@ -6,6 +6,8 @@ tags:
 aliases:
   - obsidian指南
 number headings: auto, first-level 1, max 6, 1.1
+created: 2023-11-06T08:24
+updated: 2023-11-10T17:12
 ---
 
 ## 0.1 Metadata
@@ -68,4 +70,6 @@ Page Link::
 19. [[玩转 Obsidian 02：基础设置篇 - 少数派]] [玩转 Obsidian 02：基础设置篇 - 少数派](https://sspai.com/post/63481)
 20. [Obsidian中有哪些好用的插件值得推荐？ - 知乎](https://www.zhihu.com/question/497487995/answer/3097956845?utm_id=0)
 21. [介绍几种Obsidian的进阶版插件 - 知乎](https://zhuanlan.zhihu.com/p/580851046)
+22. [笔记软件 Obsidian 使用教程 & 学习资源汇总：从入门到精通 - 知乎](https://zhuanlan.zhihu.com/p/619960525)
+23. [Obsidian 使用教程：如何高效使用 Obsidian ？快来看看专家用户基于 Obsidian 的开箱即用库 - 知乎](https://zhuanlan.zhihu.com/p/619967023)
 

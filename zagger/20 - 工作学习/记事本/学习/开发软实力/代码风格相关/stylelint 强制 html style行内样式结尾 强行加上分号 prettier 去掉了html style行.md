@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-03T22:29
+---
 如果你同时使用 stylelint 和 Prettier，并且 Prettier 删除了 HTML 行内样式的分号，但你希望保留分号，可以使用以下步骤进行配置：
 
 配置 stylelint：

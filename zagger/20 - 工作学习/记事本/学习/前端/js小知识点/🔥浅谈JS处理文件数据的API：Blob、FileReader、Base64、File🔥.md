@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T22:29
+updated: 2023-11-03T22:29
+---
 在前端开发中，开发者常常会使用文件上传、下载或数据转换的操作。`JavaScript` 提供了许多 API 来处理二进制数据和转换数据流，如：`ArrayBuffer`、`FileReader`、`base64` 、`Blob`、`File`等，他们之间的转换与联系如下所示。
 
 ![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/883babfab890407ba396213ec36811bb~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
