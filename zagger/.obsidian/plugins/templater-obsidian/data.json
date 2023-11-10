@@ -3,14 +3,18 @@
   "templates_folder": "40 - Obsidian/模板",
   "templates_pairs": [
     [
+      "test",
+      "echo \"123123\""
+    ],
+    [
       "",
       ""
     ]
   ],
   "trigger_on_file_creation": true,
   "auto_jump_to_cursor": true,
-  "enable_system_commands": false,
-  "shell_path": "",
+  "enable_system_commands": true,
+  "shell_path": "D:\\\\GlobalScoopApps\\\\apps\\\\git\\\\current\\\\bin\\\\bash.exe",
   "user_scripts_folder": "40 - Obsidian/模板/script",
   "enable_folder_templates": true,
   "folder_templates": [

@@ -1,12 +1,92 @@
 {
   "recentFiles": [
     {
-      "basename": "00. 主页",
-      "path": "40 - Obsidian/主页/00. 主页.md"
+      "basename": "obsidian清单",
+      "path": "40 - Obsidian/教程/obsidian清单.md"
+    },
+    {
+      "basename": "obsidian贴图",
+      "path": "40 - Obsidian/教程/obsidian贴图.md"
     },
     {
       "basename": "00. 导航",
       "path": "40 - Obsidian/主页/00. 导航.md"
+    },
+    {
+      "basename": "教程",
+      "path": "40 - Obsidian/教程/教程.md"
+    },
+    {
+      "basename": "10 - 人员管理",
+      "path": "10 - 人员管理/10 - 人员管理.md"
+    },
+    {
+      "basename": "00. 主页",
+      "path": "40 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "a 服务器相关命令",
+      "path": "20 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md"
+    },
+    {
+      "basename": "localsend",
+      "path": "20 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/同步软件/localsend.md"
+    },
+    {
+      "basename": "翻墙清单啊",
+      "path": "20 - 工作学习/记事本/非开发/资源素材/翻墙/翻墙清单啊.md"
+    },
+    {
+      "basename": "网站一键置灰实现",
+      "path": "20 - 工作学习/记事本/非开发/其他/网站一键置灰实现.md"
+    },
+    {
+      "basename": "焦虑",
+      "path": "20 - 工作学习/记事本/非开发/生活/思想建设/焦虑.md"
+    },
+    {
+      "basename": "豆豆上学导学",
+      "path": "20 - 工作学习/记事本/非开发/生活/思想建设/豆豆上学导学.md"
+    },
+    {
+      "basename": "windows zsh配置备份 20234015-zagger",
+      "path": "20 - 工作学习/记事本/非开发/文件备份/windows zsh配置备份 20234015-zagger.md"
+    },
+    {
+      "basename": "脚本文件",
+      "path": "20 - 工作学习/记事本/非开发/文件备份/脚本文件.md"
+    },
+    {
+      "basename": "未命名 1",
+      "path": "60 - 临时/未命名 1.md"
+    },
+    {
+      "basename": "基础模板",
+      "path": "40 - Obsidian/模板/基础模板.md"
+    },
+    {
+      "basename": "引发的管理台项目可配置",
+      "path": "20 - 工作学习/工作/引发的管理台项目可配置.md"
+    },
+    {
+      "basename": "personal token",
+      "path": "20 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/personal token.md"
+    },
+    {
+      "basename": "linux文件系统",
+      "path": "20 - 工作学习/学习/linux文件系统.md"
+    },
+    {
+      "basename": "tp-长青笔记模板",
+      "path": "40 - Obsidian/模板/tp-长青笔记模板.md"
+    },
+    {
+      "basename": "2023年11月10日",
+      "path": "00 - 每日日记/DailyNote/2023年11月10日.md"
+    },
+    {
+      "basename": "tp-默认笔记模板",
+      "path": "40 - Obsidian/模板/tp-默认笔记模板.md"
     },
     {
       "basename": "2023年11月09日",
@@ -18,7 +98,7 @@
     },
     {
       "basename": "tp-每日日记模板",
-      "path": "40 - Obsidian/模板/templater/tp-每日日记模板.md"
+      "path": "40 - Obsidian/模板/tp-每日日记模板.md"
     },
     {
       "basename": "2023年45周记录",
@@ -34,11 +114,7 @@
     },
     {
       "basename": "tp-每周周记模板",
-      "path": "40 - Obsidian/模板/templater/tp-每周周记模板.md"
-    },
-    {
-      "basename": "tp-默认笔记模板",
-      "path": "40 - Obsidian/模板/templater/tp-默认笔记模板.md"
+      "path": "40 - Obsidian/模板/tp-每周周记模板.md"
     },
     {
       "basename": "2023年11月06日",
@@ -57,20 +133,8 @@
       "path": "60 - 临时/模糊分类.md"
     },
     {
-      "basename": "a 服务器相关命令",
-      "path": "20 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md"
-    },
-    {
-      "basename": "obsidian清单",
-      "path": "40 - Obsidian/教程/obsidian清单.md"
-    },
-    {
-      "basename": "tp-长青笔记模板",
-      "path": "40 - Obsidian/模板/templater/tp-长青笔记模板.md"
-    },
-    {
       "basename": "tp-daily",
-      "path": "40 - Obsidian/模板/templater/tp-daily.md"
+      "path": "40 - Obsidian/模板/tp-daily.md"
     },
     {
       "basename": "2022年05月13日",
@@ -82,27 +146,23 @@
     },
     {
       "basename": "02 手动选择模板",
-      "path": "40 - Obsidian/模板/templater/02 手动选择模板.md"
+      "path": "40 - Obsidian/模板/02 手动选择模板.md"
     },
     {
       "basename": "03 选择学习相关模板",
-      "path": "40 - Obsidian/模板/templater/03 选择学习相关模板.md"
+      "path": "40 - Obsidian/模板/03 选择学习相关模板.md"
     },
     {
       "basename": "01 自动选择模板",
-      "path": "40 - Obsidian/模板/templater/01 自动选择模板.md"
+      "path": "40 - Obsidian/模板/01 自动选择模板.md"
     },
     {
       "basename": "tp-物品模板",
-      "path": "40 - Obsidian/模板/templater/tp-物品模板.md"
+      "path": "40 - Obsidian/模板/tp-物品模板.md"
     },
     {
       "basename": "tp-人物模板",
-      "path": "40 - Obsidian/模板/templater/tp-人物模板.md"
-    },
-    {
-      "basename": "personal token",
-      "path": "20 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/personal token.md"
+      "path": "40 - Obsidian/模板/tp-人物模板.md"
     },
     {
       "basename": "2023-10-13",
@@ -129,10 +189,6 @@
       "path": "40 - Obsidian/教程/obsidian教程.md"
     },
     {
-      "basename": "基础模板",
-      "path": "40 - Obsidian/模板/基础模板.md"
-    },
-    {
       "basename": "汇总所有在线文档",
       "path": "20 - 工作学习/工作/汇总所有在线文档.md"
     },
@@ -141,32 +197,8 @@
       "path": "40 - Obsidian/附件/}[YAY}4`V3EH[RB]0}29_00.png"
     },
     {
-      "basename": "100911654141903_.pic",
-      "path": "40 - Obsidian/附件/100911654141903_.pic.jpg"
-    },
-    {
       "basename": "personal token-zagger",
       "path": "20 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/personal token-zagger.md"
-    },
-    {
-      "basename": "玩转 Obsidian 01：打造知识循环利器 - 少数派",
-      "path": "40 - Obsidian/教程/玩转 Obsidian 01：打造知识循环利器 - 少数派.md"
-    },
-    {
-      "basename": "1.10 `错误处理`",
-      "path": "20 - 工作学习/记事本/学习/学习计划脚本/js文档学习笔记/1.10 `错误处理`.md"
-    },
-    {
-      "basename": "玩转 Obsidian 02：基础设置篇 - 少数派",
-      "path": "40 - Obsidian/教程/玩转 Obsidian 02：基础设置篇 - 少数派.md"
-    },
-    {
-      "basename": "tp-日记模板",
-      "path": "40 - Obsidian/模板/tp-日记模板.md"
-    },
-    {
-      "basename": "kos2023透明效果问题",
-      "path": "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/kos2023透明效果问题.md"
     }
   ],
   "omittedPaths": [],

@@ -9,7 +9,7 @@
   "strictLineBreaks": false,
   "readableLineLength": false,
   "autoConvertHtml": true,
-  "promptDelete": false,
+  "promptDelete": true,
   "pdfExportSettings": {
     "pageSize": "Letter",
     "landscape": false,

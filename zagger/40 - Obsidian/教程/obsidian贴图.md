@@ -96,9 +96,12 @@ obsidian有点折腾了，插件也过于重了。
 	* `\((type::\S*)\)`
 	* `\n[$1]`
 	* ![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/pic20231108183631.png)
+### 0.4.6 调出来console
+`ctrl+shift+i`
+使用[快捷键](https://www.zhihu.com/search?q=%E5%BF%AB%E6%8D%B7%E9%94%AE&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A3097956845%7D)ctrl+shift+i**查看错误信息。
 
 
 ## 0.5 相关文章
 Page Link::  [玩转 Obsidian 01：打造知识循环利器 - 少数派](https://sspai.com/post/62414) [[Obsidian-Highlights]]
-
+[[obsidian清单]]
 

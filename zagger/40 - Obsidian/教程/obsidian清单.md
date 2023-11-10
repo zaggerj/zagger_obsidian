@@ -15,7 +15,7 @@ Topic:: [[obsidian清单]]
 Author:: {原资讯的作者或者对话的人或者引起某种想法的原因}
 Source URL:: 
 Modify:: `=dateformat(this.file.mtime, "yyyy-MM-dd HH:MM:ss")`
-
+[[obsidian贴图]]
 ## 0.2 长青笔记
 *一句话概括这篇笔记的内容*
 Summary:: obsidian各种文章、博客、文档的连接集合
@@ -65,4 +65,6 @@ Page Link::
 17. [Dataviewjs 的奇技淫巧 - 经验分享 - Obsidian 中文论坛](https://forum-zh.obsidian.md/t/topic/5954/67)
 18. [[玩转 Obsidian 01：打造知识循环利器 - 少数派]] [玩转 Obsidian 01：打造知识循环利器 - 少数派](https://sspai.com/post/62414)
 19. [[玩转 Obsidian 02：基础设置篇 - 少数派]] [玩转 Obsidian 02：基础设置篇 - 少数派](https://sspai.com/post/63481)
+20. [Obsidian中有哪些好用的插件值得推荐？ - 知乎](https://www.zhihu.com/question/497487995/answer/3097956845?utm_id=0)
+21. [介绍几种Obsidian的进阶版插件 - 知乎](https://zhuanlan.zhihu.com/p/580851046)
 

@@ -13,14 +13,36 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md",
-                "mode": "preview",
+                "file": "40 - Obsidian/教程/obsidian贴图.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
+          },
+          {
+            "id": "e906ee58d845bac6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "40 - Obsidian/教程/obsidian清单.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3e50939a301cd38e",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -148,7 +170,7 @@
               "type": "markdown",
               "state": {
                 "file": "40 - Obsidian/主页/00. 导航.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -175,7 +197,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md"
+                "file": "40 - Obsidian/教程/obsidian清单.md"
               }
             }
           },
@@ -201,7 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md",
+                "file": "40 - Obsidian/教程/obsidian清单.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md",
+                "file": "40 - Obsidian/教程/obsidian清单.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +252,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md"
+                "file": "40 - Obsidian/教程/obsidian清单.md"
               }
             }
           },
@@ -249,6 +271,14 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "367b7bd19e2194e8",
+            "type": "leaf",
+            "state": {
+              "type": "online.larslockefeer.obsidian-plugin-todo",
               "state": {}
             }
           }
@@ -284,6 +314,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "omnisearch:Omnisearch": false,
       "periodic-notes:Open today": false,
       "homepage:Open homepage": false,
       "switcher:打开快速切换": false,
@@ -292,58 +323,58 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "markdown-importer:打开 Markdown 格式转换器": true,
-      "zk-prefixer:创建时间戳笔记": true,
-      "random-note:开始漫游笔记": true,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "zk-prefixer:创建时间戳笔记": false,
+      "random-note:开始漫游笔记": false,
       "audio-recorder:开始/结束录音": false,
       "workspaces:管理工作区布局": false,
-      "obsidian-importer:Open Importer": true,
-      "table-editor-obsidian:Advanced Tables Toolbar": true,
-      "mermaid-tools:Open Mermaid Toolbar": true,
-      "obsidian-day-planner:Timeline": true,
+      "obsidian-importer:Open Importer": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-day-planner:Timeline": false,
       "cmdr:折叠": false,
       "custom-sort:Toggle custom sorting": false,
-      "file-tree-alternative:File Tree Alternative Plugin": true,
-      "templater-obsidian:Templater": true,
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "templater-obsidian:Templater": false,
       "remotely-save:Remotely Save": false,
       "float-search:Search Obsidian In Modal": false,
-      "dbfolder:创建一个新数据库表": true,
+      "dbfolder:创建一个新数据库表": false,
       "surfing:surfing-bookmark-manager": false,
       "big-calendar:Big Calendar": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": true,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-memos:Memos": false,
-      "omnisearch:Omnisearch": false
+      "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "d835b58d6ad1a6d7",
+  "active": "e906ee58d845bac6",
   "lastOpenFiles": [
-    "40 - Obsidian/主页/00. 导航.md",
-    "00 - 每日日记/DailyNote/2023年11月08日.md",
-    "00 - 每日日记/DailyNote/2023年11月09日.md",
-    "40 - Obsidian/模板/templater/tp-每日日记模板.md",
-    "00 - 每日日记/WeeklyNote/2023年45周记录.md",
-    "00 - 每日日记/DailyNote/2023年11月07日.md",
-    "20 - 工作学习/记事本/工作/工作计划/最新工作安排/最新工作安排.md",
-    "40 - Obsidian/模板/templater/tp-每周周记模板.md",
-    "40 - Obsidian/模板/templater/tp-默认笔记模板.md",
-    "60 - 临时/未命名.md",
-    "60 - 临时/默认.md",
-    "00 - 每日日记/DailyNote/2023年11月06日.md",
-    "40 - Obsidian/模板/每日日记模板.md",
-    "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/webspice kos系统 中无法上传.md",
-    "40 - Obsidian/主页/00. 主页.md",
-    "00 - 每日日记/DailyNote/DailyNote.md",
-    "20 - 工作学习/记事本/学习/开发软实力/git/git 文档清单.md",
-    "20 - 工作学习/01 写作学习/dataviewjs-收集链接.md",
-    "20 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
-    "60 - 临时/模糊分类.md",
-    "60 - 临时",
+    "40 - Obsidian/教程/obsidian贴图.md",
     "40 - Obsidian/教程/obsidian清单.md",
-    "40 - Obsidian/模板/templater/tp-长青笔记模板.md",
-    "40 - Obsidian/模板/templater/tp-daily.md",
-    "40 - Obsidian/模板/每周周记模板.md",
-    "00 - 每日日记/WeeklyNote/WeeklyNote.md",
-    "00 - 每日日记/DailyNote/2022年05月13日.md",
+    "40 - Obsidian/主页/00. 导航.md",
+    "40 - Obsidian/教程/教程.md",
+    "10 - 人员管理/10 - 人员管理.md",
+    "40 - Obsidian/主页/00. 主页.md",
+    "20 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/同步软件/localsend.md",
+    "20 - 工作学习/记事本/非开发/资源素材/翻墙/翻墙清单啊.md",
+    "20 - 工作学习/记事本/非开发/其他/网站一键置灰实现.md",
+    "20 - 工作学习/记事本/非开发/生活/思想建设/焦虑.md",
+    "20 - 工作学习/记事本/非开发/生活/思想建设/豆豆上学导学.md",
+    "20 - 工作学习/记事本/非开发/文件备份/windows zsh配置备份 20234015-zagger.md",
+    "20 - 工作学习/记事本/非开发/文件备份/脚本文件.md",
+    "60 - 临时/未命名 1.md",
+    "20 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
+    "40 - Obsidian/模板/基础模板.md",
+    "20 - 工作学习/工作/引发的管理台项目可配置.md",
+    "20 - 工作学习/工作/00. 工作.md",
+    "20 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/personal token.md",
+    "20 - 工作学习/学习/linux文件系统.md",
+    "40 - Obsidian/模板/tp-长青笔记模板.md",
+    "00 - 每日日记/DailyNote/2023年11月10日.md",
+    "40 - Obsidian/模板/tp-默认笔记模板.md",
+    "00 - 每日日记/DailyNote/2023年11月09日.md",
+    "00 - 每日日记/DailyNote/2023年11月08日.md",
+    "40 - Obsidian/模板/tp-每日日记模板.md",
+    "60 - 临时",
     "10 - 人员管理/生活/01 物品",
     "20 - 工作学习/非开发",
     "20 - 工作学习/01 写作学习",

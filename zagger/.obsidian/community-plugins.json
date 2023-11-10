@@ -62,5 +62,18 @@
   "obsidian-emoji-toolbar",
   "last-modified-timestamp-in-status-bar",
   "number-headings-obsidian",
-  "omnisearch"
+  "omnisearch",
+  "obsidian-auto-link-title",
+  "link-favicon",
+  "oz-clear-unused-images",
+  "obsidian-image-toolkit",
+  "find-and-replace-in-selection",
+  "folder-note-plugin",
+  "note-refactor-obsidian",
+  "obsidian-view-mode-by-frontmatter",
+  "obsidian-hotkeys-for-templates",
+  "hotkey-helper",
+  "mousewheel-image-zoom",
+  "obsidian-full-calendar",
+  "obsidian-plugin-todo"
 ]

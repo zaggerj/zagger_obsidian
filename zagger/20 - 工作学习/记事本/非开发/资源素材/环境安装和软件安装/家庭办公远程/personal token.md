@@ -3,8 +3,10 @@
 　　‍
 
 > Github #token : `PidLB1zz-mThBZwpEVNB`
-> `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`
-> `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`
+>
+> picgo:`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`
 > [[obsidian贴图|图床配置]]
 > 码云 #token : `5d4288b4249c09dfbcd0036395c10ede`
 
+
+![image.png](https:cdn.jsdelivr.net/gh/zaggerj/obsidian_picgo/obsidian/20231110114349.png)
