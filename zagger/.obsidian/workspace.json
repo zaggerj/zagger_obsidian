@@ -13,119 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - 每日日记/WeeklyNote/2023年45周记录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8ed0cbcd0f5eae6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "40 - Obsidian/模板/templater/tp-每日日记模板.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "1aaaf94a2ff0b0e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "40 - Obsidian/模板/templater/tp-默认笔记模板.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "15b24f18e2428325",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "40 - Obsidian/模板/templater/tp-每周周记模板.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9a76e7cabc90f11e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20 - 工作学习/记事本/工作/工作计划/最新工作安排/最新工作安排.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0f353bb75f18c4a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 - 每日日记/DailyNote/2023年11月07日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b411ad1ea0b149ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 - 每日日记/DailyNote/2023年11月06日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1a58e54ded066c02",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 - 每日日记/DailyNote/2023年11月08日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a607ba276f3046ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 - 每日日记/DailyNote/2023年11月09日.md",
-                "mode": "source",
+                "file": "40 - Obsidian/主页/00. 主页.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -280,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "40 - Obsidian/模板/templater/tp-每日日记模板.md"
+                "file": "40 - Obsidian/主页/00. 主页.md"
               }
             }
           },
@@ -306,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "40 - Obsidian/模板/templater/tp-每日日记模板.md",
+                "file": "40 - Obsidian/主页/00. 主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -323,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "40 - Obsidian/模板/templater/tp-每日日记模板.md",
+                "file": "40 - Obsidian/主页/00. 主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -335,7 +230,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "40 - Obsidian/模板/templater/tp-每日日记模板.md"
+                "file": "40 - Obsidian/主页/00. 主页.md"
               }
             }
           },
@@ -380,7 +275,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -415,26 +311,27 @@
       "surfing:surfing-bookmark-manager": false,
       "big-calendar:Big Calendar": false,
       "obsidian-excalidraw-plugin:新建绘图文件": true,
-      "obsidian-memos:Memos": false
+      "obsidian-memos:Memos": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "23fad819ff207865",
+  "active": "d835b58d6ad1a6d7",
   "lastOpenFiles": [
-    "40 - Obsidian/模板/templater/tp-每周周记模板.md",
-    "40 - Obsidian/模板/templater/tp-默认笔记模板.md",
-    "40 - Obsidian/模板/templater/tp-每日日记模板.md",
-    "00 - 每日日记/WeeklyNote/2023年45周记录.md",
-    "60 - 临时/未命名.md",
-    "60 - 临时/默认.md",
-    "20 - 工作学习/记事本/工作/工作计划/最新工作安排/最新工作安排.md",
-    "00 - 每日日记/DailyNote/2023年11月07日.md",
-    "00 - 每日日记/DailyNote/2023年11月06日.md",
+    "40 - Obsidian/主页/00. 导航.md",
     "00 - 每日日记/DailyNote/2023年11月08日.md",
     "00 - 每日日记/DailyNote/2023年11月09日.md",
+    "40 - Obsidian/模板/templater/tp-每日日记模板.md",
+    "00 - 每日日记/WeeklyNote/2023年45周记录.md",
+    "00 - 每日日记/DailyNote/2023年11月07日.md",
+    "20 - 工作学习/记事本/工作/工作计划/最新工作安排/最新工作安排.md",
+    "40 - Obsidian/模板/templater/tp-每周周记模板.md",
+    "40 - Obsidian/模板/templater/tp-默认笔记模板.md",
+    "60 - 临时/未命名.md",
+    "60 - 临时/默认.md",
+    "00 - 每日日记/DailyNote/2023年11月06日.md",
     "40 - Obsidian/模板/每日日记模板.md",
     "20 - 工作学习/记事本/工作/工作项目维护/业务知识和难题/spice/webspice kos系统 中无法上传.md",
     "40 - Obsidian/主页/00. 主页.md",
-    "40 - Obsidian/主页/00. 导航.md",
     "00 - 每日日记/DailyNote/DailyNote.md",
     "20 - 工作学习/记事本/学习/开发软实力/git/git 文档清单.md",
     "20 - 工作学习/01 写作学习/dataviewjs-收集链接.md",
