@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md",
+                "file": "00 - 每日日记/DailyNote/2023年11月10日.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md"
+                "file": "00 - 每日日记/DailyNote/2023年11月10日.md"
               }
             }
           },
@@ -201,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md",
+                "file": "00 - 每日日记/DailyNote/2023年11月10日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md",
+                "file": "00 - 每日日记/DailyNote/2023年11月10日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +230,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "40 - Obsidian/主页/00. 主页.md"
+                "file": "00 - 每日日记/DailyNote/2023年11月10日.md"
               }
             }
           },
@@ -275,8 +275,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -320,11 +319,11 @@
   },
   "active": "d835b58d6ad1a6d7",
   "lastOpenFiles": [
+    "40 - Obsidian/主页/00. 主页.md",
     "40 - Obsidian/主页/00. 导航.md",
     "40 - Obsidian/教程/obsidian清单.md",
     "20 - 工作学习/学习/obsidian插件列表.md",
     "00 - 每日日记/DailyNote/2023年11月10日.md",
-    "40 - Obsidian/主页/00. 主页.md",
     "20 - 工作学习/工作/迁移wsl2.md",
     "20 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/personal token.md",
     "20 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
