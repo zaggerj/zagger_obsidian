@@ -1,4 +1,5 @@
 ---
+searchType: obsidian
 aliases: 
 tags:
   - 教程/obsidian/图片

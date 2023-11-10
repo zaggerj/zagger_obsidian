@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40 - Obsidian/教程/obsidian清单.md",
+                "file": "40 - Obsidian/教程/教程.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -197,7 +197,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "40 - Obsidian/教程/obsidian清单.md"
+                "file": "40 - Obsidian/教程/教程.md"
               }
             }
           },
@@ -223,7 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "40 - Obsidian/教程/obsidian清单.md",
+                "file": "40 - Obsidian/教程/教程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -240,7 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "40 - Obsidian/教程/obsidian清单.md",
+                "file": "40 - Obsidian/教程/教程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -252,7 +252,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "40 - Obsidian/教程/obsidian清单.md"
+                "file": "40 - Obsidian/教程/教程.md"
               }
             }
           },
@@ -348,8 +348,8 @@
   },
   "active": "e906ee58d845bac6",
   "lastOpenFiles": [
-    "40 - Obsidian/教程/obsidian贴图.md",
     "40 - Obsidian/教程/obsidian清单.md",
+    "40 - Obsidian/教程/obsidian贴图.md",
     "40 - Obsidian/主页/00. 导航.md",
     "40 - Obsidian/教程/教程.md",
     "10 - 人员管理/10 - 人员管理.md",

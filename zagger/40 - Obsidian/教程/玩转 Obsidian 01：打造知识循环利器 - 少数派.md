@@ -1,3 +1,6 @@
+---
+searchType: obsidian
+---
 最近随着 [Roam Research](https://sspai.com/link?target=https%3A%2F%2Froamresearch.com%2F) 的流行，越来越多的人了解到 Zettelkasten 这种笔记管理方法，它也被称为「卡片盒笔记法」。在各路大咖各种渠道的大力推广下，Roam Research 俨然扛起了 Zettelkasten 的大旗。诚然 Roam Research 非常优秀，但是其相对高昂的价格也让一些人望而却步，所以今天王掌柜带着大家一起玩转一款免费的 Zettelkasten 笔记软件——[Obsidian](https://sspai.com/link?target=https%3A%2F%2Fobsidian.md%2F)。
 
 ## 起因

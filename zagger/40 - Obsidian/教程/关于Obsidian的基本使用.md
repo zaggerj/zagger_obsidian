@@ -1,4 +1,5 @@
 ---
+searchType: obsidian
 tags:
   - 教程/obsidian/blog
   - obsidian

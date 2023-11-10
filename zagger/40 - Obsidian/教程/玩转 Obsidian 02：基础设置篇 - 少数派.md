@@ -1,3 +1,6 @@
+---
+searchType: obsidian
+---
 [Obsidian](https://sspai.com/link?target=https%3A%2F%2Fobsidian.md%2F) 是一款非常优秀的「现代化」笔记管理工具，因其快速的功能迭代和优秀社区活跃度，成为了近期较为热门的笔记软件之一。个人经过一段时间的使用和体验，认为 Obsidian 已经具备了成为「主力笔记管理软件」的能力，并陆续将自己的笔记迁移到 Obsidian 上进行管理。
 
 Obsidian 和其他常见的「笔记软件」有什么不同，它具备哪些优势，以及想要用好 Obsidian 有哪些「方法论」，我在上一篇文章《[玩转 Obsidian | 打造知识循环利器](https://sspai.com/post/62414)》中有过详细的阐述，感兴趣的同学可以先翻过去了解一下。
