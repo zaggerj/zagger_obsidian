@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "40 - Obsidian/主页/00. 主页.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "40 - Obsidian/主页/00. 导航.md"
+                "file": "40 - Obsidian/主页/00. 主页.md"
               }
             }
           },
@@ -201,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "40 - Obsidian/主页/00. 导航.md",
+                "file": "40 - Obsidian/主页/00. 主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "40 - Obsidian/主页/00. 导航.md",
+                "file": "40 - Obsidian/主页/00. 主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +230,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "40 - Obsidian/主页/00. 导航.md"
+                "file": "40 - Obsidian/主页/00. 主页.md"
               }
             }
           },
@@ -312,15 +312,15 @@
       "templater-obsidian:Templater": true,
       "remotely-save:Remotely Save": false,
       "float-search:Search Obsidian In Modal": false,
-      "dbfolder:创建一个新数据库表": true,
       "surfing:surfing-bookmark-manager": false,
       "big-calendar:Big Calendar": false,
       "obsidian-excalidraw-plugin:新建绘图文件": true,
       "obsidian-memos:Memos": false
     }
   },
-  "active": "cd06d04dbc147ecb",
+  "active": "d835b58d6ad1a6d7",
   "lastOpenFiles": [
+    "40 - Obsidian/主页/00. 导航.md",
     "40 - Obsidian/教程/obsidian清单.md",
     "20 - 工作学习/学习/obsidian插件列表.md",
     "00 - 每日日记/DailyNote/2023年11月10日.md",
@@ -337,7 +337,6 @@
     "00 - 每日日记/DailyNote/DailyNote.md",
     "00 - 每日日记/DailyNote/2023年11月06日.md",
     "00 - 每日日记/DailyNote/2023年11月08日.md",
-    "40 - Obsidian/主页/00. 导航.md",
     "40 - Obsidian/模板/模板.md",
     "40 - Obsidian/模板/tp-daily.md",
     "40 - Obsidian/模板/tp-每日日记模板.md",
