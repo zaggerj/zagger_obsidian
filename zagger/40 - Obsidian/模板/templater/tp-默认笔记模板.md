@@ -20,6 +20,7 @@ Source Type::  <% tp.system.suggester(["💭想法", "📚书籍", "📰️文�
 Note Type::  <% tp.system.suggester(["笔记", "MOC"], ["#笔记", "#MOC"],false, "笔记类型是？") %>
 Topic:: [[<% tp.system.prompt("这个笔记对应的主题MOC ", "DailyNote") %>]]
 Author:: {原资讯的作者或者对话的人或者引起某种想法的原因}
+Modify:: `=dateformat(this.file.mtime, "yyyy-MM-dd HH:MM:ss")`
 
 
 <%-*  let filetype = await tp.system.suggester(["放入日记", "放入工作", "放入学习", "归入人脉"], ["日记","工作", "学习", "人脉"], false, "Which template do you want to use?") 
