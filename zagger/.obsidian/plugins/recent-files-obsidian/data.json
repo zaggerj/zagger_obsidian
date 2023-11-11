@@ -1,10 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "2023年11月10日",
-      "path": "00 - 每日日记/DailyNote/2023年11月10日.md"
-    },
-    {
       "basename": "00. 主页",
       "path": "40 - Obsidian/主页/00. 主页.md"
     },
@@ -13,192 +9,104 @@
       "path": "40 - Obsidian/主页/00. 导航.md"
     },
     {
-      "basename": "2023年11月09日",
-      "path": "00 - 每日日记/DailyNote/2023年11月09日.md"
-    },
-    {
-      "basename": "obsidian清单",
-      "path": "40 - Obsidian/教程/obsidian清单.md"
-    },
-    {
-      "basename": "obsidian插件列表",
-      "path": "20 - 工作学习/学习/obsidian插件列表.md"
-    },
-    {
-      "basename": "迁移wsl2",
-      "path": "20 - 工作学习/工作/迁移wsl2.md"
-    },
-    {
-      "basename": "personal token",
-      "path": "20 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/personal token.md"
-    },
-    {
-      "basename": "a 服务器相关命令",
-      "path": "20 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md"
-    },
-    {
       "basename": "教程",
       "path": "40 - Obsidian/教程/教程.md"
-    },
-    {
-      "basename": "多语言系统化实现",
-      "path": "20 - 工作学习/工作/多语言系统化实现.md"
-    },
-    {
-      "basename": "引发的管理台项目可配置",
-      "path": "20 - 工作学习/工作/引发的管理台项目可配置.md"
-    },
-    {
-      "basename": "obsidian贴图",
-      "path": "40 - Obsidian/教程/obsidian贴图.md"
-    },
-    {
-      "basename": "2023年45周记录",
-      "path": "00 - 每日日记/WeeklyNote/2023年45周记录.md"
-    },
-    {
-      "basename": "DailyNote",
-      "path": "00 - 每日日记/DailyNote/DailyNote.md"
-    },
-    {
-      "basename": "2023年11月06日",
-      "path": "00 - 每日日记/DailyNote/2023年11月06日.md"
-    },
-    {
-      "basename": "2023年11月08日",
-      "path": "00 - 每日日记/DailyNote/2023年11月08日.md"
     },
     {
       "basename": "模板",
       "path": "40 - Obsidian/模板/模板.md"
     },
     {
-      "basename": "tp-daily",
-      "path": "40 - Obsidian/模板/tp-daily.md"
-    },
-    {
       "basename": "tp-每日日记模板",
       "path": "40 - Obsidian/模板/tp-每日日记模板.md"
-    },
-    {
-      "basename": "新建代码模板",
-      "path": "40 - Obsidian/模板/新建代码模板.md"
-    },
-    {
-      "basename": "阅读笔记模板",
-      "path": "40 - Obsidian/模板/阅读笔记模板.md"
-    },
-    {
-      "basename": "The One",
-      "path": "40 - Obsidian/教程/The One.md"
-    },
-    {
-      "basename": "10 - 人员管理",
-      "path": "10 - 人员管理/10 - 人员管理.md"
-    },
-    {
-      "basename": "localsend",
-      "path": "20 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/同步软件/localsend.md"
-    },
-    {
-      "basename": "翻墙清单啊",
-      "path": "20 - 工作学习/记事本/非开发/资源素材/翻墙/翻墙清单啊.md"
-    },
-    {
-      "basename": "网站一键置灰实现",
-      "path": "20 - 工作学习/记事本/非开发/其他/网站一键置灰实现.md"
-    },
-    {
-      "basename": "焦虑",
-      "path": "20 - 工作学习/记事本/非开发/生活/思想建设/焦虑.md"
-    },
-    {
-      "basename": "豆豆上学导学",
-      "path": "20 - 工作学习/记事本/非开发/生活/思想建设/豆豆上学导学.md"
-    },
-    {
-      "basename": "windows zsh配置备份 20234015-zagger",
-      "path": "20 - 工作学习/记事本/非开发/文件备份/windows zsh配置备份 20234015-zagger.md"
-    },
-    {
-      "basename": "脚本文件",
-      "path": "20 - 工作学习/记事本/非开发/文件备份/脚本文件.md"
-    },
-    {
-      "basename": "未命名 1",
-      "path": "60 - 临时/未命名 1.md"
-    },
-    {
-      "basename": "基础模板",
-      "path": "40 - Obsidian/模板/基础模板.md"
-    },
-    {
-      "basename": "linux文件系统",
-      "path": "20 - 工作学习/学习/linux文件系统.md"
-    },
-    {
-      "basename": "tp-长青笔记模板",
-      "path": "40 - Obsidian/模板/tp-长青笔记模板.md"
-    },
-    {
-      "basename": "tp-默认笔记模板",
-      "path": "40 - Obsidian/模板/tp-默认笔记模板.md"
-    },
-    {
-      "basename": "2023年11月07日",
-      "path": "00 - 每日日记/DailyNote/2023年11月07日.md"
-    },
-    {
-      "basename": "最新工作安排",
-      "path": "20 - 工作学习/记事本/工作/工作计划/最新工作安排/最新工作安排.md"
     },
     {
       "basename": "tp-每周周记模板",
       "path": "40 - Obsidian/模板/tp-每周周记模板.md"
     },
     {
-      "basename": "git 文档清单",
-      "path": "20 - 工作学习/记事本/学习/开发软实力/git/git 文档清单.md"
+      "basename": "tp-长青笔记模板",
+      "path": "40 - Obsidian/模板/tp-长青笔记模板.md"
+    },
+    {
+      "basename": "tp-daily",
+      "path": "40 - Obsidian/模板/tp-daily.md"
+    },
+    {
+      "basename": "obsidian清单",
+      "path": "40 - Obsidian/教程/obsidian清单.md"
+    },
+    {
+      "basename": "porpoises",
+      "path": "50 - 卡片知识/porpoises.md"
     },
     {
       "basename": "模糊分类",
       "path": "60 - 临时/模糊分类.md"
     },
     {
-      "basename": "2022年05月13日",
-      "path": "00 - 每日日记/DailyNote/2022年05月13日.md"
+      "basename": "personal token",
+      "path": "20 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/personal token.md"
     },
     {
-      "basename": "第二章 Electron自定义界面(最大化、最小化、关闭、图标等等)",
-      "path": "20 - 工作学习/记事本/学习/前端/electron/搭建electron vite vue3/第二章 Electron自定义界面(最大化、最小化、关闭、图标等等).md"
+      "basename": "obsidian贴图",
+      "path": "40 - Obsidian/教程/obsidian贴图.md"
+    },
+    {
+      "basename": "2023年11月09日",
+      "path": "00 - 每日日记/DailyNote/2023年11月09日.md"
+    },
+    {
+      "basename": "tp-每日日记模板",
+      "path": "40 - Obsidian/模板/templater/tp-每日日记模板.md"
+    },
+    {
+      "basename": "tp-默认笔记模板",
+      "path": "40 - Obsidian/模板/templater/tp-默认笔记模板.md"
     },
     {
       "basename": "02 手动选择模板",
-      "path": "40 - Obsidian/模板/02 手动选择模板.md"
-    },
-    {
-      "basename": "03 选择学习相关模板",
-      "path": "40 - Obsidian/模板/03 选择学习相关模板.md"
+      "path": "40 - Obsidian/模板/templater/02 手动选择模板.md"
     },
     {
       "basename": "01 自动选择模板",
-      "path": "40 - Obsidian/模板/01 自动选择模板.md"
+      "path": "40 - Obsidian/模板/templater/01 自动选择模板.md"
     },
     {
-      "basename": "tp-物品模板",
-      "path": "40 - Obsidian/模板/tp-物品模板.md"
+      "basename": "tp-长青笔记模板",
+      "path": "40 - Obsidian/模板/templater/tp-长青笔记模板.md"
+    },
+    {
+      "basename": "游戏",
+      "path": "20 - 工作学习/游戏/游戏.md"
     },
     {
       "basename": "tp-人物模板",
-      "path": "40 - Obsidian/模板/tp-人物模板.md"
+      "path": "40 - Obsidian/模板/templater/tp-人物模板.md"
     },
     {
-      "basename": "2023-10-13",
-      "path": "00 - 每日日记/DailyNote/日记/2023-10-13.md"
+      "basename": "03 选择学习相关模板",
+      "path": "40 - Obsidian/模板/templater/03 选择学习相关模板.md"
     },
     {
-      "basename": "记事本",
-      "path": "20 - 工作学习/记事本/学习/前端/前端杂项/记事本.md"
+      "basename": "tp-物品模板",
+      "path": "40 - Obsidian/模板/templater/tp-物品模板.md"
+    },
+    {
+      "basename": "tp-每周周记模板",
+      "path": "40 - Obsidian/模板/templater/tp-每周周记模板.md"
+    },
+    {
+      "basename": "DailyNote",
+      "path": "00 - 每日日记/DailyNote/DailyNote.md"
+    },
+    {
+      "basename": "music and birthday countdown 1",
+      "path": "40 - Obsidian/react组件/music and birthday countdown 1.md"
+    },
+    {
+      "basename": "music and birthday countdown 2",
+      "path": "40 - Obsidian/react组件/music and birthday countdown 2.md"
     }
   ],
   "omittedPaths": [],

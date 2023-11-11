@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - 每日日记/DailyNote/2023年11月10日.md",
-                "mode": "source",
+                "file": "40 - Obsidian/主页/00. 主页.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 - 每日日记/DailyNote/2023年11月10日.md"
+                "file": "40 - Obsidian/主页/00. 主页.md"
               }
             }
           },
@@ -201,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 - 每日日记/DailyNote/2023年11月10日.md",
+                "file": "40 - Obsidian/主页/00. 主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 - 每日日记/DailyNote/2023年11月10日.md",
+                "file": "40 - Obsidian/主页/00. 主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +230,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00 - 每日日记/DailyNote/2023年11月10日.md"
+                "file": "40 - Obsidian/主页/00. 主页.md"
               }
             }
           },
@@ -275,7 +275,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -285,9 +286,6 @@
     "hiddenItems": {
       "omnisearch:Omnisearch": false,
       "obsidian-full-calendar:Open Full Calendar": false,
-      "privacy-glasses:Hide all": false,
-      "privacy-glasses:Reveal non-private": false,
-      "privacy-glasses:Reveal all": false,
       "periodic-notes:Open today": false,
       "homepage:Open homepage": false,
       "switcher:打开快速切换": false,
@@ -319,44 +317,44 @@
   },
   "active": "d835b58d6ad1a6d7",
   "lastOpenFiles": [
-    "40 - Obsidian/主页/00. 主页.md",
     "40 - Obsidian/主页/00. 导航.md",
-    "40 - Obsidian/教程/obsidian清单.md",
-    "20 - 工作学习/学习/obsidian插件列表.md",
-    "00 - 每日日记/DailyNote/2023年11月10日.md",
-    "20 - 工作学习/工作/迁移wsl2.md",
-    "20 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/personal token.md",
-    "20 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md",
-    "00 - 每日日记/DailyNote/2023年11月09日.md",
     "40 - Obsidian/教程/教程.md",
-    "20 - 工作学习/工作/多语言系统化实现.md",
-    "20 - 工作学习/工作/引发的管理台项目可配置.md",
-    "40 - Obsidian/教程/obsidian贴图.md",
-    "00 - 每日日记/WeeklyNote/2023年45周记录.md",
-    "00 - 每日日记/DailyNote/DailyNote.md",
-    "00 - 每日日记/DailyNote/2023年11月06日.md",
-    "00 - 每日日记/DailyNote/2023年11月08日.md",
     "40 - Obsidian/模板/模板.md",
-    "40 - Obsidian/模板/tp-daily.md",
     "40 - Obsidian/模板/tp-每日日记模板.md",
-    "40 - Obsidian/模板/新建代码模板.md",
-    "40 - Obsidian/模板/阅读笔记模板.md",
-    "40 - Obsidian/教程/The One.md",
-    "10 - 人员管理/10 - 人员管理.md",
-    "20 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/同步软件/localsend.md",
-    "20 - 工作学习/记事本/非开发/资源素材/翻墙/翻墙清单啊.md",
+    "40 - Obsidian/模板/tp-每周周记模板.md",
+    "40 - Obsidian/模板/tp-长青笔记模板.md",
+    "40 - Obsidian/模板/tp-daily.md",
+    "40 - Obsidian/教程/obsidian清单.md",
+    "40 - Obsidian/主页/00. 主页.md",
+    "50 - 卡片知识/porpoises.md",
+    "60 - 临时/模糊分类.md",
+    "60 - 临时/未命名 1.md",
+    "20 - 工作学习/学习/obsidian插件列表.md",
+    "40 - Obsidian/教程/obsidian贴图.md",
+    "20 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/personal token.md",
+    "60 - 临时/未命名.md",
+    "00 - 每日日记/DailyNote/2023年11月09日.md",
+    "40 - Obsidian/模板/templater/tp-默认笔记模板.md",
+    "40 - Obsidian/模板/templater/tp-每日日记模板.md",
+    "40 - Obsidian/模板/templater/02 手动选择模板.md",
+    "40 - Obsidian/模板/templater/01 自动选择模板.md",
+    "40 - Obsidian/模板/templater/tp-长青笔记模板.md",
+    "20 - 工作学习/游戏/游戏.md",
+    "20 - 工作学习/学习/ .md",
+    "60 - 临时/未命名 2.md",
+    "40 - Obsidian/模板/templater/tp-人物模板.md",
     "60 - 临时",
-    "10 - 人员管理/生活/01 物品",
-    "20 - 工作学习/非开发",
-    "20 - 工作学习/01 写作学习",
-    "10 - 人员管理/人脉/01 亲人",
-    "10 - 人员管理/人脉",
-    "10 - 人员管理/生活",
-    "20 - 工作学习/03 其他",
     "20 - 工作学习/02 软件学习",
     "40 - Obsidian/模板/tp",
+    "40 - 生活/01 物品",
+    "40 - 生活",
+    "50 - 人脉/01 亲人",
+    "50 - 人脉",
+    "40 - Obsidian/模板/script/getTitleSnippet.js",
+    "40 - Obsidian/模板/script",
     "40 - Obsidian/附件/}[YAY}4`V3EH[RB]0}29_00.png",
     "40 - Obsidian/附件/100911654141903_.pic.jpg",
+    "40 - Obsidian/教程/00-Tips/插件介绍/Obsidian 插件之 Obsidian Projects .html",
     "obsidian配置文件目录/Attachment/assets 9/image5-20230708221750-odzmzc1.jpeg",
     "obsidian配置文件目录/Attachment/assets 9/image4-20230708221750-wgh63jq.jpeg",
     "obsidian配置文件目录/Attachment/assets 9/image1-20230708221750-h01538o.jpeg",

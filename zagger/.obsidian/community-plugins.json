@@ -45,7 +45,6 @@
   "float-search",
   "better-search-views",
   "obsidian-git",
-  "file-explorer-note-count",
   "obsidian-toggle-list",
   "surfing",
   "homepage",
@@ -60,7 +59,6 @@
   "obsidian-dynamic-toc",
   "obsidian-emoji-toolbar",
   "last-modified-timestamp-in-status-bar",
-  "number-headings-obsidian",
   "omnisearch",
   "obsidian-auto-link-title",
   "link-favicon",
@@ -74,8 +72,10 @@
   "hotkey-helper",
   "obsidian-full-calendar",
   "obsidian-reading-time",
-  "privacy-glasses",
   "tasks-calendar-wrapper",
   "update-time-on-edit",
-  "obsidian-linter"
+  "obsidian-linter",
+  "file-explorer-note-count",
+  "obsidian-heading-shifter",
+  "number-headings-obsidian"
 ]

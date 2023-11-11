@@ -7,10 +7,10 @@ aliases:
   - obsidian指南
 number headings: auto, first-level 1, max 6, 1.1
 created: 2023-11-06T08:24
-updated: 2023-11-10T17:12
+updated: 2023-11-11T18:15
 ---
-
-## 0.1 Metadata
+# 1 obsidian清单
+## 1.1 Metadata
 Status::    #笔记状态/🌱发芽
 Source Type::  #📥/📰️文章
 Note Type::  #笔记
@@ -19,36 +19,36 @@ Author:: {原资讯的作者或者对话的人或者引起某种想法的原因}
 Source URL:: 
 Modify:: `=dateformat(this.file.mtime, "yyyy-MM-dd HH:MM:ss")`
 [[obsidian贴图]]
-## 0.2 长青笔记
+## 1.2 长青笔记
 *一句话概括这篇笔记的内容*
 Summary:: obsidian各种文章、博客、文档的连接集合
 
-## 0.3 自我重述
+## 1.3 自我重述
 *用自己的话去重述提取的重点内容*
 
 
-## 0.4 重点摘抄
+## 1.4 重点摘抄
 *摘抄部分原文后，进行筛选加粗然后对加粗的继续进行筛选荧光笔选出。*
 
-## 0.5 相关文章
+## 1.5 相关文章
 *摘抄来源，引用出处，参考链接，文档查询*
 Page Link::  
 
-### 0.5.1 同步仓库
+### 1.5.1 同步仓库
 1. [zaggerj/zagger_obsidian at 1.0.0 (github.com)](https://github.com/zaggerj/zagger_obsidian/tree/1.0.0)
 2. [zagger_obsidian: obsidian 个人仓库备份 - Gitee.com](https://gitee.com/zaggerzj/zagger_obsidian/tree/1.0.0/)
-### 0.5.2 官网
+### 1.5.2 官网
  1. [Obsidian Help 文档](https://help.obsidian.md/Editing+and+formatting/Properties)
  2. [obsidian-dataview 文档](https://github.com/blacksmithgu/obsidian-dataview)
  3. [Templater  github](https://github.com/SilentVoid13/Templater)
  4.  [Templater 文档](https://silentvoid13.github.io/Templater/internal-functions/internal-modules/file-module.html#tpfilefind_tfilefilename-string)
-### 0.5.3 官方ISSUE
+### 1.5.3 官方ISSUE
 1. [Deprecation of dynamic commands · Issue #913 · SilentVoid13/Templater --- 弃用动态命令 · 问题 #913 · SilentVoid13/Templater (github.com)](https://github.com/SilentVoid13/Templater/issues/913)
-### 0.5.4 示例库
+### 1.5.4 示例库
 1. [PKM-er/Blue-topaz-example: Blue topaz themes example vault for Obsidian (github.com)](https://github.com/PKM-er/Blue-topaz-example)
 2. [zagger129/Obsidian-Homepage: A dashboard for your obsidian vault. (github.com)](https://github.com/zagger129/Obsidian-Homepage)
 3. [Obsidian-Template-DynamicSchedule: Obsidian 动态日程模板 (gitee.com)](https://gitee.com/goblincwl/Obsidian-Template-DynamicSchedule)
-### 0.5.5 博客
+### 1.5.5 博客
 1. [[ Obsidian ] 模板分享：自动化动态创建日程表 - 哔哩哔哩 (bilibili.com)](https://www.bilibili.com/read/cv23768479/)
 2. [Obsidian 主题常见问题 (pkmer.cn)](https://pkmer.cn/Pkmer-Docs/10-obsidian/obsidian%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E6%B1%87%E6%80%BB/obsidian%E4%B8%BB%E9%A2%98%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/)
 3. [Obsidian 极简日记配置教程 - 哔哩哔哩 (bilibili.com)](https://www.bilibili.com/read/cv21481911/)
