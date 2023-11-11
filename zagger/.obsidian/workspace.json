@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "040 - Obsidian/教程/教程.md",
+                "file": "000 - 每日日记/DailyNote/2023年11月11日.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -54,7 +54,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "alphabeticalReverse"
               }
             }
           },
@@ -189,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Obsidian/教程/教程.md"
+                "file": "000 - 每日日记/DailyNote/2023年11月11日.md"
               }
             }
           },
@@ -215,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "040 - Obsidian/教程/教程.md",
+                "file": "000 - 每日日记/DailyNote/2023年11月11日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "040 - Obsidian/教程/教程.md",
+                "file": "000 - 每日日记/DailyNote/2023年11月11日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -244,7 +244,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "040 - Obsidian/教程/教程.md"
+                "file": "000 - 每日日记/DailyNote/2023年11月11日.md"
               }
             }
           },
@@ -289,8 +289,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -308,32 +307,34 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "markdown-importer:打开 Markdown 格式转换器": true,
-      "zk-prefixer:创建时间戳笔记": true,
-      "random-note:开始漫游笔记": true,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "zk-prefixer:创建时间戳笔记": false,
+      "random-note:开始漫游笔记": false,
       "audio-recorder:开始/结束录音": false,
       "workspaces:管理工作区布局": false,
-      "obsidian-importer:Open Importer": true,
-      "table-editor-obsidian:Advanced Tables Toolbar": true,
-      "mermaid-tools:Open Mermaid Toolbar": true,
-      "obsidian-day-planner:Timeline": true,
+      "obsidian-importer:Open Importer": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-day-planner:Timeline": false,
       "cmdr:折叠": false,
       "custom-sort:Toggle custom sorting": false,
-      "file-tree-alternative:File Tree Alternative Plugin": true,
-      "templater-obsidian:Templater": true,
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "templater-obsidian:Templater": false,
       "remotely-save:Remotely Save": false,
       "float-search:Search Obsidian In Modal": false,
       "surfing:surfing-bookmark-manager": false,
       "big-calendar:Big Calendar": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": true,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-memos:Memos": false
     }
   },
   "active": "ff1f38c1a3eb48bf",
   "lastOpenFiles": [
+    "000 - 每日日记/DailyNote/DailyNote.md",
+    "000 - 每日日记/DailyNote/2023年11月11日.md",
+    "040 - Obsidian/教程/教程.md",
     "040 - Obsidian/教程/obsidian清单.md",
     "040 - Obsidian/主页/00. 导航.md",
-    "040 - Obsidian/教程/教程.md",
     "040 - Obsidian/主页/00. 主页.md",
     "040 - Obsidian/模板/Article.md",
     "040 - Obsidian/模板/Book.md",
@@ -355,8 +356,6 @@
     "60 - 临时/未命名 1.md",
     "020 - 工作学习/学习/obsidian插件列表.md",
     "040 - Obsidian/教程/obsidian贴图.md",
-    "020 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/personal token.md",
-    "60 - 临时/未命名.md",
     "60 - 临时",
     "020 - 工作学习/02 软件学习",
     "040 - Obsidian/模板/tp",
