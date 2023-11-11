@@ -13,17 +13,20 @@ CUID: 20220518002237
 简述: 简化对应js代码。
 tags: code_snippet
 created: 2023-11-06T08:24
-updated: 2023-11-10T15:27
+updated: 2023-11-11T22:56
 ---
 
 ## 代码名称
-Dataview小鸟检索
+
+Dataview 小鸟检索
+
 ## 代码描述
+
 - 倒计时
 - 纪念日
-````javascript
 
-```dataview
+````javascript
+;```dataview
 TABLE WITHOUT ID
     ("![](" + photo + ")") as Photo,
     file.link as Name,
@@ -39,10 +42,13 @@ SORT choice(BD < date(today), BD + dur(1 year), BD) ASC
 ````
 
 ## 使用注意
+
 - 可以在使用页添加`cssclass: zettelkasten`或者`cssclass: cards`作出卡片视图。
 
 ## 评论
-- 2022-5-20 13:19:00 在discord @mnvwvnm 的帮助下新建了相应代码。效果：
+
+- 2022-5-20 13:19:00 在 discord @mnvwvnm 的帮助下新建了相应代码。效果：
+
 ```dataview
 TABLE WITHOUT ID
     ("![](" + photo + ")") as Photo,
@@ -57,15 +63,15 @@ FLATTEN date(date(today).year + "-" + dateformat(birthday, "MM-dd")) AS BD
 SORT choice(BD < date(today), BD + dur(1 year), BD) ASC
 ```
 
-
 ## 最近代码片段
+
 ```dataview
 table
 		语言,
  		框架,
 		简述,
 		file.cday AS "创建时间"
-from #code_snippet and !"40 - Obsidian/模板"
+from #code_snippet and !"040 - Obsidian/模板"
 where date(today) - file.ctime <=dur(7 days)
 sort file.mtime desc
 limit 10
@@ -76,4 +82,3 @@ limit 10
 ---
 
 注：感谢 @咖啡豆 提供模板！
-

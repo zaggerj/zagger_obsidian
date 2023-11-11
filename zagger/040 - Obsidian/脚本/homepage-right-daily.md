@@ -5,12 +5,11 @@ tags:
 source: 
 cssclass: 
 created: 2023-11-07
-updated: 2023-11-08T08:21
+updated: 2023-11-11T22:54
 ---
 
-## ✍内容
+## ✍ 内容
 
-
-```dataview 
-LIST FROM "00 - 每日日记/DailyNote" sort file.mtime desc limit (5)
+```dataview
+LIST FROM "000 - 每日日记/DailyNote" sort file.mtime desc limit (5)
 ```

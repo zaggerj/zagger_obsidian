@@ -1,46 +1,49 @@
 ---
 searchType: tpl
 created: 2023-11-08T14:23
-updated: 2023-11-10T14:11
+updated: 2023-11-11T22:55
 ---
+
 ---
-<%-*
-var cleanTitle = tp.user.getTitleSnippet(tp.file.title) 
+
+<%-\*
+var cleanTitle = tp.user.getTitleSnippet(tp.file.title)
 var title = `${cleanTitle}`;
 await tp.file.rename(`${title}`);
 -%>
 
-alias: 
-tags: 
+alias:
+tags:
 cdate: <% tp.file.creation_date() %>
-uid: <% tp.date.now("YYYYMMDDHHmmss") %> 
+uid: <% tp.date.now("YYYYMMDDHHmmss") %>
 Update: <%+ tp.file.last_modified_date("YYYY-MM-DD HH:mm:ss") %>
-cssclass: 
-Cover: 
+cssclass:
+Cover:
+
 ---
 
 ## 0.1 Metadata
-Status::    <% tp.system.suggester(["🌱发芽状态", "🪴培育状态", "🌲长青状态"], ["#笔记状态/🌱发芽", "#笔记状态/🪴培育","#笔记状态/🌲长青"],false, "笔记状态是？") %>
-Source Type::  <% tp.system.suggester(["💭想法", "📚书籍", "📰️文章", "🗣️聊天", "💻教学", "▶️视频", "🎧️播客"], ["#📥/💭想法 ", "#📥/📚书籍 ", "#📥/📰️文章", "#📥/🗣️聊天 ", " #📥/💻教学", "#📥/▶️视频", "#📥/🎧️播客"],false, "笔记源自哪里？") %>
-Note Type::  <% tp.system.suggester(["笔记", "MOC"], ["#笔记", "#MOC"],false, "笔记类型是？") %>
+
+Status:: <% tp.system.suggester(["🌱 发芽状态", "🪴 培育状态", "🌲 长青状态"], ["#笔记状态/🌱 发芽", "#笔记状态/🪴 培育","#笔记状态/🌲 长青"],false, "笔记状态是？") %>
+Source Type:: <% tp.system.suggester(["💭 想法", "📚 书籍", "📰️ 文章", "🗣️ 聊天", "💻 教学", "▶️ 视频", "🎧️ 播客"], ["#📥/💭 想法 ", "#📥/📚 书籍 ", "#📥/📰️ 文章", "#📥/🗣️ 聊天 ", " #📥/💻 教学", "#📥/▶️ 视频", "#📥/🎧️ 播客"],false, "笔记源自哪里？") %>
+Note Type:: <% tp.system.suggester(["笔记", "MOC"], ["#笔记", "#MOC"],false, "笔记类型是？") %>
 Topic:: [[<% tp.system.prompt("这个笔记对应的主题MOC ", "DailyNote") %>]]
 Author:: {原资讯的作者或者对话的人或者引起某种想法的原因}
 Modify:: `=dateformat(this.file.mtime, "yyyy-MM-dd HH:MM:ss")`
 
-
-<%-*  let filetype = await tp.system.suggester(["放入日记", "放入工作", "放入学习", "归入人脉"], ["日记","工作", "学习", "人脉"], false, "Which template do you want to use?") 
-if (filetype === "工作") { 
-myFilePath = "/20 - 工作学习/工作/" +  `${title}`;
+<%-\* let filetype = await tp.system.suggester(["放入日记", "放入工作", "放入学习", "归入人脉"], ["日记","工作", "学习", "人脉"], false, "Which template do you want to use?")
+if (filetype === "工作") {
+myFilePath = "/020 - 工作学习/工作/" + `${title}`;
 await tp.file.move(`${myFilePath}`);
-} else if (filetype === "学习") { 
-myFilePath = "/20 - 工作学习/学习/" +  `${title}`;
+} else if (filetype === "学习") {
+myFilePath = "/020 - 工作学习/学习/" + `${title}`;
 await tp.file.move(`${myFilePath}`);
 } else if (filetype === "人脉") {
-myFilePath = "/10 - 人员管理/人脉/" +  `${title}`;
+myFilePath = "/010 - 人员管理/人脉/" + `${title}`;
 await tp.file.move(`${myFilePath}`);
 } else if (filetype === "日记") {
-myFilePath = "/00 - 每日日记/DailyNote/" +  `${title}`;
+myFilePath = "/000 - 每日日记/DailyNote/" + `${title}`;
 await tp.file.move(`${myFilePath}`);
-} else { 
+} else {
 tp.file.cursor(1)
 } -%>

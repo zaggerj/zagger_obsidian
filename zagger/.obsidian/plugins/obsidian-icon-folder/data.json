@@ -5,10 +5,7 @@
     "fontSize": 16,
     "emojiStyle": "twemoji",
     "iconColor": null,
-    "recentlyUsedIcons": [
-      "FabAdversal",
-      "IbCommand"
-    ],
+    "recentlyUsedIcons": ["FabAdversal", "IbCommand"],
     "recentlyUsedIconsSize": 5,
     "rules": [
       {
@@ -306,16 +303,16 @@
   "记事本/学习/学习目录/工作/工作项目维护": "BoBxGitRepoForked",
   "记事本/学习/学习目录/工作/工作项目维护/业务知识和难题": "FasPrescriptionBottleMedical",
   "记事本/学习/学习目录/工作/工作项目维护/日志打印.md": "TiPencilCog",
-  "20 - 工作学习/记事本": "TiAddressBook",
-  "20 - 工作学习/记事本/学习": "LiBook",
-  "20 - 工作学习/记事本/学习/学习计划脚本": "RiListCheck",
-  "20 - 工作学习/记事本/学习/前端/事件循环和微任务、宏任务": "TiCalendarEvent",
-  "20 - 工作学习/记事本/学习/前端/二进制相关": "LiBinary",
-  "20 - 工作学习/记事本/学习/前端/小程序": "SiWechat",
-  "20 - 工作学习/记事本/学习/开发软实力/代码风格相关": "SiStylelint",
-  "20 - 工作学习/记事本/学习/开发软实力/测试": "RiTestTubeLine",
-  "20 - 工作学习/记事本/学习/学习计划脚本/js文档学习笔记": "FabJs",
-  "20 - 工作学习/记事本/学习/前端/前端杂项/便签20230613.md": "TiNote",
-  "20 - 工作学习/记事本/学习/前端/前端杂项/发展线路.md": "TiRoad",
-  "20 - 工作学习/记事本/学习/前端/前端杂项/记事本.md": "TiNotes"
+  "020 - 工作学习/记事本": "TiAddressBook",
+  "020 - 工作学习/记事本/学习": "LiBook",
+  "020 - 工作学习/记事本/学习/学习计划脚本": "RiListCheck",
+  "020 - 工作学习/记事本/学习/前端/事件循环和微任务、宏任务": "TiCalendarEvent",
+  "020 - 工作学习/记事本/学习/前端/二进制相关": "LiBinary",
+  "020 - 工作学习/记事本/学习/前端/小程序": "SiWechat",
+  "020 - 工作学习/记事本/学习/开发软实力/代码风格相关": "SiStylelint",
+  "020 - 工作学习/记事本/学习/开发软实力/测试": "RiTestTubeLine",
+  "020 - 工作学习/记事本/学习/学习计划脚本/js文档学习笔记": "FabJs",
+  "020 - 工作学习/记事本/学习/前端/前端杂项/便签20230613.md": "TiNote",
+  "020 - 工作学习/记事本/学习/前端/前端杂项/发展线路.md": "TiRoad",
+  "020 - 工作学习/记事本/学习/前端/前端杂项/记事本.md": "TiNotes"
 }

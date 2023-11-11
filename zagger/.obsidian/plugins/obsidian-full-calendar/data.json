@@ -3,7 +3,7 @@
     {
       "type": "local",
       "color": "hsl(calc(143 - 1), calc(34% * 1.01), calc(45% * 1.075))",
-      "directory": "00 - 每日日记"
+      "directory": "000 - 每日日记"
     }
   ],
   "defaultCalendar": 0,

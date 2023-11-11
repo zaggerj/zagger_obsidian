@@ -1,51 +1,41 @@
 {
   "command_timeout": 5,
-  "templates_folder": "40 - Obsidian/模板",
+  "templates_folder": "040 - Obsidian/模板",
   "templates_pairs": [
-    [
-      "test",
-      "echo \"123123\""
-    ],
-    [
-      "",
-      ""
-    ]
+    ["test", "echo \"123123\""],
+    ["", ""]
   ],
   "trigger_on_file_creation": true,
   "auto_jump_to_cursor": true,
   "enable_system_commands": true,
   "shell_path": "D:\\\\GlobalScoopApps\\\\apps\\\\git\\\\current\\\\bin\\\\bash.exe",
-  "user_scripts_folder": "40 - Obsidian/模板/script",
+  "user_scripts_folder": "040 - Obsidian/模板/script",
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "00 - 每日日记/DailyNote",
-      "template": "40 - Obsidian/模板/templater/tp-每日日记模板.md"
+      "folder": "000 - 每日日记/DailyNote",
+      "template": "040 - Obsidian/模板/templater/tp-每日日记模板.md"
     },
     {
-      "folder": "00 - 每日日记/WeeklyNote",
-      "template": "40 - Obsidian/模板/templater/tp-每周周记模板.md"
+      "folder": "000 - 每日日记/WeeklyNote",
+      "template": "040 - Obsidian/模板/templater/tp-每周周记模板.md"
     },
     {
-      "folder": "00 - 每日日记",
-      "template": "40 - Obsidian/模板/templater/tp-daily.md"
+      "folder": "000 - 每日日记",
+      "template": "040 - Obsidian/模板/templater/tp-daily.md"
     },
     {
       "folder": "/",
-      "template": "40 - Obsidian/模板/templater/01 自动选择模板.md"
+      "template": "040 - Obsidian/模板/templater/01 自动选择模板.md"
     },
     {
       "folder": "60 - 临时",
-      "template": "40 - Obsidian/模板/templater/01 自动选择模板.md"
+      "template": "040 - Obsidian/模板/templater/01 自动选择模板.md"
     }
   ],
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
-  "enabled_templates_hotkeys": [
-    ""
-  ],
-  "startup_templates": [
-    ""
-  ],
+  "enabled_templates_hotkeys": [""],
+  "startup_templates": [""],
   "enable_ribbon_icon": true
 }
