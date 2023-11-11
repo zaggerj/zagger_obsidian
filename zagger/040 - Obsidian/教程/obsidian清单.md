@@ -7,7 +7,7 @@ aliases:
   - obsidian指南
 number headings: auto, first-level 1, max 6, 1.1
 created: 2023-11-06T08:24
-updated: 2023-11-11T18:15
+updated: 2023-11-11T23:16
 ---
 # 1 obsidian清单
 ## 1.1 Metadata
@@ -72,4 +72,7 @@ Page Link::
 21. [介绍几种Obsidian的进阶版插件 - 知乎](https://zhuanlan.zhihu.com/p/580851046)
 22. [笔记软件 Obsidian 使用教程 & 学习资源汇总：从入门到精通 - 知乎](https://zhuanlan.zhihu.com/p/619960525)
 23. [Obsidian 使用教程：如何高效使用 Obsidian ？快来看看专家用户基于 Obsidian 的开箱即用库 - 知乎](https://zhuanlan.zhihu.com/p/619967023)
+24. [这本书帮我记住了学过的所有知识 ｜ 打造第二大脑 ｜ 高效笔记法\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1gH4y1U7Cv/?vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
+25. [Galeo\_的个人空间-Galeo\_个人主页-哔哩哔哩视频](https://space.bilibili.com/3493298721261904)
+26. [也许是B站最全面的Obsidian公开课 ！【课时1 Ob简介】顶级知识管理神器、双链笔记先驱——OB保姆级教程\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1H44y1n71k/?spm_id_from=333.788.recommend_more_video.14&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 

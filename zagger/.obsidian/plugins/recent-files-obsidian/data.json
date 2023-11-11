@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "模板",
-      "path": "0040 - Obsidian/模板/模板.md"
+      "basename": "教程",
+      "path": "040 - Obsidian/教程/教程.md"
+    },
+    {
+      "basename": "obsidian清单",
+      "path": "040 - Obsidian/教程/obsidian清单.md"
     },
     {
       "basename": "00. 导航",
@@ -13,8 +17,8 @@
       "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
-      "basename": "教程",
-      "path": "040 - Obsidian/教程/教程.md"
+      "basename": "模板",
+      "path": "0040 - Obsidian/模板/模板.md"
     },
     {
       "basename": "模板",
@@ -35,10 +39,6 @@
     {
       "basename": "tp-daily",
       "path": "040 - Obsidian/模板/tp-daily.md"
-    },
-    {
-      "basename": "obsidian清单",
-      "path": "040 - Obsidian/教程/obsidian清单.md"
     },
     {
       "basename": "porpoises",

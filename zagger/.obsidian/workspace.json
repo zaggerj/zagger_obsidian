@@ -11,11 +11,30 @@
             "id": "d835b58d6ad1a6d7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "040 - Obsidian/主页/00. 主页.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ff1f38c1a3eb48bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "040 - Obsidian/教程/教程.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,8 +159,13 @@
             "id": "cd06d04dbc147ecb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "040 - Obsidian/主页/00. 导航.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ],
@@ -164,7 +188,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "040 - Obsidian/教程/教程.md"
+              }
             }
           },
           {
@@ -189,6 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "040 - Obsidian/教程/教程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,6 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "040 - Obsidian/教程/教程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +243,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "040 - Obsidian/教程/教程.md"
+              }
             }
           },
           {
@@ -299,18 +329,27 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "cd06d04dbc147ecb",
+  "active": "ff1f38c1a3eb48bf",
   "lastOpenFiles": [
-    "0040 - Obsidian/模板/模板.md",
+    "040 - Obsidian/教程/obsidian清单.md",
     "040 - Obsidian/主页/00. 导航.md",
     "040 - Obsidian/教程/教程.md",
+    "040 - Obsidian/主页/00. 主页.md",
+    "040 - Obsidian/模板/Article.md",
+    "040 - Obsidian/模板/Book.md",
+    "040 - Obsidian/模板/New.md",
+    "040 - Obsidian/模板/Paper.md",
+    "040 - Obsidian/模板/Person.md",
+    "040 - Obsidian/模板/Podcast.md",
+    "040 - Obsidian/模板/Thought.md",
+    "040 - Obsidian/模板/Tweet.md",
+    "040 - Obsidian/模板/Youtube.md",
+    "0040 - Obsidian/模板/模板.md",
     "040 - Obsidian/模板/模板.md",
     "040 - Obsidian/模板/tp-每日日记模板.md",
     "040 - Obsidian/模板/tp-每周周记模板.md",
     "040 - Obsidian/模板/tp-长青笔记模板.md",
     "040 - Obsidian/模板/tp-daily.md",
-    "040 - Obsidian/教程/obsidian清单.md",
-    "040 - Obsidian/主页/00. 主页.md",
     "050 - 卡片知识/porpoises.md",
     "60 - 临时/模糊分类.md",
     "60 - 临时/未命名 1.md",
@@ -318,15 +357,6 @@
     "040 - Obsidian/教程/obsidian贴图.md",
     "020 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/personal token.md",
     "60 - 临时/未命名.md",
-    "000 - 每日日记/DailyNote/2023年11月09日.md",
-    "040 - Obsidian/模板/templater/tp-默认笔记模板.md",
-    "040 - Obsidian/模板/templater/tp-每日日记模板.md",
-    "040 - Obsidian/模板/templater/02 手动选择模板.md",
-    "040 - Obsidian/模板/templater/01 自动选择模板.md",
-    "040 - Obsidian/模板/templater/tp-长青笔记模板.md",
-    "020 - 工作学习/游戏/游戏.md",
-    "020 - 工作学习/学习/ .md",
-    "60 - 临时/未命名 2.md",
     "60 - 临时",
     "020 - 工作学习/02 软件学习",
     "040 - Obsidian/模板/tp",
