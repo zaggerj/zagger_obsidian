@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8f15982168f4a40c",
+        "id": "625a91fac48f6295",
         "type": "tabs",
         "children": [
           {
-            "id": "a97ebb1f17335dd5",
+            "id": "b74127da30498101",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -115,8 +115,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "73db95bfb166faa1",
@@ -311,10 +310,21 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "a97ebb1f17335dd5",
+  "active": "b74127da30498101",
   "lastOpenFiles": [
-    "020 - 工作学习/学习/英语学习/英文/00.英文.md",
+    "记事本/英文/assets",
+    "记事本/各种软件/vim学习",
+    "记事本/学习/js小知识点",
+    "记事本/学习/docker",
+    "记事本/学习/nodejs",
+    "记事本/学习/jenkins",
+    "记事本/待整理/assets",
+    "记事本/学习/webpack",
+    "记事本/待整理/linux命令",
+    "记事本/学习/electron",
+    "20 - 工作学习/记事本/学习",
     "040 - Obsidian/主页/00. 主页.md",
+    "020 - 工作学习/学习/英语学习/英文/00.英文.md",
     "020 - 工作学习/学习/英语学习/英文/-age 表抽象的名词后缀.md",
     "020 - 工作学习/学习/英语学习/英文/变量和函数命名参考.md",
     "020 - 工作学习/学习/英语学习/英文/252个常用英语词根记忆法背单词.md",
@@ -338,17 +348,6 @@
     "040 - Obsidian/教程/obsidian贴图.md",
     "020 - 工作学习/工作/汇总所有在线文档.md",
     "020 - 工作学习/学习计划脚本/js学习计划脚本.md",
-    "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
-    "020 - 工作学习/资源",
-    "60 - 临时",
-    "020 - 工作学习/02 软件学习",
-    "040 - Obsidian/模板/tp",
-    "40 - 生活/01 物品",
-    "40 - 生活",
-    "50 - 人脉/01 亲人",
-    "50 - 人脉",
-    "040 - Obsidian/模板/script/getTitleSnippet.js",
-    "040 - Obsidian/模板/script",
     "040 - Obsidian/附件/}[YAY}4`V3EH[RB]0}29_00.png",
     "040 - Obsidian/附件/100911654141903_.pic.jpg",
     "obsidian配置文件目录/Attachment/assets 9/image5-20230708221750-odzmzc1.jpeg",
