@@ -92,7 +92,7 @@
     "040 - Obsidian/主页/00. 文件管理.md": "e4a9e46b99d10eac383c05652d8cf0fdb49fc0e6244c41d271a6b415d300bece",
     "040 - Obsidian/主页/00. 导航.md": "9e38480d039ae40d472827956767005d93220b545c1e3a801043e1567851cfbb",
     "040 - Obsidian/主页/00. 参考汇总.md": "4dbbad59abace44409276dc977cbe730db83693b0efadc5338911e3eb7867afe",
-    "040 - Obsidian/主页/00. 主页.md": "b2d7b5701664ba67546de089343419845450a90cd47cd19c903e35a5a797f993",
+    "040 - Obsidian/主页/00. 主页.md": "d369245677523d062a29be00398b02e004b1509b4d283f0ff5b7b4baae102b98",
     "040 - Obsidian/sortspec.md": "35834802fd948cda29f7d51f1383eea2d8af7b1c45782efaa17c63f907792989",
     "040 - Obsidian/react组件/music and birthday countdown 2.md": "7c0f97f65b0ee23f91261135e9f32934e5997ce394f677ce069e7028f5593111",
     "040 - Obsidian/react组件/music and birthday countdown 1.md": "568490668c236a4010e03298de4e6d4616fdea8d5e2ec387cf213ebbfa31f7d8",
@@ -560,13 +560,13 @@
     "0040 - Obsidian/主页/00. 主页.md": "a050aba7550055e91f3eb0a3712a4c62e19b1bc7c7b3ba6e81f3518896241657",
     "0040 - Obsidian/模板/tp-人物模板.md": "b7eb61f3b061381e09bc238355a3c3d1ee1b46f826acab39ec4107c796324a96",
     "0040 - Obsidian/模板/tp-物品模板.md": "daf0b3ff15abb6f2fc192e99f99a2229399b663dad722160370e6c6cfb4f54bc",
-    "000 - 每日日记/DailyNote/2023年11月11日.md": "a10277e88d05ef729d72046b4d6ad905f0dcc8940bdc98394ffb318658e3a4f5",
+    "000 - 每日日记/DailyNote/2023年11月11日.md": "b718ca058c0a1039e88ccf32fbd5587d955b2521175000aeb546c4c1f224b0f6",
     "005 - Archive/REAMDME.md": "d390bf1b1176439344fd1d6845397799c088acb0c16dfc9225fe4f102b21a0c9",
-    "000 - 每日日记/DailyNote/2023年11月12日.md": "ab32946994ef64529f487788dbb6438ba475c4dcb7aa0cee94a3a02b53ace332",
-    "000 - 每日日记/DailyNote/2023年11月10日.md": "c45771ba91317edeb035d3902293ccb88b7b2aa376163efa6efe23f74318c943",
-    "000 - 每日日记/DailyNote/2023年11月09日.md": "e46f554cc29372c09ae6f020d62e66908880a63fe6ff01362e363f689807d100",
-    "000 - 每日日记/DailyNote/2023年11月08日.md": "75e78feb2546b8f172487757997d5332e1ebca6b452adab437a8c3cf0de00b6d",
-    "000 - 每日日记/DailyNote/2023年11月07日.md": "ab98a9fb6660f279a43b795b4dc0235629a8c8d5cbdd5e7078c4140a27f9a40d",
+    "000 - 每日日记/DailyNote/2023年11月12日.md": "3f880171c9f806fe8c0643aeec9cc5e5e6c507caf4853b7563076d550f569d02",
+    "000 - 每日日记/DailyNote/2023年11月10日.md": "26a734d319387ad48c0c52bb2aa83c2c0b74fdd66c34d2199db0a1e1c2df0256",
+    "000 - 每日日记/DailyNote/2023年11月09日.md": "b80e70df03b5475736dbc378ba671fdb92a8a51abc21124df0297eac18ee7466",
+    "000 - 每日日记/DailyNote/2023年11月08日.md": "d46f5b488ec127f6a6f4a17c159440762b2e16c6038082297df3c600c8d42764",
+    "000 - 每日日记/DailyNote/2023年11月07日.md": "bdcf78dbafeb8472485c8a4e1a14ba676f848587a26a35f2e6f6757d52c34434",
     "000 - 每日日记/DailyNote/日记/2023-10-13.md": "392140a2a45d1f01925ee9fecb0f8e8c68d50095c77a1a0be62a0c1dd5f3dd4e",
     "020 - 工作学习/资源/macos软件安装.md": "dfa6d3f9b889db4054d0d1e872e688c48b64a932817b9ddbacc73b8f0214d450",
     "020 - 工作学习/资源/音乐下载.md": "9e36a2cf9feb1b800bdd772b2398f9fccd2008c6ebc2abd81087b75ec0fd8b72",
@@ -780,6 +780,8 @@
     "020 - 工作学习/学习计划脚本/js文档学习笔记/1.12 `Generator，高级 iteration`.md": "6f58c9bdbf56825a9a7e8e5c734548dbac20e61889c5bfbd0d76c934297e60f8",
     "020 - 工作学习/学习计划脚本/js文档学习笔记/1.13 `模块`.md": "dcf78b4c796d97333c8a6521de0122131f9bb1d7e59d8381b423de74af9ce35e",
     "020 - 工作学习/学习计划脚本/js文档学习笔记/1.14 `杂项`.md": "e7275343ea8d9993951976389ea78ff31daff4d655f94ae137873631ee28bd30",
-    "004 - Resource/资源/macos软件安装.md": "5e6bf2cc6ba68f16bec4a6f92d711d03c5fdb0b13fa8f1d107291f233f88c315"
+    "004 - Resource/资源/macos软件安装.md": "5e6bf2cc6ba68f16bec4a6f92d711d03c5fdb0b13fa8f1d107291f233f88c315",
+    "000 - 每日日记/DailyNote/2023年11月06日.md": "805516ce5699dfa4b37863b2fd407d82dcafd0984e24047922ad55b7dd0563c7",
+    "000 - 每日日记/WeeklyNote/2023年45周记录.md": "96701e13b8616f6ef770eee490f809daf9b97080181a273e6e8da634033ad305"
   }
 }

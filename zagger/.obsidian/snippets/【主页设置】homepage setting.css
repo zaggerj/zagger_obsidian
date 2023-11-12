@@ -309,7 +309,7 @@ a,
   display: block;
   background-color: #2b86b180 !important;
 
-  overflow: hid‚den;
+  overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
