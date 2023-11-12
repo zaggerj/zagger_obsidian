@@ -1,8 +1,8 @@
 ---
 created: 2023-11-06T08:20
-updated: 2023-11-06T08:20
+updated: 2023-11-12T13:42
 ---
-## 链接地址
+## 0.1. 链接地址
 1. [Node.js (nodejs.org)](https://nodejs.org/en)
 2. [npm | Home (npmjs.com)](https://www.npmjs.com/)
 3. [Node.js (nodejs.org)](https://nodejs.org/zh-cn)
@@ -27,7 +27,7 @@ updated: 2023-11-06T08:20
 22. [学习 Node.js 的最佳方式–完整的路线图 开发文档 (moonapi.com)](https://www.moonapi.com/news/8423.html) | [Best Way to Learn Node.js - A Complete Roadmap - GeeksforGeeks](https://www.geeksforgeeks.org/best-way-to-learn-node-js-a-complete-roadmap/)
 23. [【入门必备】最佳的 Node.js 学习教程和资料书籍 - nodejs - 运维网 - yunweiku.com](https://www.yunweiku.com/thread-345631-1-1.html)
 24. [Socket.IO](https://socket.io/)
-# 开始学习 #nodejs
+# 1. 开始学习 #nodejs
 1. [HTTP 请求与响应如何设置 Cookie 信息 (nodejs.red)](https://www.nodejs.red/#/?id=nodejs%e6%8a%80%e6%9c%af%e6%a0%88)
 2. [七天学会NodeJS (nqdeng.github.io)](http://nqdeng.github.io/7-days-nodejs/)
 3. [alsotang/node-lessons: :closed_book:《Node.js 包教不包会》 by alsotang (github.com)](https://github.com/alsotang/node-lessons)
@@ -39,3 +39,8 @@ updated: 2023-11-06T08:20
 9. [nodebestpractices/README.chinese.md at master · goldbergyoni/nodebestpractices (github.com)](https://github.com/goldbergyoni/nodebestpractices/blob/master/README.chinese.md)
 10. [javascript-testing-best-practices/readme-zh-CN.md at master · goldbergyoni/javascript-testing-best-practices (github.com)](https://github.com/goldbergyoni/javascript-testing-best-practices/blob/master/readme-zh-CN.md)
 11. [Node.js 优秀实践（2023年最新版）-51CTO.COM](https://www.51cto.com/article/763048.html)
+
+## 1.1. nodejs博客地址
+1. [【精选】Node.js学习\_nodejs学习-CSDN博客](https://blog.csdn.net/m0_45011929/article/details/127915951)
+2. [Node JS超详细讲解，新手入门必看！ - 知乎](https://zhuanlan.zhihu.com/p/628909760)
+3. [node.js的学习\_nodejs学习-CSDN博客](https://blog.csdn.net/weixin_51540282/article/details/129181291)

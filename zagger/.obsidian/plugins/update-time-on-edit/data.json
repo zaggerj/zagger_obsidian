@@ -84,9 +84,9 @@
     "040 - Obsidian/教程/教程.md": "f44ef37f587e1c3765587d27087e2d615460e61957309aa57a11bd282a49c967",
     "040 - Obsidian/教程/关于Obsidian的基本使用.md": "1743b81f56004c581f26190f0bb93ca4ac4f6be5304dd79c48fa4ae2610d7aea",
     "040 - Obsidian/教程/The One.md": "7481f3850a416d773e404f3cc516ade67fd08e91037155f300b88b2fb8ffaa1e",
-    "040 - Obsidian/教程/obsidian贴图.md": "69ece5fc3807c5224892ed0d7fadc8344cc3e9cb55f02effe3895eed41025f84",
+    "040 - Obsidian/教程/obsidian贴图.md": "2f373a355e587b526679fc71b9c842ee75cd7aa0a4b80ecd03dacc6f0332956c",
     "040 - Obsidian/教程/Obsidian牛掰却让新手头疼的笔记软件，这教程给你喂到嘴边，不会你找我退币.md": "687d43329d0f52709628407987c1dd8a55baf06edd1005b52eedea1bf39d2943",
-    "040 - Obsidian/教程/obsidian清单.md": "c659606dbf1fc98ecb26a0b5db4a4a7df93c8564600472a3450297218aabed64",
+    "040 - Obsidian/教程/obsidian清单.md": "eb7dbde64d6c79278b95fc5e545170fc1eaabfae80ccf1f8f206b6f42fb44acc",
     "040 - Obsidian/教程/obsidian教程.md": "b6c9c97321e239cf1d49c6aea40af91c4ff65d2235173f1e1a122340400a56d2",
     "040 - Obsidian/教程/obsidian工作流.md": "4a9616e05c9f98f43aebc24e1de8391ab67085805aea8db20d454fddc48b5256",
     "040 - Obsidian/主页/00. 文件管理.md": "e4a9e46b99d10eac383c05652d8cf0fdb49fc0e6244c41d271a6b415d300bece",
@@ -510,9 +510,9 @@
     "020 - 工作学习/记事本/学习/学习计划脚本/js学习计划脚本.md": "684c88ff3fb06811c7be358c393b545585911ede0aed0b9cbda2cd587ca4a289",
     "020 - 工作学习/记事本/学习/学习计划脚本/js学习计划.md": "74dd12b130d24d5da7f0be331fbba33eeb967b8bdab7d552d023d83063d0e26a",
     "020 - 工作学习/记事本/学习/学习网站收录/python网站.md": "b282447d68b0c4c6f1ddb69ecae1c4d2b1bdf6be0804e4eb393250ef7898174c",
-    "020 - 工作学习/记事本/学习/学习网站收录/nodejs网站.md": "5d87701430b61430c35d1534601a7327f9eb7cf2076b64eef53939943a0821f7",
+    "020 - 工作学习/记事本/学习/学习网站收录/nodejs网站.md": "83aa3aad1680b9fc76a69a702b7ea6203fa220b7433e4ea47f16efc55bbfdbe6",
     "020 - 工作学习/记事本/学习/学习网站收录/js网站.md": "472956408dbf8cbd5e60eb91d445945dd23ec439dd8aa407406e58c5f463accf",
-    "020 - 工作学习/记事本/学习/学习网站收录/IT技术网站.md": "5af123a49c5804dccc08f36960a3e8b86dfe2c17bcd9b7aaf2c7007764c99379",
+    "020 - 工作学习/记事本/学习/学习网站收录/IT技术网站.md": "3260c299c2b8411f05d9c9ba7ee6bb2ca5b0015bcf67423119b95dc8efea9e58",
     "020 - 工作学习/记事本/学习/后端/服务器相关知识/a 服务器相关命令.md": "a0624395aa88966bc02d8fd3ffb8b29b6f674574f7e1ac4c01dc709174489d91",
     "020 - 工作学习/记事本/学习/后端/shell_code.md": "a64cbb387c4ac96080201ad078bed39c55ae2f5b34f8ef09e3a113a7e40642d0",
     "020 - 工作学习/记事本/学习/后端/postman.md": "094bbddd4434c0521121cf03d5e5e42c11d67d3a398971f631bf2d59748c534e",
@@ -774,10 +774,11 @@
     "005 - Archive/REAMDME.md": "d390bf1b1176439344fd1d6845397799c088acb0c16dfc9225fe4f102b21a0c9",
     "000 - 每日日记/DailyNote/2023年11月12日.md": "ab32946994ef64529f487788dbb6438ba475c4dcb7aa0cee94a3a02b53ace332",
     "000 - 每日日记/DailyNote/2023年11月10日.md": "c45771ba91317edeb035d3902293ccb88b7b2aa376163efa6efe23f74318c943",
-    "000 - 每日日记/DailyNote/2023年11月09日.md": "a8dfaff1f1d1d66fc7d87a377e0200a7f0655da4ca046238e8db9e33abb4292f",
+    "000 - 每日日记/DailyNote/2023年11月09日.md": "e46f554cc29372c09ae6f020d62e66908880a63fe6ff01362e363f689807d100",
     "000 - 每日日记/DailyNote/2023年11月08日.md": "75e78feb2546b8f172487757997d5332e1ebca6b452adab437a8c3cf0de00b6d",
     "000 - 每日日记/DailyNote/2023年11月07日.md": "ab98a9fb6660f279a43b795b4dc0235629a8c8d5cbdd5e7078c4140a27f9a40d",
     "000 - 每日日记/DailyNote/日记/2023-10-13.md": "392140a2a45d1f01925ee9fecb0f8e8c68d50095c77a1a0be62a0c1dd5f3dd4e",
-    "020 - 工作学习/资源/macos软件安装.md": "ca2960480de6ba4b2cd754fe17a585311a62c3c152b77d5924434cd673d8c94d"
+    "020 - 工作学习/资源/macos软件安装.md": "dfa6d3f9b889db4054d0d1e872e688c48b64a932817b9ddbacc73b8f0214d450",
+    "020 - 工作学习/资源/音乐下载.md": "9e36a2cf9feb1b800bdd772b2398f9fccd2008c6ebc2abd81087b75ec0fd8b72"
   }
 }
