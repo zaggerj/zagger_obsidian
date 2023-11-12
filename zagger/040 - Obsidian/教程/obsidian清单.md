@@ -7,7 +7,7 @@ aliases:
   - obsidian指南
 number headings: auto, first-level 1, max 6, 1.1
 created: 2023-11-06T08:24
-updated: 2023-11-12T11:51
+updated: 2023-11-12T11:58
 ---
 # 1 obsidian清单
 ## 1.1 Metadata
@@ -77,9 +77,5 @@ Page Link::
 26. [也许是B站最全面的Obsidian公开课 ！【课时1 Ob简介】顶级知识管理神器、双链笔记先驱——OB保姆级教程\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1H44y1n71k/?spm_id_from=333.788.recommend_more_video.14&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 27. [全网最强！！！医学英语词根词缀分类资料库（首次升级）——Obsidian精彩呈现\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1n84y197nN/?spm_id_from=..search-card.all.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 28. [英语词根词缀分类资料库 · 主页（表格版） - 基础汉英类义词典 - Obsidian Publish](https://publish.obsidian.md/thesaurus/%E8%8B%B1%E8%AF%AD%E8%AF%8D%E4%B9%89%E5%88%86%E7%B1%BB%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%88%E5%A4%A7%E5%AD%A6%E7%89%88%EF%BC%89/%E8%8B%B1%E8%AF%AD%E8%AF%8D%E6%A0%B9%E8%AF%8D%E7%BC%80%E5%88%86%E7%B1%BB%E6%95%B0%E6%8D%AE%E5%BA%93/00%E6%9C%AC%E5%BA%93%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF/%E8%8B%B1%E8%AF%AD%E8%AF%8D%E6%A0%B9%E8%AF%8D%E7%BC%80%E5%88%86%E7%B1%BB%E8%B5%84%E6%96%99%E5%BA%93+%C2%B7+%E4%B8%BB%E9%A1%B5%EF%BC%88%E8%A1%A8%E6%A0%BC%E7%89%88%EF%BC%89)
-29. 
-    
-```query
-file:( 教程 )
-```
+
 

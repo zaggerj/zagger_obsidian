@@ -1,12 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "obsidian清单",
-      "path": "040 - Obsidian/教程/obsidian清单.md"
+      "basename": "macos软件安装",
+      "path": "020 - 工作学习/资源/macos软件安装.md"
     },
     {
       "basename": "00. 主页",
       "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "2023年11月12日",
+      "path": "000 - 每日日记/DailyNote/2023年11月12日.md"
+    },
+    {
+      "basename": "obsidian清单",
+      "path": "040 - Obsidian/教程/obsidian清单.md"
+    },
+    {
+      "basename": "obsidian贴图",
+      "path": "040 - Obsidian/教程/obsidian贴图.md"
+    },
+    {
+      "basename": "2023年11月08日",
+      "path": "000 - 每日日记/DailyNote/2023年11月08日.md"
+    },
+    {
+      "basename": "其他",
+      "path": "020 - 工作学习/记事本/非开发/其他/其他.md"
+    },
+    {
+      "basename": "2023-10-13",
+      "path": "000 - 每日日记/DailyNote/日记/2023-10-13.md"
+    },
+    {
+      "basename": "2023年11月07日",
+      "path": "000 - 每日日记/DailyNote/2023年11月07日.md"
+    },
+    {
+      "basename": "2023年11月09日",
+      "path": "000 - 每日日记/DailyNote/2023年11月09日.md"
+    },
+    {
+      "basename": "2023年11月11日",
+      "path": "000 - 每日日记/DailyNote/2023年11月11日.md"
+    },
+    {
+      "basename": "2023年11月10日",
+      "path": "000 - 每日日记/DailyNote/2023年11月10日.md"
+    },
+    {
+      "basename": "家庭办公远程",
+      "path": "020 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/家庭办公远程.md"
     },
     {
       "basename": "教程",
@@ -77,20 +121,12 @@
       "path": "001 - Inbox/REAMDME.md"
     },
     {
-      "basename": "obsidian贴图",
-      "path": "040 - Obsidian/教程/obsidian贴图.md"
-    },
-    {
       "basename": "模板",
       "path": "040 - Obsidian/模板/模板.md"
     },
     {
       "basename": "DailyNote",
       "path": "000 - 每日日记/DailyNote/DailyNote.md"
-    },
-    {
-      "basename": "2023年11月11日",
-      "path": "000 - 每日日记/DailyNote/2023年11月11日.md"
     },
     {
       "basename": "模板",
@@ -123,10 +159,6 @@
     {
       "basename": "personal token",
       "path": "020 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/personal token.md"
-    },
-    {
-      "basename": "2023年11月09日",
-      "path": "000 - 每日日记/DailyNote/2023年11月09日.md"
     },
     {
       "basename": "tp-每日日记模板",
@@ -167,14 +199,6 @@
     {
       "basename": "tp-每周周记模板",
       "path": "040 - Obsidian/模板/templater/tp-每周周记模板.md"
-    },
-    {
-      "basename": "music and birthday countdown 1",
-      "path": "040 - Obsidian/react组件/music and birthday countdown 1.md"
-    },
-    {
-      "basename": "music and birthday countdown 2",
-      "path": "040 - Obsidian/react组件/music and birthday countdown 2.md"
     }
   ],
   "omittedPaths": [],
