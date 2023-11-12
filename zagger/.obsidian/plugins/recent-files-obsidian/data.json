@@ -5,8 +5,16 @@
       "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
+      "basename": "obsidian贴图",
+      "path": "040 - Obsidian/教程/obsidian贴图.md"
+    },
+    {
       "basename": "obsidian清单",
       "path": "040 - Obsidian/教程/obsidian清单.md"
+    },
+    {
+      "basename": "js学习计划脚本",
+      "path": "020 - 工作学习/学习计划脚本/js学习计划脚本.md"
     },
     {
       "basename": "a 服务器相关命令",
@@ -39,10 +47,6 @@
     {
       "basename": "2023年11月09日",
       "path": "000 - 每日日记/DailyNote/2023年11月09日.md"
-    },
-    {
-      "basename": "obsidian贴图",
-      "path": "040 - Obsidian/教程/obsidian贴图.md"
     },
     {
       "basename": "nodejs网站",
@@ -195,10 +199,6 @@
     {
       "basename": "tp-每日日记模板",
       "path": "040 - Obsidian/模板/templater/tp-每日日记模板.md"
-    },
-    {
-      "basename": "tp-默认笔记模板",
-      "path": "040 - Obsidian/模板/templater/tp-默认笔记模板.md"
     }
   ],
   "omittedPaths": [],

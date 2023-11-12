@@ -10,7 +10,7 @@ update:
 cssclasses: 
 cover: 
 created: 2023-11-09T14:01
-updated: 2023-11-12T12:57
+updated: 2023-11-12T14:58
 ---
 # 1. obsidian贴图
 
@@ -100,7 +100,8 @@ obsidian有点折腾了，插件也过于重了。
 	* `\n[$1]`
 	* ![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/pic20231108183631.png)
 ### 1.4.6. 调出来console
-`ctrl+shift+i`
+windows：`ctrl+shift+i`
+macos：`cmd+opt+i`
 使用[快捷键](https://www.zhihu.com/search?q=%E5%BF%AB%E6%8D%B7%E9%94%AE&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A3097956845%7D)ctrl+shift+i**查看错误信息。
 
 ### 1.4.7. 文件夹目录
