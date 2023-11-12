@@ -1,10 +1,11 @@
 ---
+description: Penchant
 created: 2023-10-30
 aliases: 
 tags:
   - word
-  - 学习/英文
-updated: 2023-11-12T18:17
+  - 学习/英语
+updated: 2023-11-12T18:27
 ---
 
 https://mp.weixin.qq.com/s/ns8XbadgSfL-_hGvvO1vXQ

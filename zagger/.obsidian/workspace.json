@@ -21,12 +21,25 @@
             }
           },
           {
-            "id": "417a6529b314a340",
+            "id": "5c3fbce1a262872a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "020 - 工作学习/学习/英语学习/英文/00.英文.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c04885e6f7df8bde",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/学习/英语学习/00. 英语学习.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -47,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -189,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "020 - 工作学习/学习/英语学习/英文/00.英文.md"
+                "file": "020 - 工作学习/学习/英语学习/00. 英语学习.md"
               }
             }
           },
@@ -215,7 +228,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "020 - 工作学习/学习/英语学习/英文/00.英文.md",
+                "file": "020 - 工作学习/学习/英语学习/00. 英语学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +245,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "020 - 工作学习/学习/英语学习/英文/00.英文.md",
+                "file": "020 - 工作学习/学习/英语学习/00. 英语学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -244,7 +257,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "020 - 工作学习/学习/英语学习/英文/00.英文.md"
+                "file": "020 - 工作学习/学习/英语学习/00. 英语学习.md"
               }
             }
           },
@@ -338,10 +351,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "417a6529b314a340",
+  "active": "c04885e6f7df8bde",
   "lastOpenFiles": [
-    "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/学习/英语学习/英文/00.英文.md",
+    "040 - Obsidian/主页/00. 主页.md",
+    "020 - 工作学习/学习/英语学习/英文/-age 表抽象的名词后缀.md",
+    "020 - 工作学习/学习/英语学习/英文/变量和函数命名参考.md",
+    "020 - 工作学习/学习/英语学习/英文/252个常用英语词根记忆法背单词.md",
     "020 - 工作学习/学习/obsidian插件列表.md",
     "040 - Obsidian/react组件/music and birthday countdown 1.md",
     "040 - Obsidian/react组件/music and birthday countdown 2.md",
@@ -363,9 +379,6 @@
     "020 - 工作学习/工作/汇总所有在线文档.md",
     "020 - 工作学习/学习计划脚本/js学习计划脚本.md",
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
-    "040 - Obsidian/主页/00. 导航.md",
-    "040 - Obsidian/sortspec.md",
-    "020 - 工作学习/工作/工作.md",
     "020 - 工作学习/资源",
     "60 - 临时",
     "020 - 工作学习/02 软件学习",

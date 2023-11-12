@@ -1,7 +1,8 @@
 ---
-tags: 学习/英文
+description: mag, maj, max【拉丁】表示“大”
+tags: 学习/英语
 created: 2023-11-03T22:29
-updated: 2023-11-12T18:15
+updated: 2023-11-12T18:43
 ---
 # mag, maj, max【拉丁】表示“大”
 

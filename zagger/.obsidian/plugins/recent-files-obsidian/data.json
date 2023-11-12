@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "00. 英语学习",
+      "path": "020 - 工作学习/学习/英语学习/00. 英语学习.md"
+    },
+    {
       "basename": "00.英文",
       "path": "020 - 工作学习/学习/英语学习/英文/00.英文.md"
     },
     {
       "basename": "00. 主页",
       "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "-age 表抽象的名词后缀",
+      "path": "020 - 工作学习/学习/英语学习/英文/-age 表抽象的名词后缀.md"
+    },
+    {
+      "basename": "变量和函数命名参考",
+      "path": "020 - 工作学习/学习/英语学习/英文/变量和函数命名参考.md"
+    },
+    {
+      "basename": "252个常用英语词根记忆法背单词",
+      "path": "020 - 工作学习/学习/英语学习/英文/252个常用英语词根记忆法背单词.md"
     },
     {
       "basename": "obsidian插件列表",
@@ -183,22 +199,6 @@
     {
       "basename": "REAMDME",
       "path": "005 - Archive/REAMDME.md"
-    },
-    {
-      "basename": "REAMDME",
-      "path": "004 - Resource/REAMDME.md"
-    },
-    {
-      "basename": "REAMDME",
-      "path": "003 - Area/REAMDME.md"
-    },
-    {
-      "basename": "REAMDME",
-      "path": "001 - Inbox/REAMDME.md"
-    },
-    {
-      "basename": "模板",
-      "path": "040 - Obsidian/模板/模板.md"
     }
   ],
   "omittedPaths": [],

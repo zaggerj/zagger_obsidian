@@ -1,7 +1,8 @@
 ---
-tags: 学习/英文
+description: cad-, cas-, cid-【拉丁】表示“下降，降临，发生”
+tags: 学习/英语
 created: 2023-11-03T22:29
-updated: 2023-11-12T18:15
+updated: 2023-11-12T18:43
 ---
 # cad-, cas-, cid-【拉丁】表示“下降，降临，发生”
 
