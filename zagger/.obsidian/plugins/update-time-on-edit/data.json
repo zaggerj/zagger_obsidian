@@ -92,7 +92,7 @@
     "040 - Obsidian/主页/00. 文件管理.md": "e4a9e46b99d10eac383c05652d8cf0fdb49fc0e6244c41d271a6b415d300bece",
     "040 - Obsidian/主页/00. 导航.md": "9e38480d039ae40d472827956767005d93220b545c1e3a801043e1567851cfbb",
     "040 - Obsidian/主页/00. 参考汇总.md": "4dbbad59abace44409276dc977cbe730db83693b0efadc5338911e3eb7867afe",
-    "040 - Obsidian/主页/00. 主页.md": "86a3cb86e6f12f2b3295937cfc82f12bfe1bddb98c9c4ec85df351b7451f2fc0",
+    "040 - Obsidian/主页/00. 主页.md": "b2d7b5701664ba67546de089343419845450a90cd47cd19c903e35a5a797f993",
     "040 - Obsidian/sortspec.md": "35834802fd948cda29f7d51f1383eea2d8af7b1c45782efaa17c63f907792989",
     "040 - Obsidian/react组件/music and birthday countdown 2.md": "7c0f97f65b0ee23f91261135e9f32934e5997ce394f677ce069e7028f5593111",
     "040 - Obsidian/react组件/music and birthday countdown 1.md": "568490668c236a4010e03298de4e6d4616fdea8d5e2ec387cf213ebbfa31f7d8",
@@ -579,7 +579,7 @@
     "004 - Resource/生活/思想建设/关于工作和生活.md": "1f2408e44f0d01d7f79c3a410c624201168bf2f9df4acb452b552c153eaf5421",
     "004 - Resource/生活/思想建设/焦虑.md": "2fb5b63fee2345fd3603d0be1530630a24da5c731598ef716cbc0f0b300a953c",
     "004 - Resource/生活/思想建设/豆豆上学导学.md": "7e8a60f302b5e60f61b2fabafa170b170cd2717ff4b69da3cec7524018f0a2b1",
-    "004 - Resource/学习网站收录/IT技术网站.md": "dec8fc1915925a7726627d1b7e97dbb3ac3e474b10fad6a6a275c19fe21ccff0",
+    "004 - Resource/学习网站收录/IT技术网站.md": "83b1db46f9bc66cbbc526b9dd717c73730cb8e9c23fbb2aee3827278a97ae514",
     "004 - Resource/学习网站收录/js网站.md": "472956408dbf8cbd5e60eb91d445945dd23ec439dd8aa407406e58c5f463accf",
     "004 - Resource/学习网站收录/nodejs网站.md": "83aa3aad1680b9fc76a69a702b7ea6203fa220b7433e4ea47f16efc55bbfdbe6",
     "004 - Resource/学习网站收录/python网站.md": "b282447d68b0c4c6f1ddb69ecae1c4d2b1bdf6be0804e4eb393250ef7898174c",
@@ -779,6 +779,7 @@
     "020 - 工作学习/学习计划脚本/js文档学习笔记/1.11.8 `async&await`.md": "0b3eb6cfc4e986be3b9fc5c86fe2a1b20a35e81e42215c1cfaf06927d0f3d3f1",
     "020 - 工作学习/学习计划脚本/js文档学习笔记/1.12 `Generator，高级 iteration`.md": "6f58c9bdbf56825a9a7e8e5c734548dbac20e61889c5bfbd0d76c934297e60f8",
     "020 - 工作学习/学习计划脚本/js文档学习笔记/1.13 `模块`.md": "dcf78b4c796d97333c8a6521de0122131f9bb1d7e59d8381b423de74af9ce35e",
-    "020 - 工作学习/学习计划脚本/js文档学习笔记/1.14 `杂项`.md": "e7275343ea8d9993951976389ea78ff31daff4d655f94ae137873631ee28bd30"
+    "020 - 工作学习/学习计划脚本/js文档学习笔记/1.14 `杂项`.md": "e7275343ea8d9993951976389ea78ff31daff4d655f94ae137873631ee28bd30",
+    "004 - Resource/资源/macos软件安装.md": "5e6bf2cc6ba68f16bec4a6f92d711d03c5fdb0b13fa8f1d107291f233f88c315"
   }
 }

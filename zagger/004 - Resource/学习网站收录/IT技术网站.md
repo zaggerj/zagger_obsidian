@@ -1,6 +1,6 @@
 ---
 created: 2023-11-06T08:20
-updated: 2023-11-12T14:05
+updated: 2023-11-12T16:12
 ---
 # 1. 学习资源网站
 ## 1.1. 链接地址
@@ -63,6 +63,8 @@ updated: 2023-11-12T14:05
 
 ## 1.3. python
 1. [30个python实战项目合集（附源码），零基础小白练完秒变编程大佬，允许白嫖！\_python入门\_python基础\_PYTHON\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1cG411C73z/?spm_id_from=333.1007.tianma.3-1-7.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
+2. [2023最新录制python3教程 面向对象+网络编程+进程线程，保姆级教学\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV13B4y1d7Gj/?spm_id_from=333.1007.tianma.9-3-33.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
+3. [【B站大学】麻省理工大佬198小时讲完的Python课程，全场干货无废话，学完即可就业！拿走不谢\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1ra4y1D7ns/?spm_id_from=333.1007.tianma.36-3-141.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 
 ## 1.4. shell
 1. [B站强推！2023年最新Shell脚本全套顶级天花板教程，血赚！学完即可上岸，拿走不谢！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1ru411M7cJ/?spm_id_from=333.1007.tianma.4-1-11.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
@@ -75,9 +77,14 @@ updated: 2023-11-12T14:05
 8. [冒死上传（已被开除）！世界公认第一的Shell脚本学习方法，每天只需10分钟让你效率保障100倍！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1PQ4y1W7ZG/?spm_id_from=333.1007.tianma.1-1-1.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 9. [彻底搞懂linux文件系统，从文件系统原理到实现一个自己的文件系统\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Ku4y1a7cK/?spm_id_from=333.1007.tianma.2-2-5.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 10. [Linux 内核源码阅读入门(剖析Linux内核-构建源码树)\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1ec411Z7bc/?spm_id_from=333.1007.tianma.4-1-11.click)
+11. [推荐 12 个现代风格的 shell 命令 - 搞起来属于我的终端环境吧！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1iN4y1D7ox/?spm_id_from=333.1007.tianma.31-1-119.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
+12. [Shell脚本一天一练Day45-检测网段内通的IP\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Sg4y1X79X/?spm_id_from=333.1007.tianma.23-1-87.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 
 ## 1.5. linux
 1. [【计算机底层原理】程序员必知必会的技术，马士兵仅用700分钟讲明白计算机的组成、CPU的工作原理、TCP/IP、缓存、进程、线程锁、计算机网络...\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1R34y1g7iy/?spm_id_from=333.1007.tianma.6-4-22.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
+2. [图解linux网络编程\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV198411677d/?spm_id_from=333.1007.tianma.8-4-30.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
+3. [每天一个Linux命令-top(2)\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Cu4y1n7WF/?spm_id_from=333.1007.tianma.11-4-42.click)
+4. 不错!：[5分钟学会Linux的权限\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1cc411o7Te/?spm_id_from=333.1007.tianma.13-1-47.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 ## 1.6. windows软件下载
 1. [必装神器！2023年八款软件大揭秘，让你爽到爆表！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Vu411g77S/?spm_id_from=333.1007.tianma.4-2-12.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 2. [还有人不会装系统？还不知道这些神级软件？什么美化系统你也不会？一个视频帮你全搞懂！！！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1L94y1t74H/?spm_id_from=333.1007.tianma.5-3-17.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
@@ -90,6 +97,7 @@ updated: 2023-11-12T14:05
 
 ## 1.9. docker
 1. [B站强推！2023年最新docker+k8s全套顶级天花板教程，血赚！学完即可上岸，拿走不谢！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV17w411r7ci/?spm_id_from=333.1007.tianma.10-1-35.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
+2. [终于有人把 Docker 讲清楚了，万字精炼25分钟详解！（Docker零基础入门实战教学！）\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1CC4y1G7aC/?spm_id_from=333.1007.tianma.5-1-15.click)
 
 ## 1.10. 看书软件
 1. [最好用的电脑阅读软件，完全免费开源！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1gH4y1o7bo/?spm_id_from=333.1007.tianma.7-1-23.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
@@ -106,3 +114,64 @@ updated: 2023-11-12T14:05
 
 ## 1.14. 高中教辅资源
 1. [断更8个月，整理了一整套高中教辅资源给你！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1x34y1u7Jb/?spm_id_from=333.1007.tianma.3-1-7.click)
+
+## 1.15. js原型链
+1. [JavaScript高级教程，原型链从入门到大师，只需要一句话总结，小白也可以懂\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Lw411B7fM/?spm_id_from=333.1007.tianma.10-1-35.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
+
+## 1.16. Nextjs 与 TailwindCSS 框架详解
+1. [08. Nextjs 与 TailwindCSS 框架详解【下】\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1bN4y1k7A9/?spm_id_from=333.1007.tianma.20-1-75.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
+## 1.17. nodejs express
+1. [2023 最新 Node.js 系列教程之 Express\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1yN4y1S7xU/?spm_id_from=333.1007.tianma.14-4-54.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
+
+## 1.18. 前端算法
+1. [2023最新前端算法，字节大佬带你3天突击前端算法，让你在面试中高人一等，已有小伙伴凭此套视频上岸阿里p7\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Qu4y1P7kg/?spm_id_from=333.1007.tianma.13-4-50.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
+
+## 1.19. 好玩的docker项目
+[【好玩儿的Docker项目】10分钟搭建一个高颜值的在线工具箱，用户体验很棒！ | 我不是咕咕鸽](https://blog.laoda.de/archives/docker-compose-install-it-tools/)
+
+## 1.20. webpack
+1. [Webpack世界指南 - 2023重制版\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1sG411X7rj/?spm_id_from=333.1007.tianma.16-1-59.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
+
+## 1.21. webRTC
+[黑马前端WebRTC实现音视频通话功能，WebRTC原理和音视频传输技术及应用\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Dc411Z71W/?spm_id_from=333.1007.tianma.21-3-81.click)
+
+## 1.22. JavaScript：进阶必须理解的一些问题
+[GitHub - lydiahallie/javascript-questions: A long list of (advanced) JavaScript questions, and their explanations](https://github.com/lydiahallie/javascript-questions)
+[JavaScript：进阶必须理解的一些问题\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV13B4y1d7Jx/?spm_id_from=333.1007.tianma.25-1-95.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
+
+
+## 1.23. 10个网站
+1. msdn i tell you
+
+## 1.24. 位运算
+1. [一个位运算的高端操作，专注提效30年【渡一教育】\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1mN411x7Vv/?spm_id_from=333.1007.tianma.30-2-116.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
+
+## 1.25. nginx
+1. [比自学强十倍！看完这篇我确定你已经彻底搞懂Nginx了，全程干货，即学即用！！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Z84y1D7RM/?spm_id_from=333.1007.tianma.40-1-155.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
+2. [2023年最新版Nginx教程（超全面！超系统！超实用！）简单易懂，快速上手！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Ta4y1Q7Ce/?spm_id_from=333.1007.tianma.46-2-180.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
+
+## 1.26. P yTorch教程
+1. [【PyTorch教程】8小时极速入门！学不会你打我！——(深度学习丨机器学习丨神经网络丨人工智能丨自然语言处理丨计算机视觉丨CNN丨RNN丨GAN)\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Rc411R7Hi/?spm_id_from=333.1007.tianma.6-2-20.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
+## 1.27. wu dao ci dian无道词典
+```shell
+brew install python3
+sudo easy_install pip
+sudo pip install bs4
+sudo pip install lxml
+brew install bash-completion
+```
+
+[GitHub - ChestnutHeng/Wudao-dict: 有道词典的命令行版本，支持英汉互查和在线查询。](https://github.com/ChestnutHeng/Wudao-dict)
+
+## 1.28. iconify
+[【前端】iconify图标框架，17万个图标供你挑选\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Dw411c7dX/?spm_id_from=333.1007.tianma.19-2-72.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
+
+## 1.29. jest
+1. [Jest 单元测试之代码覆盖率和动态测试-2023-10-20-1（无剪辑版）\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Qp4y1N72w/?spm_id_from=333.1007.tianma.37-3-145.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
+2. [wdamtb投稿视频-wdamtb视频分享-哔哩哔哩视频](https://space.bilibili.com/420780095/video)
+
+## 1.30. zlibrary
+ 1⃣️首先呢用bing搜索Zlibrary的镜像，找到Tbox就可以重新进去啦，整体使用很丝滑 2⃣️书籍可以选择不同的格式，直接下载，PDF，EPUB，mobi都可以 3⃣️导入这常用的读书平台，就可以流畅的看和做笔记啦！
+
+## 1.31. gitlab cicd加自动化测试
+1. [基于Gitlab部署实验平台CICD+自动化测试\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1gN4y1r7E5/?spm_id_from=333.1007.tianma.59-1-231.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)

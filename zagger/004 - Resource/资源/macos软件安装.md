@@ -1,6 +1,6 @@
 ---
 created: 2023-11-08T14:23
-updated: 2023-11-12T13:42
+updated: 2023-11-12T16:07
 searchType: tpl
 ---
 
@@ -80,10 +80,13 @@ _摘抄部分原文后，进行筛选加粗然后对加粗的继续进行筛选�
 	4. Mac软件之家，应该是需要关注公众号，进行下载：[Mac软件之家 - Mac软件,Mac游戏,Mac破解软件,photoshop,office,Mac壁纸](https://www.macapp.so/)[Mac壁纸 - Mac高清壁纸,Retina壁纸下载](https://www.macapp.so/wallpaper/)
 	5. Maceniov，需要翻墙：[MacEnjoy-macOS破解资源分享站](https://www.macenjoy.co/)
 	6. [Site Unreachable](https://www.macyy.cn/resources?type=free)
+	7. 需要digit77.com解压缩：[Dynamic Wallpaper 16.4 破解版 – 视频动态壁纸 - Digit77.com | 海量精品Mac应用免费分享](https://www.digit77.com/macapps/dynamic-wallpaper-engine/#download-explan)
+	8. 好像直接可以下载16.6版本的：[Dynamic Wallpaper Mac破解软件下载 \_ Dynamic Wallpaper Mac破解版免费下载 \_ Dynamic Wallpaper：Mac OS超高清4k动态桌面壁纸软件破解 \_ 优乐事(uleshi.com)](https://uleshi.com/dynamic-wallpaper-mac.html)
 6. ![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian20231112132956.png)
 
 7. 软件下载方式：![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian20231112132403.png)
-
+ 8.  mac重复文件清理工具
+ github.com/arsenetar/dupeguru
 ## 1.5. 相关文章
 
 _摘抄来源，引用出处，参考链接，文档查询_
