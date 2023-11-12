@@ -1,6 +1,6 @@
 ---
 created: 2023-11-08T14:23
-updated: 2023-11-12T12:21
+updated: 2023-11-12T12:26
 searchType: tpl
 ---
 
@@ -71,6 +71,7 @@ _用自己的话去重述提取的重点内容_
 _摘抄部分原文后，进行筛选加粗然后对加粗的继续进行筛选荧光笔选出。_
 1. #macos/appstorrent [Поиск по сайту » Appstorrent - Игры и программы для macOS](https://appstorrent.ru/?story=Dynamic+Wallpaper+Engine&do=search&subaction=search)
 2. #macos/macoshome[Dynamic Wallpaper for Mac v16.6高清4K动态壁纸中文版 - 苹果系统之家](https://macoshome.com/app/utilities/6908.html#Down)
+3. #macos/ishotpro 
 ## 1.5. 相关文章
 
 _摘抄来源，引用出处，参考链接，文档查询_
