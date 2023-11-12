@@ -19,8 +19,61 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d22abb3ee36e7b75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "040 - Obsidian/教程/obsidian清单.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "35255fe259f09483",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "040 - Obsidian/教程/obsidian清单.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "17b336bc3c4c205d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0e8cdfd85c3621a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/工作/汇总所有在线文档.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,7 +228,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md"
+                "file": "040 - Obsidian/教程/obsidian清单.md"
               }
             }
           },
@@ -201,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md",
+                "file": "040 - Obsidian/教程/obsidian清单.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md",
+                "file": "040 - Obsidian/教程/obsidian清单.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +283,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md"
+                "file": "040 - Obsidian/教程/obsidian清单.md"
               }
             }
           },
@@ -315,18 +368,21 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "d835b58d6ad1a6d7",
+  "active": "d22abb3ee36e7b75",
   "lastOpenFiles": [
+    "040 - Obsidian/主页/00. 主页.md",
+    "040 - Obsidian/教程/obsidian清单.md",
+    "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
+    "020 - 工作学习/工作/汇总所有在线文档.md",
     "040 - Obsidian/主页/00. 导航.md",
+    "040 - Obsidian/sortspec.md",
     "004 - Resource/学习网站收录/IT技术网站.md",
     "020 - 工作学习/工作/工作.md",
     "040 - Obsidian/教程/obsidian贴图.md",
     "004 - Resource/学习网站收录/nodejs网站.md",
     "020 - 工作学习/资源/macos软件安装.md",
     "020 - 工作学习/资源/音乐下载.md",
-    "040 - Obsidian/教程/obsidian清单.md",
     "040 - Obsidian/教程/教程.md",
-    "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/资源",
     "000 - 每日日记/DailyNote/2023年11月12日.md",
     "000 - 每日日记/DailyNote/2023年11月08日.md",
@@ -341,9 +397,6 @@
     "004 - Resource/医学英语词根词缀分类数据库（首次升级）/医学英语词根词缀分类数据库/02支持库/01生物学/01动物/01动物/zoo, zoa, zo, zoi, zon, zoon.md",
     "004 - Resource/医学英语词根词缀分类数据库（首次升级）/医学英语词根词缀分类数据库/01主库/01解剖部位/001身体；肢体；体层/corp.md",
     "004 - Resource/医学英语词根词缀分类数据库（首次升级）/医学英语词根词缀分类数据库/00本资料基本信息/主页及目录/01基础分类目录/1 中英文目录 · 文字版.md",
-    "004 - Resource/医学英语词根词缀分类数据库（首次升级）/医学英语词根词缀分类数据库/02支持库/08人/01人的总称/anthrop.md",
-    "004 - Resource/医学英语词根词缀分类数据库（首次升级）/医学英语词根词缀分类数据库/00本资料基本信息/主页及目录/01基础分类目录/7 中英文目录 · 五栏表格版.md",
-    "004 - Resource/医学英语词根词缀分类数据库（首次升级）/医学英语词根词缀分类数据库/00本资料基本信息/主页及目录/主页.md",
     "60 - 临时",
     "020 - 工作学习/02 软件学习",
     "040 - Obsidian/模板/tp",

@@ -7,7 +7,7 @@ aliases:
   - obsidian指南
 number headings: auto, first-level 1, max 6, 1.1
 created: 2023-11-06T08:24
-updated: 2023-11-12T12:58
+updated: 2023-11-12T14:20
 ---
 # 1 obsidian清单
 ## 1.1 Metadata
@@ -46,7 +46,7 @@ Page Link::
 1. [Deprecation of dynamic commands · Issue #913 · SilentVoid13/Templater --- 弃用动态命令 · 问题 #913 · SilentVoid13/Templater (github.com)](https://github.com/SilentVoid13/Templater/issues/913)
 ### 1.5.4 示例库
 1. [PKM-er/Blue-topaz-example: Blue topaz themes example vault for Obsidian (github.com)](https://github.com/PKM-er/Blue-topaz-example)
-2. [zagger129/Obsidian-Homepage: A dashboard for your obsidian vault. (github.com)](https://github.com/zagger129/Obsidian-Homepage)
+2. [GitHub - Rainbell129/Obsidian-Homepage: A dashboard for your obsidian vault.](https://github.com/Rainbell129/Obsidian-Homepage)
 3. [Obsidian-Template-DynamicSchedule: Obsidian 动态日程模板 (gitee.com)](https://gitee.com/goblincwl/Obsidian-Template-DynamicSchedule)
 ### 1.5.5 博客
 1. [[ Obsidian ] 模板分享：自动化动态创建日程表 - 哔哩哔哩 (bilibili.com)](https://www.bilibili.com/read/cv23768479/)
