@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "625a91fac48f6295",
+        "id": "dc4b6597d68a7fa2",
         "type": "tabs",
         "children": [
           {
-            "id": "b74127da30498101",
+            "id": "eb473d22b175b71a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -240,7 +240,7 @@
             }
           },
           {
-            "id": "161ceb1e9b7e8ec0",
+            "id": "4d66d5425e031b8b",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -301,7 +301,6 @@
       "custom-sort:Toggle custom sorting": false,
       "file-tree-alternative:File Tree Alternative Plugin": true,
       "templater-obsidian:Templater": true,
-      "remotely-save:Remotely Save": false,
       "float-search:Search Obsidian In Modal": false,
       "surfing:surfing-bookmark-manager": false,
       "big-calendar:Big Calendar": false,
@@ -310,7 +309,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "b74127da30498101",
+  "active": "eb473d22b175b71a",
   "lastOpenFiles": [
     "记事本/英文/assets",
     "记事本/各种软件/vim学习",
