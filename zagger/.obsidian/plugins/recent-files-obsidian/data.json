@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "DailyNote",
-      "path": "000 - 每日日记/DailyNote/DailyNote.md"
+      "basename": "00.英文",
+      "path": "020 - 工作学习/学习/英语学习/英文/00.英文.md"
     },
     {
-      "basename": "2023年45周记录",
-      "path": "000 - 每日日记/WeeklyNote/2023年45周记录.md"
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "obsidian插件列表",
+      "path": "020 - 工作学习/学习/obsidian插件列表.md"
+    },
+    {
+      "basename": "music and birthday countdown 1",
+      "path": "040 - Obsidian/react组件/music and birthday countdown 1.md"
+    },
+    {
+      "basename": "music and birthday countdown 2",
+      "path": "040 - Obsidian/react组件/music and birthday countdown 2.md"
+    },
+    {
+      "basename": "学习",
+      "path": "020 - 工作学习/学习/学习.md"
     },
     {
       "basename": "2023年11月12日",
@@ -17,12 +33,24 @@
       "path": "000 - 每日日记/DailyNote/2023年11月11日.md"
     },
     {
+      "basename": "DailyNote",
+      "path": "000 - 每日日记/DailyNote/DailyNote.md"
+    },
+    {
       "basename": "2023年11月10日",
       "path": "000 - 每日日记/DailyNote/2023年11月10日.md"
     },
     {
       "basename": "2023年11月09日",
       "path": "000 - 每日日记/DailyNote/2023年11月09日.md"
+    },
+    {
+      "basename": "00. 学习",
+      "path": "020 - 工作学习/学习/00. 学习.md"
+    },
+    {
+      "basename": "2023年45周记录",
+      "path": "000 - 每日日记/WeeklyNote/2023年45周记录.md"
     },
     {
       "basename": "2023年11月08日",
@@ -35,10 +63,6 @@
     {
       "basename": "2023年11月06日",
       "path": "000 - 每日日记/DailyNote/2023年11月06日.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "IT技术网站",
@@ -175,30 +199,6 @@
     {
       "basename": "模板",
       "path": "040 - Obsidian/模板/模板.md"
-    },
-    {
-      "basename": "模板",
-      "path": "0040 - Obsidian/模板/模板.md"
-    },
-    {
-      "basename": "tp-每日日记模板",
-      "path": "040 - Obsidian/模板/tp-每日日记模板.md"
-    },
-    {
-      "basename": "tp-每周周记模板",
-      "path": "040 - Obsidian/模板/tp-每周周记模板.md"
-    },
-    {
-      "basename": "tp-长青笔记模板",
-      "path": "040 - Obsidian/模板/tp-长青笔记模板.md"
-    },
-    {
-      "basename": "tp-daily",
-      "path": "040 - Obsidian/模板/tp-daily.md"
-    },
-    {
-      "basename": "porpoises",
-      "path": "050 - 卡片知识/porpoises.md"
     }
   ],
   "omittedPaths": [],

@@ -3,7 +3,8 @@ created: 2023-10-30
 aliases: 
 tags:
   - word
-updated: 2023-11-10T15:23
+  - 学习/英文
+updated: 2023-11-12T18:17
 ---
 
 https://mp.weixin.qq.com/s/ns8XbadgSfL-_hGvvO1vXQ

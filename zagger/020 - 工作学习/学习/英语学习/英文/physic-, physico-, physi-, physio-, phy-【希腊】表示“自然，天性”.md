@@ -1,6 +1,7 @@
 ---
+tags: 学习/英文
 created: 2023-11-03T22:29
-updated: 2023-11-03T22:29
+updated: 2023-11-12T18:15
 ---
 # physic-, physico-, physi-, physio-, phy-【希腊】表示“自然，天性”
 

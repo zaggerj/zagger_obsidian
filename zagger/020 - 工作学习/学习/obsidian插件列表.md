@@ -1,10 +1,10 @@
 ---
 searchType: tpl
 created: 2023-11-08T14:23
-updated: 2023-11-10T17:10
+updated: 2023-11-12T18:09
 ---
 
-## 0.1 Metadata
+## 0.1. Metadata
 Status::    #笔记状态/🌱发芽
 Source Type::  #📥/💭想法 
 Note Type::  #笔记
@@ -12,12 +12,12 @@ Topic:: [[obsidian]]
 Author:: {原资讯的作者或者对话的人或者引起某种想法的原因}
 Source URL:: 
 Modify:: `=dateformat(this.file.mtime, "yyyy-MM-dd HH:MM:ss")`
-## 0.2 长青笔记
+## 0.2. 长青笔记
 *一句话概括这篇笔记的内容*
 Summary:: 
-## 0.3 自我重述
+## 0.3. 自我重述
 *用自己的话去重述提取的重点内容*
-## 0.4 重点摘抄
+## 0.4. 重点摘抄
 *摘抄部分原文后，进行筛选加粗然后对加粗的继续进行筛选荧光笔选出。*
 
 1. tag wrangler：热门插件，修改标签，做层级标签，重做分类。
@@ -60,7 +60,7 @@ Summary::
 38. ExcaliDraw，把 [excalidraw](https://www.zhihu.com/search?q=excalidraw&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A2794628275%7D) 装进 obsidian, 画[示意图](https://www.zhihu.com/search?q=%E7%A4%BA%E6%84%8F%E5%9B%BE&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A2794628275%7D)流程图等非常方便，把 .[excialdraw](https://www.zhihu.com/search?q=excialdraw&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A2794628275%7D) 文件以双链形式引入即可转成png图片引入，这个强推，平时做方案设计/原型设计可以直接在 obsidian 内完成，减少工作流的[上下文切换](https://www.zhihu.com/search?q=%E4%B8%8A%E4%B8%8B%E6%96%87%E5%88%87%E6%8D%A2&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A2794628275%7D)。**强推**
 39. DataView 就不多说，很多看起来比较酷的功能都是借助它做的，不过我本人用的比较少。
 40. Highlightr 没有用很多颜色的[theme](https://www.zhihu.com/search?q=theme&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A2794628275%7D)，所以稳当都是黑白，想要标注一些关键点只能用粗体或者斜体，这个插件默认插入一个mark html标签，用于高亮部分文案，需要突显一些内容的时候比较合适。
-## 0.5 相关文章
+## 0.5. 相关文章
 
 *摘抄来源，引用出处，参考链接，文档查询*
 Page Link::  https://zhuanlan.zhihu.com/p/353449575
