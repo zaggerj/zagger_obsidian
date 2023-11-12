@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "00. 导航",
+      "path": "040 - Obsidian/主页/00. 导航.md"
+    },
+    {
+      "basename": "代码库",
+      "path": "020 - 工作学习/代码库/代码库.md"
+    },
+    {
+      "basename": "IT技术网站",
+      "path": "004 - Resource/学习网站收录/IT技术网站.md"
+    },
+    {
+      "basename": "工作",
+      "path": "020 - 工作学习/工作/工作.md"
+    },
+    {
       "basename": "2023年11月09日",
       "path": "000 - 每日日记/DailyNote/2023年11月09日.md"
     },
@@ -10,11 +30,7 @@
     },
     {
       "basename": "nodejs网站",
-      "path": "020 - 工作学习/记事本/学习/学习网站收录/nodejs网站.md"
-    },
-    {
-      "basename": "IT技术网站",
-      "path": "020 - 工作学习/记事本/学习/学习网站收录/IT技术网站.md"
+      "path": "004 - Resource/学习网站收录/nodejs网站.md"
     },
     {
       "basename": "macos软件安装",
@@ -31,10 +47,6 @@
     {
       "basename": "教程",
       "path": "040 - Obsidian/教程/教程.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "2023年11月12日",
@@ -67,10 +79,6 @@
     {
       "basename": "家庭办公远程",
       "path": "020 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/家庭办公远程.md"
-    },
-    {
-      "basename": "00. 导航",
-      "path": "040 - Obsidian/主页/00. 导航.md"
     },
     {
       "basename": "zoo, zoa, zo, zoi, zon, zoon",
@@ -191,14 +199,6 @@
     {
       "basename": "tp-长青笔记模板",
       "path": "040 - Obsidian/模板/templater/tp-长青笔记模板.md"
-    },
-    {
-      "basename": "游戏",
-      "path": "020 - 工作学习/游戏/游戏.md"
-    },
-    {
-      "basename": "tp-人物模板",
-      "path": "040 - Obsidian/模板/templater/tp-人物模板.md"
     }
   ],
   "omittedPaths": [],

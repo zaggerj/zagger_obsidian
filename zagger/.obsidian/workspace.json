@@ -13,67 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "020 - 工作学习/资源/macos软件安装.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e387a0f6c382b01c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月12日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f3711dd1bee87cf0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月11日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1f87d79b65a3313c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月10日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3e311f0fb1353b0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月09日.md",
+                "file": "040 - Obsidian/主页/00. 主页.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "html5",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -208,7 +155,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -228,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月09日.md"
+                "file": "040 - Obsidian/主页/00. 主页.md"
               }
             }
           },
@@ -254,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月09日.md",
+                "file": "040 - Obsidian/主页/00. 主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月09日.md",
+                "file": "040 - Obsidian/主页/00. 主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -283,7 +230,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月09日.md"
+                "file": "040 - Obsidian/主页/00. 主页.md"
               }
             }
           },
@@ -328,7 +275,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -367,11 +315,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "3e311f0fb1353b0c",
+  "active": "d835b58d6ad1a6d7",
   "lastOpenFiles": [
+    "040 - Obsidian/主页/00. 导航.md",
+    "004 - Resource/学习网站收录/IT技术网站.md",
+    "020 - 工作学习/工作/工作.md",
     "040 - Obsidian/教程/obsidian贴图.md",
-    "020 - 工作学习/记事本/学习/学习网站收录/nodejs网站.md",
-    "020 - 工作学习/记事本/学习/学习网站收录/IT技术网站.md",
+    "004 - Resource/学习网站收录/nodejs网站.md",
     "020 - 工作学习/资源/macos软件安装.md",
     "020 - 工作学习/资源/音乐下载.md",
     "040 - Obsidian/教程/obsidian清单.md",
@@ -388,14 +338,12 @@
     "000 - 每日日记/DailyNote/2023年11月10日.md",
     "020 - 工作学习/工作/引发的管理台项目可配置.md",
     "020 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/家庭办公远程.md",
-    "040 - Obsidian/主页/00. 导航.md",
     "004 - Resource/医学英语词根词缀分类数据库（首次升级）/医学英语词根词缀分类数据库/02支持库/01生物学/01动物/01动物/zoo, zoa, zo, zoi, zon, zoon.md",
     "004 - Resource/医学英语词根词缀分类数据库（首次升级）/医学英语词根词缀分类数据库/01主库/01解剖部位/001身体；肢体；体层/corp.md",
     "004 - Resource/医学英语词根词缀分类数据库（首次升级）/医学英语词根词缀分类数据库/00本资料基本信息/主页及目录/01基础分类目录/1 中英文目录 · 文字版.md",
     "004 - Resource/医学英语词根词缀分类数据库（首次升级）/医学英语词根词缀分类数据库/02支持库/08人/01人的总称/anthrop.md",
     "004 - Resource/医学英语词根词缀分类数据库（首次升级）/医学英语词根词缀分类数据库/00本资料基本信息/主页及目录/01基础分类目录/7 中英文目录 · 五栏表格版.md",
     "004 - Resource/医学英语词根词缀分类数据库（首次升级）/医学英语词根词缀分类数据库/00本资料基本信息/主页及目录/主页.md",
-    "004 - Resource/医学英语词根词缀分类数据库/00本资料基本信息/版权声明.md",
     "60 - 临时",
     "020 - 工作学习/02 软件学习",
     "040 - Obsidian/模板/tp",

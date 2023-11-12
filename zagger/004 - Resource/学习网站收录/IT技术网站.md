@@ -1,6 +1,6 @@
 ---
 created: 2023-11-06T08:20
-updated: 2023-11-12T13:49
+updated: 2023-11-12T14:05
 ---
 # 1. 学习资源网站
 ## 1.1. 链接地址
@@ -75,31 +75,34 @@ updated: 2023-11-12T13:49
 8. [冒死上传（已被开除）！世界公认第一的Shell脚本学习方法，每天只需10分钟让你效率保障100倍！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1PQ4y1W7ZG/?spm_id_from=333.1007.tianma.1-1-1.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 9. [彻底搞懂linux文件系统，从文件系统原理到实现一个自己的文件系统\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Ku4y1a7cK/?spm_id_from=333.1007.tianma.2-2-5.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 10. [Linux 内核源码阅读入门(剖析Linux内核-构建源码树)\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1ec411Z7bc/?spm_id_from=333.1007.tianma.4-1-11.click)
-## 1.5. windows软件下载
+
+## 1.5. linux
+1. [【计算机底层原理】程序员必知必会的技术，马士兵仅用700分钟讲明白计算机的组成、CPU的工作原理、TCP/IP、缓存、进程、线程锁、计算机网络...\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1R34y1g7iy/?spm_id_from=333.1007.tianma.6-4-22.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
+## 1.6. windows软件下载
 1. [必装神器！2023年八款软件大揭秘，让你爽到爆表！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Vu411g77S/?spm_id_from=333.1007.tianma.4-2-12.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 2. [还有人不会装系统？还不知道这些神级软件？什么美化系统你也不会？一个视频帮你全搞懂！！！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1L94y1t74H/?spm_id_from=333.1007.tianma.5-3-17.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 
-## 1.6. chrome插件 # 神级插件Tampermonkey,uBlock Origin
+## 1.7. chrome插件 # 神级插件Tampermonkey,uBlock Origin
 1. [神级插件Tampermonkey,uBlock Origin将您的谷歌浏览器功能拉满 广告过滤 网页翻译 github下载加速 ChatGPT工具\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1JC4y1V7mU/?spm_id_from=333.1007.tianma.7-3-25.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 
-## 1.7. cmake
+## 1.8. cmake
 1. [cmake入门极简教程\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1nw411C71Z/?spm_id_from=333.1007.tianma.7-4-26.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 
-## 1.8. docker
+## 1.9. docker
 1. [B站强推！2023年最新docker+k8s全套顶级天花板教程，血赚！学完即可上岸，拿走不谢！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV17w411r7ci/?spm_id_from=333.1007.tianma.10-1-35.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 
-## 1.9. 看书软件
+## 1.10. 看书软件
 1. [最好用的电脑阅读软件，完全免费开源！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1gH4y1o7bo/?spm_id_from=333.1007.tianma.7-1-23.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 
-## 1.10. go
+## 1.11. go
 1. [花了2万多买的Go语言（golang）教程全套，现在分享给大家，golang零基础入门到精通(Java程序员转行golang开发必看)\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1bN4y1Z7BT/?spm_id_from=333.1007.tianma.4-4-14.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 
-## 1.11. 搜索技术
+## 1.12. 搜索技术
 1. [超级搜索技术，普通人变强的唯一外挂 | 全套宝藏实操秘技\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1yw411F7J1/?spm_id_from=333.1007.tianma.2-2-5.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 
-## 1.12. vim
+## 1.13. vim
 1. [VIM为什么好用？超实用的10个vim小技巧分享\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV17j411B7cN/?spm_id_from=333.1007.tianma.8-4-30.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 2. [【第三期】Vim基础&高级技巧教学切合实际工作-更多常用指令进阶操作\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV15r4y1R78b/?spm_id_from=333.1007.tianma.1-1-1.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 
-## 1.13. 高中教辅资源
+## 1.14. 高中教辅资源
 1. [断更8个月，整理了一整套高中教辅资源给你！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1x34y1u7Jb/?spm_id_from=333.1007.tianma.3-1-7.click)
