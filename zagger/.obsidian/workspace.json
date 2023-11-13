@@ -4,23 +4,50 @@
     "type": "split",
     "children": [
       {
-        "id": "35728e0ff01dc990",
+        "id": "a455533c3ec6047e",
         "type": "tabs",
         "children": [
           {
-            "id": "329836542913f209",
+            "id": "b8f69f0fe8f3e167",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "040 - Obsidian/主页/00. 主页.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1fcab04ab26046a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2023年11月13日.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
+          },
+          {
+            "id": "00f2522b4635d6df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/00.spice.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -45,20 +72,12 @@
             }
           },
           {
-            "id": "03fb6b7e157ad75a",
-            "type": "leaf",
-            "state": {
-              "type": "tagfolder-view",
-              "state": {}
-            }
-          },
-          {
             "id": "f2b0ffe519625a29",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "html5",
+                "query": "tag:#计划",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,14 +95,6 @@
             }
           },
           {
-            "id": "72af9f44de1e3a7d",
-            "type": "leaf",
-            "state": {
-              "type": "file-tree-view",
-              "state": {}
-            }
-          },
-          {
             "id": "b1705953f1ac2acf",
             "type": "leaf",
             "state": {
@@ -96,22 +107,6 @@
             "type": "leaf",
             "state": {
               "type": "surfing-tab-tree",
-              "state": {}
-            }
-          },
-          {
-            "id": "9c81ad1bc1d69a1a",
-            "type": "leaf",
-            "state": {
-              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
-              "state": {}
-            }
-          },
-          {
-            "id": "2bc6335185a15709",
-            "type": "leaf",
-            "state": {
-              "type": "tagfolder-view",
               "state": {}
             }
           }
@@ -141,12 +136,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 296
+    "width": 316.5
   },
   "right": {
     "id": "49b0f6d6f173189c",
@@ -162,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md"
+                "file": "000 - 每日日记/DailyNote/2023年11月13日.md"
               }
             }
           },
@@ -188,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md",
+                "file": "000 - 每日日记/DailyNote/2023年11月13日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md",
+                "file": "000 - 每日日记/DailyNote/2023年11月13日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +211,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md"
+                "file": "000 - 每日日记/DailyNote/2023年11月13日.md"
               }
             }
           },
@@ -240,7 +234,7 @@
             }
           },
           {
-            "id": "b85e7519fb8d8196",
+            "id": "67d3f79eb2f8b148",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -279,74 +273,73 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "omnisearch:Omnisearch": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
       "homepage:Open homepage": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "markdown-importer:打开 Markdown 格式转换器": true,
-      "zk-prefixer:创建时间戳笔记": true,
-      "random-note:开始漫游笔记": true,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "zk-prefixer:创建时间戳笔记": false,
+      "random-note:开始漫游笔记": false,
       "audio-recorder:开始/结束录音": false,
       "workspaces:管理工作区布局": false,
       "obsidian-importer:Open Importer": true,
-      "table-editor-obsidian:Advanced Tables Toolbar": true,
-      "mermaid-tools:Open Mermaid Toolbar": true,
-      "obsidian-day-planner:Timeline": true,
-      "cmdr:折叠": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-day-planner:Timeline": false,
+      "cmdr:折叠": true,
       "custom-sort:Toggle custom sorting": false,
-      "file-tree-alternative:File Tree Alternative Plugin": true,
-      "templater-obsidian:Templater": true,
       "float-search:Search Obsidian In Modal": false,
       "surfing:surfing-bookmark-manager": false,
       "big-calendar:Big Calendar": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": true,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "omnisearch:Omnisearch": false,
       "periodic-notes:Open today": false,
       "obsidian-memos:Memos": false
     }
   },
-  "active": "329836542913f209",
+  "active": "1fcab04ab26046a3",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/00.spice.md",
+    "000 - 每日日记/DailyNote/2023年11月13日.md",
+    "040 - Obsidian/主页/00. 主页.md",
+    "040 - Obsidian/教程/obsidian清单.md",
+    "020 - 工作学习/工作/spice被卡巴斯基拦截的过程.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/spice学习.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/spice代码文档.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/downloadmanager.js.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/busprocess.js.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/busconnection.js.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/agent.js.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/webspice kos系统 中无法上传.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/spice没有连接时，关闭他会报错.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/spice没有安装guesttool.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/spice黑屏问题.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/spice常见问题.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/spice白屏问题.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/kos2023透明效果问题.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/idp代理连不上问题.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice需要优化的点.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice问题.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice库改动历史备忘.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice画面质量参数h264.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice打开文件传输拖入功能.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/spice学习清单.md",
+    "040 - Obsidian/附件/Attachment/~$文档模板 1.docx",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题",
+    "020 - 工作学习/学习/前端/css",
     "记事本/英文/assets",
     "记事本/各种软件/vim学习",
     "记事本/学习/js小知识点",
     "记事本/学习/docker",
     "记事本/学习/nodejs",
-    "记事本/学习/jenkins",
-    "记事本/待整理/assets",
-    "记事本/学习/webpack",
-    "记事本/待整理/linux命令",
-    "记事本/学习/electron",
-    "20 - 工作学习/记事本/学习",
-    "040 - Obsidian/主页/00. 主页.md",
-    "020 - 工作学习/学习/英语学习/英文/00.英文.md",
-    "020 - 工作学习/学习/英语学习/英文/-age 表抽象的名词后缀.md",
-    "020 - 工作学习/学习/英语学习/英文/变量和函数命名参考.md",
-    "020 - 工作学习/学习/英语学习/英文/252个常用英语词根记忆法背单词.md",
-    "020 - 工作学习/学习/obsidian插件列表.md",
-    "040 - Obsidian/react组件/music and birthday countdown 1.md",
-    "040 - Obsidian/react组件/music and birthday countdown 2.md",
-    "020 - 工作学习/学习/学习.md",
-    "000 - 每日日记/DailyNote/2023年11月12日.md",
-    "000 - 每日日记/DailyNote/2023年11月11日.md",
-    "000 - 每日日记/DailyNote/DailyNote.md",
-    "000 - 每日日记/DailyNote/2023年11月10日.md",
-    "000 - 每日日记/DailyNote/2023年11月09日.md",
-    "020 - 工作学习/学习/00. 学习.md",
-    "000 - 每日日记/WeeklyNote/2023年45周记录.md",
-    "000 - 每日日记/DailyNote/2023年11月08日.md",
-    "000 - 每日日记/DailyNote/2023年11月07日.md",
-    "000 - 每日日记/DailyNote/2023年11月06日.md",
-    "004 - Resource/学习网站收录/IT技术网站.md",
-    "004 - Resource/资源/macos软件安装.md",
-    "040 - Obsidian/教程/obsidian清单.md",
-    "040 - Obsidian/教程/obsidian贴图.md",
-    "020 - 工作学习/工作/汇总所有在线文档.md",
-    "020 - 工作学习/学习计划脚本/js学习计划脚本.md",
     "040 - Obsidian/附件/}[YAY}4`V3EH[RB]0}29_00.png",
     "040 - Obsidian/附件/100911654141903_.pic.jpg",
     "obsidian配置文件目录/Attachment/assets 9/image5-20230708221750-odzmzc1.jpeg",
