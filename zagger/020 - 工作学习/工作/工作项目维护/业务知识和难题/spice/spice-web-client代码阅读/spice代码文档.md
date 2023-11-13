@@ -1,15 +1,15 @@
 ---
 tags: 工作/spice
 created: 2023-11-03T22:29
-updated: 2023-11-13T08:55
+updated: 2023-11-13T16:33
 ---
-# spice文档
+# 1. spice代码文档
 
-# network
+# 2. network
 
 　　这个目录里面主要存放和网络数据相关的对象，下面简单描述一个 websocket **消息传输的过程，这个过程可以串联起很多对象，并且可以对** spice **网络层的运作有一个清晰的了解。**
 
-## websocket 一般的数据处理流程
+## 2.1. websocket 一般的数据处理流程
 
 　　在继续深入之前，先介绍下 websocket **一般如何处理数据，然后带着这样的理解再描述项目里面数据的处理流程。**
 
@@ -19,7 +19,7 @@ updated: 2023-11-13T08:55
 ​`js const ws = new WebSocket("ws://localhost"); ws.addEventListener("message", (e) => {     // 拿到目标消息对象     const message = e.data;     const type = getMessageType(message);     dispatchMessage(type, message); }); ​`​  
 消息派发完，一次消息的处理过程也就结束了。之后，就是不停的重复这一过程直到链接关闭。
 
-## spice websocket 消息的处理流程
+## 2.2. spice websocket 消息的处理流程
 
 　　在我们项目里面，websocket **的消息处理流程在套路上和上面一般的处理流程其实是相同的，但在流程内部，它又做了一些细化。**
 

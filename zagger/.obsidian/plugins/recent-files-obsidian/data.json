@@ -1,8 +1,84 @@
 {
   "recentFiles": [
     {
+      "basename": "spice学习清单",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/spice学习清单.md"
+    },
+    {
+      "basename": "spice技术文档参考文档",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/spice技术文档参考文档.md"
+    },
+    {
+      "basename": "spice代码文档",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/spice代码文档.md"
+    },
+    {
+      "basename": "spice项目",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/spice项目.md"
+    },
+    {
+      "basename": "spice网站",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/spice网站.md"
+    },
+    {
+      "basename": "jsbn",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/jsbn.md"
+    },
+    {
+      "basename": "agent.js",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/agent.js.md"
+    },
+    {
+      "basename": "spice打开文件传输拖入功能",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice打开文件传输拖入功能.md"
+    },
+    {
+      "basename": "spice常见问题",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/spice常见问题.md"
+    },
+    {
+      "basename": "00.spice",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/00.spice.md"
+    },
+    {
+      "basename": "spice画面质量参数h264",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice画面质量参数h264.md"
+    },
+    {
+      "basename": "spice没有连接时，关闭他会报错",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/spice没有连接时，关闭他会报错.md"
+    },
+    {
+      "basename": "spice没有安装guesttool",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/spice没有安装guesttool.md"
+    },
+    {
+      "basename": "spice库改动历史备忘",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice库改动历史备忘.md"
+    },
+    {
+      "basename": "spice被卡巴斯基拦截的过程",
+      "path": "020 - 工作学习/工作/spice被卡巴斯基拦截的过程.md"
+    },
+    {
+      "basename": "a 服务器相关命令",
+      "path": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
+    },
+    {
+      "basename": "2023年46周记录",
+      "path": "000 - 每日日记/WeeklyNote/2023年46周记录.md"
+    },
+    {
       "basename": "2023年11月13日",
       "path": "000 - 每日日记/DailyNote/2023年11月13日.md"
+    },
+    {
+      "basename": "排期计划",
+      "path": "040 - Obsidian/模板/排期计划.md"
+    },
+    {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "tp-长青笔记模板",
@@ -15,14 +91,6 @@
     {
       "basename": "tp-每周周记模板",
       "path": "040 - Obsidian/模板/tp-每周周记模板.md"
-    },
-    {
-      "basename": "排期计划",
-      "path": "040 - Obsidian/模板/排期计划.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "1 中英文目录 · 文字版",
@@ -127,78 +195,6 @@
     {
       "basename": "2023年11月12日",
       "path": "000 - 每日日记/DailyNote/2023年11月12日.md"
-    },
-    {
-      "basename": "spice",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice.md"
-    },
-    {
-      "basename": "学习",
-      "path": "020 - 工作学习/学习/学习.md"
-    },
-    {
-      "basename": "管理工作",
-      "path": "020 - 工作学习/工作/管理工作/管理工作.md"
-    },
-    {
-      "basename": "工作",
-      "path": "020 - 工作学习/工作/工作.md"
-    },
-    {
-      "basename": "00. 工作",
-      "path": "020 - 工作学习/工作/00. 工作.md"
-    },
-    {
-      "basename": "英语学习",
-      "path": "020 - 工作学习/学习/英语学习/英语学习.md"
-    },
-    {
-      "basename": "00.英文",
-      "path": "020 - 工作学习/学习/英语学习/英文/00.英文.md"
-    },
-    {
-      "basename": "00.spice",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/00.spice.md"
-    },
-    {
-      "basename": "idp代理连不上问题",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/idp代理连不上问题.md"
-    },
-    {
-      "basename": "有成果的工作",
-      "path": "020 - 工作学习/工作/工作计划/有成果的工作/有成果的工作.md"
-    },
-    {
-      "basename": "业务知识学习和推进方案",
-      "path": "020 - 工作学习/工作/工作计划/有成果的工作/业务知识学习和推进方案/业务知识学习和推进方案.md"
-    },
-    {
-      "basename": "最新工作安排",
-      "path": "020 - 工作学习/工作/工作计划/最新工作安排/最新工作安排.md"
-    },
-    {
-      "basename": "附件",
-      "path": "040 - Obsidian/附件/附件.md"
-    },
-    {
-      "basename": "00. 英语学习",
-      "path": "020 - 工作学习/学习/英语学习/00. 英语学习.md"
-    },
-    {
-      "basename": "-age 表抽象的名词后缀",
-      "path": "020 - 工作学习/学习/英语学习/英文/-age 表抽象的名词后缀.md"
-    },
-    {
-      "basename": "变量和函数命名参考",
-      "path": "020 - 工作学习/学习/英语学习/英文/变量和函数命名参考.md"
-    },
-    {
-      "basename": "252个常用英语词根记忆法背单词",
-      "path": "020 - 工作学习/学习/英语学习/英文/252个常用英语词根记忆法背单词.md"
-    },
-    {
-      "basename": "obsidian插件列表",
-      "path": "020 - 工作学习/学习/obsidian插件列表.md"
     }
   ],
   "omittedPaths": [],
