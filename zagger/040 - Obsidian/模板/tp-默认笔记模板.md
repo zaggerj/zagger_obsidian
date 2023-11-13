@@ -1,22 +1,21 @@
 ---
-
-<%-\*
-var cleanTitle = tp.user.getTitleSnippet(tp.file.title)
+<%-*
+var cleanTitle = tp.user.getTitleSnippet(tp.file.title) 
 var title = `${cleanTitle}`;
 await tp.file.rename(`${title}`);
 -%>
 
-alias:
-tags:
+alias: 
+tags: 
 cdate: <% tp.file.creation_date() %>
-uid: <% tp.date.now("YYYYMMDDHHmmss") %>
-Update: <%+ tp.file.last_modified_date("YYYY-MM-DD HH:mm:ss") %>
-cssclass:
-Cover:
-
+uid: <% tp.date.now("YYYYMMDDHHmmss") %> 
+Update: <% tp.file.last_modified_date("YYYY-MM-DD HH:mm:ss") %>
+cssclass: 
+Cover: 
 ---
 
-## 0.1. Metadata
+# 1. <% tp.file.title %>
+## 1.1. Metadata
 
 Status:: <% tp.system.suggester(["🌱 发芽状态", "🪴 培育状态", "🌲 长青状态"], ["#笔记状态/🌱 发芽", "#笔记状态/🪴 培育","#笔记状态/🌲 长青"],false, "笔记状态是？") %>
 Source Type:: <% tp.system.suggester(["💭 想法", "📚 书籍", "📰️ 文章", "🗣️ 聊天", "💻 教学", "▶️ 视频", "🎧️ 播客"], ["#📥/💭 想法 ", "#📥/📚 书籍 ", "#📥/📰️ 文章", "#📥/🗣️ 聊天 ", " #📥/💻 教学", "#📥/▶️ 视频", "#📥/🎧️ 播客"],false, "笔记源自哪里？") %>

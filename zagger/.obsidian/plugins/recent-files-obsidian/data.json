@@ -5,16 +5,40 @@
       "path": "040 - Obsidian/模板/tp-每日日记模板.md"
     },
     {
-      "basename": "tp-长青笔记模板",
-      "path": "040 - Obsidian/模板/tp-长青笔记模板.md"
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "1 中英文目录 · 文字版",
+      "path": "004 - Resource/医学英语词根词缀分类数据库（首次升级）/医学英语词根词缀分类数据库/00本资料基本信息/主页及目录/01基础分类目录/1 中英文目录 · 文字版.md"
+    },
+    {
+      "basename": "2023年11月13日",
+      "path": "000 - 每日日记/DailyNote/2023年11月13日.md"
+    },
+    {
+      "basename": "tp-默认笔记模板",
+      "path": "040 - Obsidian/模板/tp-默认笔记模板.md"
+    },
+    {
+      "basename": "tp-人物模板",
+      "path": "040 - Obsidian/模板/tp-人物模板.md"
+    },
+    {
+      "basename": "tp-每周周记模板",
+      "path": "040 - Obsidian/模板/tp-每周周记模板.md"
+    },
+    {
+      "basename": "远程使用场景",
+      "path": "020 - 工作学习/工作/远程使用场景.md"
     },
     {
       "basename": "windicss-远程使用场景",
       "path": "020 - 工作学习/学习/前端/css/windicss-远程使用场景.md"
     },
     {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
+      "basename": "tp-长青笔记模板",
+      "path": "040 - Obsidian/模板/tp-长青笔记模板.md"
     },
     {
       "basename": "01 自动选择模板",
@@ -93,24 +117,8 @@
       "path": "040 - Obsidian/模板/tp-日记模板.md"
     },
     {
-      "basename": "tp-人物模板",
-      "path": "040 - Obsidian/模板/tp-人物模板.md"
-    },
-    {
-      "basename": "tp-默认笔记模板",
-      "path": "040 - Obsidian/模板/tp-默认笔记模板.md"
-    },
-    {
-      "basename": "tp-每周周记模板",
-      "path": "040 - Obsidian/模板/tp-每周周记模板.md"
-    },
-    {
       "basename": "模板",
       "path": "040 - Obsidian/模板/模板.md"
-    },
-    {
-      "basename": "2023年11月13日",
-      "path": "000 - 每日日记/DailyNote/2023年11月13日.md"
     },
     {
       "basename": "2023年45周记录",
@@ -191,14 +199,6 @@
     {
       "basename": "obsidian插件列表",
       "path": "020 - 工作学习/学习/obsidian插件列表.md"
-    },
-    {
-      "basename": "music and birthday countdown 1",
-      "path": "040 - Obsidian/react组件/music and birthday countdown 1.md"
-    },
-    {
-      "basename": "music and birthday countdown 2",
-      "path": "040 - Obsidian/react组件/music and birthday countdown 2.md"
     }
   ],
   "omittedPaths": [],

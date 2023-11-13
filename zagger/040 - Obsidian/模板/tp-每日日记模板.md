@@ -1,16 +1,13 @@
 ---
-
 creation date: <% tp.file.creation_date() %>
 modification date: <%+ tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %>
 tags: DailyNote
-
 banner: "040 - Obsidian/附件/banners/daily-note-banner.gif"
 cssclass: noyaml
 banner_icon: 💌
 banner_x: 0.5
 banner_y: 0.38
 week: <% tp.date.now("YYYY-WW") %>
-
 ---
 
 # 1. <% tp.file.title %>
