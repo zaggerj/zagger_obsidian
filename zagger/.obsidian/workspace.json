@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d25c7f6ae471bc64",
+        "id": "10ce96947610d97d",
         "type": "tabs",
         "children": [
           {
-            "id": "dbd2e716192fe478",
+            "id": "61fd35a6c223b9f6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "040 - Obsidian/主页/00. 主页.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3b86a3608f75c318",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/工作/汇总所有在线文档.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +21,12 @@
             }
           },
           {
-            "id": "f9f9c01367737648",
+            "id": "e15d821ffa63f56b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "020 - 工作学习/学习/前端/00.学习-前端.md",
+                "file": "004 - Resource/学习网站收录/IT技术网站.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,12 +34,12 @@
             }
           },
           {
-            "id": "9ad68551cefc40fd",
+            "id": "2e3e9f236d1a9864",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月15日.md",
+                "file": "004 - Resource/资源/macos软件安装.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,12 +47,12 @@
             }
           },
           {
-            "id": "51aff3fdbbc33af0",
+            "id": "5134a170dc3256fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "020 - 工作学习/学习/前端/00.学习-前端.md",
+                "file": "040 - Obsidian/教程/obsidian清单.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,74 +60,12 @@
             }
           },
           {
-            "id": "9dc71fbcbcaddd7a",
-            "type": "leaf",
-            "state": {
-              "type": "mindmapview",
-              "state": {
-                "file": "040 - Obsidian/Excalidraw/场景切换过程图解.md"
-              }
-            }
-          },
-          {
-            "id": "04a19d98880e6d94",
+            "id": "e46d385c21c21855",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月14日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "163ed2e997e98fb7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "040 - Obsidian/模板/tp-每日日记模板.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ac314b32a2c2d15f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "040 - Obsidian/模板/tp-长青笔记模板.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f3fff00e8f61d099",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/前端/typescript/typescript-声明文件.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c91ca24f90e6f31a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/前端/00.学习-前端.md",
+                "file": "040 - Obsidian/教程/obsidian贴图.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -148,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,8 +93,16 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
+            }
+          },
+          {
+            "id": "03fb6b7e157ad75a",
+            "type": "leaf",
+            "state": {
+              "type": "tagfolder-view",
+              "state": {}
             }
           },
           {
@@ -178,7 +111,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "/etc/thor/",
+                "query": "html5",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -192,6 +125,14 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "72af9f44de1e3a7d",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
               "state": {}
             }
           },
@@ -210,9 +151,24 @@
               "type": "surfing-tab-tree",
               "state": {}
             }
+          },
+          {
+            "id": "9c81ad1bc1d69a1a",
+            "type": "leaf",
+            "state": {
+              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
+              "state": {}
+            }
+          },
+          {
+            "id": "2bc6335185a15709",
+            "type": "leaf",
+            "state": {
+              "type": "tagfolder-view",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "73db95bfb166faa1",
@@ -237,12 +193,26 @@
                 "useHierarchy": false
               }
             }
+          },
+          {
+            "id": "cd06d04dbc147ecb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "040 - Obsidian/主页/00. 导航.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 316.5
+    "width": 296
   },
   "right": {
     "id": "49b0f6d6f173189c",
@@ -258,7 +228,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "020 - 工作学习/学习/前端/00.学习-前端.md"
+                "file": "004 - Resource/学习网站收录/IT技术网站.md"
               }
             }
           },
@@ -284,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "020 - 工作学习/学习/前端/00.学习-前端.md",
+                "file": "004 - Resource/学习网站收录/IT技术网站.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -301,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "020 - 工作学习/学习/前端/00.学习-前端.md",
+                "file": "004 - Resource/学习网站收录/IT技术网站.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -313,7 +283,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "020 - 工作学习/学习/前端/00.学习-前端.md"
+                "file": "004 - Resource/学习网站收录/IT技术网站.md"
               }
             }
           },
@@ -334,16 +304,9 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
-          },
-          {
-            "id": "eb05b3389e4feda9",
-            "type": "leaf",
-            "state": {
-              "type": "tasks_timeline_view",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "888c3f3084370af3",
@@ -365,81 +328,84 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 280.5
+    "width": 313
   },
   "left-ribbon": {
     "hiddenItems": {
-      "homepage:Open homepage": false,
-      "templater-obsidian:Templater": false,
+      "omnisearch:Omnisearch": false,
       "obsidian-full-calendar:Open Full Calendar": false,
+      "periodic-notes:Open today": false,
+      "homepage:Open homepage": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "markdown-importer:打开 Markdown 格式转换器": false,
-      "zk-prefixer:创建时间戳笔记": false,
-      "random-note:开始漫游笔记": false,
+      "markdown-importer:打开 Markdown 格式转换器": true,
+      "zk-prefixer:创建时间戳笔记": true,
+      "random-note:开始漫游笔记": true,
       "audio-recorder:开始/结束录音": false,
       "workspaces:管理工作区布局": false,
       "obsidian-importer:Open Importer": true,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-day-planner:Timeline": false,
-      "cmdr:折叠": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": true,
+      "mermaid-tools:Open Mermaid Toolbar": true,
+      "obsidian-day-planner:Timeline": true,
+      "cmdr:折叠": false,
       "custom-sort:Toggle custom sorting": false,
+      "file-tree-alternative:File Tree Alternative Plugin": true,
+      "templater-obsidian:Templater": true,
+      "remotely-save:Remotely Save": false,
       "float-search:Search Obsidian In Modal": false,
       "surfing:surfing-bookmark-manager": false,
       "big-calendar:Big Calendar": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "omnisearch:Omnisearch": false,
-      "periodic-notes:Open today": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": true,
       "obsidian-memos:Memos": false
     }
   },
-  "active": "51aff3fdbbc33af0",
+  "active": "e15d821ffa63f56b",
   "lastOpenFiles": [
-    "040 - Obsidian/Excalidraw/场景切换过程图解.md",
-    "020 - 工作学习/学习/前端/00.学习-前端.md",
-    "000 - 每日日记/DailyNote/2023年11月15日.md",
-    "000 - 每日日记/DailyNote/2023年11月14日.md",
-    "020 - 工作学习/学习/前端/typescript/typescript-声明文件.md",
-    "020 - 工作学习/学习/前端/typescript/tsconfig.json.md",
-    "020 - 工作学习/学习/前端/typescript/学习清单.md",
-    "020 - 工作学习/学习/前端/typescript/内置对象.md",
-    "040 - Obsidian/模板/tp-长青笔记模板.md",
-    "040 - Obsidian/模板/tp-每日日记模板.md",
-    "020 - 工作学习/学习/前端/typescript/typescript入门教程.md",
-    "020 - 工作学习/工作/汇总所有在线文档.md",
-    "020 - 工作学习/学习/00. 学习.md",
-    "040 - Obsidian/主页/00. 主页.md",
-    "000 - 每日日记/DailyNote/2023年11月07日.md",
-    "020 - 工作学习/学习/css方案.md",
-    "004 - Resource/资源/各种软件/00.资源-软件安装.md",
-    "004 - Resource/资源/00.资源导航.md",
-    "040 - Obsidian/教程/obsidian清单.md",
-    "040 - Obsidian/教程/obsidian贴图.md",
-    "020 - 工作学习/工作/远程、定制化/引发的管理台项目可配置.md",
-    "004 - Resource/资源/各种软件/浏览器插件/浏览器插件下载网站地址.md",
-    "020 - 工作学习/工作/多语言/多语言系统化实现.md",
-    "000 - 每日日记/DailyNote/2023年11月13日.md",
-    "040 - Obsidian/模板/tp-每周周记模板.md",
-    "020 - 工作学习/工作/常见问题/10. 问题汇总.md",
-    "020 - 工作学习/工作/远程、定制化",
-    "020 - 工作学习/工作/多语言",
-    "004 - Resource/资源/各种软件/浏览器插件",
-    "004 - Resource/资源素材/环境安装和软件安装/windows环境配置",
-    "040 - Obsidian/附件/Attachment/~$文档模板 1.docx",
-    "020 - 工作学习/工作/业务知识和难题/spice/spice预研优化",
-    "020 - 工作学习/工作/业务知识和难题/spice/spice-web-client代码阅读",
-    "020 - 工作学习/工作/业务知识和难题/spice/spice问题",
-    "020 - 工作学习/学习/前端/css",
-    "记事本/英文/assets",
+    "040 - Obsidian/模板/基础模板.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/各种问题/view-front.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/webspice kos系统 中无法上传.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice黑屏问题.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice项目/spice预研.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice项目/spice相关文档.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice项目/spice文档.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice项目/spice文档-20230710100036-ngbgbrd.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice项目/spice学习.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice项目/downloadmanager.js.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice项目/busprocess.js.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice项目/busconnection.js.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice项目/agent.js.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice项目",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice项目.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice需要优化的点.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice网站.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice白屏问题.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice画面质量参数h264.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice没有连接时，关闭他会报错.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice没有安装guesttool.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice技术文档参考文档.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice打开文件传输拖入功能.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice库代码梳理.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice常见问题.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读",
+    "020 - 工作学习/资源",
+    "60 - 临时",
+    "020 - 工作学习/02 软件学习",
+    "040 - Obsidian/模板/tp",
+    "40 - 生活/01 物品",
     "040 - Obsidian/附件/}[YAY}4`V3EH[RB]0}29_00.png",
     "040 - Obsidian/附件/100911654141903_.pic.jpg",
     "obsidian配置文件目录/Attachment/assets 9/image5-20230708221750-odzmzc1.jpeg",

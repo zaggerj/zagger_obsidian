@@ -6,9 +6,7 @@
       "initialized": true
     }
   ],
-  "trackedProjects": [
-    "/"
-  ],
+  "trackedProjects": ["/"],
   "checkpointList": [
     {
       "path": "/",

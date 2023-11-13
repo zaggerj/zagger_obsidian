@@ -6,7 +6,7 @@ tags:
 aliases:
   - 服务器命令集合
 created: 2023-11-03T22:29
-updated: 2023-11-13T15:47
+updated: 2023-11-15T20:29
 ---
 # 1. 查看盘使用情况
 ![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/20231110153702.png)
