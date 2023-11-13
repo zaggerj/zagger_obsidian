@@ -1,10 +1,4 @@
 ---
-searchType: tpl
-created: 2023-11-08T14:23
-updated: 2023-11-11T22:54
----
-
----
 
 <%-\*
 var cleanTitle = tp.user.getTitleSnippet(tp.file.title)
@@ -22,7 +16,7 @@ cssclass:
 
 ---
 
-# 1 基本信息
+# 1. 基本信息
 
 进出状态:: <% tp.system.suggester(["支出", "收入"], ["支出", "收入"]) %>
 物品价格:: <% tp.system.prompt("物品价格", "") %>

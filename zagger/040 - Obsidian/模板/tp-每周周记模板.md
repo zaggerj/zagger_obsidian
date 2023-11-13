@@ -1,9 +1,7 @@
 ---
-searchType: tpl
 tags:
   - 周记
-searchterm: "#bird"
-duration: 1 year
+searchterm: "#周记"
 cssclasses: 
 created: 2023-11-09T20:40
 updated: 2023-11-11T18:15

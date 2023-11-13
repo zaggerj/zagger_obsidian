@@ -1,11 +1,4 @@
 ---
-searchType: tpl
-created: 2023-11-08T14:23
-updated: 2023-11-11T22:56
----
-
----
-
 <%-\*
 var cleanTitle = tp.user.getTitleSnippet(tp.file.title)
 var title = `${cleanTitle}`;

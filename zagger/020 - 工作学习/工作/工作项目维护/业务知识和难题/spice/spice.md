@@ -1,8 +1,9 @@
 ---
+tags: 工作/spice
 created: 2023-11-03T22:29
-updated: 2023-11-03T22:29
+updated: 2023-11-13T08:55
 ---
-# spice
+# 1. spice
 
 　　统一端口：webspice 路径 屏蔽了 文件传输功能，因为文件传输会导致spice挂掉
 

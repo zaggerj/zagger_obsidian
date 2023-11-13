@@ -9,14 +9,15 @@ tags:
   - 服务器
   - 命令
   - Linux
+  - 工作/spice
 source: 
 cssclasses: 
 created: 2023-11-06
-updated: 2023-11-07T11:09
+updated: 2023-11-13T08:55
 ---
 
 
-# 基本信息
+# 1. 基本信息
 
 解决问题 :: `this.file.name`
 编写时间 :: 2022-02-01
@@ -27,38 +28,38 @@ updated: 2023-11-07T11:09
 项目名称 :: 打[[百里守约|守约]]银牌
 版本号 :: 0.0.0
 
-## ✍内容
+## 1.1. ✍内容
 
 记录好如下的命令，下次排查问题好照旧！
 
 ![[M{994[AZF%U`8I2}DK([W4A.png]]
 
-### 查看weboeidp服务
+### 1.1.1. 查看weboeidp服务
 `systemctl status weboeidpproxy.service`
 
 ![[Pasted image 20231106174827.png]]
 
-### 查看服务目录
+### 1.1.2. 查看服务目录
 
 
 ![[Pasted image 20231106174947.png]]
 
-### 父级目录查看oeidp.json配置文件
+### 1.1.3. 父级目录查看oeidp.json配置文件
 `/usr/lib/python2.7/site-packages/tcloud/thor/weboeidp
 `
 ![[Pasted image 20231106175041.png]]
 
-### 查看配置文件oeidp.json
+### 1.1.4. 查看配置文件oeidp.json
 
 ![[Pasted image 20231106175220.png]]
-### 查看/opt/spicehtml5proxy/static/路径
+### 1.1.5. 查看/opt/spicehtml5proxy/static/路径
 
 跟spice代理（spicehtml5proxy）共用一套web页面
 
 ![[Pasted image 20231106175327.png]]
 
 
-### 查看日志文件
+### 1.1.6. 查看日志文件
 
 `/var/log/html5proxy/weboeidp.log`
 

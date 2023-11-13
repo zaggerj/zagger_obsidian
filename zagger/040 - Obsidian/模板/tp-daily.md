@@ -1,10 +1,3 @@
----
-searchType: tpl
-number headings: auto, first-level 1, max 6, start-at 1, 1.1
-created: 2023-11-08T08:21
-updated: 2023-11-11T22:54
----
-
 <%\*
 let today = tp.date.now("YYYY-MM-DD")
 let inputDate = await tp.system.prompt("输入示例："+today,today)
@@ -22,7 +15,7 @@ let modificationDate = tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss")
 
 create time : <% createTime %>
 modification date: <% modificationDate %>
-
+number headings: auto, first-level 1, max 6, start-at 1, 1.1
 ---
 
 << [[<% before_date %>]] | [[<% after_date %>]] >>
@@ -31,9 +24,9 @@ modification date: <% modificationDate %>
 <% tp.web.daily_quote() %>
 <% tp.web.random_picture("200x200", "landscape,water") %>
 
-# 1 <% tp.file.title %>
+# 1. <% tp.file.title %>
 
-## 1.1 Metadata
+## 1.1. Metadata
 
 Status:: <% tp.system.suggester(["🌱 发芽状态", "🪴 培育状态", "🌲 长青状态"], ["#笔记状态/🌱 发芽", "#笔记状态/🪴 培育","#笔记状态/🌲 长青"]) %>
 Source Type:: <% tp.system.suggester(["💭 想法", "📚 书籍", "📰️ 文章", "🗣️ 聊天", "💻 教学", "▶️ 视频", "🎧️ 播客"], ["#📥/💭 想法 ", "#📥/📚 书籍 ", "#📥/📰️ 文章", "#📥/🗣️ 聊天 ", " #📥/💻 教学", "#📥/▶️ 视频", "#📥/🎧️ 播客"]) %>
@@ -43,7 +36,7 @@ Author:: {原资讯的作者或者对话的人或者引起某种想法的原因}
 Source URL::
 Modify:: `=dateformat(this.file.mtime, "yyyy-MM-dd HH:MM:ss")`
 
-## 1.2 重点关注
+## 1.2. 重点关注
 
 - ==早上 7 件事==
   - [ ] 花点时间回顾和反思
@@ -57,11 +50,11 @@ Modify:: `=dateformat(this.file.mtime, "yyyy-MM-dd HH:MM:ss")`
   - [[会议检查清单]]
   - [[Workbench]]
 
-## 1.3 阅读笔记 & 会议纪要
+## 1.3. 阅读笔记 & 会议纪要
 
 通常记录一些需要技术阅读的内容
 
-## 1.4 间歇日记
+## 1.4. 间歇日记
 
 - 今日重点任务
 - xxxxx

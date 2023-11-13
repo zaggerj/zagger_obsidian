@@ -35676,7 +35676,7 @@ var QuickEntry = class extends React3.Component {
     this.okButton = React3.createRef();
     this.quickEntryPanel = React3.createRef();
     this.state = {
-      selectedFile: "",
+      selectedFile: "Inbox.md",
       action: "append",
       filters: []
     };
@@ -35768,7 +35768,7 @@ var QuickEntry = class extends React3.Component {
             /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("option", { value: "append", children: "New Task" }, 1),
             /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("option", { value: "filter", children: "Filter" }, 2)
           ] }),
-          this.state.action === "append" ? /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(
+          this.state.action === "append" ? /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(UserOptionContext.Consumer, { children: ({ taskFiles }) => /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(
             "select",
             {
               name: "File name",
@@ -35776,15 +35776,17 @@ var QuickEntry = class extends React3.Component {
               ref: this.fileSecect,
               "aria-label": "Select a note to add a new task to",
               onChange: this.onQuickEntryFileSelectChange,
-              value: this.state.selectedFile,
-              children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(UserOptionContext.Consumer, { children: ({ taskFiles }) => [...taskFiles].map((f, i) => {
-                const secondParentFolder = !f.split("/")[f.split("/").length - 3] ? "" : "\u2026 / ";
-                const parentFolder = !f.split("/")[f.split("/").length - 2] ? "" : secondParentFolder + "\u{1F4C2} " + f.split("/")[f.split("/").length - 2] + " / ";
-                const filePath = parentFolder + "\u{1F4C4} " + getFileTitle(f);
-                return /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("option", { style: { whiteSpace: "nowrap" }, value: f, title: f, children: filePath }, i);
-              }) })
+              defaultValue: taskFiles[0],
+              children: [...taskFiles].map(
+                (f, i) => {
+                  const secondParentFolder = !f.split("/")[f.split("/").length - 3] ? "" : "\u2026 / ";
+                  const parentFolder = !f.split("/")[f.split("/").length - 2] ? "" : secondParentFolder + "\u{1F4C2} " + f.split("/")[f.split("/").length - 2] + " / ";
+                  const filePath = parentFolder + "\u{1F4C4} " + getFileTitle(f);
+                  return /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("option", { style: { whiteSpace: "nowrap" }, value: f, title: f, children: filePath }, i);
+                }
+              )
             }
-          ) : /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(
+          ) }) : /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(
             MultiSelect,
             {
               name: "Filter Type",
@@ -35848,16 +35850,16 @@ var QuickEntry = class extends React3.Component {
           ref: this.okButton,
           "aria-label": "Append new task to selected note",
           onClick: () => {
-            var _a, _b;
+            var _a, _b, _c;
             if (this.state.action === "append") {
-              const filePath = this.state.selectedFile;
-              const newTask = (_a = this.textInput.current) == null ? void 0 : _a.value;
+              const filePath = (_a = this.fileSecect.current) == null ? void 0 : _a.value;
+              const newTask = (_b = this.textInput.current) == null ? void 0 : _b.value;
               if (!newTask || !filePath)
                 return;
               if (newTask.length > 1) {
                 callback.handleCreateNewTask(filePath, newTask);
               } else {
-                (_b = this.textInput.current) == null ? void 0 : _b.focus();
+                (_c = this.textInput.current) == null ? void 0 : _c.focus();
               }
             } else {
               callback.handleFilterEnable(this.dateFilter[0], this.dateFilter[1], this.priorityFilter);
@@ -36169,11 +36171,11 @@ var ObsidianBridge = class extends React6.Component {
     });
   }
   handleCreateNewTask(path, append) {
-    const taskStr = "- [ ] " + append + "\n";
+    const taskStr = "- [ ] " + append;
     const section = this.state.userOptions.sectionForNewTasks;
     this.app.vault.adapter.exists(path).then((exist) => {
       if (!exist && confirm("No such file: " + path + ". Would you like to create it?")) {
-        const content = section + "\n\n" + taskStr;
+        const content = section + "\n" + taskStr;
         this.app.vault.create(path, content).then(() => {
           this.onUpdateTasks();
         }).catch((reason) => {
@@ -36207,13 +36209,14 @@ var ObsidianBridge = class extends React6.Component {
         var _a, _b, _c, _d, _e, _f, _g;
         try {
           const file = this.app.workspace.getActiveFile();
-          this.app.workspace.getLeaf().openFile(file, { state: { mode: "source" } });
+          file && this.app.workspace.getLeaf().openFile(file, { state: { mode: "source" } });
           (_b = (_a = this.app.workspace.activeEditor) == null ? void 0 : _a.editor) == null ? void 0 : _b.setSelection(
             { line: position.start.line, ch: position.start.col },
-            { line: position.end.line, ch: position.end.col }
+            { line: position.start.line, ch: position.end.col }
           );
-          if (!((_d = (_c = this.app.workspace.activeEditor) == null ? void 0 : _c.editor) == null ? void 0 : _d.hasFocus()))
+          if (!((_d = (_c = this.app.workspace.activeEditor) == null ? void 0 : _c.editor) == null ? void 0 : _d.hasFocus())) {
             (_f = (_e = this.app.workspace.activeEditor) == null ? void 0 : _e.editor) == null ? void 0 : _f.focus();
+          }
           if (openTaskEdit) {
             const editor = (_g = this.app.workspace.activeEditor) == null ? void 0 : _g.editor;
             if (editor) {
@@ -36251,8 +36254,8 @@ var ObsidianBridge = class extends React6.Component {
     });
   }
   render() {
-    console.log("Now the root node are rendering with: ", this.state.taskList);
-    console.log("Now the root node are reddering with: ", this.state.userOptions);
+    console.debug("Now the root node are rendering with: ", this.state.taskList);
+    console.debug("Now the root node are reddering with: ", this.state.userOptions);
     return /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(
       QuickEntryHandlerContext.Provider,
       {
@@ -36679,6 +36682,7 @@ var TasksCalendarWrapper = class extends import_obsidian6.Plugin {
   constructor() {
     super(...arguments);
     this.userOptions = {};
+    this.userOptionsReloading = false;
   }
   async onload() {
     await this.loadOptions();
@@ -36706,11 +36710,17 @@ var TasksCalendarWrapper = class extends import_obsidian6.Plugin {
   updateOptions(updatedOpts) {
     Object.assign(this.userOptions, { ...updatedOpts });
     console.log(this.app.workspace.getLeavesOfType(TIMELINE_VIEW));
-    this.app.workspace.getLeavesOfType(TIMELINE_VIEW).forEach((leaf) => {
-      if (leaf.view instanceof TasksTimelineView) {
-        leaf.view.onUpdateOptions({ ...this.userOptions });
-      }
-    });
+    if (!this.userOptionsReloading) {
+      this.userOptionsReloading = true;
+      setTimeout(() => {
+        this.app.workspace.getLeavesOfType(TIMELINE_VIEW).forEach((leaf) => {
+          if (leaf.view instanceof TasksTimelineView) {
+            leaf.view.onUpdateOptions({ ...this.userOptions });
+          }
+        });
+        this.userOptionsReloading = false;
+      }, 5e3);
+    }
   }
   async loadOptions() {
     this.userOptions = Object.assign({}, defaultUserOptions, await this.loadData());

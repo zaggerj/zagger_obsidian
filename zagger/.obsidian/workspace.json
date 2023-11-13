@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "26cd1d4dd08de672",
+        "id": "2f79ae7262563dcb",
         "type": "tabs",
         "children": [
           {
-            "id": "35da072021c523e0",
+            "id": "8a257f53dfce5303",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,6 +18,23 @@
                 "backlinks": true,
                 "source": false
               }
+            }
+          },
+          {
+            "id": "9c62045fcc1c5ddd",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "pinned": true
             }
           }
         ]
@@ -58,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "html5",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -146,7 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296
+    "width": 275.5
   },
   "right": {
     "id": "49b0f6d6f173189c",
@@ -240,7 +257,7 @@
             }
           },
           {
-            "id": "7d6467fe3587bca4",
+            "id": "826805a6f5fb15ea",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -270,8 +287,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -279,7 +295,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "omnisearch:Omnisearch": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "homepage:Open homepage": false,
       "switcher:打开快速切换": false,
@@ -306,11 +321,38 @@
       "big-calendar:Big Calendar": false,
       "obsidian-excalidraw-plugin:新建绘图文件": true,
       "periodic-notes:Open today": false,
-      "obsidian-memos:Memos": false
+      "obsidian-memos:Memos": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "23fad819ff207865",
+  "active": "826805a6f5fb15ea",
   "lastOpenFiles": [
+    "040 - Obsidian/模板/01 自动选择模板.md",
+    "040 - Obsidian/模板/02 手动选择模板.md",
+    "040 - Obsidian/模板/03 选择学习相关模板.md",
+    "040 - Obsidian/模板/大学.md",
+    "040 - Obsidian/模板/周记模板.md",
+    "040 - Obsidian/模板/tp-每日日记模板.md",
+    "040 - Obsidian/主页/00. 主页.md",
+    "040 - Obsidian/模板/阅读笔记模板.md",
+    "040 - Obsidian/模板/英文单词模板.md",
+    "040 - Obsidian/模板/新建代码模板.md",
+    "040 - Obsidian/模板/日记模板.md",
+    "040 - Obsidian/模板/日报模板.md",
+    "040 - Obsidian/模板/排期计划.md",
+    "040 - Obsidian/模板/每周小结模板.md",
+    "040 - Obsidian/模板/灵感模板.md",
+    "040 - Obsidian/模板/极简日记模板.md",
+    "040 - Obsidian/模板/会议.md",
+    "040 - Obsidian/模板/基础模板.md",
+    "040 - Obsidian/模板/Tweet.md",
+    "040 - Obsidian/模板/tp-daily.md",
+    "040 - Obsidian/模板/tp-长青笔记模板.md",
+    "040 - Obsidian/模板/tp-物品模板.md",
+    "040 - Obsidian/模板/tp-日记模板.md",
+    "040 - Obsidian/模板/tp-人物模板.md",
+    "040 - Obsidian/模板/tp-默认笔记模板.md",
+    "040 - Obsidian/模板/tp-每周周记模板.md",
     "记事本/英文/assets",
     "记事本/各种软件/vim学习",
     "记事本/学习/js小知识点",
@@ -321,32 +363,6 @@
     "记事本/学习/webpack",
     "记事本/待整理/linux命令",
     "记事本/学习/electron",
-    "20 - 工作学习/记事本/学习",
-    "040 - Obsidian/主页/00. 主页.md",
-    "020 - 工作学习/学习/英语学习/英文/00.英文.md",
-    "020 - 工作学习/学习/英语学习/英文/-age 表抽象的名词后缀.md",
-    "020 - 工作学习/学习/英语学习/英文/变量和函数命名参考.md",
-    "020 - 工作学习/学习/英语学习/英文/252个常用英语词根记忆法背单词.md",
-    "020 - 工作学习/学习/obsidian插件列表.md",
-    "040 - Obsidian/react组件/music and birthday countdown 1.md",
-    "040 - Obsidian/react组件/music and birthday countdown 2.md",
-    "020 - 工作学习/学习/学习.md",
-    "000 - 每日日记/DailyNote/2023年11月12日.md",
-    "000 - 每日日记/DailyNote/2023年11月11日.md",
-    "000 - 每日日记/DailyNote/DailyNote.md",
-    "000 - 每日日记/DailyNote/2023年11月10日.md",
-    "000 - 每日日记/DailyNote/2023年11月09日.md",
-    "020 - 工作学习/学习/00. 学习.md",
-    "000 - 每日日记/WeeklyNote/2023年45周记录.md",
-    "000 - 每日日记/DailyNote/2023年11月08日.md",
-    "000 - 每日日记/DailyNote/2023年11月07日.md",
-    "000 - 每日日记/DailyNote/2023年11月06日.md",
-    "004 - Resource/学习网站收录/IT技术网站.md",
-    "004 - Resource/资源/macos软件安装.md",
-    "040 - Obsidian/教程/obsidian清单.md",
-    "040 - Obsidian/教程/obsidian贴图.md",
-    "020 - 工作学习/工作/汇总所有在线文档.md",
-    "020 - 工作学习/学习计划脚本/js学习计划脚本.md",
     "040 - Obsidian/附件/}[YAY}4`V3EH[RB]0}29_00.png",
     "040 - Obsidian/附件/100911654141903_.pic.jpg",
     "obsidian配置文件目录/Attachment/assets 9/image5-20230708221750-odzmzc1.jpeg",

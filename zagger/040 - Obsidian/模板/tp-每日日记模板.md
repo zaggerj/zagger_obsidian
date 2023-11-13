@@ -1,20 +1,4 @@
 ---
-banner: 040 - Obsidian/附件/banners/daily-note-banner.gif
-created: 2023-11-11T10:58
-updated: 2023-11-11T22:56
----
-
----
-
-searchType: tpl
-banner: 040 - Obsidian/附件/banners/daily-note-banner.gif
-number headings: auto, first-level 1, max 6, start-at 1, 1.1.
-created: 2023-11-09T20:40
-updated: 2023-11-10T15:21
-
----
-
----
 
 creation date: <% tp.file.creation_date() %>
 modification date: <%+ tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %>
@@ -59,14 +43,23 @@ _摘抄部分原文后，进行筛选加粗然后对加粗的继续进行筛选�
 
 ### 1.4.1. 事件
 
-**[[<% tp.date.now("YYYY年MM月DD日", 0, tp.file.title, "YYYY年MM月DD日") %>]]** #跟踪 #重要 #记录
+**[[<% tp.date.now("YYYY年MM月DD日", 0, tp.file.title, "YYYY年MM月DD日") %>]]** 
+#跟踪 
+#重要 
+#记录
 ^1
 
 本周记录：[[<%tp.date.now("YYYY年第WW周记录",0, tp.file.title, "YYYY年MM月DD日")%>]]
 
 ### 1.4.2. 清单
 
-#官方文档 #记录博客 #学习知识点 #计划任务 #远程协助 #会议 #管理任务
+#官方文档 
+#记录博客
+#学习知识点
+#计划任务
+#远程协助
+#会议 
+#管理任务
 ^2
 
 ### 1.4.3. 专题笔记
