@@ -14,13 +14,13 @@ tags:
 source: 
 cssclasses: 
 created: 2023-11-06
-updated: 2023-11-13T16:48
+updated: 2023-11-13T19:37
 ---
 
 
 # 1. 基本信息
 
-解决问题 :: `this.file.name`
+解决问题 :: `=this.file.name`
 编写时间 :: 2022-02-01
 部门名 :: 游戏部
 审核人 :: [[小一]]

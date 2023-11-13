@@ -9,13 +9,15 @@ source:
 cssclasses: 
 created: 2023-11-06
 searchterm: 排查问题
-updated: 2023-11-13T16:49
+updated: 2023-11-13T19:40
 ---
 # 1. webspice kos系统 中无法上传
 ## 1.1. ✍内容
 
 #记录 排查经过
 
+解决问题 :: `=this.file.name`
+编写时间:: `=this.file.mtime`
 ## 1.2. 排查过程
 
 ### 1.2.1. 首先分析前端代码

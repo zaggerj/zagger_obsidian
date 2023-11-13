@@ -5,6 +5,14 @@
       "path": "020 - 工作学习/工作/10. 问题汇总.md"
     },
     {
+      "basename": "webspice kos系统 中无法上传",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/webspice kos系统 中无法上传.md"
+    },
+    {
+      "basename": "idp代理连不上问题",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/idp代理连不上问题.md"
+    },
+    {
       "basename": "00.业务知识和难题",
       "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/00.业务知识和难题.md"
     },
@@ -43,10 +51,6 @@
     {
       "basename": "排期计划",
       "path": "040 - Obsidian/模板/排期计划.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "未命名.md"
     },
     {
       "basename": "学习",
@@ -195,10 +199,6 @@
     {
       "basename": "家庭办公远程",
       "path": "020 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/家庭办公远程.md"
-    },
-    {
-      "basename": "zoo, zoa, zo, zoi, zon, zoon",
-      "path": "004 - Resource/医学英语词根词缀分类数据库（首次升级）/医学英语词根词缀分类数据库/02支持库/01生物学/01动物/01动物/zoo, zoa, zo, zoi, zon, zoon.md"
     }
   ],
   "omittedPaths": [],
