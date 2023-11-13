@@ -1,48 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "spice学习清单",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/spice学习清单.md"
-    },
-    {
-      "basename": "spice技术文档参考文档",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/spice技术文档参考文档.md"
-    },
-    {
-      "basename": "spice代码文档",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/spice代码文档.md"
-    },
-    {
-      "basename": "spice项目",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/spice项目.md"
-    },
-    {
-      "basename": "spice网站",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/spice网站.md"
-    },
-    {
-      "basename": "jsbn",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/jsbn.md"
-    },
-    {
-      "basename": "agent.js",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/agent.js.md"
-    },
-    {
-      "basename": "spice打开文件传输拖入功能",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice打开文件传输拖入功能.md"
-    },
-    {
-      "basename": "spice常见问题",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/spice常见问题.md"
+      "basename": "2023年11月13日",
+      "path": "000 - 每日日记/DailyNote/2023年11月13日.md"
     },
     {
       "basename": "00.spice",
       "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/00.spice.md"
     },
     {
-      "basename": "spice画面质量参数h264",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice画面质量参数h264.md"
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "obsidian清单",
+      "path": "040 - Obsidian/教程/obsidian清单.md"
+    },
+    {
+      "basename": "spice学习",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/spice学习.md"
+    },
+    {
+      "basename": "spice代码文档",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/spice代码文档.md"
+    },
+    {
+      "basename": "downloadmanager.js",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/downloadmanager.js.md"
+    },
+    {
+      "basename": "busprocess.js",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/busprocess.js.md"
+    },
+    {
+      "basename": "busconnection.js",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/busconnection.js.md"
+    },
+    {
+      "basename": "agent.js",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/agent.js.md"
+    },
+    {
+      "basename": "webspice kos系统 中无法上传",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/webspice kos系统 中无法上传.md"
     },
     {
       "basename": "spice没有连接时，关闭他会报错",
@@ -53,8 +53,56 @@
       "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/spice没有安装guesttool.md"
     },
     {
+      "basename": "spice黑屏问题",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/spice黑屏问题.md"
+    },
+    {
+      "basename": "spice常见问题",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/spice常见问题.md"
+    },
+    {
+      "basename": "spice白屏问题",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/spice白屏问题.md"
+    },
+    {
+      "basename": "kos2023透明效果问题",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/kos2023透明效果问题.md"
+    },
+    {
+      "basename": "idp代理连不上问题",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/idp代理连不上问题.md"
+    },
+    {
+      "basename": "spice需要优化的点",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice需要优化的点.md"
+    },
+    {
+      "basename": "spice问题",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice问题.md"
+    },
+    {
       "basename": "spice库改动历史备忘",
       "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice库改动历史备忘.md"
+    },
+    {
+      "basename": "spice画面质量参数h264",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice画面质量参数h264.md"
+    },
+    {
+      "basename": "spice打开文件传输拖入功能",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice打开文件传输拖入功能.md"
+    },
+    {
+      "basename": "spice学习清单",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/spice学习清单.md"
+    },
+    {
+      "basename": "spice库出现一个库jsbn",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/spice库出现一个库jsbn.md"
+    },
+    {
+      "basename": "spice技术文档参考文档",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/spice技术文档参考文档.md"
     },
     {
       "basename": "spice被卡巴斯基拦截的过程",
@@ -69,16 +117,8 @@
       "path": "000 - 每日日记/WeeklyNote/2023年46周记录.md"
     },
     {
-      "basename": "2023年11月13日",
-      "path": "000 - 每日日记/DailyNote/2023年11月13日.md"
-    },
-    {
       "basename": "排期计划",
       "path": "040 - Obsidian/模板/排期计划.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "tp-长青笔记模板",
@@ -159,42 +199,6 @@
     {
       "basename": "灵感模板",
       "path": "040 - Obsidian/模板/灵感模板.md"
-    },
-    {
-      "basename": "极简日记模板",
-      "path": "040 - Obsidian/模板/极简日记模板.md"
-    },
-    {
-      "basename": "会议",
-      "path": "040 - Obsidian/模板/会议.md"
-    },
-    {
-      "basename": "Tweet",
-      "path": "040 - Obsidian/模板/Tweet.md"
-    },
-    {
-      "basename": "tp-daily",
-      "path": "040 - Obsidian/模板/tp-daily.md"
-    },
-    {
-      "basename": "tp-物品模板",
-      "path": "040 - Obsidian/模板/tp-物品模板.md"
-    },
-    {
-      "basename": "tp-日记模板",
-      "path": "040 - Obsidian/模板/tp-日记模板.md"
-    },
-    {
-      "basename": "模板",
-      "path": "040 - Obsidian/模板/模板.md"
-    },
-    {
-      "basename": "2023年45周记录",
-      "path": "000 - 每日日记/WeeklyNote/2023年45周记录.md"
-    },
-    {
-      "basename": "2023年11月12日",
-      "path": "000 - 每日日记/DailyNote/2023年11月12日.md"
     }
   ],
   "omittedPaths": [],

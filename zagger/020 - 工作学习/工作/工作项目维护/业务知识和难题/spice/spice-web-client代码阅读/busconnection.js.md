@@ -1,9 +1,10 @@
 ---
-tags: 工作/spice
+tags:
+  - 工作/spice/源码学习
 created: 2023-11-03T22:29
-updated: 2023-11-13T08:55
+updated: 2023-11-13T16:50
 ---
-# busconnection.js
+# 1. busconnection.js
 
 　　init: 接收ws,接收了集群节点选择？，是否是二进制？
 

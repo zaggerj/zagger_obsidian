@@ -10,10 +10,11 @@ tags:
   - 命令
   - Linux
   - 工作/spice
+  - 工作/spice/spice问题
 source: 
 cssclasses: 
 created: 2023-11-06
-updated: 2023-11-13T08:55
+updated: 2023-11-13T16:48
 ---
 
 

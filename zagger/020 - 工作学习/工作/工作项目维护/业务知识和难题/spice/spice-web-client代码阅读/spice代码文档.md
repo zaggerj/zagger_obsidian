@@ -1,7 +1,8 @@
 ---
-tags: 工作/spice
+tags:
+  - 工作/spice/源码学习
 created: 2023-11-03T22:29
-updated: 2023-11-13T16:33
+updated: 2023-11-13T16:51
 ---
 # 1. spice代码文档
 

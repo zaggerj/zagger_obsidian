@@ -1,7 +1,8 @@
 ---
-tags: 工作/spice
+tags:
+  - 工作/spice/spice预研优化
 created: 2023-11-03T22:29
-updated: 2023-11-13T16:30
+updated: 2023-11-13T16:46
 ---
 # 1. spice打开文件传输拖入功能
 

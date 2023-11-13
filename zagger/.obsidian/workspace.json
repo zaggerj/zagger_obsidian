@@ -21,7 +21,20 @@
             }
           },
           {
-            "id": "b607c22cb0817ef1",
+            "id": "1fcab04ab26046a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2023年11月13日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "00f2522b4635d6df",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,22 +45,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "42e3b3b496c21a27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/spice学习清单.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "html5proxy",
+                "query": "tag:#计划",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/spice学习清单.md"
+                "file": "000 - 每日日记/DailyNote/2023年11月13日.md"
               }
             }
           },
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/spice学习清单.md",
+                "file": "000 - 每日日记/DailyNote/2023年11月13日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/spice学习清单.md",
+                "file": "000 - 每日日记/DailyNote/2023年11月13日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/spice学习清单.md"
+                "file": "000 - 每日日记/DailyNote/2023年11月13日.md"
               }
             }
           },
@@ -264,7 +264,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -301,44 +302,44 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "42e3b3b496c21a27",
+  "active": "1fcab04ab26046a3",
   "lastOpenFiles": [
-    "040 - Obsidian/附件/Attachment/~$文档模板 1.docx",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/spice技术文档参考文档.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/spice代码文档.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/spice文档-20230710100036-ngbgbrd.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/spice项目.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/spice网站.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/jsbn.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/spice学习清单.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/agent.js.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice打开文件传输拖入功能.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/spice常见问题.md",
     "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/00.spice.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice画面质量参数h264.md",
+    "000 - 每日日记/DailyNote/2023年11月13日.md",
+    "040 - Obsidian/主页/00. 主页.md",
+    "040 - Obsidian/教程/obsidian清单.md",
+    "020 - 工作学习/工作/spice被卡巴斯基拦截的过程.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/spice学习.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/spice代码文档.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/downloadmanager.js.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/busprocess.js.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/busconnection.js.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/agent.js.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/webspice kos系统 中无法上传.md",
     "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/spice没有连接时，关闭他会报错.md",
     "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/spice没有安装guesttool.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice库代码梳理.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/spice黑屏问题.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/spice常见问题.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/spice白屏问题.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/kos2023透明效果问题.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/idp代理连不上问题.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice需要优化的点.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice问题.md",
     "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice库改动历史备忘.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice画面质量参数h264.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice打开文件传输拖入功能.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/spice学习清单.md",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/spice库出现一个库jsbn.md",
+    "040 - Obsidian/附件/Attachment/~$文档模板 1.docx",
+    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化",
     "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读",
     "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题",
-    "020 - 工作学习/工作/spice被卡巴斯基拦截的过程.md",
-    "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
-    "000 - 每日日记/WeeklyNote/2023年46周记录.md",
-    "000 - 每日日记/DailyNote/2023年11月13日.md",
-    "040 - Obsidian/模板/排期计划.md",
-    "040 - Obsidian/主页/00. 主页.md",
-    "040 - Obsidian/模板/tp-长青笔记模板.md",
-    "040 - Obsidian/模板/tp-每日日记模板.md",
-    "040 - Obsidian/模板/tp-每周周记模板.md",
     "020 - 工作学习/学习/前端/css",
     "记事本/英文/assets",
     "记事本/各种软件/vim学习",
     "记事本/学习/js小知识点",
     "记事本/学习/docker",
     "记事本/学习/nodejs",
-    "记事本/学习/jenkins",
     "040 - Obsidian/附件/}[YAY}4`V3EH[RB]0}29_00.png",
     "040 - Obsidian/附件/100911654141903_.pic.jpg",
     "obsidian配置文件目录/Attachment/assets 9/image5-20230708221750-odzmzc1.jpeg",

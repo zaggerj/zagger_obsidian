@@ -1,7 +1,8 @@
 ---
-tags: 工作/spice
+tags:
+  - 工作/spice/spice预研优化
 created: 2023-11-03T22:29
-updated: 2023-11-13T16:27
+updated: 2023-11-13T16:47
 ---
 # 1. spice库改动历史备忘
 
