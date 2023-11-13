@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8a257f53dfce5303",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9c62045fcc1c5ddd",
             "type": "leaf",
             "pinned": true,
@@ -35,6 +22,73 @@
                 "sortOrder": "alphabetical"
               },
               "pinned": true
+            }
+          },
+          {
+            "id": "31707d7b74b65a4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/学习/前端/css/windicss-远程使用场景.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "c04a80b46ac61217",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "47eb5745dc7ad350",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "040 - Obsidian/模板/tp-每日日记模板.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "b09407d8a7e5f660",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "040 - Obsidian/模板/tp-长青笔记模板.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "af4a283c4ce0aa91",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c6f0500ba85c468",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "040 - Obsidian/模板/tp-长青笔记模板.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -179,7 +233,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md"
+                "file": "040 - Obsidian/模板/tp-每日日记模板.md"
               }
             }
           },
@@ -205,7 +259,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md",
+                "file": "040 - Obsidian/模板/tp-每日日记模板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,7 +276,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md",
+                "file": "040 - Obsidian/模板/tp-每日日记模板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +288,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md"
+                "file": "040 - Obsidian/模板/tp-每日日记模板.md"
               }
             }
           },
@@ -257,7 +311,7 @@
             }
           },
           {
-            "id": "826805a6f5fb15ea",
+            "id": "3e3a28f91667c4e5",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -320,20 +374,23 @@
       "surfing:surfing-bookmark-manager": false,
       "big-calendar:Big Calendar": false,
       "obsidian-excalidraw-plugin:新建绘图文件": true,
+      "omnisearch:Omnisearch": false,
       "periodic-notes:Open today": false,
-      "obsidian-memos:Memos": false,
-      "omnisearch:Omnisearch": false
+      "obsidian-memos:Memos": false
     }
   },
-  "active": "826805a6f5fb15ea",
+  "active": "47eb5745dc7ad350",
   "lastOpenFiles": [
+    "040 - Obsidian/模板/tp-长青笔记模板.md",
+    "040 - Obsidian/模板/tp-每日日记模板.md",
+    "020 - 工作学习/学习/前端/css/windicss-远程使用场景.md",
+    "040 - Obsidian/主页/00. 主页.md",
+    "020 - 工作学习/学习/前端/css",
     "040 - Obsidian/模板/01 自动选择模板.md",
     "040 - Obsidian/模板/02 手动选择模板.md",
     "040 - Obsidian/模板/03 选择学习相关模板.md",
     "040 - Obsidian/模板/大学.md",
     "040 - Obsidian/模板/周记模板.md",
-    "040 - Obsidian/模板/tp-每日日记模板.md",
-    "040 - Obsidian/主页/00. 主页.md",
     "040 - Obsidian/模板/阅读笔记模板.md",
     "040 - Obsidian/模板/英文单词模板.md",
     "040 - Obsidian/模板/新建代码模板.md",
@@ -347,12 +404,10 @@
     "040 - Obsidian/模板/基础模板.md",
     "040 - Obsidian/模板/Tweet.md",
     "040 - Obsidian/模板/tp-daily.md",
-    "040 - Obsidian/模板/tp-长青笔记模板.md",
     "040 - Obsidian/模板/tp-物品模板.md",
     "040 - Obsidian/模板/tp-日记模板.md",
     "040 - Obsidian/模板/tp-人物模板.md",
     "040 - Obsidian/模板/tp-默认笔记模板.md",
-    "040 - Obsidian/模板/tp-每周周记模板.md",
     "记事本/英文/assets",
     "记事本/各种软件/vim学习",
     "记事本/学习/js小知识点",
@@ -362,7 +417,6 @@
     "记事本/待整理/assets",
     "记事本/学习/webpack",
     "记事本/待整理/linux命令",
-    "记事本/学习/electron",
     "040 - Obsidian/附件/}[YAY}4`V3EH[RB]0}29_00.png",
     "040 - Obsidian/附件/100911654141903_.pic.jpg",
     "obsidian配置文件目录/Attachment/assets 9/image5-20230708221750-odzmzc1.jpeg",

@@ -1,5 +1,5 @@
 ---
-<%-\*
+<%-*
 var cleanTitle = tp.user.getTitleSnippet(tp.file.title)
 var title = `${cleanTitle}`;
 await tp.file.rename(`${title}`);
@@ -35,7 +35,6 @@ uid: <% tp.date.now("YYYYMMDDHHmmss") %>
 update: <%+ tp.file.last_modified_date("YYYY-MM-DD dddd HH:mm:ss") %>
 cssclass:
 cover:
-
 ---
 
 # 1. <% tp.file.title %>

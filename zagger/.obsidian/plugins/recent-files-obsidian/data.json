@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "tp-每日日记模板",
+      "path": "040 - Obsidian/模板/tp-每日日记模板.md"
+    },
+    {
+      "basename": "tp-长青笔记模板",
+      "path": "040 - Obsidian/模板/tp-长青笔记模板.md"
+    },
+    {
+      "basename": "windicss-远程使用场景",
+      "path": "020 - 工作学习/学习/前端/css/windicss-远程使用场景.md"
+    },
+    {
       "basename": "00. 主页",
       "path": "040 - Obsidian/主页/00. 主页.md"
     },
@@ -23,10 +35,6 @@
     {
       "basename": "周记模板",
       "path": "040 - Obsidian/模板/周记模板.md"
-    },
-    {
-      "basename": "tp-每日日记模板",
-      "path": "040 - Obsidian/模板/tp-每日日记模板.md"
     },
     {
       "basename": "阅读笔记模板",
@@ -75,10 +83,6 @@
     {
       "basename": "tp-daily",
       "path": "040 - Obsidian/模板/tp-daily.md"
-    },
-    {
-      "basename": "tp-长青笔记模板",
-      "path": "040 - Obsidian/模板/tp-长青笔记模板.md"
     },
     {
       "basename": "tp-物品模板",
@@ -195,10 +199,6 @@
     {
       "basename": "music and birthday countdown 2",
       "path": "040 - Obsidian/react组件/music and birthday countdown 2.md"
-    },
-    {
-      "basename": "2023年11月11日",
-      "path": "000 - 每日日记/DailyNote/2023年11月11日.md"
     }
   ],
   "omittedPaths": [],
