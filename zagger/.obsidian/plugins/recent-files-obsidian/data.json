@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "conflict-files-obsidian-git",
-      "path": "conflict-files-obsidian-git.md"
-    },
-    {
       "basename": "00. 主页",
       "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "tp-每日日记模板",
+      "path": "040 - Obsidian/模板/tp-每日日记模板.md"
+    },
+    {
+      "basename": "排期计划",
+      "path": "040 - Obsidian/模板/排期计划.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "未命名.md"
+    },
+    {
+      "basename": "学习",
+      "path": "020 - 工作学习/学习/学习.md"
     },
     {
       "basename": "00. 英语学习",
@@ -39,10 +51,6 @@
     {
       "basename": "music and birthday countdown 2",
       "path": "040 - Obsidian/react组件/music and birthday countdown 2.md"
-    },
-    {
-      "basename": "学习",
-      "path": "020 - 工作学习/学习/学习.md"
     },
     {
       "basename": "2023年11月12日",
@@ -191,14 +199,6 @@
     {
       "basename": "获取资料",
       "path": "004 - Resource/医学英语词根词缀分类数据库/00本资料基本信息/获取资料.md"
-    },
-    {
-      "basename": "1 中英文目录 · 文字版",
-      "path": "004 - Resource/医学英语词根词缀分类数据库/00本资料基本信息/主页及目录/01基础分类目录/1 中英文目录 · 文字版.md"
-    },
-    {
-      "basename": "REAMDME",
-      "path": "002 - Project/REAMDME.md"
     }
   ],
   "omittedPaths": [],

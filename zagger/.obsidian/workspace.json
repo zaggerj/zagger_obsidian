@@ -4,23 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "35728e0ff01dc990",
+        "id": "c5dbba4fb9171d42",
         "type": "tabs",
         "children": [
           {
-            "id": "329836542913f209",
+            "id": "3e0e36c3566705c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md",
+                "file": "040 - Obsidian/模板/tp-每日日记模板.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
+          },
+          {
+            "id": "1c988f6233f0f98b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "040 - Obsidian/主页/00. 主页.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -240,7 +254,7 @@
             }
           },
           {
-            "id": "b85e7519fb8d8196",
+            "id": "3862d36fa707ed2d",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -299,7 +313,6 @@
       "obsidian-day-planner:Timeline": true,
       "cmdr:折叠": false,
       "custom-sort:Toggle custom sorting": false,
-      "file-tree-alternative:File Tree Alternative Plugin": true,
       "templater-obsidian:Templater": true,
       "float-search:Search Obsidian In Modal": false,
       "surfing:surfing-bookmark-manager": false,
@@ -309,8 +322,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "329836542913f209",
+  "active": "1c988f6233f0f98b",
   "lastOpenFiles": [
+    "040 - Obsidian/模板/tp-每日日记模板.md",
+    "040 - Obsidian/模板/排期计划.md",
+    "040 - Obsidian/主页/00. 主页.md",
+    "未命名.md",
+    "020 - 工作学习/学习/学习.md",
+    "conflict-files-obsidian-git.md",
     "记事本/英文/assets",
     "记事本/各种软件/vim学习",
     "记事本/学习/js小知识点",
@@ -321,8 +340,6 @@
     "记事本/学习/webpack",
     "记事本/待整理/linux命令",
     "记事本/学习/electron",
-    "20 - 工作学习/记事本/学习",
-    "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/学习/英语学习/英文/00.英文.md",
     "020 - 工作学习/学习/英语学习/英文/-age 表抽象的名词后缀.md",
     "020 - 工作学习/学习/英语学习/英文/变量和函数命名参考.md",
@@ -330,7 +347,6 @@
     "020 - 工作学习/学习/obsidian插件列表.md",
     "040 - Obsidian/react组件/music and birthday countdown 1.md",
     "040 - Obsidian/react组件/music and birthday countdown 2.md",
-    "020 - 工作学习/学习/学习.md",
     "000 - 每日日记/DailyNote/2023年11月12日.md",
     "000 - 每日日记/DailyNote/2023年11月11日.md",
     "000 - 每日日记/DailyNote/DailyNote.md",
@@ -344,9 +360,6 @@
     "004 - Resource/学习网站收录/IT技术网站.md",
     "004 - Resource/资源/macos软件安装.md",
     "040 - Obsidian/教程/obsidian清单.md",
-    "040 - Obsidian/教程/obsidian贴图.md",
-    "020 - 工作学习/工作/汇总所有在线文档.md",
-    "020 - 工作学习/学习计划脚本/js学习计划脚本.md",
     "040 - Obsidian/附件/}[YAY}4`V3EH[RB]0}29_00.png",
     "040 - Obsidian/附件/100911654141903_.pic.jpg",
     "obsidian配置文件目录/Attachment/assets 9/image5-20230708221750-odzmzc1.jpeg",

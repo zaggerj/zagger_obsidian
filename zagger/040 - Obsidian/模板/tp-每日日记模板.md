@@ -1,4 +1,9 @@
 ---
+banner: 040 - Obsidian/附件/banners/daily-note-banner.gif
+created: 2023-11-12T16:18
+updated: 2023-11-13T19:09
+---
+---
 creation date: <% tp.file.creation_date() %>
 modification date: <%+ tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %>
 tags: DailyNote
@@ -72,4 +77,9 @@ _摘抄来源，引用出处，参考链接，文档查询_
 Page Link::
 
 ## 1.6. 每日工时
-- [ ]  09:00 - 09:00 New item
+- [ ]  08:30 - 09:30
+- [ ]  09:30 - 10:30
+- [ ]  10:30 - 12:00
+- [ ] 14:00 - 15:30
+- [ ] 15:30 - 16:30
+- [ ] 16:30 - 17:30
