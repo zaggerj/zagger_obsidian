@@ -51,5 +51,17 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": []
+  "treeData": [
+    {
+      "id": "505561178e39c6a4",
+      "parent": 0,
+      "droppable": true,
+      "text": "教育前端周计划（20231113-20231117）",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    }
+  ]
 }

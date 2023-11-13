@@ -1,32 +1,14 @@
 ---
-banner: 040 - Obsidian/附件/banners/daily-note-banner.gif
-created: 2023-11-11T10:58
-updated: 2023-11-11T22:56
----
-
----
-
-searchType: tpl
-banner: 040 - Obsidian/附件/banners/daily-note-banner.gif
-number headings: auto, first-level 1, max 6, start-at 1, 1.1.
-created: 2023-11-09T20:40
-updated: 2023-11-10T15:21
-
----
-
----
-
 creation date: <% tp.file.creation_date() %>
 modification date: <%+ tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %>
 tags: DailyNote
-
+searchterm: "#周记"
 banner: "040 - Obsidian/附件/banners/daily-note-banner.gif"
 cssclass: noyaml
 banner_icon: 💌
 banner_x: 0.5
 banner_y: 0.38
 week: <% tp.date.now("YYYY-WW") %>
-
 ---
 
 # 1. <% tp.file.title %>
@@ -57,16 +39,25 @@ _用自己的话去重述提取的重点内容_
 
 _摘抄部分原文后，进行筛选加粗然后对加粗的继续进行筛选荧光笔选出。_
 
-### 1.4.1. 事件
-
-**[[<% tp.date.now("YYYY年MM月DD日", 0, tp.file.title, "YYYY年MM月DD日") %>]]** #跟踪 #重要 #记录
+### 1.4.1. 记录
+_记录当天出现的事件_
+**[[<% tp.date.now("YYYY年MM月DD日", 0, tp.file.title, "YYYY年MM月DD日") %>]]** 
+#跟踪 
+#重要 
+#记录
 ^1
 
 本周记录：[[<%tp.date.now("YYYY年第WW周记录",0, tp.file.title, "YYYY年MM月DD日")%>]]
 
 ### 1.4.2. 清单
 
-#官方文档 #记录博客 #学习知识点 #计划任务 #远程协助 #会议 #管理任务
+#官方文档 
+#记录博客
+#学习知识点
+#计划任务
+#远程协助
+#会议 
+#管理任务
 ^2
 
 ### 1.4.3. 专题笔记
@@ -79,3 +70,6 @@ _摘抄部分原文后，进行筛选加粗然后对加粗的继续进行筛选�
 
 _摘抄来源，引用出处，参考链接，文档查询_
 Page Link::
+
+## 1.6. 每日工时
+- [ ]  09:00 - 09:00 New item

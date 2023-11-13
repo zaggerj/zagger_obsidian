@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "conflict-files-obsidian-git",
+      "path": "conflict-files-obsidian-git.md"
+    },
+    {
       "basename": "00. 主页",
       "path": "040 - Obsidian/主页/00. 主页.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "REAMDME",
       "path": "002 - Project/REAMDME.md"
-    },
-    {
-      "basename": "REAMDME",
-      "path": "005 - Archive/REAMDME.md"
     }
   ],
   "omittedPaths": [],

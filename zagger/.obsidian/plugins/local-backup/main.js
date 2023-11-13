@@ -4808,6 +4808,7 @@ var LocalBackupSettingTab = class extends import_obsidian.PluginSettingTab {
   display() {
     const { containerEl } = this;
     containerEl.empty();
+    containerEl.createEl("h3", { text: "General Settings" });
     new import_obsidian.Setting(containerEl).setName("Backup once on startup").setDesc("Run local backup once on Obsidian starts.").addToggle(
       (toggle) => toggle.setValue(this.plugin.settings.startupBackupStatus).onChange(async (value) => {
         this.plugin.settings.startupBackupStatus = value;
@@ -4898,7 +4899,7 @@ var LocalBackupSettingTab = class extends import_obsidian.PluginSettingTab {
         await this.plugin.saveSettings();
       })
     );
-    new import_obsidian.Setting(containerEl).setName("Backup frequency").setDesc("Set the frequency of backups in minutes.").addText(
+    new import_obsidian.Setting(containerEl).setName("Backup frequency (minutes)").setDesc("Set the frequency of backups in minutes.").addText(
       (text) => text.setValue(this.plugin.settings.backupFrequencyValue).onChange(async (value) => {
         const numericValue = parseFloat(value);
         if (isNaN(numericValue) || numericValue <= 0) {
@@ -4913,25 +4914,26 @@ var LocalBackupSettingTab = class extends import_obsidian.PluginSettingTab {
         }
       })
     );
-    new import_obsidian.Setting(containerEl).setName("Backup by Calling external file archiver (experimental)").setDesc("If toggled, backups will be created by calling external file archiver.").addToggle(
+    containerEl.createEl("h3", { text: "File Archiver Settings (Optional)" });
+    new import_obsidian.Setting(containerEl).setName("Backup by Calling external file archiver").setDesc("If toggled, backups will be created by calling external file archiver.").addToggle(
       (toggle) => toggle.setValue(this.plugin.settings.callingArchiverStatus).onChange(async (value) => {
         this.plugin.settings.callingArchiverStatus = value;
         await this.plugin.saveSettings();
       })
     );
-    new import_obsidian.Setting(containerEl).setName("Select file archiver (experimental)").setDesc("The selected archiver must be installed.").addDropdown((dropDown) => {
+    new import_obsidian.Setting(containerEl).setName("Select file archiver").setDesc("The selected archiver must be installed. eg. 7-Zip for Windows, 7-Zip/p7zip for Unix").addDropdown((dropDown) => {
       dropDown.addOption("sevenZip", "7-Zip").addOption("winRAR", "WinRAR").setValue(this.plugin.settings.archiverTypeValue).onChange(async (value) => {
         this.plugin.settings.archiverTypeValue = value;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian.Setting(containerEl).setName("Select archive file type (experimental)").setDesc("7-Zip for Windows, 7-Zip/p7zip for Unix is required.").addDropdown((dropDown) => {
+    new import_obsidian.Setting(containerEl).setName("Select archive file type").addDropdown((dropDown) => {
       dropDown.addOption("zip", "zip").addOption("7z", "7z").addOption("rar", "rar").setValue(this.plugin.settings.archiveFileTypeValue).onChange(async (value) => {
         this.plugin.settings.archiveFileTypeValue = value;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian.Setting(containerEl).setName("File archiver path (experimental)").setDesc("Full path of Archiver. eg. D:\\software\\7-Zip\\7z.exe for Windows, /usr/bin/7z for Unix.").addText(
+    new import_obsidian.Setting(containerEl).setName("File archiver path").setDesc("Full path of Archiver. eg. D:\\software\\7-Zip\\7z.exe for Windows, /usr/bin/7z for Unix.").addText(
       (text) => text.setValue(this.plugin.settings.archiverPathValue).onChange(async (value) => {
         this.plugin.settings.archiverPathValue = value;
         await this.plugin.saveSettings();
@@ -5152,13 +5154,13 @@ var LocalBackupPlugin = class extends import_obsidian2.Plugin {
   }
   async onload() {
     await this.loadSettings();
-    if (this.manifest.version === "0.1.1") {
+    if (this.manifest.version === "0.1.2") {
       try {
         if (this.settings.versionValue === "") {
-          new import_obsidian2.Notice("Please recofig `Local Backup` after upgrading to 0.1.0!", 1e4);
+          new import_obsidian2.Notice("Please recofig `Local Backup` after upgrading to 0.1.2!", 1e4);
         }
       } catch (error) {
-        new import_obsidian2.Notice("Please recofig `Local Backup` after upgrading to 0.1.0!", 1e4);
+        new import_obsidian2.Notice("Please recofig `Local Backup` after upgrading to 0.1.2!", 1e4);
       }
     }
     this.addCommand({

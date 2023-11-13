@@ -1,8 +1,4 @@
 ---
-searchType: tpl
-created: 2023-11-07T08:29
-updated: 2023-11-10T14:11
----
 ‚‚±‚<%*
     // 参考文档：https://www.bilibili.com/read/cv23768479/
     let today = new Date();
@@ -235,5 +231,5 @@ for(var i = 0;i<todayFileArray.length;i++){
     dv.el("li","[[ " + todayFileArray[i].file.path + "|"+todayFileArray[i].file.name+" ]]\n");
 }
 ```
-### 结语
+### 0.1.1. 结语
 结束了{{DATE:yyyy年MMMD日}}。

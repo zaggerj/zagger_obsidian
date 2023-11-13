@@ -7,7 +7,7 @@ aliases:
   - obsidian指南
 number headings: auto, first-level 1, max 6, 1.1
 created: 2023-11-06T08:24
-updated: 2023-11-12T14:20
+updated: 2023-11-13T16:57
 ---
 # 1 obsidian清单
 ## 1.1 Metadata
@@ -39,9 +39,10 @@ Page Link::
 2. [zagger_obsidian: obsidian 个人仓库备份 - Gitee.com](https://gitee.com/zaggerzj/zagger_obsidian/tree/1.0.0/)
 ### 1.5.2 官网
  1. [Obsidian Help 文档](https://help.obsidian.md/Editing+and+formatting/Properties)
- 2. [obsidian-dataview 文档](https://github.com/blacksmithgu/obsidian-dataview)
- 3. [Templater  github](https://github.com/SilentVoid13/Templater)
- 4.  [Templater 文档](https://silentvoid13.github.io/Templater/internal-functions/internal-modules/file-module.html#tpfilefind_tfilefilename-string)
+ 2. [obsidian-github](https://github.com/blacksmithgu/obsidian-dataview)
+ 3. [Dataview - dataview 文档](https://blacksmithgu.github.io/obsidian-dataview/)
+ 4. [Templater  github](https://github.com/SilentVoid13/Templater)
+ 5.  [Templater 文档](https://silentvoid13.github.io/Templater/internal-functions/internal-modules/file-module.html#tpfilefind_tfilefilename-string)
 ### 1.5.3 官方ISSUE
 1. [Deprecation of dynamic commands · Issue #913 · SilentVoid13/Templater --- 弃用动态命令 · 问题 #913 · SilentVoid13/Templater (github.com)](https://github.com/SilentVoid13/Templater/issues/913)
 ### 1.5.4 示例库

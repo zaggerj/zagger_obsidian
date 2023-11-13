@@ -1,10 +1,4 @@
 ---
-searchType: tpl
-created: 2023-11-08T14:23
-updated: 2023-11-11T22:54
----
-
----
 
 <%-\*
 var cleanTitle = tp.user.getTitleSnippet(tp.file.title)
@@ -33,7 +27,7 @@ cssclass:
 
 ---
 
-# 1 基本信息
+# 1. 基本信息
 
 姓名:: <% `${title}` %>
 性别:: <% tp.system.suggester(["男", "女"], ["男", "女"]) %>
