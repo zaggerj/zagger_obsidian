@@ -2,6 +2,7 @@
 creation date: <% tp.file.creation_date() %>
 modification date: <%+ tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %>
 tags: DailyNote
+searchterm: "#周记"
 banner: "040 - Obsidian/附件/banners/daily-note-banner.gif"
 cssclass: noyaml
 banner_icon: 💌
@@ -38,8 +39,8 @@ _用自己的话去重述提取的重点内容_
 
 _摘抄部分原文后，进行筛选加粗然后对加粗的继续进行筛选荧光笔选出。_
 
-### 1.4.1. 事件
-
+### 1.4.1. 记录
+_记录当天出现的事件_
 **[[<% tp.date.now("YYYY年MM月DD日", 0, tp.file.title, "YYYY年MM月DD日") %>]]** 
 #跟踪 
 #重要 
@@ -69,3 +70,6 @@ _摘抄部分原文后，进行筛选加粗然后对加粗的继续进行筛选�
 
 _摘抄来源，引用出处，参考链接，文档查询_
 Page Link::
+
+## 1.6. 每日工时
+- [ ]  09:00 - 09:00 New item

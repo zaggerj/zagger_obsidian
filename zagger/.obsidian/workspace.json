@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "040 - Obsidian/模板/tp-每日日记模板.md",
+                "file": "000 - 每日日记/DailyNote/2023年11月13日.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Obsidian/模板/tp-每日日记模板.md"
+                "file": "000 - 每日日记/DailyNote/2023年11月13日.md"
               }
             }
           },
@@ -169,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "040 - Obsidian/模板/tp-每日日记模板.md",
+                "file": "000 - 每日日记/DailyNote/2023年11月13日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "040 - Obsidian/模板/tp-每日日记模板.md",
+                "file": "000 - 每日日记/DailyNote/2023年11月13日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "040 - Obsidian/模板/tp-每日日记模板.md"
+                "file": "000 - 每日日记/DailyNote/2023年11月13日.md"
               }
             }
           },
@@ -229,7 +229,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 1
       },
       {
         "id": "888c3f3084370af3",
@@ -251,7 +251,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -290,18 +291,19 @@
   },
   "active": "b607c22cb0817ef1",
   "lastOpenFiles": [
+    "040 - Obsidian/模板/tp-长青笔记模板.md",
+    "040 - Obsidian/模板/tp-每日日记模板.md",
+    "040 - Obsidian/模板/tp-每周周记模板.md",
+    "000 - 每日日记/DailyNote/2023年11月13日.md",
+    "040 - Obsidian/模板/排期计划.md",
     "040 - Obsidian/主页/00. 主页.md",
     "004 - Resource/医学英语词根词缀分类数据库（首次升级）/医学英语词根词缀分类数据库/00本资料基本信息/主页及目录/01基础分类目录/1 中英文目录 · 文字版.md",
-    "000 - 每日日记/DailyNote/2023年11月13日.md",
-    "040 - Obsidian/模板/tp-每日日记模板.md",
     "040 - Obsidian/模板/tp-默认笔记模板.md",
     "040 - Obsidian/模板/tp-人物模板.md",
-    "040 - Obsidian/模板/tp-每周周记模板.md",
     "020 - 工作学习/工作/远程使用场景.md",
     "020 - 工作学习/学习/前端/css/windicss-远程使用场景.md",
     "000 - 每日日记/未命名.md",
     "020 - 工作学习/学习/前端/css/Untitled.md",
-    "040 - Obsidian/模板/tp-长青笔记模板.md",
     "020 - 工作学习/学习/前端/css",
     "040 - Obsidian/模板/01 自动选择模板.md",
     "040 - Obsidian/模板/02 手动选择模板.md",
@@ -313,7 +315,6 @@
     "040 - Obsidian/模板/新建代码模板.md",
     "040 - Obsidian/模板/日记模板.md",
     "040 - Obsidian/模板/日报模板.md",
-    "040 - Obsidian/模板/排期计划.md",
     "040 - Obsidian/模板/每周小结模板.md",
     "040 - Obsidian/模板/灵感模板.md",
     "040 - Obsidian/模板/极简日记模板.md",

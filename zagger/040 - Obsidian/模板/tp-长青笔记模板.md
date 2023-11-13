@@ -29,12 +29,16 @@ tp.file.cursor(1);
 -%>
 
 alias:
-tags:
+tags: 长青笔记
 cdate: <% tp.file.creation_date() %>
 uid: <% tp.date.now("YYYYMMDDHHmmss") %>
 update: <%+ tp.file.last_modified_date("YYYY-MM-DD dddd HH:mm:ss") %>
-cssclass:
-cover:
+searchterm: "#长青笔记"
+banner: "040 - Obsidian/附件/banners/book-banner.gif"
+cssclass: noyaml
+banner_icon: 💌
+banner_x: 0.5
+banner_y: 0.38
 ---
 
 # 1. <% tp.file.title %>
