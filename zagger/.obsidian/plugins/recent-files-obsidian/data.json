@@ -1,28 +1,64 @@
 {
   "recentFiles": [
     {
-      "basename": "默认",
-      "path": "004 - Resource/资源/默认.md"
+      "basename": "00.资源-软件安装",
+      "path": "004 - Resource/资源/各种软件/00.资源-软件安装.md"
     },
     {
-      "basename": "引发的管理台项目可配置",
-      "path": "020 - 工作学习/工作/引发的管理台项目可配置.md"
+      "basename": "00.资源导航",
+      "path": "004 - Resource/资源/00.资源导航.md"
     },
     {
-      "basename": "2023年11月13日",
-      "path": "000 - 每日日记/DailyNote/2023年11月13日.md"
-    },
-    {
-      "basename": "2023年45周记录",
-      "path": "000 - 每日日记/WeeklyNote/2023年45周记录.md"
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "2023年11月14日",
       "path": "000 - 每日日记/DailyNote/2023年11月14日.md"
     },
     {
-      "basename": "00.资源导航",
-      "path": "004 - Resource/资源/00.资源导航.md"
+      "basename": "obsidian贴图",
+      "path": "040 - Obsidian/教程/obsidian贴图.md"
+    },
+    {
+      "basename": "引发的管理台项目可配置",
+      "path": "020 - 工作学习/工作/远程、定制化/引发的管理台项目可配置.md"
+    },
+    {
+      "basename": "浏览器插件下载网站地址",
+      "path": "004 - Resource/资源/各种软件/浏览器插件/浏览器插件下载网站地址.md"
+    },
+    {
+      "basename": "多语言系统化实现",
+      "path": "020 - 工作学习/工作/多语言/多语言系统化实现.md"
+    },
+    {
+      "basename": "tp-每日日记模板",
+      "path": "040 - Obsidian/模板/tp-每日日记模板.md"
+    },
+    {
+      "basename": "2023年11月13日",
+      "path": "000 - 每日日记/DailyNote/2023年11月13日.md"
+    },
+    {
+      "basename": "tp-每周周记模板",
+      "path": "040 - Obsidian/模板/tp-每周周记模板.md"
+    },
+    {
+      "basename": "10. 问题汇总",
+      "path": "020 - 工作学习/工作/常见问题/10. 问题汇总.md"
+    },
+    {
+      "basename": "汇总所有在线文档",
+      "path": "020 - 工作学习/工作/汇总所有在线文档.md"
+    },
+    {
+      "basename": "windicss远程使用场景",
+      "path": "020 - 工作学习/工作/远程、定制化/windicss远程使用场景.md"
+    },
+    {
+      "basename": "2023年45周记录",
+      "path": "000 - 每日日记/WeeklyNote/2023年45周记录.md"
     },
     {
       "basename": "IT技术网站",
@@ -35,10 +71,6 @@
     {
       "basename": "00.环境配置",
       "path": "004 - Resource/资源/环境安装和软件安装/00.环境配置.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "tp-长青笔记模板",
@@ -74,7 +106,7 @@
     },
     {
       "basename": "00.spice",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/00.spice.md"
+      "path": "020 - 工作学习/工作/业务知识和难题/spice/00.spice.md"
     },
     {
       "basename": "图片清单",
@@ -95,10 +127,6 @@
     {
       "basename": "翻墙清单",
       "path": "004 - Resource/资源/翻墙/翻墙清单.md"
-    },
-    {
-      "basename": "00.资源-软件安装",
-      "path": "004 - Resource/资源/各种软件/00.资源-软件安装.md"
     },
     {
       "basename": "00. 工作",
@@ -134,71 +162,43 @@
     },
     {
       "basename": "spice学习",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/spice学习.md"
+      "path": "020 - 工作学习/工作/业务知识和难题/spice/spice-web-client代码阅读/spice学习.md"
     },
     {
       "basename": "spice代码文档",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/spice代码文档.md"
+      "path": "020 - 工作学习/工作/业务知识和难题/spice/spice-web-client代码阅读/spice代码文档.md"
     },
     {
       "basename": "downloadmanager.js",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/downloadmanager.js.md"
+      "path": "020 - 工作学习/工作/业务知识和难题/spice/spice-web-client代码阅读/downloadmanager.js.md"
     },
     {
       "basename": "busprocess.js",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/busprocess.js.md"
+      "path": "020 - 工作学习/工作/业务知识和难题/spice/spice-web-client代码阅读/busprocess.js.md"
     },
     {
       "basename": "busconnection.js",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/busconnection.js.md"
+      "path": "020 - 工作学习/工作/业务知识和难题/spice/spice-web-client代码阅读/busconnection.js.md"
     },
     {
       "basename": "agent.js",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/agent.js.md"
+      "path": "020 - 工作学习/工作/业务知识和难题/spice/spice-web-client代码阅读/agent.js.md"
     },
     {
       "basename": "webspice kos系统 中无法上传",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/webspice kos系统 中无法上传.md"
+      "path": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/webspice kos系统 中无法上传.md"
     },
     {
       "basename": "spice没有连接时，关闭他会报错",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/spice没有连接时，关闭他会报错.md"
+      "path": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice没有连接时，关闭他会报错.md"
     },
     {
       "basename": "spice没有安装guesttool",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/spice没有安装guesttool.md"
+      "path": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice没有安装guesttool.md"
     },
     {
       "basename": "spice黑屏问题",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/spice黑屏问题.md"
-    },
-    {
-      "basename": "spice常见问题",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/spice常见问题.md"
-    },
-    {
-      "basename": "spice白屏问题",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/spice白屏问题.md"
-    },
-    {
-      "basename": "kos2023透明效果问题",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/kos2023透明效果问题.md"
-    },
-    {
-      "basename": "idp代理连不上问题",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/idp代理连不上问题.md"
-    },
-    {
-      "basename": "spice需要优化的点",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice需要优化的点.md"
-    },
-    {
-      "basename": "spice问题",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice问题.md"
-    },
-    {
-      "basename": "spice库改动历史备忘",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice库改动历史备忘.md"
+      "path": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice黑屏问题.md"
     }
   ],
   "omittedPaths": [],

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a9767b6d2840276b",
+        "id": "f15d7ad80bc04a9c",
         "type": "tabs",
         "children": [
           {
-            "id": "4698225539b6fc57",
+            "id": "390ce840998849c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +21,7 @@
             }
           },
           {
-            "id": "88cc390331100e0e",
+            "id": "6214872b5cd4d73a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,51 +34,12 @@
             }
           },
           {
-            "id": "825e9adc2933f457",
+            "id": "61273342d6d1a3de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月13日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d48fc162938465a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/WeeklyNote/2023年45周记录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ec8f4d06b86bac47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "004 - Resource/资源/默认.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c3c871c6e0dcc49f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月14日.md",
+                "file": "004 - Resource/资源/各种软件/00.资源-软件安装.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -116,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#计划",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -195,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "004 - Resource/资源/默认.md"
+                "file": "004 - Resource/资源/各种软件/00.资源-软件安装.md"
               }
             }
           },
@@ -221,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "004 - Resource/资源/默认.md",
+                "file": "004 - Resource/资源/各种软件/00.资源-软件安装.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -238,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "004 - Resource/资源/默认.md",
+                "file": "004 - Resource/资源/各种软件/00.资源-软件安装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -250,7 +211,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "004 - Resource/资源/默认.md"
+                "file": "004 - Resource/资源/各种软件/00.资源-软件安装.md"
               }
             }
           },
@@ -273,7 +234,7 @@
             }
           },
           {
-            "id": "02e1e3d0016c21a9",
+            "id": "b95b5c85d4c47adf",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -340,44 +301,44 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "ec8f4d06b86bac47",
+  "active": "61273342d6d1a3de",
   "lastOpenFiles": [
-    "020 - 工作学习/工作/引发的管理台项目可配置.md",
-    "004 - Resource/资源/默认.md",
-    "004 - Resource/资源/各种软件/浏览器插件",
-    "000 - 每日日记/DailyNote/2023年11月13日.md",
-    "000 - 每日日记/WeeklyNote/2023年45周记录.md",
-    "000 - 每日日记/DailyNote/2023年11月14日.md",
     "004 - Resource/资源/00.资源导航.md",
+    "040 - Obsidian/主页/00. 主页.md",
+    "040 - Obsidian/教程/obsidian贴图.md",
+    "000 - 每日日记/DailyNote/2023年11月14日.md",
+    "020 - 工作学习/工作/远程、定制化/引发的管理台项目可配置.md",
+    "004 - Resource/资源/各种软件/浏览器插件/浏览器插件下载网站地址.md",
+    "020 - 工作学习/工作/多语言/多语言系统化实现.md",
+    "040 - Obsidian/模板/tp-每日日记模板.md",
+    "000 - 每日日记/DailyNote/2023年11月13日.md",
+    "040 - Obsidian/模板/tp-每周周记模板.md",
+    "020 - 工作学习/工作/常见问题/10. 问题汇总.md",
+    "020 - 工作学习/工作/汇总所有在线文档.md",
+    "020 - 工作学习/工作/工作记事.md",
+    "020 - 工作学习/工作/工作.md",
+    "020 - 工作学习/工作/远程、定制化",
+    "020 - 工作学习/工作/多语言",
+    "020 - 工作学习/工作/远程、定制化/windicss远程使用场景.md",
+    "004 - Resource/资源/各种软件/浏览器插件",
+    "000 - 每日日记/WeeklyNote/2023年45周记录.md",
     "004 - Resource/资源/学习网站收录/IT技术网站.md",
     "004 - Resource/资源/学习网站收录/00.学习网站.md",
     "004 - Resource/资源/环境安装和软件安装/00.环境配置.md",
     "004 - Resource/资源/ai工具/ai工具清单.md",
-    "040 - Obsidian/主页/00. 主页.md",
     "040 - Obsidian/模板/tp-长青笔记模板.md",
     "040 - Obsidian/模板/tp-默认笔记模板.md",
     "040 - Obsidian/模板/01 自动选择模板.md",
     "040 - Obsidian/模板/02 手动选择模板.md",
     "004 - Resource/资源/各种软件/欧陆词典-配置.md",
     "004 - Resource/医学英语词根词缀分类数据库（首次升级）/医学英语词根词缀分类数据库/00本资料基本信息/主页及目录/01基础分类目录/1 中英文目录 · 文字版.md",
-    "004 - Resource/医学英语词根词缀分类数据库（首次升级）/医学英语词根词缀分类数据库/00本资料基本信息/主页及目录/01基础分类目录/4 中英文目录 · 两栏表格版.md",
-    "004 - Resource/资源/资源素材/00.素材.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/00.spice.md",
-    "004 - Resource/资源/资源素材/图片清单.md",
-    "004 - Resource/资源/资源素材/音乐下载.md",
-    "004 - Resource/资源/资源素材/excel学习清单.md",
-    "004 - Resource/资源/翻墙/翻墙清单.md",
-    "004 - Resource/资源/各种软件/00.资源-软件安装.md",
-    "020 - 工作学习/工作/00. 工作.md",
     "004 - Resource/资源素材/环境安装和软件安装/windows环境配置",
     "040 - Obsidian/附件/Attachment/~$文档模板 1.docx",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题",
+    "020 - 工作学习/工作/业务知识和难题/spice/spice预研优化",
+    "020 - 工作学习/工作/业务知识和难题/spice/spice-web-client代码阅读",
+    "020 - 工作学习/工作/业务知识和难题/spice/spice问题",
     "020 - 工作学习/学习/前端/css",
     "记事本/英文/assets",
-    "记事本/各种软件/vim学习",
-    "记事本/学习/js小知识点",
     "040 - Obsidian/附件/}[YAY}4`V3EH[RB]0}29_00.png",
     "040 - Obsidian/附件/100911654141903_.pic.jpg",
     "obsidian配置文件目录/Attachment/assets 9/image5-20230708221750-odzmzc1.jpeg",

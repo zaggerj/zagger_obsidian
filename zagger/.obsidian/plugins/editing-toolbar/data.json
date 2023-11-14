@@ -204,6 +204,32 @@
       "id": "editing-toolbar:workplace-fullscreen-focus",
       "name": "workplace-Fullscreen ",
       "icon": "exit-fullscreen"
+    },
+    {
+      "id": "obsidian-emoji-toolbar:emoji-picker:open-picker",
+      "name": "Emoji Toolbar: Open emoji picker",
+      "hotkeys": [],
+      "icon": "moon"
+    },
+    {
+      "id": "obsidian-toggle-list:Task-Next",
+      "name": "ToggleList: Task-Next",
+      "icon": "right-arrow"
+    },
+    {
+      "id": "highlightr-plugin:Red",
+      "name": "Highlightr: Red",
+      "icon": "highlightr-pen-red"
+    },
+    {
+      "id": "obsidian-admonition:insert-admonition",
+      "name": "Admonition: Insert Admonition",
+      "icon": "hand-metal"
+    },
+    {
+      "id": "metaedit:metaEditRun",
+      "name": "MetaEdit: Run MetaEdit",
+      "icon": "database"
     }
   ],
   "appendMethod": "workspace",
@@ -211,7 +237,7 @@
   "cMenuVisibility": true,
   "cMenuBottomValue": 4.25,
   "cMenuNumRows": 12,
-  "cMenuWidth": 502,
+  "cMenuWidth": 606,
   "cMenuFontColor": "#2DC26B",
   "cMenuBackgroundColor": "rgba(140, 140, 140, 0.12)",
   "autohide": false,

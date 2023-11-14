@@ -10,7 +10,7 @@ update:
 cssclasses: 
 cover: 
 created: 2023-11-09T14:01
-updated: 2023-11-12T14:58
+updated: 2023-11-14 11:53:03
 ---
 # 1. obsidian贴图
 
@@ -109,8 +109,12 @@ macos：`cmd+opt+i`
 ### 1.4.8. dataviewjs 检索内容
 
 ![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian20231112125644.png)
+### 1.4.9. recent file 插件 [[2023年11月14日#1.4.1. 事件|recent files]]
+* obsidian recent file 插件 使用<mark style="background: #FF5582A6;">ctrl+click</mark>可以在新标签页打开最近打开的文件
+* 好像obsidian都是使用<mark style="background: #FF5582A6;">ctrl+click</mark>可以在新标签页打开文件
 
 ## 1.5. 相关文章
 Page Link::  [玩转 Obsidian 01：打造知识循环利器 - 少数派](https://sspai.com/post/62414) [[Obsidian-Highlights]]
 [[obsidian清单]]
+[Obsidian插件: Recent Files追踪最近打开过的文件 - 知乎](https://zhuanlan.zhihu.com/p/660527886)
 
