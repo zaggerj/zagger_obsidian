@@ -58,9 +58,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "057bf9ac8ac7b650",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/学习/css方案.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -169,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Obsidian/教程/obsidian清单.md"
+                "file": "020 - 工作学习/学习/css方案.md"
               }
             }
           },
@@ -195,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "040 - Obsidian/教程/obsidian清单.md",
+                "file": "020 - 工作学习/学习/css方案.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "040 - Obsidian/教程/obsidian清单.md",
+                "file": "020 - 工作学习/学习/css方案.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,7 +237,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "040 - Obsidian/教程/obsidian清单.md"
+                "file": "020 - 工作学习/学习/css方案.md"
               }
             }
           },
@@ -314,14 +327,15 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e993ecad1901c361",
+  "active": "057bf9ac8ac7b650",
   "lastOpenFiles": [
-    "040 - Obsidian/教程/obsidian清单.md",
+    "020 - 工作学习/学习/css方案.md",
+    "000 - 每日日记/DailyNote/2023年11月14日.md",
     "004 - Resource/资源/各种软件/00.资源-软件安装.md",
     "004 - Resource/资源/00.资源导航.md",
     "040 - Obsidian/主页/00. 主页.md",
+    "040 - Obsidian/教程/obsidian清单.md",
     "040 - Obsidian/教程/obsidian贴图.md",
-    "000 - 每日日记/DailyNote/2023年11月14日.md",
     "020 - 工作学习/工作/远程、定制化/引发的管理台项目可配置.md",
     "004 - Resource/资源/各种软件/浏览器插件/浏览器插件下载网站地址.md",
     "020 - 工作学习/工作/多语言/多语言系统化实现.md",
@@ -344,7 +358,6 @@
     "040 - Obsidian/模板/tp-长青笔记模板.md",
     "040 - Obsidian/模板/tp-默认笔记模板.md",
     "040 - Obsidian/模板/01 自动选择模板.md",
-    "040 - Obsidian/模板/02 手动选择模板.md",
     "004 - Resource/资源素材/环境安装和软件安装/windows环境配置",
     "040 - Obsidian/附件/Attachment/~$文档模板 1.docx",
     "020 - 工作学习/工作/业务知识和难题/spice/spice预研优化",

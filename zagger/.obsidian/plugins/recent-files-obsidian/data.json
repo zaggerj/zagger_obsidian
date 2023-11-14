@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "obsidian清单",
-      "path": "040 - Obsidian/教程/obsidian清单.md"
+      "basename": "css方案",
+      "path": "020 - 工作学习/学习/css方案.md"
+    },
+    {
+      "basename": "2023年11月14日",
+      "path": "000 - 每日日记/DailyNote/2023年11月14日.md"
     },
     {
       "basename": "00.资源-软件安装",
@@ -17,8 +21,8 @@
       "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
-      "basename": "2023年11月14日",
-      "path": "000 - 每日日记/DailyNote/2023年11月14日.md"
+      "basename": "obsidian清单",
+      "path": "040 - Obsidian/教程/obsidian清单.md"
     },
     {
       "basename": "obsidian贴图",
@@ -195,10 +199,6 @@
     {
       "basename": "spice没有安装guesttool",
       "path": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice没有安装guesttool.md"
-    },
-    {
-      "basename": "spice黑屏问题",
-      "path": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice黑屏问题.md"
     }
   ],
   "omittedPaths": [],
