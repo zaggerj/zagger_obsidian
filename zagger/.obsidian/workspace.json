@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0f5c198f2d142156",
+        "id": "d25c7f6ae471bc64",
         "type": "tabs",
         "children": [
           {
-            "id": "07b18ae9f30f1ed0",
+            "id": "dbd2e716192fe478",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "8101cab09181fe2d",
+            "id": "3b86a3608f75c318",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月15日.md",
+                "file": "020 - 工作学习/工作/汇总所有在线文档.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,40 +34,7 @@
             }
           },
           {
-            "id": "664f071101b8e94d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "040 - Obsidian/模板/tp-每日日记模板.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "11fbab2ad1a5307c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "040 - Obsidian/模板/tp-每周周记模板.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "365034b015da0fba",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "690000fbefd8545b",
+            "id": "f9f9c01367737648",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,8 +45,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f3fff00e8f61d099",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/学习/前端/typescript/typescript入门教程.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -188,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Obsidian/模板/tp-每日日记模板.md"
+                "file": "000 - 每日日记/DailyNote/2023年11月14日.md"
               }
             }
           },
@@ -214,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "040 - Obsidian/模板/tp-每日日记模板.md",
+                "file": "000 - 每日日记/DailyNote/2023年11月14日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "040 - Obsidian/模板/tp-每日日记模板.md",
+                "file": "000 - 每日日记/DailyNote/2023年11月14日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +224,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "040 - Obsidian/模板/tp-每日日记模板.md"
+                "file": "000 - 每日日记/DailyNote/2023年11月14日.md"
               }
             }
           },
@@ -266,7 +247,7 @@
             }
           },
           {
-            "id": "a703ccf96f14c4d3",
+            "id": "eb05b3389e4feda9",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -274,7 +255,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 2
       },
       {
         "id": "888c3f3084370af3",
@@ -333,15 +314,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "664f071101b8e94d",
+  "active": "f9f9c01367737648",
   "lastOpenFiles": [
-    "040 - Obsidian/模板/tp-每周周记模板.md",
-    "040 - Obsidian/模板/tp-每日日记模板.md",
     "000 - 每日日记/DailyNote/2023年11月15日.md",
-    "000 - 每日日记/DailyNote/2023年11月14日.md",
-    "040 - Obsidian/主页/00. 主页.md",
     "000 - 每日日记/DailyNote/2023年11月07日.md",
     "020 - 工作学习/工作/汇总所有在线文档.md",
+    "040 - Obsidian/主页/00. 主页.md",
+    "000 - 每日日记/DailyNote/2023年11月14日.md",
     "020 - 工作学习/学习/前端/typescript/typescript入门教程.md",
     "020 - 工作学习/学习/前端/typescript/学习清单.md",
     "020 - 工作学习/学习/css方案.md",
@@ -352,7 +331,9 @@
     "020 - 工作学习/工作/远程、定制化/引发的管理台项目可配置.md",
     "004 - Resource/资源/各种软件/浏览器插件/浏览器插件下载网站地址.md",
     "020 - 工作学习/工作/多语言/多语言系统化实现.md",
+    "040 - Obsidian/模板/tp-每日日记模板.md",
     "000 - 每日日记/DailyNote/2023年11月13日.md",
+    "040 - Obsidian/模板/tp-每周周记模板.md",
     "020 - 工作学习/工作/常见问题/10. 问题汇总.md",
     "020 - 工作学习/工作/工作记事.md",
     "020 - 工作学习/工作/工作.md",
