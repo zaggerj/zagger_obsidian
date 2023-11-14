@@ -222,6 +222,11 @@
       "icon": "highlightr-pen-red"
     },
     {
+      "id": "highlightr-plugin:Yellow",
+      "name": "Highlightr: Yellow",
+      "icon": "highlightr-pen-yellow"
+    },
+    {
       "id": "obsidian-admonition:insert-admonition",
       "name": "Admonition: Insert Admonition",
       "icon": "hand-metal"
@@ -237,7 +242,7 @@
   "cMenuVisibility": true,
   "cMenuBottomValue": 4.25,
   "cMenuNumRows": 12,
-  "cMenuWidth": 606,
+  "cMenuWidth": 658,
   "cMenuFontColor": "#2DC26B",
   "cMenuBackgroundColor": "rgba(140, 140, 140, 0.12)",
   "autohide": false,

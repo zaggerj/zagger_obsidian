@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f15d7ad80bc04a9c",
+        "id": "d25c7f6ae471bc64",
         "type": "tabs",
         "children": [
           {
-            "id": "390ce840998849c1",
+            "id": "dbd2e716192fe478",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,61 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "e993ecad1901c361",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "040 - Obsidian/教程/obsidian清单.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6214872b5cd4d73a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "004 - Resource/资源/00.资源导航.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "61273342d6d1a3de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "004 - Resource/资源/各种软件/00.资源-软件安装.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "057bf9ac8ac7b650",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/css方案.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "020 - 工作学习/学习/css方案.md"
+                "file": "040 - Obsidian/主页/00. 主页.md"
               }
             }
           },
@@ -208,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "020 - 工作学习/学习/css方案.md",
+                "file": "040 - Obsidian/主页/00. 主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "020 - 工作学习/学习/css方案.md",
+                "file": "040 - Obsidian/主页/00. 主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -237,7 +184,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "020 - 工作学习/学习/css方案.md"
+                "file": "040 - Obsidian/主页/00. 主页.md"
               }
             }
           },
@@ -260,7 +207,7 @@
             }
           },
           {
-            "id": "b95b5c85d4c47adf",
+            "id": "eb05b3389e4feda9",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -327,7 +274,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "057bf9ac8ac7b650",
+  "active": "23fad819ff207865",
   "lastOpenFiles": [
     "020 - 工作学习/学习/css方案.md",
     "000 - 每日日记/DailyNote/2023年11月14日.md",

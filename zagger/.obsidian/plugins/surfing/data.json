@@ -51,17 +51,5 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": [
-    {
-      "id": "f0fe7d6e94ccff73",
-      "parent": 0,
-      "droppable": true,
-      "text": "Windi CSS is Sunsetting | Windi CSS",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    }
-  ]
+  "treeData": []
 }
