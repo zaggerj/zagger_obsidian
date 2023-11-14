@@ -1,16 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
+      "basename": "tp-默认笔记模板",
+      "path": "040 - Obsidian/模板/tp-默认笔记模板.md"
     },
     {
-      "basename": "00.学习网站",
-      "path": "004 - Resource/资源/学习网站收录/00.学习网站.md"
+      "basename": "tp-长青笔记模板",
+      "path": "040 - Obsidian/模板/tp-长青笔记模板.md"
+    },
+    {
+      "basename": "01 自动选择模板",
+      "path": "040 - Obsidian/模板/01 自动选择模板.md"
+    },
+    {
+      "basename": "02 手动选择模板",
+      "path": "040 - Obsidian/模板/02 手动选择模板.md"
     },
     {
       "basename": "00.资源导航",
       "path": "004 - Resource/资源/00.资源导航.md"
+    },
+    {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "欧陆词典-配置",
+      "path": "004 - Resource/资源/各种软件/欧陆词典-配置.md"
+    },
+    {
+      "basename": "00.学习网站",
+      "path": "004 - Resource/资源/学习网站收录/00.学习网站.md"
     },
     {
       "basename": "1 中英文目录 · 文字版",
@@ -73,10 +93,6 @@
       "path": "004 - Resource/资源/各种软件/win11快捷键/截图.md"
     },
     {
-      "basename": "欧陆词典-配置",
-      "path": "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/欧陆词典-配置.md"
-    },
-    {
       "basename": "2023年11月14日",
       "path": "000 - 每日日记/DailyNote/2023年11月14日.md"
     },
@@ -91,14 +107,6 @@
     {
       "basename": "tp-daily",
       "path": "040 - Obsidian/模板/tp-daily.md"
-    },
-    {
-      "basename": "tp-默认笔记模板",
-      "path": "040 - Obsidian/模板/tp-默认笔记模板.md"
-    },
-    {
-      "basename": "tp-长青笔记模板",
-      "path": "040 - Obsidian/模板/tp-长青笔记模板.md"
     },
     {
       "basename": "2023年11月13日",
@@ -191,14 +199,6 @@
     {
       "basename": "spice库出现一个库jsbn",
       "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/spice库出现一个库jsbn.md"
-    },
-    {
-      "basename": "spice技术文档参考文档",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/spice技术文档参考文档.md"
-    },
-    {
-      "basename": "spice被卡巴斯基拦截的过程",
-      "path": "020 - 工作学习/工作/spice被卡巴斯基拦截的过程.md"
     }
   ],
   "omittedPaths": [],

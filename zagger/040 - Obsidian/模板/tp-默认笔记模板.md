@@ -28,7 +28,7 @@ Topic:: [[<% tp.system.prompt("这个笔记对应的主题MOC ", "DailyNote") %>
 Author:: {原资讯的作者或者对话的人或者引起某种想法的原因}
 Modify:: `=dateformat(this.file.mtime, "yyyy-MM-dd HH:MM:ss")`
 
-<%-\* let filetype = await tp.system.suggester(["放入日记", "放入工作", "放入学习", "归入人脉"], ["日记","工作", "学习", "人脉"], false, "Which template do you want to use?")
+<%-\* let filetype = await tp.system.suggester(["放入日记", "放入工作", "放入学习", "放入资源","归入人脉", "放入临时"], ["日记","工作", "学习", "资源","人脉", "临时"], false, "Which template do you want to use?")
 if (filetype === "工作") {
 myFilePath = "/020 - 工作学习/工作/" + `${title}`;
 await tp.file.move(`${myFilePath}`);
@@ -41,6 +41,12 @@ await tp.file.move(`${myFilePath}`);
 } else if (filetype === "日记") {
 myFilePath = "/000 - 每日日记/DailyNote/" + `${title}`;
 await tp.file.move(`${myFilePath}`);
-} else {
+} else if (filetype === "临时") {
+myFilePath = "/060 - 临时/" + `${title}`;
+await tp.file.move(`${myFilePath}`);
+} else if (filetype === "资源") {
+myFilePath = "/004 - Resource/资源/" + `${title}`;
+await tp.file.move(`${myFilePath}`);
+}else {
 tp.file.cursor(1)
 } -%>

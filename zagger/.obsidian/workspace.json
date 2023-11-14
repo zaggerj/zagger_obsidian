@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6c5a5449818ccd93",
+        "id": "a9767b6d2840276b",
         "type": "tabs",
         "children": [
           {
-            "id": "6852a13bdb681fff",
+            "id": "f2b65be685bd3321",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "004 - Resource/资源/学习网站收录/00.学习网站.md",
+                "file": "040 - Obsidian/模板/tp-长青笔记模板.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,38 @@
             }
           },
           {
-            "id": "fee66504826a5bae",
+            "id": "63a611a4285a58ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "040 - Obsidian/模板/tp-默认笔记模板.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4698225539b6fc57",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "040 - Obsidian/主页/00. 主页.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "246b2feba8a6b49f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "004 - Resource/资源/00.资源导航.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -143,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md"
+                "file": "040 - Obsidian/模板/tp-默认笔记模板.md"
               }
             }
           },
@@ -169,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md",
+                "file": "040 - Obsidian/模板/tp-默认笔记模板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md",
+                "file": "040 - Obsidian/模板/tp-默认笔记模板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +224,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md"
+                "file": "040 - Obsidian/模板/tp-默认笔记模板.md"
               }
             }
           },
@@ -289,11 +315,15 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "fee66504826a5bae",
+  "active": "63a611a4285a58ba",
   "lastOpenFiles": [
-    "004 - Resource/资源/学习网站收录/00.学习网站.md",
+    "040 - Obsidian/模板/tp-长青笔记模板.md",
+    "040 - Obsidian/模板/01 自动选择模板.md",
+    "040 - Obsidian/模板/02 手动选择模板.md",
     "004 - Resource/资源/00.资源导航.md",
     "040 - Obsidian/主页/00. 主页.md",
+    "004 - Resource/资源/各种软件/欧陆词典-配置.md",
+    "004 - Resource/资源/学习网站收录/00.学习网站.md",
     "004 - Resource/医学英语词根词缀分类数据库（首次升级）/医学英语词根词缀分类数据库/00本资料基本信息/主页及目录/01基础分类目录/1 中英文目录 · 文字版.md",
     "004 - Resource/医学英语词根词缀分类数据库（首次升级）/医学英语词根词缀分类数据库/00本资料基本信息/主页及目录/01基础分类目录/4 中英文目录 · 两栏表格版.md",
     "004 - Resource/资源/资源素材/00.素材.md",
@@ -312,12 +342,8 @@
     "004 - Resource/资源/各种软件/win11快捷键/截图.md",
     "004 - Resource/资源/各种软件/win11快捷键/截图 1.md",
     "004 - Resource/游戏/游戏.md",
-    "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/欧陆词典-配置.md",
     "000 - 每日日记/DailyNote/2023年11月14日.md",
     "004 - Resource/资源素材/环境安装和软件安装/windows环境配置",
-    "040 - Obsidian/模板/tp-人物模板.md",
-    "040 - Obsidian/模板/tp-日记模板.md",
-    "040 - Obsidian/模板/tp-daily.md",
     "040 - Obsidian/附件/Attachment/~$文档模板 1.docx",
     "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化",
     "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读",

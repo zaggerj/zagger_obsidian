@@ -3,7 +3,7 @@
 var cleanTitle = tp.user.getTitleSnippet(tp.file.title)
 var title = `${cleanTitle}`;
 await tp.file.rename(`${title}`);
-let filetype = await tp.system.suggester(["学习", "工作", "非开发", "代码库", "obsidian 教程" ,"临时路径"], ["学习","工作", "非开发","代码库", "obsidian 教程","临时"], false, "路径放到哪里？") 
+let filetype = await tp.system.suggester(["学习", "工作", "非开发","资源","代码库", "obsidian 教程" ,"临时路径"], ["学习","工作", "非开发","资源","代码库", "obsidian 教程","临时"], false, "路径放到哪里？") 
 if (filetype === "学习") { 
 myFilePath = "/020 - 工作学习/学习/" +  `${title}`;
 await tp.file.move(`${myFilePath}`);
@@ -19,7 +19,10 @@ await tp.file.move(`${myFilePath}`);
 } else if (filetype === "obsidian 教程") { 
 myFilePath = "/040 - Obsidian/教程/" +  `${title}`;
 await tp.file.move(`${myFilePath}`);
-} else if (filetype === "临时") { 
+} else if (filetype === "资源") { 
+myFilePath = "/004 - Resource/资源/" +  `${title}`;
+await tp.file.move(`${myFilePath}`);
+}else if (filetype === "临时") { 
 myFilePath = "/60 - 临时/" +  `${title}`;
 await tp.file.move(`${myFilePath}`);
 } else { 
