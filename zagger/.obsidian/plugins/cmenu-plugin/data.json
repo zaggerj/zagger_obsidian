@@ -76,6 +76,16 @@
       "name": "Emoji Toolbar: Open emoji picker",
       "hotkeys": [],
       "icon": "remix-EmotionSadLine"
+    },
+    {
+      "id": "highlightr-plugin:Red",
+      "name": "Highlightr: Red",
+      "icon": "highlightr-pen-red"
+    },
+    {
+      "id": "highlightr-plugin:Orange",
+      "name": "Highlightr: Orange",
+      "icon": "highlightr-pen-orange"
     }
   ],
   "appendMethod": "workspace",

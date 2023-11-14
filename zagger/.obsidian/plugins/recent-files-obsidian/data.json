@@ -1,12 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "tp-默认笔记模板",
-      "path": "040 - Obsidian/模板/tp-默认笔记模板.md"
+      "basename": "默认",
+      "path": "004 - Resource/资源/默认.md"
+    },
+    {
+      "basename": "引发的管理台项目可配置",
+      "path": "020 - 工作学习/工作/引发的管理台项目可配置.md"
+    },
+    {
+      "basename": "2023年11月13日",
+      "path": "000 - 每日日记/DailyNote/2023年11月13日.md"
+    },
+    {
+      "basename": "2023年45周记录",
+      "path": "000 - 每日日记/WeeklyNote/2023年45周记录.md"
+    },
+    {
+      "basename": "2023年11月14日",
+      "path": "000 - 每日日记/DailyNote/2023年11月14日.md"
+    },
+    {
+      "basename": "00.资源导航",
+      "path": "004 - Resource/资源/00.资源导航.md"
+    },
+    {
+      "basename": "IT技术网站",
+      "path": "004 - Resource/资源/学习网站收录/IT技术网站.md"
+    },
+    {
+      "basename": "00.学习网站",
+      "path": "004 - Resource/资源/学习网站收录/00.学习网站.md"
+    },
+    {
+      "basename": "00.环境配置",
+      "path": "004 - Resource/资源/环境安装和软件安装/00.环境配置.md"
+    },
+    {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "tp-长青笔记模板",
       "path": "040 - Obsidian/模板/tp-长青笔记模板.md"
+    },
+    {
+      "basename": "tp-默认笔记模板",
+      "path": "040 - Obsidian/模板/tp-默认笔记模板.md"
     },
     {
       "basename": "01 自动选择模板",
@@ -17,20 +57,8 @@
       "path": "040 - Obsidian/模板/02 手动选择模板.md"
     },
     {
-      "basename": "00.资源导航",
-      "path": "004 - Resource/资源/00.资源导航.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
-    },
-    {
       "basename": "欧陆词典-配置",
       "path": "004 - Resource/资源/各种软件/欧陆词典-配置.md"
-    },
-    {
-      "basename": "00.学习网站",
-      "path": "004 - Resource/资源/学习网站收录/00.学习网站.md"
     },
     {
       "basename": "1 中英文目录 · 文字版",
@@ -47,10 +75,6 @@
     {
       "basename": "00.spice",
       "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/00.spice.md"
-    },
-    {
-      "basename": "00.环境配置",
-      "path": "004 - Resource/资源/环境安装和软件安装/00.环境配置.md"
     },
     {
       "basename": "图片清单",
@@ -93,10 +117,6 @@
       "path": "004 - Resource/资源/各种软件/win11快捷键/截图.md"
     },
     {
-      "basename": "2023年11月14日",
-      "path": "000 - 每日日记/DailyNote/2023年11月14日.md"
-    },
-    {
       "basename": "tp-人物模板",
       "path": "040 - Obsidian/模板/tp-人物模板.md"
     },
@@ -107,10 +127,6 @@
     {
       "basename": "tp-daily",
       "path": "040 - Obsidian/模板/tp-daily.md"
-    },
-    {
-      "basename": "2023年11月13日",
-      "path": "000 - 每日日记/DailyNote/2023年11月13日.md"
     },
     {
       "basename": "obsidian清单",
@@ -183,22 +199,6 @@
     {
       "basename": "spice库改动历史备忘",
       "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice库改动历史备忘.md"
-    },
-    {
-      "basename": "spice画面质量参数h264",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice画面质量参数h264.md"
-    },
-    {
-      "basename": "spice打开文件传输拖入功能",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice打开文件传输拖入功能.md"
-    },
-    {
-      "basename": "spice学习清单",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/spice学习清单.md"
-    },
-    {
-      "basename": "spice库出现一个库jsbn",
-      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/spice库出现一个库jsbn.md"
     }
   ],
   "omittedPaths": [],
