@@ -10,8 +10,12 @@ tags:
 cdate: <% tp.file.creation_date() %>
 uid: <% tp.date.now("YYYYMMDDHHmmss") %> 
 Update: <% tp.file.last_modified_date("YYYY-MM-DD HH:mm:ss") %>
-cssclass: 
-Cover: 
+searchterm: "#长青笔记"
+banner: "040 - Obsidian/附件/banners/book-banner.gif"
+cssclass: noyaml
+banner_icon: 💌
+banner_x: 0.5
+banner_y: 0.38
 ---
 
 # 1. <% tp.file.title %>

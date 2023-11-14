@@ -1,4 +1,5 @@
-<%\*
+---
+<%*
 let today = tp.date.now("YYYY-MM-DD")
 let inputDate = await tp.system.prompt("输入示例："+today,today)
 titleName = window.moment(inputDate, "YYYY-MM-DD", true).format("YYYY-MM-DD_ddd")
@@ -11,11 +12,15 @@ let createTime = tp.file.creation_date()
 let modificationDate = tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss")
 -%>
 
----
-
 create time : <% createTime %>
 modification date: <% modificationDate %>
 number headings: auto, first-level 1, max 6, start-at 1, 1.1
+searchterm: "#长青笔记"
+banner: "040 - Obsidian/附件/banners/book-banner.gif"
+cssclass: noyaml
+banner_icon: 💌
+banner_x: 0.5
+banner_y: 0.38
 ---
 
 << [[<% before_date %>]] | [[<% after_date %>]] >>
@@ -31,7 +36,7 @@ number headings: auto, first-level 1, max 6, start-at 1, 1.1
 Status:: <% tp.system.suggester(["🌱 发芽状态", "🪴 培育状态", "🌲 长青状态"], ["#笔记状态/🌱 发芽", "#笔记状态/🪴 培育","#笔记状态/🌲 长青"]) %>
 Source Type:: <% tp.system.suggester(["💭 想法", "📚 书籍", "📰️ 文章", "🗣️ 聊天", "💻 教学", "▶️ 视频", "🎧️ 播客"], ["#📥/💭 想法 ", "#📥/📚 书籍 ", "#📥/📰️ 文章", "#📥/🗣️ 聊天 ", " #📥/💻 教学", "#📥/▶️ 视频", "#📥/🎧️ 播客"]) %>
 Note Type:: <% tp.system.suggester(["笔记", "MOC"], ["#笔记", "#笔记/MOC"]) %>
-Topic:: [[<% tp.system.prompt("这个笔记对应的主题MOC ", "比如：时间管理") %>]]
+Topic:: [[<% tp.system.prompt("这个笔记对应的主题MOC ", "DailyNote") %>]]
 Author:: {原资讯的作者或者对话的人或者引起某种想法的原因}
 Source URL::
 Modify:: `=dateformat(this.file.mtime, "yyyy-MM-dd HH:MM:ss")`
