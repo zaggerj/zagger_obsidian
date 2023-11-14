@@ -51,5 +51,17 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": []
+  "treeData": [
+    {
+      "id": "6c25e0b4eef7495f",
+      "parent": 0,
+      "droppable": true,
+      "text": "顶级学霸笔记工具/Obsidian文件自动归类/让笔记管理更高效/Dataview和query_哔哩哔哩_bilibili",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    }
+  ]
 }
