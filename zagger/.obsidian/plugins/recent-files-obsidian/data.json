@@ -5,8 +5,24 @@
       "path": "000 - 每日日记/DailyNote/2023年11月14日.md"
     },
     {
+      "basename": "2023年11月07日",
+      "path": "000 - 每日日记/DailyNote/2023年11月07日.md"
+    },
+    {
+      "basename": "汇总所有在线文档",
+      "path": "020 - 工作学习/工作/汇总所有在线文档.md"
+    },
+    {
       "basename": "00. 主页",
       "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "typescript入门教程",
+      "path": "020 - 工作学习/学习/前端/typescript/typescript入门教程.md"
+    },
+    {
+      "basename": "学习清单",
+      "path": "020 - 工作学习/学习/前端/typescript/学习清单.md"
     },
     {
       "basename": "css方案",
@@ -55,10 +71,6 @@
     {
       "basename": "10. 问题汇总",
       "path": "020 - 工作学习/工作/常见问题/10. 问题汇总.md"
-    },
-    {
-      "basename": "汇总所有在线文档",
-      "path": "020 - 工作学习/工作/汇总所有在线文档.md"
     },
     {
       "basename": "windicss远程使用场景",
@@ -187,18 +199,6 @@
     {
       "basename": "agent.js",
       "path": "020 - 工作学习/工作/业务知识和难题/spice/spice-web-client代码阅读/agent.js.md"
-    },
-    {
-      "basename": "webspice kos系统 中无法上传",
-      "path": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/webspice kos系统 中无法上传.md"
-    },
-    {
-      "basename": "spice没有连接时，关闭他会报错",
-      "path": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice没有连接时，关闭他会报错.md"
-    },
-    {
-      "basename": "spice没有安装guesttool",
-      "path": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice没有安装guesttool.md"
     }
   ],
   "omittedPaths": [],

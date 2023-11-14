@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "3b86a3608f75c318",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/工作/汇总所有在线文档.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f9f9c01367737648",
             "type": "leaf",
             "state": {
@@ -32,9 +45,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f3fff00e8f61d099",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/学习/前端/typescript/typescript入门教程.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -64,7 +90,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "/etc/thor/",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -290,9 +316,13 @@
   },
   "active": "f9f9c01367737648",
   "lastOpenFiles": [
+    "000 - 每日日记/DailyNote/2023年11月07日.md",
+    "020 - 工作学习/工作/汇总所有在线文档.md",
     "040 - Obsidian/主页/00. 主页.md",
-    "020 - 工作学习/学习/css方案.md",
     "000 - 每日日记/DailyNote/2023年11月14日.md",
+    "020 - 工作学习/学习/前端/typescript/typescript入门教程.md",
+    "020 - 工作学习/学习/前端/typescript/学习清单.md",
+    "020 - 工作学习/学习/css方案.md",
     "004 - Resource/资源/各种软件/00.资源-软件安装.md",
     "004 - Resource/资源/00.资源导航.md",
     "040 - Obsidian/教程/obsidian清单.md",
@@ -304,7 +334,6 @@
     "000 - 每日日记/DailyNote/2023年11月13日.md",
     "040 - Obsidian/模板/tp-每周周记模板.md",
     "020 - 工作学习/工作/常见问题/10. 问题汇总.md",
-    "020 - 工作学习/工作/汇总所有在线文档.md",
     "020 - 工作学习/工作/工作记事.md",
     "020 - 工作学习/工作/工作.md",
     "020 - 工作学习/工作/远程、定制化",
@@ -316,9 +345,6 @@
     "004 - Resource/资源/学习网站收录/00.学习网站.md",
     "004 - Resource/资源/环境安装和软件安装/00.环境配置.md",
     "004 - Resource/资源/ai工具/ai工具清单.md",
-    "040 - Obsidian/模板/tp-长青笔记模板.md",
-    "040 - Obsidian/模板/tp-默认笔记模板.md",
-    "040 - Obsidian/模板/01 自动选择模板.md",
     "004 - Resource/资源素材/环境安装和软件安装/windows环境配置",
     "040 - Obsidian/附件/Attachment/~$文档模板 1.docx",
     "020 - 工作学习/工作/业务知识和难题/spice/spice预研优化",
