@@ -5,200 +5,200 @@
       "path": "conflict-files-obsidian-git.md"
     },
     {
+      "basename": "2023年11月13日",
+      "path": "000 - 每日日记/DailyNote/2023年11月13日.md"
+    },
+    {
+      "basename": "00.spice",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/00.spice.md"
+    },
+    {
       "basename": "00. 主页",
       "path": "040 - Obsidian/主页/00. 主页.md"
-    },
-    {
-      "basename": "00. 英语学习",
-      "path": "020 - 工作学习/学习/英语学习/00. 英语学习.md"
-    },
-    {
-      "basename": "00.英文",
-      "path": "020 - 工作学习/学习/英语学习/英文/00.英文.md"
-    },
-    {
-      "basename": "-age 表抽象的名词后缀",
-      "path": "020 - 工作学习/学习/英语学习/英文/-age 表抽象的名词后缀.md"
-    },
-    {
-      "basename": "变量和函数命名参考",
-      "path": "020 - 工作学习/学习/英语学习/英文/变量和函数命名参考.md"
-    },
-    {
-      "basename": "252个常用英语词根记忆法背单词",
-      "path": "020 - 工作学习/学习/英语学习/英文/252个常用英语词根记忆法背单词.md"
-    },
-    {
-      "basename": "obsidian插件列表",
-      "path": "020 - 工作学习/学习/obsidian插件列表.md"
-    },
-    {
-      "basename": "music and birthday countdown 1",
-      "path": "040 - Obsidian/react组件/music and birthday countdown 1.md"
-    },
-    {
-      "basename": "music and birthday countdown 2",
-      "path": "040 - Obsidian/react组件/music and birthday countdown 2.md"
-    },
-    {
-      "basename": "学习",
-      "path": "020 - 工作学习/学习/学习.md"
-    },
-    {
-      "basename": "2023年11月12日",
-      "path": "000 - 每日日记/DailyNote/2023年11月12日.md"
-    },
-    {
-      "basename": "2023年11月11日",
-      "path": "000 - 每日日记/DailyNote/2023年11月11日.md"
-    },
-    {
-      "basename": "DailyNote",
-      "path": "000 - 每日日记/DailyNote/DailyNote.md"
-    },
-    {
-      "basename": "2023年11月10日",
-      "path": "000 - 每日日记/DailyNote/2023年11月10日.md"
-    },
-    {
-      "basename": "2023年11月09日",
-      "path": "000 - 每日日记/DailyNote/2023年11月09日.md"
-    },
-    {
-      "basename": "00. 学习",
-      "path": "020 - 工作学习/学习/00. 学习.md"
-    },
-    {
-      "basename": "2023年45周记录",
-      "path": "000 - 每日日记/WeeklyNote/2023年45周记录.md"
-    },
-    {
-      "basename": "2023年11月08日",
-      "path": "000 - 每日日记/DailyNote/2023年11月08日.md"
-    },
-    {
-      "basename": "2023年11月07日",
-      "path": "000 - 每日日记/DailyNote/2023年11月07日.md"
-    },
-    {
-      "basename": "2023年11月06日",
-      "path": "000 - 每日日记/DailyNote/2023年11月06日.md"
-    },
-    {
-      "basename": "IT技术网站",
-      "path": "004 - Resource/学习网站收录/IT技术网站.md"
-    },
-    {
-      "basename": "macos软件安装",
-      "path": "004 - Resource/资源/macos软件安装.md"
     },
     {
       "basename": "obsidian清单",
       "path": "040 - Obsidian/教程/obsidian清单.md"
     },
     {
-      "basename": "obsidian贴图",
-      "path": "040 - Obsidian/教程/obsidian贴图.md"
+      "basename": "spice学习",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/spice学习.md"
     },
     {
-      "basename": "js学习计划脚本",
-      "path": "020 - 工作学习/学习计划脚本/js学习计划脚本.md"
+      "basename": "spice代码文档",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/spice代码文档.md"
+    },
+    {
+      "basename": "downloadmanager.js",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/downloadmanager.js.md"
+    },
+    {
+      "basename": "busprocess.js",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/busprocess.js.md"
+    },
+    {
+      "basename": "busconnection.js",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/busconnection.js.md"
+    },
+    {
+      "basename": "agent.js",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读/agent.js.md"
+    },
+    {
+      "basename": "webspice kos系统 中无法上传",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/webspice kos系统 中无法上传.md"
+    },
+    {
+      "basename": "spice没有连接时，关闭他会报错",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/spice没有连接时，关闭他会报错.md"
+    },
+    {
+      "basename": "spice没有安装guesttool",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/spice没有安装guesttool.md"
+    },
+    {
+      "basename": "spice黑屏问题",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/spice黑屏问题.md"
+    },
+    {
+      "basename": "spice常见问题",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/spice常见问题.md"
+    },
+    {
+      "basename": "spice白屏问题",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/spice白屏问题.md"
+    },
+    {
+      "basename": "kos2023透明效果问题",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/kos2023透明效果问题.md"
+    },
+    {
+      "basename": "idp代理连不上问题",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题/idp代理连不上问题.md"
+    },
+    {
+      "basename": "spice需要优化的点",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice需要优化的点.md"
+    },
+    {
+      "basename": "spice问题",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice问题.md"
+    },
+    {
+      "basename": "spice库改动历史备忘",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice库改动历史备忘.md"
+    },
+    {
+      "basename": "spice画面质量参数h264",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice画面质量参数h264.md"
+    },
+    {
+      "basename": "spice打开文件传输拖入功能",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice打开文件传输拖入功能.md"
+    },
+    {
+      "basename": "spice学习清单",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/spice学习清单.md"
+    },
+    {
+      "basename": "spice库出现一个库jsbn",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/spice库出现一个库jsbn.md"
+    },
+    {
+      "basename": "spice技术文档参考文档",
+      "path": "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习/spice技术文档参考文档.md"
+    },
+    {
+      "basename": "spice被卡巴斯基拦截的过程",
+      "path": "020 - 工作学习/工作/spice被卡巴斯基拦截的过程.md"
     },
     {
       "basename": "a 服务器相关命令",
       "path": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
     },
     {
-      "basename": "汇总所有在线文档",
-      "path": "020 - 工作学习/工作/汇总所有在线文档.md"
+      "basename": "2023年46周记录",
+      "path": "000 - 每日日记/WeeklyNote/2023年46周记录.md"
     },
     {
-      "basename": "00. 导航",
-      "path": "040 - Obsidian/主页/00. 导航.md"
+      "basename": "排期计划",
+      "path": "040 - Obsidian/模板/排期计划.md"
     },
     {
-      "basename": "sortspec",
-      "path": "040 - Obsidian/sortspec.md"
+      "basename": "tp-长青笔记模板",
+      "path": "040 - Obsidian/模板/tp-长青笔记模板.md"
     },
     {
-      "basename": "代码库",
-      "path": "020 - 工作学习/代码库/代码库.md"
+      "basename": "tp-每日日记模板",
+      "path": "040 - Obsidian/模板/tp-每日日记模板.md"
     },
     {
-      "basename": "工作",
-      "path": "020 - 工作学习/工作/工作.md"
-    },
-    {
-      "basename": "nodejs网站",
-      "path": "004 - Resource/学习网站收录/nodejs网站.md"
-    },
-    {
-      "basename": "macos软件安装",
-      "path": "020 - 工作学习/资源/macos软件安装.md"
-    },
-    {
-      "basename": "音乐下载",
-      "path": "020 - 工作学习/资源/音乐下载.md"
-    },
-    {
-      "basename": "教程",
-      "path": "040 - Obsidian/教程/教程.md"
-    },
-    {
-      "basename": "其他",
-      "path": "020 - 工作学习/记事本/非开发/其他/其他.md"
-    },
-    {
-      "basename": "2023-10-13",
-      "path": "000 - 每日日记/DailyNote/日记/2023-10-13.md"
-    },
-    {
-      "basename": "家庭办公远程",
-      "path": "020 - 工作学习/记事本/非开发/资源素材/环境安装和软件安装/家庭办公远程/家庭办公远程.md"
-    },
-    {
-      "basename": "zoo, zoa, zo, zoi, zon, zoon",
-      "path": "004 - Resource/医学英语词根词缀分类数据库（首次升级）/医学英语词根词缀分类数据库/02支持库/01生物学/01动物/01动物/zoo, zoa, zo, zoi, zon, zoon.md"
-    },
-    {
-      "basename": "corp",
-      "path": "004 - Resource/医学英语词根词缀分类数据库（首次升级）/医学英语词根词缀分类数据库/01主库/01解剖部位/001身体；肢体；体层/corp.md"
+      "basename": "tp-每周周记模板",
+      "path": "040 - Obsidian/模板/tp-每周周记模板.md"
     },
     {
       "basename": "1 中英文目录 · 文字版",
       "path": "004 - Resource/医学英语词根词缀分类数据库（首次升级）/医学英语词根词缀分类数据库/00本资料基本信息/主页及目录/01基础分类目录/1 中英文目录 · 文字版.md"
     },
     {
-      "basename": "anthrop",
-      "path": "004 - Resource/医学英语词根词缀分类数据库（首次升级）/医学英语词根词缀分类数据库/02支持库/08人/01人的总称/anthrop.md"
+      "basename": "tp-默认笔记模板",
+      "path": "040 - Obsidian/模板/tp-默认笔记模板.md"
     },
     {
-      "basename": "7 中英文目录 · 五栏表格版",
-      "path": "004 - Resource/医学英语词根词缀分类数据库（首次升级）/医学英语词根词缀分类数据库/00本资料基本信息/主页及目录/01基础分类目录/7 中英文目录 · 五栏表格版.md"
+      "basename": "tp-人物模板",
+      "path": "040 - Obsidian/模板/tp-人物模板.md"
     },
     {
-      "basename": "主页",
-      "path": "004 - Resource/医学英语词根词缀分类数据库（首次升级）/医学英语词根词缀分类数据库/00本资料基本信息/主页及目录/主页.md"
+      "basename": "远程使用场景",
+      "path": "020 - 工作学习/工作/远程使用场景.md"
     },
     {
-      "basename": "必要的说明",
-      "path": "004 - Resource/医学英语词根词缀分类数据库/00本资料基本信息/必要的说明.md"
+      "basename": "windicss-远程使用场景",
+      "path": "020 - 工作学习/学习/前端/css/windicss-远程使用场景.md"
     },
     {
-      "basename": "版权声明",
-      "path": "004 - Resource/医学英语词根词缀分类数据库/00本资料基本信息/版权声明.md"
+      "basename": "01 自动选择模板",
+      "path": "040 - Obsidian/模板/01 自动选择模板.md"
     },
     {
-      "basename": "获取资料",
-      "path": "004 - Resource/医学英语词根词缀分类数据库/00本资料基本信息/获取资料.md"
+      "basename": "02 手动选择模板",
+      "path": "040 - Obsidian/模板/02 手动选择模板.md"
     },
     {
-      "basename": "1 中英文目录 · 文字版",
-      "path": "004 - Resource/医学英语词根词缀分类数据库/00本资料基本信息/主页及目录/01基础分类目录/1 中英文目录 · 文字版.md"
+      "basename": "03 选择学习相关模板",
+      "path": "040 - Obsidian/模板/03 选择学习相关模板.md"
     },
     {
-      "basename": "REAMDME",
-      "path": "002 - Project/REAMDME.md"
+      "basename": "大学",
+      "path": "040 - Obsidian/模板/大学.md"
+    },
+    {
+      "basename": "周记模板",
+      "path": "040 - Obsidian/模板/周记模板.md"
+    },
+    {
+      "basename": "阅读笔记模板",
+      "path": "040 - Obsidian/模板/阅读笔记模板.md"
+    },
+    {
+      "basename": "英文单词模板",
+      "path": "040 - Obsidian/模板/英文单词模板.md"
+    },
+    {
+      "basename": "新建代码模板",
+      "path": "040 - Obsidian/模板/新建代码模板.md"
+    },
+    {
+      "basename": "日记模板",
+      "path": "040 - Obsidian/模板/日记模板.md"
+    },
+    {
+      "basename": "日报模板",
+      "path": "040 - Obsidian/模板/日报模板.md"
+    },
+    {
+      "basename": "每周小结模板",
+      "path": "040 - Obsidian/模板/每周小结模板.md"
     }
   ],
   "omittedPaths": [],
