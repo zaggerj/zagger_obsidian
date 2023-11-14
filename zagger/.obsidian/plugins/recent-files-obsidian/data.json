@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "tp-每日日记模板",
+      "path": "040 - Obsidian/模板/tp-每日日记模板.md"
+    },
+    {
+      "basename": "tp-每周周记模板",
+      "path": "040 - Obsidian/模板/tp-每周周记模板.md"
+    },
+    {
+      "basename": "2023年11月15日",
+      "path": "000 - 每日日记/DailyNote/2023年11月15日.md"
+    },
+    {
       "basename": "2023年11月14日",
       "path": "000 - 每日日记/DailyNote/2023年11月14日.md"
+    },
+    {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "2023年11月07日",
@@ -11,10 +27,6 @@
     {
       "basename": "汇总所有在线文档",
       "path": "020 - 工作学习/工作/汇总所有在线文档.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "typescript入门教程",
@@ -57,16 +69,8 @@
       "path": "020 - 工作学习/工作/多语言/多语言系统化实现.md"
     },
     {
-      "basename": "tp-每日日记模板",
-      "path": "040 - Obsidian/模板/tp-每日日记模板.md"
-    },
-    {
       "basename": "2023年11月13日",
       "path": "000 - 每日日记/DailyNote/2023年11月13日.md"
-    },
-    {
-      "basename": "tp-每周周记模板",
-      "path": "040 - Obsidian/模板/tp-每周周记模板.md"
     },
     {
       "basename": "10. 问题汇总",
@@ -195,10 +199,6 @@
     {
       "basename": "busconnection.js",
       "path": "020 - 工作学习/工作/业务知识和难题/spice/spice-web-client代码阅读/busconnection.js.md"
-    },
-    {
-      "basename": "agent.js",
-      "path": "020 - 工作学习/工作/业务知识和难题/spice/spice-web-client代码阅读/agent.js.md"
     }
   ],
   "omittedPaths": [],

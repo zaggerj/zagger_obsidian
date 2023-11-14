@@ -7,7 +7,8 @@
   "ignoreGlobalFolder": [
     "040 - Obsidian/模板",
     "040 - Obsidian/主页",
-    "040 - Obsidian/附件"
+    "040 - Obsidian/附件",
+    "040 - Obsidian"
   ],
   "ignoreCreatedFolder": [
     "040 - Obsidian/模板",
@@ -101,8 +102,8 @@
     "040 - Obsidian/主页/00. 参考汇总.md": "4dbbad59abace44409276dc977cbe730db83693b0efadc5338911e3eb7867afe",
     "040 - Obsidian/主页/00. 主页.md": "6c86b2dfa1621be5371a3a3dafa15c5ff2fc209d4e2411c7eccb4affe77658d6",
     "040 - Obsidian/sortspec.md": "35834802fd948cda29f7d51f1383eea2d8af7b1c45782efaa17c63f907792989",
-    "040 - Obsidian/react组件/music and birthday countdown 2.md": "ffd62b7a5341c49353200b6326cdb55ad3bdd71c07990f4b59cc7ce9d89b1df4",
-    "040 - Obsidian/react组件/music and birthday countdown 1.md": "568490668c236a4010e03298de4e6d4616fdea8d5e2ec387cf213ebbfa31f7d8",
+    "040 - Obsidian/react组件/music and birthday countdown 2.md": "bbf25015243913bd5fa01a62748d030735531436d1ee82dcff31e618afa0312d",
+    "040 - Obsidian/react组件/music and birthday countdown 1.md": "748866e63a396a344987c269590b91dd4db3551e55a9122eccd399eb2d1b6ec2",
     "040 - Obsidian/New/阅读列表.md": "82b8e69b41d520975909db6ad8cd692cde7317f6835b3191d514b4ce3bc43a01",
     "040 - Obsidian/New/群公告-开发记事本.md": "92ecaa17a75424cd6f1133539ee3cc2740541e87a8db33136918cbf9adb6951e",
     "040 - Obsidian/New/看板模板.md": "6879c30b1a5ff314bf5f667ddb412f88a3eb7078c34e0cac3a6fa713d1764c8d",
@@ -1042,8 +1043,9 @@
     "020 - 工作学习/工作/业务知识和难题/spice/spice问题/webspice kos系统 中无法上传.md": "d295a82c743c195b01591f3c86637c6f03147dfd42816d6dd36bed862d7a1552",
     "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice被卡巴斯基拦截的过程.md": "764644daf7ca695e92f56e475942900754a3ae371522f7a51459d9c26d0272b1",
     "020 - 工作学习/工作/常见问题/10. 问题汇总.md": "39bc8f1bc76dd0a23b0ad5b9c25b4ef1eafc8eb17c7ae5752964a1b5e1a0745a",
-    "000 - 每日日记/DailyNote/2023年11月14日.md": "671f966005aad37f7233d2fb085bd02ecf2fe40ee4e3a5f02c24cfc1233bc7e0",
+    "000 - 每日日记/DailyNote/2023年11月14日.md": "332f66de3ac7bd35115e1816107ffeaaf6f1696192dfdf8ef15609ef8a43f547",
     "020 - 工作学习/学习/css方案.md": "04465e2af37d2fd1d2d2fd468ae69914cf55fcc9dae4cd822384682912ec9f53",
-    "020 - 工作学习/学习/前端/typescript/typescript入门教程.md": "5ccee2f9dbad82b7448c5fa8d7bcb08365cc2e98fef9dc1cd069b35ca01064a1"
+    "020 - 工作学习/学习/前端/typescript/typescript入门教程.md": "5ccee2f9dbad82b7448c5fa8d7bcb08365cc2e98fef9dc1cd069b35ca01064a1",
+    "000 - 每日日记/DailyNote/2023年11月15日.md": "082c3d56354d0dff8a50bdf5dbf41edc6569fc869285f817452ab93ddfca05d4"
   }
 }
