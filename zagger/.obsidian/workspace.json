@@ -52,6 +52,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "000 - 每日日记/DailyNote/2023年11月15日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "04a19d98880e6d94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "000 - 每日日记/DailyNote/2023年11月14日.md",
                 "mode": "source",
                 "backlinks": true,
@@ -99,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -355,11 +368,11 @@
   },
   "active": "f3fff00e8f61d099",
   "lastOpenFiles": [
+    "000 - 每日日记/DailyNote/2023年11月15日.md",
     "000 - 每日日记/DailyNote/2023年11月14日.md",
     "020 - 工作学习/学习/前端/typescript/typescript入门教程.md",
     "020 - 工作学习/学习/前端/00.学习-前端.md",
     "020 - 工作学习/工作/汇总所有在线文档.md",
-    "000 - 每日日记/DailyNote/2023年11月15日.md",
     "040 - Obsidian/模板/tp-每日日记模板.md",
     "020 - 工作学习/学习/00. 学习.md",
     "040 - Obsidian/主页/00. 主页.md",
