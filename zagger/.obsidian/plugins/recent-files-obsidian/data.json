@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "front-end",
+      "path": "040 - Obsidian/Excalidraw/front-end.md"
+    },
+    {
       "basename": "00.学习-前端",
       "path": "020 - 工作学习/学习/前端/00.学习-前端.md"
     },
@@ -51,10 +59,6 @@
     {
       "basename": "00. 学习",
       "path": "020 - 工作学习/学习/00. 学习.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "2023年11月07日",
@@ -195,10 +199,6 @@
     {
       "basename": "tp-人物模板",
       "path": "040 - Obsidian/模板/tp-人物模板.md"
-    },
-    {
-      "basename": "tp-日记模板",
-      "path": "040 - Obsidian/模板/tp-日记模板.md"
     }
   ],
   "omittedPaths": [],

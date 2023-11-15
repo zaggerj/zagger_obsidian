@@ -8,72 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "61fd35a6c223b9f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e15d821ffa63f56b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "004 - Resource/学习网站收录/IT技术网站.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2e3e9f236d1a9864",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "004 - Resource/资源/macos软件安装.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5134a170dc3256fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "040 - Obsidian/教程/obsidian清单.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e46d385c21c21855",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "040 - Obsidian/教程/obsidian贴图.md",
-                "mode": "source",
+                "file": "040 - Obsidian/主页/00. 主页.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -193,22 +140,9 @@
                 "useHierarchy": false
               }
             }
-          },
-          {
-            "id": "cd06d04dbc147ecb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "040 - Obsidian/主页/00. 导航.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -228,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "004 - Resource/学习网站收录/IT技术网站.md"
+                "file": "040 - Obsidian/主页/00. 主页.md"
               }
             }
           },
@@ -254,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "004 - Resource/学习网站收录/IT技术网站.md",
+                "file": "040 - Obsidian/主页/00. 主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "004 - Resource/学习网站收录/IT技术网站.md",
+                "file": "040 - Obsidian/主页/00. 主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -283,7 +217,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "004 - Resource/学习网站收录/IT技术网站.md"
+                "file": "040 - Obsidian/主页/00. 主页.md"
               }
             }
           },
@@ -304,9 +238,16 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "2ace801a18e9acab",
+            "type": "leaf",
+            "state": {
+              "type": "tasks_timeline_view",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "888c3f3084370af3",
@@ -339,7 +280,6 @@
     "hiddenItems": {
       "omnisearch:Omnisearch": false,
       "obsidian-full-calendar:Open Full Calendar": false,
-      "periodic-notes:Open today": false,
       "homepage:Open homepage": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -358,45 +298,44 @@
       "obsidian-day-planner:Timeline": true,
       "cmdr:折叠": false,
       "custom-sort:Toggle custom sorting": false,
-      "file-tree-alternative:File Tree Alternative Plugin": true,
       "templater-obsidian:Templater": true,
-      "remotely-save:Remotely Save": false,
       "float-search:Search Obsidian In Modal": false,
       "surfing:surfing-bookmark-manager": false,
       "big-calendar:Big Calendar": false,
       "obsidian-excalidraw-plugin:新建绘图文件": true,
+      "periodic-notes:Open today": false,
       "obsidian-memos:Memos": false
     }
   },
   "active": "e15d821ffa63f56b",
   "lastOpenFiles": [
-    "040 - Obsidian/模板/基础模板.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/各种问题/view-front.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/webspice kos系统 中无法上传.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice黑屏问题.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice项目/spice预研.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice项目/spice相关文档.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice项目/spice文档.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice项目/spice文档-20230710100036-ngbgbrd.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice项目/spice学习.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice项目/downloadmanager.js.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice项目/busprocess.js.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice项目/busconnection.js.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice项目/agent.js.md",
+    "040 - Obsidian/Excalidraw/front-end.md",
+    "040 - Obsidian/Excalidraw/计算机网络: IP地址，子网掩码，网段表示法，默认网关，DNS服务器详解.md",
+    "040 - Obsidian/Excalidraw/字符编码问题和二进制.md",
+    "040 - Obsidian/Excalidraw/常见设计模式.md",
+    "040 - Obsidian/Excalidraw/css.md",
+    "040 - Obsidian/Excalidraw/ip.md",
+    "040 - Obsidian/Excalidraw/http.md",
+    "040 - Obsidian/Excalidraw/webpack.md",
+    "040 - Obsidian/Excalidraw/https.md",
+    "040 - Obsidian/Excalidraw/DOM.md",
+    "040 - Obsidian/Excalidraw/计划.md",
+    "040 - Obsidian/Excalidraw/闭包.md",
+    "040 - Obsidian/Excalidraw/call,apply,bind.md",
+    "040 - Obsidian/Excalidraw/flex.md",
+    "040 - Obsidian/Excalidraw/微信小程序.md",
+    "040 - Obsidian/Excalidraw/快捷方式速记.md",
+    "040 - Obsidian/Excalidraw/vscode.md",
+    "040 - Obsidian/Excalidraw/算法：JS-ALGORITHM.md",
+    "040 - Obsidian/Excalidraw/数据结构.md",
+    "040 - Obsidian/Excalidraw/class.md",
+    "040 - Obsidian/Excalidraw/mongodb.md",
+    "040 - Obsidian/Excalidraw/vue2.md",
+    "040 - Obsidian/Excalidraw/css css3.md",
+    "040 - Obsidian/Excalidraw/html html5.md",
+    "040 - Obsidian/Excalidraw/standard.md",
+    "040 - Obsidian/Excalidraw/nodejs.md",
     "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice项目",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice项目.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice需要优化的点.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice网站.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice白屏问题.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice画面质量参数h264.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice没有连接时，关闭他会报错.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice没有安装guesttool.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice技术文档参考文档.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice打开文件传输拖入功能.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice库代码梳理.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice常见问题.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice.md",
     "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化",
     "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题",
     "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习",
