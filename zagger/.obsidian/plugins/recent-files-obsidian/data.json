@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "计算机网络: IP地址，子网掩码，网段表示法，默认网关，DNS服务器详解",
+      "path": "040 - Obsidian/Excalidraw/计算机网络: IP地址，子网掩码，网段表示法，默认网关，DNS服务器详解.md"
+    },
+    {
       "basename": "00. 主页",
       "path": "040 - Obsidian/主页/00. 主页.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "截图",
       "path": "004 - Resource/资源/各种软件/win11快捷键/截图.md"
-    },
-    {
-      "basename": "tp-人物模板",
-      "path": "040 - Obsidian/模板/tp-人物模板.md"
     }
   ],
   "omittedPaths": [],
