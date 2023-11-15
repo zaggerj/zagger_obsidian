@@ -148,7 +148,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -257,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Obsidian/Excalidraw/场景切换过程图解.md"
+                "file": "020 - 工作学习/学习/前端/00.学习-前端.md"
               }
             }
           },
@@ -283,7 +283,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "040 - Obsidian/Excalidraw/场景切换过程图解.md",
+                "file": "020 - 工作学习/学习/前端/00.学习-前端.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -300,7 +300,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "040 - Obsidian/Excalidraw/场景切换过程图解.md",
+                "file": "020 - 工作学习/学习/前端/00.学习-前端.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -312,7 +312,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "040 - Obsidian/Excalidraw/场景切换过程图解.md"
+                "file": "020 - 工作学习/学习/前端/00.学习-前端.md"
               }
             }
           },
@@ -401,8 +401,9 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "9dc71fbcbcaddd7a",
+  "active": "51aff3fdbbc33af0",
   "lastOpenFiles": [
+    "040 - Obsidian/Excalidraw/场景切换过程图解.md",
     "020 - 工作学习/学习/前端/00.学习-前端.md",
     "000 - 每日日记/DailyNote/2023年11月15日.md",
     "000 - 每日日记/DailyNote/2023年11月14日.md",
@@ -428,7 +429,6 @@
     "000 - 每日日记/DailyNote/2023年11月13日.md",
     "040 - Obsidian/模板/tp-每周周记模板.md",
     "020 - 工作学习/工作/常见问题/10. 问题汇总.md",
-    "020 - 工作学习/工作/工作记事.md",
     "020 - 工作学习/工作/远程、定制化",
     "020 - 工作学习/工作/多语言",
     "004 - Resource/资源/各种软件/浏览器插件",
