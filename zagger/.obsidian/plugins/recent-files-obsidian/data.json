@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "typescript-声明文件",
+      "path": "020 - 工作学习/学习/前端/typescript/typescript-声明文件.md"
+    },
+    {
+      "basename": "tp-长青笔记模板",
+      "path": "040 - Obsidian/模板/tp-长青笔记模板.md"
+    },
+    {
+      "basename": "tp-每日日记模板",
+      "path": "040 - Obsidian/模板/tp-每日日记模板.md"
+    },
+    {
       "basename": "typescript入门教程",
       "path": "020 - 工作学习/学习/前端/typescript/typescript入门教程.md"
     },
@@ -19,10 +31,6 @@
     {
       "basename": "汇总所有在线文档",
       "path": "020 - 工作学习/工作/汇总所有在线文档.md"
-    },
-    {
-      "basename": "tp-每日日记模板",
-      "path": "040 - Obsidian/模板/tp-每日日记模板.md"
     },
     {
       "basename": "00. 学习",
@@ -103,10 +111,6 @@
     {
       "basename": "00.环境配置",
       "path": "004 - Resource/资源/环境安装和软件安装/00.环境配置.md"
-    },
-    {
-      "basename": "tp-长青笔记模板",
-      "path": "040 - Obsidian/模板/tp-长青笔记模板.md"
     },
     {
       "basename": "tp-默认笔记模板",
@@ -195,10 +199,6 @@
     {
       "basename": "spice代码文档",
       "path": "020 - 工作学习/工作/业务知识和难题/spice/spice-web-client代码阅读/spice代码文档.md"
-    },
-    {
-      "basename": "downloadmanager.js",
-      "path": "020 - 工作学习/工作/业务知识和难题/spice/spice-web-client代码阅读/downloadmanager.js.md"
     }
   ],
   "omittedPaths": [],
