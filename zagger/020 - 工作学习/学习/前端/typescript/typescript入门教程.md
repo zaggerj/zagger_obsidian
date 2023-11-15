@@ -11,7 +11,7 @@ banner_icon: 💌
 banner_x: 0.5
 banner_y: 0.38
 created: 2023-11-14 16:39:15
-updated: 2023-11-14 16:49:40
+updated: 2023-11-15 08:16:36
 ---
 
 # 1. typescript入门教程
