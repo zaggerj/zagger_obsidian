@@ -19,19 +19,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "e09016134b779638",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "040 - Obsidian/Excalidraw/计算机网络: IP地址，子网掩码，网段表示法，默认网关，DNS服务器详解.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ]
       }
@@ -322,10 +309,12 @@
   },
   "active": "e15d821ffa63f56b",
   "lastOpenFiles": [
+    "040 - Obsidian/Excalidraw/计算机网络： IP地址，子网掩码，网段表示法，默认网关，DNS服务器详解.md",
+    "040 - Obsidian/Excalidraw/计算机网络: IP地址，子网掩码，网段表示法，默认网关，DNS服务器详解.md",
+    "040 - Obsidian/Excalidraw/计算机网络",
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "040 - Obsidian/主页/00. 主页.md",
     "040 - Obsidian/主页/00. 文件管理.md",
-    "040 - Obsidian/Excalidraw/计算机网络: IP地址，子网掩码，网段表示法，默认网关，DNS服务器详解.md",
     "040 - Obsidian/Excalidraw/front-end.md",
     "040 - Obsidian/Excalidraw/字符编码问题和二进制.md",
     "040 - Obsidian/Excalidraw/常见设计模式.md",
@@ -347,7 +336,6 @@
     "040 - Obsidian/Excalidraw/class.md",
     "040 - Obsidian/Excalidraw/mongodb.md",
     "040 - Obsidian/Excalidraw/vue2.md",
-    "040 - Obsidian/Excalidraw/css css3.md",
     "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice项目",
     "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化",
     "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题",
@@ -357,7 +345,6 @@
     "60 - 临时",
     "020 - 工作学习/02 软件学习",
     "040 - Obsidian/模板/tp",
-    "40 - 生活/01 物品",
     "040 - Obsidian/附件/}[YAY}4`V3EH[RB]0}29_00.png",
     "040 - Obsidian/附件/100911654141903_.pic.jpg",
     "obsidian配置文件目录/Attachment/assets 9/image5-20230708221750-odzmzc1.jpeg",
