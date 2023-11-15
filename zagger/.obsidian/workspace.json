@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md",
-                "mode": "preview",
+                "file": "020 - 工作学习/工作/汇总所有在线文档.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -176,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Obsidian/Excalidraw/计算机网络: IP地址，子网掩码，网段表示法，默认网关，DNS服务器详解.md"
+                "file": "020 - 工作学习/工作/汇总所有在线文档.md"
               }
             }
           },
@@ -202,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "040 - Obsidian/Excalidraw/计算机网络: IP地址，子网掩码，网段表示法，默认网关，DNS服务器详解.md",
+                "file": "020 - 工作学习/工作/汇总所有在线文档.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "040 - Obsidian/Excalidraw/计算机网络: IP地址，子网掩码，网段表示法，默认网关，DNS服务器详解.md",
+                "file": "020 - 工作学习/工作/汇总所有在线文档.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +230,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "040 - Obsidian/Excalidraw/计算机网络: IP地址，子网掩码，网段表示法，默认网关，DNS服务器详解.md"
+                "file": "020 - 工作学习/工作/汇总所有在线文档.md"
               }
             }
           },
@@ -321,11 +320,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e09016134b779638",
+  "active": "e15d821ffa63f56b",
   "lastOpenFiles": [
+    "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "040 - Obsidian/主页/00. 主页.md",
-    "040 - Obsidian/Excalidraw/front-end.md",
+    "040 - Obsidian/主页/00. 文件管理.md",
     "040 - Obsidian/Excalidraw/计算机网络: IP地址，子网掩码，网段表示法，默认网关，DNS服务器详解.md",
+    "040 - Obsidian/Excalidraw/front-end.md",
     "040 - Obsidian/Excalidraw/字符编码问题和二进制.md",
     "040 - Obsidian/Excalidraw/常见设计模式.md",
     "040 - Obsidian/Excalidraw/css.md",
@@ -347,8 +348,6 @@
     "040 - Obsidian/Excalidraw/mongodb.md",
     "040 - Obsidian/Excalidraw/vue2.md",
     "040 - Obsidian/Excalidraw/css css3.md",
-    "040 - Obsidian/Excalidraw/html html5.md",
-    "040 - Obsidian/Excalidraw/standard.md",
     "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice项目",
     "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化",
     "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题",
