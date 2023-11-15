@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "tsconfig.json",
+      "path": "020 - 工作学习/学习/前端/typescript/tsconfig.json.md"
+    },
+    {
       "basename": "内置对象",
       "path": "020 - 工作学习/学习/前端/typescript/内置对象.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "tp-daily",
       "path": "040 - Obsidian/模板/tp-daily.md"
-    },
-    {
-      "basename": "spice学习",
-      "path": "020 - 工作学习/工作/业务知识和难题/spice/spice-web-client代码阅读/spice学习.md"
     }
   ],
   "omittedPaths": [],
