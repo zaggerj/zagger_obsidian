@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "内置对象",
+      "path": "020 - 工作学习/学习/前端/typescript/内置对象.md"
+    },
+    {
       "basename": "typescript-声明文件",
       "path": "020 - 工作学习/学习/前端/typescript/typescript-声明文件.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "spice学习",
       "path": "020 - 工作学习/工作/业务知识和难题/spice/spice-web-client代码阅读/spice学习.md"
-    },
-    {
-      "basename": "spice代码文档",
-      "path": "020 - 工作学习/工作/业务知识和难题/spice/spice-web-client代码阅读/spice代码文档.md"
     }
   ],
   "omittedPaths": [],

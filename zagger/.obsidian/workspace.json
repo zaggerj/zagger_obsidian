@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "020 - 工作学习/学习/前端/typescript/typescript-声明文件.md",
+                "file": "020 - 工作学习/学习/前端/typescript/内置对象.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -234,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "020 - 工作学习/学习/前端/typescript/typescript-声明文件.md"
+                "file": "020 - 工作学习/学习/前端/typescript/内置对象.md"
               }
             }
           },
@@ -260,7 +260,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "020 - 工作学习/学习/前端/typescript/typescript-声明文件.md",
+                "file": "020 - 工作学习/学习/前端/typescript/内置对象.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -277,7 +277,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "020 - 工作学习/学习/前端/typescript/typescript-声明文件.md",
+                "file": "020 - 工作学习/学习/前端/typescript/内置对象.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -289,7 +289,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "020 - 工作学习/学习/前端/typescript/typescript-声明文件.md"
+                "file": "020 - 工作学习/学习/前端/typescript/内置对象.md"
               }
             }
           },
@@ -378,11 +378,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "f3fff00e8f61d099",
+  "active": "23fad819ff207865",
   "lastOpenFiles": [
+    "020 - 工作学习/学习/前端/typescript/typescript-声明文件.md",
+    "020 - 工作学习/学习/前端/typescript/内置对象.md",
     "040 - Obsidian/模板/tp-长青笔记模板.md",
     "040 - Obsidian/模板/tp-每日日记模板.md",
-    "020 - 工作学习/学习/前端/typescript/typescript-声明文件.md",
     "020 - 工作学习/学习/前端/typescript/typescript入门教程.md",
     "000 - 每日日记/DailyNote/2023年11月15日.md",
     "000 - 每日日记/DailyNote/2023年11月14日.md",
@@ -407,7 +408,6 @@
     "020 - 工作学习/工作/工作.md",
     "020 - 工作学习/工作/远程、定制化",
     "020 - 工作学习/工作/多语言",
-    "020 - 工作学习/工作/远程、定制化/windicss远程使用场景.md",
     "004 - Resource/资源/各种软件/浏览器插件",
     "004 - Resource/资源素材/环境安装和软件安装/windows环境配置",
     "040 - Obsidian/附件/Attachment/~$文档模板 1.docx",
