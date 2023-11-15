@@ -11,7 +11,7 @@ banner_icon: 💌
 banner_x: 0.5
 banner_y: 0.38
 created: 2023-11-15 11:01:14
-updated: 2023-11-15 11:04:50
+updated: 2023-11-15 16:45:03
 ---
 
 # 1. typescript-声明文件

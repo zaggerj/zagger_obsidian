@@ -11,7 +11,7 @@ banner_icon: 💌
 banner_x: 0.5
 banner_y: 0.38
 created: 2023-11-15 16:31:43
-updated: 2023-11-15 16:33:32
+updated: 2023-11-15 16:45:03
 ---
 
 # 1. tsconfig.json

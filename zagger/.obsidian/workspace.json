@@ -60,6 +60,29 @@
             }
           },
           {
+            "id": "51aff3fdbbc33af0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/学习/前端/00.学习-前端.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9dc71fbcbcaddd7a",
+            "type": "leaf",
+            "state": {
+              "type": "mindmapview",
+              "state": {
+                "file": "040 - Obsidian/Excalidraw/场景切换过程图解.md"
+              }
+            }
+          },
+          {
             "id": "04a19d98880e6d94",
             "type": "leaf",
             "state": {
@@ -104,7 +127,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "020 - 工作学习/学习/前端/typescript/tsconfig.json.md",
+                "file": "020 - 工作学习/学习/前端/typescript/typescript-声明文件.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -125,7 +148,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -234,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "020 - 工作学习/学习/前端/typescript/tsconfig.json.md"
+                "file": "040 - Obsidian/Excalidraw/场景切换过程图解.md"
               }
             }
           },
@@ -260,7 +283,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "020 - 工作学习/学习/前端/typescript/tsconfig.json.md",
+                "file": "040 - Obsidian/Excalidraw/场景切换过程图解.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -277,7 +300,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "020 - 工作学习/学习/前端/typescript/tsconfig.json.md",
+                "file": "040 - Obsidian/Excalidraw/场景切换过程图解.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -289,7 +312,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "020 - 工作学习/学习/前端/typescript/tsconfig.json.md"
+                "file": "040 - Obsidian/Excalidraw/场景切换过程图解.md"
               }
             }
           },
@@ -378,22 +401,22 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "23fad819ff207865",
+  "active": "9dc71fbcbcaddd7a",
   "lastOpenFiles": [
-    "020 - 工作学习/学习/前端/typescript/内置对象.md",
-    "020 - 工作学习/学习/前端/typescript/tsconfig.json.md",
+    "020 - 工作学习/学习/前端/00.学习-前端.md",
+    "000 - 每日日记/DailyNote/2023年11月15日.md",
+    "000 - 每日日记/DailyNote/2023年11月14日.md",
     "020 - 工作学习/学习/前端/typescript/typescript-声明文件.md",
+    "020 - 工作学习/学习/前端/typescript/tsconfig.json.md",
+    "020 - 工作学习/学习/前端/typescript/学习清单.md",
+    "020 - 工作学习/学习/前端/typescript/内置对象.md",
     "040 - Obsidian/模板/tp-长青笔记模板.md",
     "040 - Obsidian/模板/tp-每日日记模板.md",
     "020 - 工作学习/学习/前端/typescript/typescript入门教程.md",
-    "000 - 每日日记/DailyNote/2023年11月15日.md",
-    "000 - 每日日记/DailyNote/2023年11月14日.md",
-    "020 - 工作学习/学习/前端/00.学习-前端.md",
     "020 - 工作学习/工作/汇总所有在线文档.md",
     "020 - 工作学习/学习/00. 学习.md",
     "040 - Obsidian/主页/00. 主页.md",
     "000 - 每日日记/DailyNote/2023年11月07日.md",
-    "020 - 工作学习/学习/前端/typescript/学习清单.md",
     "020 - 工作学习/学习/css方案.md",
     "004 - Resource/资源/各种软件/00.资源-软件安装.md",
     "004 - Resource/资源/00.资源导航.md",

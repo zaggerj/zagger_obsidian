@@ -1,16 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "tsconfig.json",
-      "path": "020 - 工作学习/学习/前端/typescript/tsconfig.json.md"
+      "basename": "场景切换过程图解",
+      "path": "040 - Obsidian/Excalidraw/场景切换过程图解.md"
     },
     {
-      "basename": "内置对象",
-      "path": "020 - 工作学习/学习/前端/typescript/内置对象.md"
+      "basename": "00.学习-前端",
+      "path": "020 - 工作学习/学习/前端/00.学习-前端.md"
+    },
+    {
+      "basename": "2023年11月15日",
+      "path": "000 - 每日日记/DailyNote/2023年11月15日.md"
+    },
+    {
+      "basename": "2023年11月14日",
+      "path": "000 - 每日日记/DailyNote/2023年11月14日.md"
     },
     {
       "basename": "typescript-声明文件",
       "path": "020 - 工作学习/学习/前端/typescript/typescript-声明文件.md"
+    },
+    {
+      "basename": "tsconfig.json",
+      "path": "020 - 工作学习/学习/前端/typescript/tsconfig.json.md"
+    },
+    {
+      "basename": "学习清单",
+      "path": "020 - 工作学习/学习/前端/typescript/学习清单.md"
+    },
+    {
+      "basename": "内置对象",
+      "path": "020 - 工作学习/学习/前端/typescript/内置对象.md"
     },
     {
       "basename": "tp-长青笔记模板",
@@ -23,18 +43,6 @@
     {
       "basename": "typescript入门教程",
       "path": "020 - 工作学习/学习/前端/typescript/typescript入门教程.md"
-    },
-    {
-      "basename": "2023年11月15日",
-      "path": "000 - 每日日记/DailyNote/2023年11月15日.md"
-    },
-    {
-      "basename": "2023年11月14日",
-      "path": "000 - 每日日记/DailyNote/2023年11月14日.md"
-    },
-    {
-      "basename": "00.学习-前端",
-      "path": "020 - 工作学习/学习/前端/00.学习-前端.md"
     },
     {
       "basename": "汇总所有在线文档",
@@ -51,10 +59,6 @@
     {
       "basename": "2023年11月07日",
       "path": "000 - 每日日记/DailyNote/2023年11月07日.md"
-    },
-    {
-      "basename": "学习清单",
-      "path": "020 - 工作学习/学习/前端/typescript/学习清单.md"
     },
     {
       "basename": "css方案",
@@ -195,10 +199,6 @@
     {
       "basename": "tp-日记模板",
       "path": "040 - Obsidian/模板/tp-日记模板.md"
-    },
-    {
-      "basename": "tp-daily",
-      "path": "040 - Obsidian/模板/tp-daily.md"
     }
   ],
   "omittedPaths": [],
