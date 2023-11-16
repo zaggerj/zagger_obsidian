@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "020 - 工作学习/工作/汇总所有在线文档.md",
+                "file": "040 - Obsidian/Excalidraw/front-end/frontend.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "020 - 工作学习/工作/汇总所有在线文档.md",
+                "file": "040 - Obsidian/Excalidraw/front-end/frontend.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "020 - 工作学习/工作/汇总所有在线文档.md",
+                "file": "040 - Obsidian/Excalidraw/front-end/frontend.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "020 - 工作学习/工作/汇总所有在线文档.md"
+                "file": "040 - Obsidian/Excalidraw/front-end/frontend.md"
               }
             }
           },
@@ -243,8 +243,8 @@
   },
   "active": "9920d6f74fa83d7f",
   "lastOpenFiles": [
-    "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/工作/汇总所有在线文档.md",
+    "040 - Obsidian/主页/00. 主页.md",
     "040 - Obsidian/Excalidraw/front-end/frontend.md"
   ]
 }

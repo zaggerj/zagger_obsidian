@@ -1,17 +1,18 @@
 ---
 created: 2023-11-16 10:06:18
-updated: 2023-11-16 10:04:48
+updated: 2023-11-16 12:59:53
 ---
-# front-end
+# 1. front-end
 
-## navigator
+## 1.1. navigator
 
-## shortcut
+## 1.2. shortcut
 
-## angular执行流程
+## 1.3. angular执行流程
 
-### bindJQuery();
+### 1.3.1. bindJQuery();
 
+```js
 function bindJQuery() {
   // bind to jQuery if present;
   jQuery = window.jQuery;
@@ -36,15 +37,16 @@ function bindJQuery() {
   }
   angular.element = jqLite;
 }
+```
 
-- 如果你引入了jQuery库就调用你引用的，没有引用则使用angular内部的一个轻量级的jQuery（jqLite）：
-angular.element = jqLite
-
+- 如果你引入了jQuery库就调用你引用的，没有引用则使用angular内部的一个轻量级的`jQuery（jqLite）`：
+`angular.element = jqLite`
 -  
 ![image](assets/12a288a8f0daa6db1c0bf87939a4876d9ab9393b1607ab0f9c4aa97120869fb6.png)
 
-### publishExternalAPI(angular);
+### 1.3.2. publishExternalAPI(angular);
 
+```js
 function publishExternalAPI(angular){
   extend(angular, {
     'bootstrap': bootstrap,
@@ -164,12 +166,14 @@ function publishExternalAPI(angular){
     }
   ]);
 }
+```
 
 - setModuleLoader方法：
 利用ensure函数实现了：
-angular.module = module(name, requires, configFn)
+`angular.module = module(name, requires, configFn)`
 
-	- 当调用angular.module()返回
+  - 当调用`angular.module()`返回
+```js
 moduleInstance = 
 {
    _invokeQueue:xx,
@@ -179,12 +183,14 @@ moduleInstance =
    controller: xx, 
    ...
 }
+```
 注意：
 1. 链式调用angular.module(xx).controller(xx)
-2..controller,.service之类的方法调用时，并不是立即执行。而且先把参数放入到_invokeQueues数组中，此数组在angularInit时，调用bootstrap - > createInjector -> loadModules -> 取出之前存入的相关参数执行，
+2. `.controller,.service`之类的方法调用时，并不是立即执行。而且先把参数放入到`_invokeQueues`数组中，此数组在`angularInit`时，调用`bootstrap - > createInjector -> loadModules -> 取出之前存入的相关参数`执行，
 
 
 	- 最后返回：
+	  ```js
 instanceInjector = {
   annotate: 
   get: 
@@ -192,29 +198,21 @@ instanceInjector = {
   invoke:
   instantitate:
 }
-
-	-  
-![image](assets/0cc9e9d8e9b97d77fb7ec7df03094c2833e9ace8142f8d50f99df38307e9c3e6.png)
-
-		- **moduleFn方法：
-1.所谓的由setModuleLoader方法返回的moduleFn方法，该方法返回moduleInstance，并且moduleInstance上的所有方法，几乎最终都返回了moduleInstance
-2. moduleFn方法使用ensure返回，如果传递了两个以上的参数，就是设置模板如果传递了一个参数，直接就是获取模板。**
-![image](assets/00af2b688b3bb1f65e6cef072371d2aafcd99085f376bb5d139655d946ae3f84.png)
-
-		- **invokeLate方法：
+```
+	 - ![image](assets/0cc9e9d8e9b97d77fb7ec7df03094c2833e9ace8142f8d50f99df38307e9c3e6.png)
+		- moduleFn方法：
+1. 所谓的由`setModuleLoader`方法返回的`moduleFn`方法，该方法返回`moduleInstance`，并且`moduleInstance`上的所有方法，几乎最终都返回了`moduleInstance`
+2. `moduleFn`方法使用`ensure`返回，如果传递了两个以上的参数，就是设置模板如果传递了一个参数，直接就是获取模板。
+3. ![image](assets/00af2b688b3bb1f65e6cef072371d2aafcd99085f376bb5d139655d946ae3f84.png)
+ - invokeLate方法：
 1. 此方法调用，返回了一个方法，将传递进来的参数，放在invokeQueue数组中。
-2.config，provider，service，fatory，value，constant，filter，controller，directive等等都会调用invokeLate方法，加入队列invokeQueue。
+2. `config，provider，service，fatory，value，constant，filter，controller，directive`等等都会调用invokeLate方法，加入队列invokeQueue。
 3. run方法不同，调用run方法的将run方法传递进来的fn参数，放到runBlocks数组中存起来。最终会在createInjector中的loaderModules方法中进行汇总，然后在createInjector中通过forEach(loadModules(modulesToLoad), function(fn) { instanceInjector.invoke(fn || noop); }); 进行了执行。
-4.invokeQueue中的菜谱也最终是在最终会在createInjector中的loaderModules方法中进行直接进行执行。
+4. `invokeQueue`中的菜谱也最终是在最终会在createInjector中的loaderModules方法中进行直接进行执行。
 **
 ![image](assets/64a1eff1a1cee44adfd73e4388b790cfe6dfcb20fe2d9e117db0d021c64850ed.png)
 
-			- **for(invokeQueue = moduleFn._invokeQueue, i = 0, ii = invokeQueue.length; i < ii; i++) {
-            var invokeArgs = invokeQueue[i],
-                provider = providerInjector.get(invokeArgs[0]);
-
-            provider[invokeArgs[1]].apply(provider, invokeArgs[2]);
-          }**
+			- ****
 
 - 挂载辅助api到angular上，如：
 bootstrap，toJson，bind，forEach等等
@@ -226,10 +224,12 @@ bootstrap，toJson，bind，forEach等等
 -  
 ![image](assets/48b0ac4be2618899b3c917b317d6571a19e0a4cb36d654d6aecd1fdeab69372b.png)
 
-### angularInit方法:
+### 1.3.3. angularInit方法:
+```js
 jqLite(document).ready(function() {
     angularInit(document, bootstrap);
   });
+```
 
 - 作用：
 通过ng-app="xx"，取出moduleName
@@ -326,7 +326,7 @@ var injector = createInjector(modules);
 2.参数是个数组，拿到数组的n-1个参数，作为$inject属性
 3.最终都将返回$inject属性
 
-### 问题：
+### 1.3.4. 问题：
 
 - 1.runBlocks.push(providerInjector.invoke(module));
 2.invokeQueue直接执行：provider[invokeArgs[1]].apply(provider, invokeArgs[2]);
@@ -338,35 +338,35 @@ var injector = createInjector(modules);
 - 问题2：
 createInjector中的providerCache的$provider下的provider，factory，service，value，constant，decorator方法
 
-### 加载模块和构建Injector，执行模块
+### 1.3.5. 加载模块和构建Injector，执行模块
 ![image](assets/c42e553b6cdaef49d232f38af7cde5a8617e52f49fd9b3e3b7e55b67726fd5d2.png)
 
-### $provode.provider方法支持两种用法：
+### 1.3.6. $provode.provider方法支持两种用法：
 1. name，provider_
 2. {name: provider_}
 ![image](assets/0b313cd2195cd25571620780dd77b26b41e1bd6fa91420d58aead7db8e6363b7.png)
 
-## 文档集合
+## 1.4. 文档集合
 
-### [1. 10个常见的前端手写功能，你全都会吗？](https://juejin.cn/post/7031322059414175774)
+### 1.4.1. [1. 10个常见的前端手写功能，你全都会吗？](https://juejin.cn/post/7031322059414175774)
 
-### [2. 这些一行 JS 实现功能的代码，让你看起来像一个前端专家](https://juejin.cn/post/6921509748785283086)
+### 1.4.2. [2. 这些一行 JS 实现功能的代码，让你看起来像一个前端专家](https://juejin.cn/post/6921509748785283086)
 
-### [3. 学习源码整体架构系列](https://juejin.cn/column/6960551178908205093)
+### 1.4.3. [3. 学习源码整体架构系列](https://juejin.cn/column/6960551178908205093)
 
-### [4. 「万字总结」熬夜总结50个JS的高级知识点，全都会你就是神！！！](https://juejin.cn/post/7022795467821940773)
+### 1.4.4. [4. 「万字总结」熬夜总结50个JS的高级知识点，全都会你就是神！！！](https://juejin.cn/post/7022795467821940773)
 
-### [5. 一个合格的中级前端工程师需要掌握的 28 个 JavaScript 技巧](https://juejin.cn/post/6844903856489365518)
+### 1.4.5. [5. 一个合格的中级前端工程师需要掌握的 28 个 JavaScript 技巧](https://juejin.cn/post/6844903856489365518)
 
-### [6.(建议收藏)原生JS灵魂之问, 请问你能接得住几个？(上)](https://juejin.cn/post/6844903974378668039)
+### 1.4.6. [6.(建议收藏)原生JS灵魂之问, 请问你能接得住几个？(上)](https://juejin.cn/post/6844903974378668039)
 
-### [7. 你知道 Vue scoped 原理吗？这波你在第几层？](https://juejin.cn/post/7098569051860893709)
+### 1.4.7. [7. 你知道 Vue scoped 原理吗？这波你在第几层？](https://juejin.cn/post/7098569051860893709)
 
-### [8. 用上这个 Mock 神器，让你的开发爽上天！](https://juejin.cn/post/7094892335841935374)
+### 1.4.8. [8. 用上这个 Mock 神器，让你的开发爽上天！](https://juejin.cn/post/7094892335841935374)
 
-## electron
+## 1.5. electron
 
-### 参考链接：
+### 1.5.1. 参考链接：
 
 - [1.从 Electron 架构出发，深究 Electron 跨端原理 | 多图详解](https://juejin.cn/post/7103337772424888356)
 
@@ -374,13 +374,13 @@ createInjector中的providerCache的$provider下的provider，factory，service�
 
 - [3.大概是全网最详细的Electron ipc 讲解(三)——定情信物传声筒port](https://juejin.cn/post/7103689764917755940)
 
-## ajax，xhr
+## 1.6. ajax，xhr
 
-### 参考链接：
+### 1.6.1. 参考链接：
 
 - [1.Ajax--概述、xhr对象的常用属性和方法、xhr的常用事件、xhr对象发送POST请求、xhr对象发送GET请求、xhr对象的兼容性问题、数据交换格式(XML、JSON)](https://blog.csdn.net/weixin_43285360/article/details/116974774)
 
-### ajax、fetch、axios
+### 1.6.2. ajax、fetch、axios
 
 - Ajax
 
@@ -462,7 +462,7 @@ createInjector中的providerCache的$provider下的provider，factory，service�
 
 	- [请说明 Ajax、Fetch、Axios 三者的区别](https://juejin.cn/post/7103136454267633678)
 
-### axios
+### 1.6.3. axios
 
 - 参考链接：
 
@@ -474,9 +474,9 @@ createInjector中的providerCache的$provider下的provider，factory，service�
 
 	- [4.vue中Axios的封装和API接口的管理](https://juejin.cn/post/6844903652881072141)
 
-## 拖拽
+## 1.7. 拖拽
 
-### 参考文档：
+### 1.7.1. 参考文档：
 
 - [1、看完就懂的前端拖拽那些事](https://juejin.cn/post/7075918201359433758)
 
@@ -506,9 +506,9 @@ createInjector中的providerCache的$provider下的provider，factory，service�
 
 - [2.前端里的“拖拖拽拽”](http://events.jianshu.io/p/d5ce3b712dd9)
 
-## 文件上传
+## 1.8. 文件上传
 
-### 文档参考：
+### 1.8.1. 文档参考：
 
 - [1.一文讲透文件上传](https://zhuanlan.zhihu.com/p/370229240)
 
@@ -652,12 +652,12 @@ createInjector中的providerCache的$provider下的provider，factory，service�
 
 - [4.大文件分段上传断点存续，MD5，跨端技术，哪里的上传都是一样的](https://juejin.cn/post/7103799605623521294)
 
-## git bash
+## 1.9. git bash
 
-### [简介：windows上配置git bash
+### 1.9.1. [简介：windows上配置git bash
 背景：windows上实在没有更好的终端工具，用来使用。](https://blog.csdn.net/admans/article/details/124380070)
 
-### 5.参考链接：
+### 1.9.2. 5.参考链接：
 
 - [1.cmd、git bash、powershell等命令行界面美化和集中管理——Windows terminal使用和基础配置教程](https://blog.csdn.net/a1845613403/article/details/122777663)
 
@@ -673,9 +673,9 @@ alias grep="grep --color"
 
 	- # git bash 终端执行
 
-# 了解 vim 的执行如下
+# 2. 了解 vim 的执行如下
 vim /etc/profile.d/git-prompt.sh
-# 安装 vscode 的执行该操作
+# 3. 安装 vscode 的执行该操作
 code /etc/profile.d/git-prompt.sh
 
 	-  /etc/profile.d/git-prompt.sh
@@ -718,48 +718,48 @@ code /etc/profile.d/git-prompt.sh
 	  
 - 4.设置git自动补全功能（windows版本）
 
-### 4.git bash 相关配置
+### 3.1.1. 4.git bash 相关配置
 
 -  vim /etc/profile.d/aliases.sh
 
-  # Some good standards, which are not used if the user
-  # creates his/her own .bashrc/.bash_profile
+# 4. Some good standards, which are not used if the user
+# 5. creates his/her own .bashrc/.bash_profile
   
-  # --show-control-chars: help showing Korean or accented characters
+# 6. --show-control-chars: help showing Korean or accented characters
   alias ls='ls -F --color=auto --show-control-chars'
   alias ll='ls -l'
   alias grep='grep --color'
-  # proxy
-  # default socks5 
+# 7. proxy
+# 8. default socks5 
   alias setproxy="export ALL_PROXY=socks5://127.0.0.1:7890"
-  # company socks5 ssh tunnel
+# 9. company socks5 ssh tunnel
   alias setproxy1="export ALL_PROXY=socks5://59.175.233.194:8181"
-  # reset proxy
+# 10. reset proxy
   alias unsetproxy="unset ALL_PROXY"
   
   alias cip="curl -i http://ip.cn"
-  # clear
+# 11. clear
   alias c="clear"
-  # git
+# 12. git
   alias gpl="git pull"
   alias gpu="git push"
   alias gs="git status"
   alias glg="git log --stat"
   alias gc='git config credential.helper store'
   
-  # npm and yarn
+# 13. npm and yarn
   alias ns="npm start"
   alias ys="yarn run serve"
   
-  # shortcut path
+# 14. shortcut path
   alias gw="cd d:/code"
   
-  # ls
+# 15. ls
   
   alias lsa="sudo ls -la --color=auto"
   alias l='ls -la'
   
-  # scp
+# 16. scp
   alias scp142="scp -r js built resources views personal_login css fonts includes root@172.16.65.142:/var/www/html"
   alias scp146="scp -r js built resources views personal_login css fonts includes root@172.16.65.146:/var/www/html"
   
@@ -864,12 +864,12 @@ code /etc/profile.d/git-prompt.sh
   
 - vscode 配置文件
 
-### 3.windows terminal 中配置git bash
+### 16.1.1. 3.windows terminal 中配置git bash
 
 -  
 ![image](assets/e2ab46aeb68c34163f6bbdc5d2a82b556c1d0000a94bfb351c254a912e14c779.png)
 
-### 2.vscode相关配置
+### 16.1.2. 2.vscode相关配置
 
 -  "terminal.integrated.profiles.windows": {
       // 名称中不能有空格，否则无法识别
@@ -881,7 +881,7 @@ code /etc/profile.d/git-prompt.sh
     },
     "terminal.integrated.defaultProfile.windows": "Git_Bash",
 
-### 1.windows上桌面快捷方式相关配置
+### 16.1.3. 1.windows上桌面快捷方式相关配置
 
 -  
 ![image](assets/26e62cb5a0daad300555a88d3bf47f9013a37ee7bf38d229c24ecd2c697d859c.png)
@@ -889,9 +889,9 @@ code /etc/profile.d/git-prompt.sh
 -  
 ![image](assets/b4d35109a2f7d9c0d9cc332b3017bff12669d10caa10a95a6ce9c0dcdc15a532.png)
 
-## 工作计划
+## 16.2. 工作计划
 
-### 2022-05-23
+### 16.2.1. 2022-05-23
 
 - 1.上周：
 
@@ -913,7 +913,7 @@ code /etc/profile.d/git-prompt.sh
 
 - 2.5 6月初 需要写技术白皮书
 
-### 2022-05-25
+### 16.2.2. 2022-05-25
 
 - 晨会
 
@@ -925,7 +925,7 @@ code /etc/profile.d/git-prompt.sh
 
 - 2.解决VOI5.4.0和VPC5.3.2天翼云的问题
 
-### vpc5.3.3第三迭代开发计划
+### 16.2.3. vpc5.3.3第三迭代开发计划
 
 - 1. 还原点占用空间展示 （0.5天）5月25号-5月25号
 
@@ -943,9 +943,9 @@ code /etc/profile.d/git-prompt.sh
 
 - 8.数据漫游-voi桌面数据漫游和漫游桌面（1天）6月7号-6月号7
 
-## work
+## 16.3. work
 
-### oseasy
+### 16.3.1. oseasy
 
 - 201.91服务器密码
 
@@ -956,7 +956,7 @@ code /etc/profile.d/git-prompt.sh
 	- oseasy
 cloudhan
 
-### 计划
+### 16.3.2. 计划
 
 - nodejs计划
 
@@ -974,7 +974,7 @@ cloudhan
 
 	- 7.快速撸一个sina视频的demo，youtobe上的那个
 
-### 导师
+### 16.3.3. 导师
 
 - 实习生答辩
 
@@ -1012,7 +1012,7 @@ cloudhan
 
 - [2022-05-11更新-噢易云计算新员工培训发展计划-肖林峰](https://www.kdocs.cn/l/chHXePbtj62C)
 
-### 培训
+### 16.3.4. 培训
 
 - 时间：05-07 => 05-17
 
@@ -1040,11 +1040,11 @@ Intro](https://medialize.github.io/URI.js/)
 
 	- angularjs
 
-## server side
+## 16.4. server side
 
-### nodejs
+### 16.4.1. nodejs
 
-### python
+### 16.4.2. python
 
 - pre-commit
 
@@ -1052,23 +1052,23 @@ Intro](https://medialize.github.io/URI.js/)
 
 	- [中文文档](https://docs.djangoproject.com/zh-hans/2.0/)
 
-### BashShell
+### 16.4.3. BashShell
 
-### linux环境
+### 16.4.4. linux环境
 
-### 计算机基础知识
+### 16.4.5. 计算机基础知识
 
-### 数据库
+### 16.4.6. 数据库
 
 - mongodb
 
-### 服务器
+### 16.4.7. 服务器
 
 - nginx
 
-## software design
+## 16.5. software design
 
-### [Technical Skills技术能力图](https://blog.csdn.net/frontend_frank/article/details/118886427)
+### 16.5.1. [Technical Skills技术能力图](https://blog.csdn.net/frontend_frank/article/details/118886427)
 
 - 基础知识basic
 
@@ -1643,7 +1643,7 @@ word-break: break-all;
 
 - 图像
 
-### [soft skills软能力图](https://blog.csdn.net/frontend_frank/article/details/118886427)
+### 16.5.2. [soft skills软能力图](https://blog.csdn.net/frontend_frank/article/details/118886427)
 
 - 技术能力
 
@@ -1745,9 +1745,9 @@ word-break: break-all;
 
 	- 其他
 
-## ssh端口转发
+## 16.6. ssh端口转发
 
-### ssh隧道通讯
+### 16.6.1. ssh隧道通讯
 
 - 本地端口转发
 ![image](assets/192be5f17ad4ef6ad5dcc2d0fe2f925a6ca0ef0c3150bae00412f62c4f267457.png)
@@ -1792,13 +1792,13 @@ systemctl restart sshd
 		- netstat -anp| grep 8000
 ![image](assets/ac2928cd1e9acf431d94ac50374bcd559b633cfcb24bef650bd5c44708fe6e79.png)
 
-### 本地端口
+### 16.6.2. 本地端口
 ![image](assets/2e5fa865ecb7ed1fb2f3646687e64bc303dab294c82ba8db3665f8cd5dffc1ab.png)
 
 -  
 ![image](assets/0cbaab2d8b01a6edb56d7756de478c0162152171c19efdd0d317a8d3b6883777.png)
 
-### 远程端口
+### 16.6.3. 远程端口
 ![image](assets/5e64af97f630946a5d7884feee53e646b661a565a4955bdbf70e8dd4bb8d6947.png)
 
 -  
@@ -1820,15 +1820,15 @@ systemctl restart sshd
 
 	- 访问10.10.10.2:80端口的服务了
 
-### autossh 保持ssh连接
+### 16.6.4. autossh 保持ssh连接
 
-### [视频地址](https://www.bilibili.com/video/BV1C7411P7Er?p=1)
+### 16.6.5. [视频地址](https://www.bilibili.com/video/BV1C7411P7Er?p=1)
 
-### [有道笔记](https://note.youdao.com/s/dQFP9jzA)
+### 16.6.6. [有道笔记](https://note.youdao.com/s/dQFP9jzA)
 
-## 计算机网络: IP地址，子网掩码，网段表示法，默认网关，DNS服务器详解
+## 16.7. 计算机网络: IP地址，子网掩码，网段表示法，默认网关，DNS服务器详解
 
-### IP地址网段表示法
+### 16.7.1. IP地址网段表示法
 
 - 172.12.34.0/25
 
@@ -1844,7 +1844,7 @@ systemctl restart sshd
 
 - [地址](https://www.cnblogs.com/amyzhu/p/11396136.html)
 
-### 什么是网关？
+### 16.7.2. 什么是网关？
 
 - 可以联想下海关？什么是海关？）
 
@@ -1891,7 +1891,7 @@ systemctl restart sshd
 		- [ARP 协议相关信息可见 这里。](https://baike.baidu.com/item/ARP/609343)
 ![image](assets/b633b141a9110019a990c689e2cb3b1b3b0b7bec673ced6040047dea878c40aa.png)
 
-### DNS服务器
+### 16.7.3. DNS服务器
 
 - [参考：《DNS原理及其解析过程》](https://blog.51cto.com/369369/812889)
 
@@ -1922,13 +1922,13 @@ systemctl restart sshd
 
 	- 6、如果用的是转发模式，此DNS服务器就会把请求转发至上一级DNS服务器，由上一级服务器进行解析，上一级服务器如果不能解析，或找根DNS或把转请求转至上上级，以此循环。不管是本地DNS服务器用是是转发，还是根提示，最后都是把结果返回给本地DNS服务器，由此DNS服务器再返回给客户机。
 
-### IP地址分类（A/B/C/D/E/F类）
+### 16.7.4. IP地址分类（A/B/C/D/E/F类）
 
 - [地址](http://www.t086.com/article/5090)
 
-## 常见设计模式
+## 16.8. 常见设计模式
 
-### 一：理解工厂模式
+### 16.8.1. 一：理解工厂模式
 
 - 工厂模式类似于现实生活中的工厂可以产生大量相似的商品，去做同样的事情，实现同样的效果;这时候需要使用工厂模式。
 
@@ -1991,7 +1991,7 @@ Sub.sup = Sup.prototype;Sub将Sup的老公存为sup
 
 		- 第二：重复性的代码可以放在父类去编写，子类继承于父类的所有成员属性和方法，子类只专注于实现自己的业务逻辑。
 
-### 二：理解单体模式
+### 16.8.2. 二：理解单体模式
 
 - 单体模式提供了一种将代码组织为一个逻辑单元的手段，这个逻辑单元中的代码可以通过单一变量进行访问。
 
@@ -2003,39 +2003,39 @@ Sub.sup = Sup.prototype;Sub将Sup的老公存为sup
 
 	- 可以被实例化，且实例化一次。
 
-### 三：理解模块模式
+### 16.8.3. 三：理解模块模式
 
-### 四：理解代理模式
+### 16.8.4. 四：理解代理模式
 
-### 五：理解职责链模式
+### 16.8.5. 五：理解职责链模式
 
-### 六：命令模式的理解：
+### 16.8.6. 六：命令模式的理解：
 
-### 七：模板方法模式
+### 16.8.7. 七：模板方法模式
 
-### 八：理解javascript中的策略模式
+### 16.8.8. 八：理解javascript中的策略模式
 
-### 九：Javascript中理解发布--订阅模式
+### 16.8.9. 九：Javascript中理解发布--订阅模式
 
-### 十：理解中介者模式
+### 16.8.10. 十：理解中介者模式
 
-### 参考链接：
+### 16.8.11. 参考链接：
 
 - [1.代码越写越乱？那是因为你没用责任链](https://juejin.cn/post/7100859237735563301)
 
-## 字符编码问题和二进制
+## 16.9. 字符编码问题和二进制
 
-### URI vs URL
+### 16.9.1. URI vs URL
 
-### 文章：javascript 字符串进行 utf8 编码的方法（转
+### 16.9.2. 文章：javascript 字符串进行 utf8 编码的方法（转
 
 - [地址](https://www.cnblogs.com/zhangdaicong/p/7696738.html)
 
-### 文章:通过javascript进行UTF-8编码的实现方法
+### 16.9.3. 文章:通过javascript进行UTF-8编码的实现方法
 
 - [地址](https://www.jb51.net/article/87418.htm)
 
-### 二进制相关的对象
+### 16.9.4. 二进制相关的对象
 
 - FIleReader
 
@@ -2751,7 +2751,7 @@ console.log(dataURL);
 
 - [参考文档：理解DOMString、Document、FormData、Blob、File、ArrayBuffer数据类型](https://www.zhangxinxu.com/wordpress/2013/10/understand-domstring-document-formdata-blob-file-arraybuffer/)
 
-### 编码
+### 16.9.5. 编码
 
 - base64
 
@@ -3039,7 +3039,7 @@ function atou(str) {
 
 			- js 过滤 src/href/action 属性，如 javascript:, data:
 
-### 图片处理
+### 16.9.6. 图片处理
 
 - 图示1
 ![image](assets/61cea02b7ae263048f5af936313ca9cc0cd1c54bdd6757e603c4becc2122e8f4.png)
@@ -3047,7 +3047,7 @@ function atou(str) {
 - 图示2
 ![image](assets/df5f2953d708c90e3a576bb6c27a2e5a1c3f1e9d7689e4d3ff064688ba198e8b.png)
 
-### DOMParser和XMLSerializer两个API简介
+### 16.9.7. DOMParser和XMLSerializer两个API简介
 
 - [地址](https://www.zhangxinxu.com/wordpress/2019/06/domparser-xmlserializer-api/)
 
@@ -3077,7 +3077,7 @@ function atou(str) {
 
 		- var xmlSerializer = new XMLSerializer();
 
-### 重新复习
+### 16.9.8. 重新复习
 
 - 参考文章：
 
@@ -3085,39 +3085,39 @@ function atou(str) {
 
 		- [有道云笔记登记了](https://note.youdao.com/s/DPHrYwun)
 
-## css
+## 16.10. css
 
-### css引入
+### 16.10.1. css引入
 
-### 选择器
+### 16.10.2. 选择器
 
-### 优先级
+### 16.10.3. 优先级
 
-### 继承
+### 16.10.4. 继承
 
-### 值和单位
+### 16.10.5. 值和单位
 
-### 文本属性
+### 16.10.6. 文本属性
 
-### 盒子模型
+### 16.10.7. 盒子模型
 
-### BFC & IFC
+### 16.10.8. BFC & IFC
 
-### 视觉格式化模型 VFM
+### 16.10.9. 视觉格式化模型 VFM
 
-### position
+### 16.10.10. position
 
-### float
+### 16.10.11. float
 
-### flex
+### 16.10.12. flex
 
-### 布局
+### 16.10.13. 布局
 
-### 层叠上下文
+### 16.10.14. 层叠上下文
 
-### less / scss
+### 16.10.15. less / scss
 
-### 其他
+### 16.10.16. 其他
 
 - css设置英文字符自动换行
 
@@ -3125,15 +3125,15 @@ function atou(str) {
 white-space: normal;
 word-break: break-all;
 
-### 参考文档：
+### 16.10.17. 参考文档：
 
 - [1.带你玩转清除浮动](https://juejin.cn/post/7103806320809082916)
 
 - [2.详解css中清除浮动的四种方式，float浮动怎么用更为合理](https://juejin.cn/post/7006624020460208164)
 
-## 闭包
+## 16.11. 闭包
 
-### 概念
+### 16.11.1. 概念
 
 - 闭包：函数嵌套函数，内部函数就是闭包
 
@@ -3157,7 +3157,7 @@ word-break: break-all;
 		- 通过函数方式
 ![image](assets/727e2aec072ad9f16a4f49bae8d8163b39ad031cc02d08c1e3e20510bc34a8ef.png)
 
-### 代码
+### 16.11.2. 代码
 
 - // 闭包：函数嵌套函数，内部函数就是闭包
 function outerFun() {
@@ -3171,7 +3171,7 @@ function outerFun() {
 let fun = outerFun()
 fun();
 
-### 作用域链
+### 16.11.3. 作用域链
 
 - 图示
 ![image](assets/65c4280bd2d79225423626110cc97befe2a28660e6c746b8aa3e583b568acb35.png)
@@ -3193,7 +3193,7 @@ function fun() {
 }
 
 
-### 特点
+### 16.11.4. 特点
 
 - 正常情况下，函数调用完成之后，函数中的局部变量中的会释放（内存中）
 
@@ -3223,9 +3223,9 @@ let result1 = module.add()
 let result2 = module.sub()
 console.log(result1, result2)
 
-## tcp/ip
+## 16.12. tcp/ip
 
-### 相关基础知识
+### 16.12.1. 相关基础知识
 
 - ack:acknowledge
 
@@ -3333,7 +3333,7 @@ console.log(result1, result2)
 
 - [文章：跟着动画学习TCP三次握手和四次挥手](https://mp.weixin.qq.com/s/pSrKbVryn71kDVIXUtpXMA)
 
-### TCP/IP过程
+### 16.12.2. TCP/IP过程
 
 - 当输入 URL 时，整个过程是什么样子的
 
@@ -3412,7 +3412,7 @@ console.log(result1, result2)
 	- 数据发送过程
 ![image](assets/14bf6550ea9b6d3de77e90a82df20aa8f84982549a6aa00b6672996e5b489e45.png)
 
-### 数据链路层
+### 16.12.3. 数据链路层
 
 - 物理层负责0、1比特流与物理设备电压高低、光的闪灭之间的互换。 
 
@@ -3429,7 +3429,7 @@ console.log(result1, result2)
 
 - 差错检测(CRC):接收者检测错误,如果发现差错，丢弃该帧。
 
-### 网络层
+### 16.12.4. 网络层
 
 - 1. IP协议
 
@@ -3478,7 +3478,7 @@ console.log(result1, result2)
 
 	- 当传送IP数据包发生错误。比如主机不可达，路由不可达等等，ICMP协议将会把错误信息封包，然后传送回给主机。给主机一个处理错误的机会，这 也就是为什么说建立在IP层以上的协议是可能做到安全的原因。
 
-### ping
+### 16.12.5. ping
 
 - ping可以说是ICMP的最著名的应用，是TCP/IP协议的一部分。利用“ping”命令可以检查网络是否连通，可以很好地帮助我们分析和判定网络故障。
 
@@ -3489,7 +3489,7 @@ console.log(result1, result2)
 
 	- ping程序来计算间隔时间，并计算有多少个包被送达。用户就可以判断网络大致的情况。我们可以看到， ping给出来了传送的时间和TTL的数据。
 
-### Traceroute
+### 16.12.6. Traceroute
 
 - Traceroute是用来侦测主机到目的主机之间所经路由情况的重要工具，也是最便利的工具。
 
@@ -3498,7 +3498,7 @@ console.log(result1, result2)
 - 图示
 ![image](assets/94f5ecabb9e2d6f1becd945cdeebc3f10966426228be289d5dd538c71ddf723a.png)
 
-### 六、TCP/UDP
+### 16.12.7. 六、TCP/UDP
 
 - TCP/UDP都是是传输层协议，但是两者具有不同的特性，同时也具有不同的应用场景，下面以图表的形式对比分析。
 
@@ -3524,7 +3524,7 @@ console.log(result1, result2)
 
 	- 当对网络通讯质量要求不高的时候，要求网络通讯速度能尽量的快，这时就可以使用UDP。
 
-### 七、DNS
+### 16.12.8. 七、DNS
 
 - DNS（Domain Name System，域名系统），因特网上作为域名和IP地址相互映射的一个分布式数据库，能够使用户更方便的访问互联网，而不用去记住能够被机器直接读取的IP数串。通过主机名，最终得到该主机名对应的IP地址的过程叫做域名解析（或主机名解析）。DNS协议运行在UDP协议之上，使用端口号53。
 
@@ -3532,11 +3532,11 @@ console.log(result1, result2)
 
 - [文章：应用层协议：DNS域名系统](https://blog.csdn.net/zyhmz/article/details/80490534?utm_term=dns%E5%B1%9E%E4%BA%8E%E4%BB%80%E4%B9%88%E5%B1%82%E5%8D%8F%E8%AE%AE&utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~sobaiduweb~default-1-80490534&spm=3001.4430)
 
-### 八、TCP连接的建立与终止
+### 16.12.9. 八、TCP连接的建立与终止
 
-### [文章地址：](https://www.toutiao.com/i6570218601117123080/?wid=1631159026384#comment_area)
+### 16.12.10. [文章地址：](https://www.toutiao.com/i6570218601117123080/?wid=1631159026384#comment_area)
 
-### TCPIP / LAN、WAN、、VLAN、WLAN 和 WIFI 的区别和联系
+### 16.12.11. TCPIP / LAN、WAN、、VLAN、WLAN 和 WIFI 的区别和联系
 
 - 一、LAN
 
@@ -3588,9 +3588,9 @@ console.log(result1, result2)
 
 	- （2）无线路由器的发射功率一般都在 50 毫瓦以下，也就是 100 米范围内，如果达到 300 米距离的话，大概要到 75-80 毫瓦。而WLAN发射信号的基站功率就大多了，家庭用的一般是在100—300mw，电信级的一般都在400mw以上。
 
-## 快捷方式速记
+## 16.13. 快捷方式速记
 
-### vscode
+### 16.13.1. vscode
 
 - ctrl+alt+f 替换
 
@@ -3634,25 +3634,25 @@ console.log(result1, result2)
 
 	- Hover: show the definition in a hover over the symbol (Ctrl+hover)
 
-### macos
+### 16.13.2. macos
 
 - 进程管理器
 
 	- cmd+alt+esc
 
-### chrome
+### 16.13.3. chrome
 
 - cmd+shfit+delete
 
-## vscode
+## 16.14. vscode
 
-### 插件
+### 16.14.1. 插件
 
 - Vue VSCode Snippets
 
 	- [地址](https://juejin.cn/post/6965382258341445646)
 
-### 备份macos setting配置的json
+### 16.14.2. 备份macos setting配置的json
 
 {
     "files.associations": {
@@ -3950,9 +3950,9 @@ console.log(result1, result2)
     // }
 }
 
-## 包管理工具
+## 16.15. 包管理工具
 
-### npm
+### 16.15.1. npm
 
 - npm cache clean -f
 
@@ -4005,9 +4005,9 @@ nrm ls
 
 	- npm install nrm -g
 
-### yarn
+### 16.15.2. yarn
 
-### brew
+### 16.15.3. brew
 
 - brew services list
 
@@ -4027,19 +4027,19 @@ nrm ls
 
 	- export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
 
-### pnpm
+### 16.15.4. pnpm
 
 - 参考链接：
 
 	- [1.【工程化】最高性能的包管理器——pnpm](https://juejin.cn/post/7103139607243391012)
 
-### 参考文档：
+### 16.15.5. 参考文档：
 
 - [1.关于 npm 和yarn 总结一些细节](https://juejin.cn/post/7103804890547224583)
 
-## 增加代码检查配套工具
+## 16.16. 增加代码检查配套工具
 
-### vue.config.js
+### 16.16.1. vue.config.js
 
 - const StyleLintPlugin = require('stylelint-webpack-plugin')
 
@@ -4054,7 +4054,7 @@ module.exports = {
 }
 
 
-### eslint
+### 16.16.2. eslint
 
 - .eslintrc.js
 
@@ -4372,7 +4372,7 @@ package.json
 			- edaas-front中的.eslintrc配置了babel-eslint
 ![image](assets/e4ad7818b310257090e9aa886b833602685e01cdfa635bee45bd8bc7ad5ce2a5.png)
 
-### prettier
+### 16.16.3. prettier
 
 - "tabWidth": 4,
     "semi": true,
@@ -4384,7 +4384,7 @@ package.json
     "printWidth": 140,
     "useTabs": false
 
-### stylelint
+### 16.16.4. stylelint
 
 - .stylelintrc.json
 
@@ -4393,7 +4393,7 @@ package.json
 }
 
 
-### [husky](https://zhuanlan.zhihu.com/p/366786798)
+### 16.16.5. [husky](https://zhuanlan.zhihu.com/p/366786798)
 
 - package.json
 
@@ -4401,7 +4401,7 @@ package.json
 
 	-     "lint": "eslint ./src && stylelint ./src/**/*.vue"
 
-### [.gitlab-ci.yml](http://http://172.16.203.254/help/ci/yaml/README)
+### 16.16.6. [.gitlab-ci.yml](http://http://172.16.203.254/help/ci/yaml/README)
 
 Keyword reference for the .gitlab-ci.yml file
 
@@ -4974,7 +4974,7 @@ Introduced in GitLab 11.7.
 Use include:template to include .gitlab-ci.yml templates that are
 shipped with GitLab.
 For example:
-# File sourced from the GitLab template collection
+# 17. File sourced from the GitLab template collection
 include:
  - template: Auto-DevOps.gitlab-ci.yml
 Multiple include:template files:
@@ -5902,7 +5902,7 @@ docker build:
  - Dockerfile
  - docker/scripts/*
  when: manual
- # - "when: never" would be redundant here. It is implied any time rules are listed.
+# 18. "when: never" would be redundant here. It is implied any time rules are listed.
 Keywords such as branches or refs that are available for
 only/except are not available in rules. They are being individually
 considered for their usage and behavior in this context. Future keyword improvements
@@ -6006,25 +6006,25 @@ from running on scheduled pipelines.
 In the example below, job runs only for refs that start with issue-,
 whereas all branches are skipped:
 job:
- # use regexp
+# 19. use regexp
  only:
  - /^issue-.*$/
- # use special keyword
+# 20. use special keyword
  except:
  - branches
 Pattern matching is case-sensitive by default. Use i flag modifier, like
 /pattern/i to make a pattern case-insensitive:
 job:
- # use regexp
+# 21. use regexp
  only:
  - /^issue-.*$/i
- # use special keyword
+# 22. use special keyword
  except:
  - branches
 In this example, job runs only for refs that are tagged, or if a build is
 explicitly requested by an API trigger or a Pipeline Schedule:
 job:
- # use special keywords
+# 23. use special keywords
  only:
  - tags
  - triggers
@@ -7784,7 +7784,7 @@ predefined CI/CD variable set.
 Different languages and test suites have different methods to enable parallelization.
 For example, use Semaphore Test Boosters
 and RSpec to run Ruby tests in parallel:
-# Gemfile
+# 24. Gemfile
 source 'https://rubygems.org'
 
 gem 'rspec'
@@ -8075,7 +8075,7 @@ non-sensitive jobs are executed first and aren't affected by concurrent executio
 pipelines. However, GitLab ensures that there are no other deployment pipelines running before
 triggering a deployment (child) pipeline. If other deployment pipelines are running, GitLab waits
 until those pipelines finish before running another one.
-# .gitlab-ci.yml (parent pipeline)
+# 25. .gitlab-ci.yml (parent pipeline)
 
 build:
  stage: build
@@ -8091,7 +8091,7 @@ deploy:
  include: deploy.gitlab-ci.yml
  strategy: depend
  resource_group: AWS-production
-# deploy.gitlab-ci.yml (child pipeline)
+# 26. deploy.gitlab-ci.yml (child pipeline)
 
 stages:
  - provision
@@ -8604,12 +8604,12 @@ of variables across multiple jobs. You can also use YAML anchors when a job
 requires a specific variables block that would otherwise override the global variables.
 In the example below, we override the GIT_STRATEGY variable without affecting
 the use of the SAMPLE_VARIABLE variable:
-# global variables
+# 27. global variables
 variables: &global-variables
  SAMPLE_VARIABLE: sample_variable_value
  ANOTHER_SAMPLE_VARIABLE: another_sample_variable_value
 
-# a job that must set the GIT_STRATEGY variable, yet depend on global variables
+# 28. a job that must set the GIT_STRATEGY variable, yet depend on global variables
 job_no_git_strategy:
  stage: cleanup
  variables:
@@ -8620,9 +8620,9 @@ job_no_git_strategy:
 Hide jobs
 If you want to temporarily 'disable' a job, rather than commenting out all the
 lines where the job is defined:
-# hidden_job:
-# script:
-# - run test
+# 29. hidden_job:
+# 30. script:
+# 31. run test
 Instead, you can start its name with a dot (.) and it is not processed by
 GitLab CI/CD. In the following example, .hidden_job is ignored:
 .hidden_job:
@@ -8769,7 +8769,7 @@ default:
   
   
   
-### vue增加代码检查配置
+### 31.1.1. vue增加代码检查配置
 
 -   .stylelintrc.json  0 → 100644
  
@@ -8778,19 +8778,19 @@ default:
 }
 \ No newline at end of file
 
-## 算法：JS-ALGORITHM
+## 31.2. 算法：JS-ALGORITHM
 
-### 定义：一系列解决问题的清晰指令，就像食谱
+### 31.2.1. 定义：一系列解决问题的清晰指令，就像食谱
 
-### 链表
+### 31.2.2. 链表
 
 - 遍历链表、删除链表节点
 
-### 树、图
+### 31.2.3. 树、图
 
 - 深度 / 广度优先遍历
 
-### 数组
+### 31.2.4. 数组
 
 - 排序
 
@@ -8806,7 +8806,7 @@ default:
 
 - 顺序、二分搜索
 
-### [刷题](https://leetcode-cn.com/problems/two-sum/solution/jie-suan-fa-1-liang-shu-zhi-he-by-guanpengchn/)
+### 31.2.5. [刷题](https://leetcode-cn.com/problems/two-sum/solution/jie-suan-fa-1-liang-shu-zhi-he-by-guanpengchn/)
 
 - 时间复杂度
 
@@ -8820,13 +8820,13 @@ default:
 		- 数组中放入了n个元素，占用了n个存储单元
 ![image](assets/ca0a7b790e4534d67c1cab452d0f724c2048e247978318013462272dd0cd61f4.png)
 
-## 数据结构
+## 31.3. 数据结构
 
-### 定义：计算机存储、组织数据的方式，就像锅碗瓢盆
+### 31.3.1. 定义：计算机存储、组织数据的方式，就像锅碗瓢盆
 
-### 数组
+### 31.3.2. 数组
 
-### 栈
+### 31.3.3. 栈
 
 - 后进先出的数据结构
 
@@ -8863,31 +8863,31 @@ default:
 			-  
 ![image](assets/b35e5e6e22672e311b080c80a2e808fb481ce4a21bf6d1eba45c631bfa9ee43b.png)
 
-### 队列
+### 31.3.4. 队列
 
-### 链表
+### 31.3.5. 链表
 
-### 图
+### 31.3.6. 图
 
-### 树
+### 31.3.7. 树
 
-### 堆
+### 31.3.8. 堆
 
-### 散列表
+### 31.3.9. 散列表
 
-### 栈、队列、链表
+### 31.3.10. 栈、队列、链表
 
 - 有序的，连成一串，有前后顺序的
 
 	- 羊肉串
 
-### 集合、字典
+### 31.3.11. 集合、字典
 
 - 无序
 
 	- 像一碗饭
 
-### 树、堆、图
+### 31.3.12. 树、堆、图
 
 - 有一定的连接关系
 
@@ -8899,19 +8899,19 @@ default:
 
 - 高级
 
-## mgj
+## 31.4. mgj
 
-### jquery
+### 31.4.1. jquery
 
-### 原生js
+### 31.4.2. 原生js
 
-### 个人自己维护的框架
+### 31.4.3. 个人自己维护的框架
 
 - 精髓和架子提炼出来
 
-## oseasy
+## 31.5. oseasy
 
-### vdi
+### 31.5.1. vdi
 
 - 服务器查看log
 
@@ -9389,20 +9389,20 @@ b. 修改编辑器的用户配置，例如vscode
 
 git提交的时候，文件中的换行符必须是LF，如果不是不能提交。
 
-# 提交时转换为LF，检出时不转换
+# 32. 提交时转换为LF，检出时不转换
 git config --global core.autocrlf input
 
-# 拒绝提交包含混合换行符的文件
+# 33. 拒绝提交包含混合换行符的文件
 git config --global core.safecrlf true
 
 	- 3、EditorConfig
 
 主流编辑器都支持EditorConfig，配置end_of_line后，你编辑的代码会自动转化为对应的换行符。当然你需要将autocrlf关闭，防止再次被转换成其他格式，
 
-# 取值包括 crlf,lf,cr
+# 34. 取值包括 crlf,lf,cr
 end_of_line = lf
 
-# 提交检出均不转换
+# 35. 提交检出均不转换
 git config --global core.autocrlf false
 
 
@@ -9415,7 +9415,7 @@ prettier是目前非常流行的代码格式化工具，提供了endOfLine来支
   "endOfLine" : "lf"
   // ...
 }
-# 提交检出均不转换
+# 36. 提交检出均不转换
 git config --global core.autocrlf false
 
 	- 因为我们现有的项目都已经支持prettier，自然就使用了【husky+lint-staged+prettier】的方式，来支持所有代码格式化成 lf 换行符。
@@ -9465,7 +9465,7 @@ $('#test')[0].append(node);
 
 - 上传下载
 
-### voi
+### 36.1.1. voi
 
 - voi桌面
 
@@ -9473,7 +9473,7 @@ $('#test')[0].append(node);
 
 		- 1.voi个人桌面新增-设置关联账号弹窗-取消时报错，取消按钮时，也同样传递的是all
 
-### 打印机页面结构
+### 36.1.2. 打印机页面结构
 
 - 状态显示：保存中，正在恢复，驱动盘状态载入中
 
@@ -9507,7 +9507,7 @@ $('#test')[0].append(node);
 
 	- 查看详情
 
-### 驱动中心
+### 36.1.3. 驱动中心
 
 - 状态显示：正常，合并中，错误，正在恢复
 
@@ -9535,9 +9535,9 @@ $('#test')[0].append(node);
 
 	- 编辑操作
 
-## 记事本
+## 36.2. 记事本
 
-### 问题
+### 36.2.1. 问题
 
 - 浏览器为什么有缓存机制，在相关代码文件不变的情况下，会缓存文件，需要刷新之后，才会读取新部署到服务器上的文件
 
@@ -9592,7 +9592,7 @@ parFunc1()，parFunc2()并行
 
 			- .success()和.error()可以链接，但它们都会立刻触发(所以没那么多)
 
-### 日记
+### 36.2.2. 日记
 
 - 心态：自我释放
 
@@ -9610,7 +9610,7 @@ parFunc1()，parFunc2()并行
 
   你假装你要起飞，指定了要起飞的目标，但是你还没有起飞，所以你要忍辱负重，你要借着这个坑，进行你起飞的准备，包装你的羽毛，放飞你的思想，锻炼你的身心，武装你的头脑，等你有信心爬到悬崖，自信的昂头遨游的时候，你就可以起飞了，真正的起飞了。
   
-### 计划
+### 36.2.3. 计划
 
 - 日计划
 
@@ -9732,7 +9732,7 @@ squash
 
 	- [vscode配置](https://www.bilibili.com/video/BV1RJ411m7Bj?from=search&seid=5400887660038727441)
 
-### 记录
+### 36.2.4. 记录
 
 - [github中文排行榜](https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts#JavaScript)
 
@@ -9951,7 +9951,7 @@ squash
 
 	- openid
 
-### 生活
+### 36.2.5. 生活
 
 - mac book
 
@@ -9963,7 +9963,7 @@ squash
 
 	- 清空插件cookie可以重置次数用完提示
 
-### 测试
+### 36.2.6. 测试
 
 - 三个问题：
 
@@ -9977,17 +9977,17 @@ squash
 
 所以综上，问题，可能存在，但是没有bug
 
-### 内网穿透ngrok
+### 36.2.7. 内网穿透ngrok
 
 - [地址](https://www.ngrok.cc/user.html)
 
 - [视频地址](https://www.bilibili.com/video/BV17K4y187A2)
 
-### ssh 公钥 、免密登录
+### 36.2.8. ssh 公钥 、免密登录
 
-### 浮动公网ip
+### 36.2.9. 浮动公网ip
 
-### ssh端口转发
+### 36.2.10. ssh端口转发
 ![image](assets/ddb9345b2f4baaa390df72864654355801d53d9bbc3cad11c61df540d2081886.svg)
 
 - ssh隧道通讯
@@ -10067,7 +10067,7 @@ systemctl restart sshd
 
 - [视频地址](https://www.bilibili.com/video/BV1C7411P7Er?p=1)
 
-### eslint "{./src/**/*.{vue,js},*.js}"
+### 36.2.11. eslint "{./src/**/*.{vue,js},*.js}"
 
 - [glob 模式匹配简明教程](https://juejin.cn/post/6844904077801816077)
 
@@ -10075,27 +10075,27 @@ systemctl restart sshd
 
 - [eslint 命令行](https://www.jianshu.com/p/4133063d1785)
 
-### github打不开，打开慢，无法显示图片
+### 36.2.12. github打不开，打开慢，无法显示图片
 
 - [地址](https://www.skillf.xyz/2021/04/20/%E5%85%B3%E4%BA%8EGithub%E7%BD%91%E9%A1%B5%E6%89%93%E4%B8%8D%E5%BC%80%E4%B8%8E%E5%9B%BE%E7%89%87%E6%97%A0%E6%B3%95%E5%8A%A0%E8%BD%BD%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/)
 
 - [配合地址](https://github.com.ipaddress.com/)
 
-## interview
+## 36.3. interview
 
-### nodejs
+### 36.3.1. nodejs
 
-### typescript
+### 36.3.2. typescript
 
 - [主页](https://www.tslang.cn/docs/handbook/typescript-in-5-minutes.html)
 
 	- 类型注解
 
-### uniapp
+### 36.3.3. uniapp
 
-### 计算机基础
+### 36.3.4. 计算机基础
 
-### tips
+### 36.3.5. tips
 
 - vue的事件传播机制
 
@@ -10105,13 +10105,13 @@ systemctl restart sshd
 
 - es6
 
-### webpack
+### 36.3.6. webpack
 
-### es6
+### 36.3.7. es6
 
 - [地址](https://es6.ruanyifeng.com/#docs/arraybuffer#TypedArray-%E8%A7%86%E5%9B%BE)
 
-### 代码风格
+### 36.3.8. 代码风格
 
 - [github链接](https://github.com/standard/standard/blob/master/docs/README-zhcn.md#%E6%9C%89%E4%B8%93%E5%B1%9E%E5%BE%BD%E7%AB%A0%E5%8F%AF%E4%BB%A5%E7%94%A8%E6%9D%A5%E6%94%BE%E5%88%B0%E9%A1%B9%E7%9B%AE%E7%9A%84-readme-%E6%96%87%E4%BB%B6%E4%B8%AD%E5%90%97)
 
@@ -10119,13 +10119,13 @@ systemctl restart sshd
 
 	- [github链接](https://github.com/stylelint/stylelint-config-standard/blob/master/index.js)
 
-### [Sonar系列之SonarQube简介](https://www.cnblogs.com/lfpriest/p/13366171.html)
+### 36.3.9. [Sonar系列之SonarQube简介](https://www.cnblogs.com/lfpriest/p/13366171.html)
 
-### .gitlab-ci.yml
+### 36.3.10. .gitlab-ci.yml
 
-## 计算机基础知识积累和补充
+## 36.4. 计算机基础知识积累和补充
 
-### [进程与线程](https://www.cnblogs.com/qianqiannian/p/7010909.html)
+### 36.4.1. [进程与线程](https://www.cnblogs.com/qianqiannian/p/7010909.html)
 
 进程与线程
 
@@ -10260,7 +10260,7 @@ systemctl restart sshd
 
 学习无他法，唯有持之以恒
 
-### [进程和线程的区别（重点）](https://www.cnblogs.com/heyonggang/archive/2013/04/12/3016573.html)
+### 36.4.2. [进程和线程的区别（重点）](https://www.cnblogs.com/heyonggang/archive/2013/04/12/3016573.html)
 
 进程和线程的区别（重点）
 
@@ -10789,7 +10789,7 @@ pong线程没有结束并且仍然阻塞在Wait()方法上。由于pong线程是
 
 
 
-### [线程和进程的区别是什么？](https://www.zhihu.com/question/25532384)
+### 36.4.3. [线程和进程的区别是什么？](https://www.zhihu.com/question/25532384)
 
 看了一遍排在前面的答案，类似”进程是资源分配的最小单位，线程是CPU调度的最小单位“这样的回答感觉太抽象，都不太容易让人理解。
 
@@ -10812,29 +10812,29 @@ pong线程没有结束并且仍然阻塞在Wait()方法上。由于pong线程是
 其中，线程作为进程的一部分，扮演的角色就是怎么利用中央处理器去运行代码。这其中牵扯到的最重要资源的是中央处理器和其中的寄存器，和线程的栈（stack）。这里想强调的是，线程关注的是中央处理器的运行，而不是内存等资源的管理。
 当只有一个中央处理器的时候，进程中只需要一个线程就够了。随着多处理器的发展，一个进程中可以有多个线程，来并行的完成任务。比如说，一个web服务器，在接受一个新的请求的时候，可以大动干戈的fork一个子进程去处理这个请求，也可以只在进程内部创建一个新的线程来处理。线程更加轻便一点。线程可以有很多，但他们并不会改变进程对内存（heap）等资源的管理，线程之间会共享这些资源。总结一下，我上面的解释是通过计算机操作系统的角度出发的。进程和线程不是同一个层面上的概念，线程是进程的一部分，线程主抓中央处理器执行代码的过程，其余的资源的保护和管理由整个进程去完成。
 
-### angulajs源码阅读和笔记
+### 36.4.4. angulajs源码阅读和笔记
 
-### vue源码
+### 36.4.5. vue源码
 
-### react js
+### 36.4.6. react js
 
-### nodejs
+### 36.4.7. nodejs
 
-### python
+### 36.4.8. python
 
-### [二叉树](https://baike.baidu.com/item/%E4%BA%8C%E5%8F%89%E6%A0%91/1602879?fr=aladdin)
+### 36.4.9. [二叉树](https://baike.baidu.com/item/%E4%BA%8C%E5%8F%89%E6%A0%91/1602879?fr=aladdin)
 
 - 满二叉树
 
 - 完全二叉树
 
-### [数据结构：如何理解堆？](https://blog.csdn.net/weixin_30698297/article/details/97531529)
+### 36.4.10. [数据结构：如何理解堆？](https://blog.csdn.net/weixin_30698297/article/details/97531529)
 
 - 最好的实现方式，就是要很直观，甚至是简单粗暴，所以就想到了完全二叉树，完全二叉树特别好的一个性质就是：父结点和子结点的相对位置是确定的，这一点不管是对堆的查找还是建立亦或是删除，都特别的友好。
 
-### [ip a](https://www.jianshu.com/p/3d754445db5a)
+### 36.4.11. [ip a](https://www.jianshu.com/p/3d754445db5a)
 
-### “/etc/ssh/sshd_config”是OpenSSH的配置文件，允许设置选项改变这个daemon的运行
+### 36.4.12. “/etc/ssh/sshd_config”是OpenSSH的配置文件，允许设置选项改变这个daemon的运行
 
 - [地址](https://blog.csdn.net/qq_27840695/article/details/80610918)
 
@@ -10850,13 +10850,13 @@ pong线程没有结束并且仍然阻塞在Wait()方法上。由于pong线程是
 
 - 6.ps -ef | grep sshd
 
-### 新的linux服务器配置ip
+### 36.4.13. 新的linux服务器配置ip
 
 - sudo ifconfig eth0 192.168.0.1 netmask 255.255.255.0 
 
 - sudo route add default gw 192.168.0.253 eth0
 
-### Linux下命令行设置IP、网关和DNS
+### 36.4.14. Linux下命令行设置IP、网关和DNS
 ip 和子网掩码 执行这个命令：ifconfig eth0 192.168.1.123 netmask 255.255.255.0
 网关的设定执行这个命令： route add default gw 192.168.1.3 
 把这两个命令写到/etc/rc.local 或者/etc/rc.d/rc.local 里面都可以的，这样就可以永久保存
@@ -10872,39 +10872,39 @@ ip 和子网掩码 执行这个命令：ifconfig eth0 192.168.1.123 netmask 255.
 版权声明：本文为CSDN博主「小瑞」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
 原文链接：https://blog.csdn.net/xiaxiaorui2003/article/details/4278352
 
-### 参考文档：
+### 36.4.15. 参考文档：
 
 - [1.重学JavaScript | 重新认识计算机语言](https://juejin.cn/post/7102368013386514463)
 
 - [2.重学JavaScript | 浏览器的渲染及解析](https://juejin.cn/post/7103475994400391182)
 
-## https
+## 36.5. https
 
-### [文章1：小朋友都能看懂的 HTTPS](https://juejin.cn/post/6877091745071693832)
+### 36.5.1. [文章1：小朋友都能看懂的 HTTPS](https://juejin.cn/post/6877091745071693832)
 
-### [文章2：《大前端进阶 安全》系列 HTTPS详解（通俗易懂）](https://juejin.cn/post/6844904127420432391)
+### 36.5.2. [文章2：《大前端进阶 安全》系列 HTTPS详解（通俗易懂）](https://juejin.cn/post/6844904127420432391)
 
-### [文章3：漫画：什么是 HTTPS 协议？](https://juejin.cn/post/6844903795776815117)
+### 36.5.3. [文章3：漫画：什么是 HTTPS 协议？](https://juejin.cn/post/6844903795776815117)
 
-### [文章4：前端进阶高薪必看-HTTPS篇](https://juejin.cn/post/6844904150115827725)
+### 36.5.4. [文章4：前端进阶高薪必看-HTTPS篇](https://juejin.cn/post/6844904150115827725)
 
-### [文章5：半小时搞懂 HTTP、HTTPS和HTTP2](https://juejin.cn/post/6894053426112495629)
+### 36.5.5. [文章5：半小时搞懂 HTTP、HTTPS和HTTP2](https://juejin.cn/post/6894053426112495629)
 
-### [文章6：看完这篇 HTTPS，和面试官扯皮就没问题了](https://juejin.cn/post/6844904089495535624)
+### 36.5.6. [文章6：看完这篇 HTTPS，和面试官扯皮就没问题了](https://juejin.cn/post/6844904089495535624)
 
-### [github地址](https://github.com/ponkans/F2E)
+### 36.5.7. [github地址](https://github.com/ponkans/F2E)
 
-### 图示：
+### 36.5.8. 图示：
 ![image](assets/52347723f00bfab9c0314c4060ca73aa4efa5b2373130106480d2d731ffbb05a.png)
 
-## mongodb
+## 36.6. mongodb
 
-### noSQL
+### 36.6.1. noSQL
 ![image](assets/60cab64c7ff33448e68dbec42ea699de23ab212b48b9e3e1885408666cfbc643.png)
 
-### /usr/local/etc/mongod.conf
+### 36.6.2. /usr/local/etc/mongod.conf
 
-### mongoose
+### 36.6.3. mongoose
 
 - 好处
 
@@ -10982,15 +10982,15 @@ Resource.methods.print = function () {
   // const instance = new ResourceModel({name: "xxx"})
 }
 
-### [推荐文章地址](https://cloud.tencent.com/developer/article/1683003)
+### 36.6.4. [推荐文章地址](https://cloud.tencent.com/developer/article/1683003)
 
-## standard
+## 36.7. standard
 
-### w3c/DOM/BOM/XHTML/JSON/JSONP
+### 36.7.1. w3c/DOM/BOM/XHTML/JSON/JSONP
 
-### HTML5/CSS3
+### 36.7.2. HTML5/CSS3
 
-### ECMAScript3/ECMAScript5
+### 36.7.3. ECMAScript3/ECMAScript5
 
 - 语法
 
@@ -11006,13 +11006,13 @@ Resource.methods.print = function () {
 
 - 严格模式
 
-### CommonJS/AMD
+### 36.7.4. CommonJS/AMD
 
-### HTTP1.1
+### 36.7.5. HTTP1.1
 
-## nodejs
+## 36.8. nodejs
 
-### [nodejs相关的文档](https://note.youdao.com/s/FfQ6pyVx)
+### 36.8.1. [nodejs相关的文档](https://note.youdao.com/s/FfQ6pyVx)
 
 - [node官方入门教程](http://nodejs.cn/learn/nodejs-buffers)
 
@@ -11028,7 +11028,7 @@ Resource.methods.print = function () {
 
 - [(51条消息) Node 学习七、核心模块 stream之 01 Stream 流、Nodejs 中流的类型_皮蛋很白的博客-CSDN博客](https://blog.csdn.net/u012961419/article/details/121534329)
 
-### 自带模块
+### 36.8.2. 自带模块
 
 - http
 
@@ -11213,7 +11213,7 @@ console.log(process.stdout);
 	- 可读流事件
 ![image](assets/496adb6780c262e09f29d6d4c0b589b4f9111c19ac84e7c1c8e49ef391c1f767.png)
 
-### 其他模块
+### 36.8.3. 其他模块
 
 - backbone
 
@@ -11280,7 +11280,7 @@ ensureDirSync()
 	- 例子图示：env-cmd自动读取.env.js中的export.modules中的导出的环境变量
 ![image](assets/9bdf5c1560c48b0c263bf81c478e7a19696e5e25b8c86f170e8b488f34b24e3a.png)
 
-### [Koa2](https://blog.poetries.top/node-learning-notes/notes/koa2/-1.0%20koa2%E6%A6%82%E8%A7%88%E7%AF%87.html#%E4%B8%80%E3%80%81%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95)
+### 36.8.4. [Koa2](https://blog.poetries.top/node-learning-notes/notes/koa2/-1.0%20koa2%E6%A6%82%E8%A7%88%E7%AF%87.html#%E4%B8%80%E3%80%81%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95)
 
 一种说法：Koa是从第一个中间件开始执行,遇到 await next() 就进入下一个中间件，一直到执行到最后一个中间件。然后再逆序执行上一个中间件 await next() 后面的代码，一直到第一个中间件 await next() 后面的代码执行完毕才发出响应。
 
@@ -11300,7 +11300,7 @@ ensureDirSync()
 最外层的中间件收回执行权之后，执行next函数后面的代码
 
 
-### npm/npx
+### 36.8.5. npm/npx
 
 npm的m是Management，npx的x可以理解为eXecute。
 
@@ -11308,17 +11308,17 @@ npm的m是Management，npx的x可以理解为eXecute。
 
 npx也可以理解为少些package.json里一个script而诞生的。
 
-### log工具
+### 36.8.6. log工具
 
 - [morgan](https://www.npmjs.com/package/morgan)
 
-### [redis](https://blog.csdn.net/hzlarm/article/details/99432240)
+### 36.8.7. [redis](https://blog.csdn.net/hzlarm/article/details/99432240)
 
 - [service redis-server restart](https://zhuanlan.zhihu.com/p/28101275)
 
 - redis-cli
 
-### nginx配置同域联调
+### 36.8.8. nginx配置同域联调
 
 - 安装：apt-get install nginx
 
@@ -11332,7 +11332,7 @@ npx也可以理解为少些package.json里一个script而诞生的。
 
 - 代理
 
-### 撸demo
+### 36.8.9. 撸demo
 
 - sina
 
@@ -11452,7 +11452,7 @@ auth_socket 导致 Access denied for user 'root'@'localhost'
 
 - 项目目录整理
 
-### nodejs 断点调试代码
+### 36.8.10. nodejs 断点调试代码
 
 - 1. node --inspect-brk="127.0.0.1:9222" bin/Incremental-patch.js
 
@@ -11464,25 +11464,25 @@ auth_socket 导致 Access denied for user 'root'@'localhost'
 - 4. 
 ![image](assets/174aed1879d7c464ed857d0f6e13abb63a699443f859e938118c2fd42dabe2a9.png)
 
-### multer
+### 36.8.11. multer
 
-### tmp
+### 36.8.12. tmp
 
-### po
+### 36.8.13. po
 
 - PO 是 Portable Object (可移植对象)的缩写形式。
 
 PO文件是面向翻译人员的、提取于源代码的一种资源文件。当软件升级的时候，通过使用gettext软件包处理 PO文件，可以在一定程度上使翻译成果得以继承，减轻翻译人员的负担。
 
-### md5
+### 36.8.14. md5
 
 - linux:md5sum
 
-### NODE_ENV不是内部或外部命令,也不是可运行的程序
+### 36.8.15. NODE_ENV不是内部或外部命令,也不是可运行的程序
 
 - [地址：](https://blog.csdn.net/koufulong/article/details/75270337)
 
-### other
+### 36.8.16. other
 
 - 自带模块
 
@@ -11913,58 +11913,58 @@ auth_socket 导致 Access denied for user 'root'@'localhost'
 	- 4. 
 ![image](assets/174aed1879d7c464ed857d0f6e13abb63a699443f859e938118c2fd42dabe2a9.png)
 
-### C语言简介
+### 36.8.17. C语言简介
 
-### libuv
+### 36.8.18. libuv
 
-### v8
+### 36.8.19. v8
 
-### 安装nvm
+### 36.8.20. 安装nvm
 
 -  
 ![image](assets/20739dcc9c8c9494f156b087aa1b26431ce8e6511097d753db3341b625d37e8b.png)
 
-### commonjs模块化标准
+### 36.8.21. commonjs模块化标准
 
 - demo目录
 ~/Github/commonjs-test
 
-### debugger-test
+### 36.8.22. debugger-test
 
 - vscode
 debugger模块还不会用
 
-### 考虑cpu和内存
+### 36.8.23. 考虑cpu和内存
 
 -  
 ![image](assets/8889eede5043c3872f02764f27f8a95c7ee174bdbc294bc4d6adc23a2668a1d6.png)
 
-### 日志记录
+### 36.8.24. 日志记录
 
 -  
 ![image](assets/96741067a526957d1246c77078e1d7ee373e3926ca0cb67296339521ffd6cbbc.png)
 
-### 接口设计
+### 36.8.25. 接口设计
 
 -  
 ![image](assets/5df7f83793d5522bd82424a86abd73a5e3a7e85723aa1e41f0745069132d028e.png)
 
-### 登录
+### 36.8.26. 登录
 
 -  
 ![image](assets/75cfe7d8c92490b98fbc81f10cd1edae4e8ef49c9f2367f5fd430de2fcc268f9.png)
 
-### http请求
+### 36.8.27. http请求
 
 -  
 ![image](assets/f65d0da9402cd30ab099b3f9aac7070376c74b155399e1bcae6295d7cda91623.png)
 
-### 请求解析
+### 36.8.28. 请求解析
 
 -  
 ![image](assets/0b285784769311301841425a250d208fe3e8d5b16ac2e19b826ae771a0cee5d5.png)
 
-### http服务器
+### 36.8.29. http服务器
 
 - get请求
 
@@ -11984,20 +11984,20 @@ debugger模块还不会用
 		-  
 ![image](assets/08946d39263494ae0e444f5e14c4afc79e2012adbb3ae840fbf46aeab3f255d4.png)
 
-### nodejs 处理路由
+### 36.8.30. nodejs 处理路由
 
 -  
 ![image](assets/f3cff2b27c6d0a6766ef7bd34ebc3c5d5b3bb1aab14e5c8436ffe7ad49fed17d.png)
 
-### [cross-env](https://blog.csdn.net/qq_39143170/article/details/105531560)
+### 36.8.31. [cross-env](https://blog.csdn.net/qq_39143170/article/details/105531560)
 
 - cross-env使得您可以使用单个命令，而不必担心为平台正确设置或使用环境变量。 只要在POSIX系统上运行就可以设置好，而cross-env将会正确地设置它。
 
 说人话: 这个迷你的包(cross-env)能够提供一个设置环境变量的scripts，让你能够以unix方式设置环境变量，然后在windows上也能兼容运行。
 
-## other side
+## 36.9. other side
 
-### 英语
+### 36.9.1. 英语
 
 - 编程命名
 
@@ -13588,9 +13588,9 @@ debugger模块还不会用
 		- Construction Method for Controlled Water Test to Preload Large Oil Tank Subgrade
 大型油罐地基充水预压工法简介
 
-### 数学
+### 36.9.2. 数学
 
-### 计算机学科
+### 36.9.3. 计算机学科
 
 - 计算机网络
 
@@ -13604,9 +13604,9 @@ debugger模块还不会用
 
 - 软件测试原理
 
-### 后端工具
+### 36.9.4. 后端工具
 
-### 测试
+### 36.9.5. 测试
 
 - firebug/firebug-lite
 
@@ -13618,7 +13618,7 @@ debugger模块还不会用
 
 - Fiddler/WireShark/tcpdump
 
-### 性能
+### 36.9.6. 性能
 
 - WebPageTest
 
@@ -13646,7 +13646,7 @@ debugger模块还不会用
 
 - 避免重定向
 
-### 安全
+### 36.9.7. 安全
 
 - 同源策略
 
@@ -13658,7 +13658,7 @@ debugger模块还不会用
 
 - SQL注入
 
-### 工作流程
+### 36.9.8. 工作流程
 
 - JSLint/CSSLint/YUICompressor
 
@@ -13670,7 +13670,7 @@ debugger模块还不会用
 
 - LAMP
 
-### 移动端
+### 36.9.9. 移动端
 
 - JqueryMobile/html5/css3
 
@@ -13678,7 +13678,7 @@ debugger模块还不会用
 
 - responsive UI Design
 
-### 博客
+### 36.9.10. 博客
 
 - [技术方案：docsify + vuep + gitalk](https://lhammer.cn/You-need-to-know-css/#/zh-cn/introduce?v=1)
 
@@ -13687,13 +13687,13 @@ debugger模块还不会用
   同类型：
   https://github.com/chokcoco/CSS-Inspiration
   
-### md文档教程
+### 36.9.11. md文档教程
 
-## bash
+## 36.10. bash
 
-### [Shell脚本中点号+文件名的作用](https://www.cnblogs.com/cjjjj/p/9817950.html)
+### 36.10.1. [Shell脚本中点号+文件名的作用](https://www.cnblogs.com/cjjjj/p/9817950.html)
 
-### shell脚本：需要解释器解释
+### 36.10.2. shell脚本：需要解释器解释
 
 - 1.系统命令的堆积
 
@@ -13701,7 +13701,7 @@ debugger模块还不会用
 
 - 3.xx.sh
 
-### shell脚本能做什么
+### 36.10.3. shell脚本能做什么
 
 - 基于标准化之上的 => 工具化
 作用：简化操作步骤，提高效率，减少认为敢于，减少系统故障
@@ -13732,7 +13732,7 @@ free -m
 
 - 9.Shell什么都能做，但要符合实际情况以及实际业务需求
 
-### Shell技能
+### 36.10.4. Shell技能
 
 - shell是什么
 
@@ -13900,7 +13900,7 @@ zh_CN.UTF-8
 
 - 案例、项目
 
-### 快捷键
+### 36.10.5. 快捷键
 
 - c-l清屏
 
@@ -13910,7 +13910,7 @@ zh_CN.UTF-8
 
 - c-k从光标删除到行尾
 
-### 基本语法
+### 36.10.6. 基本语法
 
 - 命令格式
 
@@ -14018,7 +14018,7 @@ world
 	- type -t bash
 命令类型
 
-### [Bash的模式扩展](https://wangdoc.com/bash/expansion.html)
+### 36.10.7. [Bash的模式扩展](https://wangdoc.com/bash/expansion.html)
 
 - 简介
 
@@ -14434,11 +14434,11 @@ world
 	  $ echo $((2 + 2))
 	  4
 	  
-### # 1. Hello Bash Script 
+### 36.10.8. # 1. Hello Bash Script 
 
 - # echo "hello bash linuxhint audience" > file.txt
 
-### # 2. Rediret to file
+### 36.10.9. # 2. Rediret to file
 
 - # wait for user input,until user press c-c to stop the process,go and check the file
 
@@ -14448,7 +14448,7 @@ world
 
 - # cat >> file.txt
 
-### # 3. comment 
+### 36.10.10. # 3. comment 
 
 -     # one line comment with hash
 
@@ -14472,7 +14472,7 @@ world
 
 -     kceativ'
 
-### # 4. conditional statements
+### 36.10.11. # 4. conditional statements
 
 - 1.if判断单分支
 
@@ -14713,7 +14713,7 @@ fi
 
 - # case
 
-### # 5. loops
+### 36.10.12. # 5. loops
 
 - 第一种：while
 
@@ -14729,7 +14729,7 @@ done'
 
 		- cat /etc/passwd
 cat /etc/passwd | grep "/bin/zsh"
-# 批量添加用户
+# 37. 批量添加用户
 i=1
 while [ $i -le 20 ]
 do
@@ -14738,7 +14738,7 @@ do
     i=$(($i+1))
 done
 
-# 批量删除的话 直接 userdel -r xiaoyu$i
+# 38. 批量删除的话 直接 userdel -r xiaoyu$i
 
 - 第二种： until
 
@@ -14882,10 +14882,10 @@ do
     echo $i
 done'
 
-### # 6. script input
+### 38.1.1. # 6. script input
 
 - # argument 0,1,2,3  $0 is script itself
-# echo $0 $1 $2 $3
+# 39. echo $0 $1 $2 $3
 
 	-  args=("$@")
 
@@ -14909,13 +14909,13 @@ done'
 
 	- done < "${1:-/dev/stdin}" '
 
-### # 7.output 
+### 39.1.1. # 7.output 
 
 - ls -la 1>file1.txt 2>file2.txt
 
 - ls +la > file1.txt 2>&1
 
-### # 2021-05-04 i can follow again
+### 39.1.2. # 2021-05-04 i can follow again
 
 - # 输出重定向
 
@@ -15369,12 +15369,12 @@ FILE1 and FILE2 have the same device and inode numbers
 
 	- echo -e "permission is: $permission \n"
 
-### [bash网址](https://wangdoc.com/bash/expansion.html)
+### 39.1.3. [bash网址](https://wangdoc.com/bash/expansion.html)
 
-## linux环境
+## 39.2. linux环境
 ![image](assets/1CE76CD8-2495-4788-AACB-911BDE16F47A.svg)
 
-### linux 基础概念
+### 39.2.1. linux 基础概念
 
 - [linux入门概念](https://mp.weixin.qq.com/s/-cYSuXpxZ_mmhQQayOIiiQ)
 
@@ -15680,7 +15680,7 @@ cat service.log | wc -l
 	  
 - [linux比较好的网站，](https://zhuanlan.zhihu.com/p/36801617)
 
-### linux上开发环境配置
+### 39.2.2. linux上开发环境配置
 
 - windows10 wsl
 
@@ -15822,7 +15822,7 @@ sudo apt-get install lazygit
 
 - [dotfiles  ](https://luolei.org/dotfiles-tutorial/)
 
-### [常用命令](https://blog.csdn.net/weixin_30340745/article/details/96306905)
+### 39.2.3. [常用命令](https://blog.csdn.net/weixin_30340745/article/details/96306905)
 
 进入文件 cd /home 进入 '/ home' 目录' cd .. 返回上一级目录 cd ../.. 返回上两级目录 查看文件夹中的文件 ls 查看目录中的文件 ll 查看目录中的文件 ls -l 显示文件和目录的详细资料 ls -a 显示隐藏文件 创建文件夹 mkdir dir1 创建一个叫做 'dir1' 的目录' mkdir dir1 dir2 同时创建两个目录 删除文件 rm -f file1 删除一个叫做 'file1' 的文件' rmdir dir1 删除一个叫做 'dir1' 的目录' rm -rf dir1 删除一个叫做 'dir1' 的目录并同时删除其内容 rm -rf dir1 dir2 同时删除两个目录及它们的内容 mv dir1 new_dir 重命名/移动 一个目录 cp file1 file2 复制一个文件 cp -a dir1 dir2 复制一个目录 cp -r dir1 dir2 复制一个目录及子目录 编辑一个文件 vim a.js 当编辑完退出时候 esc :w + enter 保存 :q + enter 退出vim模式 vim 编辑手册 vimtutor 
 
@@ -16136,22 +16136,22 @@ windows10-bash上能找到wsl中开启的8080dev-server服务，wsl命令行中�
 		- # netstat -a //显示详细的网络状况
 
 		- 显示当前户籍UDP连接状况
-# netstat -nu
+# 40. netstat -nu
 
 		- 显示UDP端口号的使用情况
-# netstat -apu
+# 41. netstat -apu
 
 		- 显示网卡列表 interfaces 
-# netstat -i
+# 42. netstat -i
 
 		- 显示组播组的关系
-# netstat -g
+# 43. netstat -g
 
 		- 显示网络统计信息
-# netstat -s
+# 44. netstat -s
 
 		- 显示监听的套接口
-# netstat -l
+# 45. netstat -l
 
 - netstat
 
@@ -16749,7 +16749,7 @@ m代表modify
 
 		- [地址](https://man.linuxde.net/)
 
-### [chrome plugin: vimium](https://www.zhihu.com/question/23483616?sort=created)
+### 45.1.1. [chrome plugin: vimium](https://www.zhihu.com/question/23483616?sort=created)
 
 作者：小佐
 链接：https://www.zhihu.com/question/23483616/answer/246787555
@@ -16846,7 +16846,7 @@ m代表modify
 本地文件中使用vimium
     打开chrome插件设置页面，勾选"允许访问文件网址"
 
-### 虚拟机
+### 45.1.2. 虚拟机
 
 -  
 ![image](assets/e7fee5fd46356b984b4ed89a02da8859a75fca930cf4666e1b0e346d845f2a09.png)
@@ -16854,7 +16854,7 @@ m代表modify
 -  
 ![image](assets/956e943a8656814ea63d49c02befa7bb9cd2976cb87b98ec0132580fa5bbb5d9.png)
 
-### 文件权限
+### 45.1.3. 文件权限
 
 - [地址](https://www.cnblogs.com/songgj/p/8890710.html)
 
@@ -16867,7 +16867,7 @@ m代表modify
 
 	- ：文件类型、权限、链接数、所属用户、所属用户组、文件大小、最后修改时间、文件名。
 
-### linux命令可以从两个地方读取要处理的内容
+### 45.1.4. linux命令可以从两个地方读取要处理的内容
 
 - 一个是通过命令行参数
 
@@ -16939,9 +16939,9 @@ m代表modify
 		- 3. ps -ef | grep 'ddd' | xargs kill  
 #OK，使用了xargs命令，铺垫了这么久终于铺到了主题上。xargs命令可以通过管道接受字符串，并将接收到的字符串通过空格分割成许多参数(默认情况下是通过空格分割) 然后将参数传递给其后面的命令，作为后面命令的命令行参数
 
-### [Linux和UNIX的关系及区别（详解版）](http://c.biancheng.net/view/707.html)
+### 45.1.5. [Linux和UNIX的关系及区别（详解版）](http://c.biancheng.net/view/707.html)
 
-### 命令行翻墙：用proxychains-ng为程序设置代理
+### 45.1.6. 命令行翻墙：用proxychains-ng为程序设置代理
 
 - [地址](https://www.jianshu.com/p/f7902bba9499)
 
@@ -16961,7 +16961,7 @@ m代表modify
 
 	- m1电脑尝试长按电源键进入恢复模式而不是cmd+r
 
-### tar
+### 45.1.7. tar
 ![image](assets/EC42BE1B-4426-47DA-AAD8-C8BE1F30926D.svg)
 
 - tar打包压缩指令
@@ -16976,7 +16976,7 @@ m代表modify
 
 	- [1. Linux中tar归档命令、zip压缩、gzip压缩、bzip2压缩](https://blog.csdn.net/m0_52165864/article/details/123998531)
 
-### 2>&1 &
+### 45.1.8. 2>&1 &
 ![image](assets/2E151106-C2A9-49AB-987D-ADBBED303E7F.svg)
 
 - [bash中 2>&1 & 的详细解释](https://blog.csdn.net/astonqa/article/details/8252791)
@@ -16985,12 +16985,12 @@ m代表modify
 - 参考链接：
 1.一起深入理解 Linux shell 中 2>&1 的含义叭~：https://baijiahao.baidu.com/s?id=1709055194390039623&wfr=spider&for=pc
 
-### sort
+### 45.1.9. sort
 
 - sort用法和实例
 ![image](assets/458150b541736521dab45158f3a38b12df6776313f34d3f5e2c677defed7c4fa.png)
 
-### uniq
+### 45.1.10. uniq
 
 - uniq用法和示例
 ![image](assets/4f6ac37efaeb318993e100aa421adc367b0a0ee77ea36749eb9ecce2ddb1c271.png)
@@ -16998,7 +16998,7 @@ m代表modify
 - 例子
 ![image](assets/ccf0967ac7371319575bf88b7b01b0df675caeeb7b150f024330d5bfcd4c621a.png)
 
-### tee
+### 45.1.11. tee
 
 - read from standard input and write tostandard output and files
 翻译：读取标准输入的数据，并将其内容输处成文件，
@@ -17015,7 +17015,7 @@ m代表modify
 
 - 参考链接：https://blog.51cto.com/linux2023/5011391
 
-### grep
+### 45.1.12. grep
 
 - g/re/p（globally search a regular expression and print)，使用正则表示式进行全局查找并打印
 
@@ -17030,7 +17030,7 @@ $ grep [-acinv] [--color=auto] 搜寻字符串 filename
 - 两个例子
 ![image](assets/6033f414673de8b5a7655394d7a73d9011384b8a51291f3b5dcdd43114098367.png)
 
-### printf
+### 45.1.13. printf
 
 - 例子
 ![image](assets/7b9deb8a36a6b2e97ebc21e0a000c0530a8d9295cf8d8cb1372009c94b3fe610.png)
@@ -17038,7 +17038,7 @@ $ grep [-acinv] [--color=auto] 搜寻字符串 filename
 - printf说明
 ![image](assets/4668520b8ff01065b3dbde146edbfc148c058e825045122e2d4e2a826fbf5ae3.png)
 
-### awk
+### 45.1.14. awk
 
 - 语法：
 awk 'BEGIN{ commands } /pattern/ {commands} END{ commands }'
@@ -17176,7 +17176,7 @@ ARGV命令行参数数组
 
 	- [1.Linux-awk用法](https://blog.csdn.net/weixin_43623871/article/details/118436010)
 
-### sed
+### 45.1.15. sed
 
 - Linux sed 命令是利用脚本来处理文本文件。
 
@@ -17305,13 +17305,13 @@ This is line number 0.
 
 		- [1.Linux sed命令完全攻略（超级详细）](http://c.biancheng.net/view/4028.html)
 
-### 虚拟机切换图形界面和命令行的快捷键
+### 45.1.16. 虚拟机切换图形界面和命令行的快捷键
 ![image](assets/a07400765174535bec0a4b2a713d9e4f8f0c53cc1eb2f9ec58b3595a4e9c3b83.svg)
 
 - 快捷键
 ![image](assets/77ed8b3c4b5e728ffae414604d2a171fd33fca09e8d0a276a8d28f24bcf894f9.png)
 
-### cut
+### 45.1.17. cut
 ![image](assets/EADB7270-629E-4288-8976-D9D8E3F7E364.svg)
 
 - last | cut -c 1-8
@@ -17321,31 +17321,31 @@ This is line number 0.
 - 参考链接：
 【Linux篇】cut命令详解：https://blog.csdn.net/weixin_45842494/article/details/124679008
 
-### ubuntu arm64版本 fd安装
+### 45.1.18. ubuntu arm64版本 fd安装
 
 - apt-get install cargo
 
 git clone https://github.com/sharkdp/fd
 
-# Build
+# 46. Build
 cd fd
 cargo build
 
-# Run unit tests and integration tests
+# 47. Run unit tests and integration tests
 cargo test
 
-# Install
+# 48. Install
 cargo install --path .
 
 vim ~/.zshrc 
 
-# add env
+# 49. add env
 PATH=/root/.cargo/bin:$PATH
 
 
 
 
-### 一、Linux发展史
+### 49.1.1. 一、Linux发展史
 
 - 1、linux前身-Unix
 
@@ -17432,7 +17432,7 @@ Community Enterprise Operating System
 社区企业操作系统，Linux发行版之一，它是来自于Red Hat Enterprise Linux
 为什么不直接用redhat，因为redhat收费
 
-### 二、Linux系统的安装
+### 49.1.2. 二、Linux系统的安装
 
 - 1、安装方式
 
@@ -17553,7 +17553,7 @@ NAT网络地址转换：本机能上网，虚拟机能上网。
 		- 选择中文
 ![image](assets/b8d58708d73cab603db84f02b5563f9540ed0b5baa21fe4ab0a2bf1445e17354.png)
 
-### 三、Linux系统的文件
+### 49.1.3. 三、Linux系统的文件
 
 - 1、文件与文件夹（目录）
 
@@ -17644,7 +17644,7 @@ NAT网络地址转换：本机能上网，虚拟机能上网。
 
 			- 当访问U盘和移动硬盘的，都是访问的mnt下的某个目录
 
-### Linux的基本指令
+### 49.1.4. Linux的基本指令
 
 - 一、指令与选项
 
@@ -18590,11 +18590,11 @@ ps -ef | grep httpd | grep -v 'grep'
 
 				- b.剪切/删除多行ndd
 
-## macos
+## 49.2. macos
 
-### Command+Shift+.  显示隐藏文件快捷方式
+### 49.2.1. Command+Shift+.  显示隐藏文件快捷方式
 
-### iterm2
+### 49.2.2. iterm2
 
 - 快捷方式
 
@@ -18628,18 +18628,18 @@ ps -ef | grep httpd | grep -v 'grep'
 
 	- ctrl+r：搜索命令历史
 
-### vscode
+### 49.2.3. vscode
 
 - 快捷方式
 
 	- cmd+k v：打开markdown预览
 
-### neovim
+### 49.2.4. neovim
 
 - pip install neovim
 pip3 install neovim
 
-### mac 软件
+### 49.2.5. mac 软件
 
 - mindnote思维导图
 
@@ -18653,7 +18653,7 @@ pip3 install neovim
 
 - downie4收集素材
 
-### 工具
+### 49.2.6. 工具
 
 - awk进行git提交分析
 
@@ -21366,15 +21366,15 @@ m，continue
   半页 | u (undo) | d (down)
   一行 | y (...) | 回车
   
-## webpack
+## 49.3. webpack
 
-### devServer.proxy
+### 49.3.1. devServer.proxy
 
 - [文章：http-proxy-middleware 源码解读](https://zhuanlan.zhihu.com/p/49259795?from_voters_page=true)
 
 - [Github官方地址](https://github.com/chimurai/http-proxy-middleware#options)
 
-### webpack中使用mockjs的例子
+### 49.3.2. webpack中使用mockjs的例子
 
 - 手写方式
 
@@ -21451,11 +21451,11 @@ http-proxy-middleware中间件进行转发
 	- mockjs，进行假数据
 ![image](assets/4e3fd7d22a9dcceed2ecc80362aac4f0f88949665182f0a7f91827cf4b73e476.png)
 
-### webpack中使用http-proxy-middleware，实现通过代理跑devServer的例子
+### 49.3.3. webpack中使用http-proxy-middleware，实现通过代理跑devServer的例子
 
-### 入门了解 & 核心概念
+### 49.3.4. 入门了解 & 核心概念
 
-### 配置
+### 49.3.5. 配置
 
 - devServer.proxy
 
@@ -21471,21 +21471,21 @@ http-proxy-middleware中间件进行转发
 
 		- [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware)
 
-### 实战方面
+### 49.3.6. 实战方面
 
-### 优化
+### 49.3.7. 优化
 
-### 原理
+### 49.3.8. 原理
 
-### [vue-cli脚手架默认配置文件位置](https://blog.csdn.net/zhengjihao/article/details/107074437)
+### 49.3.9. [vue-cli脚手架默认配置文件位置](https://blog.csdn.net/zhengjihao/article/details/107074437)
 
-### [webpack4.0-webpack与浏览器缓存问题-10](https://blog.csdn.net/memedadexixaofeifei/article/details/103892548)
+### 49.3.10. [webpack4.0-webpack与浏览器缓存问题-10](https://blog.csdn.net/memedadexixaofeifei/article/details/103892548)
 
-### [webpack学习历程 优化使用缓存(一)](https://blog.csdn.net/weixin_44021417/article/details/106765483?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2.no_search_link)
+### 49.3.11. [webpack学习历程 优化使用缓存(一)](https://blog.csdn.net/weixin_44021417/article/details/106765483?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2.no_search_link)
 
-## mockjs
+## 49.4. mockjs
 
-### vue+webpack(vue.config.js)
+### 49.4.1. vue+webpack(vue.config.js)
 
 - const Mock = require("mockjs")
 resp.json(Mock.mock(jsonData));
@@ -21515,13 +21515,13 @@ resp.json(Mock.mock(jsonData));
       });
   }
   
-### 直接引用
+### 49.4.2. 直接引用
 
 Getting Started
 nuysoft edited this page on 17 Feb 2016 · 14 revisions
 开始 & 安装
 Node (CommonJS)
-# 安装
+# 50. 安装
 npm install mockjs
 // 使用 Mock
 var Mock = require('mockjs')
@@ -21535,7 +21535,7 @@ var data = Mock.mock({
 // 输出结果
 console.log(JSON.stringify(data, null, 4))
 Bower
-# 安装
+# 51. 安装
 npm install -g bower
 bower install --save mockjs
 <script type="text/javascript" src="./bower_components/mockjs/dist/mock.js"></script>
@@ -21604,14 +21604,14 @@ seajs.use('mock', function(__PLACEHOLDER) {
 JSFiddle
 
 Random CLI
-# 全局安装
+# 52. 全局安装
 $ npm install mockjs -g
 
-# 执行
+# 53. 执行
 $ random url
-# => http://rmcpx.org/funzwc
+# 54. => http://rmcpx.org/funzwc
 
-# 帮助
+# 55. 帮助
 random -h
 
 
@@ -21647,7 +21647,7 @@ random -h
    console.log(data);
   
   
-### ngconsole实现方式总结
+### 55.1.1. ngconsole实现方式总结
 
 
 使用到两个插件
@@ -21742,7 +21742,7 @@ http-proxy-middleware
       }));
   }
   
-### edaas-front实现方式总结
+### 55.1.2. edaas-front实现方式总结
 
 - const Mock = require("mockjs")
 
@@ -21829,19 +21829,19 @@ http-proxy-middleware
   }
   
   
-## 微信小程序
+## 55.2. 微信小程序
 
-### 开发环境搭建
+### 55.2.1. 开发环境搭建
 
-### 文件组成 / 声明周期 / 全局变量 / 公共设置 / 导航栏处理
+### 55.2.2. 文件组成 / 声明周期 / 全局变量 / 公共设置 / 导航栏处理
 
-### 组件使用
+### 55.2.3. 组件使用
 
-### 小程序在android和iphone上的不同
+### 55.2.4. 小程序在android和iphone上的不同
 
-### 部署发布
+### 55.2.5. 部署发布
 
-### 微信小程序开发vs网页开发
+### 55.2.6. 微信小程序开发vs网页开发
 
 - 区别
 ![image](assets/c18b96e670a2f3257232d9e5101e91288d14e81801755471e5487e0f4f8ff8f6.png)
@@ -21858,9 +21858,9 @@ http-proxy-middleware
 - 尺寸单位
 ![image](assets/3175c207a00cf75492228ef5f3acf93833b060d32c3bb1d7ef543a27a379f66b.png)
 
-## docker
+## 55.3. docker
 
-### 基础知识
+### 55.3.1. 基础知识
 
 - YAML 入门教程
 
@@ -22002,9 +22002,9 @@ http-proxy-middleware
 	- docker介绍
 
 		- Docker 是服务器----客户端架构。命令行运行docker命令的时候，需要本机有 Docker 服务。如果这项服务没有启动，可以用下面的命令启动（官方文档）。
-# service 命令的用法
+# 56. service 命令的用法
 $ sudo service docker start
-# systemctl 命令的用法
+# 57. systemctl 命令的用法
 $ sudo systemctl start docker
 
 		- Docker 把应用程序及其依赖，打包在 image 文件里面。只有通过这个文件，才能生成 Docker 容器
@@ -22358,7 +22358,7 @@ sudo yum install docker-ce
 
 		- docker run -d --name nodeapp --network mynetwork node 
 
-### 命令
+### 57.1.1. 命令
 
 - 帮助命令
 
@@ -22777,7 +22777,7 @@ docker copy&nbsp;主机路径 容器id/名称:容器中路径&nbsp;
 		  
 		  docker cp [OPTIONS] SRC_PATH|- CONTAINER:DEST_PATH
 		  
-### Dockerfile介绍
+### 57.1.2. Dockerfile介绍
 
 - 是什么
 
@@ -22839,7 +22839,7 @@ docker copy&nbsp;主机路径 容器id/名称:容器中路径&nbsp;
 
 	- ONBUILD
 
-### docker compose
+### 57.1.3. docker compose
 
 - 【背景】
 
@@ -23049,7 +23049,7 @@ services:
 
 		- 这样 Web 服务就可以使用 db 或 database 作为 hostname 访问 db 服务了
 
-### docker参考文档：
+### 57.1.4. docker参考文档：
 
 - [1.使用Docker构建统一的前端开发环境](https://blog.csdn.net/M2l0ZgSsVc7r69eFdTj/article/details/80650053)
 
@@ -23063,9 +23063,9 @@ services:
 
 	- 一些基础概念讲解得比较清晰
 
-## git github
+## 57.2. git github
 
-### 命令集合
+### 57.2.1. 命令集合
 
 - [github打不开解决方式](https://blog.csdn.net/A_pointer2/article/details/113362994)
 
@@ -23164,13 +23164,13 @@ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE
 恢复.DS_store生成：恢复.DS_store生成：
 defaults delete com.apple.desktopservices DSDontWriteNetworkStores
 
-### [github 分析网站推荐](https://zhuanlan.zhihu.com/p/107503801)
+### 57.2.2. [github 分析网站推荐](https://zhuanlan.zhihu.com/p/107503801)
 
 - https://www.zhihu.com/search?type=content&q=onefetch
 
-### [SSHkey](https://segmentfault.com/a/1190000013759207)
+### 57.2.3. [SSHkey](https://segmentfault.com/a/1190000013759207)
 
-### 多个SSHKey配置生效的代码
+### 57.2.4. 多个SSHKey配置生效的代码
 
 Host github.com
 HostName github.com
@@ -23196,11 +23196,11 @@ PreferredAuthentications publickey
 IdentityFile ~/.ssh/gitee
 User zagger
 
-###  proxychains git push gitee master 
+### 57.2.5. proxychains git push gitee master 
 
 -  proxychains
 
-### git 基础
+### 57.2.6. git 基础
 
 - 工作副本
 
@@ -23325,19 +23325,19 @@ M  lib/simplegit.rb
 		- # 忽略所有的 .a 文件
 *.a
 
-# 但跟踪所有的 lib.a，即便你在前面忽略了 .a 文件
+# 58. 但跟踪所有的 lib.a，即便你在前面忽略了 .a 文件
 !lib.a
 
-# 只忽略当前目录下的 TODO 文件，而不忽略 subdir/TODO
+# 59. 只忽略当前目录下的 TODO 文件，而不忽略 subdir/TODO
 /TODO
 
-# 忽略任何目录下名为 build 的文件夹
+# 60. 忽略任何目录下名为 build 的文件夹
 build/
 
-# 忽略 doc/notes.txt，但不忽略 doc/server/arch.txt
+# 61. 忽略 doc/notes.txt，但不忽略 doc/server/arch.txt
 doc/*.txt
 
-# 忽略 doc/ 目录及其所有子目录下的 .pdf 文件
+# 62. 忽略 doc/ 目录及其所有子目录下的 .pdf 文件
 doc/**/*.pdf
 
 		- Tip：GitHub 有一个十分详细的针对数十种项目及语言的 .gitignore 文件列表， 你可以在 https://github.com/github/gitignore 找到它。
@@ -23461,7 +23461,7 @@ doc/**/*.pdf
 
 			- 不过有时候用其他工具批处理重命名的话，要记得在提交前删除旧的文件名，再添加新的文件名。
 
-### git操作
+### 62.1.1. git操作
 
 - 查看提交历史
 
@@ -23644,7 +23644,7 @@ $ git commit --amend
 
 	- 取消暂存的文件
 
-### git工具
+### 62.1.2. git工具
 
 - [git reset
 重置揭秘](https://git-scm.com/book/zh/v2/Git-%E5%B7%A5%E5%85%B7-%E9%87%8D%E7%BD%AE%E6%8F%AD%E5%AF%86#_git_reset)
@@ -23869,7 +23869,7 @@ $ git commit --amend
 			-  
 ![image](assets/2373048fbdd46bd67123865aa22424716b902cc1d4caa28e6e953a19a014835c.png)
 
-### git忽略本地修改不提交到远程仓库
+### 62.1.3. git忽略本地修改不提交到远程仓库
 
 - 忽略某文件提交到远程仓库
 git update-index --assume-unchanged [file-path]
@@ -23877,9 +23877,9 @@ git update-index --assume-unchanged [file-path]
 - 取消忽略某文件提交到远程仓库
 git update-index --no-assume-unchanged [file-path]
 
-## react
+## 62.2. react
 
-### jsx
+### 62.2.1. jsx
 
 - 在 JSX 语法中，你可以在大括号内放置任何有效的 JavaScript 表达式
 
@@ -24190,9 +24190,9 @@ setTimeout(function() {
 
 		- 状态提升
 
-## svg
+## 62.3. svg
 
-### stroke
+### 62.3.1. stroke
 
 - stroke-dasharray
 
@@ -24234,7 +24234,7 @@ setTimeout(function() {
 
 - [地址](https://www.cnblogs.com/daisygogogo/p/11044353.html)
 
-### 分组 - <g>
+### 62.3.2. 分组 - <g>
 
 - 定义
 
@@ -24262,7 +24262,7 @@ setTimeout(function() {
 
 	- [具体可以使用的动画形式和 CSS 动画一模一样，详情可以参考: SVG 动画。](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/transform)
 
-### svg形状
+### 62.3.3. svg形状
 
 - 矩形 <rect>
 
@@ -24691,7 +24691,7 @@ stroke:#000000;stroke-width:1"/>
 
 		- <path d="M10 10 H 90 V 90 H 10 Z" fill="transparent" stroke="black"/>
 
-### svg滤镜
+### 62.3.4. svg滤镜
 
 - SVG 滤镜用来向形状和文本添加特殊的效果。
 
@@ -24968,7 +24968,7 @@ style="fill:url(#grey_blue)"/>
                     </feMerge>
                 </filter>
 
-### svg clipPath（裁剪）
+### 62.3.5. svg clipPath（裁剪）
 
 - 【裁剪定义】
 
@@ -25018,7 +25018,7 @@ style="fill:url(#grey_blue)"/>
 
 	-  <clipPath>元素里面除了rect元素, 还可以是circle, ellipse, line, polyline, polygon, ...等等，甚至是text文本
 
-### svg mask（蒙版|遮罩）
+### 62.3.6. svg mask（蒙版|遮罩）
 
 - 【遮罩定义】
 
@@ -25109,7 +25109,7 @@ style="fill:url(#grey_blue)"/>
   <use xlink:href="#Text" fill="none" stroke="black" stroke-width="2" />
 </svg>
 
-### svg 动画
+### 62.3.7. svg 动画
 
 - 【概述】
 
@@ -25491,7 +25491,7 @@ style="fill:url(#grey_blue)"/>
 </script>
 
 
-### SVG 
+### 62.3.8. SVG 
 stroke-dasharray
 stroke-dashoffset
 
@@ -25528,13 +25528,13 @@ stroke-dashoffset: '25%'   // 200%是全部周长，(200-150)/2=25%
 
 	- [SVG学习之stroke-dasharray 和 stroke-dashoffset 详解-地址](https://www.cnblogs.com/daisygogogo/p/11044353.html)
 
-### 参考文档：
+### 62.3.9. 参考文档：
 
 - [面试官：你真的会用 SVG 吗? (SVG 应用实战)](https://juejin.cn/post/7103570138154139679)
 
-## vuex
+## 62.4. vuex
 
-### [一个简单的 store 模式 ](https://cn.vuejs.org/v2/guide/state-management.html#%E7%AE%80%E5%8D%95%E7%8A%B6%E6%80%81%E7%AE%A1%E7%90%86%E8%B5%B7%E6%AD%A5%E4%BD%BF%E7%94%A8)
+### 62.4.1. [一个简单的 store 模式 ](https://cn.vuejs.org/v2/guide/state-management.html#%E7%AE%80%E5%8D%95%E7%8A%B6%E6%80%81%E7%AE%A1%E7%90%86%E8%B5%B7%E6%AD%A5%E4%BD%BF%E7%94%A8)
 
 - 代码
 
@@ -25572,9 +25572,9 @@ stroke-dashoffset: '25%'   // 200%是全部周长，(200-150)/2=25%
   })
   ```
   
-### store：“store”基本上就是一个容器，它包含着你的应用中大部分的状态 (state)。
+### 62.4.2. store：“store”基本上就是一个容器，它包含着你的应用中大部分的状态 (state)。
 
-### 全局模式使用
+### 62.4.3. 全局模式使用
 
 - mutation:变更state的方法
 
@@ -25582,7 +25582,7 @@ stroke-dashoffset: '25%'   // 200%是全部周长，(200-150)/2=25%
 
 	- 读取state：store.state.count
 
-###  Vue 组件中访问 this.$store property
+### 62.4.4. Vue 组件中访问 this.$store property
 
 - 你需要为 Vue 实例提供创建好的 store
 
@@ -25599,7 +25599,7 @@ methods: {
   }
 }
 
-### 由于 store 中的状态是响应式的
+### 62.4.5. 由于 store 中的状态是响应式的
 
 - 在组件中
 
@@ -25607,7 +25607,7 @@ methods: {
 
 	- 触发变化也仅仅是在组件的 methods 中提交 mutation。
 
-### State
+### 62.4.6. State
 
 - 单一状态树
 
@@ -25693,7 +25693,7 @@ import { mapState } from 'vuex'
 
 	- 组件仍然保有局部状态
 
-### Getter
+### 62.4.7. Getter
 
 - Vuex 允许我们在 store 中定义“getter”（可以认为是 store 的计算属性）
 
@@ -25717,7 +25717,7 @@ store.getters.doneTodos // -> [{ id: 1, text: '...', done: true }]
 
 - mapGetters
 
-### Mutation
+### 62.4.8. Mutation
 
 - 更改 Vuex 的 store 中的状态的唯一方法是提交 mutation
 
@@ -25765,7 +25765,7 @@ store.commit({
 
 - mapMutations
 
-### Action
+### 62.4.9. Action
 
 - Action 类似于 mutation，不同在于：
 Action 提交的是 mutation，而不是直接变更状态。
@@ -25861,7 +25861,7 @@ export default {
   }
 }
 
-### Module
+### 62.4.10. Module
 
 - 由于使用单一状态树，应用的所有状态会集中到一个比较大的对象。当应用变得非常复杂时，store 对象就有可能变得相当臃肿。
 
@@ -25892,11 +25892,11 @@ store.state.b // -> moduleB 的状态
 
 - 模块内部的 action、mutation 和 getter 是注册在全局命名空间的？
 
-### [vuex地址](https://vuex.vuejs.org/zh/)
+### 62.4.11. [vuex地址](https://vuex.vuejs.org/zh/)
 
-## vue2
+## 62.5. vue2
 
-### [vuejs](https://blog.csdn.net/zemprogram/article/details/103404763)
+### 62.5.1. [vuejs](https://blog.csdn.net/zemprogram/article/details/103404763)
 
 - [双向数据绑定：讲得很优秀，有时间可以重点研究下](https://www.w3cplus.com/vue/vue-two-way-binding-object-defineproperty.html)
 
@@ -25908,11 +25908,11 @@ store.state.b // -> moduleB 的状态
 
 - [双向数据绑定：一般](https://developer.aliyun.com/ask/288775)
 
-### vuex
+### 62.5.2. vuex
 
-### iview ui 
+### 62.5.3. iview ui 
 
-### element ui
+### 62.5.4. element ui
 
 - [遇到一个小坑](https://blog.csdn.net/weixin_34234823/article/details/87974959)
 
@@ -26029,11 +26029,11 @@ store.state.b // -> moduleB 的状态
 
 - el-tree 中节点的元素的class都是tree-item
 
-### swiper
+### 62.5.5. swiper
 
-### [Vue Router](https://router.vuejs.org/zh/guide/advanced/navigation-guards.html#%E5%85%A8%E5%B1%80%E5%89%8D%E7%BD%AE%E5%AE%88%E5%8D%AB)
+### 62.5.6. [Vue Router](https://router.vuejs.org/zh/guide/advanced/navigation-guards.html#%E5%85%A8%E5%B1%80%E5%89%8D%E7%BD%AE%E5%AE%88%E5%8D%AB)
 
-### vue修改第三方库样式时不生效
+### 62.5.7. vue修改第三方库样式时不生效
 
 - [地址](https://arrow.blog.csdn.net/article/details/107062781)
 
@@ -26042,11 +26042,11 @@ store.state.b // -> moduleB 的状态
 	-  
 ![image](assets/1b2f6f31dc18d7a8571033dd963dd4ef3661fda96082fa9944c399ae3e3594bd.png)
 
-### 这15个Vue自定义指令，让你的项目开发爽到爆
+### 62.5.8. 这15个Vue自定义指令，让你的项目开发爽到爆
 
 - [地址](https://zhuanlan.zhihu.com/p/108308393)
 
-### vue自定义指令写法
+### 62.5.9. vue自定义指令写法
 
 - Vue.directive('formValidate', {
     bind: function (el, binding, vnode) {
@@ -26067,15 +26067,15 @@ store.state.b // -> moduleB 的状态
 
 	- 指令所在元素的model属性
 
-### （几乎）完美实现 el-table 列宽自适应
+### 62.5.10. （几乎）完美实现 el-table 列宽自适应
 
 - [地址](https://juejin.cn/post/6865844599613718536)
 
-### 插槽
+### 62.5.11. 插槽
 
 - [官方文档](https://cn.vuejs.org/v2/guide/components-slots.html)
 
-### 参考链接：
+### 62.5.12. 参考链接：
 
 - [1.vue-自定义指令拖动el-dialog](https://juejin.cn/post/7103696591176859661)
 
@@ -26087,9 +26087,9 @@ store.state.b // -> moduleB 的状态
 
 - [5.前端配置化真香～上班又多了60%的摸🐟时间](https://juejin.cn/post/7098211898990002207)
 
-## angularjs
+## 62.6. angularjs
 
-### 模块
+### 62.6.1. 模块
 
 angularjs 诞生于 2009 年，那时候前端还没有模块化的标准，angularjs 在API层面探索了模块的概念。一个模块由任意个服务组成
 
@@ -26274,7 +26274,7 @@ angularjs 诞生于 2009 年，那时候前端还没有模块化的标准，angu
 
 		- 执行顺序不同:config先执行，run后执行。另外，ng启动阶段是 config-->run-->compile/link
 
-### 依赖注入
+### 62.6.2. 依赖注入
 
 依赖注入，也可以理解为：注入依赖。
 这里的依赖指服务。
@@ -26284,7 +26284,7 @@ angularjs 诞生于 2009 年，那时候前端还没有模块化的标准，angu
 
 - 服务初始化后 provider except
 
-### 模板
+### 62.6.3. 模板
 
 - 表达式
 
@@ -26298,7 +26298,7 @@ angularjs 诞生于 2009 年，那时候前端还没有模块化的标准，angu
   
 - HTML
 
-### 控制器
+### 62.6.4. 控制器
 
 控制器的角色定位有点尴尬，它能做 Scope 做不到的事情，也能做 Scope 能做的事情。
 控制器，如同其名字一样，它做的事情是控制，也就是行为。作为一个函数，除了行为，它还能借机做一些其它的事情，这就看具体使用场景了。
@@ -26313,7 +26313,7 @@ angularjs 诞生于 2009 年，那时候前端还没有模块化的标准，angu
 
 - 服务消费者
 
-### Scope
+### 62.6.5. Scope
 
 Scope 是 angularjs 的核心，从 API 层面看，Scope 负责的主要是数据，但它也可以附带行为，这和控制器是有一定的功能重叠的。
 一个方法是挂在控制器上好一些，还是挂在 Scope 上好一些？没有标准答案，我想这也是控制器、Scope二者功能重叠的一方面原因吧。
@@ -26331,7 +26331,7 @@ Scope 持有父 Scope 的引用，也持有所有子 Scope 的引用，所以从
 
 - 隔离
 
-### 指令
+### 62.6.6. 指令
 
 指令系统的完善为 angularjs 提供了各种开箱即用的功能，如：双向绑定，表单校验，事件绑定，循环等等。
 
@@ -26343,13 +26343,13 @@ Scope 持有父 Scope 的引用，也持有所有子 Scope 的引用，所以从
 
 - 封装
 
-### 过滤器
+### 62.6.7. 过滤器
 
 - 数据转换
 
 - 数据筛选
 
-### 函数
+### 62.6.8. 函数
 
 - 对象拷贝：angular.copy(), angular.extend()
 
@@ -26359,7 +26359,7 @@ Scope 持有父 Scope 的引用，也持有所有子 Scope 的引用，所以从
 
 - 异步启动：angular.bootstrap()
 
-### 内置服务
+### 62.6.9. 内置服务
 
 - $http
 
@@ -26371,7 +26371,7 @@ Scope 持有父 Scope 的引用，也持有所有子 Scope 的引用，所以从
 
 - $compile/$interpolate/$parse
 
-### 内置指令
+### 62.6.10. 内置指令
 
 - 数据绑定：ng-model/ng-bind/ng-value
 
@@ -26389,21 +26389,21 @@ Scope 持有父 Scope 的引用，也持有所有子 Scope 的引用，所以从
 
 - ng-app
 
-### ngResources
+### 62.6.11. ngResources
 
-### ngRoute
+### 62.6.12. ngRoute
 
-### 5种方法创建服务
+### 62.6.13. 5种方法创建服务
 ![image](assets/91eb73afc1cf5f11e60d3a1e715a88c8e69597dd4201e1e1c0ab11c8bc3ab7a7.png)
 
-### angular.bootstrap()
+### 62.6.14. angular.bootstrap()
 
 - 手动初始化
 Angular中也提供了手动绑定的api——bootstrap，它的使用方式如下：
 
 angular.bootstrap(element, [modules], [config]);
 
-### angular.module("ng");
+### 62.6.15. angular.module("ng");
 
 - 一个参数
 
@@ -26422,7 +26422,7 @@ angular.bootstrap(element, [modules], [config]);
 
 	- angular.module('myApp.services', [])
 
-### 问题
+### 62.6.16. 问题
 
 - ng-if同ng-show和ng-hide指令最本质的区别
 
@@ -26500,7 +26500,7 @@ angular.bootstrap(element, [modules], [config]);
 
 			- [地址](https://stackoverflow.com/questions/19177732/what-is-the-difference-between-ng-if-and-ng-show-ng-hide angularjs - What is the difference between ng-if and ng-show/ng-hide - Stack Overflow)
 
-### angularjs中的$parse,$eval,$compile
+### 62.6.17. angularjs中的$parse,$eval,$compile
 
 - [地址](https://blog.csdn.net/qq_27870421/article/details/102627557)
 
@@ -26579,7 +26579,7 @@ expect(context.user.name).toEqual('newValue');//测试数据上下文的值是�
 	- $watch监听函数listener，第一个参数为listener function，第二个参数change handler
 ![image](assets/b92df866ec141e7b7b58a6331938f5bcde51073e1857f4881327412ea2dbc38a.png)
 
-### 文章：angularjs中ui插件ui-bootstrap中的modal模态弹出源码分析
+### 62.6.18. 文章：angularjs中ui插件ui-bootstrap中的modal模态弹出源码分析
 
 - [地址](https://www.jianshu.com/p/51d5c372e018)
 
@@ -26607,7 +26607,7 @@ expect(context.user.name).toEqual('newValue');//测试数据上下文的值是�
 		-  
 ![image](assets/f14644f1bcc2befb147db1f3ec402b38159a10fad8f6fb4fc3b6759dd7c40450.png)
 
-### angularjs $compile服务及$scope.$eval实现html动态模板解析
+### 62.6.19. angularjs $compile服务及$scope.$eval实现html动态模板解析
 
 - $eval
 
@@ -26632,7 +26632,7 @@ expect(context.user.name).toEqual('newValue');//测试数据上下文的值是�
 		- html
 ![image](assets/221c4aef0ec3d963f5ecff90e3d7448016ee30ebc7815cc25ab94a08e75d6e56.png)
 
-### 如何衡量一个人的 AngularJS 水平？
+### 62.6.20. 如何衡量一个人的 AngularJS 水平？
 
 - 基础
 
@@ -26888,7 +26888,7 @@ myCtrl.$inject = ['$scope', '$http'];
 
 	- 10.  如何看待angular 2……
 
-### AngularJS 的自定义指令
+### 62.6.21. AngularJS 的自定义指令
 
 - 1. 通用的功能，和业务无关的组件，比如某些只读的 input 输入框点击后选中所有内容，一般做法是绑定一个 ng-click="doFun()",然后在doFunc 中选中 input，封装一个directive后，就可以在input上使用属性 xxx-click-select，代码可读性增高，同时又耦合了；
 
@@ -26900,7 +26900,7 @@ myCtrl.$inject = ['$scope', '$http'];
 
 - 5. 其实如果想用可以随时使用自定义 directive，就比如 ng-include="'tasks.item.html'"， 就可以封装成一个 Element的 Directive，这样调用的时候就可以很优雅的使用 <tasks-item></tasks-item> ，这样使代码更可读更简洁，当然寻找代码变得费劲了，需要先找到 tasks-item Directive，才能找到对应的模板，只要代码结构组织好，封装directive的人经验丰富，对于调用者来说其实不需要关心细节。
 
-### angularjs 优化点：
+### 62.6.22. angularjs 优化点：
 ![image](assets/0b5817a69618459618d5ef0734a84d9d6da75284f0a6b66c8fca8daafd3d62ce.svg)
 
 - 1.之前写过的不好用的指令，进行优化
@@ -26909,7 +26909,7 @@ myCtrl.$inject = ['$scope', '$http'];
 
 - 3.表格方面，既有表格方式，又有瓦片方式，如何封装。
 
-### angularjs 其中一个项目例子
+### 62.6.23. angularjs 其中一个项目例子
 
 - [地址](https://github.com/yyhsong/iAngularJS)
 
@@ -26919,11 +26919,11 @@ myCtrl.$inject = ['$scope', '$http'];
 
 - [angularjs-imageupload-directive例子](https://github.com/Mischi/angularjs-imageupload-directive/blob/master/public/javascripts/imageupload.js)
 
-### angularjs中 factory，service，provoder区别
+### 62.6.24. angularjs中 factory，service，provoder区别
 
 - [地址1](https://segmentfault.com/a/1190000004602085)
 
-### angularjs中的一个异常行为，弹窗关闭时，可能概率性报错
+### 62.6.25. angularjs中的一个异常行为，弹窗关闭时，可能概率性报错
 
 - Dismiss angular modal on URL change - errors in console
 
@@ -26954,7 +26954,7 @@ myCtrl.$inject = ['$scope', '$http'];
 
 	- [代码地址](http://plnkr.co/edit/daf8dP?p=info&preview)
 
-### 目前来看，angularjs最大提升的办法就是看angularjs源码了
+### 62.6.26. 目前来看，angularjs最大提升的办法就是看angularjs源码了
 
 - [angularjs源码博客地址](https://blog.csdn.net/WuLex/article/details/79696425)
 
@@ -27034,11 +27034,11 @@ instanceInjector = {
 
 					- instanceInjector
 
-### 参考链接：
+### 62.6.27. 参考链接：
 
 - [1. 浅谈AngularJS的$parse服务](https://blog.csdn.net/inuyasha1121/article/details/79655286)
 
-### angularjs源码
+### 62.6.28. angularjs源码
 
 - $setViewValue
 
@@ -27453,7 +27453,7 @@ var injector = createInjector(modules);
 		- annotate方法
 全局定义
 
-### 双向数据绑定
+### 62.6.29. 双向数据绑定
 
 -  
 ![image](assets/bd913f5adaae9bde8ca93d67e7d685995502753b11545ba5f50131e41c1e9004.png)
@@ -27467,14 +27467,14 @@ var injector = createInjector(modules);
 -  
 ![image](assets/623b58977b438704e56c17f38782c404571c47b2201a3fe6a0f3dc2b55af6f75.png)
 
-### 依赖注入
+### 62.6.30. 依赖注入
 
 - 参数名称只能是依赖本身的名称
 ![image](assets/8d75b299af7f88852b0f84935a1ea4e2f9af6b36d594d6ceae065b0844610fe6.png)
 
 - 依赖注入实现原理
 
-### 自定义指令
+### 62.6.31. 自定义指令
 
 - 等号
 ![image](assets/09b23a3e47e7fdfd892d610ff452aa3cbf5f1728e2d5f1dd5a2e1db5cb6e939e.png)
@@ -27491,7 +27491,7 @@ var injector = createInjector(modules);
 - 总结
 ![image](assets/255489c9d64127c4255881768558c5502ae6947273714e5eaeeaeb2ddc3910d8.png)
 
-### 设计原则
+### 62.6.32. 设计原则
 
 - 7大设计原则
 ![image](assets/0e1dad7025efe7f0cf3e667a820ed90d1ddee64b63a8a19a09e6fa19cf358c02.png)
@@ -27502,9 +27502,9 @@ var injector = createInjector(modules);
 	- 高内聚低耦合
 ![image](assets/43cf5e337f0bc83ae62f2ff1d06a1ec41d76975cf0f5bf5279608f261194ec38.png)
 
-## call,apply,bind
+## 62.7. call,apply,bind
 
-### 【call】
+### 62.7.1. 【call】
 
 - 概念
 
@@ -27550,7 +27550,7 @@ bindFun();
 
 - [另一个掘金的文档，关于call方法的实现](https://juejin.cn/post/6978744007601946654)
 
-### 【bind】
+### 62.7.2. 【bind】
 
 - 【定义】
 
@@ -27572,7 +27572,7 @@ bindFun();
     var b = a.fn;
     b.bind(a,1,2)()           // 3
 
-### 【文章集合】
+### 62.7.3. 【文章集合】
 
 - [this、apply、call、bind](https://juejin.cn/post/6844903496253177863)
 
@@ -27615,9 +27615,9 @@ xx.bind(a)()调用了函数了
 
 - [JS中的bind()方法](https://blog.csdn.net/qlwangcong518/article/details/86261597)
 
-## http
+## 62.8. http
 
-### HTTP 请求方法:
+### 62.8.1. HTTP 请求方法:
 
 - 理解：
 
@@ -27639,7 +27639,7 @@ xx.bind(a)()调用了函数了
 
 - get / post / restful 规范
 
-### http请求的过程
+### 62.8.2. http请求的过程
 
 - HTTP是怎么在服务端走的
 
@@ -27652,15 +27652,15 @@ xx.bind(a)()调用了函数了
 
 	- 2. 注意：服务端一般都是在公司的内网，外网是无法访问的，发起 HTTP 请求，其实大多数情况下都是先通过 Nginx 进行反向代理，同时也是负责流量转发，将不同的请求转发给内网特定的服务器。
 
-### http协议 / OSI七层模型 / TCP-IP五层模型
+### 62.8.3. http协议 / OSI七层模型 / TCP-IP五层模型
 
 - TCP分析 / 三次握手 / 四次握手
 
-### DNS分析
+### 62.8.4. DNS分析
 
-### Header
+### 62.8.5. Header
 
-### http状态码的意义
+### 62.8.6. http状态码的意义
 
 - 状态码
 
@@ -27699,21 +27699,21 @@ xx.bind(a)()调用了函数了
 
 		- [文章地址](https://blog.csdn.net/weixin_33940102/article/details/92204682)
 
-### http头部信息
+### 62.8.7. http头部信息
 
-### cookie状态管理
+### 62.8.8. cookie状态管理
 
 - session / cookie / localStorage / sessionStorage
 
-### https
+### 62.8.9. https
 
-### 文章集合
+### 62.8.10. 文章集合
 
 - [为什么XMLHTTPRequest不能跨域请求资源](https://juejin.cn/post/6999854437930008590?utm_source=gold_browser_extension)
 
-### [文章：通过讲故事搞定前端网络知识](https://juejin.cn/post/6844903773588963342)
+### 62.8.11. [文章：通过讲故事搞定前端网络知识](https://juejin.cn/post/6844903773588963342)
 
-### 前置基础知识
+### 62.8.12. 前置基础知识
 
 - URI vs URL
 
@@ -27727,7 +27727,7 @@ xx.bind(a)()调用了函数了
 
 	- [文章：HTTP 协议中 URI 和 URL 有什么区别？](https://www.zhihu.com/question/21950864)
 
-### Socket
+### 62.8.13. Socket
 
 - 概念
 
@@ -27816,7 +27816,7 @@ xx.bind(a)()调用了函数了
 				- client输出
 ![image](assets/9a7376eab9041dc6cbd1eba669ced5744c0af7e03a72caa3c3e118c211c000b7.png)
 
-### WebSocket
+### 62.8.14. WebSocket
 
 - 概念
 
@@ -27940,7 +27940,7 @@ Connection: Upgrade
 
 	- [WebSocket 是什么原理？为什么可以实现持久连接？](https://www.zhihu.com/question/20215561)
 
-### C/S 和 B/S 架构
+### 62.8.15. C/S 和 B/S 架构
 
 - 对于前端工程师来说，还是要去了解一下 web 架构的发展演变的，提到发展演变，不得不说一下 C/S 和 B/S 架构。
 
@@ -27966,20 +27966,20 @@ Connection: Upgrade
 
 		- 安全性要求高，B/S 架构是建立在广域网上的，面向所有用户。通过 url 就可以访问服务器端资源，所以安全性要求要比 C/S 要高。
 
-## class
+## 62.9. class
 
-### class语法
+### 62.9.1. class语法
 ![image](assets/55b2a48d9cf46525ac7801ad3dc390924fe30dffaec7dbdf86b951e77301380a.png)
 
 - 语法糖
 ![image](assets/c2c921d4789e4475e8f01a68fd061ccd88bc47cceb7f0bdee30a39913f00b098.png)
 
-### 构造函数
+### 62.9.2. 构造函数
 ![image](assets/591442461232b1dbcfd0802aebada46af353ca308bf5f85a8c20454a4f464409.png)
 
-## es6语法
+## 62.10. es6语法
 
-### 解构赋值
+### 62.10.1. 解构赋值
 
 - 对象的解构
 
@@ -28072,7 +28072,7 @@ propertiesObject
 返回值
 一个新对象，带着指定的原型对象和属性。
 
-### 扩展运算符
+### 62.10.2. 扩展运算符
 
 - 数组的拼接
 
@@ -28236,23 +28236,23 @@ let aClone = Object.assign({}, a);
 // 等同于
 let ab = Object.assign({}, a, b);
 
-### [地址](https://www.cnblogs.com/code-duck/p/13413880.html)
+### 62.10.3. [地址](https://www.cnblogs.com/code-duck/p/13413880.html)
 
-## DOM
+## 62.11. DOM
 
-### 节点
+### 62.11.1. 节点
 
-### html属性和dom属性的不同
+### 62.11.2. html属性和dom属性的不同
 
-### Node.textContent，Element.innerText区别
+### 62.11.3. Node.textContent，Element.innerText区别
 
 - [地址](https://juejin.cn/post/6932762351108096007)
 
-### 访问
+### 62.11.4. 访问
 
-### 事件
+### 62.11.5. 事件
 
-### DOM API
+### 62.11.6. DOM API
 
 - 增、删、改、查、移动
 
@@ -28260,7 +28260,7 @@ let ab = Object.assign({}, a, b);
 
 - 样式操作
 
-### 参考文档：
+### 62.11.7. 参考文档：
 
 - [1.三张图讲清DOM的那点事儿](https://juejin.cn/post/7103692308582760484)
 
@@ -28293,9 +28293,9 @@ let ab = Object.assign({}, a, b);
 		-  
 ![image](assets/a2496b73b0e97a372945db321f9b44124e5a21fcffbaf1d9ec016c39c38b080e.png)
 
-## JavaScript
+## 62.12. JavaScript
 
-### 基础知识
+### 62.12.1. 基础知识
 
 - es6方法
 
@@ -28700,24 +28700,42 @@ getAjax("https://172.16.200.222/8081/thor/uaa/ad-server");
 
 	- 数据类型
 
-	  1. 分类(2大类)
-	    * 基本(值)类型
-	      * Number: 任意数值
-	      * String: 任意文本
-	      * Boolean: true/false
-	      * undefined: undefined
-	      * null: null
-	    * 对象(引用)类型
-	      * Object: 一般对象类型
-	      * Array: 特别的对象类型(下标/内部数据有序)
-	      * Function: 特别的对象类型(可执行)
-	  2. 判断
-	    * typeof:
-	      * 可以区别: 数值, 字符串, 布尔值, undefined, function
-	      * 不能区别: null与对象, 一般对象与数组
-	    * instanceof
-	      * 专门用来判断对象数据的类型: Object, Array与Function
-	    * ===
+	  1. 分类(2大类)
+
+	    * 基本(值)类型
+
+	      * Number: 任意数值
+
+	      * String: 任意文本
+
+	      * Boolean: true/false
+
+	      * undefined: undefined
+
+	      * null: null
+
+	    * 对象(引用)类型
+
+	      * Object: 一般对象类型
+
+	      * Array: 特别的对象类型(下标/内部数据有序)
+
+	      * Function: 特别的对象类型(可执行)
+
+	  2. 判断
+
+	    * typeof:
+
+	      * 可以区别: 数值, 字符串, 布尔值, undefined, function
+
+	      * 不能区别: null与对象, 一般对象与数组
+
+	    * instanceof
+
+	      * 专门用来判断对象数据的类型: Object, Array与Function
+
+	    * ===
+
 	      * 可以判断: undefined和null
 		- 1. 分类
 
@@ -28725,19 +28743,32 @@ getAjax("https://172.16.200.222/8081/thor/uaa/ad-server");
 
 		- 相关问题
 
-		  1. undefined与null的区别?
-		    * undefined代表变量没有赋值
-		    * null: 代表变量赋值了, 只是值为null
-		  2. 什么时候将变量赋值为null?
-		    * 初始化赋值: 将要作为引用变量使用, 但对象还没有确定
-		    * 结束时: 将变量指向的对象成为垃圾对象
-		  3. 理解变量类型与数据类型?
-		    * js的变量本身是没有类型的, 变量的类型实际上是变量内存中数据的类型
-		    * 变量类型:
-		      * 基本类型: 保存基本类型数据的变量
-		      * 引用类型: 保存对象地址值的变量
-		    * 数据对象
-		      * 基本类型
+		  1. undefined与null的区别?
+
+		    * undefined代表变量没有赋值
+
+		    * null: 代表变量赋值了, 只是值为null
+
+		  2. 什么时候将变量赋值为null?
+
+		    * 初始化赋值: 将要作为引用变量使用, 但对象还没有确定
+
+		    * 结束时: 将变量指向的对象成为垃圾对象
+
+		  3. 理解变量类型与数据类型?
+
+		    * js的变量本身是没有类型的, 变量的类型实际上是变量内存中数据的类型
+
+		    * 变量类型:
+
+		      * 基本类型: 保存基本类型数据的变量
+
+		      * 引用类型: 保存对象地址值的变量
+
+		    * 数据对象
+
+		      * 基本类型
+
 		      * 对象类型
 			- 1. undefined与null的区别?
 
@@ -28747,35 +28778,64 @@ getAjax("https://172.16.200.222/8081/thor/uaa/ad-server");
 
 	- 数据, 变量与内存
 
-	  1. 什么是数据?
-	    * 存储于内存中代表特定信息的'东东', 本质就是0101二进制
-	    * 具有可读和可传递的基本特性
-	    * 万物(一切)皆数据, 函数也是数据
-	    * 程序中所有操作的目标: 数据
-	      * 算术运算
-	      * 逻辑运算
-	      * 赋值
-	      * 调用函数传参
-	      ...
-	  2. 什么是内存?
-	    * 内存条通电后产生的存储空间(临时的)
-	    * 产生和死亡: 内存条(集成电路板)==>通电==>产生一定容量的存储空间==>存储各种数据==>断电==>内存全部消失
-	    * 内存的空间是临时的, 而硬盘的空间是持久的
-	    * 分配内存: 声明变量和函数或创建对象时, JS引擎会自动为此分配一定大小的内存来存放对应的数据
-	    * 释放内存: 清空内存中的数据, 标识内存可以再分配使用(内存不释放就不能复用)
-	      * 自动释放: 栈空间的局部变量
-	      * 垃圾回调器回调: 堆空间的垃圾对象
-	    * 一块内存包含2个数据
-	      * 内部存储的数据(一般数据/地址数据)
-	      * 内存地址值数据
-	    * 内存分类
-	      * 栈: 全局变量, 局部变量 (空间较小)
-	      * 堆: 对象 (空间较大)
-	  3. 什么是变量?
-	    * 值可以变化的量, 由变量名与变量值组成
-	    * 一个变量对应一块小内存, 变量名用来查找到内存, 变量值就是内存中保存的内容
-	  4. 内存,数据, 变量三者之间的关系
-	    * 内存是一个容器, 用来存储程序运行需要操作的数据
+	  1. 什么是数据?
+
+	    * 存储于内存中代表特定信息的'东东', 本质就是0101二进制
+
+	    * 具有可读和可传递的基本特性
+
+	    * 万物(一切)皆数据, 函数也是数据
+
+	    * 程序中所有操作的目标: 数据
+
+	      * 算术运算
+
+	      * 逻辑运算
+
+	      * 赋值
+
+	      * 调用函数传参
+
+	      ...
+
+	  2. 什么是内存?
+
+	    * 内存条通电后产生的存储空间(临时的)
+
+	    * 产生和死亡: 内存条(集成电路板)==>通电==>产生一定容量的存储空间==>存储各种数据==>断电==>内存全部消失
+
+	    * 内存的空间是临时的, 而硬盘的空间是持久的
+
+	    * 分配内存: 声明变量和函数或创建对象时, JS引擎会自动为此分配一定大小的内存来存放对应的数据
+
+	    * 释放内存: 清空内存中的数据, 标识内存可以再分配使用(内存不释放就不能复用)
+
+	      * 自动释放: 栈空间的局部变量
+
+	      * 垃圾回调器回调: 堆空间的垃圾对象
+
+	    * 一块内存包含2个数据
+
+	      * 内部存储的数据(一般数据/地址数据)
+
+	      * 内存地址值数据
+
+	    * 内存分类
+
+	      * 栈: 全局变量, 局部变量 (空间较小)
+
+	      * 堆: 对象 (空间较大)
+
+	  3. 什么是变量?
+
+	    * 值可以变化的量, 由变量名与变量值组成
+
+	    * 一个变量对应一块小内存, 变量名用来查找到内存, 变量值就是内存中保存的内容
+
+	  4. 内存,数据, 变量三者之间的关系
+
+	    * 内存是一个容器, 用来存储程序运行需要操作的数据
+
 	    * 变量是内存的标识, 我们通过变量找到对应的内存, 进而操作(读/写)内存中的数据
 		- 1. 什么是数据?
 
@@ -28790,26 +28850,46 @@ getAjax("https://172.16.200.222/8081/thor/uaa/ad-server");
 
 		- 相关问题
 
-		  1. 问题1: var a = xxx, a内存中到底保存的是什么?
-		    * xxx是一个基本数据
-		    * xxx是一个对象
-		    * xxx是一个变量
-		  
-		  2. 关于引用变量赋值问题
-		    * 2个引用变量指向同一个对象, 通过一个引用变量修改对象内部数据, 另一个引用变量也看得见
-		    * 2个引用变量指向同一个对象,让一个引用变量指向另一个对象, 另一个引用变量还是指向原来的对象
-		  
-		  3. 问题: 在js调用函数时传递变量参数时, 是值传递还是引用传递?
-		    * 只有值传递, 没有引用传递, 传递的都是变量的值, 只是这个值可能是基本数据, 也可能是地址(引用)数据
-		    *  如果后一种看成是引用传递, 那就值传递和引用传递都可以有
-		  
-		  4. 问题: JS引擎如何管理内存?
-		    1. 内存生命周期
-		      1). 分配需要的内存
-		      2). 使用分配到的内存
-		      3). 不需要时将其释放/归还
-		    2. 释放内存
-		      * 为执行函数分配的栈空间内存: 函数执行完自动释放
+		  1. 问题1: var a = xxx, a内存中到底保存的是什么?
+
+		    * xxx是一个基本数据
+
+		    * xxx是一个对象
+
+		    * xxx是一个变量
+
+		  
+
+		  2. 关于引用变量赋值问题
+
+		    * 2个引用变量指向同一个对象, 通过一个引用变量修改对象内部数据, 另一个引用变量也看得见
+
+		    * 2个引用变量指向同一个对象,让一个引用变量指向另一个对象, 另一个引用变量还是指向原来的对象
+
+		  
+
+		  3. 问题: 在js调用函数时传递变量参数时, 是值传递还是引用传递?
+
+		    * 只有值传递, 没有引用传递, 传递的都是变量的值, 只是这个值可能是基本数据, 也可能是地址(引用)数据
+
+		    *  如果后一种看成是引用传递, 那就值传递和引用传递都可以有
+
+		  
+
+		  4. 问题: JS引擎如何管理内存?
+
+		    1. 内存生命周期
+
+		      1). 分配需要的内存
+
+		      2). 使用分配到的内存
+
+		      3). 不需要时将其释放/归还
+
+		    2. 释放内存
+
+		      * 为执行函数分配的栈空间内存: 函数执行完自动释放
+
 		      * 存储对象的堆空间内存: 当内存没有引用指向时, 对象成为垃圾对象, 垃圾回收器后面就会回收释放此内存
 			- 关于赋值与内存的问题?
 
@@ -28821,23 +28901,40 @@ getAjax("https://172.16.200.222/8081/thor/uaa/ad-server");
 
 	- 对象
 
-	  1. 什么是对象?
-	    * 代表现实中的某个事物, 是该事物在编程中的抽象
-	    * 多个数据的集合体(封装体)
-	    * 用于保存多个数据的容器
-	  2. 为什么要用对象?
-	    * 便于对多个数据进行统一管理
-	  3. 对象的组成
-	    * 属性
-	      * 代表现实事物的状态数据
-	      * 由属性名和属性值组成
-	      * 属性名都是字符串类型, 属性值是任意类型
-	    * 方法
-	      * 代表现实事物的行为数据
-	      * 是特别的属性==>属性值是函数
-	  4. 如何访问对象内部数据?
-	    * .属性名: 编码简单, 但有时不能用
-	    * ['属性名']: 编码麻烦, 但通用
+	  1. 什么是对象?
+
+	    * 代表现实中的某个事物, 是该事物在编程中的抽象
+
+	    * 多个数据的集合体(封装体)
+
+	    * 用于保存多个数据的容器
+
+	  2. 为什么要用对象?
+
+	    * 便于对多个数据进行统一管理
+
+	  3. 对象的组成
+
+	    * 属性
+
+	      * 代表现实事物的状态数据
+
+	      * 由属性名和属性值组成
+
+	      * 属性名都是字符串类型, 属性值是任意类型
+
+	    * 方法
+
+	      * 代表现实事物的行为数据
+
+	      * 是特别的属性==>属性值是函数
+
+	  4. 如何访问对象内部数据?
+
+	    * .属性名: 编码简单, 但有时不能用
+
+	    * ['属性名']: 编码麻烦, 但通用
+
 	  
 		- 1. 什么是对象?
 
@@ -28849,27 +28946,43 @@ getAjax("https://172.16.200.222/8081/thor/uaa/ad-server");
 
 		- 相关问题
 
-		  什么时候必须使用['属性名']的方式访问对象内部数据?
-		    * 属性名不是合法的标识名
+		  什么时候必须使用['属性名']的方式访问对象内部数据?
+
+		    * 属性名不是合法的标识名
+
 		    * 属性名不确定
 			- 什么时候必须使用['属性名']的方式?
 
 	- 函数
 
-	  1. 什么是函数?
-	    * 具有特定功能的n条语句的封装体
-	    * 只有函数是可执行的, 其它类型的数据是不可执行的
-	    * 函数也是对象
-	  2. 为什么要用函数?
-	    * 提高代码复用
-	    * 便于阅读和交流
-	  3. 如何定义函数?
-	    * 函数声明
-	    * 表达式
-	  4. 调用(执行)函数
-	    * test()
-	    * new test()
-	    * obj.test()
+	  1. 什么是函数?
+
+	    * 具有特定功能的n条语句的封装体
+
+	    * 只有函数是可执行的, 其它类型的数据是不可执行的
+
+	    * 函数也是对象
+
+	  2. 为什么要用函数?
+
+	    * 提高代码复用
+
+	    * 便于阅读和交流
+
+	  3. 如何定义函数?
+
+	    * 函数声明
+
+	    * 表达式
+
+	  4. 调用(执行)函数
+
+	    * test()
+
+	    * new test()
+
+	    * obj.test()
+
 	    * test.call/apply(obj)
 		- 1. 什么是函数?
 
@@ -28881,15 +28994,24 @@ getAjax("https://172.16.200.222/8081/thor/uaa/ad-server");
 
 		- 5. 回调函数
 
-		  1. 什么函数才是回调函数?
-		    * 你定义的
-		    * 你没有直接调用
-		    * 但最终它执行了(在特定条件或时刻)
-		  2. 常见的回调函数?
-		    * DOM事件函数
-		    * 定时器函数
-		  
-		    * ajax回调函数(后面学)
+		  1. 什么函数才是回调函数?
+
+		    * 你定义的
+
+		    * 你没有直接调用
+
+		    * 但最终它执行了(在特定条件或时刻)
+
+		  2. 常见的回调函数?
+
+		    * DOM事件函数
+
+		    * 定时器函数
+
+		  
+
+		    * ajax回调函数(后面学)
+
 		    * 生命周期回调函数(后面学)
 			- 1. 什么函数才是回调函数?
 
@@ -28897,11 +29019,16 @@ getAjax("https://172.16.200.222/8081/thor/uaa/ad-server");
 
 		- 6. IIEF
 
-		  1. 理解
-		    * 全称: Immediately-Invoked Function Expression 立即调用函数表达式
-		    * 别名: 匿名函数自调用
-		  2. 作用
-		    * 隐藏内部实现
+		  1. 理解
+
+		    * 全称: Immediately-Invoked Function Expression 立即调用函数表达式
+
+		    * 别名: 匿名函数自调用
+
+		  2. 作用
+
+		    * 隐藏内部实现
+
 		    * 不污染外部命名空间
 			- 1. 理解
 
@@ -28909,38 +29036,70 @@ getAjax("https://172.16.200.222/8081/thor/uaa/ad-server");
 
 		- 7. 函数中的this
 
-		  function Person(color) {
-		    // console.log(this)
-		    this.color = color;
-		    this.getColor = function () {
-		      // console.log(this)
-		      return this.color;
-		    };
-		    this.setColor = function (color) {
-		     // console.log(this)
-		      this.color = color;
-		    };
-		  }
-		  
-		  Person("red"); //this是谁?
-		  
-		  var p = new Person("yello"); //this是谁?
-		  
-		  p.getColor(); //this是谁?
-		  
-		  var obj = {};
-		  p.setColor.call(obj, "black"); //this是谁?
-		  
-		  var test = p.setColor;
-		  test(); //this是谁?
-		  
-		  function fun1() {
-		    function fun2() {
-		      console.log(this);
-		    }
-		  
-		    fun2(); //this是谁?
-		  }
+		  function Person(color) {
+
+		    // console.log(this)
+
+		    this.color = color;
+
+		    this.getColor = function () {
+
+		      // console.log(this)
+
+		      return this.color;
+
+		    };
+
+		    this.setColor = function (color) {
+
+		     // console.log(this)
+
+		      this.color = color;
+
+		    };
+
+		  }
+
+		  
+
+		  Person("red"); //this是谁?
+
+		  
+
+		  var p = new Person("yello"); //this是谁?
+
+		  
+
+		  p.getColor(); //this是谁?
+
+		  
+
+		  var obj = {};
+
+		  p.setColor.call(obj, "black"); //this是谁?
+
+		  
+
+		  var test = p.setColor;
+
+		  test(); //this是谁?
+
+		  
+
+		  function fun1() {
+
+		    function fun2() {
+
+		      console.log(this);
+
+		    }
+
+		  
+
+		    fun2(); //this是谁?
+
+		  }
+
 		  fun1();
 - 函数高级
 
@@ -28948,10 +29107,14 @@ getAjax("https://172.16.200.222/8081/thor/uaa/ad-server");
 
 		- 原型(prototype)
 
-		  1. 函数的prototype属性(图)
-		    * 每个函数都有一个prototype属性, 它默认指向一个Object空对象(即称为: 原型对象)
-		    * 原型对象中有一个属性constructor, 它指向函数对象
-		  2. 给原型对象添加属性(一般都是方法)
+		  1. 函数的prototype属性(图)
+
+		    * 每个函数都有一个prototype属性, 它默认指向一个Object空对象(即称为: 原型对象)
+
+		    * 原型对象中有一个属性constructor, 它指向函数对象
+
+		  2. 给原型对象添加属性(一般都是方法)
+
 		    * 作用: 函数的所有实例对象自动拥有原型中的属性(方法)
 			- 1. 函数的protype属性
 
@@ -28962,13 +29125,20 @@ getAjax("https://172.16.200.222/8081/thor/uaa/ad-server");
 
 		- 显式原型与隐式原型
 
-		  1. 每个函数function都有一个prototype，即显式原型
-		  2. 每个实例对象都有一个__proto__，可称为隐式原型
-		  3. 对象的隐式原型的值为其对应构造函数的显式原型的值
-		  4. 内存结构(图)
-		  5. 总结:
-		    * 函数的prototype属性: 在定义函数时自动添加的, 默认值是一个空Object对象
-		    * 对象的__proto__属性: 创建对象时自动添加的, 默认值为构造函数的prototype属性值
+		  1. 每个函数function都有一个prototype，即显式原型
+
+		  2. 每个实例对象都有一个__proto__，可称为隐式原型
+
+		  3. 对象的隐式原型的值为其对应构造函数的显式原型的值
+
+		  4. 内存结构(图)
+
+		  5. 总结:
+
+		    * 函数的prototype属性: 在定义函数时自动添加的, 默认值是一个空Object对象
+
+		    * 对象的__proto__属性: 创建对象时自动添加的, 默认值为构造函数的prototype属性值
+
 		    * 程序员能直接操作显式原型, 但不能直接操作隐式原型(ES6之前)
 			-  
 ![image](assets/e8b5c53e5a47b54a9f06bdbb01492bc5d3561d1dc9747f5e77b2d446362848bc.png)
@@ -28977,14 +29147,22 @@ getAjax("https://172.16.200.222/8081/thor/uaa/ad-server");
 
 			- 1. 原型链
 
-			  1. 原型链(图解)
-			    * 访问一个对象的属性时，
-			      * 先在自身属性中查找，找到返回
-			      * 如果没有, 再沿着__proto__这条链向上查找, 找到返回
-			      * 如果最终没找到, 返回undefined
-			    * 别名: 隐式原型链
-			    * 作用: 查找对象的属性(方法)
-			  2. 构造函数/原型/实体对象的关系(图解)
+			  1. 原型链(图解)
+
+			    * 访问一个对象的属性时，
+
+			      * 先在自身属性中查找，找到返回
+
+			      * 如果没有, 再沿着__proto__这条链向上查找, 找到返回
+
+			      * 如果最终没找到, 返回undefined
+
+			    * 别名: 隐式原型链
+
+			    * 作用: 查找对象的属性(方法)
+
+			  2. 构造函数/原型/实体对象的关系(图解)
+
 			  3. 构造函数/原型/实体对象的关系2(图解)
 				-  
 ![image](assets/0d6b9ab170f7b1637de55e6a572d3eaea2fe68ba4b3ed4a4b0ade26aa9d8c538.png)
@@ -29012,14 +29190,19 @@ var o2 = {};
 
 			- 5. 原型属性问题
 
-			  1. 读取对象的属性值时: 会自动到原型链中查找
-			  2. 设置对象的属性值时: 不会查找原型链, 如果当前对象中没有此属性, 直接添加此属性并设置其值
+			  1. 读取对象的属性值时: 会自动到原型链中查找
+
+			  2. 设置对象的属性值时: 不会查找原型链, 如果当前对象中没有此属性, 直接添加此属性并设置其值
+
 			  3. 方法一般定义在原型中, 属性一般通过构造函数定义在对象本身上
 		- 探索instanceof
 
-		  1. instanceof是如何判断的?
-		    * 表达式: A instanceof B
-		    * 如果B函数的显式原型对象在A对象的原型链上, 返回true, 否则返回false
+		  1. instanceof是如何判断的?
+
+		    * 表达式: A instanceof B
+
+		    * 如果B函数的显式原型对象在A对象的原型链上, 返回true, 否则返回false
+
 		  2. Function是通过new自己产生的实例
 			- 案例1
 
@@ -29046,71 +29229,128 @@ console.log(Object instanceof  Foo);
 
 		- 面试题
 
-		  /*
-		    测试题1
-		     */
-		    var A = function() {
-		  
-		    }
-		    A.prototype.n = 1
-		  
-		    var b = new A()
-		  
-		    A.prototype = {
-		      n: 2,
-		      m: 3
-		    }
-		  
-		    var c = new A()
-		    console.log(b.n, b.m, c.n, c.m)
-		  
-		  
-		    /*
-		     测试题2
-		     */
-		    var F = function(){};
-		    Object.prototype.a = function(){
-		      console.log('a()')
-		    };
-		    Function.prototype.b = function(){
-		      console.log('b()')
-		    };
-		    var f = new F();
-		    f.a()
-		    f.b()
-		    F.a()
+		  /*
+
+		    测试题1
+
+		     */
+
+		    var A = function() {
+
+		  
+
+		    }
+
+		    A.prototype.n = 1
+
+		  
+
+		    var b = new A()
+
+		  
+
+		    A.prototype = {
+
+		      n: 2,
+
+		      m: 3
+
+		    }
+
+		  
+
+		    var c = new A()
+
+		    console.log(b.n, b.m, c.n, c.m)
+
+		  
+
+		  
+
+		    /*
+
+		     测试题2
+
+		     */
+
+		    var F = function(){};
+
+		    Object.prototype.a = function(){
+
+		      console.log('a()')
+
+		    };
+
+		    Function.prototype.b = function(){
+
+		      console.log('b()')
+
+		    };
+
+		    var f = new F();
+
+		    f.a()
+
+		    f.b()
+
+		    F.a()
+
 		    F.b()
 	- 执行上下文与执行上下文栈
 
 		- 变量提升与函数提升
 
-		  1. 变量声明提升
-		    * 通过var定义(声明)的变量, 在定义语句之前就可以访问到
-		    * 值: undefined
-		  2. 函数声明提升
-		    * 通过function声明的函数, 在之前就可以直接调用
-		    * 值: 函数定义(对象)
+		  1. 变量声明提升
+
+		    * 通过var定义(声明)的变量, 在定义语句之前就可以访问到
+
+		    * 值: undefined
+
+		  2. 函数声明提升
+
+		    * 通过function声明的函数, 在之前就可以直接调用
+
+		    * 值: 函数定义(对象)
+
 		  3. 问题: 变量提升和函数提升是如何产生的?
 		- 执行上下文
 
-		  1. 代码分类(位置)
-		    * 全局代码
-		    * 函数代码
-		  2. 全局执行上下文
-		    * 在执行全局代码前将window确定为全局执行上下文
-		    * 对全局数据进行预处理
-		      * var定义的全局变量==>undefined, 添加为window的属性
-		      * function声明的全局函数==>赋值(fun), 添加为window的方法
-		      * this==>赋值(window)
-		    * 开始执行全局代码
-		  3. 函数执行上下文
-		    * 在调用函数, 准备执行函数体之前, 创建对应的函数执行上下文对象
-		    * 对局部数据进行预处理
-		      * 形参变量==>赋值(实参)==>添加为执行上下文的属性
-		      * arguments==>赋值(实参列表), 添加为执行上下文的属性
-		      * var定义的局部变量==>undefined, 添加为执行上下文的属性
-		      * function声明的函数 ==>赋值(fun), 添加为执行上下文的方法
-		      * this==>赋值(调用函数的对象)
+		  1. 代码分类(位置)
+
+		    * 全局代码
+
+		    * 函数代码
+
+		  2. 全局执行上下文
+
+		    * 在执行全局代码前将window确定为全局执行上下文
+
+		    * 对全局数据进行预处理
+
+		      * var定义的全局变量==>undefined, 添加为window的属性
+
+		      * function声明的全局函数==>赋值(fun), 添加为window的方法
+
+		      * this==>赋值(window)
+
+		    * 开始执行全局代码
+
+		  3. 函数执行上下文
+
+		    * 在调用函数, 准备执行函数体之前, 创建对应的函数执行上下文对象
+
+		    * 对局部数据进行预处理
+
+		      * 形参变量==>赋值(实参)==>添加为执行上下文的属性
+
+		      * arguments==>赋值(实参列表), 添加为执行上下文的属性
+
+		      * var定义的局部变量==>undefined, 添加为执行上下文的属性
+
+		      * function声明的函数 ==>赋值(fun), 添加为执行上下文的方法
+
+		      * this==>赋值(调用函数的对象)
+
 		    * 开始执行函数体代码
 			- 1. 代码分类(位置)
 
@@ -29122,22 +29362,35 @@ console.log(Object instanceof  Foo);
 
 			- 理解
 
-			  1. 在全局代码执行前, JS引擎就会创建一个栈来存储管理所有的执行上下文对象
-			  2. 在全局执行上下文(window)确定后, 将其添加到栈中(压栈)
-			  3. 在函数执行上下文创建后, 将其添加到栈中(压栈)
-			  4. 在当前函数执行完后,将栈顶的对象移除(出栈)
+			  1. 在全局代码执行前, JS引擎就会创建一个栈来存储管理所有的执行上下文对象
+
+			  2. 在全局执行上下文(window)确定后, 将其添加到栈中(压栈)
+
+			  3. 在函数执行上下文创建后, 将其添加到栈中(压栈)
+
+			  4. 在当前函数执行完后,将栈顶的对象移除(出栈)
+
 			  5. 当所有的代码执行完后, 栈中只剩下window
 			- 流程分析
 
-			   var a = 10
-			    var bar = function (x) {
-			      var b = 5
-			      foo(x + b)              
-			    }
-			    var foo = function (y) {
-			      var c = 5
-			      console.log(a + c + y)
-			    }
+			   var a = 10
+
+			    var bar = function (x) {
+
+			      var b = 5
+
+			      foo(x + b)              
+
+			    }
+
+			    var foo = function (y) {
+
+			      var c = 5
+
+			      console.log(a + c + y)
+
+			    }
+
 			    bar(10)                   
 				-  
 ![image](assets/ef498657d7f84e2ac6360105f1859d6fde755b09a977c678bd171cfe47124b9d.png)
@@ -29150,245 +29403,424 @@ console.log(Object instanceof  Foo);
 
 		- 面试题
 
-		   /*
-		    测试题1: 
-		    */
-		    function a() {}
-		    var a;
-		    console.log(typeof a)
-		  
-		  
-		    /*
-		    测试题2: 
-		     */
-		    if (!(b in window)) {
-		      var b = 1;
-		    }
-		    console.log(b)
-		  
-		    /*
-		    测试题3: 
-		     */
-		    var c = 1
-		    function c(c) {
-		      console.log(c)
-		      var c = 3
-		    }
+		   /*
+
+		    测试题1: 
+
+		    */
+
+		    function a() {}
+
+		    var a;
+
+		    console.log(typeof a)
+
+		  
+
+		  
+
+		    /*
+
+		    测试题2: 
+
+		     */
+
+		    if (!(b in window)) {
+
+		      var b = 1;
+
+		    }
+
+		    console.log(b)
+
+		  
+
+		    /*
+
+		    测试题3: 
+
+		     */
+
+		    var c = 1
+
+		    function c(c) {
+
+		      console.log(c)
+
+		      var c = 3
+
+		    }
+
 		    c(2)
 	- 作用域与作用域链
 
 		- 作用域
 
-		  1. 理解
-		    * 就是一块"地盘", 一个代码段所在的区域
-		    * 它是静态的(相对于上下文对象), 在编写代码时就确定了
-		  2. 分类
-		    * 全局作用域
-		    * 函数作用域
-		    * 没有块作用域(ES6有了)
-		  3. 作用
+		  1. 理解
+
+		    * 就是一块"地盘", 一个代码段所在的区域
+
+		    * 它是静态的(相对于上下文对象), 在编写代码时就确定了
+
+		  2. 分类
+
+		    * 全局作用域
+
+		    * 函数作用域
+
+		    * 没有块作用域(ES6有了)
+
+		  3. 作用
+
 		    * 隔离变量，不同作用域下同名变量不会有冲突
 			-  
 ![image](assets/a69eab7eea49fe0056cac0686f9fe688e3abf11325898ccf4f82cb9cbf39a71b.png)
 
 		- 作用域与执行上下文
 
-		  1. 区别1
-		    * 全局作用域之外，每个函数都会创建自己的作用域，作用域在函数定义时就已经确定了。而不是在函数调用时
-		    * 全局执行上下文环境是在全局作用域确定之后, js代码马上执行之前创建
-		    * 函数执行上下文环境是在调用函数时, 函数体代码执行之前创建
-		  2. 区别2
-		    * 作用域是静态的, 只要函数定义好了就一直存在, 且不会再变化
-		    * 上下文环境是动态的, 调用函数时创建, 函数调用结束时上下文环境就会被释放
-		  3. 联系
-		    * 上下文环境(对象)是从属于所在的作用域
-		    * 全局上下文环境==>全局作用域
+		  1. 区别1
+
+		    * 全局作用域之外，每个函数都会创建自己的作用域，作用域在函数定义时就已经确定了。而不是在函数调用时
+
+		    * 全局执行上下文环境是在全局作用域确定之后, js代码马上执行之前创建
+
+		    * 函数执行上下文环境是在调用函数时, 函数体代码执行之前创建
+
+		  2. 区别2
+
+		    * 作用域是静态的, 只要函数定义好了就一直存在, 且不会再变化
+
+		    * 上下文环境是动态的, 调用函数时创建, 函数调用结束时上下文环境就会被释放
+
+		  3. 联系
+
+		    * 上下文环境(对象)是从属于所在的作用域
+
+		    * 全局上下文环境==>全局作用域
+
 		    * 函数上下文环境==>对应的函数使用域
 			-  
 ![image](assets/a16294ff2316a8d81eb42c314b4bf8fe087d27ad0b107e637870f28f51d0d4dc.png)
 
 		- 作用域链
 
-		  1. 理解
-		    * 多个上下级关系的作用域形成的链, 它的方向是从下向上的(从内到外)
-		    * 查找变量时就是沿着作用域链来查找的
-		  2. 查找一个变量的查找规则
-		    * 在当前作用域下的执行上下文中查找对应的属性, 如果有直接返回, 否则进入2
-		    * 在上一级作用域的执行上下文中查找对应的属性, 如果有直接返回, 否则进入3
+		  1. 理解
+
+		    * 多个上下级关系的作用域形成的链, 它的方向是从下向上的(从内到外)
+
+		    * 查找变量时就是沿着作用域链来查找的
+
+		  2. 查找一个变量的查找规则
+
+		    * 在当前作用域下的执行上下文中查找对应的属性, 如果有直接返回, 否则进入2
+
+		    * 在上一级作用域的执行上下文中查找对应的属性, 如果有直接返回, 否则进入3
+
 		    * 再次执行2的相同操作, 直到全局作用域, 如果还找不到就抛出找不到的异常
 			-  
 ![image](assets/e64299a51ed99ca2c202b526ffb5c40e59d375f1259cf5ead5a495fe49783473.png)
 
-			  	var a = 2;
-			      function fn1() {
-			          var b = 3;
-			          function fn2() {
-			              var c = 4;
-			              console.log(c);
-			              console.log(b);
-			              console.log(a);
-			              console.log(d);
-			          }
-			          fn2();
-			      }
+			  	var a = 2;
+
+			      function fn1() {
+
+			          var b = 3;
+
+			          function fn2() {
+
+			              var c = 4;
+
+			              console.log(c);
+
+			              console.log(b);
+
+			              console.log(a);
+
+			              console.log(d);
+
+			          }
+
+			          fn2();
+
+			      }
+
 			      fn1();
 		- 面试题
 
 			- 面试题1
 
-			    var x = 10;
-			    function fn() {
-			      console.log(x);
-			    }
-			    function show(f) {
-			      var x = 20;
-			      f();
-			    }
+			    var x = 10;
+
+			    function fn() {
+
+			      console.log(x);
+
+			    }
+
+			    function show(f) {
+
+			      var x = 20;
+
+			      f();
+
+			    }
+
 			    show(fn);
 			- 面试题2
 
-			    var fn = function () {
-			      console.log(fn)
-			    }
-			    fn()
-			  
-			    var obj = {
-			      fn2: function () {
-			        console.log(fn2)
-			      }
-			    }
+			    var fn = function () {
+
+			      console.log(fn)
+
+			    }
+
+			    fn()
+
+			  
+
+			    var obj = {
+
+			      fn2: function () {
+
+			        console.log(fn2)
+
+			      }
+
+			    }
+
 			    obj.fn2()
 	- 闭包
 
 		- 引子实例
 
-		  <!DOCTYPE html>
-		  <html lang="en">
-		  <head>
-		      <meta charset="UTF-8">
-		      <title>Title</title>
-		      <script type="text/javascript">
-		            /*
-		  需求: 点击某个按钮, 提示"点击的是第n个按钮"
-		           */
-		      </script>
-		  </head>
-		  <body>
-		      <button>测试1</button>
-		      <button>测试2</button>
-		      <button>测试3</button>
-		  </body>
-		  
+		  <!DOCTYPE html>
+
+		  <html lang="en">
+
+		  <head>
+
+		      <meta charset="UTF-8">
+
+		      <title>Title</title>
+
+		      <script type="text/javascript">
+
+		            /*
+
+		  需求: 点击某个按钮, 提示"点击的是第n个按钮"
+
+		           */
+
+		      </script>
+
+		  </head>
+
+		  <body>
+
+		      <button>测试1</button>
+
+		      <button>测试2</button>
+
+		      <button>测试3</button>
+
+		  </body>
+
+		  
+
 		  </html>
 		- 理解闭包
 
-		  1. 如何产生闭包?
-		    * 当一个嵌套的内部(子)函数引用了嵌套的外部(父)函数的变量(函数)时, 就产生了闭包
-		  2. 闭包到底是什么?
-		    * 使用chrome调试查看
-		    * 理解一: 闭包是嵌套的内部函数(绝大部分人)
-		    * 理解二: 包含被引用变量(函数)的对象(极少数人)
-		    * 注意: 闭包存在于嵌套的内部函数中
-		  3. 产生闭包的条件?
-		    * 函数嵌套
+		  1. 如何产生闭包?
+
+		    * 当一个嵌套的内部(子)函数引用了嵌套的外部(父)函数的变量(函数)时, 就产生了闭包
+
+		  2. 闭包到底是什么?
+
+		    * 使用chrome调试查看
+
+		    * 理解一: 闭包是嵌套的内部函数(绝大部分人)
+
+		    * 理解二: 包含被引用变量(函数)的对象(极少数人)
+
+		    * 注意: 闭包存在于嵌套的内部函数中
+
+		  3. 产生闭包的条件?
+
+		    * 函数嵌套
+
 		    * 内部函数引用了外部函数的数据(变量/函数)
 		- 常见的闭包
 
-		  1. 将函数作为另一个函数的返回值
+		  1. 将函数作为另一个函数的返回值
+
 		  2. 将函数作为实参传递给另一个函数调用
 		- 闭包的作用
 
-		  1. 使用函数内部的变量在函数执行完后, 仍然存活在内存中(延长了局部变量的生命周期)
-		  2. 让函数外部可以操作(读写)到函数内部的数据(变量/函数)
-		  
-		  问题:
-		    1. 函数执行完后, 函数内部声明的局部变量是否还存在?
+		  1. 使用函数内部的变量在函数执行完后, 仍然存活在内存中(延长了局部变量的生命周期)
+
+		  2. 让函数外部可以操作(读写)到函数内部的数据(变量/函数)
+
+		  
+
+		  问题:
+
+		    1. 函数执行完后, 函数内部声明的局部变量是否还存在?
+
 		    2. 在函数外部能直接访问函数内部的局部变量吗?
 		- 闭包的生命周期
 
-		  1. 产生: 在嵌套内部函数定义执行完时就产生了(不是在调用)
-		  2. 死亡: 在嵌套的内部函数成为垃圾对象时
-		  
-		  
-		  <script type="text/javascript">
-		    function fun1() {
-		      //问题2: 此时闭包产生了吗? 
-		      var a = 3;
-		  
-		      function fun2() {
-		        a++;
-		        console.log(a);
-		      }
-		  
-		      return fun2;
-		    }
-		    //问题1: 此时闭包产生了吗?   
-		    var f = fun1();
-		    //问题3: 此时闭包释放了吗?  
-		    f();
-		    f();
-		    //问题4: 此时闭包释放回收了吗?   
-		    //问题5: 如何让闭包释放回收呢?
+		  1. 产生: 在嵌套内部函数定义执行完时就产生了(不是在调用)
+
+		  2. 死亡: 在嵌套的内部函数成为垃圾对象时
+
+		  
+
+		  
+
+		  <script type="text/javascript">
+
+		    function fun1() {
+
+		      //问题2: 此时闭包产生了吗? 
+
+		      var a = 3;
+
+		  
+
+		      function fun2() {
+
+		        a++;
+
+		        console.log(a);
+
+		      }
+
+		  
+
+		      return fun2;
+
+		    }
+
+		    //问题1: 此时闭包产生了吗?   
+
+		    var f = fun1();
+
+		    //问题3: 此时闭包释放了吗?  
+
+		    f();
+
+		    f();
+
+		    //问题4: 此时闭包释放回收了吗?   
+
+		    //问题5: 如何让闭包释放回收呢?
+
 		  </script>
 		- 闭包的应用: 自定义JS模块
 
-		  闭包的应用 : 定义JS模块
-		    * 具有特定功能的js文件
-		    * 将所有的数据和功能都封装在一个函数内部(私有的)
-		    * 只向外暴露一个包信n个方法的对象或函数
+		  闭包的应用 : 定义JS模块
+
+		    * 具有特定功能的js文件
+
+		    * 将所有的数据和功能都封装在一个函数内部(私有的)
+
+		    * 只向外暴露一个包信n个方法的对象或函数
+
 		    * 模块的使用者, 只需要通过模块暴露的对象调用方法来实现对应的功能
 		- 闭包的缺点及解决
 
-		  1. 缺点
-		    * 函数执行完后, 函数内的局部变量没有释放, 占用内存时间会变长
-		    * 容易造成内存泄露
-		  2. 解决
-		    * 能不用闭包就不用
+		  1. 缺点
+
+		    * 函数执行完后, 函数内的局部变量没有释放, 占用内存时间会变长
+
+		    * 容易造成内存泄露
+
+		  2. 解决
+
+		    * 能不用闭包就不用
+
 		    * 及时释放
 		- 面试题
 
 			- 面试题一
 
-			  //代码片段一
-			  var name = "The Window";
-			  var object = {
-			      name : "My Object",
-			      getNameFunc : function(){
-			          return function(){
-			              return this.name;
-			          };
-			      }
-			  };
-			  alert(object.getNameFunc()());  //?
-			  
-			  
-			  //代码片段二
-			  var name2 = "The Window";
-			  var object2 = {
-			      name2 : "My Object",
-			      getNameFunc : function(){
-			          var that = this;
-			          return function(){
-			              return that.name2;
-			          };
-			      }
-			  };
-			  alert(object2.getNameFunc()()); //?
-			  
-			  
+			  //代码片段一
+
+			  var name = "The Window";
+
+			  var object = {
+
+			      name : "My Object",
+
+			      getNameFunc : function(){
+
+			          return function(){
+
+			              return this.name;
+
+			          };
+
+			      }
+
+			  };
+
+			  alert(object.getNameFunc()());  //?
+
+			  
+
+			  
+
+			  //代码片段二
+
+			  var name2 = "The Window";
+
+			  var object2 = {
+
+			      name2 : "My Object",
+
+			      getNameFunc : function(){
+
+			          var that = this;
+
+			          return function(){
+
+			              return that.name2;
+
+			          };
+
+			      }
+
+			  };
+
+			  alert(object2.getNameFunc()()); //?
+
+			  
+
+			  
+
 			  
 			- 面试题二
 
-			    function fun(n,o) {
-			          console.log(o)
-			          return {
-			              fun:function(m){
-			                  return fun(m,n);
-			              }
-			          };
-			      }
-			      var a = fun(0);  a.fun(1);  a.fun(2);  a.fun(3);//undefined,?,?,?
-			      var b = fun(0).fun(1).fun(2).fun(3);//undefined,?,?,?
+			    function fun(n,o) {
+
+			          console.log(o)
+
+			          return {
+
+			              fun:function(m){
+
+			                  return fun(m,n);
+
+			              }
+
+			          };
+
+			      }
+
+			      var a = fun(0);  a.fun(1);  a.fun(2);  a.fun(3);//undefined,?,?,?
+
+			      var b = fun(0).fun(1).fun(2).fun(3);//undefined,?,?,?
+
 			      var c = fun(0).fun(1);  c.fun(2);  c.fun(3);//undefined,?,?,?
 - 面向对象高级
 
@@ -29396,64 +29828,96 @@ console.log(Object instanceof  Foo);
 
 		- Object构造函数模式
 
-		  方式1: Object构造函数模式
-		    * 套路: 先创建空Object对象, 再动态添加属性/方法
-		    * 适用场景: 起始时不确定对象内部数据
+		  方式1: Object构造函数模式
+
+		    * 套路: 先创建空Object对象, 再动态添加属性/方法
+
+		    * 适用场景: 起始时不确定对象内部数据
+
 		    * 问题: 语句太多
 		- 对象字面量模式
 
-		  方式2: 对象字面量模式
-		    * 套路: 使用{}创建对象, 同时指定属性/方法
-		    * 适用场景: 起始时对象内部数据是确定的
+		  方式2: 对象字面量模式
+
+		    * 套路: 使用{}创建对象, 同时指定属性/方法
+
+		    * 适用场景: 起始时对象内部数据是确定的
+
 		    * 问题: 如果创建多个对象, 有重复代码
 		- 工厂模式
 
-		  方式3: 工厂模式
-		    * 套路: 通过工厂函数动态创建对象并返回
-		    * 适用场景: 需要创建多个对象
+		  方式3: 工厂模式
+
+		    * 套路: 通过工厂函数动态创建对象并返回
+
+		    * 适用场景: 需要创建多个对象
+
 		    * 问题: 对象没有一个具体的类型, 都是Object类型
 		- 自定义构造函数模式
 
-		  方式4: 自定义构造函数模式
-		    * 套路: 自定义构造函数, 通过new创建对象
-		    * 适用场景: 需要创建多个类型确定的对象
+		  方式4: 自定义构造函数模式
+
+		    * 套路: 自定义构造函数, 通过new创建对象
+
+		    * 适用场景: 需要创建多个类型确定的对象
+
 		    * 问题: 每个对象都有相同的数据, 浪费内存
 		- 构造函数+原型的组合模式
 
-		  方式5: 构造函数+原型的组合模式
-		    * 套路: 自定义构造函数, 属性在函数中初始化, 方法添加到原型上
+		  方式5: 构造函数+原型的组合模式
+
+		    * 套路: 自定义构造函数, 属性在函数中初始化, 方法添加到原型上
+
 		    * 适用场景: 需要创建多个类型确定的对象
 	- 继承模式
 
 		- 原型链继承
 
-		  方式1: 原型链继承
-		    1. 套路
-		      1. 定义父类型构造函数
-		      2. 给父类型的原型添加方法
-		      3. 定义子类型的构造函数
-		      4. 创建父类型的对象赋值给子类型的原型
-		      5. 将子类型原型的构造属性设置为子类型
-		      6. 给子类型原型添加方法
-		      7. 创建子类型的对象: 可以调用父类型的方法
-		    2. 关键
+		  方式1: 原型链继承
+
+		    1. 套路
+
+		      1. 定义父类型构造函数
+
+		      2. 给父类型的原型添加方法
+
+		      3. 定义子类型的构造函数
+
+		      4. 创建父类型的对象赋值给子类型的原型
+
+		      5. 将子类型原型的构造属性设置为子类型
+
+		      6. 给子类型原型添加方法
+
+		      7. 创建子类型的对象: 可以调用父类型的方法
+
+		    2. 关键
+
 		      1. 子类型的原型为父类型的一个实例对象
 			-  
 ![image](assets/6914c5ee4a73cbef7c58bde588e29bd1406c0a34fc97f4f7d2ce674ed0aa07d6.png)
 
 		- 借用构造函数继承
 
-		  方式2: 借用构造函数继承(假的)
-		  1. 套路:
-		    1. 定义父类型构造函数
-		    2. 定义子类型构造函数
-		    3. 在子类型构造函数中调用父类型构造
-		  2. 关键:
+		  方式2: 借用构造函数继承(假的)
+
+		  1. 套路:
+
+		    1. 定义父类型构造函数
+
+		    2. 定义子类型构造函数
+
+		    3. 在子类型构造函数中调用父类型构造
+
+		  2. 关键:
+
 		    1. 在子类型构造函数中通用super()调用父类型构造函数
 		- 组合继承
 
-		  方式3: 原型链+借用构造函数的组合继承
-		  1. 利用原型链实现对父类型对象的方法继承
+		  方式3: 原型链+借用构造函数的组合继承
+
+		  1. 利用原型链实现对父类型对象的方法继承
+
 		  2. 利用super()借用父类型构建函数初始化相同属性
 - 线程机制与事件机制
 
@@ -29588,12 +30052,18 @@ console.log(Object instanceof  Foo);
 
 	- 定时器引发的思考
 
-	  1. 定时器真是定时执行的吗?
-	    * 定时器并不能保证真正定时执行
-	    * 一般会延迟一丁点(可以接受), 也有可能延迟很长时间(不能接受)
-	  2. 定时器回调函数是在分线程执行的吗?
-	    * 在主线程执行的, js是单线程的
-	  3. 定时器是如何实现的?
+	  1. 定时器真是定时执行的吗?
+
+	    * 定时器并不能保证真正定时执行
+
+	    * 一般会延迟一丁点(可以接受), 也有可能延迟很长时间(不能接受)
+
+	  2. 定时器回调函数是在分线程执行的吗?
+
+	    * 在主线程执行的, js是单线程的
+
+	  3. 定时器是如何实现的?
+
 	    * 事件循环模型(后面讲)
 		- 1. 定时器真是定时执行的吗?
 
@@ -29603,22 +30073,38 @@ console.log(Object instanceof  Foo);
 
 	- JS是单线程执行的
 
-	  1. 如何证明js执行是单线程的?
-	    * setTimeout()的回调函数是在主线程执行的
-	    * 定时器回调函数只有在运行栈中的代码全部执行完后才有可能执行
-	  2. 为什么js要用单线程模式, 而不用多线程模式?
-	    * JavaScript的单线程，与它的用途有关。
-	    * 作为浏览器脚本语言，JavaScript的主要用途是与用户互动，以及操作DOM。
-	    * 这决定了它只能是单线程，否则会带来很复杂的同步问题
-	  
-	  3. 代码的分类:
-	    * 初始化代码
-	    * 回调代码
-	  4. js引擎执行代码的基本流程
-	    * 先执行初始化代码: 包含一些特别的代码
-	      * 设置定时器
-	      * 绑定监听
-	      * 发送ajax请求
+	  1. 如何证明js执行是单线程的?
+
+	    * setTimeout()的回调函数是在主线程执行的
+
+	    * 定时器回调函数只有在运行栈中的代码全部执行完后才有可能执行
+
+	  2. 为什么js要用单线程模式, 而不用多线程模式?
+
+	    * JavaScript的单线程，与它的用途有关。
+
+	    * 作为浏览器脚本语言，JavaScript的主要用途是与用户互动，以及操作DOM。
+
+	    * 这决定了它只能是单线程，否则会带来很复杂的同步问题
+
+	  
+
+	  3. 代码的分类:
+
+	    * 初始化代码
+
+	    * 回调代码
+
+	  4. js引擎执行代码的基本流程
+
+	    * 先执行初始化代码: 包含一些特别的代码
+
+	      * 设置定时器
+
+	      * 绑定监听
+
+	      * 发送ajax请求
+
 	    * 后面在某个时刻才会执行回调代码
 		- 1. 如何证明js执行是单线程的?
 
@@ -29630,17 +30116,28 @@ console.log(Object instanceof  Foo);
 
 	- 浏览器的事件循环(轮询)模型
 
-	  1. 所有代码分类
-	    * 初始化执行代码: 包含绑定dom事件监听, 设置定时器, 发送ajax请求的代码
-	    * 回调执行代码: 处理回调逻辑
-	  2. js引擎执行代码的基本流程:
-	    * 初始化代码===>回调代码
-	  3. 模型的2个重要组成部分:
-	    * 事件管理模块
-	    * 回调队列
-	  4. 模型的运转流程
-	    * 执行初始化代码, 将事件回调函数交给对应模块管理
-	    * 当事件发生时, 管理模块会将回调函数及其数据添加到回调列队中
+	  1. 所有代码分类
+
+	    * 初始化执行代码: 包含绑定dom事件监听, 设置定时器, 发送ajax请求的代码
+
+	    * 回调执行代码: 处理回调逻辑
+
+	  2. js引擎执行代码的基本流程:
+
+	    * 初始化代码===>回调代码
+
+	  3. 模型的2个重要组成部分:
+
+	    * 事件管理模块
+
+	    * 回调队列
+
+	  4. 模型的运转流程
+
+	    * 执行初始化代码, 将事件回调函数交给对应模块管理
+
+	    * 当事件发生时, 管理模块会将回调函数及其数据添加到回调列队中
+
 	    * 只有当初始化代码执行完后(可能要一定时间), 才会遍历读取回调队列中的回调函数执行
 		- 模型原理图
 
@@ -29649,25 +30146,44 @@ console.log(Object instanceof  Foo);
 
 		- 相关重要概念
 
-		  1. 执行栈
-		       execution stack
-		       所有的代码都是在此空间中执行的
-		   2. 浏览器内核
-		       browser core
-		       js引擎模块(在主线程处理)
-		       其它模块(在主/分线程处理)
-		   3. 任务队列(callback queue)
-		       task queue
-		   4. 消息队列(callback queue)
-		       message queue
-		   5. 事件队列(callback queue)
-		       event queue
-		   6. 事件轮询
-		       event loop
-		       从任务队列中循环取出回调函数放入执行栈中处理(一个接一个)
-		   7. 事件驱动模型
-		       event-driven interaction model
-		   8. 请求响应模型
+		  1. 执行栈
+
+		       execution stack
+
+		       所有的代码都是在此空间中执行的
+
+		   2. 浏览器内核
+
+		       browser core
+
+		       js引擎模块(在主线程处理)
+
+		       其它模块(在主/分线程处理)
+
+		   3. 任务队列(callback queue)
+
+		       task queue
+
+		   4. 消息队列(callback queue)
+
+		       message queue
+
+		   5. 事件队列(callback queue)
+
+		       event queue
+
+		   6. 事件轮询
+
+		       event loop
+
+		       从任务队列中循环取出回调函数放入执行栈中处理(一个接一个)
+
+		   7. 事件驱动模型
+
+		       event-driven interaction model
+
+		   8. 请求响应模型
+
 		       request-response model
 			- 1. 执行栈
 
@@ -29726,20 +30242,31 @@ console.log(Object instanceof  Foo);
 
 			- 创建在分线程执行的js文件
 
-			  var onmessage =function (event){ //不能用函数声明
-			      console.log('onMessage()22');
-			      var upper = event.data.toUpperCase();//通过event.data获得发送来的数据
-			      postMessage( upper );//将获取到的数据发送会主线程
+			  var onmessage =function (event){ //不能用函数声明
+
+			      console.log('onMessage()22');
+
+			      var upper = event.data.toUpperCase();//通过event.data获得发送来的数据
+
+			      postMessage( upper );//将获取到的数据发送会主线程
+
 			  }
 			- 在主线程中的js中发消息并设置回调
 
-			  //创建一个Worker对象并向它传递将在新线程中执行的脚本的URL
-			  var worker = new Worker("worker.js");  
-			  //接收worker传过来的数据函数
-			  worker.onmessage = function (event) {     
-			      console.log(event.data);             
-			  };
-			  //向worker发送数据
+			  //创建一个Worker对象并向它传递将在新线程中执行的脚本的URL
+
+			  var worker = new Worker("worker.js");  
+
+			  //接收worker传过来的数据函数
+
+			  worker.onmessage = function (event) {     
+
+			      console.log(event.data);             
+
+			  };
+
+			  //向worker发送数据
+
 			  worker.postMessage("hello world");    
 		- 图解
 
@@ -29748,47 +30275,74 @@ console.log(Object instanceof  Foo);
 
 		- 应用练习
 
-		  编程实现斐波那契数列（Fibonacci sequence）的计算
+		  编程实现斐波那契数列（Fibonacci sequence）的计算
+
 		  F（0）=0，F（1）=1，..... F（n）=F(n-1)+F(n-2)
 			- 直接在主线程
 
-			  var fibonacci =function(n) {
-			      return n <2 ? n : fibonacci(n -1) + fibonacci(n -2);
-			  };
+			  var fibonacci =function(n) {
+
+			      return n <2 ? n : fibonacci(n -1) + fibonacci(n -2);
+
+			  };
+
 			  console.log(fibonacci(48));
 			- 使用Worker在分线程
 
 				- 主线程
 
-				  var worker = new Worker('worker2.js');
-				  worker.addEventListener('message', function (event) {
-				      var timer2 = new Date().getTime();
-				      console.log('结果：' + event.data, '时间:' + timer2, '用时：' + ( timer2 - timer ));
-				  }, false);
-				  
-				  var timer = new Date().getTime();
-				  console.log('开始计算: ', '时间:' + timer);
-				  setTimeout(function () {
-				      console.log('定时器函数在计算数列时执行了', '时间:' + new Date().getTime());
-				  }, 1000);
-				  
-				  worker.postMessage(40);
+				  var worker = new Worker('worker2.js');
+
+				  worker.addEventListener('message', function (event) {
+
+				      var timer2 = new Date().getTime();
+
+				      console.log('结果：' + event.data, '时间:' + timer2, '用时：' + ( timer2 - timer ));
+
+				  }, false);
+
+				  
+
+				  var timer = new Date().getTime();
+
+				  console.log('开始计算: ', '时间:' + timer);
+
+				  setTimeout(function () {
+
+				      console.log('定时器函数在计算数列时执行了', '时间:' + new Date().getTime());
+
+				  }, 1000);
+
+				  
+
+				  worker.postMessage(40);
+
 				  console.log('我在计算数列的时候执行了', '时间:' + new Date().getTime());
 				- 分线程
 
-				  var fibonacci =function(n) {
-				      return n <2 ? n : fibonacci(n -1) + fibonacci(n -2);
-				  };
-				  
-				  var onmessage = function(event) {
-				      var n = parseInt(event.data, 10);
-				      postMessage(fibonacci(n));
+				  var fibonacci =function(n) {
+
+				      return n <2 ? n : fibonacci(n -1) + fibonacci(n -2);
+
+				  };
+
+				  
+
+				  var onmessage = function(event) {
+
+				      var n = parseInt(event.data, 10);
+
+				      postMessage(fibonacci(n));
+
 				  };
 		- 不足
 
-		  1. 慢
-		  1. 不能跨域加载JS
-		  2. worker内代码不能访问DOM(更新UI)
+		  1. 慢
+
+		  1. 不能跨域加载JS
+
+		  2. worker内代码不能访问DOM(更新UI)
+
 		  3. 不是每个浏览器都支持这个新特性
 ### ES6+
 
