@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6baa50fbfa1f9b84",
+        "id": "a6f5690e00dee1b9",
         "type": "tabs",
         "children": [
           {
-            "id": "8b8f7ee72fcea8fb",
+            "id": "2c5cc62de4f1f401",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -83,8 +83,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "73db95bfb166faa1",
@@ -209,7 +208,7 @@
             }
           },
           {
-            "id": "0405d25c5f856c87",
+            "id": "1ad69f070f854136",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -276,10 +275,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "8b8f7ee72fcea8fb",
+  "active": "2c5cc62de4f1f401",
   "lastOpenFiles": [
-    "020 - 工作学习/学习/前端/typescript/typescript入门教程.md",
     "040 - Obsidian/主页/00. 主页.md",
+    "020 - 工作学习/学习/前端/typescript/typescript入门教程.md",
     "040 - Obsidian/Excalidraw/front-end/frontend.md",
     "020 - 工作学习/工作/汇总所有在线文档.md"
   ]
