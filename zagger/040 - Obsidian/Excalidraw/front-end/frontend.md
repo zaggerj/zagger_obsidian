@@ -1,6 +1,6 @@
 ---
 created: 2023-11-16 10:06:18
-updated: 2023-11-16 12:59:53
+updated: 2023-11-16 13:02:31
 ---
 # 1. front-end
 
@@ -209,17 +209,24 @@ instanceInjector = {
 2. `config，provider，service，fatory，value，constant，filter，controller，directive`等等都会调用invokeLate方法，加入队列invokeQueue。
 3. run方法不同，调用run方法的将run方法传递进来的fn参数，放到runBlocks数组中存起来。最终会在createInjector中的loaderModules方法中进行汇总，然后在createInjector中通过forEach(loadModules(modulesToLoad), function(fn) { instanceInjector.invoke(fn || noop); }); 进行了执行。
 4. `invokeQueue`中的菜谱也最终是在最终会在createInjector中的loaderModules方法中进行直接进行执行。
-**
 ![image](assets/64a1eff1a1cee44adfd73e4388b790cfe6dfcb20fe2d9e117db0d021c64850ed.png)
 
-			- ****
+ - 
+```js
+for(invokeQueue = moduleFn._invokeQueue, i = 0, ii = invokeQueue.length; i < ii; i++) {
+            var invokeArgs = invokeQueue[i],
+                provider = providerInjector.get(invokeArgs[0]);
 
-- 挂载辅助api到angular上，如：
-bootstrap，toJson，bind，forEach等等
+            provider[invokeArgs[1]].apply(provider, invokeArgs[2]);
+          }
+```
 
-- 将ngLocale挂载到angular.module上
+- 挂载辅助`api`到`angular`上，如：
+`bootstrap，toJson，bind，forEach`等等
 
-- 将ng挂载到angular.module上
+- 将`ngLocale`挂载到`angular.module`上
+
+- 将`ng`挂载到`angular.module`上
 
 -  
 ![image](assets/48b0ac4be2618899b3c917b317d6571a19e0a4cb36d654d6aecd1fdeab69372b.png)
@@ -328,9 +335,10 @@ var injector = createInjector(modules);
 
 ### 1.3.4. 问题：
 
-- 1.runBlocks.push(providerInjector.invoke(module));
-2.invokeQueue直接执行：provider[invokeArgs[1]].apply(provider, invokeArgs[2]);
-3.instanceInjector.invoke(fn || noop)
+- 
+1. runBlocks.push(providerInjector.invoke(module));
+2. invokeQueue直接执行：provider[invokeArgs[1]].apply(provider, invokeArgs[2]);
+3. instanceInjector.invoke(fn || noop)
 三者之间有啥区别
 
 	- instanceInjector和providerInjector上调用invoke，区别在于，在不同的cache上getService拿取服务

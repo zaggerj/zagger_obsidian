@@ -7,12 +7,14 @@
   "ignoreGlobalFolder": [
     "040 - Obsidian/模板",
     "040 - Obsidian/主页",
-    "040 - Obsidian/附件"
+    "040 - Obsidian/附件",
+    "040 - Obsidian"
   ],
   "ignoreCreatedFolder": [
     "040 - Obsidian/模板",
     "040 - Obsidian/主页",
-    "040 - Obsidian/附件"
+    "040 - Obsidian/附件",
+    "040 - Obsidian"
   ],
   "enableExperimentalHash": true,
   "fileHashMap": {
@@ -102,7 +104,7 @@
     "040 - Obsidian/主页/00. 主页.md": "6c86b2dfa1621be5371a3a3dafa15c5ff2fc209d4e2411c7eccb4affe77658d6",
     "040 - Obsidian/sortspec.md": "35834802fd948cda29f7d51f1383eea2d8af7b1c45782efaa17c63f907792989",
     "040 - Obsidian/react组件/music and birthday countdown 2.md": "0790bf61ad9090dbe16c7e89f18eb890bbe9d13e071ebecdc6e677bf1027c9e2",
-    "040 - Obsidian/react组件/music and birthday countdown 1.md": "e7d7a624e63c26795341b915a899b273f5b6d22251bbfc71e005900cc0297870",
+    "040 - Obsidian/react组件/music and birthday countdown 1.md": "8652ad3a5b09e0856e6ac09f012c96baa71fd06965b59566e05f5769016930cc",
     "040 - Obsidian/New/阅读列表.md": "82b8e69b41d520975909db6ad8cd692cde7317f6835b3191d514b4ce3bc43a01",
     "040 - Obsidian/New/群公告-开发记事本.md": "92ecaa17a75424cd6f1133539ee3cc2740541e87a8db33136918cbf9adb6951e",
     "040 - Obsidian/New/看板模板.md": "6879c30b1a5ff314bf5f667ddb412f88a3eb7078c34e0cac3a6fa713d1764c8d",
@@ -870,6 +872,7 @@
     "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice问题.md": "e0f8bc86510d2e43096c9b664a16987a040b276bad0f74345a86fb29cbc338d9",
     "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化/spice需要优化的点.md": "3693b49549f2f64a097ce177aa12d7246e0275b2b5d54586076764dc7b783691",
     "020 - 工作学习/工作/工作项目维护/业务知识和难题/各种问题/view-front依赖备份.md": "6d01022839e5778e8629387eb65e3996cc95ab9da80fd3d4200e5ea3c20bdf5e",
-    "040 - Obsidian/Excalidraw/front-end/frontend.md": "0c1389cb92bd747e750b6bd8f0f061bfe3f4548e9be71e1aadce70df6c0ff25c"
+    "040 - Obsidian/Excalidraw/front-end/frontend.md": "8d776f037babd117bac67ca4265ffc68f959a764b0ada40e63cd8624f195ba7e",
+    "020 - 工作学习/学习/前端/typescript/typescript入门教程.md": "528a5c497a8dd394b166fe6ee5511680795f5b73c15f6d949a4816527e6e4b2c"
   }
 }

@@ -1,4 +1,9 @@
 ---
+banner: 040 - Obsidian/附件/banners/book-banner.gif
+created: 2023-11-14 16:39:15
+updated: 2023-11-16 13:06:45
+---
+---
 alias: 
 tags: 长青笔记
 cdate: 2023-11-14 16:39
