@@ -42,9 +42,22 @@
                 "url": "http://www.regexlab.com/zh/workshop.htm?pat=<(\\w%2B)\\s*(\\w%2B(%3D('|\").*%3F\\4)%3F\\s*)*>.*%3F<%2F\\1>&txt=<td+id%3D'td1'+style%3D\"bgcolor%3Awhite\"><%2Ftd>\r\n<body+onload%3D\"doit()\"><%2Fbody>"
               }
             }
+          },
+          {
+            "id": "d33b36a1be80e5c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2023年11月16日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -153,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "020 - 工作学习/学习/前端/js小知识点/正则/正则文章通读.md"
+                "file": "000 - 每日日记/DailyNote/2023年11月16日.md"
               }
             }
           },
@@ -179,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "020 - 工作学习/学习/前端/js小知识点/正则/正则文章通读.md",
+                "file": "000 - 每日日记/DailyNote/2023年11月16日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "020 - 工作学习/学习/前端/js小知识点/正则/正则文章通读.md",
+                "file": "000 - 每日日记/DailyNote/2023年11月16日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +221,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "020 - 工作学习/学习/前端/js小知识点/正则/正则文章通读.md"
+                "file": "000 - 每日日记/DailyNote/2023年11月16日.md"
               }
             }
           },
@@ -298,7 +311,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "9253542174f18f82",
+  "active": "d33b36a1be80e5c8",
   "lastOpenFiles": [
     "020 - 工作学习/学习/前端/js小知识点/正则/正则文章通读.md",
     "020 - 工作学习/学习/前端/js小知识点/正则/image.png",
