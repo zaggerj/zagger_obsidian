@@ -49,7 +49,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 0
           },
           {
             "id": "77e3e68e94870473",
@@ -179,7 +179,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 0
           }
         ],
         "direction": "horizontal",
@@ -251,7 +251,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 0
           }
         ],
         "direction": "vertical"
@@ -362,7 +362,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 0
           }
         ],
         "direction": "horizontal",
@@ -487,7 +487,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 0
           }
         ],
         "direction": "horizontal",
@@ -712,7 +712,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 0
           }
         ],
         "direction": "horizontal",
@@ -898,7 +898,7 @@
                 }
               }
             ],
-            "currentTab": 3,
+            "currentTab": 0,
             "stacked": true
           },
           {
@@ -1010,7 +1010,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 0
           }
         ],
         "direction": "horizontal",
@@ -1092,7 +1092,7 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 0
           },
           {
             "id": "888c3f3084370af3",
@@ -1269,7 +1269,7 @@
                 }
               }
             ],
-            "currentTab": 3,
+            "currentTab": 0,
             "stacked": true
           }
         ],
@@ -1360,7 +1360,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 0
           }
         ],
         "direction": "horizontal",
@@ -1442,7 +1442,7 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 0
           },
           {
             "id": "888c3f3084370af3",
@@ -1648,7 +1648,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 0
           }
         ],
         "direction": "horizontal",
@@ -1746,7 +1746,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 0
           },
           {
             "id": "888c3f3084370af3",
@@ -1769,7 +1769,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 0
           }
         ],
         "direction": "horizontal",
@@ -1952,7 +1952,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 0
           }
         ],
         "direction": "horizontal",
@@ -2058,7 +2058,7 @@
                 }
               }
             ],
-            "currentTab": 8
+            "currentTab": 0
           },
           {
             "id": "888c3f3084370af3",
@@ -2119,7 +2119,284 @@
         }
       },
       "active": "23fad819ff207865"
+    },
+    "final": {
+      "main": {
+        "id": "dce483c947405da3",
+        "type": "split",
+        "children": [
+          {
+            "id": "646cb227271bcdf5",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9bb4e17f6e05c34e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "040 - Obsidian/主页/00. 主页.md",
+                    "mode": "preview",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "23163e226ba1253c",
+        "type": "split",
+        "children": [
+          {
+            "id": "284346499ce2ea86",
+            "type": "tabs",
+            "dimension": 80.38067349926794,
+            "children": [
+              {
+                "id": "23fad819ff207865",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "03fb6b7e157ad75a",
+                "type": "leaf",
+                "state": {
+                  "type": "tagfolder-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "f2b0ffe519625a29",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "8cdc7c8bed089ab9",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              },
+              {
+                "id": "5ca620075b6a18da",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-tab-tree",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "73db95bfb166faa1",
+            "type": "tabs",
+            "dimension": 19.619326500732065,
+            "children": [
+              {
+                "id": "8b6d8c7e5231700f",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              },
+              {
+                "id": "0b0cb56ba2aa4a0a",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 275.5
+      },
+      "right": {
+        "id": "49b0f6d6f173189c",
+        "type": "split",
+        "children": [
+          {
+            "id": "6d5d1a69e107f675",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "60f931c5f80841ed",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "040 - Obsidian/主页/00. 主页.md"
+                  }
+                }
+              },
+              {
+                "id": "93bfebab27d6467f",
+                "type": "leaf",
+                "state": {
+                  "type": "todo",
+                  "state": {}
+                }
+              },
+              {
+                "id": "587097c7d3e0dc04",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "6480c2a734e3c425",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "040 - Obsidian/主页/00. 主页.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "6355d30f474216e7",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "040 - Obsidian/主页/00. 主页.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "588ad9f7ff43be3a",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "040 - Obsidian/主页/00. 主页.md"
+                  }
+                }
+              },
+              {
+                "id": "113fb1d05a8132cc",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency"
+                  }
+                }
+              },
+              {
+                "id": "a9e5936d53b3df5a",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "8eb2ddc65691d6b8",
+                "type": "leaf",
+                "state": {
+                  "type": "tasks_timeline_view",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "888c3f3084370af3",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "1e6fe91e5170d39b",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "b6fec8d35877681a",
+                "type": "leaf",
+                "state": {
+                  "type": "timeline",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 313
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "homepage:Open homepage": false,
+          "templater-obsidian:Templater": false,
+          "obsidian-full-calendar:Open Full Calendar": false,
+          "switcher:打开快速切换": false,
+          "graph:查看关系图谱": false,
+          "canvas:新建白板": false,
+          "daily-notes:打开/创建今天的日记": false,
+          "templates:插入模板": false,
+          "command-palette:打开命令面板": false,
+          "markdown-importer:打开 Markdown 格式转换器": false,
+          "zk-prefixer:创建时间戳笔记": false,
+          "random-note:开始漫游笔记": false,
+          "audio-recorder:开始/结束录音": false,
+          "workspaces:管理工作区布局": false,
+          "obsidian-importer:Open Importer": true,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "mermaid-tools:Open Mermaid Toolbar": false,
+          "obsidian-day-planner:Timeline": false,
+          "cmdr:折叠": true,
+          "custom-sort:Toggle custom sorting": false,
+          "float-search:Search Obsidian In Modal": false,
+          "surfing:surfing-bookmark-manager": false,
+          "big-calendar:Big Calendar": false,
+          "obsidian-excalidraw-plugin:新建绘图文件": false,
+          "omnisearch:Omnisearch": false,
+          "periodic-notes:Open today": false,
+          "obsidian-memos:Memos": false
+        }
+      },
+      "active": "9bb4e17f6e05c34e"
     }
   },
-  "active": "最终版本!"
+  "active": "final"
 }
