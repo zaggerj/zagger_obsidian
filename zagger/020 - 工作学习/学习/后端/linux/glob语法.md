@@ -1,13 +1,13 @@
 ---
 created: 2023-11-03T22:29
-updated: 2023-11-03T22:29
+updated: 2023-11-16 14:31:20
 ---
-# glob
+# 1. glob
 
-## 参考文档
+## 1.1. 参考文档
 1. [node：glob语法以及常用的文件查找库glob、fast-glob、globby_Lvan的前端笔记的博客-CSDN博客](https://blog.csdn.net/weixin_43972437/article/details/132926908)
 2. [通配符（？，*）与正则表达式_正则? *-CSDN博客](https://blog.csdn.net/yh13572438258/article/details/121545229)
-## glob语法
+## 1.2. glob语法
 1. 基本语法
 ```shell
 *	匹配任意长度任意字符

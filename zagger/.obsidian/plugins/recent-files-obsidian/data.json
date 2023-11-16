@@ -1,16 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
-    },
-    {
-      "basename": "frontend",
-      "path": "040 - Obsidian/Excalidraw/front-end/frontend.md"
+      "basename": "默认",
+      "path": "020 - 工作学习/学习/前端/js小知识点/正则/默认.md"
     },
     {
       "basename": "汇总所有在线文档",
       "path": "020 - 工作学习/工作/汇总所有在线文档.md"
+    },
+    {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "扩展正则匹配",
+      "path": "020 - 工作学习/学习/后端/linux/扩展正则匹配.md"
+    },
+    {
+      "basename": "正则",
+      "path": "020 - 工作学习/学习/前端/js小知识点/正则/正则.md"
+    },
+    {
+      "basename": "空行正则",
+      "path": "020 - 工作学习/学习/开发软实力/正则和算法/空行正则.md"
+    },
+    {
+      "basename": "记事本",
+      "path": "020 - 工作学习/学习/前端/前端杂项/记事本.md"
+    },
+    {
+      "basename": "grep",
+      "path": "020 - 工作学习/学习/后端/linux/grep.md"
+    },
+    {
+      "basename": "glob语法",
+      "path": "020 - 工作学习/学习/后端/linux/glob语法.md"
+    },
+    {
+      "basename": "2023年11月16日",
+      "path": "000 - 每日日记/DailyNote/2023年11月16日.md"
+    },
+    {
+      "basename": "frontend",
+      "path": "040 - Obsidian/Excalidraw/front-end/frontend.md"
     },
     {
       "basename": "场景切换过程图解",
@@ -167,18 +199,6 @@
     {
       "basename": "音乐下载",
       "path": "004 - Resource/资源/资源素材/音乐下载.md"
-    },
-    {
-      "basename": "excel学习清单",
-      "path": "004 - Resource/资源/资源素材/excel学习清单.md"
-    },
-    {
-      "basename": "ai工具清单",
-      "path": "004 - Resource/资源/ai工具/ai工具清单.md"
-    },
-    {
-      "basename": "翻墙清单",
-      "path": "004 - Resource/资源/翻墙/翻墙清单.md"
     }
   ],
   "omittedPaths": [],

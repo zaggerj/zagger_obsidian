@@ -1,16 +1,16 @@
 ---
 created: 2023-11-03T22:29
-updated: 2023-11-03T22:29
+updated: 2023-11-16 14:31:16
 ---
 
-## 参考链接
+## 0.1. 参考链接
 1. [linux三剑客之一（grep） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/415394105)
 2. [linux grep命令详解 - ggjucheng - 博客园 (cnblogs.com)](https://www.cnblogs.com/ggjucheng/archive/2013/01/13/2856896.html)
 3. [搜索 命令，Linux 搜索 命令详解：最专业的Linux命令大全，命令搜索引擎，内容包含Linux命令手册、详解、学习，值得收藏的Linux命令速查手册。 - Linux 命令搜索引擎 (lutixia.cn)](http://bash.lutixia.cn/list.html#!kw=sed)
 4. [linux 基础 - 知乎 (zhihu.com)](https://www.zhihu.com/column/c_1423265882214236160)
 5. [linux三剑客(grep、sed、awk)基本使用 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/532822255)
 6. [grep命令详解_运维朱工的博客-CSDN博客](https://blog.csdn.net/Lu_tixia/article/details/127183832)
-## 简介
+## 0.2. 简介
 **名称和翻译：** grep (global search regular expression(RE) and print out the line,全面搜索正则表达式并把行打印出来)
 
 **定义：** 是一种强大的文本搜索工具，它能使用正则表达式搜索文本，并把匹配的行打印出来。
@@ -26,7 +26,7 @@ grep [option] pattern files
 
 **标准输出 | grep [参数] [过滤规则]**
 
-#### grep递归搜索文件
+#### 0.2.1.1. grep递归搜索文件
 
 在多级目录中对文本进行递归搜索：
 
@@ -64,7 +64,7 @@ grep -q "test" filename
 
 
 
-### 1.option
+### 0.2.2. 1.option
 **参数：**
 **-n : 显示过滤出来的文本在文件内的行号**  
 **-o : 只显示匹配到的内容**  
