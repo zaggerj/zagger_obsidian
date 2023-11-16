@@ -51,17 +51,5 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": [
-    {
-      "id": "76a0b7473ab3e0f6",
-      "parent": 0,
-      "droppable": true,
-      "text": "JavaScript find() 方法 | 菜鸟教程",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    }
-  ]
+  "treeData": []
 }
