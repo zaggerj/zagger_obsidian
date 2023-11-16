@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e27a3c339deb2446",
+        "id": "6baa50fbfa1f9b84",
         "type": "tabs",
         "children": [
           {
-            "id": "a257c5038cd12b75",
+            "id": "8b8f7ee72fcea8fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -80,14 +80,6 @@
             "type": "leaf",
             "state": {
               "type": "surfing-tab-tree",
-              "state": {}
-            }
-          },
-          {
-            "id": "9c81ad1bc1d69a1a",
-            "type": "leaf",
-            "state": {
-              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
               "state": {}
             }
           }
@@ -217,7 +209,7 @@
             }
           },
           {
-            "id": "a784152444335025",
+            "id": "0405d25c5f856c87",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -284,7 +276,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "a257c5038cd12b75",
+  "active": "8b8f7ee72fcea8fb",
   "lastOpenFiles": [
     "020 - 工作学习/学习/前端/typescript/typescript入门教程.md",
     "040 - Obsidian/主页/00. 主页.md",
