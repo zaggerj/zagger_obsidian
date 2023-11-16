@@ -53,10 +53,21 @@
   },
   "treeData": [
     {
-      "id": "17c340aac6098f21",
+      "id": "df7be3e9e35daeba",
       "parent": 0,
       "droppable": true,
-      "text": "New Tab",
+      "text": "正则表达式工作面板 - Regular Expression Workshop",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "f934a1eaf343faec",
+      "parent": 0,
+      "droppable": true,
+      "text": "正则表达式工作面板 - Regular Expression Workshop",
       "data": {
         "fileType": "site",
         "fileSize": "",

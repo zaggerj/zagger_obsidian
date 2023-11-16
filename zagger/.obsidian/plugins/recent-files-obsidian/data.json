@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "默认",
-      "path": "020 - 工作学习/学习/前端/js小知识点/正则/默认.md"
+      "basename": "正则文章通读",
+      "path": "020 - 工作学习/学习/前端/js小知识点/正则/正则文章通读.md"
+    },
+    {
+      "basename": "00. 参考汇总",
+      "path": "040 - Obsidian/主页/00. 参考汇总.md"
     },
     {
       "basename": "汇总所有在线文档",
@@ -195,10 +199,6 @@
     {
       "basename": "图片清单",
       "path": "004 - Resource/资源/资源素材/图片清单.md"
-    },
-    {
-      "basename": "音乐下载",
-      "path": "004 - Resource/资源/资源素材/音乐下载.md"
     }
   ],
   "omittedPaths": [],
