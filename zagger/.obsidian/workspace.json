@@ -21,26 +21,11 @@
             }
           },
           {
-            "id": "9253542174f18f82",
+            "id": "a2d638f66d386830",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/前端/js小知识点/正则/正则文章通读.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "df7be3e9e35daeba",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "http://www.regexlab.com/zh/workshop.htm?pat=<(\\w%2B)\\s*(\\w%2B(%3D('|\").*%3F\\4)%3F\\s*)*>.*%3F<%2F\\1>&txt=<td+id%3D'td1'+style%3D\"bgcolor%3Awhite\"><%2Ftd>\r\n<body+onload%3D\"doit()\"><%2Fbody>"
-              }
+              "type": "full-calendar-view",
+              "state": {}
             }
           },
           {
@@ -56,8 +41,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -166,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月16日.md"
+                "file": "040 - Obsidian/主页/00. 主页.md"
               }
             }
           },
@@ -192,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月16日.md",
+                "file": "040 - Obsidian/主页/00. 主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月16日.md",
+                "file": "040 - Obsidian/主页/00. 主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,7 +205,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月16日.md"
+                "file": "040 - Obsidian/主页/00. 主页.md"
               }
             }
           },
@@ -311,22 +295,27 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "d33b36a1be80e5c8",
+  "active": "23fad819ff207865",
   "lastOpenFiles": [
-    "040 - Obsidian/模板/tp-改良版笔记模板.md",
+    "040 - Obsidian/模板/tp-改良长青笔记模板.md",
+    "060 - 临时/默认.md",
+    "060 - 临时/vue.md",
+    "040 - Obsidian/主页/00. 主页.md",
+    "040 - Obsidian/Excalidraw/模板使用流程.md",
+    "060 - 临时/2023-11-17.md",
     "020 - 工作学习/学习/前端/js小知识点/正则/正则文章通读.md",
+    "000 - 每日日记/DailyNote/2023年11月16日.md",
+    "040 - Obsidian/模板/tp-改良版笔记模板.md",
     "020 - 工作学习/学习/前端/js小知识点/正则/image.png",
     "040 - Obsidian/主页/00. 参考汇总.md",
     "020 - 工作学习/工作/汇总所有在线文档.md",
     "020 - 工作学习/学习/前端/js小知识点/正则",
-    "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/学习/后端/linux/扩展正则匹配.md",
     "020 - 工作学习/学习/前端/js小知识点/正则/正则.md",
     "020 - 工作学习/学习/开发软实力/正则和算法/空行正则.md",
     "020 - 工作学习/学习/前端/前端杂项/记事本.md",
     "020 - 工作学习/学习/后端/linux/grep.md",
     "020 - 工作学习/学习/后端/linux/glob语法.md",
-    "000 - 每日日记/DailyNote/2023年11月16日.md",
     "pininfo.md",
     "020 - 工作学习/学习/前端/typescript/typescript入门教程.md",
     "040 - Obsidian/Excalidraw/front-end/frontend.md"

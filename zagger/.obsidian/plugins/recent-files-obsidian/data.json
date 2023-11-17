@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "2023年11月16日",
-      "path": "000 - 每日日记/DailyNote/2023年11月16日.md"
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "模板使用流程",
+      "path": "040 - Obsidian/Excalidraw/模板使用流程.md"
     },
     {
       "basename": "正则文章通读",
       "path": "020 - 工作学习/学习/前端/js小知识点/正则/正则文章通读.md"
+    },
+    {
+      "basename": "2023年11月16日",
+      "path": "000 - 每日日记/DailyNote/2023年11月16日.md"
     },
     {
       "basename": "00. 参考汇总",
@@ -15,10 +23,6 @@
     {
       "basename": "汇总所有在线文档",
       "path": "020 - 工作学习/工作/汇总所有在线文档.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "扩展正则匹配",
@@ -187,18 +191,6 @@
     {
       "basename": "4 中英文目录 · 两栏表格版",
       "path": "004 - Resource/医学英语词根词缀分类数据库（首次升级）/医学英语词根词缀分类数据库/00本资料基本信息/主页及目录/01基础分类目录/4 中英文目录 · 两栏表格版.md"
-    },
-    {
-      "basename": "00.素材",
-      "path": "004 - Resource/资源/资源素材/00.素材.md"
-    },
-    {
-      "basename": "00.spice",
-      "path": "020 - 工作学习/工作/业务知识和难题/spice/00.spice.md"
-    },
-    {
-      "basename": "图片清单",
-      "path": "004 - Resource/资源/资源素材/图片清单.md"
     }
   ],
   "omittedPaths": [],

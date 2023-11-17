@@ -1,7 +1,4 @@
 ---
-banner: "040 - Obsidian/附件/banners/daily-note-banner.gif"
----
----
 tags: DailyNote
 searchterm: "#周记"
 banner: "040 - Obsidian/附件/banners/daily-note-banner.gif"
