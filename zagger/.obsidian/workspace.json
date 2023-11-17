@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "060 - 临时/2023-11-17.md",
+                "file": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -255,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "060 - 临时/2023-11-17.md"
+                "file": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md"
               }
             }
           },
@@ -281,7 +281,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "060 - 临时/2023-11-17.md",
+                "file": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -298,7 +298,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "060 - 临时/2023-11-17.md",
+                "file": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -310,7 +310,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "060 - 临时/2023-11-17.md"
+                "file": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md"
               }
             }
           },
@@ -363,7 +363,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -402,9 +403,11 @@
   },
   "active": "cc8b659579783692",
   "lastOpenFiles": [
+    "060 - 临时/2023-11-17.md",
+    "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md",
+    "040 - Obsidian/主页/00. 主页.md",
     "040 - Obsidian/教程/obsidian清单.md",
     "020 - 工作学习/工作/远程、定制化/引发的管理台项目可配置.md",
-    "060 - 临时/2023-11-17.md",
     "004 - Resource/资源/各种软件/xmind破解链接.md",
     "020 - 工作学习/学习/前端/js小知识点/正则/正则.md",
     "020 - 工作学习/学习/前端/angularjs/js-angularjs-ng-options.md",
@@ -414,7 +417,6 @@
     "020 - 工作学习/学习/前端/js小知识点/正则/正则文章通读.md",
     "020 - 工作学习/工作/汇总所有在线文档.md",
     "000 - 每日日记/DailyNote/2023年11月16日.md",
-    "040 - Obsidian/主页/00. 主页.md",
     "060 - 临时/默认.md",
     "060 - 临时/vue.md",
     "040 - Obsidian/Excalidraw/模板使用流程.md",
