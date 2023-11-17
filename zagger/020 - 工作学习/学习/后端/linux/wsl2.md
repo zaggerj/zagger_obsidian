@@ -1,6 +1,6 @@
 ---
 created: 2023-11-03T22:29
-updated: 2023-11-17 21:24:02
+updated: 2023-11-17 22:30:31
 ---
 ## 0.1. 参考链接
 1. [超详细的wsl2下配置Ubuntu教程 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/600519231)
