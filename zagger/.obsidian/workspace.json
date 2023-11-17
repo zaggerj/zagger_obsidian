@@ -5,22 +5,150 @@
     "children": [
       {
         "id": "713cc3171e3f8b15",
+        "id": "6439a51faab3b7de",
         "type": "tabs",
         "children": [
           {
             "id": "a2f66578b224fcc2",
+            "id": "8655c71c4db50b93",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "040 - Obsidian/主页/00. 主页.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a2d638f66d386830",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "d33b36a1be80e5c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2023年11月16日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cc8b659579783692",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0b5e39ec72c0554e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/学习/前端/angularjs/js-angularjs-ng-options.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ff3e1f57561302d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/工作/远程、定制化/引发的管理台项目可配置.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "764a30e680b23101",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "040 - Obsidian/教程/obsidian清单.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9c699da86324540c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "040 - Obsidian/教程/obsidian清单.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1095a26e9088490b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/工作/汇总所有在线文档.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "15045be0f7d3b392",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "004 - Resource/资源/各种软件/xmind破解链接.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e5e7336811394471",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/学习/前端/js小知识点/正则/正则文章通读.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -40,7 +168,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "alphabetical"
               }
             }
           },
@@ -58,7 +186,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "html5",
+                "query": "正则",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,42 +204,10 @@
             }
           },
           {
-            "id": "72af9f44de1e3a7d",
-            "type": "leaf",
-            "state": {
-              "type": "file-tree-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "b1705953f1ac2acf",
-            "type": "leaf",
-            "state": {
-              "type": "tagfolder-view",
-              "state": {}
-            }
-          },
-          {
             "id": "5ca620075b6a18da",
             "type": "leaf",
             "state": {
               "type": "surfing-tab-tree",
-              "state": {}
-            }
-          },
-          {
-            "id": "9c81ad1bc1d69a1a",
-            "type": "leaf",
-            "state": {
-              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
-              "state": {}
-            }
-          },
-          {
-            "id": "2bc6335185a15709",
-            "type": "leaf",
-            "state": {
-              "type": "tagfolder-view",
               "state": {}
             }
           }
@@ -142,12 +238,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 296
+    "width": 275.5
   },
   "right": {
     "id": "49b0f6d6f173189c",
@@ -163,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md"
+                "file": "040 - Obsidian/主页/00. 主页.md""file": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md"
               }
             }
           },
@@ -190,6 +285,7 @@
               "type": "backlink",
               "state": {
                 "file": "040 - Obsidian/主页/00. 主页.md",
+                "file": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,6 +303,7 @@
               "type": "outgoing-link",
               "state": {
                 "file": "040 - Obsidian/主页/00. 主页.md",
+                "file": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +315,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md"
+                "file": "040 - Obsidian/主页/00. 主页.md""file": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md"
               }
             }
           },
@@ -242,6 +339,7 @@
           },
           {
             "id": "6056bd85702f71aa",
+            "id": "d89ec9899ec3780d",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -250,113 +348,97 @@
           }
         ],
         "currentTab": 8
-      },
-      {
-        "id": "888c3f3084370af3",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1e6fe91e5170d39b",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "b6fec8d35877681a",
-            "type": "leaf",
-            "state": {
-              "type": "timeline",
-              "state": {}
-            }
+      ],
+      "currentTab": 7
+    },
+    {
+      "id": "888c3f3084370af3",
+      "type": "tabs",
+      "children": [
+        {
+          "id": "1e6fe91e5170d39b",
+          "type": "leaf",
+          "state": {
+            "type": "calendar",
+            "state": {}
           }
-        ],
-        "currentTab": 1
-      }
-    ],
-    "direction": "horizontal",
-    "width": 313
-  },
-  "left-ribbon": {
-    "hiddenItems": {
-      "omnisearch:Omnisearch": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
-      "homepage:Open homepage": false,
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "markdown-importer:打开 Markdown 格式转换器": true,
-      "zk-prefixer:创建时间戳笔记": true,
-      "random-note:开始漫游笔记": true,
-      "audio-recorder:开始/结束录音": false,
-      "workspaces:管理工作区布局": false,
-      "obsidian-importer:Open Importer": true,
-      "table-editor-obsidian:Advanced Tables Toolbar": true,
-      "mermaid-tools:Open Mermaid Toolbar": true,
-      "obsidian-day-planner:Timeline": true,
-      "cmdr:折叠": false,
-      "custom-sort:Toggle custom sorting": false,
-      "templater-obsidian:Templater": true,
-      "float-search:Search Obsidian In Modal": false,
-      "surfing:surfing-bookmark-manager": false,
-      "big-calendar:Big Calendar": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": true,
-      "periodic-notes:Open today": false,
-      "obsidian-memos:Memos": false
+        },
+        {
+          "id": "b6fec8d35877681a",
+          "type": "leaf",
+          "state": {
+            "type": "timeline",
+            "state": {}
+          }
+        }
+      ],
+      "currentTab": 1
     }
-  },
-  "active": "6056bd85702f71aa",
-  "lastOpenFiles": [
-    "040 - Obsidian/Excalidraw/计算机网络： IP地址，子网掩码，网段表示法，默认网关，DNS服务器详解.md",
-    "040 - Obsidian/Excalidraw/计算机网络: IP地址，子网掩码，网段表示法，默认网关，DNS服务器详解.md",
-    "040 - Obsidian/Excalidraw/计算机网络",
-    "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
-    "040 - Obsidian/主页/00. 主页.md",
-    "040 - Obsidian/主页/00. 文件管理.md",
-    "040 - Obsidian/Excalidraw/front-end.md",
-    "040 - Obsidian/Excalidraw/字符编码问题和二进制.md",
-    "040 - Obsidian/Excalidraw/常见设计模式.md",
-    "040 - Obsidian/Excalidraw/css.md",
-    "040 - Obsidian/Excalidraw/ip.md",
-    "040 - Obsidian/Excalidraw/http.md",
-    "040 - Obsidian/Excalidraw/webpack.md",
-    "040 - Obsidian/Excalidraw/https.md",
-    "040 - Obsidian/Excalidraw/DOM.md",
-    "040 - Obsidian/Excalidraw/计划.md",
-    "040 - Obsidian/Excalidraw/闭包.md",
-    "040 - Obsidian/Excalidraw/call,apply,bind.md",
-    "040 - Obsidian/Excalidraw/flex.md",
-    "040 - Obsidian/Excalidraw/微信小程序.md",
-    "040 - Obsidian/Excalidraw/快捷方式速记.md",
-    "040 - Obsidian/Excalidraw/vscode.md",
-    "040 - Obsidian/Excalidraw/算法：JS-ALGORITHM.md",
-    "040 - Obsidian/Excalidraw/数据结构.md",
-    "040 - Obsidian/Excalidraw/class.md",
-    "040 - Obsidian/Excalidraw/mongodb.md",
-    "040 - Obsidian/Excalidraw/vue2.md",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice项目",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice预研优化",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice问题",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice学习",
-    "020 - 工作学习/工作/工作项目维护/业务知识和难题/spice/spice-web-client代码阅读",
-    "020 - 工作学习/资源",
-    "60 - 临时",
-    "020 - 工作学习/02 软件学习",
-    "040 - Obsidian/模板/tp",
-    "040 - Obsidian/附件/}[YAY}4`V3EH[RB]0}29_00.png",
-    "040 - Obsidian/附件/100911654141903_.pic.jpg",
-    "obsidian配置文件目录/Attachment/assets 9/image5-20230708221750-odzmzc1.jpeg",
-    "obsidian配置文件目录/Attachment/assets 9/image4-20230708221750-wgh63jq.jpeg",
-    "obsidian配置文件目录/Attachment/assets 9/image1-20230708221750-h01538o.jpeg",
-    "记事本/非开发/资源素材/环境安装和软件安装/wsl2前端部署/assets/image-20230705083834-ho3q5yf.png",
-    "记事本/非开发/资源素材/环境安装和软件安装/前端开发环境配置/assets/image1-20230705215226-1i1p2j3.png",
-    "obsidian配置文件目录/Attachment/assets 6-zagger/image-20230705092150-90qfurd.png",
-    "obsidian配置文件目录/Attachment/assets 7-zagger/image-20230713184833-8djjuaw.png",
-    "obsidian配置文件目录/Attachment/assets 7-zagger/image-20230713184819-2zhv1jp.png",
-    "记事本/学习/测试/未命名.canvas"
-  ]
+  ],
+  "direction": "horizontal",
+  "width": 313
+},
+"left-ribbon": {
+  "hiddenItems": {
+    "homepage:Open homepage": false,
+    "templater-obsidian:Templater": false,
+    "obsidian-full-calendar:Open Full Calendar": false,
+    "switcher:打开快速切换": false,
+    "graph:查看关系图谱": false,
+    "canvas:新建白板": false,
+    "daily-notes:打开/创建今天的日记": false,
+    "templates:插入模板": false,
+    "command-palette:打开命令面板": false,
+    "markdown-importer:打开 Markdown 格式转换器": false,
+    "zk-prefixer:创建时间戳笔记": false,
+    "random-note:开始漫游笔记": false,
+    "audio-recorder:开始/结束录音": false,
+    "workspaces:管理工作区布局": false,
+    "obsidian-importer:Open Importer": true,
+    "table-editor-obsidian:Advanced Tables Toolbar": false,
+    "mermaid-tools:Open Mermaid Toolbar": false,
+    "obsidian-day-planner:Timeline": false,
+    "cmdr:折叠": true,
+    "custom-sort:Toggle custom sorting": false,
+    "float-search:Search Obsidian In Modal": false,
+    "surfing:surfing-bookmark-manager": false,
+    "big-calendar:Big Calendar": false,
+    "obsidian-excalidraw-plugin:新建绘图文件": false,
+    "omnisearch:Omnisearch": false,
+    "periodic-notes:Open today": false,
+    "obsidian-memos:Memos": false
+  }
+},
+"active": "cc8b659579783692",
+"lastOpenFiles": [
+  "060 - 临时/2023-11-17.md",
+  "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md",
+  "040 - Obsidian/主页/00. 主页.md",
+  "040 - Obsidian/教程/obsidian清单.md",
+  "020 - 工作学习/工作/远程、定制化/引发的管理台项目可配置.md",
+  "004 - Resource/资源/各种软件/xmind破解链接.md",
+  "020 - 工作学习/学习/前端/js小知识点/正则/正则.md",
+  "020 - 工作学习/学习/前端/angularjs/js-angularjs-ng-options.md",
+  "040 - Obsidian/模板/tp-每日日记模板.md",
+  "040 - Obsidian/模板/tp-改良长青笔记模板.md",
+  "020 - 工作学习/学习/前端/angularjs",
+  "020 - 工作学习/学习/前端/js小知识点/正则/正则文章通读.md",
+  "020 - 工作学习/工作/汇总所有在线文档.md",
+  "000 - 每日日记/DailyNote/2023年11月16日.md",
+  "060 - 临时/默认.md",
+  "060 - 临时/vue.md",
+  "040 - Obsidian/Excalidraw/模板使用流程.md",
+  "040 - Obsidian/模板/tp-改良版笔记模板.md",
+  "020 - 工作学习/学习/前端/js小知识点/正则/image.png",
+  "040 - Obsidian/主页/00. 参考汇总.md",
+  "020 - 工作学习/学习/前端/js小知识点/正则",
+  "020 - 工作学习/学习/后端/linux/扩展正则匹配.md",
+  "020 - 工作学习/学习/开发软实力/正则和算法/空行正则.md",
+  "020 - 工作学习/学习/前端/前端杂项/记事本.md",
+  "020 - 工作学习/学习/后端/linux/grep.md",
+  "020 - 工作学习/学习/后端/linux/glob语法.md",
+  "pininfo.md",
+  "020 - 工作学习/学习/前端/typescript/typescript入门教程.md",
+  "040 - Obsidian/Excalidraw/front-end/frontend.md"
+]
 }

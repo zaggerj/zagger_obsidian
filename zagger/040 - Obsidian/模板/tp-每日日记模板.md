@@ -1,7 +1,14 @@
 ---
-banner: "040 - Obsidian/附件/banners/daily-note-banner.gif"
----
----
+<%-*
+const status = ["#笔记状态/🌱 发芽", "#笔记状态/🪴 培育","#笔记状态/🌲 长青"][0]
+const sourceType = ["#📥/💭 想法 ", "#📥/📚 书籍 ", "#📥/📰️ 文章", "#📥/🗣️ 聊天 ", " #📥/💻 教学", "#📥/▶️ 视频", "#📥/🎧️ 播客"][0]
+const noteType = ["#笔记", "#笔记/MOC"][0]
+const topic = "00.学习-前端"
+const author = "zagger"
+const modifyTime = tp.file.last_modified_date("YYYY-MM-DD dddd HH:mm:ss")
+tp.file.cursor(1);
+-%>
+
 tags: DailyNote
 searchterm: "#周记"
 banner: "040 - Obsidian/附件/banners/daily-note-banner.gif"
@@ -24,13 +31,13 @@ _本文件主旨，并链接到前一天和后一天文件_
 
 _添加一些元数据，方便后续搜索查看等等_
 
-Status:: <% tp.system.suggester(["🌱 发芽状态", "🪴 培育状态", "🌲 长青状态"], ["#笔记状态/🌱 发芽", "#笔记状态/🪴 培育","#笔记状态/🌲 长青"]) %>
-Source Type:: <% tp.system.suggester(["💭 想法", "📚 书籍", "📰️ 文章", "🗣️ 聊天", "💻 教学", "▶️ 视频", "🎧️ 播客"], ["#📥/💭 想法 ", "#📥/📚 书籍 ", "#📥/📰️ 文章", "#📥/🗣️ 聊天 ", " #📥/💻 教学", "#📥/▶️ 视频", "#📥/🎧️ 播客"]) %>
-Note Type:: <% tp.system.suggester(["笔记", "MOC"], ["#笔记", "#笔记/MOC"]) %>
-Topic:: [[<% tp.system.prompt("这个笔记对应的主题MOC ", "DailyNote") %>]]
-Author:: {原资讯的作者或者对话的人或者引起某种想法的原因}
+Status:: <% status %>
+Source Type:: <% sourceType %>
+Note Type:: <% noteType %>
+Topic:: [[<% topic %>]]
+Author:: <% author %>
 Source URL::
-Modify:: `=dateformat(this.file.mtime, "yyyy-MM-dd HH:MM:ss")`
+Modify:: <% modifyTime %>
 
 ## 1.2. 长青笔记
 

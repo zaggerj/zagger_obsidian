@@ -39,13 +39,19 @@ Summary:: obsidian各种文章、博客、文档的连接集合
  4. [Dataview - dataview 文档](https://blacksmithgu.github.io/obsidian-dataview/)
  5. [Templater  github](https://github.com/SilentVoid13/Templater)
  6.  [Templater 文档](https://silentvoid13.github.io/Templater/internal-functions/internal-modules/file-module.html#tpfilefind_tfilefilename-string)
+ 7. 社区：[Community - Obsidian](https://obsidian.md/community)
+ 8. obsidian中午文档：[安卓端app - Obsidian 中文帮助 - Obsidian Publish](https://publish.obsidian.md/help-zh/Obsidian/%E5%AE%89%E5%8D%93%E7%AB%AFapp)
+ 9. obsidian api：[obsidian.d.ts](https://github.com/obsidianmd/obsidian-api/blob/master/obsidian.d.ts#L3871)
 ### 1.4.3 官方ISSUE
 1. [Deprecation of dynamic commands · Issue #913 · SilentVoid13/Templater --- 弃用动态命令 · 问题 #913 · SilentVoid13/Templater (github.com)](https://github.com/SilentVoid13/Templater/issues/913)
-### 1.4.4 示例库
+
+### 1.4.4 obsidian插件编写
+1. [居家隔离，卷了个Obsidian 插件 - 掘金](https://juejin.cn/post/7085563874086223903)
+### 1.4.5 示例库
 1. [PKM-er/Blue-topaz-example: Blue topaz themes example vault for Obsidian (github.com)](https://github.com/PKM-er/Blue-topaz-example)
 2. [GitHub - Rainbell129/Obsidian-Homepage: A dashboard for your obsidian vault.](https://github.com/Rainbell129/Obsidian-Homepage)
 3. [Obsidian-Template-DynamicSchedule: Obsidian 动态日程模板 (gitee.com)](https://gitee.com/goblincwl/Obsidian-Template-DynamicSchedule)
-### 1.4.5 博客
+### 1.4.6 博客
 1. [[ Obsidian ] 模板分享：自动化动态创建日程表 - 哔哩哔哩 (bilibili.com)](https://www.bilibili.com/read/cv23768479/)
 2. [Obsidian 主题常见问题 (pkmer.cn)](https://pkmer.cn/Pkmer-Docs/10-obsidian/obsidian%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E6%B1%87%E6%80%BB/obsidian%E4%B8%BB%E9%A2%98%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/)
 3. [Obsidian 极简日记配置教程 - 哔哩哔哩 (bilibili.com)](https://www.bilibili.com/read/cv21481911/)
@@ -76,6 +82,7 @@ Summary:: obsidian各种文章、博客、文档的连接集合
 28. [英语词根词缀分类资料库 · 主页（表格版） - 基础汉英类义词典 - Obsidian Publish](https://publish.obsidian.md/thesaurus/%E8%8B%B1%E8%AF%AD%E8%AF%8D%E4%B9%89%E5%88%86%E7%B1%BB%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%88%E5%A4%A7%E5%AD%A6%E7%89%88%EF%BC%89/%E8%8B%B1%E8%AF%AD%E8%AF%8D%E6%A0%B9%E8%AF%8D%E7%BC%80%E5%88%86%E7%B1%BB%E6%95%B0%E6%8D%AE%E5%BA%93/00%E6%9C%AC%E5%BA%93%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF/%E8%8B%B1%E8%AF%AD%E8%AF%8D%E6%A0%B9%E8%AF%8D%E7%BC%80%E5%88%86%E7%B1%BB%E8%B5%84%E6%96%99%E5%BA%93+%C2%B7+%E4%B8%BB%E9%A1%B5%EF%BC%88%E8%A1%A8%E6%A0%BC%E7%89%88%EF%BC%89)
 29. [顶级学霸笔记工具/Obsidian文件自动归类/让笔记管理更高效/Dataview和query\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1h94y1G7Y4/?spm_id_from=..search-card.all.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 30. [如何用 obsidian 和 flomo 搭建知识体系](https://www.douban.com/note/824956668/?_i=9942129SuLBy95)
+31. [想一小时上手obsidian？这一篇就够了。【玩转Obsidian的保姆级教程】 - 知乎](https://zhuanlan.zhihu.com/p/428519519)
 
 ## 1.5 相关文章
 *摘抄来源，引用出处，参考链接，文档查询*

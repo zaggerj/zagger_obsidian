@@ -3,7 +3,6 @@ alias:
 tags: 长青笔记
 cdate: 2023-11-15 16:31
 uid: 20231115163202
-update: NaN
 searchterm: "#长青笔记"
 banner: 040 - Obsidian/附件/banners/book-banner.gif
 cssclass: noyaml
@@ -11,7 +10,7 @@ banner_icon: 💌
 banner_x: 0.5
 banner_y: 0.38
 created: 2023-11-15 16:31:43
-updated: 2023-11-15 20:24:55
+updated: 2023-11-17 14:51:45
 ---
 
 # 1. tsconfig.json

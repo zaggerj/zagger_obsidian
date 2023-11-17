@@ -3,11 +3,10 @@ alias:
 tags: 
 cdate: 2023-11-13 11:45
 uid: 20231113130014
-update: NaN
 cssclass: 
 cover: 
 created: 2023-11-13T11:45
-updated: 2023-11-14T10:59
+updated: 2023-11-17 14:51:44
 ---
 
 # 1. windicss远程使用场景

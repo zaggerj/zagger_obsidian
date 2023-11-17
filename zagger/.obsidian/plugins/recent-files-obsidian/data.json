@@ -1,24 +1,96 @@
 {
   "recentFiles": [
     {
+      "basename": "spice-鼠标问题-双鼠标",
+      "path": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md"
+    },
+    {
+      "basename": "2023-11-17",
+      "path": "060 - 临时/2023-11-17.md"
+    },
+    {
       "basename": "00. 主页",
       "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "obsidian清单",
+      "path": "040 - Obsidian/教程/obsidian清单.md"
+    },
+    {
+      "basename": "引发的管理台项目可配置",
+      "path": "020 - 工作学习/工作/远程、定制化/引发的管理台项目可配置.md"
+    },
+    {
+      "basename": "xmind破解链接",
+      "path": "004 - Resource/资源/各种软件/xmind破解链接.md"
+    },
+    {
+      "basename": "正则",
+      "path": "020 - 工作学习/学习/前端/js小知识点/正则/正则.md"
+    },
+    {
+      "basename": "js-angularjs-ng-options",
+      "path": "020 - 工作学习/学习/前端/angularjs/js-angularjs-ng-options.md"
+    },
+    {
+      "basename": "tp-每日日记模板",
+      "path": "040 - Obsidian/模板/tp-每日日记模板.md"
+    },
+    {
+      "basename": "tp-改良长青笔记模板",
+      "path": "040 - Obsidian/模板/tp-改良长青笔记模板.md"
+    },
+    {
+      "basename": "正则文章通读",
+      "path": "020 - 工作学习/学习/前端/js小知识点/正则/正则文章通读.md"
     },
     {
       "basename": "汇总所有在线文档",
       "path": "020 - 工作学习/工作/汇总所有在线文档.md"
     },
     {
-      "basename": "front-end",
-      "path": "040 - Obsidian/Excalidraw/front-end.md"
+      "basename": "2023年11月16日",
+      "path": "000 - 每日日记/DailyNote/2023年11月16日.md"
     },
     {
-      "basename": "00.学习-前端",
-      "path": "020 - 工作学习/学习/前端/00.学习-前端.md"
+      "basename": "模板使用流程",
+      "path": "040 - Obsidian/Excalidraw/模板使用流程.md"
+    },
+    {
+      "basename": "00. 参考汇总",
+      "path": "040 - Obsidian/主页/00. 参考汇总.md"
+    },
+    {
+      "basename": "扩展正则匹配",
+      "path": "020 - 工作学习/学习/后端/linux/扩展正则匹配.md"
+    },
+    {
+      "basename": "空行正则",
+      "path": "020 - 工作学习/学习/开发软实力/正则和算法/空行正则.md"
+    },
+    {
+      "basename": "记事本",
+      "path": "020 - 工作学习/学习/前端/前端杂项/记事本.md"
+    },
+    {
+      "basename": "grep",
+      "path": "020 - 工作学习/学习/后端/linux/grep.md"
+    },
+    {
+      "basename": "glob语法",
+      "path": "020 - 工作学习/学习/后端/linux/glob语法.md"
+    },
+    {
+      "basename": "frontend",
+      "path": "040 - Obsidian/Excalidraw/front-end/frontend.md"
     },
     {
       "basename": "场景切换过程图解",
       "path": "040 - Obsidian/Excalidraw/场景切换过程图解.md"
+    },
+    {
+      "basename": "00.学习-前端",
+      "path": "020 - 工作学习/学习/前端/00.学习-前端.md"
     },
     {
       "basename": "2023年11月15日",
@@ -49,10 +121,6 @@
       "path": "040 - Obsidian/模板/tp-长青笔记模板.md"
     },
     {
-      "basename": "tp-每日日记模板",
-      "path": "040 - Obsidian/模板/tp-每日日记模板.md"
-    },
-    {
       "basename": "typescript入门教程",
       "path": "020 - 工作学习/学习/前端/typescript/typescript入门教程.md"
     },
@@ -77,16 +145,8 @@
       "path": "004 - Resource/资源/00.资源导航.md"
     },
     {
-      "basename": "obsidian清单",
-      "path": "040 - Obsidian/教程/obsidian清单.md"
-    },
-    {
       "basename": "obsidian贴图",
       "path": "040 - Obsidian/教程/obsidian贴图.md"
-    },
-    {
-      "basename": "引发的管理台项目可配置",
-      "path": "020 - 工作学习/工作/远程、定制化/引发的管理台项目可配置.md"
     },
     {
       "basename": "浏览器插件下载网站地址",
@@ -139,62 +199,6 @@
     {
       "basename": "02 手动选择模板",
       "path": "040 - Obsidian/模板/02 手动选择模板.md"
-    },
-    {
-      "basename": "欧陆词典-配置",
-      "path": "004 - Resource/资源/各种软件/欧陆词典-配置.md"
-    },
-    {
-      "basename": "1 中英文目录 · 文字版",
-      "path": "004 - Resource/医学英语词根词缀分类数据库（首次升级）/医学英语词根词缀分类数据库/00本资料基本信息/主页及目录/01基础分类目录/1 中英文目录 · 文字版.md"
-    },
-    {
-      "basename": "4 中英文目录 · 两栏表格版",
-      "path": "004 - Resource/医学英语词根词缀分类数据库（首次升级）/医学英语词根词缀分类数据库/00本资料基本信息/主页及目录/01基础分类目录/4 中英文目录 · 两栏表格版.md"
-    },
-    {
-      "basename": "00.素材",
-      "path": "004 - Resource/资源/资源素材/00.素材.md"
-    },
-    {
-      "basename": "00.spice",
-      "path": "020 - 工作学习/工作/业务知识和难题/spice/00.spice.md"
-    },
-    {
-      "basename": "图片清单",
-      "path": "004 - Resource/资源/资源素材/图片清单.md"
-    },
-    {
-      "basename": "音乐下载",
-      "path": "004 - Resource/资源/资源素材/音乐下载.md"
-    },
-    {
-      "basename": "excel学习清单",
-      "path": "004 - Resource/资源/资源素材/excel学习清单.md"
-    },
-    {
-      "basename": "ai工具清单",
-      "path": "004 - Resource/资源/ai工具/ai工具清单.md"
-    },
-    {
-      "basename": "翻墙清单",
-      "path": "004 - Resource/资源/翻墙/翻墙清单.md"
-    },
-    {
-      "basename": "00. 工作",
-      "path": "020 - 工作学习/工作/00. 工作.md"
-    },
-    {
-      "basename": "macos软件安装",
-      "path": "004 - Resource/资源/各种软件/macos软件安装.md"
-    },
-    {
-      "basename": "快捷键",
-      "path": "004 - Resource/资源/各种软件/win11快捷键/快捷键.md"
-    },
-    {
-      "basename": "截图",
-      "path": "004 - Resource/资源/各种软件/win11快捷键/截图.md"
     }
   ],
   "omittedPaths": [],

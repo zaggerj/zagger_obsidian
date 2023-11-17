@@ -1,7 +1,5 @@
 ---
 defines-react-components: true
-created: 2023-11-13 08:33:05
-updated: 2023-11-14 22:45:25
 ---
 
 ```jsx:component:ShowI
