@@ -13,7 +13,6 @@ alias:
 tags: 长青笔记
 cdate: <% tp.file.creation_date() %>
 uid: <% tp.date.now("YYYYMMDDHHmmss") %>
-update: <%+ tp.file.last_modified_date("YYYY-MM-DD dddd HH:mm:ss") %>
 searchterm: "#长青笔记"
 banner: "040 - Obsidian/附件/banners/book-banner.gif"
 cssclass: noyaml

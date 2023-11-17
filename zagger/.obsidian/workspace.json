@@ -60,7 +60,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "060 - 临时/js-angualrjs-ng-options.md",
+                "file": "020 - 工作学习/学习/前端/angularjs/js-angularjs-ng-options.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -112,7 +112,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "020 - 工作学习/学习/前端/js小知识点/正则/正则.md",
+                "file": "004 - Resource/资源/各种软件/xmind破解链接.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -133,7 +133,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -242,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "060 - 临时/js-angualrjs-ng-options.md"
+                "file": "004 - Resource/资源/各种软件/xmind破解链接.md"
               }
             }
           },
@@ -268,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "060 - 临时/js-angualrjs-ng-options.md",
+                "file": "004 - Resource/资源/各种软件/xmind破解链接.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,7 +285,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "060 - 临时/js-angualrjs-ng-options.md",
+                "file": "004 - Resource/资源/各种软件/xmind破解链接.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -297,7 +297,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "060 - 临时/js-angualrjs-ng-options.md"
+                "file": "004 - Resource/资源/各种软件/xmind破解链接.md"
               }
             }
           },
@@ -387,18 +387,21 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "0b5e39ec72c0554e",
+  "active": "15045be0f7d3b392",
   "lastOpenFiles": [
+    "020 - 工作学习/学习/前端/js小知识点/正则/正则.md",
+    "004 - Resource/资源/各种软件/xmind破解链接.md",
     "060 - 临时/2023-11-17.md",
-    "060 - 临时/js-angualrjs-ng-options.md",
     "020 - 工作学习/工作/远程、定制化/引发的管理台项目可配置.md",
+    "020 - 工作学习/学习/前端/angularjs/js-angularjs-ng-options.md",
+    "040 - Obsidian/模板/tp-每日日记模板.md",
+    "040 - Obsidian/模板/tp-改良长青笔记模板.md",
+    "020 - 工作学习/学习/前端/angularjs",
     "040 - Obsidian/教程/obsidian清单.md",
     "020 - 工作学习/学习/前端/js小知识点/正则/正则文章通读.md",
-    "020 - 工作学习/学习/前端/js小知识点/正则/正则.md",
     "020 - 工作学习/工作/汇总所有在线文档.md",
     "000 - 每日日记/DailyNote/2023年11月16日.md",
     "040 - Obsidian/主页/00. 主页.md",
-    "040 - Obsidian/模板/tp-改良长青笔记模板.md",
     "060 - 临时/默认.md",
     "060 - 临时/vue.md",
     "040 - Obsidian/Excalidraw/模板使用流程.md",
