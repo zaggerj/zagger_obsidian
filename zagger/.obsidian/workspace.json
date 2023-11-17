@@ -8,46 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b2dbc689f02eaff0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "56c2b78da0daff99",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "36e5f262156dabaa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "004 - Resource/资源/各种软件/macos软件安装.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0a535df5f18ffd7d",
+            "id": "536fec4ea3aacf2e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -58,58 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "ddbf8e6c53021b90",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/后端/linux/wsl2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f893d400bf15118c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "004 - Resource/资源/环境安装和软件安装/wsl2前端部署/wsl2前端部署.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2f44c92112efbea9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "004 - Resource/资源/环境安装和软件安装/迁移wsl2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "536fec4ea3aacf2e",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://www.nerdfonts.com/font-downloads"
-              }
-            }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -218,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "004 - Resource/资源/环境安装和软件安装/迁移wsl2.md"
+                "file": "004 - Resource/资源/各种软件/vim学习/vim学习.md"
               }
             }
           },
@@ -244,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "004 - Resource/资源/环境安装和软件安装/迁移wsl2.md",
+                "file": "004 - Resource/资源/各种软件/vim学习/vim学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -261,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "004 - Resource/资源/环境安装和软件安装/迁移wsl2.md",
+                "file": "004 - Resource/资源/各种软件/vim学习/vim学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -273,7 +184,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "004 - Resource/资源/环境安装和软件安装/迁移wsl2.md"
+                "file": "004 - Resource/资源/各种软件/vim学习/vim学习.md"
               }
             }
           },
@@ -296,7 +207,7 @@
             }
           },
           {
-            "id": "0fc56874e151b5b1",
+            "id": "c26ef6db0b9c39ac",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -363,15 +274,15 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "2f44c92112efbea9",
+  "active": "23fad819ff207865",
   "lastOpenFiles": [
+    "004 - Resource/资源/各种软件/vim学习/neovim.md",
+    "040 - Obsidian/主页/00. 主页.md",
     "004 - Resource/资源/环境安装和软件安装/wsl2前端部署/wsl2前端部署.md",
     "020 - 工作学习/学习/后端/linux/wsl2.md",
     "004 - Resource/资源/各种软件/vim学习/vim学习.md",
-    "004 - Resource/资源/各种软件/vim学习/neovim.md",
     "004 - Resource/资源/各种软件/macos软件安装.md",
     "004 - Resource/资源/翻墙/翻墙清单.md",
-    "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md",
-    "040 - Obsidian/主页/00. 主页.md"
+    "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md"
   ]
 }
