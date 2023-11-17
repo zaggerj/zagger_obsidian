@@ -39,6 +39,9 @@ Summary:: obsidian各种文章、博客、文档的连接集合
  4. [Dataview - dataview 文档](https://blacksmithgu.github.io/obsidian-dataview/)
  5. [Templater  github](https://github.com/SilentVoid13/Templater)
  6.  [Templater 文档](https://silentvoid13.github.io/Templater/internal-functions/internal-modules/file-module.html#tpfilefind_tfilefilename-string)
+ 7. 社区：[Community - Obsidian](https://obsidian.md/community)
+ 8. obsidian中午文档：[安卓端app - Obsidian 中文帮助 - Obsidian Publish](https://publish.obsidian.md/help-zh/Obsidian/%E5%AE%89%E5%8D%93%E7%AB%AFapp)
+ 9. obsidian api：[obsidian.d.ts](https://github.com/obsidianmd/obsidian-api/blob/master/obsidian.d.ts#L3871)
 ### 1.4.3 官方ISSUE
 1. [Deprecation of dynamic commands · Issue #913 · SilentVoid13/Templater --- 弃用动态命令 · 问题 #913 · SilentVoid13/Templater (github.com)](https://github.com/SilentVoid13/Templater/issues/913)
 ### 1.4.4 示例库

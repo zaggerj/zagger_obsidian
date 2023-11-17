@@ -50,7 +50,72 @@
                 "file": "060 - 临时/2023-11-17.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": true
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ff3e1f57561302d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/工作/远程、定制化/引发的管理台项目可配置.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9c699da86324540c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "040 - Obsidian/教程/obsidian清单.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1095a26e9088490b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/工作/汇总所有在线文档.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "15045be0f7d3b392",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/学习/前端/js小知识点/正则/正则.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e5e7336811394471",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/学习/前端/js小知识点/正则/正则文章通读.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -311,21 +376,23 @@
   },
   "active": "cc8b659579783692",
   "lastOpenFiles": [
+    "020 - 工作学习/工作/远程、定制化/引发的管理台项目可配置.md",
+    "040 - Obsidian/教程/obsidian清单.md",
+    "020 - 工作学习/学习/前端/js小知识点/正则/正则文章通读.md",
+    "020 - 工作学习/学习/前端/js小知识点/正则/正则.md",
+    "020 - 工作学习/工作/汇总所有在线文档.md",
     "000 - 每日日记/DailyNote/2023年11月16日.md",
-    "040 - Obsidian/主页/00. 主页.md",
     "060 - 临时/2023-11-17.md",
+    "040 - Obsidian/主页/00. 主页.md",
     "040 - Obsidian/模板/tp-改良长青笔记模板.md",
     "060 - 临时/默认.md",
     "060 - 临时/vue.md",
     "040 - Obsidian/Excalidraw/模板使用流程.md",
-    "020 - 工作学习/学习/前端/js小知识点/正则/正则文章通读.md",
     "040 - Obsidian/模板/tp-改良版笔记模板.md",
     "020 - 工作学习/学习/前端/js小知识点/正则/image.png",
     "040 - Obsidian/主页/00. 参考汇总.md",
-    "020 - 工作学习/工作/汇总所有在线文档.md",
     "020 - 工作学习/学习/前端/js小知识点/正则",
     "020 - 工作学习/学习/后端/linux/扩展正则匹配.md",
-    "020 - 工作学习/学习/前端/js小知识点/正则/正则.md",
     "020 - 工作学习/学习/开发软实力/正则和算法/空行正则.md",
     "020 - 工作学习/学习/前端/前端杂项/记事本.md",
     "020 - 工作学习/学习/后端/linux/grep.md",

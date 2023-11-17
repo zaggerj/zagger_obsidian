@@ -1,14 +1,14 @@
 ---
 banner: 040 - Obsidian/附件/banners/book-banner.gif
 created: 2023-11-14 16:39:15
-updated: 2023-11-16 13:06:45
+updated: 2023-11-17 14:51:45
 ---
 ---
 alias: 
 tags: 长青笔记
 cdate: 2023-11-14 16:39
 uid: 20231114163923
-update: NaN
+
 searchterm: "#长青笔记"
 banner: 040 - Obsidian/附件/banners/book-banner.gif
 cssclass: noyaml
