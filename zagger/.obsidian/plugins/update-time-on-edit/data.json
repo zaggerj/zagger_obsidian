@@ -703,7 +703,7 @@
     "020 - 工作学习/学习/后端/linux/zim安装.md": "6d52801bb7a158ce3c83a061cc55f30a28b2b9c60ccb09b03043a8578e14697f",
     "020 - 工作学习/学习/后端/linux/扩展正则匹配.md": "4234db43123d55ab9e49034089c0b3b99ef84a32b480a43a2160f38692dfa32e",
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md": "3a8662de5b457cd399a3df1d4071741e7a157060c034137bd0456a32978a512b",
-    "020 - 工作学习/学习/后端/linux/wsl2.md": "3850b7961fd9b986eaca3a8b370cbf3159a0581f09d494868e97cb6164478caa",
+    "020 - 工作学习/学习/后端/linux/wsl2.md": "499c3f2d31b0f90adb59d6c0dfb1eadb9bbee36f31a045bf8c644d738076b2b8",
     "020 - 工作学习/学习/后端/docker/a docker讲得比较好的文章/a docke实战 - 5.4.0docker容器化.md": "b07d36c400cb70adfadf7c6034b1a95626f3035f19b174aaa963f9a9cd2dedab",
     "020 - 工作学习/学习/后端/docker/a docker讲得比较好的文章/a docker讲得比较好的文章.md": "cd08c17cd96103663880aa7f1933a2d5d0b45af44c2129ff623f275322007c28",
     "020 - 工作学习/学习/后端/docker/a docker讲得比较好的文章/a docker实战 - 禅道卫士维护 2023.0606.md": "a096fbbb04665472d4617a96d8657e8db3f6028c397e10d4c564fb460d243c3f",
@@ -893,6 +893,11 @@
     "020 - 工作学习/学习/前端/typescript/tsconfig.json.md": "ab6f280dfdebeeadca3a7478a31f4c438cebb49bdc5e7964911d567ea62d1607",
     "020 - 工作学习/学习/前端/angularjs/js-angularjs-ng-options.md": "1c2f1828d3e92455d0e5844df27156c0c513ec319dc8d2c546df08960bed7e6c",
     "004 - Resource/资源/各种软件/xmind破解链接.md": "a771b35ae3e271006910b393457ca7f254a538cc3897bf956a7603248499e97b",
-    "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md": "2ce40bd6b9d64a1dbea66c4be041a79e362960ff54792afe3722c1a3e2553673"
+    "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md": "9ebac8bb5218ec7fd424cd8003a63a5a83976cf3b416d3825fd8513159cb6fe5",
+    "004 - Resource/资源/翻墙/翻墙清单.md": "0e800b5952ed3ee4b6cf28fff9c7f4960c3b22eb80f748addb748aea93b3e6c5",
+    "004 - Resource/资源/各种软件/macos软件安装.md": "3cc0d7d63d365e7848cefa1f771689b9a0e48404d1873289839fb36b455a4486",
+    "004 - Resource/资源/各种软件/vim学习/neovim.md": "da20ee1a32829951f3fee5dd0caeb82163099b2c7aa0f5360a484482356f8496",
+    "004 - Resource/资源/各种软件/vim学习/vim学习.md": "c52a28c2c6844e01e6ec2a0fd0093b2ed98433401674b35e41fbebed4bd52547",
+    "004 - Resource/资源/环境安装和软件安装/迁移wsl2.md": "5c243af2aef18a147eadf93f6a545ed4f6ba26093b7e968bff410f9acc0eb663"
   }
 }

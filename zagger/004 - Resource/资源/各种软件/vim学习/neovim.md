@@ -1,11 +1,11 @@
 ---
 tags: 资源/软件安装
 created: 2023-11-03T22:29
-updated: 2023-11-14T09:21
+updated: 2023-11-17 21:18:53
 ---
-# neovim
+# 1. neovim
 
-# 安装neovim (推荐)
+# 2. 安装neovim (推荐)
 
 ```js
 apt remove neovim 
@@ -17,7 +17,7 @@ cd /usr/bin
 ln -s  ~/nvim-linux64/bin/nvim ./nvim
 ```
 
-# neovim安装（ubuntu 22.04） 最终安装是 7版本，不够用 （废弃）
+# 3. neovim安装（ubuntu 22.04） 最终安装是 7版本，不够用 （废弃）
 
 　　https://github.com/neovim/neovim/wiki/Installing-Neovim#[ubuntu](https://so.csdn.net/so/search?q=ubuntu&spm=1001.2101.3001.7020)
 

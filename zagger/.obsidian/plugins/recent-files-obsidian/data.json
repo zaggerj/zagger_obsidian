@@ -1,16 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "迁移wsl2",
+      "path": "004 - Resource/资源/环境安装和软件安装/迁移wsl2.md"
+    },
+    {
+      "basename": "wsl2前端部署",
+      "path": "004 - Resource/资源/环境安装和软件安装/wsl2前端部署/wsl2前端部署.md"
+    },
+    {
+      "basename": "wsl2",
+      "path": "020 - 工作学习/学习/后端/linux/wsl2.md"
+    },
+    {
+      "basename": "vim学习",
+      "path": "004 - Resource/资源/各种软件/vim学习/vim学习.md"
+    },
+    {
+      "basename": "neovim",
+      "path": "004 - Resource/资源/各种软件/vim学习/neovim.md"
+    },
+    {
+      "basename": "macos软件安装",
+      "path": "004 - Resource/资源/各种软件/macos软件安装.md"
+    },
+    {
+      "basename": "翻墙清单",
+      "path": "004 - Resource/资源/翻墙/翻墙清单.md"
+    },
+    {
       "basename": "spice-鼠标问题-双鼠标",
       "path": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md"
     },
     {
-      "basename": "2023-11-17",
-      "path": "060 - 临时/2023-11-17.md"
-    },
-    {
       "basename": "00. 主页",
       "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "2023-11-17",
+      "path": "060 - 临时/2023-11-17.md"
     },
     {
       "basename": "obsidian清单",
@@ -171,34 +199,6 @@
     {
       "basename": "windicss远程使用场景",
       "path": "020 - 工作学习/工作/远程、定制化/windicss远程使用场景.md"
-    },
-    {
-      "basename": "2023年45周记录",
-      "path": "000 - 每日日记/WeeklyNote/2023年45周记录.md"
-    },
-    {
-      "basename": "IT技术网站",
-      "path": "004 - Resource/资源/学习网站收录/IT技术网站.md"
-    },
-    {
-      "basename": "00.学习网站",
-      "path": "004 - Resource/资源/学习网站收录/00.学习网站.md"
-    },
-    {
-      "basename": "00.环境配置",
-      "path": "004 - Resource/资源/环境安装和软件安装/00.环境配置.md"
-    },
-    {
-      "basename": "tp-默认笔记模板",
-      "path": "040 - Obsidian/模板/tp-默认笔记模板.md"
-    },
-    {
-      "basename": "01 自动选择模板",
-      "path": "040 - Obsidian/模板/01 自动选择模板.md"
-    },
-    {
-      "basename": "02 手动选择模板",
-      "path": "040 - Obsidian/模板/02 手动选择模板.md"
     }
   ],
   "omittedPaths": [],

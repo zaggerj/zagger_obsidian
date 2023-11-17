@@ -4,13 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "713cc3171e3f8b15",
-        "id": "6439a51faab3b7de",
+        "id": "a41206aec133bba3",
         "type": "tabs",
         "children": [
           {
-            "id": "a2f66578b224fcc2",
-            "id": "8655c71c4db50b93",
+            "id": "b2dbc689f02eaff0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -23,28 +21,7 @@
             }
           },
           {
-            "id": "a2d638f66d386830",
-            "type": "leaf",
-            "state": {
-              "type": "full-calendar-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "d33b36a1be80e5c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月16日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cc8b659579783692",
+            "id": "56c2b78da0daff99",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -57,12 +34,12 @@
             }
           },
           {
-            "id": "0b5e39ec72c0554e",
+            "id": "36e5f262156dabaa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "020 - 工作学习/学习/前端/angularjs/js-angularjs-ng-options.md",
+                "file": "004 - Resource/资源/各种软件/macos软件安装.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,12 +47,12 @@
             }
           },
           {
-            "id": "ff3e1f57561302d6",
+            "id": "0a535df5f18ffd7d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "020 - 工作学习/工作/远程、定制化/引发的管理台项目可配置.md",
+                "file": "004 - Resource/资源/各种软件/vim学习/vim学习.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -83,12 +60,12 @@
             }
           },
           {
-            "id": "764a30e680b23101",
+            "id": "ddbf8e6c53021b90",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "040 - Obsidian/教程/obsidian清单.md",
+                "file": "020 - 工作学习/学习/后端/linux/wsl2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -96,12 +73,12 @@
             }
           },
           {
-            "id": "9c699da86324540c",
+            "id": "f893d400bf15118c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "040 - Obsidian/教程/obsidian清单.md",
+                "file": "004 - Resource/资源/环境安装和软件安装/wsl2前端部署/wsl2前端部署.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -109,12 +86,12 @@
             }
           },
           {
-            "id": "1095a26e9088490b",
+            "id": "2f44c92112efbea9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "020 - 工作学习/工作/汇总所有在线文档.md",
+                "file": "004 - Resource/资源/环境安装和软件安装/迁移wsl2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -122,33 +99,17 @@
             }
           },
           {
-            "id": "15045be0f7d3b392",
+            "id": "536fec4ea3aacf2e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "surfing-view",
               "state": {
-                "file": "004 - Resource/资源/各种软件/xmind破解链接.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e5e7336811394471",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/前端/js小知识点/正则/正则文章通读.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "url": "https://www.nerdfonts.com/font-downloads"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -186,7 +147,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "正则",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -211,8 +172,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "73db95bfb166faa1",
@@ -258,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md""file": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md"
+                "file": "004 - Resource/资源/环境安装和软件安装/迁移wsl2.md"
               }
             }
           },
@@ -284,8 +244,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md",
-                "file": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md",
+                "file": "004 - Resource/资源/环境安装和软件安装/迁移wsl2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -302,8 +261,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md",
-                "file": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md",
+                "file": "004 - Resource/资源/环境安装和软件安装/迁移wsl2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -315,7 +273,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md""file": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md"
+                "file": "004 - Resource/资源/环境安装和软件安装/迁移wsl2.md"
               }
             }
           },
@@ -338,8 +296,7 @@
             }
           },
           {
-            "id": "6056bd85702f71aa",
-            "id": "d89ec9899ec3780d",
+            "id": "0fc56874e151b5b1",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -348,97 +305,73 @@
           }
         ],
         "currentTab": 8
-      ],
-      "currentTab": 7
-    },
-    {
-      "id": "888c3f3084370af3",
-      "type": "tabs",
-      "children": [
-        {
-          "id": "1e6fe91e5170d39b",
-          "type": "leaf",
-          "state": {
-            "type": "calendar",
-            "state": {}
+      },
+      {
+        "id": "888c3f3084370af3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1e6fe91e5170d39b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "b6fec8d35877681a",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
           }
-        },
-        {
-          "id": "b6fec8d35877681a",
-          "type": "leaf",
-          "state": {
-            "type": "timeline",
-            "state": {}
-          }
-        }
-      ],
-      "currentTab": 1
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 313
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "homepage:Open homepage": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "zk-prefixer:创建时间戳笔记": false,
+      "random-note:开始漫游笔记": false,
+      "audio-recorder:开始/结束录音": false,
+      "workspaces:管理工作区布局": false,
+      "obsidian-importer:Open Importer": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-day-planner:Timeline": false,
+      "cmdr:折叠": true,
+      "custom-sort:Toggle custom sorting": false,
+      "float-search:Search Obsidian In Modal": false,
+      "surfing:surfing-bookmark-manager": false,
+      "big-calendar:Big Calendar": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "omnisearch:Omnisearch": false,
+      "periodic-notes:Open today": false,
+      "obsidian-memos:Memos": false
     }
-  ],
-  "direction": "horizontal",
-  "width": 313
-},
-"left-ribbon": {
-  "hiddenItems": {
-    "homepage:Open homepage": false,
-    "templater-obsidian:Templater": false,
-    "obsidian-full-calendar:Open Full Calendar": false,
-    "switcher:打开快速切换": false,
-    "graph:查看关系图谱": false,
-    "canvas:新建白板": false,
-    "daily-notes:打开/创建今天的日记": false,
-    "templates:插入模板": false,
-    "command-palette:打开命令面板": false,
-    "markdown-importer:打开 Markdown 格式转换器": false,
-    "zk-prefixer:创建时间戳笔记": false,
-    "random-note:开始漫游笔记": false,
-    "audio-recorder:开始/结束录音": false,
-    "workspaces:管理工作区布局": false,
-    "obsidian-importer:Open Importer": true,
-    "table-editor-obsidian:Advanced Tables Toolbar": false,
-    "mermaid-tools:Open Mermaid Toolbar": false,
-    "obsidian-day-planner:Timeline": false,
-    "cmdr:折叠": true,
-    "custom-sort:Toggle custom sorting": false,
-    "float-search:Search Obsidian In Modal": false,
-    "surfing:surfing-bookmark-manager": false,
-    "big-calendar:Big Calendar": false,
-    "obsidian-excalidraw-plugin:新建绘图文件": false,
-    "omnisearch:Omnisearch": false,
-    "periodic-notes:Open today": false,
-    "obsidian-memos:Memos": false
-  }
-},
-"active": "cc8b659579783692",
-"lastOpenFiles": [
-  "060 - 临时/2023-11-17.md",
-  "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md",
-  "040 - Obsidian/主页/00. 主页.md",
-  "040 - Obsidian/教程/obsidian清单.md",
-  "020 - 工作学习/工作/远程、定制化/引发的管理台项目可配置.md",
-  "004 - Resource/资源/各种软件/xmind破解链接.md",
-  "020 - 工作学习/学习/前端/js小知识点/正则/正则.md",
-  "020 - 工作学习/学习/前端/angularjs/js-angularjs-ng-options.md",
-  "040 - Obsidian/模板/tp-每日日记模板.md",
-  "040 - Obsidian/模板/tp-改良长青笔记模板.md",
-  "020 - 工作学习/学习/前端/angularjs",
-  "020 - 工作学习/学习/前端/js小知识点/正则/正则文章通读.md",
-  "020 - 工作学习/工作/汇总所有在线文档.md",
-  "000 - 每日日记/DailyNote/2023年11月16日.md",
-  "060 - 临时/默认.md",
-  "060 - 临时/vue.md",
-  "040 - Obsidian/Excalidraw/模板使用流程.md",
-  "040 - Obsidian/模板/tp-改良版笔记模板.md",
-  "020 - 工作学习/学习/前端/js小知识点/正则/image.png",
-  "040 - Obsidian/主页/00. 参考汇总.md",
-  "020 - 工作学习/学习/前端/js小知识点/正则",
-  "020 - 工作学习/学习/后端/linux/扩展正则匹配.md",
-  "020 - 工作学习/学习/开发软实力/正则和算法/空行正则.md",
-  "020 - 工作学习/学习/前端/前端杂项/记事本.md",
-  "020 - 工作学习/学习/后端/linux/grep.md",
-  "020 - 工作学习/学习/后端/linux/glob语法.md",
-  "pininfo.md",
-  "020 - 工作学习/学习/前端/typescript/typescript入门教程.md",
-  "040 - Obsidian/Excalidraw/front-end/frontend.md"
-]
+  },
+  "active": "2f44c92112efbea9",
+  "lastOpenFiles": [
+    "004 - Resource/资源/环境安装和软件安装/wsl2前端部署/wsl2前端部署.md",
+    "020 - 工作学习/学习/后端/linux/wsl2.md",
+    "004 - Resource/资源/各种软件/vim学习/vim学习.md",
+    "004 - Resource/资源/各种软件/vim学习/neovim.md",
+    "004 - Resource/资源/各种软件/macos软件安装.md",
+    "004 - Resource/资源/翻墙/翻墙清单.md",
+    "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md",
+    "040 - Obsidian/主页/00. 主页.md"
+  ]
 }

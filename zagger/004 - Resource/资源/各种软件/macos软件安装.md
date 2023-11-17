@@ -1,49 +1,12 @@
 ---
-tags: 资源/软件安装
-created: 2023-11-08T14:23
-updated: 2023-11-14T09:22
-searchType: tpl
----
-
----
-
-<%-\*
-var cleanTitle = tp.user.getTitleSnippet(tp.file.title)
-var title = `${cleanTitle}`;
-await tp.file.rename(`${title}`);
-let filetype = await tp.system.suggester(["学习", "工作", "非开发", "代码库", "obsidian 教程" ,"临时路径"], ["学习","工作", "非开发","代码库", "obsidian 教程","临时"], false, "路径放到哪里？") 
-if (filetype === "学习") { 
-myFilePath = "/020 - 工作学习/学习/" +  `${title}`;
-await tp.file.move(`${myFilePath}`);
-} else if (filetype === "工作") { 
-myFilePath = "/020 - 工作学习/工作/" +  `${title}`;
-await tp.file.move(`${myFilePath}`);
-} else if (filetype === "非开发") { 
-myFilePath = "/020 - 工作学习/非开发/" +  `${title}`;
-await tp.file.move(`${myFilePath}`);
-} else if (filetype === "代码库") { 
-myFilePath = "/020 - 工作学习/代码库/" +  `${title}`;
-await tp.file.move(`${myFilePath}`);
-} else if (filetype === "obsidian 教程") { 
-myFilePath = "/040 - Obsidian/教程/" +  `${title}`;
-await tp.file.move(`${myFilePath}`);
-} else if (filetype === "临时") { 
-myFilePath = "/60 - 临时/" +  `${title}`;
-await tp.file.move(`${myFilePath}`);
-} else { 
-tp.file.cursor(1);
-}
-
--%>
-
-alias:
 tags:
-cdate: <% tp.file.creation_date() %>
-uid: <% tp.date.now("YYYYMMDDHHmmss") %>
-update: <%+ tp.file.last_modified_date("YYYY-MM-DD dddd HH:mm:ss") %>
-cssclass:
-cover:
-
+  - 资源/软件安装
+created: 2023-11-08T14:23
+updated: 2023-11-17 21:10:15
+searchType: tpl
+aliases: 
+cssclasses: 
+cover: 
 ---
 
 # 1. <% tp.file.title %>
@@ -88,6 +51,7 @@ _摘抄部分原文后，进行筛选加粗然后对加粗的继续进行筛选�
 7. 软件下载方式：![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian20231112132403.png)
  8.  mac重复文件清理工具
  github.com/arsenetar/dupeguru
+ 9. macos 设置：[用透这个 App，才算用透 Mac。\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1QN4y1U7Ak/?spm_id_from=333.1007.tianma.1-1-1.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 ## 1.5. 相关文章
 
 _摘抄来源，引用出处，参考链接，文档查询_

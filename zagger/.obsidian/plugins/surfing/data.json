@@ -53,21 +53,10 @@
   },
   "treeData": [
     {
-      "id": "df7be3e9e35daeba",
+      "id": "536fec4ea3aacf2e",
       "parent": 0,
       "droppable": true,
-      "text": "正则表达式工作面板 - Regular Expression Workshop",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    },
-    {
-      "id": "f934a1eaf343faec",
-      "parent": 0,
-      "droppable": true,
-      "text": "正则表达式工作面板 - Regular Expression Workshop",
+      "text": "Nerd Fonts - Iconic font aggregator, glyphs/icons collection, & fonts patcher",
       "data": {
         "fileType": "site",
         "fileSize": "",
