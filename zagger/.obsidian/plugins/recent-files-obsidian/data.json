@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
       "basename": "vim学习",
       "path": "004 - Resource/资源/各种软件/vim学习/vim学习.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "neovim",
       "path": "004 - Resource/资源/各种软件/vim学习/neovim.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "迁移wsl2",
