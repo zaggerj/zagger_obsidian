@@ -32,162 +32,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "eb1f13cd7454ea7c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "040 - Obsidian/模板/tp-每日日记模板.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "d5310eb8c95da0b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月19日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b33dfe6effc6e5d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/前端/angularjs/js-angularjs-ng-options.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "99407854706a8994",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/前端/00.学习-前端.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "9ccc142240d55598",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "35748745b2426194",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月16日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f71abcd151226e45",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "004 - Resource/资源/各种软件/xmind破解链接.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b56cda1705d9a45b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/工作/00. 工作.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "14dc51ff8c8504de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/工作/汇总所有在线文档.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5ac4e5b8752ee276",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/工作/业务知识和难题/spice/00.spice.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4ecf768270fa3076",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6f474c29b1ae8beb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/kos2023透明效果问题.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
         "currentTab": 1
@@ -446,11 +290,11 @@
   },
   "active": "0263d70cfab386a4",
   "lastOpenFiles": [
-    "040 - Obsidian/模板/tp-每日日记模板.md",
+    "040 - Obsidian/主页/00. 主页.md",
     "000 - 每日日记/DailyNote/2023年11月20日.md",
+    "040 - Obsidian/模板/tp-每日日记模板.md",
     "000 - 每日日记/DailyNote/2023年11月19日.md",
     "000 - 每日日记/DailyNote/2023年11月18日.md",
-    "040 - Obsidian/主页/00. 主页.md",
     "000 - 每日日记/DailyNote/2023年11月17日.md",
     "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md",
     "020 - 工作学习/学习/前端/00.学习-前端.md",
