@@ -10,7 +10,7 @@ banner_icon: 💌
 banner_x: 0.5
 banner_y: 0.38
 created: 2023-11-17 17:02:19
-updated: 2023-11-17 17:05:56
+updated: 2023-11-20 08:46:44
 ---
 
 # 1. xmind软件安装

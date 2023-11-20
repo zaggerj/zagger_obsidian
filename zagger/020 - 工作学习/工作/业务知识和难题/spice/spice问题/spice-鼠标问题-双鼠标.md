@@ -1,11 +1,8 @@
 ---
-banner: 040 - Obsidian/附件/banners/book-banner.gif
-created: 2023-11-17 17:57:50
-updated: 2023-11-20 08:28:26
----
----
 alias: 
-tags: 长青笔记
+tags:
+  - 长青笔记
+  - 工作/spice/spice问题
 cdate: 2023-11-17 17:57
 uid: 20231117175831
 searchterm: "#长青笔记"
@@ -15,7 +12,7 @@ banner_icon: 💌
 banner_x: 0.5
 banner_y: 0.38
 created: 2023-11-17 17:57:50
-updated: 2023-11-17 22:30:31
+updated: 2023-11-20 08:38:57
 ---
 
 # 1. spice-鼠标问题-双鼠标

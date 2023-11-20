@@ -1,8 +1,48 @@
 {
   "recentFiles": [
     {
+      "basename": "js-angularjs-ng-options",
+      "path": "020 - 工作学习/学习/前端/angularjs/js-angularjs-ng-options.md"
+    },
+    {
+      "basename": "2023年11月17日",
+      "path": "000 - 每日日记/DailyNote/2023年11月17日.md"
+    },
+    {
+      "basename": "kos2023透明效果问题",
+      "path": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/kos2023透明效果问题.md"
+    },
+    {
+      "basename": "xmind破解链接",
+      "path": "004 - Resource/资源/各种软件/xmind破解链接.md"
+    },
+    {
+      "basename": "DailyNote",
+      "path": "000 - 每日日记/DailyNote/DailyNote.md"
+    },
+    {
+      "basename": "2023年11月16日",
+      "path": "000 - 每日日记/DailyNote/2023年11月16日.md"
+    },
+    {
       "basename": "00. 主页",
       "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "汇总所有在线文档",
+      "path": "020 - 工作学习/工作/汇总所有在线文档.md"
+    },
+    {
+      "basename": "spice-鼠标问题-双鼠标",
+      "path": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md"
+    },
+    {
+      "basename": "00.spice",
+      "path": "020 - 工作学习/工作/业务知识和难题/spice/00.spice.md"
+    },
+    {
+      "basename": "00. 工作",
+      "path": "020 - 工作学习/工作/00. 工作.md"
     },
     {
       "basename": "vim学习",
@@ -41,16 +81,8 @@
       "path": "004 - Resource/资源/翻墙/翻墙清单.md"
     },
     {
-      "basename": "spice-鼠标问题-双鼠标",
-      "path": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md"
-    },
-    {
       "basename": "2023-11-17",
       "path": "060 - 临时/2023-11-17.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "obsidian清单",
@@ -61,16 +93,8 @@
       "path": "020 - 工作学习/工作/远程、定制化/引发的管理台项目可配置.md"
     },
     {
-      "basename": "xmind破解链接",
-      "path": "004 - Resource/资源/各种软件/xmind破解链接.md"
-    },
-    {
       "basename": "正则",
       "path": "020 - 工作学习/学习/前端/js小知识点/正则/正则.md"
-    },
-    {
-      "basename": "js-angularjs-ng-options",
-      "path": "020 - 工作学习/学习/前端/angularjs/js-angularjs-ng-options.md"
     },
     {
       "basename": "tp-每日日记模板",
@@ -83,14 +107,6 @@
     {
       "basename": "正则文章通读",
       "path": "020 - 工作学习/学习/前端/js小知识点/正则/正则文章通读.md"
-    },
-    {
-      "basename": "汇总所有在线文档",
-      "path": "020 - 工作学习/工作/汇总所有在线文档.md"
-    },
-    {
-      "basename": "2023年11月16日",
-      "path": "000 - 每日日记/DailyNote/2023年11月16日.md"
     },
     {
       "basename": "模板使用流程",
@@ -179,30 +195,6 @@
     {
       "basename": "00.资源导航",
       "path": "004 - Resource/资源/00.资源导航.md"
-    },
-    {
-      "basename": "obsidian贴图",
-      "path": "040 - Obsidian/教程/obsidian贴图.md"
-    },
-    {
-      "basename": "浏览器插件下载网站地址",
-      "path": "004 - Resource/资源/各种软件/浏览器插件/浏览器插件下载网站地址.md"
-    },
-    {
-      "basename": "多语言系统化实现",
-      "path": "020 - 工作学习/工作/多语言/多语言系统化实现.md"
-    },
-    {
-      "basename": "2023年11月13日",
-      "path": "000 - 每日日记/DailyNote/2023年11月13日.md"
-    },
-    {
-      "basename": "tp-每周周记模板",
-      "path": "040 - Obsidian/模板/tp-每周周记模板.md"
-    },
-    {
-      "basename": "10. 问题汇总",
-      "path": "020 - 工作学习/工作/常见问题/10. 问题汇总.md"
     }
   ],
   "omittedPaths": [],
