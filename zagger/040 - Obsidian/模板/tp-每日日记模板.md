@@ -17,8 +17,8 @@ banner_icon: 💌
 banner_x: 0.5
 banner_y: 0.38
 week: <% tp.date.now("YYYY-WW") %>
-created: 2023-11-14T08:18
-updated: 2023-11-14T11:21
+created: <% tp.date.now("YYYY-MM-DD HH:mm:ss") %>
+updated: <% tp.date.now("YYYY-MM-DD HH:mm:ss") %>
 ---
 
 # 1. <% tp.file.title %>
