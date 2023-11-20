@@ -12,7 +12,7 @@ banner_icon: 💌
 banner_x: 0.5
 banner_y: 0.38
 created: 2023-11-17 15:03:35
-updated: 2023-11-20 08:51:25
+updated: 2023-11-20 08:57:53
 ---
 
 # 1. js-angularjs-ng-options
