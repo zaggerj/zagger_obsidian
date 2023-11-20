@@ -1,9 +1,9 @@
 ---
 created: 2023-11-06T08:20
-updated: 2023-11-06T08:20
+updated: 2023-11-20 17:12:50
 ---
-# 搭建Vite+Vue3+TypeScript项目
-## 一、Vite 官网
+# 1. 搭建Vite+Vue3+TypeScript项目
+## 1.1. 一、Vite 官网
 1. [Home | Vite中文网 (vitejs.cn)](https://vitejs.cn/)
 2. [Vite | 下一代的前端工具链 (vitejs.dev)](https://cn.vitejs.dev/)
 3. ![[Pasted image 20231103092804.png]]
@@ -116,7 +116,7 @@ app.on('window-all-closed', function () {
 
 ![](https://img-blog.csdnimg.cn/20d6ecf828aa4e07b20edf1c268e96f8.jpeg)
 
-## 四、优化 😆 😁 😉
+## 1.2. 四、优化 😆 😁 😉
 
 因为现在需要启动两个服务，比较麻烦，可以借助concurrently插件整合。一个命令完成多个应用的启动。同时安装cross-env插件设置我们的环境变量。wait-on进行一个端口启动监听。
 

@@ -668,7 +668,7 @@
     "020 - 工作学习/学习/前端/electron/搭建electron vite vue3/Vite4 + Vue3 + vue-router4 动态路由.md": "f40c2c25bbe974103b251a64eb1cb7da84d36c141c09cc601faccbd6d1e8f814",
     "020 - 工作学习/学习/前端/electron/搭建electron vite vue3/Vite4+Pinia2+vue-router4+ElmentPlus搭建Vue3项目(组件、图标等按需引入).md": "8033520f28c32b7ff205f518f70b4e8faf382bff00e97f47a9d05bfa5d7f5847",
     "020 - 工作学习/学习/前端/electron/搭建electron vite vue3/electron搭建清单.md": "221d8182e2e56c957e63b05cca9cf4316a1e4b609e9b2f2cb7fbc487ddcb8579",
-    "020 - 工作学习/学习/前端/electron/搭建electron vite vue3/第一章 快速搭建Electron+Vite3+Vue3+TypeScript5脚手架 (无需梯子，快速安装Electron).md": "16666df5c1761dacfe9a815d2f02afe7fe095faa225ef251730f857a045767c4",
+    "020 - 工作学习/学习/前端/electron/搭建electron vite vue3/第一章 快速搭建Electron+Vite3+Vue3+TypeScript5脚手架 (无需梯子，快速安装Electron).md": "2f3dc0751cdd60367331d9994efc2f83ac43c837ff8a4636da30207b2630718e",
     "020 - 工作学习/学习/前端/electron/搭建electron vite vue3/第二章 Electron自定义界面(最大化、最小化、关闭、图标等等).md": "cc5fff595b58c74a93793d598b6a88b16d9ed4cc839464a5e1a6fe49efed858b",
     "020 - 工作学习/学习/前端/typescript/TypeScript 基础讲解.md-zagger/TypeScript 基础讲解.md": "8d32f48e82f070b215c8a99d3802e04581cd1cd98745b3b28a3bc2a207b4013d",
     "020 - 工作学习/学习/前端/vue2/vue高级/vue 高级进阶( 一 ) 组件精髓概述.md": "992b7184dbfb64b6b9540dede88f8fb19140d0594fbab1686da2fb80dc3efa01",
@@ -906,6 +906,8 @@
     "000 - 每日日记/DailyNote/2023年11月19日.md": "aef002fe4e8dbb7d082fe54398faeb6026a7c604a300914903fc7afc1f6d087c",
     "000 - 每日日记/DailyNote/2023年11月20日.md": "e9779c917db625cc2b1f166b737cd5b46e0757e74026cd9a3827256d3c431973",
     "020 - 工作学习/工作/工作计划/最新工作安排/近期工作安排.md": "18be037fb2cfe959841f9fcea84109b59ecf855941813aab2e168adb264c368c",
-    "020 - 工作学习/学习计划脚本/统一资源学习计划.md": "c9a99404514cbdc7528491a8e59c50ffb8101d0bff1b0de0764cefb63993923f"
+    "020 - 工作学习/学习计划脚本/翻译资源服务平台/统一资源学习计划.md": "6bc1ac95f41f54aeb0dca862509b64ba9bf8f0af874d13f3adb7ed8cd4337689",
+    "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongoose.md": "cbb449292f0dbf8e9a6f2e67728e15167f3c92f3fe95672426529ea7ba9b008a",
+    "020 - 工作学习/学习计划脚本/翻译资源服务平台/资源服务开发模式.md": "969e076f175e4428fa5d347a330b54709d46ca5a5a628c7d27b7d82c15ca3705"
   }
 }

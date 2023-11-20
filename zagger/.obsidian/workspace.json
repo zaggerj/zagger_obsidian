@@ -21,12 +21,38 @@
             }
           },
           {
+            "id": "d6e710b884cb6c47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/学习/前端/electron/搭建electron vite vue3/第一章 快速搭建Electron+Vite3+Vue3+TypeScript5脚手架 (无需梯子，快速安装Electron).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "411c046b569f4925",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "020 - 工作学习/学习计划脚本/统一资源学习计划.md",
+                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/统一资源学习计划.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9edeb3c83b144b53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongoose.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -111,7 +137,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "china",
+                "query": "typescript",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -182,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "020 - 工作学习/学习计划脚本/统一资源学习计划.md"
+                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/统一资源学习计划.md"
               }
             }
           },
@@ -208,7 +234,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "020 - 工作学习/学习计划脚本/统一资源学习计划.md",
+                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/统一资源学习计划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +251,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "020 - 工作学习/学习计划脚本/统一资源学习计划.md",
+                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/统一资源学习计划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -237,7 +263,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "020 - 工作学习/学习计划脚本/统一资源学习计划.md"
+                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/统一资源学习计划.md"
               }
             }
           },
@@ -329,10 +355,14 @@
   },
   "active": "411c046b569f4925",
   "lastOpenFiles": [
-    "020 - 工作学习/学习/前端/00.学习-前端.md",
-    "020 - 工作学习/学习计划脚本/统一资源学习计划.md",
+    "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongoose.md",
     "040 - Obsidian/主页/00. 主页.md",
+    "020 - 工作学习/学习/前端/electron/搭建electron vite vue3/第一章 快速搭建Electron+Vite3+Vue3+TypeScript5脚手架 (无需梯子，快速安装Electron).md",
     "020 - 工作学习/工作/远程、定制化/引发的管理台项目可配置.md",
+    "020 - 工作学习/学习计划脚本/翻译资源服务平台/资源服务开发模式.md",
+    "020 - 工作学习/学习计划脚本/翻译资源服务平台/统一资源学习计划.md",
+    "020 - 工作学习/学习计划脚本/翻译资源服务平台",
+    "020 - 工作学习/学习/前端/00.学习-前端.md",
     "020 - 工作学习/工作/工作计划/最新工作安排/近期工作安排.md",
     "020 - 工作学习/工作/远程、定制化/windicss远程使用场景.md",
     "040 - Obsidian/主页/稍后学习.md",
@@ -351,9 +381,6 @@
     "000 - 每日日记/DailyNote/2023年11月16日.md",
     "020 - 工作学习/工作/业务知识和难题/spice/spice问题/kos2023透明效果问题.md",
     "004 - Resource/资源/各种软件/xmind破解链接.md",
-    "000 - 每日日记/DailyNote/DailyNote.md",
-    "000 - 每日日记/DailyNote/xmind.md",
-    "020 - 工作学习/工作/汇总所有在线文档.md",
-    "020 - 工作学习/工作/业务知识和难题/spice/00.spice.md"
+    "000 - 每日日记/DailyNote/DailyNote.md"
   ]
 }
