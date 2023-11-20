@@ -1,36 +1,68 @@
 {
   "recentFiles": [
     {
-      "basename": "2023年11月20日",
-      "path": "000 - 每日日记/DailyNote/2023年11月20日.md"
+      "basename": "引发的管理台项目可配置",
+      "path": "020 - 工作学习/工作/远程、定制化/引发的管理台项目可配置.md"
     },
     {
       "basename": "00. 主页",
       "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
-      "basename": "tp-每日日记模板",
-      "path": "040 - Obsidian/模板/tp-每日日记模板.md"
+      "basename": "近期工作安排",
+      "path": "020 - 工作学习/工作/工作计划/最新工作安排/近期工作安排.md"
     },
     {
-      "basename": "2023年11月19日",
-      "path": "000 - 每日日记/DailyNote/2023年11月19日.md"
+      "basename": "稍后学习",
+      "path": "040 - Obsidian/主页/稍后学习.md"
     },
     {
-      "basename": "2023年11月18日",
-      "path": "000 - 每日日记/DailyNote/2023年11月18日.md"
+      "basename": "IT技术网站",
+      "path": "004 - Resource/资源/学习网站收录/IT技术网站.md"
+    },
+    {
+      "basename": "00.学习-前端",
+      "path": "020 - 工作学习/学习/前端/00.学习-前端.md"
+    },
+    {
+      "basename": "稍后阅读",
+      "path": "040 - Obsidian/主页/稍后阅读.md"
+    },
+    {
+      "basename": "00.学习网站",
+      "path": "004 - Resource/资源/学习网站收录/00.学习网站.md"
+    },
+    {
+      "basename": "学习清单",
+      "path": "020 - 工作学习/学习/前端/typescript/学习清单.md"
+    },
+    {
+      "basename": "00. 学习",
+      "path": "020 - 工作学习/学习/00. 学习.md"
+    },
+    {
+      "basename": "2023年11月20日",
+      "path": "000 - 每日日记/DailyNote/2023年11月20日.md"
     },
     {
       "basename": "2023年11月17日",
       "path": "000 - 每日日记/DailyNote/2023年11月17日.md"
     },
     {
-      "basename": "spice-鼠标问题-双鼠标",
-      "path": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md"
+      "basename": "2023年11月19日",
+      "path": "000 - 每日日记/DailyNote/2023年11月19日.md"
     },
     {
-      "basename": "00.学习-前端",
-      "path": "020 - 工作学习/学习/前端/00.学习-前端.md"
+      "basename": "tp-每日日记模板",
+      "path": "040 - Obsidian/模板/tp-每日日记模板.md"
+    },
+    {
+      "basename": "2023年11月18日",
+      "path": "000 - 每日日记/DailyNote/2023年11月18日.md"
+    },
+    {
+      "basename": "spice-鼠标问题-双鼠标",
+      "path": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md"
     },
     {
       "basename": "js-angularjs-ng-options",
@@ -105,10 +137,6 @@
       "path": "040 - Obsidian/教程/obsidian清单.md"
     },
     {
-      "basename": "引发的管理台项目可配置",
-      "path": "020 - 工作学习/工作/远程、定制化/引发的管理台项目可配置.md"
-    },
-    {
       "basename": "正则",
       "path": "020 - 工作学习/学习/前端/js小知识点/正则/正则.md"
     },
@@ -171,34 +199,6 @@
     {
       "basename": "tsconfig.json",
       "path": "020 - 工作学习/学习/前端/typescript/tsconfig.json.md"
-    },
-    {
-      "basename": "学习清单",
-      "path": "020 - 工作学习/学习/前端/typescript/学习清单.md"
-    },
-    {
-      "basename": "内置对象",
-      "path": "020 - 工作学习/学习/前端/typescript/内置对象.md"
-    },
-    {
-      "basename": "tp-长青笔记模板",
-      "path": "040 - Obsidian/模板/tp-长青笔记模板.md"
-    },
-    {
-      "basename": "typescript入门教程",
-      "path": "020 - 工作学习/学习/前端/typescript/typescript入门教程.md"
-    },
-    {
-      "basename": "00. 学习",
-      "path": "020 - 工作学习/学习/00. 学习.md"
-    },
-    {
-      "basename": "2023年11月07日",
-      "path": "000 - 每日日记/DailyNote/2023年11月07日.md"
-    },
-    {
-      "basename": "css方案",
-      "path": "020 - 工作学习/学习/css方案.md"
     }
   ],
   "omittedPaths": [],

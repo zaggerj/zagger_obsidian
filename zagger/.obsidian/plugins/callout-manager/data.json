@@ -8,7 +8,9 @@
       "hide",
       "...",
       "test",
-      "命令面板"
+      "命令面板",
+      "优化项",
+      "创新和新方向"
     ],
     "settings": {
       "123": [
@@ -141,6 +143,22 @@
         {
           "changes": {
             "icon": "lucide-terminal-square"
+          }
+        }
+      ],
+      "创新和新方向": [
+        {
+          "changes": {
+            "icon": "lucide-baby",
+            "color": "197, 221, 8"
+          }
+        }
+      ],
+      "优化项": [
+        {
+          "changes": {
+            "icon": "lucide-angry",
+            "color": "8, 221, 83"
           }
         }
       ]
