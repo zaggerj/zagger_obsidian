@@ -5,12 +5,16 @@
       "path": "020 - 工作学习/工作/远程、定制化/引发的管理台项目可配置.md"
     },
     {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
+      "basename": "windicss远程使用场景",
+      "path": "020 - 工作学习/工作/远程、定制化/windicss远程使用场景.md"
     },
     {
       "basename": "近期工作安排",
       "path": "020 - 工作学习/工作/工作计划/最新工作安排/近期工作安排.md"
+    },
+    {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "稍后学习",
@@ -195,10 +199,6 @@
     {
       "basename": "typescript-声明文件",
       "path": "020 - 工作学习/学习/前端/typescript/typescript-声明文件.md"
-    },
-    {
-      "basename": "tsconfig.json",
-      "path": "020 - 工作学习/学习/前端/typescript/tsconfig.json.md"
     }
   ],
   "omittedPaths": [],
