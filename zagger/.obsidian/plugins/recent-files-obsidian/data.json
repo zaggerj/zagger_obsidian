@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "mongodb安装和配置",
+      "path": "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md"
+    },
+    {
       "basename": "统一资源学习计划",
       "path": "020 - 工作学习/学习计划脚本/翻译资源服务平台/统一资源学习计划.md"
     },
     {
-      "basename": "mongoose",
-      "path": "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongoose.md"
+      "basename": "2023年11月17日",
+      "path": "000 - 每日日记/DailyNote/2023年11月17日.md"
     },
     {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
+      "basename": "mongoose",
+      "path": "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongoose.md"
     },
     {
       "basename": "第一章 快速搭建Electron+Vite3+Vue3+TypeScript5脚手架 (无需梯子，快速安装Electron)",
@@ -63,10 +71,6 @@
     {
       "basename": "2023年11月20日",
       "path": "000 - 每日日记/DailyNote/2023年11月20日.md"
-    },
-    {
-      "basename": "2023年11月17日",
-      "path": "000 - 每日日记/DailyNote/2023年11月17日.md"
     },
     {
       "basename": "2023年11月19日",
@@ -195,10 +199,6 @@
     {
       "basename": "glob语法",
       "path": "020 - 工作学习/学习/后端/linux/glob语法.md"
-    },
-    {
-      "basename": "frontend",
-      "path": "040 - Obsidian/Excalidraw/front-end/frontend.md"
     }
   ],
   "omittedPaths": [],

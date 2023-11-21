@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "94514c5934a36df1",
+        "id": "3f0ff0f298713cb1",
         "type": "tabs",
         "children": [
           {
-            "id": "c714faad7d57d804",
+            "id": "eff0419053adfb28",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,87 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d6e710b884cb6c47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/前端/electron/搭建electron vite vue3/第一章 快速搭建Electron+Vite3+Vue3+TypeScript5脚手架 (无需梯子，快速安装Electron).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "411c046b569f4925",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/统一资源学习计划.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9edeb3c83b144b53",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongoose.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "425f66cb3d48a69a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/工作/远程、定制化/引发的管理台项目可配置.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "af83867c5119fd00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/工作/远程、定制化/windicss远程使用场景.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "22fd778d5fdc84dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/工作/工作计划/最新工作安排/近期工作安排.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/统一资源学习计划.md"
+                "file": "040 - Obsidian/主页/00. 主页.md"
               }
             }
           },
@@ -234,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/统一资源学习计划.md",
+                "file": "040 - Obsidian/主页/00. 主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -251,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/统一资源学习计划.md",
+                "file": "040 - Obsidian/主页/00. 主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -263,7 +184,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/统一资源学习计划.md"
+                "file": "040 - Obsidian/主页/00. 主页.md"
               }
             }
           },
@@ -286,7 +207,7 @@
             }
           },
           {
-            "id": "e2b06f8ba525291a",
+            "id": "95d0edf681a4ee4c",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -353,14 +274,16 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "411c046b569f4925",
+  "active": "eff0419053adfb28",
   "lastOpenFiles": [
+    "020 - 工作学习/学习计划脚本/翻译资源服务平台/统一资源学习计划.md",
+    "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
+    "000 - 每日日记/DailyNote/2023年11月17日.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongoose.md",
     "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/学习/前端/electron/搭建electron vite vue3/第一章 快速搭建Electron+Vite3+Vue3+TypeScript5脚手架 (无需梯子，快速安装Electron).md",
     "020 - 工作学习/工作/远程、定制化/引发的管理台项目可配置.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台/资源服务开发模式.md",
-    "020 - 工作学习/学习计划脚本/翻译资源服务平台/统一资源学习计划.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台",
     "020 - 工作学习/学习/前端/00.学习-前端.md",
     "020 - 工作学习/工作/工作计划/最新工作安排/近期工作安排.md",
@@ -372,7 +295,6 @@
     "020 - 工作学习/学习/前端/typescript/学习清单.md",
     "020 - 工作学习/学习/00. 学习.md",
     "000 - 每日日记/DailyNote/2023年11月20日.md",
-    "000 - 每日日记/DailyNote/2023年11月17日.md",
     "000 - 每日日记/DailyNote/2023年11月19日.md",
     "040 - Obsidian/模板/tp-每日日记模板.md",
     "000 - 每日日记/DailyNote/2023年11月18日.md",
@@ -380,7 +302,6 @@
     "020 - 工作学习/学习/前端/angularjs/js-angularjs-ng-options.md",
     "000 - 每日日记/DailyNote/2023年11月16日.md",
     "020 - 工作学习/工作/业务知识和难题/spice/spice问题/kos2023透明效果问题.md",
-    "004 - Resource/资源/各种软件/xmind破解链接.md",
-    "000 - 每日日记/DailyNote/DailyNote.md"
+    "004 - Resource/资源/各种软件/xmind破解链接.md"
   ]
 }
