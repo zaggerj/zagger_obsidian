@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Obsidian/Excalidraw/资源配置逻辑.md"
+                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/资源配置平台.md"
               }
             }
           },
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "040 - Obsidian/Excalidraw/资源配置逻辑.md",
+                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/资源配置平台.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "040 - Obsidian/Excalidraw/资源配置逻辑.md",
+                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/资源配置平台.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +208,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "040 - Obsidian/Excalidraw/资源配置逻辑.md"
+                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/资源配置平台.md"
               }
             }
           },
@@ -298,7 +298,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "3205d8ca3f8e9d03",
+  "active": "8eca3b225007095e",
   "lastOpenFiles": [
     "040 - Obsidian/Excalidraw/资源配置逻辑.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台/资源配置平台.md",
