@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "资源配置逻辑",
+      "path": "040 - Obsidian/Excalidraw/资源配置逻辑.md"
+    },
+    {
       "basename": "资源配置平台",
       "path": "020 - 工作学习/学习计划脚本/翻译资源服务平台/资源配置平台.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "记事本",
       "path": "020 - 工作学习/学习/前端/前端杂项/记事本.md"
-    },
-    {
-      "basename": "grep",
-      "path": "020 - 工作学习/学习/后端/linux/grep.md"
     }
   ],
   "omittedPaths": [],
