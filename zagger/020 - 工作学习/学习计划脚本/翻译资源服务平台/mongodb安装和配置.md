@@ -10,7 +10,7 @@ banner_icon: 💌
 banner_x: 0.5
 banner_y: 0.38
 created: 2023-11-21 08:41:40
-updated: 2023-11-22 15:20:21
+updated: 2023-11-22 15:55:21
 ---
 
 # 1. mongodb安装和配置
@@ -58,7 +58,7 @@ db.createUser( {
 security:
   authorization: enabled
 ```
-8. `mongo -u admin -p admin --authenticationDatabase admin` 使用管理员用户连接到 MongoDB 服务器
+8. `./mongo -u admin -p admin --authenticationDatabase admin` 使用管理员用户连接到 MongoDB 服务器
 9. ![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/20231121110312.png)
 10. ![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/20231121110338.png)
 
