@@ -81,9 +81,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "88f572ff1811f917",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/资源服务开发模式.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "64148545c59ff5c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/资源配置平台.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -192,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Obsidian/Excalidraw/资源配置逻辑.md"
+                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/资源配置平台.md"
               }
             }
           },
@@ -218,7 +244,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "040 - Obsidian/Excalidraw/资源配置逻辑.md",
+                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/资源配置平台.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +261,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "040 - Obsidian/Excalidraw/资源配置逻辑.md",
+                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/资源配置平台.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -247,7 +273,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "040 - Obsidian/Excalidraw/资源配置逻辑.md"
+                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/资源配置平台.md"
               }
             }
           },
@@ -337,19 +363,19 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "7a5c10da712468ca",
+  "active": "64148545c59ff5c4",
   "lastOpenFiles": [
+    "020 - 工作学习/学习计划脚本/翻译资源服务平台/资源服务开发模式.md",
+    "020 - 工作学习/学习计划脚本/翻译资源服务平台/统一资源学习计划.md",
+    "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongoose.md",
     "040 - Obsidian/Excalidraw/资源配置逻辑.md",
-    "020 - 工作学习/学习计划脚本/翻译资源服务平台/统一资源学习计划.md",
     "020 - 工作学习/工作/00. 工作.md",
-    "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
     "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台/资源配置平台.md",
     "000 - 每日日记/DailyNote/2023年11月17日.md",
     "020 - 工作学习/学习/前端/electron/搭建electron vite vue3/第一章 快速搭建Electron+Vite3+Vue3+TypeScript5脚手架 (无需梯子，快速安装Electron).md",
     "020 - 工作学习/工作/远程、定制化/引发的管理台项目可配置.md",
-    "020 - 工作学习/学习计划脚本/翻译资源服务平台/资源服务开发模式.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台",
     "020 - 工作学习/学习/前端/00.学习-前端.md",
     "020 - 工作学习/工作/工作计划/最新工作安排/近期工作安排.md",
