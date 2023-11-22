@@ -10,7 +10,7 @@ banner_icon: 💌
 banner_x: 0.5
 banner_y: 0.38
 created: 2023-11-20 16:20:51
-updated: 2023-11-20 17:19:28
+updated: 2023-11-22 11:04:08
 ---
 
 # 1. mongoosejs
@@ -61,3 +61,6 @@ _摘抄来源，引用出处，参考链接，文档查询_
 Page Link::
 
 [Mongoose 5.0 中文文档](http://www.mongoosejs.net/docs/api.html#deletemany_deleteMany)
+[mongoose官方文档总结-腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/2143268?from=15425)
+[大数据技术之\_22\_MongoDB学习\_MongoDB 的简介、下载、安装、启动、配置和关闭 + MongoDB 的基本操作 + Mongoose + 使用 java 对 MongoDB 增删改查-腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/1426365?from=15425)
+[Mongoose (MongoDB) -关系不会停止删除\_Mongodb mongoose节点js架构关系\_MongoDB / Mongoose一对多关系 - 腾讯云开发者社区 - 腾讯云](https://cloud.tencent.com/developer/information/Mongoose%20(MongoDB)%20-%E5%85%B3%E7%B3%BB%E4%B8%8D%E4%BC%9A%E5%81%9C%E6%AD%A2%E5%88%A0%E9%99%A4)

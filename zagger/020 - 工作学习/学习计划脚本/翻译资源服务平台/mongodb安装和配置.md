@@ -10,7 +10,7 @@ banner_icon: 💌
 banner_x: 0.5
 banner_y: 0.38
 created: 2023-11-21 08:41:40
-updated: 2023-11-21 11:10:41
+updated: 2023-11-22 10:54:15
 ---
 
 # 1. mongodb安装和配置
@@ -70,4 +70,5 @@ security:
 _摘抄来源，引用出处，参考链接，文档查询_
 Page Link::
 
-
+[MongoDB 数据类型|极客教程](https://geek-docs.com/mongodb/mongodb-top-articles/1009100_mongodb_datatype.html)
+[What is MongoDB? — MongoDB Manual](https://www.mongodb.com/docs/manual/)

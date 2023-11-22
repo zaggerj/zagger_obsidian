@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "资源配置平台",
-      "path": "020 - 工作学习/学习计划脚本/翻译资源服务平台/资源配置平台.md"
-    },
-    {
       "basename": "资源配置逻辑",
       "path": "040 - Obsidian/Excalidraw/资源配置逻辑.md"
+    },
+    {
+      "basename": "mongoose",
+      "path": "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongoose.md"
+    },
+    {
+      "basename": "统一资源学习计划",
+      "path": "020 - 工作学习/学习计划脚本/翻译资源服务平台/统一资源学习计划.md"
+    },
+    {
+      "basename": "00. 工作",
+      "path": "020 - 工作学习/工作/00. 工作.md"
     },
     {
       "basename": "mongodb安装和配置",
@@ -17,16 +25,12 @@
       "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
-      "basename": "统一资源学习计划",
-      "path": "020 - 工作学习/学习计划脚本/翻译资源服务平台/统一资源学习计划.md"
+      "basename": "资源配置平台",
+      "path": "020 - 工作学习/学习计划脚本/翻译资源服务平台/资源配置平台.md"
     },
     {
       "basename": "2023年11月17日",
       "path": "000 - 每日日记/DailyNote/2023年11月17日.md"
-    },
-    {
-      "basename": "mongoose",
-      "path": "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongoose.md"
     },
     {
       "basename": "第一章 快速搭建Electron+Vite3+Vue3+TypeScript5脚手架 (无需梯子，快速安装Electron)",
@@ -123,10 +127,6 @@
     {
       "basename": "00.spice",
       "path": "020 - 工作学习/工作/业务知识和难题/spice/00.spice.md"
-    },
-    {
-      "basename": "00. 工作",
-      "path": "020 - 工作学习/工作/00. 工作.md"
     },
     {
       "basename": "vim学习",
