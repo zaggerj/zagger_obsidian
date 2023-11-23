@@ -10,7 +10,7 @@ banner_icon: 💌
 banner_x: 0.5
 banner_y: 0.38
 created: 2023-11-21 08:41:40
-updated: 2023-11-22 15:55:21
+updated: 2023-11-23 16:37:17
 ---
 
 # 1. mongodb安装和配置
@@ -72,3 +72,4 @@ Page Link::
 
 [MongoDB 数据类型|极客教程](https://geek-docs.com/mongodb/mongodb-top-articles/1009100_mongodb_datatype.html)
 [What is MongoDB? — MongoDB Manual](https://www.mongodb.com/docs/manual/)
+[Node.js对MongoDB进行增删改查操作 - 知乎](https://zhuanlan.zhihu.com/p/62758583)

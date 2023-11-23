@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
+                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/vue2开发问题.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md"
+                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/vue2开发问题.md"
               }
             }
           },
@@ -244,7 +244,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
+                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/vue2开发问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -261,7 +261,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
+                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/vue2开发问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -273,7 +273,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md"
+                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/vue2开发问题.md"
               }
             }
           },
@@ -365,12 +365,13 @@
   },
   "active": "6aa4a2e34370bd8b",
   "lastOpenFiles": [
+    "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
+    "020 - 工作学习/学习计划脚本/翻译资源服务平台/vue2开发问题.md",
     "020 - 工作学习/工作/00. 工作.md",
     "040 - Obsidian/Excalidraw/资源配置逻辑.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台/资源配置平台.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台/资源服务开发模式.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台/统一资源学习计划.md",
-    "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongoose.md",
     "040 - Obsidian/主页/00. 主页.md",
     "000 - 每日日记/DailyNote/2023年11月17日.md",
@@ -390,7 +391,6 @@
     "000 - 每日日记/DailyNote/2023年11月19日.md",
     "040 - Obsidian/模板/tp-每日日记模板.md",
     "000 - 每日日记/DailyNote/2023年11月18日.md",
-    "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md",
-    "020 - 工作学习/学习/前端/angularjs/js-angularjs-ng-options.md"
+    "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md"
   ]
 }
