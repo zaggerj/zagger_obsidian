@@ -4,8 +4,18 @@
   "headerUpdated": "updated",
   "headerCreated": "created",
   "minMinutesBetweenSaves": 1,
-  "ignoreGlobalFolder": ["040 - Obsidian/模板", "040 - Obsidian/主页", "040 - Obsidian/附件", "040 - Obsidian"],
-  "ignoreCreatedFolder": ["040 - Obsidian/模板", "040 - Obsidian/主页", "040 - Obsidian/附件", "040 - Obsidian"],
+  "ignoreGlobalFolder": [
+    "040 - Obsidian/模板",
+    "040 - Obsidian/主页",
+    "040 - Obsidian/附件",
+    "040 - Obsidian"
+  ],
+  "ignoreCreatedFolder": [
+    "040 - Obsidian/模板",
+    "040 - Obsidian/主页",
+    "040 - Obsidian/附件",
+    "040 - Obsidian"
+  ],
   "enableExperimentalHash": true,
   "fileHashMap": {
     "60 - 临时/模糊分类.md": "851633893e325a4d488207d444df32988d52459cd5f74ddecf1920939b6d275c",
@@ -892,7 +902,13 @@
     "004 - Resource/资源/环境安装和软件安装/wsl2前端部署/wsl2前端部署.md": "2d1798644fc312327696c290d6684ec8ce35f846766ac4ee95ecbc3664206a11",
     "020 - 工作学习/学习/后端/linux/00.linux学习清单.md": "9e2b4c51b1ea423d884c35e33dc55cdf4cc5f59d50ffb2da88bfdf052382b22d",
     "020 - 工作学习/工作/多语言/多语言系统化实现.md": "a387a8d453670bfde02167fbf887c22a14f985aaa2528e9556899a141b8fc5ab",
-    "000 - 每日日记/DailyNote/2023年11月20日.md": "c807f2cad8cb0bbf166a9568f77e5f935da28500e4e86bf561fd658bf1a4af20",
-    "000 - 每日日记/DailyNote/2023年11月21日.md": "3b9ece6a2606d91ccc9da88ec45e3b8a15464ae97825b6e13d59790171eb3016"
+    "000 - 每日日记/DailyNote/2023年11月20日.md": "2cc4903409394450be09ce39160a0e4fda7ea3c1767f053c726189a0eccbe95d",
+    "000 - 每日日记/DailyNote/2023年11月21日.md": "21c104e8e62a8d38fb384ce45ce5ed2e05d9cdeb889112948372f2282c28bb51",
+    "000 - 每日日记/DailyNote/2023年11月22日.md": "fa523bacb5ca4ef39760db9a3c81f719e57988e0949949d827bce677db7fbff9",
+    "000 - 每日日记/DailyNote/2023年11月23日.md": "9b3e6b9abad98f1223393f30cc5fb2613ad5c624ef167ec90798f7dc18147ecc",
+    "000 - 每日日记/DailyNote/2023年11月24日.md": "35c27ac000e4e6a5edbf91847edcb5c6ef18181f6704cad61b24518d952ff39a",
+    "000 - 每日日记/WeeklyNote/2023年47周记录.md": "36f406bbb4cad0f79a97b1c7aab8de73da1596ab9e1f0e4d0a3de889cabb3405",
+    "000 - 每日日记/WeeklyNote/2023年46周记录.md": "f9f610c47e14545c824bf191ac8173b26c305f62b1007ed689488e65620e59a0",
+    "000 - 每日日记/DailyNote/2023年11月13日.md": "b07156ac9da88e19e4f7edfca03a40e35f77cb777ed9c4470b845cdf4d784f50"
   }
 }
