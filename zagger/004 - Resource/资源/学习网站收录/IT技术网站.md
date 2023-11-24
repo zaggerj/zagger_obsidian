@@ -1,7 +1,7 @@
 ---
 tags: 资源/学习网站
 created: 2023-11-06T08:20
-updated: 2023-11-14T10:19
+updated: 2023-11-18 17:21:59
 ---
 # 1. 学习资源网站
 ## 1.1. 链接地址
@@ -66,6 +66,10 @@ updated: 2023-11-14T10:19
 1. [30个python实战项目合集（附源码），零基础小白练完秒变编程大佬，允许白嫖！\_python入门\_python基础\_PYTHON\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1cG411C73z/?spm_id_from=333.1007.tianma.3-1-7.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 2. [2023最新录制python3教程 面向对象+网络编程+进程线程，保姆级教学\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV13B4y1d7Gj/?spm_id_from=333.1007.tianma.9-3-33.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 3. [【B站大学】麻省理工大佬198小时讲完的Python课程，全场干货无废话，学完即可就业！拿走不谢\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1ra4y1D7ns/?spm_id_from=333.1007.tianma.36-3-141.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
+4. [【11月B站最新】80个通俗易懂的Python爬虫练手项目合集（附源码），七天练完，练完就是大神！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV19g4y1X7jY/?spm_id_from=333.1007.tianma.18-2-54.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
+5. [【Python秒杀脚本】Python独家脚本秘籍，淘宝抢购秒杀脚本，准点自动抢购商品成功率高达100%\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1FQ4y1n7UT/?spm_id_from=333.1007.tianma.102-2-306.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
+6. [夸克网盘分享](https://pan.quark.cn/s/69afc222cc00#/list/share)
+7. [B友们专属福利，点击自取哦！ - 哔哩哔哩](https://www.bilibili.com/read/cv26756863/)
 
 ## 1.4. shell
 1. [B站强推！2023年最新Shell脚本全套顶级天花板教程，血赚！学完即可上岸，拿走不谢！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1ru411M7cJ/?spm_id_from=333.1007.tianma.4-1-11.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
@@ -80,12 +84,22 @@ updated: 2023-11-14T10:19
 10. [Linux 内核源码阅读入门(剖析Linux内核-构建源码树)\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1ec411Z7bc/?spm_id_from=333.1007.tianma.4-1-11.click)
 11. [推荐 12 个现代风格的 shell 命令 - 搞起来属于我的终端环境吧！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1iN4y1D7ox/?spm_id_from=333.1007.tianma.31-1-119.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 12. [Shell脚本一天一练Day45-检测网段内通的IP\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Sg4y1X79X/?spm_id_from=333.1007.tianma.23-1-87.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
+13. [Shell脚本一天一练Day36-自动封和解封IP\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Dz4y1P7jb/?spm_id_from=333.1007.tianma.20-1-59.click)
+14. [Shell 基础及 CLI 工具推荐 | 实用技能拾遗第一讲 | 浙江大学竺可桢学院学业指导中心辅学精品课【直播回放】\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1ry4y1A7qo/?spm_id_from=333.1007.tianma.31-3-94.click)
+15. [Shell脚本一天一练Day41-对比两台机器上的文件差异\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Ee411X7bD/?spm_id_from=333.1007.tianma.64-2-192.click)
 
 ## 1.5. linux
 1. [【计算机底层原理】程序员必知必会的技术，马士兵仅用700分钟讲明白计算机的组成、CPU的工作原理、TCP/IP、缓存、进程、线程锁、计算机网络...\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1R34y1g7iy/?spm_id_from=333.1007.tianma.6-4-22.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 2. [图解linux网络编程\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV198411677d/?spm_id_from=333.1007.tianma.8-4-30.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 3. [每天一个Linux命令-top(2)\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Cu4y1n7WF/?spm_id_from=333.1007.tianma.11-4-42.click)
 4. 不错!：[5分钟学会Linux的权限\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1cc411o7Te/?spm_id_from=333.1007.tianma.13-1-47.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
+5. [19 详解网络基础最重要的三张表：ARP表、MAC表、路由表的区别和各自作用\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1cH4y1r7PJ/?spm_id_from=333.1007.tianma.23-1-68.click)
+6. [计算机网络原理-权威\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1db4y1g71h/?spm_id_from=333.1007.tianma.24-3-73.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
+7. [每天一个Linux命令-top(3)\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1ey4y1A7vh/?spm_id_from=333.1007.tianma.32-1-95.click)
+8. [内网穿透原来可以这么简单？！3分钟带你速通！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Dw411p7vK/?spm_id_from=333.1007.tianma.34-2-102.click)
+9. [2023年全新-企业级防火墙iptables详解（Linux运维进阶必备）\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Gw411z7fD/?spm_id_from=333.1007.tianma.35-2-105.click)
+10. [Shell脚本一天一练Day43-写带有参数的添加或删除用户的脚本\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1nw411x79N/?spm_id_from=333.1007.tianma.37-1-110.click)
+11. [什么是正向代理？什么是反向代理？一分钟最详解答，新手必备，入门教程\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1SM411X7ye/?spm_id_from=333.1007.tianma.49-2-147.click)
 ## 1.6. windows软件下载
 1. [必装神器！2023年八款软件大揭秘，让你爽到爆表！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Vu411g77S/?spm_id_from=333.1007.tianma.4-2-12.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 2. [还有人不会装系统？还不知道这些神级软件？什么美化系统你也不会？一个视频帮你全搞懂！！！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1L94y1t74H/?spm_id_from=333.1007.tianma.5-3-17.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
@@ -176,3 +190,12 @@ brew install bash-completion
 
 ## 1.31. gitlab cicd加自动化测试
 1. [基于Gitlab部署实验平台CICD+自动化测试\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1gN4y1r7E5/?spm_id_from=333.1007.tianma.59-1-231.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
+
+## 1.32. cicd
+1. [【大佬驾到 运维教程】大佬带你3天玩转CICD持续集成 一套课程从入门到精通\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1qw411T7bQ/?spm_id_from=333.1007.tianma.7-1-20.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
+
+## 1.33. 浙江大学竺可桢学院的学生组织——学业指导中心
+[CKC-AGC的个人空间-CKC-AGC个人主页-哔哩哔哩视频](https://space.bilibili.com/3546574332365752)
+
+## 1.34. linux上运行的网页浏览器
+1. [【命令行神器】能在Linux命令行上运行的网页浏览器推荐\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV14Q4y1W7Xd/?spm_id_from=333.1007.tianma.9-1-26.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)

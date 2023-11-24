@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md",
-                "mode": "preview",
+                "file": "020 - 工作学习/学习/前端/00.学习-前端.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -321,7 +321,8 @@
     "020 - 工作学习/工作/多语言/多语言系统化实现.md",
     "020 - 工作学习/学习/00. 学习.md",
     "020 - 工作学习/学习/后端/linux/00.linux学习清单.md",
-    "020 - 工作学习/学习/前端/00.学习-前端.md",
+    "020 - 工作学习/学习/后端/nginx/nginx.md",
+    "040 - Obsidian/主页/00. 主页.md",
     "004 - Resource/资源/各种软件/vim学习/vim学习.md",
     "004 - Resource/资源/各种软件/vim学习/neovim.md",
     "004 - Resource/资源/环境安装和软件安装/wsl2前端部署/wsl2前端部署.md",

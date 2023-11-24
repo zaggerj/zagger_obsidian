@@ -4,18 +4,8 @@
   "headerUpdated": "updated",
   "headerCreated": "created",
   "minMinutesBetweenSaves": 1,
-  "ignoreGlobalFolder": [
-    "040 - Obsidian/模板",
-    "040 - Obsidian/主页",
-    "040 - Obsidian/附件",
-    "040 - Obsidian"
-  ],
-  "ignoreCreatedFolder": [
-    "040 - Obsidian/模板",
-    "040 - Obsidian/主页",
-    "040 - Obsidian/附件",
-    "040 - Obsidian"
-  ],
+  "ignoreGlobalFolder": ["040 - Obsidian/模板", "040 - Obsidian/主页", "040 - Obsidian/附件", "040 - Obsidian"],
+  "ignoreCreatedFolder": ["040 - Obsidian/模板", "040 - Obsidian/主页", "040 - Obsidian/附件", "040 - Obsidian"],
   "enableExperimentalHash": true,
   "fileHashMap": {
     "60 - 临时/模糊分类.md": "851633893e325a4d488207d444df32988d52459cd5f74ddecf1920939b6d275c",
@@ -681,10 +671,10 @@
     "020 - 工作学习/学习/后端/docker/前端工程师也应该了解的docker.md": "06ec59a6127db681539c0feb9e49f4ca162f8f036e739575b9e9281838838fba",
     "020 - 工作学习/学习/后端/bash/学习bash.md": "d85e861e81e5efab4f473a0df76a04f2bb7376fbec1616021fcb95cd7c662f69",
     "020 - 工作学习/学习/后端/jenkins/jenkins.md": "aa208332b1470cb6bb90424b3b6f78dc2f5436776ee4d99369201aa64c6d0ff3",
-    "020 - 工作学习/学习/后端/bash/学习清单.md": "6c7396c98c1aa6b25374923f9aa1868ba221e118ec909453205fb73ed501f15f",
+    "020 - 工作学习/学习/后端/bash/学习清单.md": "7f7c32bc6f8c6f760b25cf76f6c22e60ef197692570105dd7ddca2cb0a60b09e",
     "020 - 工作学习/学习/后端/jenkins/jenkins打包问题-解决.md": "d1849cdf93819ca51595e781ded4e2b302e3460741941450375b9acfae167bbe",
     "020 - 工作学习/学习/后端/linux/awk.md": "8f456fc84a699f183fc7f02c528d43c8ea4a0d63c8fc64c1391ce45608bfa377",
-    "020 - 工作学习/学习/后端/nginx/nginx.md": "21d22ae58e2374e71b62f10bd59f7d17fa2479bf9ffb7de2d0545119c89609d9",
+    "020 - 工作学习/学习/后端/nginx/nginx.md": "dc30d6799f1377e363a12c6893f136ac5172aa61a65ff499ababe9cda2ab3d33",
     "020 - 工作学习/学习/后端/linux/bin包.md": "6a8c46e0bb8479e6e4104127f9ffb2267dc5b044e7775f854b55edbb5ee6482c",
     "020 - 工作学习/学习/后端/linux/chmod.md": "5ed269cb6f0cef145423112fe7b1d5f324de27f68c44d459b7abe0837a74e46e",
     "020 - 工作学习/学习/后端/nginx/nginx-zagger.md": "21d22ae58e2374e71b62f10bd59f7d17fa2479bf9ffb7de2d0545119c89609d9",
@@ -887,7 +877,7 @@
     "020 - 工作学习/工作/远程、定制化/windicss远程使用场景.md": "b9ff63bd40e775091139d861b2b4d8ed8a71ed1412a780c436331d11d0e92fa3",
     "020 - 工作学习/工作/业务知识和难题/00.业务知识和难题.md": "89874de9f277413cd65f9bc6b96d1386aa3dbd42fe5c07f972263cfccbc9ff96",
     "020 - 工作学习/学习/css方案.md": "dee5334476ecc2052f58880f70e20f3529acfb71c1d6dad4ce4b6b09088aa689",
-    "020 - 工作学习/学习/前端/00.学习-前端.md": "01496535fd3e8c3b5d1101d0708491225c9c79d4f98b47e32ebe69191b53a2c2",
+    "020 - 工作学习/学习/前端/00.学习-前端.md": "3d73dd9a246d25b6ee5606a2c2aa0859772b9b55ba93a58b070c2d1a7eddc218",
     "020 - 工作学习/学习/前端/typescript/内置对象.md": "871e83edc0977d4ed9372ee6551d69184a39dd831a85ee1e4c6c9962ebc629e2",
     "020 - 工作学习/学习/前端/typescript/typescript-声明文件.md": "4f3f0476fecbf6c3f88e9c6b5842e4cb1cbd47e6a388ceb232a2e18410589384",
     "020 - 工作学习/学习/前端/typescript/tsconfig.json.md": "ab6f280dfdebeeadca3a7478a31f4c438cebb49bdc5e7964911d567ea62d1607",
