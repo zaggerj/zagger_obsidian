@@ -234,7 +234,7 @@
     }
   },
   "syntaxHighlight": false,
-  "copyButton": false,
+  "copyButton": true,
   "version": "10.1.1",
   "autoCollapse": false,
   "defaultCollapseType": "open",
