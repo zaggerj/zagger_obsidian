@@ -4,89 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "437dc2e16d742151",
+        "id": "84be05d0ce35fe76",
         "type": "tabs",
         "children": [
           {
-            "id": "c3343db92ea7c337",
+            "id": "9a956059a10faee0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "000 - 每日日记/WeeklyNote/2023年46周记录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bc10ecd7b9ae5546",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月20日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a420840e32eeefe0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/WeeklyNote/2023年47周记录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "44cd17cc363e03de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/WeeklyNote/2023年46周记录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "fedcda0cf42302ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "040 - Obsidian/模板/tp-每周周记模板.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "36c90433c7709672",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/WeeklyNote/2023年45周记录.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Obsidian/模板/tp-每周周记模板.md"
+                "file": "000 - 每日日记/WeeklyNote/2023年46周记录.md"
               }
             }
           },
@@ -221,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "040 - Obsidian/模板/tp-每周周记模板.md",
+                "file": "000 - 每日日记/WeeklyNote/2023年46周记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -238,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "040 - Obsidian/模板/tp-每周周记模板.md",
+                "file": "000 - 每日日记/WeeklyNote/2023年46周记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -250,7 +184,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "040 - Obsidian/模板/tp-每周周记模板.md"
+                "file": "000 - 每日日记/WeeklyNote/2023年46周记录.md"
               }
             }
           },
@@ -273,7 +207,7 @@
             }
           },
           {
-            "id": "3f85fe0d28943f6d",
+            "id": "5539c9b4760c35dd",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -340,18 +274,16 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "fedcda0cf42302ae",
+  "active": "9a956059a10faee0",
   "lastOpenFiles": [
-    "000 - 每日日记/WeeklyNote/2023年46周记录.md",
-    "000 - 每日日记/WeeklyNote/2023年45周记录.md",
     "000 - 每日日记/WeeklyNote/2023年47周记录.md",
-    "000 - 每日日记/DailyNote/2023年11月20日.md",
-    "000 - 每日日记/DailyNote/2023年11月13日.md",
+    "000 - 每日日记/WeeklyNote/2023年46周记录.md",
     "040 - Obsidian/主页/00. 主页.md",
-    "000 - 每日日记/DailyNote/2023年11月21日.md",
-    "000 - 每日日记/DailyNote/2023年11月22日.md",
-    "000 - 每日日记/DailyNote/2023年11月23日.md",
     "000 - 每日日记/DailyNote/2023年11月24日.md",
+    "000 - 每日日记/DailyNote/2023年11月23日.md",
+    "000 - 每日日记/DailyNote/2023年11月22日.md",
+    "000 - 每日日记/DailyNote/2023年11月20日.md",
+    "000 - 每日日记/DailyNote/2023年11月21日.md",
     "004 - Resource/资源/00.资源导航.md",
     "020 - 工作学习/工作/多语言/多语言系统化实现.md",
     "020 - 工作学习/学习/00. 学习.md",
