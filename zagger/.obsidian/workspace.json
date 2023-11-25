@@ -13,14 +13,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 - 每日日记/WeeklyNote/2023年46周记录.md",
-                "mode": "preview",
+                "file": "000 - 每日日记/WeeklyNote/2023年47周记录.md",
+                "mode": "source",
                 "backlinks": true,
-                "source": true
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "69856ba2db874053",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/WeeklyNote/2023年45周记录.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f5f67c1c11249d42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2023年11月24日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3bfc9ae2db491a12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2023年11月23日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -129,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/WeeklyNote/2023年46周记录.md"
+                "file": "000 - 每日日记/DailyNote/2023年11月24日.md"
               }
             }
           },
@@ -155,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/WeeklyNote/2023年46周记录.md",
+                "file": "000 - 每日日记/DailyNote/2023年11月24日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/WeeklyNote/2023年46周记录.md",
+                "file": "000 - 每日日记/DailyNote/2023年11月24日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +224,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/WeeklyNote/2023年46周记录.md"
+                "file": "000 - 每日日记/DailyNote/2023年11月24日.md"
               }
             }
           },
@@ -215,7 +255,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 3
       },
       {
         "id": "888c3f3084370af3",
@@ -237,7 +277,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -274,13 +315,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "23fad819ff207865",
+  "active": "f5f67c1c11249d42",
   "lastOpenFiles": [
     "000 - 每日日记/WeeklyNote/2023年47周记录.md",
+    "000 - 每日日记/DailyNote/2023年11月24日.md",
+    "000 - 每日日记/WeeklyNote/2023年45周记录.md",
+    "000 - 每日日记/DailyNote/2023年11月23日.md",
     "000 - 每日日记/WeeklyNote/2023年46周记录.md",
     "040 - Obsidian/主页/00. 主页.md",
-    "000 - 每日日记/DailyNote/2023年11月24日.md",
-    "000 - 每日日记/DailyNote/2023年11月23日.md",
     "000 - 每日日记/DailyNote/2023年11月22日.md",
     "000 - 每日日记/DailyNote/2023年11月20日.md",
     "000 - 每日日记/DailyNote/2023年11月21日.md",
