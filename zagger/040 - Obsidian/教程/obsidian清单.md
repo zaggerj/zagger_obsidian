@@ -83,6 +83,9 @@ Summary:: obsidian各种文章、博客、文档的连接集合
 29. [顶级学霸笔记工具/Obsidian文件自动归类/让笔记管理更高效/Dataview和query\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1h94y1G7Y4/?spm_id_from=..search-card.all.click&vd_source=af94dc11f0a1751ebb3c2090844ad9f6)
 30. [如何用 obsidian 和 flomo 搭建知识体系](https://www.douban.com/note/824956668/?_i=9942129SuLBy95)
 31. [想一小时上手obsidian？这一篇就够了。【玩转Obsidian的保姆级教程】 - 知乎](https://zhuanlan.zhihu.com/p/428519519)
+32. [Obsidian使用指南【根据Up：锌一】 - 哔哩哔哩](https://www.bilibili.com/read/cv22037940/)
+33. [obsidian使用教程完全篇 - 知乎](https://zhuanlan.zhihu.com/p/659603345?utm_id=0)
+34. [几招教你提高 Obsidian 中块引用的操作体验 - 知乎](https://zhuanlan.zhihu.com/p/411484717)
 
 ## 1.5 相关文章
 *摘抄来源，引用出处，参考链接，文档查询*
