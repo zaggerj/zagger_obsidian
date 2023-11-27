@@ -10,7 +10,7 @@ banner_icon: 💌
 banner_x: 0.5
 banner_y: 0.38
 created: 2023-11-21 08:41:40
-updated: 2023-11-23 16:37:17
+updated: 2023-11-27 08:38:16
 ---
 
 # 1. mongodb安装和配置
@@ -41,10 +41,11 @@ _摘抄部分原文后，进行筛选加粗然后对加粗的继续进行筛选�
 
 1. windows本地安装mongo服务，`scoop install -g mongodb@4.4.26`
 2. 创建data目录，用来跑服务
-3. 跑起来mongod服务：`./mongod --dbpath D:\\GlobalScoopApps\\apps\\mongodb\\current\\data --auth`，并可以在命令行查看日志 
-4. `./mongo`跑起来客户端
-5. `use admin`进入admin数据库
-6. 创建admin账号
+3. 切换到mongodb目录：`cd /d/GlobalScoopApps/apps/mongodb/current/bin`
+4. 跑起来mongod服务：`./mongod --dbpath D:\\GlobalScoopApps\\apps\\mongodb\\current\\data --auth`，并可以在命令行查看日志 
+5. `./mongo`跑起来客户端
+6. `use admin`进入admin数据库
+7. 创建admin账号
    
    ```js
 db.createUser( {

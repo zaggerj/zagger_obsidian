@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "85f12bc12dec1b56",
+        "id": "85b84c991755a799",
         "type": "tabs",
         "children": [
           {
-            "id": "d295056b30a6137c",
+            "id": "7a5c10da712468ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,90 +21,12 @@
             }
           },
           {
-            "id": "bcff3363b21704a1",
+            "id": "f9b6a2641d439be4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 - 每日日记/WeeklyNote/2023年47周记录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ad883e5ec64204d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月21日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "81720b3ae42f06ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月20日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "28981e0638c1174b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月23日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0c6478523143b55a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月24日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0d11d1508e289adb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月25日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d80faaad5eb3e421",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月22日.md",
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -124,7 +46,7 @@
       {
         "id": "284346499ce2ea86",
         "type": "tabs",
-        "dimension": 80.38067349926794,
+        "dimension": 65.63758389261744,
         "children": [
           {
             "id": "23fad819ff207865",
@@ -150,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "10240",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -175,12 +97,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "73db95bfb166faa1",
         "type": "tabs",
-        "dimension": 19.619326500732065,
+        "dimension": 34.36241610738255,
         "children": [
           {
             "id": "8b6d8c7e5231700f",
@@ -221,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/WeeklyNote/2023年47周记录.md"
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
               }
             }
           },
@@ -247,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/WeeklyNote/2023年47周记录.md",
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -264,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/WeeklyNote/2023年47周记录.md",
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -276,7 +199,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/WeeklyNote/2023年47周记录.md"
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
               }
             }
           },
@@ -299,7 +222,7 @@
             }
           },
           {
-            "id": "4641625ce6053933",
+            "id": "bac0f56295f54488",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -366,32 +289,34 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "bcff3363b21704a1",
+  "active": "f9b6a2641d439be4",
   "lastOpenFiles": [
-    "000 - 每日日记/DailyNote/2023年11月22日.md",
-    "000 - 每日日记/DailyNote/2023年11月25日.md",
-    "000 - 每日日记/DailyNote/2023年11月24日.md",
-    "000 - 每日日记/DailyNote/2023年11月23日.md",
     "000 - 每日日记/DailyNote/2023年11月21日.md",
-    "000 - 每日日记/DailyNote/2023年11月20日.md",
+    "000 - 每日日记/DailyNote/2023年11月25日.md",
+    "000 - 每日日记/DailyNote/2023年11月22日.md",
+    "000 - 每日日记/DailyNote/2023年11月23日.md",
+    "000 - 每日日记/DailyNote/2023年11月24日.md",
     "000 - 每日日记/WeeklyNote/2023年47周记录.md",
+    "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
     "040 - Obsidian/主页/00. 主页.md",
-    "000 - 每日日记/DailyNote/2023年11月19日.md",
-    "000 - 每日日记/WeeklyNote/2023年46周记录.md",
-    "040 - Obsidian/模板/tp-每周周记模板.md",
-    "040 - Obsidian/模板/tp-每日日记模板.md",
-    "000 - 每日日记/WeeklyNote/2023年45周记录.md",
-    "004 - Resource/资源/00.资源导航.md",
-    "020 - 工作学习/工作/多语言/多语言系统化实现.md",
-    "020 - 工作学习/学习/00. 学习.md",
-    "020 - 工作学习/学习/后端/linux/00.linux学习清单.md",
-    "020 - 工作学习/学习/后端/nginx/nginx.md",
-    "004 - Resource/资源/各种软件/vim学习/vim学习.md",
-    "004 - Resource/资源/各种软件/vim学习/neovim.md",
-    "004 - Resource/资源/环境安装和软件安装/wsl2前端部署/wsl2前端部署.md",
-    "020 - 工作学习/学习/后端/linux/wsl2.md",
-    "004 - Resource/资源/各种软件/macos软件安装.md",
-    "004 - Resource/资源/翻墙/翻墙清单.md",
-    "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md"
+    "020 - 工作学习/学习计划脚本/翻译资源服务平台/vue2开发问题.md",
+    "020 - 工作学习/工作/00. 工作.md",
+    "040 - Obsidian/Excalidraw/资源配置逻辑.md",
+    "020 - 工作学习/学习计划脚本/翻译资源服务平台/资源配置平台.md",
+    "020 - 工作学习/学习计划脚本/翻译资源服务平台/资源服务开发模式.md",
+    "020 - 工作学习/学习计划脚本/翻译资源服务平台/统一资源学习计划.md",
+    "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongoose.md",
+    "000 - 每日日记/DailyNote/2023年11月17日.md",
+    "020 - 工作学习/学习/前端/electron/搭建electron vite vue3/第一章 快速搭建Electron+Vite3+Vue3+TypeScript5脚手架 (无需梯子，快速安装Electron).md",
+    "020 - 工作学习/工作/远程、定制化/引发的管理台项目可配置.md",
+    "020 - 工作学习/学习计划脚本/翻译资源服务平台",
+    "020 - 工作学习/学习/前端/00.学习-前端.md",
+    "020 - 工作学习/工作/工作计划/最新工作安排/近期工作安排.md",
+    "020 - 工作学习/工作/远程、定制化/windicss远程使用场景.md",
+    "040 - Obsidian/主页/稍后学习.md",
+    "004 - Resource/资源/学习网站收录/IT技术网站.md",
+    "040 - Obsidian/主页/稍后阅读.md",
+    "004 - Resource/资源/学习网站收录/00.学习网站.md",
+    "020 - 工作学习/学习/前端/typescript/学习清单.md"
   ]
 }
