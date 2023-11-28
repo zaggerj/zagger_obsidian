@@ -51,5 +51,17 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": []
+  "treeData": [
+    {
+      "id": "ce35112f9bc5f684",
+      "parent": 0,
+      "droppable": true,
+      "text": "国际化 - iView",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    }
+  ]
 }
