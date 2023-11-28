@@ -47,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/vue2开发问题.md"
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
               }
             }
           },
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/vue2开发问题.md",
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/vue2开发问题.md",
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/vue2开发问题.md"
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
               }
             }
           },
@@ -301,10 +301,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "8d0462ebe13fb38b",
+  "active": "f9b6a2641d439be4",
   "lastOpenFiles": [
-    "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台/vue2开发问题.md",
+    "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "040 - Obsidian/主页/00. 主页.md",
     "000 - 每日日记/DailyNote/2023年11月21日.md",
     "000 - 每日日记/DailyNote/2023年11月25日.md",
