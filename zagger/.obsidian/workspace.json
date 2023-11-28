@@ -48,6 +48,44 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "e038ae889c10c7c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "baf7bb830d338c33",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2023年11月27日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "6e5056f266dbedb0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "028e7b292b7e5c6f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2023年11月28日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -156,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
+                "file": "000 - 每日日记/DailyNote/2023年11月28日.md"
               }
             }
           },
@@ -182,7 +220,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
+                "file": "000 - 每日日记/DailyNote/2023年11月28日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +237,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
+                "file": "000 - 每日日记/DailyNote/2023年11月28日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +249,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
+                "file": "000 - 每日日记/DailyNote/2023年11月28日.md"
               }
             }
           },
@@ -301,10 +339,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "f9b6a2641d439be4",
+  "active": "028e7b292b7e5c6f",
   "lastOpenFiles": [
-    "020 - 工作学习/学习计划脚本/翻译资源服务平台/vue2开发问题.md",
+    "000 - 每日日记/DailyNote/2023年11月27日.md",
+    "000 - 每日日记/DailyNote/2023年11月28日.md",
+    "000 - 每日日记/DailyNote/2023年11月26日.md",
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
+    "020 - 工作学习/学习计划脚本/翻译资源服务平台/vue2开发问题.md",
     "040 - Obsidian/主页/00. 主页.md",
     "000 - 每日日记/DailyNote/2023年11月21日.md",
     "000 - 每日日记/DailyNote/2023年11月25日.md",
@@ -326,9 +367,6 @@
     "020 - 工作学习/学习/前端/00.学习-前端.md",
     "020 - 工作学习/工作/工作计划/最新工作安排/近期工作安排.md",
     "020 - 工作学习/工作/远程、定制化/windicss远程使用场景.md",
-    "040 - Obsidian/主页/稍后学习.md",
-    "004 - Resource/资源/学习网站收录/IT技术网站.md",
-    "040 - Obsidian/主页/稍后阅读.md",
-    "004 - Resource/资源/学习网站收录/00.学习网站.md"
+    "040 - Obsidian/主页/稍后学习.md"
   ]
 }

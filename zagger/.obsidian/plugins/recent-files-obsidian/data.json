@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "2023年11月28日",
+      "path": "000 - 每日日记/DailyNote/2023年11月28日.md"
+    },
+    {
+      "basename": "2023年11月27日",
+      "path": "000 - 每日日记/DailyNote/2023年11月27日.md"
+    },
+    {
+      "basename": "2023年11月26日",
+      "path": "000 - 每日日记/DailyNote/2023年11月26日.md"
+    },
+    {
       "basename": "a 服务器相关命令",
       "path": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "正则文章通读",
       "path": "020 - 工作学习/学习/前端/js小知识点/正则/正则文章通读.md"
-    },
-    {
-      "basename": "模板使用流程",
-      "path": "040 - Obsidian/Excalidraw/模板使用流程.md"
-    },
-    {
-      "basename": "00. 参考汇总",
-      "path": "040 - Obsidian/主页/00. 参考汇总.md"
-    },
-    {
-      "basename": "扩展正则匹配",
-      "path": "020 - 工作学习/学习/后端/linux/扩展正则匹配.md"
     }
   ],
   "omittedPaths": [],
