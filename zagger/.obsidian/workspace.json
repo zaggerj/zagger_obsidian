@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "10240",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -289,7 +289,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "f9b6a2641d439be4",
+  "active": "f2b0ffe519625a29",
   "lastOpenFiles": [
     "000 - 每日日记/DailyNote/2023年11月21日.md",
     "000 - 每日日记/DailyNote/2023年11月25日.md",
