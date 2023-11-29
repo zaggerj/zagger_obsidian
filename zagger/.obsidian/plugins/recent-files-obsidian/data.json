@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "mongodb安装和配置",
-      "path": "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md"
-    },
-    {
-      "basename": "2023年11月29日",
-      "path": "000 - 每日日记/DailyNote/2023年11月29日.md"
-    },
-    {
       "basename": "2023年11月28日",
       "path": "000 - 每日日记/DailyNote/2023年11月28日.md"
     },
     {
       "basename": "2023年11月27日",
       "path": "000 - 每日日记/DailyNote/2023年11月27日.md"
+    },
+    {
+      "basename": "2023年11月29日",
+      "path": "000 - 每日日记/DailyNote/2023年11月29日.md"
+    },
+    {
+      "basename": "grep",
+      "path": "020 - 工作学习/学习/后端/linux/grep.md"
+    },
+    {
+      "basename": "mongodb安装和配置",
+      "path": "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md"
     },
     {
       "basename": "2023年11月26日",
@@ -195,10 +199,6 @@
     {
       "basename": "正则",
       "path": "020 - 工作学习/学习/前端/js小知识点/正则/正则.md"
-    },
-    {
-      "basename": "tp-改良长青笔记模板",
-      "path": "040 - Obsidian/模板/tp-改良长青笔记模板.md"
     }
   ],
   "omittedPaths": [],

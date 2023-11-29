@@ -1,6 +1,6 @@
 {
   "searchViewState": {
-    "query": "",
+    "query": "grep -rn",
     "matchingCase": false,
     "explainSearch": false,
     "collapseAll": false,

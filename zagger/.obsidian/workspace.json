@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
+                "file": "020 - 工作学习/学习/后端/linux/grep.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,7 +73,26 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
+      },
+      {
+        "id": "b7bb0d4c8de21a21",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3c8716b2ca6859cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2023年11月28日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +130,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "grep -rn",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -136,7 +155,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "73db95bfb166faa1",
@@ -182,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md"
+                "file": "000 - 每日日记/DailyNote/2023年11月28日.md"
               }
             }
           },
@@ -208,7 +228,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
+                "file": "000 - 每日日记/DailyNote/2023年11月28日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +245,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
+                "file": "000 - 每日日记/DailyNote/2023年11月28日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -237,7 +257,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md"
+                "file": "000 - 每日日记/DailyNote/2023年11月28日.md"
               }
             }
           },
@@ -327,11 +347,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "4a93b01f13f4ceee",
+  "active": "3c8716b2ca6859cb",
   "lastOpenFiles": [
-    "000 - 每日日记/DailyNote/2023年11月29日.md",
-    "000 - 每日日记/DailyNote/2023年11月28日.md",
     "000 - 每日日记/DailyNote/2023年11月27日.md",
+    "000 - 每日日记/DailyNote/2023年11月29日.md",
+    "020 - 工作学习/学习/后端/linux/grep.md",
+    "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
+    "000 - 每日日记/DailyNote/2023年11月28日.md",
     "000 - 每日日记/DailyNote/2023年11月26日.md",
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台/vue2开发问题.md",
@@ -342,7 +364,6 @@
     "000 - 每日日记/DailyNote/2023年11月23日.md",
     "000 - 每日日记/DailyNote/2023年11月24日.md",
     "000 - 每日日记/WeeklyNote/2023年47周记录.md",
-    "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
     "020 - 工作学习/工作/00. 工作.md",
     "040 - Obsidian/Excalidraw/资源配置逻辑.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台/资源配置平台.md",
@@ -354,7 +375,6 @@
     "020 - 工作学习/工作/远程、定制化/引发的管理台项目可配置.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台",
     "020 - 工作学习/学习/前端/00.学习-前端.md",
-    "020 - 工作学习/工作/工作计划/最新工作安排/近期工作安排.md",
-    "020 - 工作学习/工作/远程、定制化/windicss远程使用场景.md"
+    "020 - 工作学习/工作/工作计划/最新工作安排/近期工作安排.md"
   ]
 }
