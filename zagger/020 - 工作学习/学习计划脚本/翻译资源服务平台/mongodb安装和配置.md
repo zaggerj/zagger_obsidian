@@ -10,7 +10,7 @@ banner_icon: 💌
 banner_x: 0.5
 banner_y: 0.38
 created: 2023-11-21 08:41:40
-updated: 2023-11-27 08:38:16
+updated: 2023-11-29 18:35:12
 ---
 
 # 1. mongodb安装和配置
@@ -51,6 +51,11 @@ _摘抄部分原文后，进行筛选加粗然后对加粗的继续进行筛选�
 db.createUser( {
 	 user: "admin",
 	 pwd: "admin",
+	 roles: [ { role: "root", db: "admin" } ]
+ })
+db.createUser( {
+	 user: "webres",
+	 pwd: "123456",
 	 roles: [ { role: "root", db: "admin" } ]
  })
 ```

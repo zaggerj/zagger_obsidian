@@ -58,9 +58,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4a93b01f13f4ceee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -169,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月29日.md"
+                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md"
               }
             }
           },
@@ -195,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月29日.md",
+                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月29日.md",
+                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,7 +237,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月29日.md"
+                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md"
               }
             }
           },
@@ -314,10 +327,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "028e7b292b7e5c6f",
+  "active": "4a93b01f13f4ceee",
   "lastOpenFiles": [
-    "000 - 每日日记/DailyNote/2023年11月28日.md",
     "000 - 每日日记/DailyNote/2023年11月29日.md",
+    "000 - 每日日记/DailyNote/2023年11月28日.md",
     "000 - 每日日记/DailyNote/2023年11月27日.md",
     "000 - 每日日记/DailyNote/2023年11月26日.md",
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
