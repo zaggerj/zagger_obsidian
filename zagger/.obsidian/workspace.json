@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月28日.md",
+                "file": "000 - 每日日记/DailyNote/2023年11月29日.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月28日.md"
+                "file": "000 - 每日日记/DailyNote/2023年11月29日.md"
               }
             }
           },
@@ -195,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月28日.md",
+                "file": "000 - 每日日记/DailyNote/2023年11月29日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月28日.md",
+                "file": "000 - 每日日记/DailyNote/2023年11月29日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,7 +224,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月28日.md"
+                "file": "000 - 每日日记/DailyNote/2023年11月29日.md"
               }
             }
           },
@@ -317,6 +317,7 @@
   "active": "028e7b292b7e5c6f",
   "lastOpenFiles": [
     "000 - 每日日记/DailyNote/2023年11月28日.md",
+    "000 - 每日日记/DailyNote/2023年11月29日.md",
     "000 - 每日日记/DailyNote/2023年11月27日.md",
     "000 - 每日日记/DailyNote/2023年11月26日.md",
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
@@ -341,7 +342,6 @@
     "020 - 工作学习/学习计划脚本/翻译资源服务平台",
     "020 - 工作学习/学习/前端/00.学习-前端.md",
     "020 - 工作学习/工作/工作计划/最新工作安排/近期工作安排.md",
-    "020 - 工作学习/工作/远程、定制化/windicss远程使用场景.md",
-    "040 - Obsidian/主页/稍后学习.md"
+    "020 - 工作学习/工作/远程、定制化/windicss远程使用场景.md"
   ]
 }

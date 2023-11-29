@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2023年11月29日",
+      "path": "000 - 每日日记/DailyNote/2023年11月29日.md"
+    },
+    {
       "basename": "2023年11月28日",
       "path": "000 - 每日日记/DailyNote/2023年11月28日.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "tp-改良长青笔记模板",
       "path": "040 - Obsidian/模板/tp-改良长青笔记模板.md"
-    },
-    {
-      "basename": "正则文章通读",
-      "path": "020 - 工作学习/学习/前端/js小知识点/正则/正则文章通读.md"
     }
   ],
   "omittedPaths": [],
