@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月29日.md"
+                "file": "000 - 每日日记/DailyNote/2023年11月30日.md"
               }
             }
           },
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月29日.md",
+                "file": "000 - 每日日记/DailyNote/2023年11月30日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月29日.md",
+                "file": "000 - 每日日记/DailyNote/2023年11月30日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +208,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月29日.md"
+                "file": "000 - 每日日记/DailyNote/2023年11月30日.md"
               }
             }
           },
@@ -295,8 +295,9 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "d74f8b02ba1f88e4",
+  "active": "3cf315bab717abf7",
   "lastOpenFiles": [
+    "000 - 每日日记/DailyNote/2023年11月29日.md",
     "000 - 每日日记/DailyNote/2023年11月30日.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
     "040 - Obsidian/主页/00. 主页.md",
@@ -307,7 +308,6 @@
     "040 - Obsidian/主页/工作链接清单.md",
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "000 - 每日日记/DailyNote/2023年11月27日.md",
-    "000 - 每日日记/DailyNote/2023年11月29日.md",
     "000 - 每日日记/DailyNote/2023年11月07日.md",
     "000 - 每日日记/DailyNote/2023年11月28日.md",
     "020 - 工作学习/学习/后端/linux/grep.md",
