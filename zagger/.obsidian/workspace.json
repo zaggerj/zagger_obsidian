@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "85b84c991755a799",
+        "id": "96823075a3f13482",
         "type": "tabs",
         "children": [
           {
-            "id": "7a5c10da712468ca",
+            "id": "d7a163c9bd2228c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,87 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "c4dd4269f17baed7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "040 - Obsidian/主页/工作链接清单.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8a0ae3e7a68df77c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "040 - Obsidian/教程/obsidian清单.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6bc0aeca9d36fc51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "040 - Obsidian/教程/obsidian插件列表.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f9b6a2641d439be4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "77904aa7c9e0d992",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4a93b01f13f4ceee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/后端/linux/grep.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Obsidian/教程/obsidian插件列表.md"
+                "file": "040 - Obsidian/主页/00. 主页.md"
               }
             }
           },
@@ -219,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "040 - Obsidian/教程/obsidian插件列表.md",
+                "file": "040 - Obsidian/主页/00. 主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "040 - Obsidian/教程/obsidian插件列表.md",
+                "file": "040 - Obsidian/主页/00. 主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -248,7 +169,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "040 - Obsidian/教程/obsidian插件列表.md"
+                "file": "040 - Obsidian/主页/00. 主页.md"
               }
             }
           },
@@ -271,7 +192,7 @@
             }
           },
           {
-            "id": "bac0f56295f54488",
+            "id": "d33666ccf49edcd1",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -335,11 +256,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "6bc0aeca9d36fc51",
+  "active": "d7a163c9bd2228c3",
   "lastOpenFiles": [
+    "040 - Obsidian/教程/obsidian插件列表.md",
+    "020 - 工作学习/工作/常见问题/客户端远程改资源.md",
+    "020 - 工作学习/工作/业务知识和难题/各种问题/客户端远程改资源.md",
+    "040 - Obsidian/主页/00. 主页.md",
     "040 - Obsidian/教程/obsidian清单.md",
     "040 - Obsidian/主页/工作链接清单.md",
-    "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
     "000 - 每日日记/DailyNote/2023年11月27日.md",
@@ -360,9 +284,6 @@
     "040 - Obsidian/Excalidraw/资源配置逻辑.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台/资源配置平台.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台/资源服务开发模式.md",
-    "020 - 工作学习/学习计划脚本/翻译资源服务平台/统一资源学习计划.md",
-    "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongoose.md",
-    "000 - 每日日记/DailyNote/2023年11月17日.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台"
   ]
 }
