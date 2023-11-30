@@ -98,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#重要",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -115,7 +115,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "73db95bfb166faa1",
