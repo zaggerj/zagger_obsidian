@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "2023年11月29日",
+      "path": "000 - 每日日记/DailyNote/2023年11月29日.md"
+    },
+    {
+      "basename": "2023年11月30日",
+      "path": "000 - 每日日记/DailyNote/2023年11月30日.md"
+    },
+    {
       "basename": "2023年11月28日",
       "path": "000 - 每日日记/DailyNote/2023年11月28日.md"
     },
     {
       "basename": "2023年11月27日",
       "path": "000 - 每日日记/DailyNote/2023年11月27日.md"
-    },
-    {
-      "basename": "2023年11月29日",
-      "path": "000 - 每日日记/DailyNote/2023年11月29日.md"
     },
     {
       "basename": "grep",
@@ -195,10 +199,6 @@
     {
       "basename": "obsidian清单",
       "path": "040 - Obsidian/教程/obsidian清单.md"
-    },
-    {
-      "basename": "正则",
-      "path": "020 - 工作学习/学习/前端/js小知识点/正则/正则.md"
     }
   ],
   "omittedPaths": [],
