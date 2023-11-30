@@ -34,6 +34,32 @@
             }
           },
           {
+            "id": "8a0ae3e7a68df77c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "040 - Obsidian/教程/obsidian清单.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6bc0aeca9d36fc51",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "040 - Obsidian/教程/obsidian插件列表.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f9b6a2641d439be4",
             "type": "leaf",
             "state": {
@@ -73,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -127,14 +153,6 @@
               "type": "bookmarks",
               "state": {}
             }
-          },
-          {
-            "id": "5ca620075b6a18da",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-tab-tree",
-              "state": {}
-            }
           }
         ],
         "currentTab": 2
@@ -183,16 +201,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Obsidian/主页/工作链接清单.md"
+                "file": "040 - Obsidian/教程/obsidian插件列表.md"
               }
-            }
-          },
-          {
-            "id": "93bfebab27d6467f",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {}
             }
           },
           {
@@ -209,7 +219,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "040 - Obsidian/主页/工作链接清单.md",
+                "file": "040 - Obsidian/教程/obsidian插件列表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -226,7 +236,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "040 - Obsidian/主页/工作链接清单.md",
+                "file": "040 - Obsidian/教程/obsidian插件列表.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -238,7 +248,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "040 - Obsidian/主页/工作链接清单.md"
+                "file": "040 - Obsidian/教程/obsidian插件列表.md"
               }
             }
           },
@@ -269,7 +279,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       },
       {
         "id": "888c3f3084370af3",
@@ -313,14 +323,11 @@
       "random-note:开始漫游笔记": false,
       "audio-recorder:开始/结束录音": false,
       "workspaces:管理工作区布局": false,
-      "obsidian-importer:Open Importer": true,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-day-planner:Timeline": false,
       "cmdr:折叠": true,
       "custom-sort:Toggle custom sorting": false,
-      "float-search:Search Obsidian In Modal": false,
-      "surfing:surfing-bookmark-manager": false,
       "big-calendar:Big Calendar": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "omnisearch:Omnisearch": false,
@@ -328,10 +335,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "c4dd4269f17baed7",
+  "active": "6bc0aeca9d36fc51",
   "lastOpenFiles": [
-    "040 - Obsidian/主页/00. 主页.md",
+    "040 - Obsidian/教程/obsidian清单.md",
     "040 - Obsidian/主页/工作链接清单.md",
+    "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
     "000 - 每日日记/DailyNote/2023年11月27日.md",
@@ -355,7 +363,6 @@
     "020 - 工作学习/学习计划脚本/翻译资源服务平台/统一资源学习计划.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongoose.md",
     "000 - 每日日记/DailyNote/2023年11月17日.md",
-    "020 - 工作学习/学习/前端/electron/搭建electron vite vue3/第一章 快速搭建Electron+Vite3+Vue3+TypeScript5脚手架 (无需梯子，快速安装Electron).md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台"
   ]
 }

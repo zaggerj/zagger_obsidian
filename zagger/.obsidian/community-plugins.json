@@ -1,5 +1,4 @@
 [
-  "obsidian-importer",
   "calendar",
   "obsidian-enhancing-mindmap",
   "table-editor-obsidian",
@@ -14,9 +13,7 @@
   "obsidian-week-planner",
   "obsidian-tasks-plugin",
   "obsidian-memos",
-  "obsidian-checklist-plugin",
   "recent-files-obsidian",
-  "obsidian-banners",
   "obsidian-kanban",
   "cmdr",
   "callout-manager",
@@ -34,16 +31,10 @@
   "templater-obsidian",
   "editing-toolbar",
   "local-backup",
-  "obsidian-mind-map",
   "obsidian-plugin-update-tracker",
   "quick-explorer",
-  "float-search",
-  "better-search-views",
   "obsidian-git",
-  "obsidian-toggle-list",
-  "surfing",
   "homepage",
-  "obsidian-react-components",
   "obsidian-advanced-uri",
   "metaedit",
   "big-calendar",
@@ -66,9 +57,7 @@
   "obsidian-full-calendar",
   "obsidian-reading-time",
   "tasks-calendar-wrapper",
-  "update-time-on-edit",
   "file-explorer-note-count",
   "obsidian-heading-shifter",
-  "number-headings-obsidian",
-  "obsidian-charts"
+  "number-headings-obsidian"
 ]
