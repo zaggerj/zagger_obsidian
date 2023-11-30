@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "工作链接清单",
+      "path": "040 - Obsidian/主页/工作链接清单.md"
+    },
+    {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "a 服务器相关命令",
+      "path": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
+    },
+    {
+      "basename": "mongodb安装和配置",
+      "path": "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md"
+    },
+    {
+      "basename": "2023年11月27日",
+      "path": "000 - 每日日记/DailyNote/2023年11月27日.md"
+    },
+    {
       "basename": "2023年11月29日",
       "path": "000 - 每日日记/DailyNote/2023年11月29日.md"
+    },
+    {
+      "basename": "2023年11月07日",
+      "path": "000 - 每日日记/DailyNote/2023年11月07日.md"
     },
     {
       "basename": "2023年11月30日",
@@ -13,32 +37,16 @@
       "path": "000 - 每日日记/DailyNote/2023年11月28日.md"
     },
     {
-      "basename": "2023年11月27日",
-      "path": "000 - 每日日记/DailyNote/2023年11月27日.md"
-    },
-    {
       "basename": "grep",
       "path": "020 - 工作学习/学习/后端/linux/grep.md"
-    },
-    {
-      "basename": "mongodb安装和配置",
-      "path": "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md"
     },
     {
       "basename": "2023年11月26日",
       "path": "000 - 每日日记/DailyNote/2023年11月26日.md"
     },
     {
-      "basename": "a 服务器相关命令",
-      "path": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
-    },
-    {
       "basename": "vue2开发问题",
       "path": "020 - 工作学习/学习计划脚本/翻译资源服务平台/vue2开发问题.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "00. 工作",
@@ -191,14 +199,6 @@
     {
       "basename": "翻墙清单",
       "path": "004 - Resource/资源/翻墙/翻墙清单.md"
-    },
-    {
-      "basename": "2023-11-17",
-      "path": "060 - 临时/2023-11-17.md"
-    },
-    {
-      "basename": "obsidian清单",
-      "path": "040 - Obsidian/教程/obsidian清单.md"
     }
   ],
   "omittedPaths": [],

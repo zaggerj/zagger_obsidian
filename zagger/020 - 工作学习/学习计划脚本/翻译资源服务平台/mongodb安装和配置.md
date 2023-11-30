@@ -10,7 +10,7 @@ banner_icon: 💌
 banner_x: 0.5
 banner_y: 0.38
 created: 2023-11-21 08:41:40
-updated: 2023-11-29 18:35:12
+updated: 2023-11-30 10:03:50
 ---
 
 # 1. mongodb安装和配置
