@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/WeeklyNote/2023年49周记录.md"
+                "file": "000 - 每日日记/DailyNote/2023年12月04日.md"
               }
             }
           },
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/WeeklyNote/2023年49周记录.md",
+                "file": "000 - 每日日记/DailyNote/2023年12月04日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +217,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/WeeklyNote/2023年49周记录.md",
+                "file": "000 - 每日日记/DailyNote/2023年12月04日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,7 +229,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/WeeklyNote/2023年49周记录.md"
+                "file": "000 - 每日日记/DailyNote/2023年12月04日.md"
               }
             }
           },
@@ -316,13 +316,15 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "c9e36e9ecd14b23f",
+  "active": "2ca7f0f1683a1025",
   "lastOpenFiles": [
+    "040 - Obsidian/主页/00. 主页.md",
+    "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
+    "000 - 每日日记/DailyNote/2023年11月27日.md",
     "000 - 每日日记/DailyNote/2023年12月04日.md",
     "000 - 每日日记/WeeklyNote/2023年49周记录.md",
     "000 - 每日日记/DailyNote/2023年12月05日.md",
     "040 - Obsidian/模板/tp-每周周记模板.md",
-    "000 - 每日日记/DailyNote/2023年11月27日.md",
     "040 - Obsidian/模板/tp-每日日记模板.md",
     "000 - 每日日记/WeeklyNote/2023年48周记录.md",
     "000 - 每日日记/WeeklyNote/2023年47周记录.md",
@@ -335,8 +337,6 @@
     "000 - 每日日记/DailyNote/2023年12月02日.md",
     "000 - 每日日记/DailyNote/2023年12月01日.md",
     "000 - 每日日记/DailyNote/2023年11月30日.md",
-    "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
-    "040 - Obsidian/主页/00. 主页.md",
     "040 - Obsidian/教程/obsidian插件列表.md",
     "020 - 工作学习/工作/常见问题/客户端远程改资源.md",
     "020 - 工作学习/工作/业务知识和难题/各种问题/客户端远程改资源.md",
