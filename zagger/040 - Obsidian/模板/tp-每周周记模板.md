@@ -52,42 +52,43 @@ _周计划，每周计划完成的事情_
 _集中记录_
 
 ## 2.1. {{DATE: gggg年ww周记录}}
-![[{{monday:YYYY年MM月DD日}}#^1]] 
-![[{{monday:YYYY年MM月DD日}}#^4]] 
-![[{{tuesday:YYYY年MM月DD日}}#^1]] 
-![[{{tuesday:YYYY年MM月DD日}}#^4]] 
-![[{{wednesday:YYYY年MM月DD日}}#^1]] 
-![[{{wednesday:YYYY年MM月DD日}}#^4]] 
-![[{{thursday:YYYY年MM月DD日}}#^1]] 
-![[{{thursday:YYYY年MM月DD日}}#^4]] 
-![[{{friday:YYYY年MM月DD日}}#^1]] 
-![[{{friday:YYYY年MM月DD日}}#^4]] 
-![[{{saturday:YYYY年MM月DD日}}#^1]] 
-![[{{saturday:YYYY年MM月DD日}}#^4]] 
-![[{{sunday:YYYY年MM月DD日}}#^1]] 
-![[{{sunday:YYYY年MM月DD日}}#^4]] 
+![[{{monday:YYYY年MM月DD日}}#^event]] 
+![[{{monday:YYYY年MM月DD日}}#^time]] 
+![[{{monday:YYYY年MM月DD日}}#^url]] 
 
+---
 
-## 2.2. {{DATE: gggg年ww周清单}}
+![[{{tuesday:YYYY年MM月DD日}}#^event]] 
+![[{{tuesday:YYYY年MM月DD日}}#^time]] 
+![[{{tuesday:YYYY年MM月DD日}}#^url]] 
 
-_集中清单_
+---
 
-![[{{monday:YYYY年MM月DD日}}#^2]] 
-![[{{tuesday:YYYY年MM月DD日}}#^2]] 
-![[{{wednesday:YYYY年MM月DD日}}#^2]] 
-![[{{thursday:YYYY年MM月DD日}}#^2]] 
-![[{{friday:YYYY年MM月DD日}}#^2]] 
-![[{{saturday:YYYY年MM月DD日}}#^2]] 
-![[{{sunday:YYYY年MM月DD日}}#^2]] 
+![[{{wednesday:YYYY年MM月DD日}}#^event]] 
+![[{{wednesday:YYYY年MM月DD日}}#^time]] 
+![[{{wednesday:YYYY年MM月DD日}}#^url]] 
 
-## 2.3. {{DATE: gggg年ww周专题笔记}}
+---
 
-_集中专题笔记_
+![[{{thursday:YYYY年MM月DD日}}#^event]] 
+![[{{thursday:YYYY年MM月DD日}}#^time]] 
+![[{{thursday:YYYY年MM月DD日}}#^url]] 
 
-![[{{monday:YYYY年MM月DD日}}#^3]] 
-![[{{tuesday:YYYY年MM月DD日}}#^3]] 
-![[{{wednesday:YYYY年MM月DD日}}#^3]] 
-![[{{thursday:YYYY年MM月DD日}}#^3]] 
-![[{{friday:YYYY年MM月DD日}}#^3]] 
-![[{{saturday:YYYY年MM月DD日}}#^3]] 
-![[{{sunday:YYYY年MM月DD日}}#^3]] 
+---
+
+![[{{friday:YYYY年MM月DD日}}#^event]] 
+![[{{friday:YYYY年MM月DD日}}#^time]] 
+![[{{friday:YYYY年MM月DD日}}#^url]] 
+
+---
+
+![[{{saturday:YYYY年MM月DD日}}#^event]] 
+![[{{saturday:YYYY年MM月DD日}}#^time]] 
+![[{{saturday:YYYY年MM月DD日}}#^url]] 
+
+---
+
+![[{{sunday:YYYY年MM月DD日}}#^event]] 
+![[{{sunday:YYYY年MM月DD日}}#^time]] 
+![[{{sunday:YYYY年MM月DD日}}#^url]] 
+
