@@ -78,79 +78,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月28日.md",
+                "file": "000 - 每日日记/WeeklyNote/2023年48周记录.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "abba4e4bf07692f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月29日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d74f8b02ba1f88e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月29日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "source": true
               }
             }
           }
         ],
-        "currentTab": 3
-      },
-      {
-        "id": "01b093566335861b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a6b1c9db36b2dd45",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月01日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "44d03b319484fcc4",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ddddcf8be44feef4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月30日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ]
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -188,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "el-table",
+                "query": "tag:#工时",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -205,8 +141,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "73db95bfb166faa1",
@@ -252,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月01日.md"
+                "file": "000 - 每日日记/WeeklyNote/2023年48周记录.md"
               }
             }
           },
@@ -270,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月01日.md",
+                "file": "000 - 每日日记/WeeklyNote/2023年48周记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -287,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月01日.md",
+                "file": "000 - 每日日记/WeeklyNote/2023年48周记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -299,7 +234,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月01日.md"
+                "file": "000 - 每日日记/WeeklyNote/2023年48周记录.md"
               }
             }
           },
@@ -386,13 +321,20 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "a6b1c9db36b2dd45",
+  "active": "eb381f72e9a3845f",
   "lastOpenFiles": [
+    "000 - 每日日记/DailyNote/2023年11月28日.md",
+    "040 - Obsidian/模板/tp-每周周记模板.md",
+    "000 - 每日日记/WeeklyNote/2023年48周记录.md",
+    "000 - 每日日记/DailyNote/2023年11月29日.md",
+    "000 - 每日日记/WeeklyNote/2023年45周记录.md",
+    "000 - 每日日记/WeeklyNote/2022年20周记录.md",
+    "000 - 每日日记/WeeklyNote/2023年47周记录.md",
+    "000 - 每日日记/DailyNote/2023年12月03日.md",
     "040 - Obsidian/Excalidraw/front-end/frontend.md",
+    "000 - 每日日记/DailyNote/2023年12月02日.md",
     "000 - 每日日记/DailyNote/2023年12月01日.md",
     "000 - 每日日记/DailyNote/2023年11月27日.md",
-    "000 - 每日日记/DailyNote/2023年11月28日.md",
-    "000 - 每日日记/DailyNote/2023年11月29日.md",
     "000 - 每日日记/DailyNote/2023年11月30日.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
     "040 - Obsidian/主页/00. 主页.md",
@@ -407,13 +349,6 @@
     "000 - 每日日记/DailyNote/2023年11月26日.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台/vue2开发问题.md",
     "000 - 每日日记/DailyNote/2023年11月21日.md",
-    "000 - 每日日记/DailyNote/2023年11月25日.md",
-    "000 - 每日日记/DailyNote/2023年11月22日.md",
-    "000 - 每日日记/DailyNote/2023年11月23日.md",
-    "000 - 每日日记/DailyNote/2023年11月24日.md",
-    "000 - 每日日记/WeeklyNote/2023年47周记录.md",
-    "020 - 工作学习/工作/00. 工作.md",
-    "040 - Obsidian/Excalidraw/资源配置逻辑.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台"
   ]
 }
