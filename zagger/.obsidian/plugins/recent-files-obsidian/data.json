@@ -9,6 +9,10 @@
       "path": "000 - 每日日记/DailyNote/2023年12月04日.md"
     },
     {
+      "basename": "2023年12月05日",
+      "path": "000 - 每日日记/DailyNote/2023年12月05日.md"
+    },
+    {
       "basename": "tp-每周周记模板",
       "path": "040 - Obsidian/模板/tp-每周周记模板.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "spice-鼠标问题-双鼠标",
       "path": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice-鼠标问题-双鼠标.md"
-    },
-    {
-      "basename": "js-angularjs-ng-options",
-      "path": "020 - 工作学习/学习/前端/angularjs/js-angularjs-ng-options.md"
     }
   ],
   "omittedPaths": [],
