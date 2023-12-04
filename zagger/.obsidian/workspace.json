@@ -6,7 +6,6 @@
       {
         "id": "41df6ede28283beb",
         "type": "tabs",
-        "dimension": 50.38819875776398,
         "children": [
           {
             "id": "0c9f94be5e43c2df",
@@ -40,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年11月27日.md",
+                "file": "000 - 每日日记/DailyNote/2023年12月04日.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -53,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月04日.md",
+                "file": "000 - 每日日记/WeeklyNote/2023年49周记录.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -61,15 +60,14 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
-        "id": "a96b944fc61c2cfe",
+        "id": "2d1a1745503ccef5",
         "type": "tabs",
-        "dimension": 49.61180124223603,
         "children": [
           {
-            "id": "c9e36e9ecd14b23f",
+            "id": "9ee97ec0f31c1282",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -316,13 +314,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "2ca7f0f1683a1025",
+  "active": "3cf315bab717abf7",
   "lastOpenFiles": [
+    "000 - 每日日记/DailyNote/2023年11月27日.md",
+    "000 - 每日日记/WeeklyNote/2023年49周记录.md",
+    "000 - 每日日记/DailyNote/2023年12月04日.md",
     "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
-    "000 - 每日日记/DailyNote/2023年11月27日.md",
-    "000 - 每日日记/DailyNote/2023年12月04日.md",
-    "000 - 每日日记/WeeklyNote/2023年49周记录.md",
     "000 - 每日日记/DailyNote/2023年12月05日.md",
     "040 - Obsidian/模板/tp-每周周记模板.md",
     "040 - Obsidian/模板/tp-每日日记模板.md",
