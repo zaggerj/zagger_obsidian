@@ -144,7 +144,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cp -Rv",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
