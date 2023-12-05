@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "5a48cd83d7c8ef76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a84bf076d7d40998",
             "type": "leaf",
             "state": {
@@ -60,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "2d1a1745503ccef5",
@@ -78,8 +91,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3fcabd3a78cf68b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2023年12月05日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +144,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#工时",
+                "query": "cp -Rv",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,7 +161,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "73db95bfb166faa1",
@@ -180,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月04日.md"
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
               }
             }
           },
@@ -198,7 +226,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月04日.md",
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -215,7 +243,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月04日.md",
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,7 +255,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月04日.md"
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
               }
             }
           },
@@ -314,14 +342,15 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "3cf315bab717abf7",
+  "active": "5a48cd83d7c8ef76",
   "lastOpenFiles": [
-    "000 - 每日日记/DailyNote/2023年11月27日.md",
-    "000 - 每日日记/WeeklyNote/2023年49周记录.md",
-    "000 - 每日日记/DailyNote/2023年12月04日.md",
     "040 - Obsidian/主页/00. 主页.md",
-    "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
+    "000 - 每日日记/DailyNote/2023年12月04日.md",
+    "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/前端本地打包脚本.md",
     "000 - 每日日记/DailyNote/2023年12月05日.md",
+    "000 - 每日日记/WeeklyNote/2023年49周记录.md",
+    "000 - 每日日记/DailyNote/2023年11月27日.md",
+    "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
     "040 - Obsidian/模板/tp-每周周记模板.md",
     "040 - Obsidian/模板/tp-每日日记模板.md",
     "000 - 每日日记/WeeklyNote/2023年48周记录.md",
@@ -341,7 +370,6 @@
     "040 - Obsidian/教程/obsidian清单.md",
     "040 - Obsidian/主页/工作链接清单.md",
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
-    "000 - 每日日记/DailyNote/2023年11月07日.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台"
   ]
 }
