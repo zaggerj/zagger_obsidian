@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#记录",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +102,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "73db95bfb166faa1",
@@ -282,7 +283,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "b735713805f874f5",
+  "active": "f2b0ffe519625a29",
   "lastOpenFiles": [
     "040 - Obsidian/主页/00. 主页.md",
     "000 - 每日日记/DailyNote/2023年12月06日.md",
