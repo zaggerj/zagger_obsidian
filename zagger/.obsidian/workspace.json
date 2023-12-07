@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月06日.md",
+                "file": "000 - 每日日记/DailyNote/2023年12月07日.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,7 +47,7 @@
             }
           },
           {
-            "id": "a535fd7b557e8a0a",
+            "id": "7b7ef345973eb9ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -58,9 +58,80 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "45deceb290642422",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/非开发/脚本/脚本集合/补丁脚本.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8c25078c9d8f932f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/非开发/脚本/脚本集合/前端打包脚本.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d2e914136a07a8d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2023年12月06日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "0e2485aa340eb59d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f29506c931d1c749",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2023年12月06日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b4c7e444bec5bf43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/WeeklyNote/2023年49周记录.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月06日.md"
+                "file": "000 - 每日日记/DailyNote/2023年12月07日.md"
               }
             }
           },
@@ -179,7 +250,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月06日.md",
+                "file": "000 - 每日日记/DailyNote/2023年12月07日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +267,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月06日.md",
+                "file": "000 - 每日日记/DailyNote/2023年12月07日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +279,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月06日.md"
+                "file": "000 - 每日日记/DailyNote/2023年12月07日.md"
               }
             }
           },
@@ -297,11 +368,14 @@
   },
   "active": "b735713805f874f5",
   "lastOpenFiles": [
-    "000 - 每日日记/DailyNote/2023年12月05日.md",
     "000 - 每日日记/DailyNote/2023年12月06日.md",
-    "040 - Obsidian/主页/00. 主页.md",
+    "000 - 每日日记/DailyNote/2023年12月07日.md",
+    "000 - 每日日记/DailyNote/2023年12月05日.md",
+    "020 - 工作学习/非开发/脚本/脚本集合/前端打包脚本.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
+    "020 - 工作学习/非开发/脚本/脚本集合/补丁脚本.md",
     "000 - 每日日记/WeeklyNote/2023年49周记录.md",
+    "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "000 - 每日日记/DailyNote/2023年12月04日.md",
     "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/前端本地打包脚本.md",
@@ -320,9 +394,6 @@
     "000 - 每日日记/DailyNote/2023年12月01日.md",
     "000 - 每日日记/DailyNote/2023年11月30日.md",
     "040 - Obsidian/教程/obsidian插件列表.md",
-    "020 - 工作学习/工作/常见问题/客户端远程改资源.md",
-    "020 - 工作学习/工作/业务知识和难题/各种问题/客户端远程改资源.md",
-    "040 - Obsidian/教程/obsidian清单.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台"
   ]
 }

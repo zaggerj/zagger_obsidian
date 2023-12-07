@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2023年12月07日",
+      "path": "000 - 每日日记/DailyNote/2023年12月07日.md"
+    },
+    {
       "basename": "2023年12月06日",
       "path": "000 - 每日日记/DailyNote/2023年12月06日.md"
     },
@@ -9,16 +13,24 @@
       "path": "000 - 每日日记/DailyNote/2023年12月05日.md"
     },
     {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
+      "basename": "前端打包脚本",
+      "path": "020 - 工作学习/非开发/脚本/脚本集合/前端打包脚本.md"
     },
     {
       "basename": "mongodb安装和配置",
       "path": "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md"
     },
     {
+      "basename": "补丁脚本",
+      "path": "020 - 工作学习/非开发/脚本/脚本集合/补丁脚本.md"
+    },
+    {
       "basename": "2023年49周记录",
       "path": "000 - 每日日记/WeeklyNote/2023年49周记录.md"
+    },
+    {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "a 服务器相关命令",
@@ -187,18 +199,6 @@
     {
       "basename": "学习清单",
       "path": "020 - 工作学习/学习/前端/typescript/学习清单.md"
-    },
-    {
-      "basename": "00. 学习",
-      "path": "020 - 工作学习/学习/00. 学习.md"
-    },
-    {
-      "basename": "2023年11月20日",
-      "path": "000 - 每日日记/DailyNote/2023年11月20日.md"
-    },
-    {
-      "basename": "2023年11月19日",
-      "path": "000 - 每日日记/DailyNote/2023年11月19日.md"
     }
   ],
   "omittedPaths": [],
