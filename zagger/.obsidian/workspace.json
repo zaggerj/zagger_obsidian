@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "abbec0965a6b01cc",
+        "id": "0cda635c7a20732d",
         "type": "tabs",
         "children": [
           {
-            "id": "b02e8e7780459351",
+            "id": "b1647edac85e4d18",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,9 +19,15 @@
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "a55e1c3171ab94a7",
+        "type": "tabs",
+        "children": [
           {
-            "id": "b735713805f874f5",
+            "id": "405b5c99f5725216",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,120 +38,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "652b2c7eca46b49b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月05日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7b7ef345973eb9ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "45deceb290642422",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/非开发/脚本/脚本集合/补丁脚本.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8c25078c9d8f932f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/非开发/脚本/脚本集合/前端打包脚本.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d2e914136a07a8d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月06日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "0e2485aa340eb59d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f29506c931d1c749",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月06日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b4c7e444bec5bf43",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/WeeklyNote/2023年49周记录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bae47c2946c8a6f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/前端/js小知识点/正则/正则文章通读.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -316,7 +210,7 @@
             }
           },
           {
-            "id": "72d554041de54310",
+            "id": "06d5c89e37a2e6d6",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -324,7 +218,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 7
       },
       {
         "id": "888c3f3084370af3",
@@ -380,8 +274,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "b735713805f874f5",
+  "active": "405b5c99f5725216",
   "lastOpenFiles": [
+    "000 - 每日日记/DailyNote/2023年12月04日.md",
+    "040 - Obsidian/主页/00. 主页.md",
     "000 - 每日日记/WeeklyNote/2023年49周记录.md",
     "000 - 每日日记/DailyNote/2023年12月07日.md",
     "020 - 工作学习/学习/前端/js小知识点/正则/正则文章通读.md",
@@ -390,9 +286,7 @@
     "020 - 工作学习/非开发/脚本/脚本集合/前端打包脚本.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
     "020 - 工作学习/非开发/脚本/脚本集合/补丁脚本.md",
-    "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
-    "000 - 每日日记/DailyNote/2023年12月04日.md",
     "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/前端本地打包脚本.md",
     "000 - 每日日记/DailyNote/2023年11月27日.md",
     "040 - Obsidian/模板/tp-每周周记模板.md",
