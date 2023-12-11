@@ -96,6 +96,17 @@ Vim 提供了一组以 26 个英文字母命名的有名寄存器。这意
 之前我们在vim中复制粘贴的内容，只能在vim中使用。同样的系统中复制粘贴的内容只能在系统其它程序中使用，无法直接粘贴到vim中。我们可以在vim中使用系统剪切板。vim可以使用`+`来访问系统剪切板。例如使用 `"+yy`将内容复制到系统剪切板中，供其他程序使用。
 
 但是在有好的shell工具的加持下，我更喜欢用`<Ctrl+v>`这样的方式直接粘贴一大段文字到vim中。或者配合vim的可视模式，直接使用shell中的快捷键从vim中粘贴选中的内容到系统剪切板
+以下是一些常用的 Vim 暂存器及其用途：
+
+1. `"a` 到 `"z`：这些是命名暂存器，用于存储文本。可以使用 `"ay` 将选中的文本复制到暂存器 `a` 中，然后使用 `"ap` 将暂存器 `a` 中的内容粘贴到光标位置。
+    
+2. `"0`：这是复制暂存器，用于存储最近复制的文本。当你使用 `y` 命令或者 `"ay` 将文本复制到暂存器时，它将存储在 `"0` 中。可以使用 `"0p` 将最近复制的文本粘贴到光标位置。
+    
+3. `"+`：这是系统剪贴板暂存器。可以使用 `"+y` 将选中的文本复制到系统剪贴板中，然后使用 `"+p` 将剪贴板中的内容粘贴到光标位置。
+    
+4. `"*`：这是与系统剪贴板关联的暂存器。在大多数情况下，它与 `"+` 暂存器相同。可以使用 `"*y` 将选中的文本复制到与系统剪贴板关联的暂存器中，然后使用 `"*p` 将其粘贴到光标位置。
+    
+5. `"_`：这是黑洞暂存器。当你不想保留复制的内容时，可以将其存储到黑洞暂存器中。例如，使用 `"_dd` 删除一行而不将其存储到任何暂存器中。
 #### 1.4.6.7. gt 切换tab
 #### 1.4.6.8. 快速退出vim
 1. 按住shift zz保存退出， zq不保存退出，q表示放弃，之所以按住shift，其实是切换大小写
@@ -107,12 +118,38 @@ Vim 提供了一组以 26 个英文字母命名的有名寄存器。这意
 #### 1.4.6.9. tab window buffer 区别
 ![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/20231211110733.png)
 
-#### 1.4.6.10. 命令模式ctrl+r+‘+‘ 引用系统剪切板
+##### 1.4.6.9.1. tab相关
+tab之于window 如果window之于buffer, tab和window都只是布局而已,真正影响到文件保存的只有buffer, 至少会有一个window,但到tab可有可无
+
+```shell
+:tabe 新建一个tab用来打开一个文件
+:tabs用来查看tab列表
+:gt 切换下一个tab
+:gT切换上一个tab
+:ngt切换到对应的tab，n是编号
+```
+
+#### 1.4.6.10. 命令模式c+r+‘+‘ 引用系统剪切板
 # 2. 相关文章
 
 _摘抄来源，引用出处，参考链接，文档查询_
 Page Link::
-[vim 从嫌弃到依赖(15)——寄存器 - 知乎](https://zhuanlan.zhihu.com/p/523486683)
-[vim寄存器](https://codeleading.com/article/89514035966/)
-[vim退出快捷键「建议收藏」 - 全栈程序员必看](https://javaforall.cn/172543.html)
-[VIM学习笔记 命令行模式 (Command-line Mode) - 知乎](https://zhuanlan.zhihu.com/p/76531156)
+1. vim寄存器相关：
+	1. [vim 从嫌弃到依赖(15)——寄存器 - 知乎](https://zhuanlan.zhihu.com/p/523486683)
+	2. vim寄存器：[vim寄存器](https://codeleading.com/article/89514035966/)
+2. vim快捷键：[vim退出快捷键「建议收藏」 - 全栈程序员必看](https://javaforall.cn/172543.html)
+3. Command-line Mode [VIM学习笔记 命令行模式 (Command-line Mode) - 知乎](https://zhuanlan.zhihu.com/p/76531156)
+4. vim buffer、tab、window
+	1. [29.vim高效使用方法之buffer、window和tab\_vim buffer-CSDN博客](https://blog.csdn.net/a464057216/article/details/51523860)
+	2. [vim之buffer/window/tab - 马肯尼煤牙巴骨 - 博客园](https://www.cnblogs.com/nocanstillbb/p/16375043.html)
+	3. [[Vim] Tab，Window，Buffer 概念和操作-CSDN博客](https://blog.csdn.net/weixin_43162745/article/details/88732197)
+5. 命令集合：
+	1. [vim命令大全，非常详细，强烈建议收藏！ - 知乎](https://zhuanlan.zhihu.com/p/628940845)
+	2. [Vim 全局命令global详解 - 无涯教程网](https://www.learnfk.com/vim/vim-tutorial-global-command-global.html)
+6. vim杂项：
+	1. [Vim 概述 - 知乎](https://zhuanlan.zhihu.com/p/648077001)
+	2. [vim内置终端使用分享 - 知乎](https://zhuanlan.zhihu.com/p/596644062)
+	3. [拥抱 Vim：这些快捷键让你爱上 Vim 编辑器](https://baijiahao.baidu.com/s?id=1760966208530497278&wfr=spider&for=pc)
+	4. [vim操作教程，看这一篇绝对足够啦\~\_vim 显示标记-CSDN博客](https://blog.csdn.net/weixin_42639919/article/details/133626489)
+	5. [精通 vim 你应该理解的几个名词 - 知乎](https://zhuanlan.zhihu.com/p/96801314/)
+	6. [maps.vim](https://github.com/LinHQ1999/nvim-config/blob/office/mysettings/maps.vim)
