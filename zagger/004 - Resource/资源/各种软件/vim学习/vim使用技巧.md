@@ -130,8 +130,16 @@ tab之于window 如果window之于buffer, tab和window都只是布局而已,真�
 :gT切换上一个tab
 :ngt切换到对应的tab，n是编号
 ```
+#### 1.4.6.10. 使用全键盘方式跳入跳出超链接
 
-#### 1.4.6.10. 命令模式c+r+‘+‘ 引用系统剪切板
+- 是 ctrl+] 就可以**跳入链接**
+- ctrl+o 可以**跳出链接**，回到原位置 `older position`
+- `:h ctrl-c` 就是帮助我们查找一下 `ctrl-c` 快捷键究竟做些什么
+- `:h ctrl-g`
+#### 1.4.6.11. 命令模式c+r+‘+‘ 引用系统剪切板
+#### 1.4.6.12. vim键盘图
+![5a19c121fda7a831559898ae84a9f8e8.gif](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/5a19c121fda7a831559898ae84a9f8e8.gif)
+
 # 2. 相关文章
 
 _摘抄来源，引用出处，参考链接，文档查询_
@@ -156,3 +164,4 @@ Page Link::
 	5. [精通 vim 你应该理解的几个名词 - 知乎](https://zhuanlan.zhihu.com/p/96801314/)
 	6. [maps.vim](https://github.com/LinHQ1999/nvim-config/blob/office/mysettings/maps.vim)
 	7. [Vim 使用帮助详解 - 无涯教程网](https://www.learnfk.com/vim/vim-tutorial-use-help.html)
+	8. ![](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/5a19c121fda7a831559898ae84a9f8e8.gif)
