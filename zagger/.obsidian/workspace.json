@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0cda635c7a20732d",
+        "id": "abbec0965a6b01cc",
         "type": "tabs",
         "children": [
           {
-            "id": "b1647edac85e4d18",
+            "id": "b02e8e7780459351",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,27 +19,146 @@
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "a55e1c3171ab94a7",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "405b5c99f5725216",
+            "id": "e79edfe65fbde9d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月07日.md",
+                "file": "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/git相关.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cfd0c98bc71c1dd3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/npm yarn.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ab57d8962bf61328",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2023年12月11日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1c3d6579a256f4fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "004 - Resource/资源/各种软件/vim学习/vim快捷键.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "89d36dfdb1155232",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "004 - Resource/资源/各种软件/vim学习/vim 快捷键和使用教程.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "df95c7ebc8d3b624",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "004 - Resource/资源/各种软件/vim学习/vim学习.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "0e2485aa340eb59d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f29506c931d1c749",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2023年12月06日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e261ae927312d012",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b4c7e444bec5bf43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/WeeklyNote/2023年49周记录.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bae47c2946c8a6f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/学习/前端/js小知识点/正则/正则文章通读.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -124,7 +243,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.5
+    "width": 346.5
   },
   "right": {
     "id": "49b0f6d6f173189c",
@@ -140,7 +259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月07日.md"
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
               }
             }
           },
@@ -158,7 +277,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月07日.md",
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +294,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月07日.md",
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +306,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月07日.md"
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
               }
             }
           },
@@ -210,7 +329,7 @@
             }
           },
           {
-            "id": "06d5c89e37a2e6d6",
+            "id": "72d554041de54310",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -218,7 +337,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 1
       },
       {
         "id": "888c3f3084370af3",
@@ -274,34 +393,35 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "405b5c99f5725216",
+  "active": "e261ae927312d012",
   "lastOpenFiles": [
-    "000 - 每日日记/DailyNote/2023年12月04日.md",
+    "030 - 阅读笔记/Site Unreachable.md",
+    "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
+    "000 - 每日日记/DailyNote/2023年12月11日.md",
+    "004 - Resource/资源/各种软件/vim学习/vim 快捷键和使用教程.md",
+    "004 - Resource/资源/各种软件/vim学习/vim快捷键.md",
+    "040 - Obsidian/模板/tp-改良长青笔记模板.md",
+    "040 - Obsidian/模板/tp-改良版笔记模板.md",
+    "004 - Resource/资源/各种软件/vim学习/vim学习.md",
+    "004 - Resource/资源/各种软件/vim学习/AstroNvim/AstroNvim 问题解决.md",
+    "004 - Resource/资源/各种软件/vim学习/AstroNvim/处理 User 自动命令 AstroFile 时发生错误.md",
+    "004 - Resource/资源/各种软件/vim学习/Pasted image 20230726112215.png",
+    "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/nvm.md",
+    "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/nrm报错.md",
+    "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/npm yarn-20230708221621-5640zle.md",
+    "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/npm yarn.md",
+    "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/git相关 1.md",
+    "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/git相关.md",
     "040 - Obsidian/主页/00. 主页.md",
-    "000 - 每日日记/WeeklyNote/2023年49周记录.md",
-    "000 - 每日日记/DailyNote/2023年12月07日.md",
-    "020 - 工作学习/学习/前端/js小知识点/正则/正则文章通读.md",
-    "000 - 每日日记/DailyNote/2023年12月06日.md",
-    "000 - 每日日记/DailyNote/2023年12月05日.md",
-    "020 - 工作学习/非开发/脚本/脚本集合/前端打包脚本.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
+    "000 - 每日日记/DailyNote/2023年12月06日.md",
+    "020 - 工作学习/非开发/脚本/脚本集合/前端打包脚本.md",
     "020 - 工作学习/非开发/脚本/脚本集合/补丁脚本.md",
-    "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
-    "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/前端本地打包脚本.md",
-    "000 - 每日日记/DailyNote/2023年11月27日.md",
-    "040 - Obsidian/模板/tp-每周周记模板.md",
-    "040 - Obsidian/模板/tp-每日日记模板.md",
-    "000 - 每日日记/WeeklyNote/2023年48周记录.md",
-    "000 - 每日日记/WeeklyNote/2023年47周记录.md",
-    "040 - Obsidian/Excalidraw/front-end/frontend.md",
-    "000 - 每日日记/DailyNote/2023年11月28日.md",
-    "000 - 每日日记/DailyNote/2023年11月29日.md",
-    "000 - 每日日记/WeeklyNote/2023年45周记录.md",
-    "000 - 每日日记/WeeklyNote/2022年20周记录.md",
-    "000 - 每日日记/DailyNote/2023年12月03日.md",
-    "000 - 每日日记/DailyNote/2023年12月02日.md",
-    "000 - 每日日记/DailyNote/2023年12月01日.md",
-    "000 - 每日日记/DailyNote/2023年11月30日.md",
+    "000 - 每日日记/DailyNote/2023年12月05日.md",
+    "000 - 每日日记/DailyNote/2023年12月09日.md",
+    "000 - 每日日记/DailyNote/2023年12月10日.md",
+    "000 - 每日日记/WeeklyNote/2023年49周记录.md",
+    "000 - 每日日记/DailyNote/2023年12月08日.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台"
   ]
 }

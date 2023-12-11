@@ -1,48 +1,116 @@
 {
   "recentFiles": [
     {
-      "basename": "2023年12月07日",
-      "path": "000 - 每日日记/DailyNote/2023年12月07日.md"
+      "basename": "vim使用技巧",
+      "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
     },
     {
-      "basename": "2023年12月04日",
-      "path": "000 - 每日日记/DailyNote/2023年12月04日.md"
+      "basename": "Site Unreachable",
+      "path": "030 - 阅读笔记/Site Unreachable.md"
+    },
+    {
+      "basename": "2023年12月11日",
+      "path": "000 - 每日日记/DailyNote/2023年12月11日.md"
+    },
+    {
+      "basename": "vim 快捷键和使用教程",
+      "path": "004 - Resource/资源/各种软件/vim学习/vim 快捷键和使用教程.md"
+    },
+    {
+      "basename": "vim快捷键",
+      "path": "004 - Resource/资源/各种软件/vim学习/vim快捷键.md"
+    },
+    {
+      "basename": "tp-改良长青笔记模板",
+      "path": "040 - Obsidian/模板/tp-改良长青笔记模板.md"
+    },
+    {
+      "basename": "tp-改良版笔记模板",
+      "path": "040 - Obsidian/模板/tp-改良版笔记模板.md"
+    },
+    {
+      "basename": "vim学习",
+      "path": "004 - Resource/资源/各种软件/vim学习/vim学习.md"
+    },
+    {
+      "basename": "AstroNvim 问题解决",
+      "path": "004 - Resource/资源/各种软件/vim学习/AstroNvim/AstroNvim 问题解决.md"
+    },
+    {
+      "basename": "处理 User 自动命令 AstroFile 时发生错误",
+      "path": "004 - Resource/资源/各种软件/vim学习/AstroNvim/处理 User 自动命令 AstroFile 时发生错误.md"
+    },
+    {
+      "basename": "nvm",
+      "path": "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/nvm.md"
+    },
+    {
+      "basename": "nrm报错",
+      "path": "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/nrm报错.md"
+    },
+    {
+      "basename": "npm yarn",
+      "path": "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/npm yarn.md"
+    },
+    {
+      "basename": "git相关",
+      "path": "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/git相关.md"
     },
     {
       "basename": "00. 主页",
       "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
-      "basename": "2023年49周记录",
-      "path": "000 - 每日日记/WeeklyNote/2023年49周记录.md"
-    },
-    {
-      "basename": "正则文章通读",
-      "path": "020 - 工作学习/学习/前端/js小知识点/正则/正则文章通读.md"
+      "basename": "mongodb安装和配置",
+      "path": "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md"
     },
     {
       "basename": "2023年12月06日",
       "path": "000 - 每日日记/DailyNote/2023年12月06日.md"
     },
     {
-      "basename": "2023年12月05日",
-      "path": "000 - 每日日记/DailyNote/2023年12月05日.md"
-    },
-    {
       "basename": "前端打包脚本",
       "path": "020 - 工作学习/非开发/脚本/脚本集合/前端打包脚本.md"
-    },
-    {
-      "basename": "mongodb安装和配置",
-      "path": "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md"
     },
     {
       "basename": "补丁脚本",
       "path": "020 - 工作学习/非开发/脚本/脚本集合/补丁脚本.md"
     },
     {
+      "basename": "2023年12月05日",
+      "path": "000 - 每日日记/DailyNote/2023年12月05日.md"
+    },
+    {
+      "basename": "2023年12月09日",
+      "path": "000 - 每日日记/DailyNote/2023年12月09日.md"
+    },
+    {
+      "basename": "2023年12月10日",
+      "path": "000 - 每日日记/DailyNote/2023年12月10日.md"
+    },
+    {
+      "basename": "2023年49周记录",
+      "path": "000 - 每日日记/WeeklyNote/2023年49周记录.md"
+    },
+    {
+      "basename": "2023年12月08日",
+      "path": "000 - 每日日记/DailyNote/2023年12月08日.md"
+    },
+    {
+      "basename": "2023年12月07日",
+      "path": "000 - 每日日记/DailyNote/2023年12月07日.md"
+    },
+    {
+      "basename": "正则文章通读",
+      "path": "020 - 工作学习/学习/前端/js小知识点/正则/正则文章通读.md"
+    },
+    {
       "basename": "a 服务器相关命令",
       "path": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
+    },
+    {
+      "basename": "2023年12月04日",
+      "path": "000 - 每日日记/DailyNote/2023年12月04日.md"
     },
     {
       "basename": "前端本地打包脚本",
@@ -131,74 +199,6 @@
     {
       "basename": "2023年11月26日",
       "path": "000 - 每日日记/DailyNote/2023年11月26日.md"
-    },
-    {
-      "basename": "vue2开发问题",
-      "path": "020 - 工作学习/学习计划脚本/翻译资源服务平台/vue2开发问题.md"
-    },
-    {
-      "basename": "00. 工作",
-      "path": "020 - 工作学习/工作/00. 工作.md"
-    },
-    {
-      "basename": "资源配置逻辑",
-      "path": "040 - Obsidian/Excalidraw/资源配置逻辑.md"
-    },
-    {
-      "basename": "资源配置平台",
-      "path": "020 - 工作学习/学习计划脚本/翻译资源服务平台/资源配置平台.md"
-    },
-    {
-      "basename": "资源服务开发模式",
-      "path": "020 - 工作学习/学习计划脚本/翻译资源服务平台/资源服务开发模式.md"
-    },
-    {
-      "basename": "统一资源学习计划",
-      "path": "020 - 工作学习/学习计划脚本/翻译资源服务平台/统一资源学习计划.md"
-    },
-    {
-      "basename": "mongoose",
-      "path": "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongoose.md"
-    },
-    {
-      "basename": "2023年11月17日",
-      "path": "000 - 每日日记/DailyNote/2023年11月17日.md"
-    },
-    {
-      "basename": "第一章 快速搭建Electron+Vite3+Vue3+TypeScript5脚手架 (无需梯子，快速安装Electron)",
-      "path": "020 - 工作学习/学习/前端/electron/搭建electron vite vue3/第一章 快速搭建Electron+Vite3+Vue3+TypeScript5脚手架 (无需梯子，快速安装Electron).md"
-    },
-    {
-      "basename": "引发的管理台项目可配置",
-      "path": "020 - 工作学习/工作/远程、定制化/引发的管理台项目可配置.md"
-    },
-    {
-      "basename": "00.学习-前端",
-      "path": "020 - 工作学习/学习/前端/00.学习-前端.md"
-    },
-    {
-      "basename": "近期工作安排",
-      "path": "020 - 工作学习/工作/工作计划/最新工作安排/近期工作安排.md"
-    },
-    {
-      "basename": "windicss远程使用场景",
-      "path": "020 - 工作学习/工作/远程、定制化/windicss远程使用场景.md"
-    },
-    {
-      "basename": "稍后学习",
-      "path": "040 - Obsidian/主页/稍后学习.md"
-    },
-    {
-      "basename": "IT技术网站",
-      "path": "004 - Resource/资源/学习网站收录/IT技术网站.md"
-    },
-    {
-      "basename": "稍后阅读",
-      "path": "040 - Obsidian/主页/稍后阅读.md"
-    },
-    {
-      "basename": "00.学习网站",
-      "path": "004 - Resource/资源/学习网站收录/00.学习网站.md"
     }
   ],
   "omittedPaths": [],

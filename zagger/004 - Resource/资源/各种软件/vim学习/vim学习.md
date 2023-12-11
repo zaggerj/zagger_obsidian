@@ -5,7 +5,7 @@ updated: 2023-11-17 23:11:08
 ---
 # 1. vim学习
 
-　　‍
+1. [GitHub - LinHQ1999/nvim-config](https://github.com/LinHQ1999/nvim-config)
 
 # 2. 参考链接：
 
