@@ -121,7 +121,9 @@ Vim 提供了一组以 26 个英文字母命名的有名寄存器。这意
 ##### 1.4.6.9.1. tab相关
 tab之于window 如果window之于buffer, tab和window都只是布局而已,真正影响到文件保存的只有buffer, 至少会有一个window,但到tab可有可无
 
-```shell
+```vim
+:tabnew filename #打开一个tab 
+:tabedit #当前window 创建tab
 :tabe 新建一个tab用来打开一个文件
 :tabs用来查看tab列表
 :gt 切换下一个tab
@@ -153,3 +155,4 @@ Page Link::
 	4. [vim操作教程，看这一篇绝对足够啦\~\_vim 显示标记-CSDN博客](https://blog.csdn.net/weixin_42639919/article/details/133626489)
 	5. [精通 vim 你应该理解的几个名词 - 知乎](https://zhuanlan.zhihu.com/p/96801314/)
 	6. [maps.vim](https://github.com/LinHQ1999/nvim-config/blob/office/mysettings/maps.vim)
+	7. [Vim 使用帮助详解 - 无涯教程网](https://www.learnfk.com/vim/vim-tutorial-use-help.html)
