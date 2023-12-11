@@ -259,7 +259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月11日.md"
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
               }
             }
           },
@@ -277,7 +277,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月11日.md",
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -294,7 +294,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月11日.md",
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +306,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月11日.md"
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
               }
             }
           },
@@ -393,11 +393,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "ab57d8962bf61328",
+  "active": "e261ae927312d012",
   "lastOpenFiles": [
+    "000 - 每日日记/DailyNote/2023年12月11日.md",
     "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
     "030 - 阅读笔记/Site Unreachable.md",
-    "000 - 每日日记/DailyNote/2023年12月11日.md",
     "004 - Resource/资源/各种软件/vim学习/vim 快捷键和使用教程.md",
     "004 - Resource/资源/各种软件/vim学习/vim快捷键.md",
     "040 - Obsidian/模板/tp-改良长青笔记模板.md",

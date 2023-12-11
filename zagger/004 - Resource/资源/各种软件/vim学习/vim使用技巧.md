@@ -91,18 +91,23 @@ Vim 提供了一组以 26 个英文字母命名的有名寄存器。这意
 ":  上次执行的 Ex 命令
 "/  上次查找的模式
 ```
+#### 1.4.6.6. 系统剪切板
 
-#### 1.4.6.6. gt 切换tab
-#### 1.4.6.7. 快速退出vim
+之前我们在vim中复制粘贴的内容，只能在vim中使用。同样的系统中复制粘贴的内容只能在系统其它程序中使用，无法直接粘贴到vim中。我们可以在vim中使用系统剪切板。vim可以使用`+`来访问系统剪切板。例如使用 `"+yy`将内容复制到系统剪切板中，供其他程序使用。
+
+但是在有好的shell工具的加持下，我更喜欢用`<Ctrl+v>`这样的方式直接粘贴一大段文字到vim中。或者配合vim的可视模式，直接使用shell中的快捷键从vim中粘贴选中的内容到系统剪切板
+#### 1.4.6.7. gt 切换tab
+#### 1.4.6.8. 快速退出vim
 1. 按住shift zz保存退出， zq不保存退出，q表示放弃，之所以按住shift，其实是切换大小写
 2. 在命令编辑模式下：
 	:q 不保存退出
 	:q! 不保存强制退出
 	:wq 保存退出，w表示写入，不论是否修改，都会更改时间戳
 	:x     保存退出，如果内容未改，不会更改时间戳
-#### 1.4.6.8. tab window buffer 区别
+#### 1.4.6.9. tab window buffer 区别
 ![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/20231211110733.png)
 
+#### 1.4.6.10. 命令模式ctrl+r+‘+‘ 引用系统剪切板
 # 2. 相关文章
 
 _摘抄来源，引用出处，参考链接，文档查询_
@@ -110,3 +115,4 @@ Page Link::
 [vim 从嫌弃到依赖(15)——寄存器 - 知乎](https://zhuanlan.zhihu.com/p/523486683)
 [vim寄存器](https://codeleading.com/article/89514035966/)
 [vim退出快捷键「建议收藏」 - 全栈程序员必看](https://javaforall.cn/172543.html)
+[VIM学习笔记 命令行模式 (Command-line Mode) - 知乎](https://zhuanlan.zhihu.com/p/76531156)
