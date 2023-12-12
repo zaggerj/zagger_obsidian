@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "a 服务器相关命令",
+      "path": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
+    },
+    {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
       "basename": "2023年12月12日",
       "path": "000 - 每日日记/DailyNote/2023年12月12日.md"
+    },
+    {
+      "basename": "webpack.ProgressPlugin",
+      "path": "020 - 工作学习/学习/前端/webpack/webpack.ProgressPlugin.md"
+    },
+    {
+      "basename": "webpack  babel-loader预设报错",
+      "path": "020 - 工作学习/学习/前端/webpack/webpack  babel-loader预设报错.md"
     },
     {
       "basename": "npm yarn",
@@ -11,10 +27,6 @@
     {
       "basename": "vim使用技巧",
       "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "2023年12月11日",
@@ -113,10 +125,6 @@
       "path": "020 - 工作学习/学习/前端/js小知识点/正则/正则文章通读.md"
     },
     {
-      "basename": "a 服务器相关命令",
-      "path": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
-    },
-    {
       "basename": "2023年12月04日",
       "path": "000 - 每日日记/DailyNote/2023年12月04日.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "obsidian清单",
       "path": "040 - Obsidian/教程/obsidian清单.md"
-    },
-    {
-      "basename": "工作链接清单",
-      "path": "040 - Obsidian/主页/工作链接清单.md"
-    },
-    {
-      "basename": "2023年11月07日",
-      "path": "000 - 每日日记/DailyNote/2023年11月07日.md"
     }
   ],
   "omittedPaths": [],

@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "187050a0079cc556",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e79edfe65fbde9d9",
             "type": "leaf",
             "state": {
@@ -53,6 +66,19 @@
               "type": "markdown",
               "state": {
                 "file": "000 - 每日日记/DailyNote/2023年12月12日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ab9621c8aca6aa28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/学习/前端/webpack/webpack.ProgressPlugin.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "0e2485aa340eb59d",
@@ -196,7 +222,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#工时",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -259,7 +285,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月12日.md"
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
               }
             }
           },
@@ -277,7 +303,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月12日.md",
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -294,7 +320,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月12日.md",
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +332,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月12日.md"
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
               }
             }
           },
@@ -393,15 +419,18 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "ab57d8962bf61328",
+  "active": "187050a0079cc556",
   "lastOpenFiles": [
+    "040 - Obsidian/主页/00. 主页.md",
+    "000 - 每日日记/DailyNote/2023年12月12日.md",
+    "020 - 工作学习/学习/前端/webpack/webpack.ProgressPlugin.md",
+    "020 - 工作学习/学习/前端/webpack/webpack  babel-loader预设报错.md",
+    "020 - 工作学习/学习/前端/webpack/webpack  babel-loader预设报错 1.md",
     "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/npm yarn.md",
     "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
-    "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/学习/前端/00.学习-前端.md",
     "040 - Obsidian/主页/工作链接清单.md",
     "040 - Obsidian/教程/obsidian清单.md",
-    "000 - 每日日记/DailyNote/2023年12月12日.md",
     "000 - 每日日记/DailyNote/2023年12月11日.md",
     "000 - 每日日记/WeeklyNote/2023年50周记录.md",
     "000 - 每日日记/WeeklyNote/2023年49周记录.md",
@@ -419,9 +448,6 @@
     "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/npm yarn-20230708221621-5640zle.md",
     "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/git相关 1.md",
     "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/git相关.md",
-    "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
-    "000 - 每日日记/DailyNote/2023年12月06日.md",
-    "020 - 工作学习/非开发/脚本/脚本集合/前端打包脚本.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台"
   ]
 }
