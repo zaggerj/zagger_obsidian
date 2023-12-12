@@ -98,7 +98,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "0e2485aa340eb59d",
@@ -258,7 +259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
+                "file": "000 - 每日日记/DailyNote/2023年12月12日.md"
               }
             }
           },
@@ -276,7 +277,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
+                "file": "000 - 每日日记/DailyNote/2023年12月12日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -293,7 +294,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
+                "file": "000 - 每日日记/DailyNote/2023年12月12日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -305,7 +306,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
+                "file": "000 - 每日日记/DailyNote/2023年12月12日.md"
               }
             }
           },
@@ -392,10 +393,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e261ae927312d012",
+  "active": "ab57d8962bf61328",
   "lastOpenFiles": [
-    "040 - Obsidian/主页/00. 主页.md",
+    "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/npm yarn.md",
     "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
+    "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/学习/前端/00.学习-前端.md",
     "040 - Obsidian/主页/工作链接清单.md",
     "040 - Obsidian/教程/obsidian清单.md",
@@ -415,7 +417,6 @@
     "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/nvm.md",
     "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/nrm报错.md",
     "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/npm yarn-20230708221621-5640zle.md",
-    "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/npm yarn.md",
     "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/git相关 1.md",
     "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/git相关.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",

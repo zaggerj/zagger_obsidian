@@ -205,6 +205,15 @@ tab之于window 如果window之于buffer, tab和window都只是布局而已,真�
 " normal mode `Q
 `Q `W `E 
 ```
+
+#### 1.4.6.22. tab化和window化所有buffer
+```vim
+:tab ba
+:hori ba
+:vert ba
+"关闭当前tab的所有缓冲区
+:windo bd 
+```
 # 2. 相关文章
 
 _摘抄来源，引用出处，参考链接，文档查询_
@@ -236,4 +245,6 @@ Page Link::
 	12. [vim超实用指南，收藏这一篇就够了！ - 知乎](https://zhuanlan.zhihu.com/p/467661880)
 	13. [vim的marks命令详解\_vim mark-CSDN博客](https://blog.csdn.net/alwaysbefine/article/details/122182127)
 	14. [Linux文本编辑器—Vim【进阶操作】 - 知乎](https://zhuanlan.zhihu.com/p/652003809)
-	15. 
+	15. [Linux系统操作命令汇总（含vim） - 知乎](https://zhuanlan.zhihu.com/p/617231934)
+	16. [VIM 中文帮助: 使用多窗口多缓冲区的命令](https://vimcdoc.sourceforge.net/doc/windows.html#:buffers)
+	17. [VIM 中文帮助: 总览最常用的命令](https://vimcdoc.sourceforge.net/doc/quickref.html)
