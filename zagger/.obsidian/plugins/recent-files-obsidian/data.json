@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "2023年50周记录",
+      "path": "000 - 每日日记/WeeklyNote/2023年50周记录.md"
+    },
+    {
+      "basename": "2023年12月12日",
+      "path": "000 - 每日日记/DailyNote/2023年12月12日.md"
+    },
+    {
+      "basename": "vim使用技巧",
+      "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
+    },
+    {
       "basename": "a 服务器相关命令",
       "path": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
     },
     {
       "basename": "00. 主页",
       "path": "040 - Obsidian/主页/00. 主页.md"
-    },
-    {
-      "basename": "2023年12月12日",
-      "path": "000 - 每日日记/DailyNote/2023年12月12日.md"
     },
     {
       "basename": "webpack.ProgressPlugin",
@@ -25,16 +33,8 @@
       "path": "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/npm yarn.md"
     },
     {
-      "basename": "vim使用技巧",
-      "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
-    },
-    {
       "basename": "2023年12月11日",
       "path": "000 - 每日日记/DailyNote/2023年12月11日.md"
-    },
-    {
-      "basename": "2023年50周记录",
-      "path": "000 - 每日日记/WeeklyNote/2023年50周记录.md"
     },
     {
       "basename": "2023年49周记录",

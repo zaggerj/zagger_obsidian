@@ -125,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "0e2485aa340eb59d",
@@ -184,7 +184,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -222,7 +222,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#工时",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -239,7 +239,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "73db95bfb166faa1",
@@ -285,7 +286,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
+                "file": "000 - 每日日记/WeeklyNote/2023年50周记录.md"
               }
             }
           },
@@ -303,7 +304,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
+                "file": "000 - 每日日记/WeeklyNote/2023年50周记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -320,7 +321,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
+                "file": "000 - 每日日记/WeeklyNote/2023年50周记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -332,7 +333,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
+                "file": "000 - 每日日记/WeeklyNote/2023年50周记录.md"
               }
             }
           },
@@ -419,20 +420,21 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "187050a0079cc556",
+  "active": "b4c7e444bec5bf43",
   "lastOpenFiles": [
-    "040 - Obsidian/主页/00. 主页.md",
     "000 - 每日日记/DailyNote/2023年12月12日.md",
+    "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
+    "000 - 每日日记/WeeklyNote/2023年50周记录.md",
+    "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
+    "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/学习/前端/webpack/webpack.ProgressPlugin.md",
     "020 - 工作学习/学习/前端/webpack/webpack  babel-loader预设报错.md",
     "020 - 工作学习/学习/前端/webpack/webpack  babel-loader预设报错 1.md",
     "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/npm yarn.md",
-    "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
     "020 - 工作学习/学习/前端/00.学习-前端.md",
     "040 - Obsidian/主页/工作链接清单.md",
     "040 - Obsidian/教程/obsidian清单.md",
     "000 - 每日日记/DailyNote/2023年12月11日.md",
-    "000 - 每日日记/WeeklyNote/2023年50周记录.md",
     "000 - 每日日记/WeeklyNote/2023年49周记录.md",
     "030 - 阅读笔记/Site Unreachable.md",
     "004 - Resource/资源/各种软件/vim学习/vim 快捷键和使用教程.md",
@@ -447,7 +449,6 @@
     "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/nrm报错.md",
     "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/npm yarn-20230708221621-5640zle.md",
     "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/git相关 1.md",
-    "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/git相关.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台"
   ]
 }
