@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "vim使用技巧",
+      "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
+    },
+    {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "2023年12月12日",
+      "path": "000 - 每日日记/DailyNote/2023年12月12日.md"
+    },
+    {
       "basename": "2023年12月11日",
       "path": "000 - 每日日记/DailyNote/2023年12月11日.md"
     },
@@ -11,10 +23,6 @@
     {
       "basename": "2023年49周记录",
       "path": "000 - 每日日记/WeeklyNote/2023年49周记录.md"
-    },
-    {
-      "basename": "vim使用技巧",
-      "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
     },
     {
       "basename": "Site Unreachable",
@@ -63,10 +71,6 @@
     {
       "basename": "git相关",
       "path": "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/git相关.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "mongodb安装和配置",
@@ -195,10 +199,6 @@
     {
       "basename": "2023年11月07日",
       "path": "000 - 每日日记/DailyNote/2023年11月07日.md"
-    },
-    {
-      "basename": "grep",
-      "path": "020 - 工作学习/学习/后端/linux/grep.md"
     }
   ],
   "omittedPaths": [],

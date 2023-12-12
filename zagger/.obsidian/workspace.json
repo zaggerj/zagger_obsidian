@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月11日.md",
+                "file": "000 - 每日日记/DailyNote/2023年12月12日.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -98,8 +98,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "0e2485aa340eb59d",
@@ -158,7 +157,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -196,7 +195,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#工时",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -259,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月11日.md"
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
               }
             }
           },
@@ -277,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月11日.md",
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -294,7 +293,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月11日.md",
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +305,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月11日.md"
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
               }
             }
           },
@@ -393,12 +392,17 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "ab57d8962bf61328",
+  "active": "e261ae927312d012",
   "lastOpenFiles": [
+    "040 - Obsidian/主页/00. 主页.md",
+    "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
+    "020 - 工作学习/学习/前端/00.学习-前端.md",
+    "040 - Obsidian/主页/工作链接清单.md",
+    "040 - Obsidian/教程/obsidian清单.md",
+    "000 - 每日日记/DailyNote/2023年12月12日.md",
+    "000 - 每日日记/DailyNote/2023年12月11日.md",
     "000 - 每日日记/WeeklyNote/2023年50周记录.md",
     "000 - 每日日记/WeeklyNote/2023年49周记录.md",
-    "000 - 每日日记/DailyNote/2023年12月11日.md",
-    "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
     "030 - 阅读笔记/Site Unreachable.md",
     "004 - Resource/资源/各种软件/vim学习/vim 快捷键和使用教程.md",
     "004 - Resource/资源/各种软件/vim学习/vim快捷键.md",
@@ -414,14 +418,9 @@
     "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/npm yarn.md",
     "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/git相关 1.md",
     "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/git相关.md",
-    "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台/mongodb安装和配置.md",
     "000 - 每日日记/DailyNote/2023年12月06日.md",
     "020 - 工作学习/非开发/脚本/脚本集合/前端打包脚本.md",
-    "020 - 工作学习/非开发/脚本/脚本集合/补丁脚本.md",
-    "000 - 每日日记/DailyNote/2023年12月05日.md",
-    "000 - 每日日记/DailyNote/2023年12月09日.md",
-    "000 - 每日日记/DailyNote/2023年12月10日.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台"
   ]
 }
