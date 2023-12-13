@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "app ui.js",
+      "path": "020 - 工作学习/学习/前端/vnc/app ui.js.md"
+    },
+    {
+      "basename": "app webutil.js",
+      "path": "020 - 工作学习/学习/前端/vnc/app webutil.js.md"
+    },
+    {
       "basename": "2023年12月13日",
       "path": "000 - 每日日记/DailyNote/2023年12月13日.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "2023年11月30日",
       "path": "000 - 每日日记/DailyNote/2023年11月30日.md"
-    },
-    {
-      "basename": "obsidian插件列表",
-      "path": "040 - Obsidian/教程/obsidian插件列表.md"
-    },
-    {
-      "basename": "客户端远程改资源",
-      "path": "020 - 工作学习/工作/业务知识和难题/各种问题/客户端远程改资源.md"
     }
   ],
   "omittedPaths": [],
