@@ -4,12 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "abbec0965a6b01cc",
+        "id": "a5fd617dd10fc41a",
         "type": "tabs",
-        "dimension": 52.30263157894737,
         "children": [
           {
-            "id": "b02e8e7780459351",
+            "id": "1a01d2e44aa4e36e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,103 +21,12 @@
             }
           },
           {
-            "id": "187050a0079cc556",
+            "id": "0efffadff139df14",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e79edfe65fbde9d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/git相关.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cfd0c98bc71c1dd3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/npm yarn.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ab57d8962bf61328",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/前端/vnc/app ui.js.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ab9621c8aca6aa28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/前端/webpack/webpack.ProgressPlugin.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1c3d6579a256f4fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim快捷键.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "89d36dfdb1155232",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim 快捷键和使用教程.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "df95c7ebc8d3b624",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim学习.md",
+                "file": "020 - 工作学习/学习/前端/vnc/app webutil.js.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -126,67 +34,7 @@
             }
           }
         ],
-        "currentTab": 4
-      },
-      {
-        "id": "0e2485aa340eb59d",
-        "type": "tabs",
-        "dimension": 47.69736842105263,
-        "children": [
-          {
-            "id": "f29506c931d1c749",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月06日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e261ae927312d012",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b4c7e444bec5bf43",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/WeeklyNote/2023年50周记录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bae47c2946c8a6f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/前端/js小知识点/正则/正则文章通读.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -287,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "020 - 工作学习/学习/前端/vnc/app ui.js.md"
+                "file": "020 - 工作学习/学习/前端/vnc/app webutil.js.md"
               }
             }
           },
@@ -305,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "020 - 工作学习/学习/前端/vnc/app ui.js.md",
+                "file": "020 - 工作学习/学习/前端/vnc/app webutil.js.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -322,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "020 - 工作学习/学习/前端/vnc/app ui.js.md",
+                "file": "020 - 工作学习/学习/前端/vnc/app webutil.js.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -334,7 +182,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "020 - 工作学习/学习/前端/vnc/app ui.js.md"
+                "file": "020 - 工作学习/学习/前端/vnc/app webutil.js.md"
               }
             }
           },
@@ -357,7 +205,7 @@
             }
           },
           {
-            "id": "72d554041de54310",
+            "id": "9030303668f00156",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -365,7 +213,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 7
       },
       {
         "id": "888c3f3084370af3",
@@ -421,8 +269,9 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "ab57d8962bf61328",
+  "active": "0efffadff139df14",
   "lastOpenFiles": [
+    "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/学习/前端/vnc/app webutil.js.md",
     "020 - 工作学习/学习/前端/vnc/app ui.js.md",
     "000 - 每日日记/DailyNote/2023年12月13日.md",
@@ -431,7 +280,6 @@
     "000 - 每日日记/DailyNote/2023年12月12日.md",
     "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
-    "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/学习/前端/webpack/webpack.ProgressPlugin.md",
     "020 - 工作学习/学习/前端/webpack/webpack  babel-loader预设报错.md",
     "020 - 工作学习/学习/前端/webpack/webpack  babel-loader预设报错 1.md",
