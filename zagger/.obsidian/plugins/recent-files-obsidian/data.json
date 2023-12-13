@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2023年12月13日",
+      "path": "000 - 每日日记/DailyNote/2023年12月13日.md"
+    },
+    {
       "basename": "2023年50周记录",
       "path": "000 - 每日日记/WeeklyNote/2023年50周记录.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "客户端远程改资源",
       "path": "020 - 工作学习/工作/业务知识和难题/各种问题/客户端远程改资源.md"
-    },
-    {
-      "basename": "obsidian清单",
-      "path": "040 - Obsidian/教程/obsidian清单.md"
     }
   ],
   "omittedPaths": [],
