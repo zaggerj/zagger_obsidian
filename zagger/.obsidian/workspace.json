@@ -21,12 +21,38 @@
             }
           },
           {
+            "id": "dad10d93b113666e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0efffadff139df14",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "020 - 工作学习/学习/前端/vnc/app webutil.js.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b550938dffb8551d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/学习/前端/vnc/app ui.js.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -72,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "cp -Rv",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +115,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "73db95bfb166faa1",
@@ -135,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "020 - 工作学习/学习/前端/vnc/app webutil.js.md"
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
               }
             }
           },
@@ -153,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "020 - 工作学习/学习/前端/vnc/app webutil.js.md",
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "020 - 工作学习/学习/前端/vnc/app webutil.js.md",
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +209,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "020 - 工作学习/学习/前端/vnc/app webutil.js.md"
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
               }
             }
           },
@@ -269,11 +296,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "0efffadff139df14",
+  "active": "dad10d93b113666e",
   "lastOpenFiles": [
     "040 - Obsidian/主页/00. 主页.md",
-    "020 - 工作学习/学习/前端/vnc/app webutil.js.md",
     "020 - 工作学习/学习/前端/vnc/app ui.js.md",
+    "020 - 工作学习/学习/前端/vnc/app webutil.js.md",
     "000 - 每日日记/DailyNote/2023年12月13日.md",
     "020 - 工作学习/学习/前端/vnc",
     "000 - 每日日记/WeeklyNote/2023年50周记录.md",
