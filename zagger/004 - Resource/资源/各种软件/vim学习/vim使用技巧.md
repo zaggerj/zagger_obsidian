@@ -220,6 +220,8 @@ tab之于window 如果window之于buffer, tab和window都只是布局而已,真�
 3. `Git show `加上 `C+u+"`打开文件详细输出
 
 #### 1.4.6.24. 先使用grep 后使用quickfix
+`:grep queue .\view-front`
+`copen`
 
 # 2. 相关文章
 

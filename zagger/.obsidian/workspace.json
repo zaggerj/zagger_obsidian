@@ -86,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "f20a9aaac1d2a1ef",
@@ -217,7 +217,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5
+    "width": 283.5
   },
   "right": {
     "id": "49b0f6d6f173189c",
@@ -233,7 +233,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
+                "file": "000 - 每日日记/DailyNote/2023年12月14日.md"
               }
             }
           },
@@ -251,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
+                "file": "000 - 每日日记/DailyNote/2023年12月14日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,7 +268,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
+                "file": "000 - 每日日记/DailyNote/2023年12月14日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -280,7 +280,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
+                "file": "000 - 每日日记/DailyNote/2023年12月14日.md"
               }
             }
           },
@@ -367,18 +367,18 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "775c23108007f56d",
+  "active": "b8db9fb6521fdccd",
   "lastOpenFiles": [
+    "020 - 工作学习/学习/前端/vnc/app webutil.js.md",
+    "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
+    "000 - 每日日记/DailyNote/2023年12月14日.md",
+    "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
     "020 - 工作学习/学习/前端/webpack/TerserWebpackPlugin.md",
     "020 - 工作学习/学习/前端/webpack/FileManager Webpack Plugin.md",
     "020 - 工作学习/工作/远程、定制化/项目定制开发和远程.md",
-    "000 - 每日日记/DailyNote/2023年12月14日.md",
-    "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
-    "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
     "000 - 每日日记/WeeklyNote/2023年50周记录.md",
     "000 - 每日日记/DailyNote/2023年12月13日.md",
     "000 - 每日日记/DailyNote/2023年12月12日.md",
-    "020 - 工作学习/学习/前端/vnc/app webutil.js.md",
     "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/学习/前端/vnc/app ui.js.md",
     "020 - 工作学习/学习/前端/vnc",
