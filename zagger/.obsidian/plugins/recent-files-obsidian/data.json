@@ -5,12 +5,8 @@
       "path": "000 - 每日日记/DailyNote/2023年12月14日.md"
     },
     {
-      "basename": "app webutil.js",
-      "path": "020 - 工作学习/学习/前端/vnc/app webutil.js.md"
-    },
-    {
-      "basename": "a 服务器相关命令",
-      "path": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
+      "basename": "webpack plugin",
+      "path": "020 - 工作学习/学习/前端/webpack/webpack plugin.md"
     },
     {
       "basename": "vim使用技巧",
@@ -19,6 +15,14 @@
     {
       "basename": "TerserWebpackPlugin",
       "path": "020 - 工作学习/学习/前端/webpack/TerserWebpackPlugin.md"
+    },
+    {
+      "basename": "app webutil.js",
+      "path": "020 - 工作学习/学习/前端/vnc/app webutil.js.md"
+    },
+    {
+      "basename": "a 服务器相关命令",
+      "path": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
     },
     {
       "basename": "FileManager Webpack Plugin",
@@ -195,10 +199,6 @@
     {
       "basename": "2023年45周记录",
       "path": "000 - 每日日记/WeeklyNote/2023年45周记录.md"
-    },
-    {
-      "basename": "2022年20周记录",
-      "path": "000 - 每日日记/WeeklyNote/2022年20周记录.md"
     }
   ],
   "omittedPaths": [],

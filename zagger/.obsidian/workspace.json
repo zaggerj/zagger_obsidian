@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月14日.md",
+                "file": "020 - 工作学习/学习/前端/webpack/webpack plugin.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -84,9 +84,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4a0a3c1dbf0736a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2023年12月14日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       },
       {
         "id": "f20a9aaac1d2a1ef",
@@ -367,13 +380,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "b8db9fb6521fdccd",
+  "active": "4a0a3c1dbf0736a1",
   "lastOpenFiles": [
-    "020 - 工作学习/学习/前端/vnc/app webutil.js.md",
-    "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
+    "020 - 工作学习/学习/前端/webpack/webpack plugin.md",
     "000 - 每日日记/DailyNote/2023年12月14日.md",
     "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
     "020 - 工作学习/学习/前端/webpack/TerserWebpackPlugin.md",
+    "020 - 工作学习/学习/前端/vnc/app webutil.js.md",
+    "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "020 - 工作学习/学习/前端/webpack/FileManager Webpack Plugin.md",
     "020 - 工作学习/工作/远程、定制化/项目定制开发和远程.md",
     "000 - 每日日记/WeeklyNote/2023年50周记录.md",
@@ -395,7 +409,6 @@
     "004 - Resource/资源/各种软件/vim学习/vim 快捷键和使用教程.md",
     "004 - Resource/资源/各种软件/vim学习/vim快捷键.md",
     "040 - Obsidian/模板/tp-改良长青笔记模板.md",
-    "040 - Obsidian/模板/tp-改良版笔记模板.md",
     "004 - Resource/资源/各种软件/vim学习/Pasted image 20230726112215.png",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台"
   ]

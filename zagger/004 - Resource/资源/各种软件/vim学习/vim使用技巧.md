@@ -259,3 +259,5 @@ Page Link::
 	17. [VIM 中文帮助: 总览最常用的命令](https://vimcdoc.sourceforge.net/doc/quickref.html)
 	18. [vim-fugitive](https://github.com/tpope/vim-fugitive)
 	19. [854.【git】git 查看 modified 状态文件与上个版本的改动 - 简书](https://www.jianshu.com/p/641321e139d0)
+	20. [【neovim 技巧系列】quickfix 与文本处理-CSDN博客](https://blog.csdn.net/m0_37952030/article/details/127113848)
+	21. [vi/vim使用进阶: 剑不离手 – quickfix - 摩斯电码 - 博客园](https://www.cnblogs.com/pengdonglin137/p/3552580.html)
