@@ -71,9 +71,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6fe30923db70e681",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/学习/前端/webpack/TerserWebpackPlugin.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "f20a9aaac1d2a1ef",
@@ -220,7 +233,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月14日.md"
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
               }
             }
           },
@@ -238,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月14日.md",
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,7 +268,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月14日.md",
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -267,7 +280,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月14日.md"
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
               }
             }
           },
@@ -354,14 +367,16 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "b8db9fb6521fdccd",
+  "active": "775c23108007f56d",
   "lastOpenFiles": [
+    "020 - 工作学习/学习/前端/webpack/TerserWebpackPlugin.md",
+    "020 - 工作学习/学习/前端/webpack/FileManager Webpack Plugin.md",
+    "020 - 工作学习/工作/远程、定制化/项目定制开发和远程.md",
+    "000 - 每日日记/DailyNote/2023年12月14日.md",
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
     "000 - 每日日记/WeeklyNote/2023年50周记录.md",
     "000 - 每日日记/DailyNote/2023年12月13日.md",
-    "000 - 每日日记/DailyNote/2023年12月14日.md",
-    "020 - 工作学习/工作/远程、定制化/项目定制开发和远程.md",
     "000 - 每日日记/DailyNote/2023年12月12日.md",
     "020 - 工作学习/学习/前端/vnc/app webutil.js.md",
     "040 - Obsidian/主页/00. 主页.md",
@@ -381,8 +396,6 @@
     "004 - Resource/资源/各种软件/vim学习/vim快捷键.md",
     "040 - Obsidian/模板/tp-改良长青笔记模板.md",
     "040 - Obsidian/模板/tp-改良版笔记模板.md",
-    "004 - Resource/资源/各种软件/vim学习/vim学习.md",
-    "004 - Resource/资源/各种软件/vim学习/AstroNvim/AstroNvim 问题解决.md",
     "004 - Resource/资源/各种软件/vim学习/Pasted image 20230726112215.png",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台"
   ]

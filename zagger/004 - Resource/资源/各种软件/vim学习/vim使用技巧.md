@@ -218,6 +218,9 @@ tab之于window 如果window之于buffer, tab和window都只是布局而已,真�
 1. `Git log %`
 2. 定位到对应的commit，`yw`复制对应的hash
 3. `Git show `加上 `C+u+"`打开文件详细输出
+
+#### 1.4.6.24. 先使用grep 后使用quickfix
+
 # 2. 相关文章
 
 _摘抄来源，引用出处，参考链接，文档查询_

@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "vim使用技巧",
+      "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
+    },
+    {
+      "basename": "TerserWebpackPlugin",
+      "path": "020 - 工作学习/学习/前端/webpack/TerserWebpackPlugin.md"
+    },
+    {
+      "basename": "FileManager Webpack Plugin",
+      "path": "020 - 工作学习/学习/前端/webpack/FileManager Webpack Plugin.md"
+    },
+    {
+      "basename": "项目定制开发和远程",
+      "path": "020 - 工作学习/工作/远程、定制化/项目定制开发和远程.md"
+    },
+    {
       "basename": "2023年12月14日",
       "path": "000 - 每日日记/DailyNote/2023年12月14日.md"
     },
     {
       "basename": "a 服务器相关命令",
       "path": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
-    },
-    {
-      "basename": "vim使用技巧",
-      "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
     },
     {
       "basename": "2023年50周记录",
@@ -187,18 +199,6 @@
     {
       "basename": "2022年20周记录",
       "path": "000 - 每日日记/WeeklyNote/2022年20周记录.md"
-    },
-    {
-      "basename": "2023年12月03日",
-      "path": "000 - 每日日记/DailyNote/2023年12月03日.md"
-    },
-    {
-      "basename": "2023年12月02日",
-      "path": "000 - 每日日记/DailyNote/2023年12月02日.md"
-    },
-    {
-      "basename": "2023年12月01日",
-      "path": "000 - 每日日记/DailyNote/2023年12月01日.md"
     }
   ],
   "omittedPaths": [],
