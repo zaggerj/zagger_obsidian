@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月12日.md",
+                "file": "000 - 每日日记/DailyNote/2023年12月14日.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -105,7 +105,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -207,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月12日.md"
+                "file": "000 - 每日日记/WeeklyNote/2023年50周记录.md"
               }
             }
           },
@@ -225,7 +226,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月12日.md",
+                "file": "000 - 每日日记/WeeklyNote/2023年50周记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +243,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月12日.md",
+                "file": "000 - 每日日记/WeeklyNote/2023年50周记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -254,7 +255,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月12日.md"
+                "file": "000 - 每日日记/WeeklyNote/2023年50周记录.md"
               }
             }
           },
@@ -341,11 +342,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "b8db9fb6521fdccd",
+  "active": "4751ac5a3aabaab2",
   "lastOpenFiles": [
-    "000 - 每日日记/DailyNote/2023年12月13日.md",
-    "000 - 每日日记/DailyNote/2023年12月12日.md",
+    "000 - 每日日记/DailyNote/2023年12月14日.md",
+    "020 - 工作学习/工作/远程、定制化/项目定制开发和远程.md",
     "000 - 每日日记/WeeklyNote/2023年50周记录.md",
+    "000 - 每日日记/DailyNote/2023年12月12日.md",
+    "000 - 每日日记/DailyNote/2023年12月13日.md",
     "020 - 工作学习/学习/前端/vnc/app webutil.js.md",
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "040 - Obsidian/主页/00. 主页.md",
@@ -368,9 +371,7 @@
     "040 - Obsidian/模板/tp-改良版笔记模板.md",
     "004 - Resource/资源/各种软件/vim学习/vim学习.md",
     "004 - Resource/资源/各种软件/vim学习/AstroNvim/AstroNvim 问题解决.md",
-    "004 - Resource/资源/各种软件/vim学习/AstroNvim/处理 User 自动命令 AstroFile 时发生错误.md",
     "004 - Resource/资源/各种软件/vim学习/Pasted image 20230726112215.png",
-    "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/nvm.md",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台"
   ]
 }
