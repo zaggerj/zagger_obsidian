@@ -214,6 +214,10 @@ tab之于window 如果window之于buffer, tab和window都只是布局而已,真�
 "关闭当前tab的所有缓冲区
 :windo bd 
 ```
+#### 1.4.6.23. 查看文件历史版本
+1. `Git log %`
+2. 定位到对应的commit，`yw`复制对应的hash
+3. `Git show `加上 `C+u+"`打开文件详细输出
 # 2. 相关文章
 
 _摘抄来源，引用出处，参考链接，文档查询_
@@ -248,3 +252,5 @@ Page Link::
 	15. [Linux系统操作命令汇总（含vim） - 知乎](https://zhuanlan.zhihu.com/p/617231934)
 	16. [VIM 中文帮助: 使用多窗口多缓冲区的命令](https://vimcdoc.sourceforge.net/doc/windows.html#:buffers)
 	17. [VIM 中文帮助: 总览最常用的命令](https://vimcdoc.sourceforge.net/doc/quickref.html)
+	18. [vim-fugitive](https://github.com/tpope/vim-fugitive)
+	19. [854.【git】git 查看 modified 状态文件与上个版本的改动 - 简书](https://www.jianshu.com/p/641321e139d0)
