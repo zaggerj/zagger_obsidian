@@ -222,7 +222,22 @@ tab之于window 如果window之于buffer, tab和window都只是布局而已,真�
 #### 1.4.6.24. 先使用grep 后使用quickfix
 `:grep queue .\view-front`
 `copen`
-
+#### 1.4.6.25. coc不自动格式化
+不能安装coc-prettier
+```json
+{
+"eslint.autoFixOnSave": true,
+  "eslint.filetypes": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "tsserver.formatOnType": true,
+  "coc.preferences.formatOnType": true
+}
+```
 # 2. 相关文章
 
 _摘抄来源，引用出处，参考链接，文档查询_
@@ -261,3 +276,4 @@ Page Link::
 	19. [854.【git】git 查看 modified 状态文件与上个版本的改动 - 简书](https://www.jianshu.com/p/641321e139d0)
 	20. [【neovim 技巧系列】quickfix 与文本处理-CSDN博客](https://blog.csdn.net/m0_37952030/article/details/127113848)
 	21. [vi/vim使用进阶: 剑不离手 – quickfix - 摩斯电码 - 博客园](https://www.cnblogs.com/pengdonglin137/p/3552580.html)
+	22. [像 VSCode 一样设置 Neovim\_vim\_开源小助理-开源](https://devpress.csdn.net/opensource/62f42b9d7e668234661882d7.html)

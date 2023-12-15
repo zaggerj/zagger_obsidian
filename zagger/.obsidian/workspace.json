@@ -157,7 +157,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -258,7 +259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月15日.md"
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
               }
             }
           },
@@ -276,7 +277,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月15日.md",
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -293,7 +294,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月15日.md",
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -305,7 +306,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月15日.md"
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
               }
             }
           },
@@ -392,10 +393,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e36d7de7dee9b1bc",
+  "active": "775c23108007f56d",
   "lastOpenFiles": [
-    "000 - 每日日记/DailyNote/2023年12月15日.md",
     "000 - 每日日记/DailyNote/2023年12月14日.md",
+    "000 - 每日日记/DailyNote/2023年12月15日.md",
     "020 - 工作学习/学习/前端/webpack/webpack plugin.md",
     "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
     "020 - 工作学习/学习/前端/webpack/TerserWebpackPlugin.md",
