@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "020 - 工作学习/学习/后端/bash/bash.md",
+                "file": "020 - 工作学习/学习/后端/VMware Workstation安装虚拟机/VMware Workstation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -285,7 +285,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
+                "file": "020 - 工作学习/学习/后端/VMware Workstation安装虚拟机/VMware Workstation.md"
               }
             }
           },
@@ -303,7 +303,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
+                "file": "020 - 工作学习/学习/后端/VMware Workstation安装虚拟机/VMware Workstation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -320,7 +320,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
+                "file": "020 - 工作学习/学习/后端/VMware Workstation安装虚拟机/VMware Workstation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -332,7 +332,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
+                "file": "020 - 工作学习/学习/后端/VMware Workstation安装虚拟机/VMware Workstation.md"
               }
             }
           },
@@ -419,12 +419,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "775c23108007f56d",
+  "active": "6eed0a791ac9705e",
   "lastOpenFiles": [
     "020 - 工作学习/学习/后端/bash/bash.md",
+    "020 - 工作学习/学习/后端/VMware Workstation安装虚拟机/VMware Workstation.md",
+    "020 - 工作学习/学习/后端/VMware Workstation安装虚拟机",
+    "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
     "020 - 工作学习/学习/后端/bash/学习bash.md",
     "000 - 每日日记/DailyNote/2023年12月15日.md",
-    "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
     "000 - 每日日记/DailyNote/2023年12月14日.md",
     "020 - 工作学习/学习/前端/webpack/webpack plugin.md",
     "020 - 工作学习/学习/前端/webpack/TerserWebpackPlugin.md",
@@ -447,7 +449,6 @@
     "040 - Obsidian/教程/obsidian清单.md",
     "000 - 每日日记/DailyNote/2023年12月11日.md",
     "000 - 每日日记/WeeklyNote/2023年49周记录.md",
-    "030 - 阅读笔记/Site Unreachable.md",
     "004 - Resource/资源/各种软件/vim学习/Pasted image 20230726112215.png",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台"
   ]
