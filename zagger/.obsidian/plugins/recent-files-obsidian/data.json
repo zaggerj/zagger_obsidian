@@ -5,12 +5,20 @@
       "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
     },
     {
-      "basename": "2023年12月14日",
-      "path": "000 - 每日日记/DailyNote/2023年12月14日.md"
+      "basename": "bash",
+      "path": "020 - 工作学习/学习/后端/bash/bash.md"
+    },
+    {
+      "basename": "学习bash",
+      "path": "020 - 工作学习/学习/后端/bash/学习bash.md"
     },
     {
       "basename": "2023年12月15日",
       "path": "000 - 每日日记/DailyNote/2023年12月15日.md"
+    },
+    {
+      "basename": "2023年12月14日",
+      "path": "000 - 每日日记/DailyNote/2023年12月14日.md"
     },
     {
       "basename": "webpack plugin",
@@ -191,14 +199,6 @@
     {
       "basename": "frontend",
       "path": "040 - Obsidian/Excalidraw/front-end/frontend.md"
-    },
-    {
-      "basename": "2023年11月28日",
-      "path": "000 - 每日日记/DailyNote/2023年11月28日.md"
-    },
-    {
-      "basename": "2023年11月29日",
-      "path": "000 - 每日日记/DailyNote/2023年11月29日.md"
     }
   ],
   "omittedPaths": [],

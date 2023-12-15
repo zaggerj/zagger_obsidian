@@ -97,9 +97,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e2e1ff18e37138ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/学习/后端/bash/学习bash.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6eed0a791ac9705e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/学习/后端/bash/bash.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       },
       {
         "id": "f20a9aaac1d2a1ef",
@@ -196,7 +222,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cp -Rv",
+                "query": "c-a",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -395,10 +421,12 @@
   },
   "active": "775c23108007f56d",
   "lastOpenFiles": [
-    "000 - 每日日记/DailyNote/2023年12月14日.md",
+    "020 - 工作学习/学习/后端/bash/bash.md",
+    "020 - 工作学习/学习/后端/bash/学习bash.md",
     "000 - 每日日记/DailyNote/2023年12月15日.md",
-    "020 - 工作学习/学习/前端/webpack/webpack plugin.md",
     "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
+    "000 - 每日日记/DailyNote/2023年12月14日.md",
+    "020 - 工作学习/学习/前端/webpack/webpack plugin.md",
     "020 - 工作学习/学习/前端/webpack/TerserWebpackPlugin.md",
     "020 - 工作学习/学习/前端/vnc/app webutil.js.md",
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
@@ -420,8 +448,6 @@
     "000 - 每日日记/DailyNote/2023年12月11日.md",
     "000 - 每日日记/WeeklyNote/2023年49周记录.md",
     "030 - 阅读笔记/Site Unreachable.md",
-    "004 - Resource/资源/各种软件/vim学习/vim 快捷键和使用教程.md",
-    "004 - Resource/资源/各种软件/vim学习/vim快捷键.md",
     "004 - Resource/资源/各种软件/vim学习/Pasted image 20230726112215.png",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台"
   ]
