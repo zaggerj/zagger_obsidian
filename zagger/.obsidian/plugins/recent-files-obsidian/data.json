@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "2023年12月15日",
+      "path": "000 - 每日日记/DailyNote/2023年12月15日.md"
+    },
+    {
+      "basename": "a 服务器相关命令",
+      "path": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
+    },
+    {
       "basename": "VMware Workstation",
       "path": "020 - 工作学习/学习/后端/VMware Workstation安装虚拟机/VMware Workstation.md"
+    },
+    {
+      "basename": "2023年12月07日",
+      "path": "000 - 每日日记/DailyNote/2023年12月07日.md"
     },
     {
       "basename": "bash",
@@ -15,10 +27,6 @@
     {
       "basename": "学习bash",
       "path": "020 - 工作学习/学习/后端/bash/学习bash.md"
-    },
-    {
-      "basename": "2023年12月15日",
-      "path": "000 - 每日日记/DailyNote/2023年12月15日.md"
     },
     {
       "basename": "2023年12月14日",
@@ -35,10 +43,6 @@
     {
       "basename": "app webutil.js",
       "path": "020 - 工作学习/学习/前端/vnc/app webutil.js.md"
-    },
-    {
-      "basename": "a 服务器相关命令",
-      "path": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
     },
     {
       "basename": "FileManager Webpack Plugin",
@@ -163,10 +167,6 @@
     {
       "basename": "2023年12月08日",
       "path": "000 - 每日日记/DailyNote/2023年12月08日.md"
-    },
-    {
-      "basename": "2023年12月07日",
-      "path": "000 - 每日日记/DailyNote/2023年12月07日.md"
     },
     {
       "basename": "正则文章通读",
