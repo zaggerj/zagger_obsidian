@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a5fd617dd10fc41a",
+        "id": "9347fcf8606fecca",
         "type": "tabs",
         "children": [
           {
-            "id": "1a01d2e44aa4e36e",
+            "id": "29b7db33557ff761",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,157 +21,7 @@
             }
           },
           {
-            "id": "dad10d93b113666e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0efffadff139df14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/前端/vnc/app webutil.js.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b550938dffb8551d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/前端/vnc/app ui.js.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b8db9fb6521fdccd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/前端/webpack/webpack plugin.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6fe30923db70e681",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/前端/webpack/TerserWebpackPlugin.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e36d7de7dee9b1bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月15日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e2e1ff18e37138ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/后端/bash/学习bash.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6eed0a791ac9705e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 8
-      },
-      {
-        "id": "f20a9aaac1d2a1ef",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4a0a3c1dbf0736a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月14日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "86667e393a11aecf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月13日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4751ac5a3aabaab2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/WeeklyNote/2023年50周记录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "775c23108007f56d",
+            "id": "e0ff68cf7571544b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -182,22 +32,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "eb7a721312d605b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月15日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -235,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ServerR00t",
+                "query": "vim",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -252,8 +89,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "73db95bfb166faa1",
@@ -299,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月15日.md"
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
               }
             }
           },
@@ -317,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月15日.md",
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -334,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月15日.md",
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -346,7 +182,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月15日.md"
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
               }
             }
           },
@@ -369,7 +205,7 @@
             }
           },
           {
-            "id": "9030303668f00156",
+            "id": "c850ce9c48bf1d74",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -433,8 +269,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "eb7a721312d605b9",
+  "active": "e0ff68cf7571544b",
   "lastOpenFiles": [
+    "040 - Obsidian/主页/00. 主页.md",
+    "020 - 工作学习/学习/后端/linux/ubuntu安装最新版neovim.md",
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "000 - 每日日记/DailyNote/2023年12月15日.md",
     "020 - 工作学习/学习/后端/VMware Workstation安装虚拟机/VMware Workstation.md",
@@ -452,7 +290,6 @@
     "000 - 每日日记/WeeklyNote/2023年50周记录.md",
     "000 - 每日日记/DailyNote/2023年12月13日.md",
     "000 - 每日日记/DailyNote/2023年12月12日.md",
-    "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/学习/前端/vnc/app ui.js.md",
     "020 - 工作学习/学习/前端/vnc",
     "020 - 工作学习/学习/前端/webpack/webpack.ProgressPlugin.md",
@@ -462,7 +299,6 @@
     "020 - 工作学习/学习/前端/00.学习-前端.md",
     "040 - Obsidian/主页/工作链接清单.md",
     "040 - Obsidian/教程/obsidian清单.md",
-    "000 - 每日日记/DailyNote/2023年12月11日.md",
     "004 - Resource/资源/各种软件/vim学习/Pasted image 20230726112215.png",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台"
   ]

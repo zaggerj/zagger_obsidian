@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "vim使用技巧",
+      "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
+    },
+    {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "ubuntu安装最新版neovim",
+      "path": "020 - 工作学习/学习/后端/linux/ubuntu安装最新版neovim.md"
+    },
+    {
       "basename": "2023年12月15日",
       "path": "000 - 每日日记/DailyNote/2023年12月15日.md"
     },
@@ -19,10 +31,6 @@
     {
       "basename": "bash",
       "path": "020 - 工作学习/学习/后端/bash/bash.md"
-    },
-    {
-      "basename": "vim使用技巧",
-      "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
     },
     {
       "basename": "学习bash",
@@ -63,10 +71,6 @@
     {
       "basename": "2023年12月12日",
       "path": "000 - 每日日记/DailyNote/2023年12月12日.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "app ui.js",
@@ -195,10 +199,6 @@
     {
       "basename": "2023年48周记录",
       "path": "000 - 每日日记/WeeklyNote/2023年48周记录.md"
-    },
-    {
-      "basename": "2023年47周记录",
-      "path": "000 - 每日日记/WeeklyNote/2023年47周记录.md"
     }
   ],
   "omittedPaths": [],
