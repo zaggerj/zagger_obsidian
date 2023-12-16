@@ -327,3 +327,4 @@ Page Link::
 	20. [【neovim 技巧系列】quickfix 与文本处理-CSDN博客](https://blog.csdn.net/m0_37952030/article/details/127113848)
 	21. [vi/vim使用进阶: 剑不离手 – quickfix - 摩斯电码 - 博客园](https://www.cnblogs.com/pengdonglin137/p/3552580.html)
 	22. [像 VSCode 一样设置 Neovim\_vim\_开源小助理-开源](https://devpress.csdn.net/opensource/62f42b9d7e668234661882d7.html)
+	23. [GitHub - preservim/nerdtree: A tree explorer plugin for vim.](https://github.com/preservim/nerdtree)

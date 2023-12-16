@@ -1,16 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "personal token",
-      "path": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md"
-    },
-    {
-      "basename": "汇总所有在线文档",
-      "path": "020 - 工作学习/工作/汇总所有在线文档.md"
-    },
-    {
       "basename": "2023年12月15日",
       "path": "000 - 每日日记/DailyNote/2023年12月15日.md"
+    },
+    {
+      "basename": "vnc总览",
+      "path": "020 - 工作学习/学习/前端/vnc/vnc总览.md"
     },
     {
       "basename": "vim使用技巧",
@@ -21,12 +17,20 @@
       "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
-      "basename": "ubuntu安装最新版neovim",
-      "path": "020 - 工作学习/学习/后端/linux/ubuntu安装最新版neovim.md"
-    },
-    {
       "basename": "a 服务器相关命令",
       "path": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
+    },
+    {
+      "basename": "personal token",
+      "path": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md"
+    },
+    {
+      "basename": "汇总所有在线文档",
+      "path": "020 - 工作学习/工作/汇总所有在线文档.md"
+    },
+    {
+      "basename": "ubuntu安装最新版neovim",
+      "path": "020 - 工作学习/学习/后端/linux/ubuntu安装最新版neovim.md"
     },
     {
       "basename": "VMware Workstation",
@@ -195,10 +199,6 @@
     {
       "basename": "2023年11月27日",
       "path": "000 - 每日日记/DailyNote/2023年11月27日.md"
-    },
-    {
-      "basename": "tp-每周周记模板",
-      "path": "040 - Obsidian/模板/tp-每周周记模板.md"
     }
   ],
   "omittedPaths": [],
