@@ -3,10 +3,9 @@ tags: 资源/环境配置
 created: 2023-11-06T08:20
 updated: 2023-11-14T09:22
 ---
-# 1 personal token 
+# 1. personal token 　‍
 
-　　‍
-
+> gitlab: `PidLB1zz-mThBZwpEVNB`
 > Github #token : `PidLB1zz-mThBZwpEVNB`
 >
 > picgo:`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`
