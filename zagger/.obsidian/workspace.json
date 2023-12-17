@@ -32,9 +32,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "26f03f14dde05582",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/学习/后端/linux/sed.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "232297a1cb1fe389",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -72,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cpolarpath:",
+                "query": "sed",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -135,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md"
+                "file": "未命名.md"
               }
             }
           },
@@ -153,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md",
+                "file": "未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md",
+                "file": "未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +208,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md"
+                "file": "未命名.md"
               }
             }
           },
@@ -269,13 +295,15 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "d91bd239699d112a",
+  "active": "232297a1cb1fe389",
   "lastOpenFiles": [
+    "未命名.md",
+    "020 - 工作学习/学习/后端/linux/sed.md",
+    "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md",
     "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/学习/前端/vnc/vnc总览.md",
     "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
-    "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md",
     "020 - 工作学习/工作/汇总所有在线文档.md",
     "000 - 每日日记/DailyNote/2023年12月15日.md",
     "020 - 工作学习/学习/后端/linux/ubuntu安装最新版neovim.md",
@@ -297,8 +325,6 @@
     "020 - 工作学习/学习/前端/vnc",
     "020 - 工作学习/学习/前端/webpack/webpack.ProgressPlugin.md",
     "020 - 工作学习/学习/前端/webpack/webpack  babel-loader预设报错.md",
-    "020 - 工作学习/学习/前端/webpack/webpack  babel-loader预设报错 1.md",
-    "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/npm yarn.md",
     "004 - Resource/资源/各种软件/vim学习/Pasted image 20230726112215.png",
     "020 - 工作学习/学习计划脚本/翻译资源服务平台"
   ]

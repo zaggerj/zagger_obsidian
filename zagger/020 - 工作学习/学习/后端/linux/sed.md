@@ -2,7 +2,7 @@
 created: 2023-11-03T22:29
 updated: 2023-11-03T22:29
 ---
-## 参考链接
+## 0.1. 参考链接
 1. [Linux sed 命令 | 菜鸟教程 (runoob.com)](https://www.runoob.com/linux/linux-comm-sed.html)
 2. [sed命令_Linux sed命令：替换、删除、更新文件中的内容 (biancheng.net)](http://c.biancheng.net/linux/sed.html)
 3. [Linux之sed命令详解 | 《Linux就该这么学》 (linuxprobe.com)](https://www.linuxprobe.com/linux-sed-command.html)
@@ -120,7 +120,7 @@ G : 把保持空间的内容【追加】至模式空间
 
 x : 【交换】模式空间与保持空间的内容
 ```
-### 三、sed命令演示
+### 0.1.1. 三、sed命令演示
 
 **注意！** 以下的演示都未加`-i`，所以对实际文件内容不产生任何效果。
 ```
@@ -300,7 +300,7 @@ sed的[脚本](https://www.linuxcool.com/ "脚本")格式：sed [options] -f scr
  W file 写并追加模板块的第一行到file末尾;  
  ! 表示后面的命令对所有没有被选定的行发生作用;  
  = 打印当前行号;  
- # 把注释扩展到下一个换行符以前;
+# 1. 把注释扩展到下一个换行符以前;
 
 **sed替换标记**
 
