@@ -6,7 +6,6 @@ updated: 2023-11-14T09:22
 # 1. personal token 　‍
 
 > gitlab: `PidLB1zz-mThBZwpEVNB`
-> Github #token : `PidLB1zz-mThBZwpEVNB`
 >
 > picgo:`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`
 > [[obsidian贴图|图床配置]]

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b203e52ed7238689",
+        "id": "387e87c7bc3f2856",
         "type": "tabs",
         "children": [
           {
-            "id": "e52cef7dd07b9323",
+            "id": "e1fdcddc73bc8c68",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,38 +21,12 @@
             }
           },
           {
-            "id": "1fe18f68bf502166",
+            "id": "d91bd239699d112a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "020 - 工作学习/学习/前端/vnc/vnc总览.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d884735a45e52a83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "593ec87eab04f405",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月15日.md",
+                "file": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -161,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月15日.md"
+                "file": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md"
               }
             }
           },
@@ -179,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月15日.md",
+                "file": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月15日.md",
+                "file": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +182,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月15日.md"
+                "file": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md"
               }
             }
           },
@@ -231,7 +205,7 @@
             }
           },
           {
-            "id": "20cfa613d7407945",
+            "id": "1bebd792cdafa1b8",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -295,11 +269,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "593ec87eab04f405",
+  "active": "d91bd239699d112a",
   "lastOpenFiles": [
+    "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/学习/前端/vnc/vnc总览.md",
     "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
-    "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md",
     "020 - 工作学习/工作/汇总所有在线文档.md",
