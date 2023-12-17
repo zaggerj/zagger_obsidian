@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "未命名",
-      "path": "未命名.md"
+      "basename": "替换为外网地址",
+      "path": "替换为外网地址.md"
+    },
+    {
+      "basename": "00.linux学习清单",
+      "path": "020 - 工作学习/学习/后端/linux/00.linux学习清单.md"
+    },
+    {
+      "basename": "sed man",
+      "path": "020 - 工作学习/学习/后端/linux/sed man.md"
     },
     {
       "basename": "sed",
@@ -191,14 +199,6 @@
     {
       "basename": "2023年12月08日",
       "path": "000 - 每日日记/DailyNote/2023年12月08日.md"
-    },
-    {
-      "basename": "正则文章通读",
-      "path": "020 - 工作学习/学习/前端/js小知识点/正则/正则文章通读.md"
-    },
-    {
-      "basename": "2023年12月04日",
-      "path": "000 - 每日日记/DailyNote/2023年12月04日.md"
     }
   ],
   "omittedPaths": [],

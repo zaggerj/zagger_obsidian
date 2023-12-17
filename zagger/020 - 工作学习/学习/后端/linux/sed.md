@@ -49,9 +49,10 @@ sed命令的选项与参数：
 -n : 使用静默模式，在一般的sed的用法中，所有来自stdin(标准输出)的数据一般都会被列出到屏幕上。
      但如果加上-n参数后，则只要经过sed特殊处理的那行才会被列出来。
 -e : 直接在命令行模式上进行sed的操作编辑
--f : 直接将sed的操作写在一个文件内，-f filename则可以执行filename内的sed操作
+-f : 直接将sed的操作写在一个文件内，-f filename则可以执行filename内的sed操作，  
+              add  the contents of script-file to the commands to be executed 将script-file的内容添加到要执行的命令中
 -r : 使用扩展正则表达式的语法
--i : 直接修改文件内容，而不是输出到屏幕上
+-i : 直接修改文件内容，而不是输出到屏幕上 ， -i[SUFFIX], --in-place[=SUFFIX]， edit files in place (makes backup if SUFFIX supplied)
 command说明：[n1][,n2] action
 n1,n2 : 一般代表【选择进行操作(action)的行数】，举例：如果我的操作是需要在
         5行到20行之间进行的，则【5,20[action]】。
@@ -63,9 +64,17 @@ c : 替换。c的后面接字符，这些字符替换n1到n2的行
 d : 删除。因为是删除，所以d后面通常不接任何东西
 p : 打印。将匹配的数据打印出来。通常p会与选项-n一起使用
 s : 替换。将文件原内容替换为新内容。举例：s/lod/new/g
+s/regexp/replacement/
+              Attempt to match regexp against the pattern space.  If suc‐
+              cessful,  replace  that  portion  matched with replacement.
+              The replacement may contain  the  special  character  &  to
+              refer  to  that portion of the pattern space which matched,
+              and the special escapes \1 through \9 to refer to the  cor‐
+              responding matching sub-expressions in the regexp.
 n : 读取匹配的数据的下一行，覆盖模型空间的前一行(也就是被匹配的行)，结果交给下一个参数处理
 多行模式空间
 N : 读取匹配的数据的下一行追加到模式空间，同时将两行看做一行，但是两行之间依然含有\n换行符
+n N    Read/append the next line of input into the pattern space.
 P : 打印。打印模式空间开端至\n(换行)之间的内容，并追加到默认输出之前。
 D : 如果模式空间包含换行符，则删除模式空间开端至\n(换行)之间的内容， 并不会读取新的输入行，
     而使用合成的模式空间重新启动循环。如果模式空间不包含换行符，则会像发出d命令那样启动正常的新循环
