@@ -33,6 +33,10 @@
     {
       "folder": "60 - 临时",
       "template": "040 - Obsidian/模板/01 自动选择模板.md"
+    },
+    {
+      "folder": "/",
+      "template": "040 - Obsidian/模板/tp-改良长青笔记模板.md"
     }
   ],
   "syntax_highlighting": true,

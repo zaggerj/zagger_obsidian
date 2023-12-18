@@ -289,6 +289,11 @@ registry=https://registry.npmmirror.com/
 coc.nvim:registry=https://registry.npmmirror.com/
 ```
 #### 1.4.6.31. nvim-tree.lua
+#### 1.4.6.32. lua语言支持自动格式化 如何配置 coc.nvim
+[nvim lua版本配置](https://github.com/yaocccc/nvim)
+[Using-coc-extensions](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions)
+[coc.nvim](https://github.com/neoclide/coc.nvim/wiki)
+[Thoughts on coc.nvim - Meet @fannheyward](https://fann.im/blog/2021/08/01/thoughts-on-coc.nvim/)
 # 2. 相关文章
 
 _摘抄来源，引用出处，参考链接，文档查询_
