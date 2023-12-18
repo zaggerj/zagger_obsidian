@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a5fd617dd10fc41a",
+        "id": "ef2c02fb6728cc95",
         "type": "tabs",
         "children": [
           {
-            "id": "1a01d2e44aa4e36e",
+            "id": "0fb04d16f74b14b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,185 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "dad10d93b113666e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0efffadff139df14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/前端/vnc/app webutil.js.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b550938dffb8551d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/前端/vnc/app ui.js.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b8db9fb6521fdccd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/前端/webpack/webpack plugin.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6fe30923db70e681",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/前端/webpack/TerserWebpackPlugin.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e36d7de7dee9b1bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月15日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e2e1ff18e37138ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/后端/bash/学习bash.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6eed0a791ac9705e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 6
-      },
-      {
-        "id": "f20a9aaac1d2a1ef",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4a0a3c1dbf0736a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月14日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "86667e393a11aecf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月13日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4751ac5a3aabaab2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/WeeklyNote/2023年50周记录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "775c23108007f56d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eb7a721312d605b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月15日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -298,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月15日.md"
+                "file": "040 - Obsidian/主页/00. 主页.md"
               }
             }
           },
@@ -316,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月15日.md",
+                "file": "040 - Obsidian/主页/00. 主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -333,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月15日.md",
+                "file": "040 - Obsidian/主页/00. 主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -345,7 +168,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月15日.md"
+                "file": "040 - Obsidian/主页/00. 主页.md"
               }
             }
           },
@@ -368,7 +191,7 @@
             }
           },
           {
-            "id": "9030303668f00156",
+            "id": "071e4c93bf22ad46",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -432,7 +255,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e36d7de7dee9b1bc",
+  "active": "0fb04d16f74b14b9",
   "lastOpenFiles": [
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "000 - 每日日记/DailyNote/2023年12月15日.md",

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
       "basename": "personal token",
       "path": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "vim使用技巧",
       "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "ubuntu安装最新版neovim",
