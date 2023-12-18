@@ -34,7 +34,33 @@
             }
           },
           {
-            "id": "55fac07cec11b162",
+            "id": "8be64ae99f43059c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/WeeklyNote/2023年51周记录.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "84b2a1372c7e944a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8ab58f9f141d9769",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -45,9 +71,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "55fac07cec11b162",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/工作/工作计划/未完成工作计划/仓库优化思路梳理.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -148,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月18日.md"
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
               }
             }
           },
@@ -174,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月18日.md",
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月18日.md",
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +242,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月18日.md"
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
               }
             }
           },
@@ -290,10 +329,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "55fac07cec11b162",
+  "active": "84b2a1372c7e944a",
   "lastOpenFiles": [
-    "060 - 临时/替换为外网地址.md",
+    "000 - 每日日记/WeeklyNote/2023年51周记录.md",
     "000 - 每日日记/DailyNote/2023年12月18日.md",
+    "020 - 工作学习/工作/工作计划/未完成工作计划/仓库优化思路梳理.md",
+    "060 - 临时/替换为外网地址.md",
     "020 - 工作学习/学习/前端/vnc/vnc总览.md",
     "040 - Obsidian/主页/00. 主页.md"
   ]

@@ -288,6 +288,7 @@ c+w
 registry=https://registry.npmmirror.com/
 coc.nvim:registry=https://registry.npmmirror.com/
 ```
+#### 1.4.6.31. nvim-tree.lua
 # 2. 相关文章
 
 _摘抄来源，引用出处，参考链接，文档查询_
@@ -328,3 +329,4 @@ Page Link::
 	21. [vi/vim使用进阶: 剑不离手 – quickfix - 摩斯电码 - 博客园](https://www.cnblogs.com/pengdonglin137/p/3552580.html)
 	22. [像 VSCode 一样设置 Neovim\_vim\_开源小助理-开源](https://devpress.csdn.net/opensource/62f42b9d7e668234661882d7.html)
 	23. [GitHub - preservim/nerdtree: A tree explorer plugin for vim.](https://github.com/preservim/nerdtree)
+	24. [Fetching Title#wdw4](https://github.com/nvim-tree/nvim-tree.lua/wiki/Recipes#git-stage-unstage-files-and-directories-from-the-tree)

@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "vim使用技巧",
+      "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
+    },
+    {
+      "basename": "2023年51周记录",
+      "path": "000 - 每日日记/WeeklyNote/2023年51周记录.md"
+    },
+    {
       "basename": "2023年12月18日",
       "path": "000 - 每日日记/DailyNote/2023年12月18日.md"
+    },
+    {
+      "basename": "仓库优化思路梳理",
+      "path": "020 - 工作学习/工作/工作计划/未完成工作计划/仓库优化思路梳理.md"
     },
     {
       "basename": "替换为外网地址",
@@ -35,10 +47,6 @@
     {
       "basename": "2023年12月15日",
       "path": "000 - 每日日记/DailyNote/2023年12月15日.md"
-    },
-    {
-      "basename": "vim使用技巧",
-      "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
     },
     {
       "basename": "a 服务器相关命令",
@@ -191,14 +199,6 @@
     {
       "basename": "2023年12月05日",
       "path": "000 - 每日日记/DailyNote/2023年12月05日.md"
-    },
-    {
-      "basename": "2023年12月09日",
-      "path": "000 - 每日日记/DailyNote/2023年12月09日.md"
-    },
-    {
-      "basename": "2023年12月10日",
-      "path": "000 - 每日日记/DailyNote/2023年12月10日.md"
     }
   ],
   "omittedPaths": [],
