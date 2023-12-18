@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
+                "file": "060 - 临时/彻底理解编译器工作原理.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
+                "file": "000 - 每日日记/DailyNote/2023年12月18日.md"
               }
             }
           },
@@ -213,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
+                "file": "000 - 每日日记/DailyNote/2023年12月18日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
+                "file": "000 - 每日日记/DailyNote/2023年12月18日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +242,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
+                "file": "000 - 每日日记/DailyNote/2023年12月18日.md"
               }
             }
           },
@@ -329,12 +329,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "84b2a1372c7e944a",
+  "active": "8ab58f9f141d9769",
   "lastOpenFiles": [
     "000 - 每日日记/WeeklyNote/2023年51周记录.md",
+    "060 - 临时/替换为外网地址.md",
+    "060 - 临时/彻底理解编译器工作原理.md",
+    "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
     "000 - 每日日记/DailyNote/2023年12月18日.md",
     "020 - 工作学习/工作/工作计划/未完成工作计划/仓库优化思路梳理.md",
-    "060 - 临时/替换为外网地址.md",
     "020 - 工作学习/学习/前端/vnc/vnc总览.md",
     "040 - Obsidian/主页/00. 主页.md"
   ]
