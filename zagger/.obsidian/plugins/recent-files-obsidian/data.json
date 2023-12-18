@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
+      "basename": "2023年12月18日",
+      "path": "000 - 每日日记/DailyNote/2023年12月18日.md"
     },
     {
       "basename": "替换为外网地址",
-      "path": "替换为外网地址.md"
+      "path": "060 - 临时/替换为外网地址.md"
+    },
+    {
+      "basename": "vnc总览",
+      "path": "020 - 工作学习/学习/前端/vnc/vnc总览.md"
+    },
+    {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "00.linux学习清单",
@@ -25,16 +33,8 @@
       "path": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md"
     },
     {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
-    },
-    {
       "basename": "2023年12月15日",
       "path": "000 - 每日日记/DailyNote/2023年12月15日.md"
-    },
-    {
-      "basename": "vnc总览",
-      "path": "020 - 工作学习/学习/前端/vnc/vnc总览.md"
     },
     {
       "basename": "vim使用技巧",
@@ -199,10 +199,6 @@
     {
       "basename": "2023年12月10日",
       "path": "000 - 每日日记/DailyNote/2023年12月10日.md"
-    },
-    {
-      "basename": "2023年12月08日",
-      "path": "000 - 每日日记/DailyNote/2023年12月08日.md"
     }
   ],
   "omittedPaths": [],

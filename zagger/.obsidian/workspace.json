@@ -4,13 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ef2c02fb6728cc95",
-        "id": "387e87c7bc3f2856",
+        "id": "747529451cf4b6a6",
         "type": "tabs",
         "children": [
           {
-            "id": "0fb04d16f74b14b9",
-            "id": "e1fdcddc73bc8c68",
+            "id": "2697513bfae353ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,345 +19,282 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "32325c2eec2d6e34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "060 - 临时/替换为外网地址.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "55fac07cec11b162",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2023年12月18日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "23163e226ba1253c",
+    "type": "split",
+    "children": [
+      {
+        "id": "284346499ce2ea86",
+        "type": "tabs",
+        "dimension": 80.38067349926794,
+        "children": [
+          {
+            "id": "23fad819ff207865",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "03fb6b7e157ad75a",
+            "type": "leaf",
+            "state": {
+              "type": "tagfolder-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "f2b0ffe519625a29",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8cdc7c8bed089ab9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       },
       {
-        "id": "d91bd239699d112a",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
+        "id": "73db95bfb166faa1",
+        "type": "tabs",
+        "dimension": 19.619326500732065,
+        "children": [
+          {
+            "id": "8b6d8c7e5231700f",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "0b0cb56ba2aa4a0a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
           }
-        }
-      },
-      {
-        "id": "26f03f14dde05582",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "020 - 工作学习/学习/后端/linux/sed man.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "59e6c5ae546666f0",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "020 - 工作学习/学习/后端/linux/00.linux学习清单.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "232297a1cb1fe389",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "替换为外网地址.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "f923e46822dda7af",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "020 - 工作学习/学习/后端/linux/sed.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
+        ]
       }
     ],
-    "currentTab": 4
-  }
-],
-"direction": "vertical"
-},
-"left": {
-"id": "23163e226ba1253c",
-"type": "split",
-"children": [
-  {
-    "id": "284346499ce2ea86",
-    "type": "tabs",
-    "dimension": 65.63758389261744,
-    "children": [
-      {
-        "id": "23fad819ff207865",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {
-            "sortOrder": "alphabetical"
-          }
-        }
-      },
-      {
-        "id": "03fb6b7e157ad75a",
-        "type": "leaf",
-        "state": {
-          "type": "tagfolder-view",
-          "state": {}
-        }
-      },
-      {
-        "id": "f2b0ffe519625a29",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "sed",
-            "matchingCase": true,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
-          }
-        }
-      },
-      {
-        "id": "8cdc7c8bed089ab9",
-        "type": "leaf",
-        "state": {
-          "type": "bookmarks",
-          "state": {}
-        }
-      }
-    ]
+    "direction": "horizontal",
+    "width": 275.5
   },
-  {
-    "id": "73db95bfb166faa1",
-    "type": "tabs",
-    "dimension": 34.36241610738255,
+  "right": {
+    "id": "49b0f6d6f173189c",
+    "type": "split",
     "children": [
       {
-        "id": "8b6d8c7e5231700f",
-        "type": "leaf",
-        "state": {
-          "type": "recent-files",
-          "state": {}
-        }
-      },
-      {
-        "id": "0b0cb56ba2aa4a0a",
-        "type": "leaf",
-        "state": {
-          "type": "tag",
-          "state": {
-            "sortOrder": "frequency",
-            "useHierarchy": false
+        "id": "6d5d1a69e107f675",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "60f931c5f80841ed",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2023年12月18日.md"
+              }
+            }
+          },
+          {
+            "id": "93bfebab27d6467f",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "587097c7d3e0dc04",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "6480c2a734e3c425",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2023年12月18日.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6355d30f474216e7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2023年12月18日.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "588ad9f7ff43be3a",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2023年12月18日.md"
+              }
+            }
+          },
+          {
+            "id": "113fb1d05a8132cc",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          },
+          {
+            "id": "a9e5936d53b3df5a",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "a3fb11cabac81392",
+            "type": "leaf",
+            "state": {
+              "type": "tasks_timeline_view",
+              "state": {}
+            }
           }
-        }
-      }
-    ]
-  }
-],
-"direction": "horizontal",
-"width": 283.5
-},
-"right": {
-"id": "49b0f6d6f173189c",
-"type": "split",
-"children": [
-  {
-    "id": "6d5d1a69e107f675",
-    "type": "tabs",
-    "children": [
+        ],
+        "currentTab": 8
+      },
       {
-        "id": "60f931c5f80841ed",
-        "type": "leaf",
-        "state": {
-          "type": "outline",
-          "state": {
-            "file": "040 - Obsidian/主页/00. 主页.md""file": "替换为外网地址.md"
+        "id": "888c3f3084370af3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1e6fe91e5170d39b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "b6fec8d35877681a",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
           }
-        }
-      },
-      {
-        "id": "587097c7d3e0dc04",
-        "type": "leaf",
-        "state": {
-          "type": "git-view",
-          "state": {}
-        }
-      },
-      {
-        "id": "6480c2a734e3c425",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "040 - Obsidian/主页/00. 主页.md",
-            "file": "替换为外网地址.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
-          }
-        }
-      },
-      {
-        "id": "6355d30f474216e7",
-        "type": "leaf",
-        "state": {
-          "type": "outgoing-link",
-          "state": {
-            "file": "040 - Obsidian/主页/00. 主页.md",
-            "file": "替换为外网地址.md",
-            "linksCollapsed": false,
-            "unlinkedCollapsed": true
-          }
-        }
-      },
-      {
-        "id": "588ad9f7ff43be3a",
-        "type": "leaf",
-        "state": {
-          "type": "file-properties",
-          "state": {
-            "file": "040 - Obsidian/主页/00. 主页.md""file": "替换为外网地址.md"
-          }
-        }
-      },
-      {
-        "id": "113fb1d05a8132cc",
-        "type": "leaf",
-        "state": {
-          "type": "all-properties",
-          "state": {
-            "sortOrder": "frequency"
-          }
-        }
-      },
-      {
-        "id": "a9e5936d53b3df5a",
-        "type": "leaf",
-        "state": {
-          "type": "advanced-tables-toolbar",
-          "state": {}
-        }
-      },
-      {
-        "id": "071e4c93bf22ad46",
-        "id": "1bebd792cdafa1b8",
-        "type": "leaf",
-        "state": {
-          "type": "tasks_timeline_view",
-          "state": {}
-        }
+        ]
       }
     ],
-    "currentTab": 7
+    "direction": "horizontal",
+    "width": 313
   },
-  {
-    "id": "888c3f3084370af3",
-    "type": "tabs",
-    "children": [
-      {
-        "id": "1e6fe91e5170d39b",
-        "type": "leaf",
-        "state": {
-          "type": "calendar",
-          "state": {}
-        }
-      },
-      {
-        "id": "b6fec8d35877681a",
-        "type": "leaf",
-        "state": {
-          "type": "timeline",
-          "state": {}
-        }
-      }
-    ]
-  }
-],
-"direction": "horizontal",
-"width": 313
-},
-"left-ribbon": {
-"hiddenItems": {
-  "homepage:Open homepage": false,
-  "templater-obsidian:Templater": false,
-  "obsidian-full-calendar:Open Full Calendar": false,
-  "switcher:打开快速切换": false,
-  "graph:查看关系图谱": false,
-  "canvas:新建白板": false,
-  "daily-notes:打开/创建今天的日记": false,
-  "templates:插入模板": false,
-  "command-palette:打开命令面板": false,
-  "markdown-importer:打开 Markdown 格式转换器": false,
-  "zk-prefixer:创建时间戳笔记": false,
-  "random-note:开始漫游笔记": false,
-  "audio-recorder:开始/结束录音": false,
-  "workspaces:管理工作区布局": false,
-  "table-editor-obsidian:Advanced Tables Toolbar": false,
-  "mermaid-tools:Open Mermaid Toolbar": false,
-  "obsidian-day-planner:Timeline": false,
-  "cmdr:折叠": true,
-  "custom-sort:Toggle custom sorting": false,
-  "big-calendar:Big Calendar": false,
-  "obsidian-excalidraw-plugin:新建绘图文件": false,
-  "omnisearch:Omnisearch": false,
-  "periodic-notes:Open today": false,
-  "obsidian-memos:Memos": false
-}
-},
-"active": "0fb04d16f74b14b9",
-"active": "232297a1cb1fe389",
-"lastOpenFiles": [
-"020 - 工作学习/学习/后端/linux/00.linux学习清单.md",
-"020 - 工作学习/学习/后端/linux/sed man.md",
-"020 - 工作学习/学习/后端/linux/sed.md",
-"替换为外网地址.md",
-"004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md",
-"040 - Obsidian/主页/00. 主页.md",
-"020 - 工作学习/学习/前端/vnc/vnc总览.md",
-"004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
-"020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
-"020 - 工作学习/工作/汇总所有在线文档.md",
-"000 - 每日日记/DailyNote/2023年12月15日.md",
-"020 - 工作学习/学习/后端/linux/ubuntu安装最新版neovim.md",
-"020 - 工作学习/学习/后端/VMware Workstation安装虚拟机/VMware Workstation.md",
-"000 - 每日日记/DailyNote/2023年12月07日.md",
-"020 - 工作学习/学习/后端/bash/bash.md",
-"020 - 工作学习/学习/后端/VMware Workstation安装虚拟机",
-"020 - 工作学习/学习/后端/bash/学习bash.md",
-"000 - 每日日记/DailyNote/2023年12月14日.md",
-"020 - 工作学习/学习/前端/webpack/webpack plugin.md",
-"020 - 工作学习/学习/前端/webpack/TerserWebpackPlugin.md",
-"020 - 工作学习/学习/前端/vnc/app webutil.js.md",
-"020 - 工作学习/学习/前端/webpack/FileManager Webpack Plugin.md",
-"020 - 工作学习/工作/远程、定制化/项目定制开发和远程.md",
-"000 - 每日日记/WeeklyNote/2023年50周记录.md",
-"000 - 每日日记/DailyNote/2023年12月13日.md",
-"000 - 每日日记/DailyNote/2023年12月12日.md",
-"020 - 工作学习/学习/前端/vnc/app ui.js.md",
-"020 - 工作学习/学习/前端/vnc",
-"004 - Resource/资源/各种软件/vim学习/Pasted image 20230726112215.png",
-"020 - 工作学习/学习计划脚本/翻译资源服务平台"
-]
+  "left-ribbon": {
+    "hiddenItems": {
+      "homepage:Open homepage": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "zk-prefixer:创建时间戳笔记": false,
+      "random-note:开始漫游笔记": false,
+      "audio-recorder:开始/结束录音": false,
+      "workspaces:管理工作区布局": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-day-planner:Timeline": false,
+      "cmdr:折叠": true,
+      "custom-sort:Toggle custom sorting": false,
+      "big-calendar:Big Calendar": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "omnisearch:Omnisearch": false,
+      "periodic-notes:Open today": false,
+      "obsidian-memos:Memos": false
+    }
+  },
+  "active": "55fac07cec11b162",
+  "lastOpenFiles": [
+    "060 - 临时/替换为外网地址.md",
+    "000 - 每日日记/DailyNote/2023年12月18日.md",
+    "020 - 工作学习/学习/前端/vnc/vnc总览.md",
+    "040 - Obsidian/主页/00. 主页.md"
+  ]
 }
