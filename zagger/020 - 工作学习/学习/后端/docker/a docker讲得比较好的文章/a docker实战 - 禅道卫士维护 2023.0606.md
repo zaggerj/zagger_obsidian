@@ -2,7 +2,11 @@
 created: 2023-11-03T22:29
 updated: 2023-11-06T12:24
 ---
-# a docker实战 - 禅道卫士维护 2023.0606
+# 1. 禅道卫士，偶尔需要重启
+#禅道卫士重启 #zentao-doctor #restart
+打开xshell连上192.168.0.161，输入账号密码后，直接运行如下命令
+`docker restart zentao-doctor`
+# 2. a docker实战 - 禅道卫士维护 2023.0606
 
 1. 地址：[禅道卫士](http://192.168.0.161:8090/)
 2. 代码仓库：[https://mystorp.coding.net/p/oseasyfe/d/zentao-doctor/git](https://mystorp.coding.net/p/oseasyfe/d/zentao-doctor/git)

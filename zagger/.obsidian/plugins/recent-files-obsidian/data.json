@@ -5,8 +5,20 @@
       "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/1.13 `模块`.md"
     },
     {
+      "basename": "a docker实战 - 禅道卫士维护 2023.0606",
+      "path": "020 - 工作学习/学习/后端/docker/a docker讲得比较好的文章/a docker实战 - 禅道卫士维护 2023.0606.md"
+    },
+    {
       "basename": "2023年12月18日",
       "path": "000 - 每日日记/DailyNote/2023年12月18日.md"
+    },
+    {
+      "basename": "记事本",
+      "path": "020 - 工作学习/学习/前端/前端杂项/记事本.md"
+    },
+    {
+      "basename": "汇总所有在线文档",
+      "path": "020 - 工作学习/工作/汇总所有在线文档.md"
     },
     {
       "basename": "2023年51周记录",
@@ -75,10 +87,6 @@
     {
       "basename": "a 服务器相关命令",
       "path": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
-    },
-    {
-      "basename": "汇总所有在线文档",
-      "path": "020 - 工作学习/工作/汇总所有在线文档.md"
     },
     {
       "basename": "ubuntu安装最新版neovim",
@@ -191,14 +199,6 @@
     {
       "basename": "处理 User 自动命令 AstroFile 时发生错误",
       "path": "004 - Resource/资源/各种软件/vim学习/AstroNvim/处理 User 自动命令 AstroFile 时发生错误.md"
-    },
-    {
-      "basename": "nvm",
-      "path": "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/nvm.md"
-    },
-    {
-      "basename": "nrm报错",
-      "path": "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/nrm报错.md"
     }
   ],
   "omittedPaths": [],
