@@ -5,28 +5,52 @@
       "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
+      "basename": "替换为外网地址",
+      "path": "替换为外网地址.md"
+    },
+    {
+      "basename": "00.linux学习清单",
+      "path": "020 - 工作学习/学习/后端/linux/00.linux学习清单.md"
+    },
+    {
+      "basename": "sed man",
+      "path": "020 - 工作学习/学习/后端/linux/sed man.md"
+    },
+    {
+      "basename": "sed",
+      "path": "020 - 工作学习/学习/后端/linux/sed.md"
+    },
+    {
       "basename": "personal token",
       "path": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md"
     },
     {
-      "basename": "汇总所有在线文档",
-      "path": "020 - 工作学习/工作/汇总所有在线文档.md"
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "2023年12月15日",
       "path": "000 - 每日日记/DailyNote/2023年12月15日.md"
     },
     {
+      "basename": "vnc总览",
+      "path": "020 - 工作学习/学习/前端/vnc/vnc总览.md"
+    },
+    {
       "basename": "vim使用技巧",
       "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
     },
     {
-      "basename": "ubuntu安装最新版neovim",
-      "path": "020 - 工作学习/学习/后端/linux/ubuntu安装最新版neovim.md"
-    },
-    {
       "basename": "a 服务器相关命令",
       "path": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
+    },
+    {
+      "basename": "汇总所有在线文档",
+      "path": "020 - 工作学习/工作/汇总所有在线文档.md"
+    },
+    {
+      "basename": "ubuntu安装最新版neovim",
+      "path": "020 - 工作学习/学习/后端/linux/ubuntu安装最新版neovim.md"
     },
     {
       "basename": "VMware Workstation",
@@ -179,26 +203,6 @@
     {
       "basename": "2023年12月08日",
       "path": "000 - 每日日记/DailyNote/2023年12月08日.md"
-    },
-    {
-      "basename": "正则文章通读",
-      "path": "020 - 工作学习/学习/前端/js小知识点/正则/正则文章通读.md"
-    },
-    {
-      "basename": "2023年12月04日",
-      "path": "000 - 每日日记/DailyNote/2023年12月04日.md"
-    },
-    {
-      "basename": "前端本地打包脚本",
-      "path": "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/前端本地打包脚本.md"
-    },
-    {
-      "basename": "2023年11月27日",
-      "path": "000 - 每日日记/DailyNote/2023年11月27日.md"
-    },
-    {
-      "basename": "tp-每周周记模板",
-      "path": "040 - Obsidian/模板/tp-每周周记模板.md"
     }
   ],
   "omittedPaths": [],
