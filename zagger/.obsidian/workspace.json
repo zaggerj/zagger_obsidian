@@ -164,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -265,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月18日.md"
+                "file": "020 - 工作学习/学习计划脚本/js文档学习笔记/1.13 `模块`.md"
               }
             }
           },
@@ -291,7 +291,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月18日.md",
+                "file": "020 - 工作学习/学习计划脚本/js文档学习笔记/1.13 `模块`.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -308,7 +308,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月18日.md",
+                "file": "020 - 工作学习/学习计划脚本/js文档学习笔记/1.13 `模块`.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -320,7 +320,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月18日.md"
+                "file": "020 - 工作学习/学习计划脚本/js文档学习笔记/1.13 `模块`.md"
               }
             }
           },
@@ -407,10 +407,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "4ed29a11d10b9479",
+  "active": "2ed3f545195bc2ec",
   "lastOpenFiles": [
-    "000 - 每日日记/WeeklyNote/2023年51周记录.md",
     "000 - 每日日记/DailyNote/2023年12月18日.md",
+    "000 - 每日日记/WeeklyNote/2023年51周记录.md",
     "020 - 工作学习/学习计划脚本/js文档学习笔记/1.13 `模块`.md",
     "020 - 工作学习/学习计划脚本/js学习计划.md",
     "020 - 工作学习/学习计划脚本/学习清单链接.md",
