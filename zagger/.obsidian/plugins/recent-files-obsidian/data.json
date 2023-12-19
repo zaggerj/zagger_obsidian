@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "1.14 `杂项`",
+      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/1.14 `杂项`.md"
+    },
+    {
+      "basename": "1.13 `模块`",
+      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/1.13 `模块`.md"
+    },
+    {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "汇总所有在线文档",
+      "path": "020 - 工作学习/工作/汇总所有在线文档.md"
+    },
+    {
+      "basename": "翻墙清单",
+      "path": "004 - Resource/资源/翻墙/翻墙清单.md"
+    },
+    {
+      "basename": "2023年12月19日",
+      "path": "000 - 每日日记/DailyNote/2023年12月19日.md"
+    },
+    {
       "basename": "2023年12月18日",
       "path": "000 - 每日日记/DailyNote/2023年12月18日.md"
     },
@@ -9,20 +33,12 @@
       "path": "000 - 每日日记/WeeklyNote/2023年51周记录.md"
     },
     {
-      "basename": "1.13 `模块`",
-      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/1.13 `模块`.md"
-    },
-    {
       "basename": "a docker实战 - 禅道卫士维护 2023.0606",
       "path": "020 - 工作学习/学习/后端/docker/a docker讲得比较好的文章/a docker实战 - 禅道卫士维护 2023.0606.md"
     },
     {
       "basename": "记事本",
       "path": "020 - 工作学习/学习/前端/前端杂项/记事本.md"
-    },
-    {
-      "basename": "汇总所有在线文档",
-      "path": "020 - 工作学习/工作/汇总所有在线文档.md"
     },
     {
       "basename": "js学习计划",
@@ -59,10 +75,6 @@
     {
       "basename": "vnc总览",
       "path": "020 - 工作学习/学习/前端/vnc/vnc总览.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "00.linux学习清单",
@@ -187,18 +199,6 @@
     {
       "basename": "tp-改良版笔记模板",
       "path": "040 - Obsidian/模板/tp-改良版笔记模板.md"
-    },
-    {
-      "basename": "vim学习",
-      "path": "004 - Resource/资源/各种软件/vim学习/vim学习.md"
-    },
-    {
-      "basename": "AstroNvim 问题解决",
-      "path": "004 - Resource/资源/各种软件/vim学习/AstroNvim/AstroNvim 问题解决.md"
-    },
-    {
-      "basename": "处理 User 自动命令 AstroFile 时发生错误",
-      "path": "004 - Resource/资源/各种软件/vim学习/AstroNvim/处理 User 自动命令 AstroFile 时发生错误.md"
     }
   ],
   "omittedPaths": [],
