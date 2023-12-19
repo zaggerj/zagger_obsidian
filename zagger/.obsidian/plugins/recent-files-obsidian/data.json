@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "特性和属性（Attributes and properties）",
+      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/特性和属性（Attributes and properties）.md"
+    },
+    {
+      "basename": "2023年12月19日",
+      "path": "000 - 每日日记/DailyNote/2023年12月19日.md"
+    },
+    {
       "basename": "节点属性：type，tag 和 content",
       "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/节点属性：type，tag 和 content.md"
+    },
+    {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "稍后阅读",
+      "path": "040 - Obsidian/主页/稍后阅读.md"
     },
     {
       "basename": "遍历 DOM",
@@ -21,10 +37,6 @@
       "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/浏览器环境，规格.md"
     },
     {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
-    },
-    {
       "basename": "1.14 `杂项`",
       "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/1.14 `杂项`.md"
     },
@@ -39,10 +51,6 @@
     {
       "basename": "翻墙清单",
       "path": "004 - Resource/资源/翻墙/翻墙清单.md"
-    },
-    {
-      "basename": "2023年12月19日",
-      "path": "000 - 每日日记/DailyNote/2023年12月19日.md"
     },
     {
       "basename": "2023年12月18日",
@@ -191,14 +199,6 @@
     {
       "basename": "npm yarn",
       "path": "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/npm yarn.md"
-    },
-    {
-      "basename": "2023年12月11日",
-      "path": "000 - 每日日记/DailyNote/2023年12月11日.md"
-    },
-    {
-      "basename": "2023年49周记录",
-      "path": "000 - 每日日记/WeeklyNote/2023年49周记录.md"
     }
   ],
   "omittedPaths": [],
