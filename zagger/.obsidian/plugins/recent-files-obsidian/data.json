@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Window 大小和滚动",
+      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/Window 大小和滚动.md"
+    },
+    {
       "basename": "元素大小和滚动",
       "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/元素大小和滚动.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2023年12月12日",
       "path": "000 - 每日日记/DailyNote/2023年12月12日.md"
-    },
-    {
-      "basename": "app ui.js",
-      "path": "020 - 工作学习/学习/前端/vnc/app ui.js.md"
     }
   ],
   "omittedPaths": [],
