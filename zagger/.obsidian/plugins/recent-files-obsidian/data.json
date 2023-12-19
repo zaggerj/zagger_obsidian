@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "元素大小和滚动",
+      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/元素大小和滚动.md"
+    },
+    {
+      "basename": "样式和类",
+      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/样式和类.md"
+    },
+    {
+      "basename": "修改文档（document）",
+      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/修改文档（document）.md"
+    },
+    {
       "basename": "特性和属性（Attributes and properties）",
       "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/特性和属性（Attributes and properties）.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "app ui.js",
       "path": "020 - 工作学习/学习/前端/vnc/app ui.js.md"
-    },
-    {
-      "basename": "webpack.ProgressPlugin",
-      "path": "020 - 工作学习/学习/前端/webpack/webpack.ProgressPlugin.md"
-    },
-    {
-      "basename": "webpack  babel-loader预设报错",
-      "path": "020 - 工作学习/学习/前端/webpack/webpack  babel-loader预设报错.md"
-    },
-    {
-      "basename": "npm yarn",
-      "path": "004 - Resource/资源/环境安装和软件安装/前端开发环境配置/npm yarn.md"
     }
   ],
   "omittedPaths": [],

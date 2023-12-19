@@ -220,7 +220,7 @@ HTML 特性有以下几个特征：
 
 
 ### 1.4.5. [DOM 属性是多类型的](https://zh.javascript.info/dom-attributes-and-properties#dom-shu-xing-shi-duo-lei-xing-de)
-小结：type
+小结：复选框的特性checked是空字符串，但是dom属性为布尔值；style特性是字符串，但是dom属性为对象；a标签的属性是完整url，但是特性可能是一个相对路径
 DOM 属性不总是字符串类型的。例如，`input.checked` 属性（对于 checkbox 的）是布尔型的。
 
 ```html
@@ -246,7 +246,7 @@ DOM 属性不总是字符串类型的。例如，`input.checked` 属性（对�
 ```
 尽管大多数 DOM 属性都是字符串类型的。
 
-有一种非常少见的情况，即使一个 DOM 属性是字符串类型的，但它可能和 HTML 特性也是不同的。例如，`href` DOM 属性一直是一个 **完整的** URL，即使该特性包含一个相对路径或者包含一个 `#hash`。
+有一种非常少见的情况，**即使一个 DOM 属性是字符串类型的，但它可能和 HTML 特性也是不同的**。例如，`href` DOM 属性一直是一个 **完整的** URL，即使该特性包含一个相对路径或者包含一个 `#hash`。
 
 这里有一个例子：
 ```html
@@ -265,9 +265,150 @@ DOM 属性不总是字符串类型的。例如，`input.checked` 属性（对�
 
 当编写 HTML 时，我们会用到很多标准的特性。但是非标准的，自定义的呢？首先，让我们看看它们是否有用？用来做什么？
 
-有时，非标准的特性常常用于将自定义的数据从 HTML 传递到 JavaScript，或者用于为 JavaScript “标记” HTML 元素。
+有时，**非标准的特性常常用于将自定义的数据从 HTML 传递到 JavaScript**，或者用于为 JavaScript “标记” HTML 元素。
 
 像这样：
+
+```html
+<!-- 标记这个 div 以在这显示 "name" -->
+<div show-info="name"></div>
+<!-- 标记这个 div 以在这显示 "age" -->
+<div show-info="age"></div>
+
+<script>
+  // 这段代码找到带有标记的元素，并显示需要的内容
+  let user = {
+    name: "Pete",
+    age: 25
+  };
+
+  for(let div of document.querySelectorAll('[show-info]')) {
+    // 在字段中插入相应的信息
+    let field = div.getAttribute('show-info');
+    div.innerHTML = user[field]; // 首先 "name" 变为 Pete，然后 "age" 变为 25
+  }
+</script>
+```
+
+它们还可以用来设置元素的样式。
+
+例如，这里使用 `order-state` 特性来设置订单状态：
+
+```html
+<style>
+  /* 样式依赖于自定义特性 "order-state" */
+  .order[order-state="new"] {
+    color: green;
+  }
+
+  .order[order-state="pending"] {
+    color: blue;
+  }
+
+  .order[order-state="canceled"] {
+    color: red;
+  }
+</style>
+
+<div class="order" order-state="new">
+  A new order.
+</div>
+
+<div class="order" order-state="pending">
+  A pending order.
+</div>
+
+<div class="order" order-state="canceled">
+  A canceled order.
+</div>
+```
+
+为什么使用特性比使用 `.order-state-new`，`.order-state-pending`，`.order-state-canceled` 这些样式类要好？
+
+因为特性值更容易管理。我们可以轻松地更改状态：
+
+```js
+// 比删除旧的或者添加一个新的类要简单一些
+div.setAttribute('order-state', 'canceled');
+```
+
+但是自定义的特性也存在问题。如果我们出于我们的目的使用了非标准的特性，之后它被引入到了标准中并有了其自己的用途，该怎么办？HTML 语言是在不断发展的，并且更多的特性出现在了标准中，以满足开发者的需求。在这种情况下，自定义的属性可能会产生意料不到的影响。
+
+为了避免冲突，存在 [data-*](https://html.spec.whatwg.org/#embedding-custom-non-visible-data-with-the-data-*-attributes) 特性。
+
+**所有以 “data-” 开头的特性均被保留供程序员使用。它们可在 `dataset` 属性中使用。**
+
+例如，如果一个 `elem` 有一个名为 `"data-about"` 的特性，那么可以通过 `elem.dataset.about` 取到它。
+
+像这样：
+
+```html
+<body data-about="Elephants">
+<script>
+  alert(document.body.dataset.about); // Elephants
+</script>
+```
+
+像 `data-order-state` 这样的多词特性可以以驼峰式进行调用：`dataset.orderState`。
+
+这里是 “order state” 那个示例的重构版：
+
+```html
+<style>
+  .order[data-order-state="new"] {
+    color: green;
+  }
+
+  .order[data-order-state="pending"] {
+    color: blue;
+  }
+
+  .order[data-order-state="canceled"] {
+    color: red;
+  }
+</style>
+
+<div id="order" class="order" data-order-state="new">
+  A new order.
+</div>
+
+<script>
+  // 读取
+  alert(order.dataset.orderState); // new
+
+  // 修改
+  order.dataset.orderState = "pending"; // (*)
+</script>
+```
+
+使用 `data-*` 特性是一种合法且安全的传递自定义数据的方式。
+
+请注意，我们不仅可以读取数据，还可以修改数据属性（data-attributes）。然后 CSS 会更新相应的视图：在上面这个例子中的最后一行 `(*)` 将颜色更改为了蓝色。
+
+### 1.4.7. [总结](https://zh.javascript.info/dom-attributes-and-properties#zong-jie)
+
+- 特性（attribute）—— 写在 HTML 中的内容。
+- 属性（property）—— DOM 对象中的内容。
+
+简略的对比：
+
+| |属性|特性|
+|---|---|---|
+|类型|任何值，标准的属性具有规范中描述的类型|字符串|
+|名字|名字（name）是大小写敏感的|名字（name）是大小写不敏感的|
+
+操作特性的方法：
+
+- `elem.hasAttribute(name)` —— 检查是否存在这个特性。
+- `elem.getAttribute(name)` —— 获取这个特性值。
+- `elem.setAttribute(name, value)` —— 设置这个特性值。
+- `elem.removeAttribute(name)` —— 移除这个特性。
+- `elem.attributes` —— 所有特性的集合。
+
+在大多数情况下，最好使用 DOM 属性。仅当 DOM 属性无法满足开发需求，并且我们真的需要特性时，才使用特性，例如：
+
+- 我们需要一个非标准的特性。但是如果它以 `data-` 开头，那么我们应该使用 `dataset`。
+- 我们想要读取 HTML 中“所写的”值。对应的 DOM 属性可能不同，例如 `href` 属性一直是一个 **完整的** URL，但是我们想要的是“原始的”值。
 # 2. 相关文章
 
 _摘抄来源，引用出处，参考链接，文档查询_
