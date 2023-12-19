@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "节点属性：type，tag 和 content",
+      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/节点属性：type，tag 和 content.md"
+    },
+    {
       "basename": "遍历 DOM",
       "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/遍历 DOM.md"
+    },
+    {
+      "basename": "搜索：getElementxx，querySelectorxx",
+      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/搜索：getElementxx，querySelectorxx.md"
     },
     {
       "basename": "DOM 树",
@@ -191,14 +199,6 @@
     {
       "basename": "2023年49周记录",
       "path": "000 - 每日日记/WeeklyNote/2023年49周记录.md"
-    },
-    {
-      "basename": "Site Unreachable",
-      "path": "030 - 阅读笔记/Site Unreachable.md"
-    },
-    {
-      "basename": "vim 快捷键和使用教程",
-      "path": "004 - Resource/资源/各种软件/vim学习/vim 快捷键和使用教程.md"
     }
   ],
   "omittedPaths": [],

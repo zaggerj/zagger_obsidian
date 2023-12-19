@@ -209,6 +209,161 @@ DOM 集合，甚至可以说本章中列出的 **所有** <mark style="backgro
 </script>
 </body>
 ```
+
+### 1.4.5. [兄弟节点和父节点](https://zh.javascript.info/dom-navigation#xiong-di-jie-dian-he-fu-jie-dian)
+
+**兄弟节点（sibling）** 是指有同一个父节点的节点。
+
+例如，`<head>` 和 `<body>` 就是兄弟节点：
+
+```html
+<html>
+  <head>...</head><body>...</body>
+</html>
+```
+- `<body>` 可以说是 `<head>` 的“下一个”或者“右边”兄弟节点。
+- `<head>` 可以说是 `<body>` 的“前一个”或者“左边”兄弟节点。
+
+下一个兄弟节点在 `nextSibling` 属性中，上一个是在 `previousSibling` 属性中。
+
+可以通过 `parentNode` 来访问父节点。
+
+例如：
+```js
+// <body> 的父节点是 <html>
+alert( document.body.parentNode === document.documentElement ); // true
+
+// <head> 的后一个是 <body>
+alert( document.head.nextSibling ); // HTMLBodyElement
+
+// <body> 的前一个是 <head>
+alert( document.body.previousSibling ); // HTMLHeadElement
+```
+
+### 1.4.6. [纯元素导航](https://zh.javascript.info/dom-navigation#chun-yuan-su-dao-hang)
+
+上面列出的导航（navigation）属性引用 **所有** 节点。例如，在 `childNodes` 中我们可以看到文本节点，元素节点，甚至包括注释节点（如果它们存在的话）。
+
+但是对于很多任务来说，我们并不想要文本节点或注释节点。我们希望操纵的是代表标签的和形成页面结构的元素节点。
+
+所以，让我们看看更多只考虑 **元素节点** 的导航链接（navigation link）：
+
+![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/20231219124338.png)
+
+这些链接和我们在上面提到过的类似，只是在词中间加了 `Element`：
+
+- `children` —— 仅那些作为元素节点的子代的节点。
+- `firstElementChild`，`lastElementChild` —— 第一个和最后一个子元素。
+- `previousElementSibling`，`nextElementSibling` —— 兄弟元素。
+- `parentElement` —— 父元素。
+
+**为什么是 `parentElement`? 父节点可以不是一个元素吗？**
+
+`parentElement` 属性返回的是“元素类型”的父节点，而 `parentNode` 返回的是“任何类型”的父节点。这些属性通常来说是一样的：它们都是用于获取父节点。
+
+唯一的例外就是 `document.documentElement`：
+
+```js
+alert( document.documentElement.parentNode ); // document
+alert( document.documentElement.parentElement ); // null
+```
+
+因为根节点 `document.documentElement`（`<html>`）的父节点是 `document`。
+但 `document` 不是一个元素节点，所以 `parentNode` 返回了 `document`，但 `parentElement` 返回的是 `null`。
+
+当我们想从任意节点 `elem` 到 `<html>` 而不是到 `document` 时，这个细节可能很有用：
+
+```js
+while(elem = elem.parentElement) { // 向上，直到 <html>
+  alert( elem );
+}
+```
+
+让我们修改上面的一个示例：用 `children` 来替换 `childNodes`。现在它只显示元素：
+
+```html
+<html>
+<body>
+  <div>Begin</div>
+
+  <ul>
+    <li>Information</li>
+  </ul>
+
+  <div>End</div>
+
+  <script>
+    for (let elem of document.body.children) {
+      alert(elem); // DIV, UL, DIV, SCRIPT
+    }
+  </script>
+  ...
+</body>
+</html>
+```
+
+### 1.4.7. [更多链接：表格](https://zh.javascript.info/dom-navigation#dom-navigation-tables)
+
+到现在，我们已经描述了基本的导航（navigation）属性。
+
+方便起见，某些类型的 DOM 元素可能会提供特定于其类型的其他属性。
+
+表格（Table）是一个很好的例子，它代表了一个特别重要的情况：
+
+**`<table>`** 元素支持 (除了上面给出的，之外) 以下属性:
+
+- `table.rows` —— `<tr>` 元素的集合。
+- `table.caption/tHead/tFoot` —— 引用元素 `<caption>`，`<thead>`，`<tfoot>`。
+- `table.tBodies` —— `<tbody>` 元素的集合（根据标准还有很多元素，但是这里至少会有一个 —— 即使没有被写在 HTML 源文件中，浏览器也会将其放入 DOM 中）。
+
+**`<thead>`，`<tfoot>`，`<tbody>`** 元素提供了 `rows` 属性：
+
+- `tbody.rows` —— 表格内部 `<tr>` 元素的集合。
+
+**`<tr>`：**
+
+- `tr.cells` —— 在给定 `<tr>` 中的 `<td>` 和 `<th>` 单元格的集合。
+- `tr.sectionRowIndex` —— 给定的 `<tr>` 在封闭的 `<thead>/<tbody>/<tfoot>` 中的位置（索引）。
+- `tr.rowIndex` —— 在整个表格中 `<tr>` 的编号（包括表格的所有行）。
+
+**`<td>` 和 `<th>`：**
+
+- `td.cellIndex` —— 在封闭的 `<tr>` 中单元格的编号。
+
+用法示例：
+
+```html
+<table id="table">
+  <tr>
+    <td>one</td><td>two</td>
+  </tr>
+  <tr>
+    <td>three</td><td>four</td>
+  </tr>
+</table>
+
+<script>
+  // 获取带有 "two" 的 td（第一行，第二列）
+  let td = table.rows[0].cells[1];
+  td.style.backgroundColor = "red"; // highlight it
+</script>
+```
+
+规范：[tabular data](https://html.spec.whatwg.org/multipage/tables.html)。
+
+HTML 表单（form）还有其它导航（navigation）属性。稍后当我们开始使用表单（form）时，我们将对其进行研究。
+
+### 1.4.8. [总结](https://zh.javascript.info/dom-navigation#zong-jie)
+
+给定一个 DOM 节点，我们可以使用导航（navigation）属性访问其直接的邻居。
+
+这些属性主要分为两组：
+
+- 对于所有节点：`parentNode`，`childNodes`，`firstChild`，`lastChild`，`previousSibling`，`nextSibling`。
+- 仅对于元素节点：`parentElement`，`children`，`firstElementChild`，`lastElementChild`，`previousElementSibling`，`nextElementSibling`。
+
+某些类型的 DOM 元素，例如 table，提供了用于访问其内容的其他属性和集合。
+
 # 2. 相关文章
 
 _摘抄来源，引用出处，参考链接，文档查询_
