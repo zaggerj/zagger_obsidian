@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "遍历 DOM",
+      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/遍历 DOM.md"
+    },
+    {
+      "basename": "DOM 树",
+      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/DOM 树.md"
+    },
+    {
+      "basename": "浏览器环境，规格",
+      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/浏览器环境，规格.md"
+    },
+    {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
       "basename": "1.14 `杂项`",
       "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/1.14 `杂项`.md"
     },
     {
       "basename": "1.13 `模块`",
       "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/1.13 `模块`.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "汇总所有在线文档",
@@ -187,18 +199,6 @@
     {
       "basename": "vim 快捷键和使用教程",
       "path": "004 - Resource/资源/各种软件/vim学习/vim 快捷键和使用教程.md"
-    },
-    {
-      "basename": "vim快捷键",
-      "path": "004 - Resource/资源/各种软件/vim学习/vim快捷键.md"
-    },
-    {
-      "basename": "tp-改良长青笔记模板",
-      "path": "040 - Obsidian/模板/tp-改良长青笔记模板.md"
-    },
-    {
-      "basename": "tp-改良版笔记模板",
-      "path": "040 - Obsidian/模板/tp-改良版笔记模板.md"
     }
   ],
   "omittedPaths": [],
