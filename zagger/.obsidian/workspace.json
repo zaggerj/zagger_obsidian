@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "93a4354aa557ee36",
+        "id": "5d70174fdb73f7f7",
         "type": "tabs",
         "children": [
           {
-            "id": "5351576265b29b02",
+            "id": "4128eadfa45aafc0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +21,7 @@
             }
           },
           {
-            "id": "35639e489f3f07bb",
+            "id": "d73ad6375a8c1965",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,25 +35,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "2dfc949d6f88c21b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d2155546119bc8a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月19日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -232,7 +213,7 @@
             }
           },
           {
-            "id": "91d2ea9bea9b5df5",
+            "id": "35e830a71223424e",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -296,16 +277,16 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "35639e489f3f07bb",
+  "active": "d73ad6375a8c1965",
   "lastOpenFiles": [
-    "020 - 工作学习/学习计划脚本/js文档学习笔记/1.11.8 `async&await`.md",
+    "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/元素大小和滚动.md",
+    "000 - 每日日记/DailyNote/2023年12月19日.md",
+    "020 - 工作学习/学习计划脚本/js文档学习笔记/1.11.8 `async&await`.md",
     "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/样式和类.md",
     "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/修改文档（document）.md",
     "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/特性和属性（Attributes and properties）.md",
-    "000 - 每日日记/DailyNote/2023年12月19日.md",
     "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/节点属性：type，tag 和 content.md",
-    "040 - Obsidian/主页/00. 主页.md",
     "040 - Obsidian/主页/稍后阅读.md",
     "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/遍历 DOM.md",
     "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/搜索：getElementxx，querySelectorxx.md",
