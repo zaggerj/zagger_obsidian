@@ -1,28 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "创建自定义事件",
-      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/事件/创建自定义事件.md"
-    },
-    {
-      "basename": "浏览器默认行为",
-      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/事件/浏览器默认行为.md"
-    },
-    {
-      "basename": "事件委托",
-      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/事件/事件委托.md"
+      "basename": "2023年12月20日",
+      "path": "000 - 每日日记/DailyNote/2023年12月20日.md"
     },
     {
       "basename": "00. 主页",
       "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
+      "basename": "移动鼠标：mouseover、out，mouseenter、leave",
+      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/移动鼠标：mouseover、out，mouseenter、leave.md"
+    },
+    {
+      "basename": "鼠标事件",
+      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/鼠标事件.md"
+    },
+    {
       "basename": "浏览器事件简介",
       "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/事件/浏览器事件简介.md"
     },
     {
-      "basename": "2023年12月20日",
-      "path": "000 - 每日日记/DailyNote/2023年12月20日.md"
+      "basename": "浏览器默认行为",
+      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/事件/浏览器默认行为.md"
+    },
+    {
+      "basename": "2023年51周记录",
+      "path": "000 - 每日日记/WeeklyNote/2023年51周记录.md"
+    },
+    {
+      "basename": "创建自定义事件",
+      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/事件/创建自定义事件.md"
+    },
+    {
+      "basename": "事件委托",
+      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/事件/事件委托.md"
     },
     {
       "basename": "冒泡和捕获",
@@ -39,10 +51,6 @@
     {
       "basename": "2023年12月19日",
       "path": "000 - 每日日记/DailyNote/2023年12月19日.md"
-    },
-    {
-      "basename": "2023年51周记录",
-      "path": "000 - 每日日记/WeeklyNote/2023年51周记录.md"
     },
     {
       "basename": "坐标",
@@ -191,14 +199,6 @@
     {
       "basename": "学习bash",
       "path": "020 - 工作学习/学习/后端/bash/学习bash.md"
-    },
-    {
-      "basename": "2023年12月14日",
-      "path": "000 - 每日日记/DailyNote/2023年12月14日.md"
-    },
-    {
-      "basename": "webpack plugin",
-      "path": "020 - 工作学习/学习/前端/webpack/webpack plugin.md"
     }
   ],
   "omittedPaths": [],

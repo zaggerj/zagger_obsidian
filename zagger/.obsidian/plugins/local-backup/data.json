@@ -1,5 +1,5 @@
 {
-  "versionValue": "0.1.2",
+  "versionValue": "0.1.5",
   "startupBackupStatus": false,
   "lifecycleValue": "3",
   "backupsPerDayValue": "1",
@@ -11,6 +11,9 @@
   "callingArchiverStatus": false,
   "archiverTypeValue": "sevenZip",
   "archiveFileTypeValue": "zip",
+  "archiverWinPathValue": "",
+  "archiverUnixPathValue": "",
+  "showRibbonIcon": true,
   "archiverPathValue": "",
   "startupSetting": false,
   "lifecycleSetting": "1",

@@ -12,7 +12,9 @@
       },
       "folder": {
         "enabled": true,
-        "folders": ["030 - 阅读笔记"],
+        "folders": [
+          "030 - 阅读笔记"
+        ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
         "chooseFromSubfolders": true
@@ -250,7 +252,9 @@
       },
       "folder": {
         "enabled": true,
-        "folders": ["020 - 工作学习/代码库"],
+        "folders": [
+          "020 - 工作学习/代码库"
+        ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
         "chooseFromSubfolders": false
@@ -272,7 +276,7 @@
   "devMode": false,
   "templateFolderPath": "040 - Obsidian/模板",
   "announceUpdates": true,
-  "version": "1.6.0",
+  "version": "1.6.1",
   "disableOnlineFeatures": true,
   "ai": {
     "OpenAIApiKey": "",

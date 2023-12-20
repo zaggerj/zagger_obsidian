@@ -1074,18 +1074,23 @@ var require_path_exists = __commonJS({
 var require_utimes = __commonJS({
   "node_modules/fs-extra/lib/util/utimes.js"(exports, module2) {
     "use strict";
-    var fs2 = require_graceful_fs();
-    function utimesMillis(path2, atime, mtime, callback) {
-      fs2.open(path2, "r+", (err, fd) => {
-        if (err)
-          return callback(err);
-        fs2.futimes(fd, atime, mtime, (futimesErr) => {
-          fs2.close(fd, (closeErr) => {
-            if (callback)
-              callback(futimesErr || closeErr);
-          });
-        });
-      });
+    var fs2 = require_fs();
+    var u = require_universalify().fromPromise;
+    async function utimesMillis(path2, atime, mtime) {
+      const fd = await fs2.open(path2, "r+");
+      let closeErr = null;
+      try {
+        await fs2.futimes(fd, atime, mtime);
+      } finally {
+        try {
+          await fs2.close(fd);
+        } catch (e) {
+          closeErr = e;
+        }
+      }
+      if (closeErr) {
+        throw closeErr;
+      }
     }
     function utimesMillisSync(path2, atime, mtime) {
       const fd = fs2.openSync(path2, "r+");
@@ -1093,7 +1098,7 @@ var require_utimes = __commonJS({
       return fs2.closeSync(fd);
     }
     module2.exports = {
-      utimesMillis,
+      utimesMillis: u(utimesMillis),
       utimesMillisSync
     };
   }
@@ -1105,7 +1110,7 @@ var require_stat = __commonJS({
     "use strict";
     var fs2 = require_fs();
     var path2 = require("path");
-    var util = require("util");
+    var u = require_universalify().fromPromise;
     function getStats(src, dest, opts) {
       const statFunc = opts.dereference ? (file) => fs2.stat(file, { bigint: true }) : (file) => fs2.lstat(file, { bigint: true });
       return Promise.all([
@@ -1130,32 +1135,28 @@ var require_stat = __commonJS({
       }
       return { srcStat, destStat };
     }
-    function checkPaths(src, dest, funcName, opts, cb) {
-      util.callbackify(getStats)(src, dest, opts, (err, stats) => {
-        if (err)
-          return cb(err);
-        const { srcStat, destStat } = stats;
-        if (destStat) {
-          if (areIdentical(srcStat, destStat)) {
-            const srcBaseName = path2.basename(src);
-            const destBaseName = path2.basename(dest);
-            if (funcName === "move" && srcBaseName !== destBaseName && srcBaseName.toLowerCase() === destBaseName.toLowerCase()) {
-              return cb(null, { srcStat, destStat, isChangingCase: true });
-            }
-            return cb(new Error("Source and destination must not be the same."));
+    async function checkPaths(src, dest, funcName, opts) {
+      const { srcStat, destStat } = await getStats(src, dest, opts);
+      if (destStat) {
+        if (areIdentical(srcStat, destStat)) {
+          const srcBaseName = path2.basename(src);
+          const destBaseName = path2.basename(dest);
+          if (funcName === "move" && srcBaseName !== destBaseName && srcBaseName.toLowerCase() === destBaseName.toLowerCase()) {
+            return { srcStat, destStat, isChangingCase: true };
           }
-          if (srcStat.isDirectory() && !destStat.isDirectory()) {
-            return cb(new Error(`Cannot overwrite non-directory '${dest}' with directory '${src}'.`));
-          }
-          if (!srcStat.isDirectory() && destStat.isDirectory()) {
-            return cb(new Error(`Cannot overwrite directory '${dest}' with non-directory '${src}'.`));
-          }
+          throw new Error("Source and destination must not be the same.");
         }
-        if (srcStat.isDirectory() && isSrcSubdir(src, dest)) {
-          return cb(new Error(errMsg(src, dest, funcName)));
+        if (srcStat.isDirectory() && !destStat.isDirectory()) {
+          throw new Error(`Cannot overwrite non-directory '${dest}' with directory '${src}'.`);
         }
-        return cb(null, { srcStat, destStat });
-      });
+        if (!srcStat.isDirectory() && destStat.isDirectory()) {
+          throw new Error(`Cannot overwrite directory '${dest}' with non-directory '${src}'.`);
+        }
+      }
+      if (srcStat.isDirectory() && isSrcSubdir(src, dest)) {
+        throw new Error(errMsg(src, dest, funcName));
+      }
+      return { srcStat, destStat };
     }
     function checkPathsSync(src, dest, funcName, opts) {
       const { srcStat, destStat } = getStatsSync(src, dest, opts);
@@ -1180,22 +1181,23 @@ var require_stat = __commonJS({
       }
       return { srcStat, destStat };
     }
-    function checkParentPaths(src, srcStat, dest, funcName, cb) {
+    async function checkParentPaths(src, srcStat, dest, funcName) {
       const srcParent = path2.resolve(path2.dirname(src));
       const destParent = path2.resolve(path2.dirname(dest));
       if (destParent === srcParent || destParent === path2.parse(destParent).root)
-        return cb();
-      fs2.stat(destParent, { bigint: true }, (err, destStat) => {
-        if (err) {
-          if (err.code === "ENOENT")
-            return cb();
-          return cb(err);
-        }
-        if (areIdentical(srcStat, destStat)) {
-          return cb(new Error(errMsg(src, dest, funcName)));
-        }
-        return checkParentPaths(src, srcStat, destParent, funcName, cb);
-      });
+        return;
+      let destStat;
+      try {
+        destStat = await fs2.stat(destParent, { bigint: true });
+      } catch (err) {
+        if (err.code === "ENOENT")
+          return;
+        throw err;
+      }
+      if (areIdentical(srcStat, destStat)) {
+        throw new Error(errMsg(src, dest, funcName));
+      }
+      return checkParentPaths(src, srcStat, destParent, funcName);
     }
     function checkParentPathsSync(src, srcStat, dest, funcName) {
       const srcParent = path2.resolve(path2.dirname(src));
@@ -1221,16 +1223,19 @@ var require_stat = __commonJS({
     function isSrcSubdir(src, dest) {
       const srcArr = path2.resolve(src).split(path2.sep).filter((i) => i);
       const destArr = path2.resolve(dest).split(path2.sep).filter((i) => i);
-      return srcArr.reduce((acc, cur, i) => acc && destArr[i] === cur, true);
+      return srcArr.every((cur, i) => destArr[i] === cur);
     }
     function errMsg(src, dest, funcName) {
       return `Cannot ${funcName} '${src}' to a subdirectory of itself, '${dest}'.`;
     }
     module2.exports = {
-      checkPaths,
+      // checkPaths
+      checkPaths: u(checkPaths),
       checkPathsSync,
-      checkParentPaths,
+      // checkParent
+      checkParentPaths: u(checkParentPaths),
       checkParentPathsSync,
+      // Misc
       isSrcSubdir,
       areIdentical
     };
@@ -1241,22 +1246,16 @@ var require_stat = __commonJS({
 var require_copy = __commonJS({
   "node_modules/fs-extra/lib/copy/copy.js"(exports, module2) {
     "use strict";
-    var fs2 = require_graceful_fs();
+    var fs2 = require_fs();
     var path2 = require("path");
-    var mkdirs = require_mkdirs().mkdirs;
-    var pathExists = require_path_exists().pathExists;
-    var utimesMillis = require_utimes().utimesMillis;
+    var { mkdirs } = require_mkdirs();
+    var { pathExists } = require_path_exists();
+    var { utimesMillis } = require_utimes();
     var stat = require_stat();
-    function copy(src, dest, opts, cb) {
-      if (typeof opts === "function" && !cb) {
-        cb = opts;
-        opts = {};
-      } else if (typeof opts === "function") {
+    async function copy(src, dest, opts = {}) {
+      if (typeof opts === "function") {
         opts = { filter: opts };
       }
-      cb = cb || function() {
-      };
-      opts = opts || {};
       opts.clobber = "clobber" in opts ? !!opts.clobber : true;
       opts.overwrite = "overwrite" in opts ? !!opts.overwrite : opts.clobber;
       if (opts.preserveTimestamps && process.arch === "ia32") {
@@ -1266,204 +1265,111 @@ var require_copy = __commonJS({
           "fs-extra-WARN0001"
         );
       }
-      stat.checkPaths(src, dest, "copy", opts, (err, stats) => {
-        if (err)
-          return cb(err);
-        const { srcStat, destStat } = stats;
-        stat.checkParentPaths(src, srcStat, dest, "copy", (err2) => {
-          if (err2)
-            return cb(err2);
-          runFilter(src, dest, opts, (err3, include) => {
-            if (err3)
-              return cb(err3);
-            if (!include)
-              return cb();
-            checkParentDir(destStat, src, dest, opts, cb);
-          });
-        });
-      });
-    }
-    function checkParentDir(destStat, src, dest, opts, cb) {
+      const { srcStat, destStat } = await stat.checkPaths(src, dest, "copy", opts);
+      await stat.checkParentPaths(src, srcStat, dest, "copy");
+      const include = await runFilter(src, dest, opts);
+      if (!include)
+        return;
       const destParent = path2.dirname(dest);
-      pathExists(destParent, (err, dirExists) => {
-        if (err)
-          return cb(err);
-        if (dirExists)
-          return getStats(destStat, src, dest, opts, cb);
-        mkdirs(destParent, (err2) => {
-          if (err2)
-            return cb(err2);
-          return getStats(destStat, src, dest, opts, cb);
-        });
-      });
-    }
-    function runFilter(src, dest, opts, cb) {
-      if (!opts.filter)
-        return cb(null, true);
-      Promise.resolve(opts.filter(src, dest)).then((include) => cb(null, include), (error) => cb(error));
-    }
-    function getStats(destStat, src, dest, opts, cb) {
-      const stat2 = opts.dereference ? fs2.stat : fs2.lstat;
-      stat2(src, (err, srcStat) => {
-        if (err)
-          return cb(err);
-        if (srcStat.isDirectory())
-          return onDir(srcStat, destStat, src, dest, opts, cb);
-        else if (srcStat.isFile() || srcStat.isCharacterDevice() || srcStat.isBlockDevice())
-          return onFile(srcStat, destStat, src, dest, opts, cb);
-        else if (srcStat.isSymbolicLink())
-          return onLink(destStat, src, dest, opts, cb);
-        else if (srcStat.isSocket())
-          return cb(new Error(`Cannot copy a socket file: ${src}`));
-        else if (srcStat.isFIFO())
-          return cb(new Error(`Cannot copy a FIFO pipe: ${src}`));
-        return cb(new Error(`Unknown file: ${src}`));
-      });
-    }
-    function onFile(srcStat, destStat, src, dest, opts, cb) {
-      if (!destStat)
-        return copyFile(srcStat, src, dest, opts, cb);
-      return mayCopyFile(srcStat, src, dest, opts, cb);
-    }
-    function mayCopyFile(srcStat, src, dest, opts, cb) {
-      if (opts.overwrite) {
-        fs2.unlink(dest, (err) => {
-          if (err)
-            return cb(err);
-          return copyFile(srcStat, src, dest, opts, cb);
-        });
-      } else if (opts.errorOnExist) {
-        return cb(new Error(`'${dest}' already exists`));
-      } else
-        return cb();
-    }
-    function copyFile(srcStat, src, dest, opts, cb) {
-      fs2.copyFile(src, dest, (err) => {
-        if (err)
-          return cb(err);
-        if (opts.preserveTimestamps)
-          return handleTimestampsAndMode(srcStat.mode, src, dest, cb);
-        return setDestMode(dest, srcStat.mode, cb);
-      });
-    }
-    function handleTimestampsAndMode(srcMode, src, dest, cb) {
-      if (fileIsNotWritable(srcMode)) {
-        return makeFileWritable(dest, srcMode, (err) => {
-          if (err)
-            return cb(err);
-          return setDestTimestampsAndMode(srcMode, src, dest, cb);
-        });
+      const dirExists = await pathExists(destParent);
+      if (!dirExists) {
+        await mkdirs(destParent);
       }
-      return setDestTimestampsAndMode(srcMode, src, dest, cb);
+      await getStatsAndPerformCopy(destStat, src, dest, opts);
+    }
+    async function runFilter(src, dest, opts) {
+      if (!opts.filter)
+        return true;
+      return opts.filter(src, dest);
+    }
+    async function getStatsAndPerformCopy(destStat, src, dest, opts) {
+      const statFn = opts.dereference ? fs2.stat : fs2.lstat;
+      const srcStat = await statFn(src);
+      if (srcStat.isDirectory())
+        return onDir(srcStat, destStat, src, dest, opts);
+      if (srcStat.isFile() || srcStat.isCharacterDevice() || srcStat.isBlockDevice())
+        return onFile(srcStat, destStat, src, dest, opts);
+      if (srcStat.isSymbolicLink())
+        return onLink(destStat, src, dest, opts);
+      if (srcStat.isSocket())
+        throw new Error(`Cannot copy a socket file: ${src}`);
+      if (srcStat.isFIFO())
+        throw new Error(`Cannot copy a FIFO pipe: ${src}`);
+      throw new Error(`Unknown file: ${src}`);
+    }
+    async function onFile(srcStat, destStat, src, dest, opts) {
+      if (!destStat)
+        return copyFile(srcStat, src, dest, opts);
+      if (opts.overwrite) {
+        await fs2.unlink(dest);
+        return copyFile(srcStat, src, dest, opts);
+      }
+      if (opts.errorOnExist) {
+        throw new Error(`'${dest}' already exists`);
+      }
+    }
+    async function copyFile(srcStat, src, dest, opts) {
+      await fs2.copyFile(src, dest);
+      if (opts.preserveTimestamps) {
+        if (fileIsNotWritable(srcStat.mode)) {
+          await makeFileWritable(dest, srcStat.mode);
+        }
+        const updatedSrcStat = await fs2.stat(src);
+        await utimesMillis(dest, updatedSrcStat.atime, updatedSrcStat.mtime);
+      }
+      return fs2.chmod(dest, srcStat.mode);
     }
     function fileIsNotWritable(srcMode) {
       return (srcMode & 128) === 0;
     }
-    function makeFileWritable(dest, srcMode, cb) {
-      return setDestMode(dest, srcMode | 128, cb);
+    function makeFileWritable(dest, srcMode) {
+      return fs2.chmod(dest, srcMode | 128);
     }
-    function setDestTimestampsAndMode(srcMode, src, dest, cb) {
-      setDestTimestamps(src, dest, (err) => {
-        if (err)
-          return cb(err);
-        return setDestMode(dest, srcMode, cb);
-      });
-    }
-    function setDestMode(dest, srcMode, cb) {
-      return fs2.chmod(dest, srcMode, cb);
-    }
-    function setDestTimestamps(src, dest, cb) {
-      fs2.stat(src, (err, updatedSrcStat) => {
-        if (err)
-          return cb(err);
-        return utimesMillis(dest, updatedSrcStat.atime, updatedSrcStat.mtime, cb);
-      });
-    }
-    function onDir(srcStat, destStat, src, dest, opts, cb) {
-      if (!destStat)
-        return mkDirAndCopy(srcStat.mode, src, dest, opts, cb);
-      return copyDir(src, dest, opts, cb);
-    }
-    function mkDirAndCopy(srcMode, src, dest, opts, cb) {
-      fs2.mkdir(dest, (err) => {
-        if (err)
-          return cb(err);
-        copyDir(src, dest, opts, (err2) => {
-          if (err2)
-            return cb(err2);
-          return setDestMode(dest, srcMode, cb);
-        });
-      });
-    }
-    function copyDir(src, dest, opts, cb) {
-      fs2.readdir(src, (err, items) => {
-        if (err)
-          return cb(err);
-        return copyDirItems(items, src, dest, opts, cb);
-      });
-    }
-    function copyDirItems(items, src, dest, opts, cb) {
-      const item = items.pop();
-      if (!item)
-        return cb();
-      return copyDirItem(items, item, src, dest, opts, cb);
-    }
-    function copyDirItem(items, item, src, dest, opts, cb) {
-      const srcItem = path2.join(src, item);
-      const destItem = path2.join(dest, item);
-      runFilter(srcItem, destItem, opts, (err, include) => {
-        if (err)
-          return cb(err);
+    async function onDir(srcStat, destStat, src, dest, opts) {
+      if (!destStat) {
+        await fs2.mkdir(dest);
+      }
+      const items = await fs2.readdir(src);
+      await Promise.all(items.map(async (item) => {
+        const srcItem = path2.join(src, item);
+        const destItem = path2.join(dest, item);
+        const include = await runFilter(srcItem, destItem, opts);
         if (!include)
-          return copyDirItems(items, src, dest, opts, cb);
-        stat.checkPaths(srcItem, destItem, "copy", opts, (err2, stats) => {
-          if (err2)
-            return cb(err2);
-          const { destStat } = stats;
-          getStats(destStat, srcItem, destItem, opts, (err3) => {
-            if (err3)
-              return cb(err3);
-            return copyDirItems(items, src, dest, opts, cb);
-          });
-        });
-      });
+          return;
+        const { destStat: destStat2 } = await stat.checkPaths(srcItem, destItem, "copy", opts);
+        return getStatsAndPerformCopy(destStat2, srcItem, destItem, opts);
+      }));
+      if (!destStat) {
+        await fs2.chmod(dest, srcStat.mode);
+      }
     }
-    function onLink(destStat, src, dest, opts, cb) {
-      fs2.readlink(src, (err, resolvedSrc) => {
-        if (err)
-          return cb(err);
-        if (opts.dereference) {
-          resolvedSrc = path2.resolve(process.cwd(), resolvedSrc);
-        }
-        if (!destStat) {
-          return fs2.symlink(resolvedSrc, dest, cb);
-        } else {
-          fs2.readlink(dest, (err2, resolvedDest) => {
-            if (err2) {
-              if (err2.code === "EINVAL" || err2.code === "UNKNOWN")
-                return fs2.symlink(resolvedSrc, dest, cb);
-              return cb(err2);
-            }
-            if (opts.dereference) {
-              resolvedDest = path2.resolve(process.cwd(), resolvedDest);
-            }
-            if (stat.isSrcSubdir(resolvedSrc, resolvedDest)) {
-              return cb(new Error(`Cannot copy '${resolvedSrc}' to a subdirectory of itself, '${resolvedDest}'.`));
-            }
-            if (stat.isSrcSubdir(resolvedDest, resolvedSrc)) {
-              return cb(new Error(`Cannot overwrite '${resolvedDest}' with '${resolvedSrc}'.`));
-            }
-            return copyLink(resolvedSrc, dest, cb);
-          });
-        }
-      });
-    }
-    function copyLink(resolvedSrc, dest, cb) {
-      fs2.unlink(dest, (err) => {
-        if (err)
-          return cb(err);
-        return fs2.symlink(resolvedSrc, dest, cb);
-      });
+    async function onLink(destStat, src, dest, opts) {
+      let resolvedSrc = await fs2.readlink(src);
+      if (opts.dereference) {
+        resolvedSrc = path2.resolve(process.cwd(), resolvedSrc);
+      }
+      if (!destStat) {
+        return fs2.symlink(resolvedSrc, dest);
+      }
+      let resolvedDest = null;
+      try {
+        resolvedDest = await fs2.readlink(dest);
+      } catch (e) {
+        if (e.code === "EINVAL" || e.code === "UNKNOWN")
+          return fs2.symlink(resolvedSrc, dest);
+        throw e;
+      }
+      if (opts.dereference) {
+        resolvedDest = path2.resolve(process.cwd(), resolvedDest);
+      }
+      if (stat.isSrcSubdir(resolvedSrc, resolvedDest)) {
+        throw new Error(`Cannot copy '${resolvedSrc}' to a subdirectory of itself, '${resolvedDest}'.`);
+      }
+      if (stat.isSrcSubdir(resolvedDest, resolvedSrc)) {
+        throw new Error(`Cannot overwrite '${resolvedDest}' with '${resolvedSrc}'.`);
+      }
+      await fs2.unlink(dest);
+      return fs2.symlink(resolvedSrc, dest);
     }
     module2.exports = copy;
   }
@@ -1614,7 +1520,7 @@ var require_copy_sync = __commonJS({
 var require_copy2 = __commonJS({
   "node_modules/fs-extra/lib/copy/index.js"(exports, module2) {
     "use strict";
-    var u = require_universalify().fromCallback;
+    var u = require_universalify().fromPromise;
     module2.exports = {
       copy: u(require_copy()),
       copySync: require_copy_sync()
@@ -1684,43 +1590,36 @@ var require_empty = __commonJS({
 var require_file = __commonJS({
   "node_modules/fs-extra/lib/ensure/file.js"(exports, module2) {
     "use strict";
-    var u = require_universalify().fromCallback;
+    var u = require_universalify().fromPromise;
     var path2 = require("path");
-    var fs2 = require_graceful_fs();
+    var fs2 = require_fs();
     var mkdir = require_mkdirs();
-    function createFile(file, callback) {
-      function makeFile() {
-        fs2.writeFile(file, "", (err) => {
-          if (err)
-            return callback(err);
-          callback();
-        });
+    async function createFile(file) {
+      let stats;
+      try {
+        stats = await fs2.stat(file);
+      } catch (e) {
       }
-      fs2.stat(file, (err, stats) => {
-        if (!err && stats.isFile())
-          return callback();
-        const dir = path2.dirname(file);
-        fs2.stat(dir, (err2, stats2) => {
-          if (err2) {
-            if (err2.code === "ENOENT") {
-              return mkdir.mkdirs(dir, (err3) => {
-                if (err3)
-                  return callback(err3);
-                makeFile();
-              });
-            }
-            return callback(err2);
-          }
-          if (stats2.isDirectory())
-            makeFile();
-          else {
-            fs2.readdir(dir, (err3) => {
-              if (err3)
-                return callback(err3);
-            });
-          }
-        });
-      });
+      if (stats && stats.isFile())
+        return;
+      const dir = path2.dirname(file);
+      let dirStats = null;
+      try {
+        dirStats = await fs2.stat(dir);
+      } catch (err) {
+        if (err.code === "ENOENT") {
+          await mkdir.mkdirs(dir);
+          await fs2.writeFile(file, "");
+          return;
+        } else {
+          throw err;
+        }
+      }
+      if (dirStats.isDirectory()) {
+        await fs2.writeFile(file, "");
+      } else {
+        await fs2.readdir(dir);
+      }
     }
     function createFileSync(file) {
       let stats;
@@ -1754,42 +1653,33 @@ var require_file = __commonJS({
 var require_link = __commonJS({
   "node_modules/fs-extra/lib/ensure/link.js"(exports, module2) {
     "use strict";
-    var u = require_universalify().fromCallback;
+    var u = require_universalify().fromPromise;
     var path2 = require("path");
-    var fs2 = require_graceful_fs();
+    var fs2 = require_fs();
     var mkdir = require_mkdirs();
-    var pathExists = require_path_exists().pathExists;
+    var { pathExists } = require_path_exists();
     var { areIdentical } = require_stat();
-    function createLink(srcpath, dstpath, callback) {
-      function makeLink(srcpath2, dstpath2) {
-        fs2.link(srcpath2, dstpath2, (err) => {
-          if (err)
-            return callback(err);
-          callback(null);
-        });
+    async function createLink(srcpath, dstpath) {
+      let dstStat;
+      try {
+        dstStat = await fs2.lstat(dstpath);
+      } catch (e) {
       }
-      fs2.lstat(dstpath, (_, dstStat) => {
-        fs2.lstat(srcpath, (err, srcStat) => {
-          if (err) {
-            err.message = err.message.replace("lstat", "ensureLink");
-            return callback(err);
-          }
-          if (dstStat && areIdentical(srcStat, dstStat))
-            return callback(null);
-          const dir = path2.dirname(dstpath);
-          pathExists(dir, (err2, dirExists) => {
-            if (err2)
-              return callback(err2);
-            if (dirExists)
-              return makeLink(srcpath, dstpath);
-            mkdir.mkdirs(dir, (err3) => {
-              if (err3)
-                return callback(err3);
-              makeLink(srcpath, dstpath);
-            });
-          });
-        });
-      });
+      let srcStat;
+      try {
+        srcStat = await fs2.lstat(srcpath);
+      } catch (err) {
+        err.message = err.message.replace("lstat", "ensureLink");
+        throw err;
+      }
+      if (dstStat && areIdentical(srcStat, dstStat))
+        return;
+      const dir = path2.dirname(dstpath);
+      const dirExists = await pathExists(dir);
+      if (!dirExists) {
+        await mkdir.mkdirs(dir);
+      }
+      await fs2.link(srcpath, dstpath);
     }
     function createLinkSync(srcpath, dstpath) {
       let dstStat;
@@ -1824,78 +1714,71 @@ var require_symlink_paths = __commonJS({
   "node_modules/fs-extra/lib/ensure/symlink-paths.js"(exports, module2) {
     "use strict";
     var path2 = require("path");
-    var fs2 = require_graceful_fs();
-    var pathExists = require_path_exists().pathExists;
-    function symlinkPaths(srcpath, dstpath, callback) {
+    var fs2 = require_fs();
+    var { pathExists } = require_path_exists();
+    var u = require_universalify().fromPromise;
+    async function symlinkPaths(srcpath, dstpath) {
       if (path2.isAbsolute(srcpath)) {
-        return fs2.lstat(srcpath, (err) => {
-          if (err) {
-            err.message = err.message.replace("lstat", "ensureSymlink");
-            return callback(err);
-          }
-          return callback(null, {
-            toCwd: srcpath,
-            toDst: srcpath
-          });
-        });
-      } else {
-        const dstdir = path2.dirname(dstpath);
-        const relativeToDst = path2.join(dstdir, srcpath);
-        return pathExists(relativeToDst, (err, exists) => {
-          if (err)
-            return callback(err);
-          if (exists) {
-            return callback(null, {
-              toCwd: relativeToDst,
-              toDst: srcpath
-            });
-          } else {
-            return fs2.lstat(srcpath, (err2) => {
-              if (err2) {
-                err2.message = err2.message.replace("lstat", "ensureSymlink");
-                return callback(err2);
-              }
-              return callback(null, {
-                toCwd: srcpath,
-                toDst: path2.relative(dstdir, srcpath)
-              });
-            });
-          }
-        });
+        try {
+          await fs2.lstat(srcpath);
+        } catch (err) {
+          err.message = err.message.replace("lstat", "ensureSymlink");
+          throw err;
+        }
+        return {
+          toCwd: srcpath,
+          toDst: srcpath
+        };
       }
+      const dstdir = path2.dirname(dstpath);
+      const relativeToDst = path2.join(dstdir, srcpath);
+      const exists = await pathExists(relativeToDst);
+      if (exists) {
+        return {
+          toCwd: relativeToDst,
+          toDst: srcpath
+        };
+      }
+      try {
+        await fs2.lstat(srcpath);
+      } catch (err) {
+        err.message = err.message.replace("lstat", "ensureSymlink");
+        throw err;
+      }
+      return {
+        toCwd: srcpath,
+        toDst: path2.relative(dstdir, srcpath)
+      };
     }
     function symlinkPathsSync(srcpath, dstpath) {
-      let exists;
       if (path2.isAbsolute(srcpath)) {
-        exists = fs2.existsSync(srcpath);
-        if (!exists)
+        const exists2 = fs2.existsSync(srcpath);
+        if (!exists2)
           throw new Error("absolute srcpath does not exist");
         return {
           toCwd: srcpath,
           toDst: srcpath
         };
-      } else {
-        const dstdir = path2.dirname(dstpath);
-        const relativeToDst = path2.join(dstdir, srcpath);
-        exists = fs2.existsSync(relativeToDst);
-        if (exists) {
-          return {
-            toCwd: relativeToDst,
-            toDst: srcpath
-          };
-        } else {
-          exists = fs2.existsSync(srcpath);
-          if (!exists)
-            throw new Error("relative srcpath does not exist");
-          return {
-            toCwd: srcpath,
-            toDst: path2.relative(dstdir, srcpath)
-          };
-        }
       }
+      const dstdir = path2.dirname(dstpath);
+      const relativeToDst = path2.join(dstdir, srcpath);
+      const exists = fs2.existsSync(relativeToDst);
+      if (exists) {
+        return {
+          toCwd: relativeToDst,
+          toDst: srcpath
+        };
+      }
+      const srcExists = fs2.existsSync(srcpath);
+      if (!srcExists)
+        throw new Error("relative srcpath does not exist");
+      return {
+        toCwd: srcpath,
+        toDst: path2.relative(dstdir, srcpath)
+      };
     }
     module2.exports = {
-      symlinkPaths,
+      symlinkPaths: u(symlinkPaths),
       symlinkPathsSync
     };
   }
@@ -1905,23 +1788,23 @@ var require_symlink_paths = __commonJS({
 var require_symlink_type = __commonJS({
   "node_modules/fs-extra/lib/ensure/symlink-type.js"(exports, module2) {
     "use strict";
-    var fs2 = require_graceful_fs();
-    function symlinkType(srcpath, type, callback) {
-      callback = typeof type === "function" ? type : callback;
-      type = typeof type === "function" ? false : type;
-      if (type)
-        return callback(null, type);
-      fs2.lstat(srcpath, (err, stats) => {
-        if (err)
-          return callback(null, "file");
-        type = stats && stats.isDirectory() ? "dir" : "file";
-        callback(null, type);
-      });
-    }
-    function symlinkTypeSync(srcpath, type) {
-      let stats;
+    var fs2 = require_fs();
+    var u = require_universalify().fromPromise;
+    async function symlinkType(srcpath, type) {
       if (type)
         return type;
+      let stats;
+      try {
+        stats = await fs2.lstat(srcpath);
+      } catch (e) {
+        return "file";
+      }
+      return stats && stats.isDirectory() ? "dir" : "file";
+    }
+    function symlinkTypeSync(srcpath, type) {
+      if (type)
+        return type;
+      let stats;
       try {
         stats = fs2.lstatSync(srcpath);
       } catch (e) {
@@ -1930,7 +1813,7 @@ var require_symlink_type = __commonJS({
       return stats && stats.isDirectory() ? "dir" : "file";
     }
     module2.exports = {
-      symlinkType,
+      symlinkType: u(symlinkType),
       symlinkTypeSync
     };
   }
@@ -1940,59 +1823,36 @@ var require_symlink_type = __commonJS({
 var require_symlink = __commonJS({
   "node_modules/fs-extra/lib/ensure/symlink.js"(exports, module2) {
     "use strict";
-    var u = require_universalify().fromCallback;
+    var u = require_universalify().fromPromise;
     var path2 = require("path");
     var fs2 = require_fs();
-    var _mkdirs = require_mkdirs();
-    var mkdirs = _mkdirs.mkdirs;
-    var mkdirsSync = _mkdirs.mkdirsSync;
-    var _symlinkPaths = require_symlink_paths();
-    var symlinkPaths = _symlinkPaths.symlinkPaths;
-    var symlinkPathsSync = _symlinkPaths.symlinkPathsSync;
-    var _symlinkType = require_symlink_type();
-    var symlinkType = _symlinkType.symlinkType;
-    var symlinkTypeSync = _symlinkType.symlinkTypeSync;
-    var pathExists = require_path_exists().pathExists;
+    var { mkdirs, mkdirsSync } = require_mkdirs();
+    var { symlinkPaths, symlinkPathsSync } = require_symlink_paths();
+    var { symlinkType, symlinkTypeSync } = require_symlink_type();
+    var { pathExists } = require_path_exists();
     var { areIdentical } = require_stat();
-    function createSymlink(srcpath, dstpath, type, callback) {
-      callback = typeof type === "function" ? type : callback;
-      type = typeof type === "function" ? false : type;
-      fs2.lstat(dstpath, (err, stats) => {
-        if (!err && stats.isSymbolicLink()) {
-          Promise.all([
-            fs2.stat(srcpath),
-            fs2.stat(dstpath)
-          ]).then(([srcStat, dstStat]) => {
-            if (areIdentical(srcStat, dstStat))
-              return callback(null);
-            _createSymlink(srcpath, dstpath, type, callback);
-          });
-        } else
-          _createSymlink(srcpath, dstpath, type, callback);
-      });
-    }
-    function _createSymlink(srcpath, dstpath, type, callback) {
-      symlinkPaths(srcpath, dstpath, (err, relative) => {
-        if (err)
-          return callback(err);
-        srcpath = relative.toDst;
-        symlinkType(relative.toCwd, type, (err2, type2) => {
-          if (err2)
-            return callback(err2);
-          const dir = path2.dirname(dstpath);
-          pathExists(dir, (err3, dirExists) => {
-            if (err3)
-              return callback(err3);
-            if (dirExists)
-              return fs2.symlink(srcpath, dstpath, type2, callback);
-            mkdirs(dir, (err4) => {
-              if (err4)
-                return callback(err4);
-              fs2.symlink(srcpath, dstpath, type2, callback);
-            });
-          });
-        });
-      });
+    async function createSymlink(srcpath, dstpath, type) {
+      let stats;
+      try {
+        stats = await fs2.lstat(dstpath);
+      } catch (e) {
+      }
+      if (stats && stats.isSymbolicLink()) {
+        const [srcStat, dstStat] = await Promise.all([
+          fs2.stat(srcpath),
+          fs2.stat(dstpath)
+        ]);
+        if (areIdentical(srcStat, dstStat))
+          return;
+      }
+      const relative = await symlinkPaths(srcpath, dstpath);
+      srcpath = relative.toDst;
+      const toType = await symlinkType(relative.toCwd, type);
+      const dir = path2.dirname(dstpath);
+      if (!await pathExists(dir)) {
+        await mkdirs(dir);
+      }
+      return fs2.symlink(srcpath, dstpath, toType);
     }
     function createSymlinkSync(srcpath, dstpath, type) {
       let stats;
@@ -2159,35 +2019,23 @@ var require_jsonfile2 = __commonJS({
 var require_output_file = __commonJS({
   "node_modules/fs-extra/lib/output-file/index.js"(exports, module2) {
     "use strict";
-    var u = require_universalify().fromCallback;
-    var fs2 = require_graceful_fs();
+    var u = require_universalify().fromPromise;
+    var fs2 = require_fs();
     var path2 = require("path");
     var mkdir = require_mkdirs();
     var pathExists = require_path_exists().pathExists;
-    function outputFile(file, data, encoding, callback) {
-      if (typeof encoding === "function") {
-        callback = encoding;
-        encoding = "utf8";
-      }
+    async function outputFile(file, data, encoding = "utf-8") {
       const dir = path2.dirname(file);
-      pathExists(dir, (err, itDoes) => {
-        if (err)
-          return callback(err);
-        if (itDoes)
-          return fs2.writeFile(file, data, encoding, callback);
-        mkdir.mkdirs(dir, (err2) => {
-          if (err2)
-            return callback(err2);
-          fs2.writeFile(file, data, encoding, callback);
-        });
-      });
+      if (!await pathExists(dir)) {
+        await mkdir.mkdirs(dir);
+      }
+      return fs2.writeFile(file, data, encoding);
     }
     function outputFileSync(file, ...args) {
       const dir = path2.dirname(file);
-      if (fs2.existsSync(dir)) {
-        return fs2.writeFileSync(file, ...args);
+      if (!fs2.existsSync(dir)) {
+        mkdir.mkdirsSync(dir);
       }
-      mkdir.mkdirsSync(dir);
       fs2.writeFileSync(file, ...args);
     }
     module2.exports = {
@@ -2247,80 +2095,49 @@ var require_json = __commonJS({
 var require_move = __commonJS({
   "node_modules/fs-extra/lib/move/move.js"(exports, module2) {
     "use strict";
-    var fs2 = require_graceful_fs();
+    var fs2 = require_fs();
     var path2 = require("path");
-    var copy = require_copy2().copy;
-    var remove2 = require_remove().remove;
-    var mkdirp = require_mkdirs().mkdirp;
-    var pathExists = require_path_exists().pathExists;
+    var { copy } = require_copy2();
+    var { remove: remove2 } = require_remove();
+    var { mkdirp } = require_mkdirs();
+    var { pathExists } = require_path_exists();
     var stat = require_stat();
-    function move(src, dest, opts, cb) {
-      if (typeof opts === "function") {
-        cb = opts;
-        opts = {};
-      }
-      opts = opts || {};
+    async function move(src, dest, opts = {}) {
       const overwrite = opts.overwrite || opts.clobber || false;
-      stat.checkPaths(src, dest, "move", opts, (err, stats) => {
-        if (err)
-          return cb(err);
-        const { srcStat, isChangingCase = false } = stats;
-        stat.checkParentPaths(src, srcStat, dest, "move", (err2) => {
-          if (err2)
-            return cb(err2);
-          if (isParentRoot(dest))
-            return doRename(src, dest, overwrite, isChangingCase, cb);
-          mkdirp(path2.dirname(dest), (err3) => {
-            if (err3)
-              return cb(err3);
-            return doRename(src, dest, overwrite, isChangingCase, cb);
-          });
-        });
-      });
-    }
-    function isParentRoot(dest) {
-      const parent = path2.dirname(dest);
-      const parsedPath = path2.parse(parent);
-      return parsedPath.root === parent;
-    }
-    function doRename(src, dest, overwrite, isChangingCase, cb) {
-      if (isChangingCase)
-        return rename(src, dest, overwrite, cb);
-      if (overwrite) {
-        return remove2(dest, (err) => {
-          if (err)
-            return cb(err);
-          return rename(src, dest, overwrite, cb);
-        });
+      const { srcStat, isChangingCase = false } = await stat.checkPaths(src, dest, "move", opts);
+      await stat.checkParentPaths(src, srcStat, dest, "move");
+      const destParent = path2.dirname(dest);
+      const parsedParentPath = path2.parse(destParent);
+      if (parsedParentPath.root !== destParent) {
+        await mkdirp(destParent);
       }
-      pathExists(dest, (err, destExists) => {
-        if (err)
-          return cb(err);
-        if (destExists)
-          return cb(new Error("dest already exists."));
-        return rename(src, dest, overwrite, cb);
-      });
+      return doRename(src, dest, overwrite, isChangingCase);
     }
-    function rename(src, dest, overwrite, cb) {
-      fs2.rename(src, dest, (err) => {
-        if (!err)
-          return cb();
-        if (err.code !== "EXDEV")
-          return cb(err);
-        return moveAcrossDevice(src, dest, overwrite, cb);
-      });
+    async function doRename(src, dest, overwrite, isChangingCase) {
+      if (!isChangingCase) {
+        if (overwrite) {
+          await remove2(dest);
+        } else if (await pathExists(dest)) {
+          throw new Error("dest already exists.");
+        }
+      }
+      try {
+        await fs2.rename(src, dest);
+      } catch (err) {
+        if (err.code !== "EXDEV") {
+          throw err;
+        }
+        await moveAcrossDevice(src, dest, overwrite);
+      }
     }
-    function moveAcrossDevice(src, dest, overwrite, cb) {
+    async function moveAcrossDevice(src, dest, overwrite) {
       const opts = {
         overwrite,
         errorOnExist: true,
         preserveTimestamps: true
       };
-      copy(src, dest, opts, (err) => {
-        if (err)
-          return cb(err);
-        return remove2(src, cb);
-      });
+      await copy(src, dest, opts);
+      return remove2(src);
     }
     module2.exports = move;
   }
@@ -2387,7 +2204,7 @@ var require_move_sync = __commonJS({
 var require_move2 = __commonJS({
   "node_modules/fs-extra/lib/move/index.js"(exports, module2) {
     "use strict";
-    var u = require_universalify().fromCallback;
+    var u = require_universalify().fromPromise;
     module2.exports = {
       move: u(require_move()),
       moveSync: require_move_sync()
@@ -4795,20 +4612,34 @@ __export(main_exports, {
   default: () => LocalBackupPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian2 = require("obsidian");
+var import_obsidian3 = require("obsidian");
 var import_path = require("path");
 
 // src/settings.ts
 var import_obsidian = require("obsidian");
 var LocalBackupSettingTab = class extends import_obsidian.PluginSettingTab {
-  constructor(app, plugin) {
-    super(app, plugin);
+  constructor(app2, plugin) {
+    super(app2, plugin);
     this.plugin = plugin;
   }
   display() {
     const { containerEl } = this;
     containerEl.empty();
     containerEl.createEl("h3", { text: "General Settings" });
+    const ribbonIconDesc = new DocumentFragment();
+    ribbonIconDesc.createSpan({
+      text: "Show a ribbon icon in the left sidebar."
+    });
+    ribbonIconDesc.createDiv({
+      text: "Please close and reopen Obsidian for this setting to take effect.",
+      cls: "local-backup-text--accent"
+    });
+    new import_obsidian.Setting(containerEl).setName("Show ribbon icon").setDesc(ribbonIconDesc).addToggle(
+      (toggle) => toggle.setValue(this.plugin.settings.showRibbonIcon).onChange(async (value) => {
+        this.plugin.settings.showRibbonIcon = value;
+        await this.plugin.saveSettings();
+      })
+    );
     new import_obsidian.Setting(containerEl).setName("Backup once on startup").setDesc("Run local backup once on Obsidian starts.").addToggle(
       (toggle) => toggle.setValue(this.plugin.settings.startupBackupStatus).onChange(async (value) => {
         this.plugin.settings.startupBackupStatus = value;
@@ -4933,9 +4764,15 @@ var LocalBackupSettingTab = class extends import_obsidian.PluginSettingTab {
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian.Setting(containerEl).setName("File archiver path").setDesc("Full path of Archiver. eg. D:\\software\\7-Zip\\7z.exe for Windows, /usr/bin/7z for Unix.").addText(
-      (text) => text.setValue(this.plugin.settings.archiverPathValue).onChange(async (value) => {
-        this.plugin.settings.archiverPathValue = value;
+    new import_obsidian.Setting(containerEl).setName("File archiver path (Win)").setDesc("Full path of Archiver. eg. D:\\software\\7-Zip\\7z.exe for Windows.").addText(
+      (text) => text.setValue(this.plugin.settings.archiverWinPathValue).onChange(async (value) => {
+        this.plugin.settings.archiverWinPathValue = value;
+        await this.plugin.saveSettings();
+      })
+    );
+    new import_obsidian.Setting(containerEl).setName("File archiver path (Unix)").setDesc("Full path of Archiver. eg. /usr/bin/7z for Unix.").addText(
+      (text) => text.setValue(this.plugin.settings.archiverUnixPathValue).onChange(async (value) => {
+        this.plugin.settings.archiverUnixPathValue = value;
         await this.plugin.saveSettings();
       })
     );
@@ -5041,6 +4878,9 @@ function deleteBackupsByLifeCycle(winSavePath, unixSavePath, fileNameFormat, lif
 }
 function deletePerDayBackups(winSavePath, unixSavePath, fileNameFormat, backupsPerDay) {
   console.log("Run deletePerDayBackups");
+  if (parseInt(backupsPerDay) === 0) {
+    return;
+  }
   const os = require("os");
   const platform = os.platform();
   let savePathSetting = "";
@@ -5131,6 +4971,72 @@ async function createFileByArchiver(archiverType, archiverPath, archiveFileType,
   }
 }
 
+// src/constants.ts
+var ICON_DATA = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 230">
+<g>
+	<path d="M205.473,76.146c-4.143,0-7.5,3.358-7.5,7.5v103.32H15V83.646c0-4.142-3.357-7.5-7.5-7.5S0,79.503,0,83.646v110.82
+		c0,4.142,3.357,7.5,7.5,7.5h197.973c4.143,0,7.5-3.358,7.5-7.5V83.646C212.973,79.503,209.615,76.146,205.473,76.146z" fill="currentColor"/>
+	<path d="M101.171,154.746c1.407,1.407,3.314,2.197,5.304,2.197c1.989,0,3.896-0.79,5.304-2.197l32.373-32.374
+		c2.929-2.929,2.929-7.678,0-10.606c-2.93-2.93-7.678-2.929-10.607,0l-19.569,19.569l0.004-112.828c0-4.142-3.357-7.5-7.5-7.5
+		c-4.142,0-7.5,3.358-7.5,7.5l-0.004,112.829l-19.546-19.547c-2.929-2.929-7.677-2.93-10.607,0c-2.929,2.929-2.929,7.677,0,10.606
+		L101.171,154.746z" fill="currentColor"/>
+</g>
+</svg>`;
+
+// src/modals.ts
+var import_obsidian2 = require("obsidian");
+var NewVersionNotifyModal = class extends import_obsidian2.Modal {
+  constructor(app2, plugin) {
+    super(app2);
+    this.plugin = plugin;
+  }
+  onOpen() {
+    const { contentEl } = this;
+    const release = "0.1.5";
+    const header = `### New in Local Backup ${release}
+`;
+    const text = `Thank you for using Local Backup!`;
+    const contentDiv = contentEl.createDiv("local-backup-update-modal");
+    const releaseNotes = [
+      "1. Add ribbon icon toggle by @trey-wallis",
+      "2. Add a notice after clicking ribbon icon."
+    ].join("\n");
+    const andNow = `And now, here is everything new in Local Backup since your last update:`;
+    const markdownStr = `${header}
+${text}
+${andNow}
+
+---
+
+${addExtraHashToHeadings(
+      releaseNotes
+    )}`;
+    new import_obsidian2.Setting(contentEl).addButton((btn) => btn.setButtonText("Okey").setCta().onClick(() => {
+      this.plugin.saveSettings();
+      this.close();
+    }));
+    void import_obsidian2.MarkdownRenderer.renderMarkdown(
+      markdownStr,
+      contentDiv,
+      app.vault.getRoot().path,
+      new import_obsidian2.Component()
+    );
+  }
+  onClose() {
+    let { contentEl } = this;
+    contentEl.empty();
+  }
+};
+function addExtraHashToHeadings(markdownText, numHashes = 1) {
+  const lines = markdownText.split("\n");
+  for (let i = 0; i < lines.length; i++) {
+    if (lines[i].startsWith("#")) {
+      lines[i] = "#".repeat(numHashes) + lines[i];
+    }
+  }
+  return lines.join("\n");
+}
+
 // src/main.ts
 var DEFAULT_SETTINGS = {
   versionValue: "",
@@ -5145,23 +5051,26 @@ var DEFAULT_SETTINGS = {
   callingArchiverStatus: false,
   archiverTypeValue: "sevenZip",
   archiveFileTypeValue: "zip",
-  archiverPathValue: ""
+  archiverWinPathValue: "",
+  archiverUnixPathValue: "",
+  showRibbonIcon: true
 };
-var LocalBackupPlugin = class extends import_obsidian2.Plugin {
+var LocalBackupPlugin = class extends import_obsidian3.Plugin {
   constructor() {
     super(...arguments);
     this.intervalId = null;
   }
   async onload() {
     await this.loadSettings();
-    if (this.manifest.version === "0.1.2") {
-      try {
-        if (this.settings.versionValue === "") {
-          new import_obsidian2.Notice("Please recofig `Local Backup` after upgrading to 0.1.2!", 1e4);
-        }
-      } catch (error) {
-        new import_obsidian2.Notice("Please recofig `Local Backup` after upgrading to 0.1.2!", 1e4);
+    const settingTab = new LocalBackupSettingTab(this.app, this);
+    this.addSettingTab(settingTab);
+    try {
+      if (this.settings.versionValue !== this.manifest.version) {
+        new NewVersionNotifyModal(this.app, this).open();
+        this.saveSettings();
       }
+    } catch (error) {
+      new import_obsidian3.Notice(`Please recofig \`Local Backup\` after upgrading to ${this.manifest.version}!`, 1e4);
     }
     this.addCommand({
       id: "run-local-backup",
@@ -5170,7 +5079,13 @@ var LocalBackupPlugin = class extends import_obsidian2.Plugin {
         await this.archiveVaultAsync();
       }
     });
-    this.addSettingTab(new LocalBackupSettingTab(this.app, this));
+    if (this.settings.showRibbonIcon) {
+      (0, import_obsidian3.addIcon)("sidebar-icon", ICON_DATA);
+      this.addRibbonIcon("sidebar-icon", "Run local backup", () => {
+        new import_obsidian3.Notice("Running local backup...");
+        this.archiveVaultAsync();
+      });
+    }
     if (this.settings.startupBackupStatus) {
       await this.archiveVaultAsync();
     }
@@ -5188,20 +5103,24 @@ var LocalBackupPlugin = class extends import_obsidian2.Plugin {
       const vaultPath = this.app.vault.adapter.basePath;
       const os = require("os");
       const platform = os.platform();
-      let savePathSetting = "";
+      let savePathValue = "";
+      let archiverPathValue = "";
       if (platform == "win32") {
-        savePathSetting = this.settings.winSavePathValue;
+        savePathValue = this.settings.winSavePathValue;
+        archiverPathValue = this.settings.archiverWinPathValue;
       } else if (platform == "linux" || platform == "darwin") {
-        savePathSetting = this.settings.unixSavePathValue;
+        savePathValue = this.settings.unixSavePathValue;
+        archiverPathValue = this.settings.archiverUnixPathValue;
       }
-      let backupFilePath = (0, import_path.join)(savePathSetting, backupZipName);
+      let backupFilePath = (0, import_path.join)(savePathValue, backupZipName);
       if (this.settings.callingArchiverStatus) {
-        backupFilePath = (0, import_path.join)(savePathSetting, `${fileNameWithDateValues}.${this.settings.archiveFileTypeValue}`);
-        await createFileByArchiver(this.settings.archiverTypeValue, this.settings.archiverPathValue, this.settings.archiveFileTypeValue, vaultPath, backupFilePath);
+        backupFilePath = (0, import_path.join)(savePathValue, `${fileNameWithDateValues}.${this.settings.archiveFileTypeValue}`);
+        await createFileByArchiver(this.settings.archiverTypeValue, archiverPathValue, this.settings.archiveFileTypeValue, vaultPath, backupFilePath);
       } else {
         createZipByAdmZip(vaultPath, backupFilePath);
       }
-      new import_obsidian2.Notice(`Vault backup created: ${backupFilePath}`);
+      console.log(`Vault backup created: ${backupFilePath}`);
+      new import_obsidian3.Notice(`Vault backup created: ${backupFilePath}`);
       deleteBackupsByLifeCycle(
         this.settings.winSavePathValue,
         this.settings.unixSavePathValue,
@@ -5215,7 +5134,7 @@ var LocalBackupPlugin = class extends import_obsidian2.Plugin {
         this.settings.backupsPerDayValue
       );
     } catch (error) {
-      new import_obsidian2.Notice(`Failed to create vault backup: ${error}`);
+      new import_obsidian3.Notice(`Failed to create vault backup: ${error}`);
       console.log(error);
     }
   }
@@ -5230,7 +5149,7 @@ var LocalBackupPlugin = class extends import_obsidian2.Plugin {
     this.intervalId = setInterval(async () => {
       await this.archiveVaultAsync();
     }, intervalMinutes * 60 * 1e3);
-    new import_obsidian2.Notice(
+    new import_obsidian3.Notice(
       `Auto backup interval started: Running every ${intervalMinutes} minutes.`
     );
   }
@@ -5241,7 +5160,7 @@ var LocalBackupPlugin = class extends import_obsidian2.Plugin {
     if (this.intervalId) {
       clearInterval(this.intervalId);
       this.intervalId = null;
-      new import_obsidian2.Notice("Auto backup interval stopped.");
+      new import_obsidian3.Notice("Auto backup interval stopped.");
     }
   }
   async onunload() {
@@ -5288,7 +5207,8 @@ var LocalBackupPlugin = class extends import_obsidian2.Plugin {
     this.settings.callingArchiverStatus = DEFAULT_SETTINGS.callingArchiverStatus;
     this.settings.archiverTypeValue = DEFAULT_SETTINGS.archiverTypeValue;
     this.settings.archiveFileTypeValue = DEFAULT_SETTINGS.archiveFileTypeValue;
-    this.settings.archiverPathValue = DEFAULT_SETTINGS.archiverPathValue;
+    this.settings.archiverWinPathValue = DEFAULT_SETTINGS.archiverWinPathValue;
+    this.settings.archiverUnixPathValue = DEFAULT_SETTINGS.archiverUnixPathValue;
     await this.saveSettings();
   }
 };
