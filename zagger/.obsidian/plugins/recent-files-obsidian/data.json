@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "事件委托",
+      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/事件/事件委托.md"
+    },
+    {
       "basename": "冒泡和捕获",
       "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/事件/冒泡和捕获.md"
+    },
+    {
+      "basename": "浏览器事件简介",
+      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/事件/浏览器事件简介.md"
+    },
+    {
+      "basename": "Window 大小和滚动",
+      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/Window 大小和滚动.md"
+    },
+    {
+      "basename": "元素大小和滚动",
+      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/元素大小和滚动.md"
     },
     {
       "basename": "2023年12月19日",
@@ -13,10 +29,6 @@
       "path": "000 - 每日日记/DailyNote/2023年12月20日.md"
     },
     {
-      "basename": "浏览器事件简介",
-      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/事件/浏览器事件简介.md"
-    },
-    {
       "basename": "2023年51周记录",
       "path": "000 - 每日日记/WeeklyNote/2023年51周记录.md"
     },
@@ -25,16 +37,8 @@
       "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/坐标.md"
     },
     {
-      "basename": "Window 大小和滚动",
-      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/Window 大小和滚动.md"
-    },
-    {
       "basename": "00. 主页",
       "path": "040 - Obsidian/主页/00. 主页.md"
-    },
-    {
-      "basename": "元素大小和滚动",
-      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/元素大小和滚动.md"
     },
     {
       "basename": "样式和类",
@@ -195,10 +199,6 @@
     {
       "basename": "app webutil.js",
       "path": "020 - 工作学习/学习/前端/vnc/app webutil.js.md"
-    },
-    {
-      "basename": "FileManager Webpack Plugin",
-      "path": "020 - 工作学习/学习/前端/webpack/FileManager Webpack Plugin.md"
     }
   ],
   "omittedPaths": [],
