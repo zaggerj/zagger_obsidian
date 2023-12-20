@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "创建自定义事件",
+      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/事件/创建自定义事件.md"
+    },
+    {
+      "basename": "浏览器默认行为",
+      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/事件/浏览器默认行为.md"
+    },
+    {
       "basename": "事件委托",
       "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/事件/事件委托.md"
     },
     {
-      "basename": "冒泡和捕获",
-      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/事件/冒泡和捕获.md"
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "浏览器事件简介",
       "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/事件/浏览器事件简介.md"
+    },
+    {
+      "basename": "2023年12月20日",
+      "path": "000 - 每日日记/DailyNote/2023年12月20日.md"
+    },
+    {
+      "basename": "冒泡和捕获",
+      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/事件/冒泡和捕获.md"
     },
     {
       "basename": "Window 大小和滚动",
@@ -25,20 +41,12 @@
       "path": "000 - 每日日记/DailyNote/2023年12月19日.md"
     },
     {
-      "basename": "2023年12月20日",
-      "path": "000 - 每日日记/DailyNote/2023年12月20日.md"
-    },
-    {
       "basename": "2023年51周记录",
       "path": "000 - 每日日记/WeeklyNote/2023年51周记录.md"
     },
     {
       "basename": "坐标",
       "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/坐标.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "样式和类",
@@ -191,14 +199,6 @@
     {
       "basename": "webpack plugin",
       "path": "020 - 工作学习/学习/前端/webpack/webpack plugin.md"
-    },
-    {
-      "basename": "TerserWebpackPlugin",
-      "path": "020 - 工作学习/学习/前端/webpack/TerserWebpackPlugin.md"
-    },
-    {
-      "basename": "app webutil.js",
-      "path": "020 - 工作学习/学习/前端/vnc/app webutil.js.md"
     }
   ],
   "omittedPaths": [],
