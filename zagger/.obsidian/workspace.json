@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5d70174fdb73f7f7",
+        "id": "ed62678fdea8706d",
         "type": "tabs",
         "children": [
           {
-            "id": "4128eadfa45aafc0",
+            "id": "1349b0425e3d2081",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +21,33 @@
             }
           },
           {
-            "id": "d73ad6375a8c1965",
+            "id": "627f7770bbfd05fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/事件/浏览器事件简介.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "336b1fce961d826f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2023年12月20日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "59b6aff2b3cf1590",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,12 +60,12 @@
             }
           },
           {
-            "id": "a170f585555c0f2b",
+            "id": "e7976602f3911bfe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月20日.md",
+                "file": "000 - 每日日记/DailyNote/2023年12月19日.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,14 +73,14 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
-        "id": "7eaa071e1a421d10",
+        "id": "cc0b84fa0c6a3407",
         "type": "tabs",
         "children": [
           {
-            "id": "25414b337a454fc4",
+            "id": "926c586477030365",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -167,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月19日.md"
+                "file": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/事件/浏览器事件简介.md"
               }
             }
           },
@@ -193,7 +219,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月19日.md",
+                "file": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/事件/浏览器事件简介.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +236,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月19日.md",
+                "file": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/事件/浏览器事件简介.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +248,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月19日.md"
+                "file": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/事件/浏览器事件简介.md"
               }
             }
           },
@@ -245,7 +271,7 @@
             }
           },
           {
-            "id": "35e830a71223424e",
+            "id": "3cfde87cb256511f",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -309,13 +335,16 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "25414b337a454fc4",
+  "active": "627f7770bbfd05fa",
   "lastOpenFiles": [
-    "000 - 每日日记/DailyNote/2023年12月20日.md",
-    "000 - 每日日记/DailyNote/2023年12月19日.md",
+    "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/坐标.md",
+    "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/事件/浏览器事件简介.md",
+    "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/事件",
     "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/Window 大小和滚动.md",
-    "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/元素大小和滚动.md",
+    "000 - 每日日记/DailyNote/2023年12月19日.md",
+    "000 - 每日日记/DailyNote/2023年12月20日.md",
     "040 - Obsidian/主页/00. 主页.md",
+    "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/元素大小和滚动.md",
     "020 - 工作学习/学习计划脚本/js文档学习笔记/1.11.8 `async&await`.md",
     "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/样式和类.md",
     "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/修改文档（document）.md",
@@ -336,8 +365,6 @@
     "000 - 每日日记/DailyNote/2023年12月18日.md",
     "000 - 每日日记/WeeklyNote/2023年51周记录.md",
     "020 - 工作学习/学习/后端/docker/a docker讲得比较好的文章/a docker实战 - 禅道卫士维护 2023.0606.md",
-    "020 - 工作学习/学习/前端/前端杂项/记事本.md",
-    "020 - 工作学习/学习计划脚本/js学习计划.md",
-    "020 - 工作学习/学习计划脚本/学习清单链接.md"
+    "020 - 工作学习/学习/前端/前端杂项/记事本.md"
   ]
 }

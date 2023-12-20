@@ -32,16 +32,13 @@ Summary::
 
 _用自己的话去重述提取的重点内容_
 
-## 1.4. 重点摘抄
-
-_摘抄部分原文后，进行筛选加粗然后对加粗的继续进行筛选荧光笔选出。_
-
-
-`window.innerWidth/innerHeight`：包括了滚动条
+1. 获取窗口的宽和高
+不是`window.innerWidth/innerHeight`：包括了滚动条
 `document.documentElement.clientWidth`： 可用于内容的文档的可见部分的 width/height。
 
 ![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/20231219193036.png)
 
+2. 获取文档的宽和高，取如下最大值
 ```js
 let scrollHeight = Math.max(
   document.body.scrollHeight, document.documentElement.scrollHeight,
@@ -50,6 +47,11 @@ let scrollHeight = Math.max(
 );
 ```
 
+![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/20231220084251.png)
+
+## 1.4. 重点摘抄
+
+_摘抄部分原文后，进行筛选加粗然后对加粗的继续进行筛选荧光笔选出。_
 
 ### 1.4.1. Window 大小和滚动
 
@@ -58,6 +60,8 @@ let scrollHeight = Math.max(
 对于此类信息，我们可以使用与 `<html>` 标签相对应的根文档元素 `document.documentElement`。但是还有其他方法和特性需要考虑。
 
 ### 1.4.2. [窗口的 width/height](https://zh.javascript.info/size-and-scroll-window#chuang-kou-de-widthheight)
+
+<mark style="background: #FF5582A6;">小结：窗口的宽和高： `documentElement.clientHeight/clientWidth`</mark>
 
 为了获取窗口（window）的宽度和高度，我们可以使用 `document.documentElement` 的 `clientWidth/clientHeight`：
 ![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/20231220083256.png)
@@ -89,6 +93,8 @@ alert( document.documentElement.clientWidth ); // 减去滚动条宽度后的窗
 
 ### 1.4.3. [文档的 width/height](https://zh.javascript.info/size-and-scroll-window#wen-dang-de-widthheight)
 
+<mark style="background: #FF5582A6;">小结：文档的宽和高：取body和html三个属性（clientHeight,scrollHeight,offsetHeight）的最大值</mark>
+
 从理论上讲，由于根文档元素是 `document.documentElement`，并且它包围了所有内容，因此我们可以通过使用 `documentElement.scrollWidth/scrollHeight` 来测量文档的完整大小。
 
 但是在该元素上，对于整个文档，这些属性均无法正常工作。在 Chrome/Safari/Opera 中，如果没有滚动条，`documentElement.scrollHeight` 甚至可能小于 `documentElement.clientHeight`！很奇怪，对吧？
@@ -106,6 +112,8 @@ alert('Full document height, with scrolled out part: ' + scrollHeight);
 为什么这样？最好不要问。这些不一致来源于远古时代，而不是“聪明”的逻辑。
 
 ### 1.4.4. [获得当前滚动](https://zh.javascript.info/size-and-scroll-window#page-scroll)
+
+<mark style="background: #FF5582A6;">小结：获取文档滚动：`window.pageXOffset/pageYOffset`</mark>
 
 DOM 元素的当前滚动状态在其 `scrollLeft/scrollTop` 属性中。
 
@@ -127,7 +135,9 @@ alert('当前已从左侧滚动：' + window.pageXOffset);
 
 ### 1.4.5. [滚动：scrollTo，scrollBy，scrollIntoView](https://zh.javascript.info/size-and-scroll-window#window-scroll)
 
-重要：
+<mark style="background: #FF5582A6;">小结：滚动window.scrollBy/scrollTo</mark>
+
+**重要：**
 
 必须在 DOM 完全构建好之后才能通过 JavaScript 滚动页面。
 
@@ -156,6 +166,8 @@ alert('当前已从左侧滚动：' + window.pageXOffset);
 
 ### 1.4.6. [scrollIntoView](https://zh.javascript.info/size-and-scroll-window#scrollintoview)
 
+<mark style="background: #FF5582A6;">小结：对 `elem.scrollIntoView(top)` 的调用将滚动页面以使 `elem` 可见</mark>
+
 为了完整起见，让我们再介绍一种方法：[elem.scrollIntoView(top)](https://developer.mozilla.org/zh/docs/Web/API/Element/scrollIntoView)。
 
 对 `elem.scrollIntoView(top)` 的调用将滚动页面以使 `elem` 可见。它有一个参数：
@@ -166,10 +178,12 @@ alert('当前已从左侧滚动：' + window.pageXOffset);
 下面这个按钮会滚动页面，以使其自身定位在窗口顶部：
 
 this.scrollIntoView()
+![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/20231220085533.png)
 
 下面这个按钮会滚动页面，以使其自身定位在窗口底部：
 
 this.scrollIntoView(false)
+![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/20231220085550.png)
 
 ### 1.4.7. [禁止滚动](https://zh.javascript.info/size-and-scroll-window#jin-zhi-gun-dong)
 
@@ -180,18 +194,59 @@ this.scrollIntoView(false)
 试一试：
 
 document.body.style.overflow = ‘hidden’
+![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/20231220085912.png)
 
 document.body.style.overflow = ‘’
+![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/20231220085929.png)
 
 第一个按钮用于冻结滚动，第二个按钮则用于恢复滚动。
 
 我们还可以使用相同的技术来冻结其他元素的滚动，而不仅仅是 `document.body`。
 
-这个方法的缺点是会使滚动条消失。如果滚动条占用了一些空间，它原本占用的空间就会空出来，那么内容就会“跳”进去以填充它。
+这个方法的缺点是会使滚动条消失。**如果滚动条占用了一些空间，它原本占用的空间就会空出来，那么内容就会“跳”进去以填充它。**
 
-这看起来有点奇怪，但是我们可以对比冻结前后的 `clientWidth`。如果它增加了（滚动条消失后），那么我们可以在 `document.body` 中滚动条原来的位置处通过添加 `padding`，来替代滚动条，这样这个问题就解决了。保持了滚动条冻结前后文档内容宽度相同。
+这看起来有点奇怪，**但是我们可以对比冻结前后的 `clientWidth`。如果它增加了（滚动条消失后），那么我们可以在 `document.body` 中滚动条原来的位置处通过添加 `padding`，来替代滚动条，这样这个问题就解决了。保持了滚动条冻结前后文档内容宽度相同。**
 
-## 1.5. [总结](https://zh.javascript.info/size-and-scroll-window#zong-jie)
+AI问题：
+一个按钮A，点击后，隐藏滚动条，一个按钮B，点击后回复滚动条。
+但是我们可以对比冻结前后的 clientWidth。如果它增加了（滚动条消失后），那么我们可以在 document.body 中滚动条原来的位置处通过添加 padding，来替代滚动条，这样这个问题就解决了。保持了滚动条冻结前后文档内容宽度相同。滚动条存在，取消padding，滚动条消失，添加padding
+
+人为干预之后的答案：可以解决问题
+```js
+// 隐藏滚动条并添加 padding
+function hideScrollbar() {
+  const beforeWidth = document.documentElement.clientWidth;
+  document.body.style.overflow = 'hidden'; // 隐藏滚动条
+  const afterWidth = document.documentElement.clientWidth;
+  if (afterWidth !== beforeWidth) {
+    const scrollbarWidth = beforeWidth - afterWidth;
+    document.body.style.paddingRight = Math.abs(scrollbarWidth) + 'px';
+  }
+}
+
+// 恢复滚动条并取消 padding
+function showScrollbar() {
+  document.body.style.overflow = ''; // 恢复滚动条
+  document.body.style.paddingRight = '';
+}
+
+// 监听按钮 A 的点击事件
+const buttonA = document.createElement('button');
+document.body.prepend(buttonA)
+buttonA.textContent='buttonA'
+buttonA.addEventListener('click', function() {
+  hideScrollbar();
+});
+
+// 监听按钮 B 的点击事件
+const buttonB = document.createElement('button');
+buttonB.textContent='buttonB'
+document.body.prepend(buttonB)
+buttonB.addEventListener('click', function() {
+  showScrollbar();
+});
+```
+### 1.4.8. [总结](https://zh.javascript.info/size-and-scroll-window#zong-jie)
 
 几何：
 
