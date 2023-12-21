@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "vim使用技巧",
-      "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
+      "basename": "dragenter",
+      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/dragenter.md"
     },
     {
       "basename": "鼠标拖放事件",
       "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/鼠标拖放事件.md"
+    },
+    {
+      "basename": "html5 拖拽 demo",
+      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/html5 拖拽 demo.md"
+    },
+    {
+      "basename": "vim使用技巧",
+      "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
     },
     {
       "basename": "2023年51周记录",
@@ -191,14 +199,6 @@
     {
       "basename": "VMware Workstation",
       "path": "020 - 工作学习/学习/后端/VMware Workstation安装虚拟机/VMware Workstation.md"
-    },
-    {
-      "basename": "2023年12月07日",
-      "path": "000 - 每日日记/DailyNote/2023年12月07日.md"
-    },
-    {
-      "basename": "bash",
-      "path": "020 - 工作学习/学习/后端/bash/bash.md"
     }
   ],
   "omittedPaths": [],

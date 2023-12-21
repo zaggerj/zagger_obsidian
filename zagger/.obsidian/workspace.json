@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/鼠标拖放事件.md",
+                "file": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/dragenter.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "c2ee1f598a74ff49",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
+                "file": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/dragenter.md"
               }
             }
           },
@@ -207,7 +207,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
+                "file": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/dragenter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -224,7 +224,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
+                "file": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/dragenter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,7 +236,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
+                "file": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/dragenter.md"
               }
             }
           },
@@ -266,8 +266,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 8
+        ]
       },
       {
         "id": "888c3f3084370af3",
@@ -316,9 +315,12 @@
       "local-backup:Run local backup": false
     }
   },
-  "active": "67782a6e0a9fdc2e",
+  "active": "60f931c5f80841ed",
   "lastOpenFiles": [
     "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/鼠标拖放事件.md",
+    "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/dragenter.md",
+    "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/html5 拖拽 demo.md",
+    "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
     "000 - 每日日记/WeeklyNote/2023年51周记录.md",
     "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/移动鼠标：mouseover、out，mouseenter、leave.md",
     "000 - 每日日记/DailyNote/2023年12月20日.md",
@@ -343,9 +345,6 @@
     "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/特性和属性（Attributes and properties）.md",
     "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/节点属性：type，tag 和 content.md",
     "040 - Obsidian/主页/稍后阅读.md",
-    "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/遍历 DOM.md",
-    "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/搜索：getElementxx，querySelectorxx.md",
-    "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/DOM 树.md",
     "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document",
     "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口"
   ]
