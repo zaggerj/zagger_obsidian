@@ -294,6 +294,28 @@ coc.nvim:registry=https://registry.npmmirror.com/
 [Using-coc-extensions](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions)
 [coc.nvim](https://github.com/neoclide/coc.nvim/wiki)
 [Thoughts on coc.nvim - Meet @fannheyward](https://fann.im/blog/2021/08/01/thoughts-on-coc.nvim/)
+
+
+#### 1.4.6.33. **保存文件前显示差异** `:w !diff % -`
+我们将上述命令拆解来看：
+
+- :w 用于保存/写入，在这个特定场景中，如果命令中没有指定文件名，则输出将写入STDIN（标准输入）文件；
+- :!<command> 是执行 shell 命令的语法，在这个例子中，我们在 shell 中运行 diff 命令；
+- % 表示未修改的当前文件的名称；试试这个：:!echo %
+- - 是 diff 命令的 STDIN 文件。
+
+因此，该命令首先将所有[未保存]内容写入STDIN文件。然后diff命令读取当前文件（%）并将其与STDIN（-）文件进行比较。
+
+这个命令大致等同于这个shell命令：`diff <original-file> <Vim's STDOUT>`
+
+#### 1.4.6.34. **以正确的缩进深度开始书写**
+
+假设光标在第一行第一列，但是所要写的内容需要缩进，那在不按下制表符（tab）和空格键的情况下，应该怎样做呢？
+
+答案是在正常模式下按下 S 键。
+
+当光标位于行的第一列时，按Esc键进入正常模式。然后按S（大写）键，这会将光标移动到适当的缩进深度，并自动进入“插入”模式，以便开始键入。
+
 # 2. 相关文章
 
 _摘抄来源，引用出处，参考链接，文档查询_
