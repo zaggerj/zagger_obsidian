@@ -31,6 +31,7 @@ Summary::
 ## 1.3. 自我重述
 
 _用自己的话去重述提取的重点内容_
+![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/20231221112534.png)
 
 ## 1.4. 重点摘抄
 
