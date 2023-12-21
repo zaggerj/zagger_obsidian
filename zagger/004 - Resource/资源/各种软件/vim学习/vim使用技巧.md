@@ -316,6 +316,34 @@ coc.nvim:registry=https://registry.npmmirror.com/
 
 当光标位于行的第一列时，按Esc键进入正常模式。然后按S（大写）键，这会将光标移动到适当的缩进深度，并自动进入“插入”模式，以便开始键入。
 
+
+`i`就是选择内部，`a`就是连带结对符（此处先把单词两旁的空格也当成结对符吧）
+```vim
+gf #找到定义文件
+g; #找到上次编辑的地方
+
+`[ 上次粘贴的地方
+
+
+# vim.sneak
+' + 加上关键字两个往下调
+backspace + 加上关键字两个往上
+
+daf function coc
+leader+gll [或]+m 切换下一个diff
+Git log --oneline
+Git log -p % [[ ]] 跳转段落
+# 最佳方式，但是会卡
+Gclog 
+
+```
+![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/20231221172513.png)
+[GitHub - tpope/vim-fugitive: fugitive.vim: A Git wrapper so awesome, it should be illegal](https://github.com/tpope/vim-fugitive)
+[GitHub - justinmk/vim-sneak: The missing motion for Vim :athletic\_shoe:](https://github.com/justinmk/vim-sneak)
+[Archived · nvim-tree/nvim-tree.lua Wiki · GitHub](https://github.com/nvim-tree/nvim-tree.lua/wiki/Archived#example)
+[12个 vim 编辑器的高级玩法 - 知乎](https://zhuanlan.zhihu.com/p/661568998)
+[vim的高级用法\_vim高级用法-CSDN博客](https://blog.csdn.net/qq_49286390/article/details/107342848)
+[vim教程之基本使用 - 知乎](https://zhuanlan.zhihu.com/p/601390879)
 # 2. 相关文章
 
 _摘抄来源，引用出处，参考链接，文档查询_
