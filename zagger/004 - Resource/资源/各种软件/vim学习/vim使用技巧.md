@@ -384,6 +384,9 @@ Gclog
 [上手Coc.nvim 完全指南-CSDN博客](https://blog.csdn.net/weixin_39130261/article/details/118490351)
 
 #### 1.4.6.43. 折叠 zc zo 折叠当前块 nvim-ufo zM 折叠所有 zR 打开折叠
+
+#### 1.4.6.44. gitsigns 插件 配置
+[GitHub - lewis6991/gitsigns.nvim: Git integration for buffers](https://github.com/lewis6991/gitsigns.nvim)
 # 2. 相关文章
 
 _摘抄来源，引用出处，参考链接，文档查询_
