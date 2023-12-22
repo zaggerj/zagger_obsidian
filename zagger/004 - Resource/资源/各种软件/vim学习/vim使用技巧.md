@@ -365,7 +365,7 @@ Gclog
 
 #### 1.4.6.40. Comment.nvim 
 [GitHub - numToStr/Comment.nvim: :brain: // Smart and powerful comment plugin for neovim. Supports treesitter, dot repeat, left-right/up-down motions, hooks, and more](https://github.com/numToStr/Comment.nvim)
-### 1.4.7. ✨ Features
+ **✨ Features**
 
 - Supports treesitter. [Read more](https://github.com/numToStr/Comment.nvim#treesitter)
 - Supports `commentstring`. Read `:h comment.commentstring`
@@ -376,6 +376,14 @@ Gclog
 - Use with text-objects (`gci{` `gbat`)
 - Supports pre and post hooks
 - Ignore certain lines, powered by Lua regex
+
+#### 1.4.6.41. :source % 重新应用init.vim
+
+#### 1.4.6.42. CocInstall coc-marketplace lua 选择coc-sumneko-lua 就可以了
+
+[上手Coc.nvim 完全指南-CSDN博客](https://blog.csdn.net/weixin_39130261/article/details/118490351)
+
+#### 1.4.6.43. 折叠 zc zo 折叠当前块 nvim-ufo zM 折叠所有 zR 打开折叠
 # 2. 相关文章
 
 _摘抄来源，引用出处，参考链接，文档查询_
