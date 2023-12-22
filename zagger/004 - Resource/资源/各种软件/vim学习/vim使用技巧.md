@@ -319,11 +319,14 @@ coc.nvim:registry=https://registry.npmmirror.com/
 
 `i`就是选择内部，`a`就是连带结对符（此处先把单词两旁的空格也当成结对符吧）
 ```vim
+gcc 快捷注释
+
 gf #找到定义文件
 g; #找到上次编辑的地方
 
 `[ 上次粘贴的地方
 
+leader fs 打开配置文件
 
 # vim.sneak
 ' + 加上关键字两个往下调
@@ -335,7 +338,6 @@ Git log --oneline
 Git log -p % [[ ]] 跳转段落
 # 最佳方式，但是会卡
 Gclog 
-
 ```
 ![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/20231221172513.png)
 [GitHub - tpope/vim-fugitive: fugitive.vim: A Git wrapper so awesome, it should be illegal](https://github.com/tpope/vim-fugitive)
@@ -344,6 +346,14 @@ Gclog
 [12个 vim 编辑器的高级玩法 - 知乎](https://zhuanlan.zhihu.com/p/661568998)
 [vim的高级用法\_vim高级用法-CSDN博客](https://blog.csdn.net/qq_49286390/article/details/107342848)
 [vim教程之基本使用 - 知乎](https://zhuanlan.zhihu.com/p/601390879)
+[GitHub - nvim-telescope/telescope.nvim: Find, Filter, Preview, Pick. All lua, all the time.](https://github.com/nvim-telescope/telescope.nvim?tab=readme-ov-file#usage)
+
+
+#### 1.4.6.35. TSInstall html 没有安装导致配置# `nvim-ts-context-commentstring`没有效果
+[search](https://github.com/search?q=treesitter+comment&type=repositories)
+[plugins.lua](https://github.com/siduck/dotfiles/blob/c03d41c29ce70211f523c92e7414fa27f6163f10/nvchad/custom/plugins.lua#L105)
+[GitHub - JoosepAlviste/nvim-ts-context-commentstring: Neovim treesitter plugin for setting the commentstring based on the cursor location in a file.](https://github.com/JoosepAlviste/nvim-ts-context-commentstring?tab=readme-ov-file)
+[Integrations · JoosepAlviste/nvim-ts-context-commentstring Wiki · GitHub](https://github.com/JoosepAlviste/nvim-ts-context-commentstring/wiki/Integrations#commentnvim)
 # 2. 相关文章
 
 _摘抄来源，引用出处，参考链接，文档查询_

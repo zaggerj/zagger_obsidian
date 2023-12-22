@@ -5,16 +5,24 @@
       "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
     },
     {
+      "basename": "键盘：keydown 和 keyup",
+      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/键盘：keydown 和 keyup.md"
+    },
+    {
+      "basename": "指针事件",
+      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/指针事件.md"
+    },
+    {
+      "basename": "2023年12月22日",
+      "path": "000 - 每日日记/DailyNote/2023年12月22日.md"
+    },
+    {
       "basename": "2023年12月21日",
       "path": "000 - 每日日记/DailyNote/2023年12月21日.md"
     },
     {
       "basename": "两种原生拖拽",
       "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/两种原生拖拽.md"
-    },
-    {
-      "basename": "指针事件",
-      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/指针事件.md"
     },
     {
       "basename": "2023年12月20日",
@@ -191,14 +199,6 @@
     {
       "basename": "sed man",
       "path": "020 - 工作学习/学习/后端/linux/sed man.md"
-    },
-    {
-      "basename": "sed",
-      "path": "020 - 工作学习/学习/后端/linux/sed.md"
-    },
-    {
-      "basename": "personal token",
-      "path": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md"
     }
   ],
   "omittedPaths": [],
