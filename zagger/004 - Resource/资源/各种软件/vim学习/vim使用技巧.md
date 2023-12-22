@@ -359,6 +359,23 @@ Gclog
 [[Bug]: nvim-treesitter[jsonc]: Error during tarball extraction · Issue #1578 · LunarVim/LunarVim · GitHub](https://github.com/LunarVim/LunarVim/issues/1578)
 
 #### 1.4.6.37. daf dif 生效 需要 treesittor安装好
+
+#### 1.4.6.38. 注释块 gcaf gcif
+#### 1.4.6.39. 注释大块 gciB gcaB
+
+#### 1.4.6.40. Comment.nvim 
+[GitHub - numToStr/Comment.nvim: :brain: // Smart and powerful comment plugin for neovim. Supports treesitter, dot repeat, left-right/up-down motions, hooks, and more](https://github.com/numToStr/Comment.nvim)
+### 1.4.7. ✨ Features
+
+- Supports treesitter. [Read more](https://github.com/numToStr/Comment.nvim#treesitter)
+- Supports `commentstring`. Read `:h comment.commentstring`
+- Supports line (`//`) and block (`/* */`) comments
+- Dot (`.`) repeat support for `gcc`, `gbc` and friends
+- Count support for `[count]gcc` and `[count]gbc`
+- Left-right (`gcw` `gc$`) and Up-Down (`gc2j` `gc4k`) motions
+- Use with text-objects (`gci{` `gbat`)
+- Supports pre and post hooks
+- Ignore certain lines, powered by Lua regex
 # 2. 相关文章
 
 _摘抄来源，引用出处，参考链接，文档查询_
