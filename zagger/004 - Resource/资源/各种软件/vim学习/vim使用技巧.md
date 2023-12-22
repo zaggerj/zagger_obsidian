@@ -354,6 +354,11 @@ Gclog
 [plugins.lua](https://github.com/siduck/dotfiles/blob/c03d41c29ce70211f523c92e7414fa27f6163f10/nvchad/custom/plugins.lua#L105)
 [GitHub - JoosepAlviste/nvim-ts-context-commentstring: Neovim treesitter plugin for setting the commentstring based on the cursor location in a file.](https://github.com/JoosepAlviste/nvim-ts-context-commentstring?tab=readme-ov-file)
 [Integrations · JoosepAlviste/nvim-ts-context-commentstring Wiki · GitHub](https://github.com/JoosepAlviste/nvim-ts-context-commentstring/wiki/Integrations#commentnvim)
+
+#### 1.4.6.36. TSInstall all 报错 有四个一直安装不了
+[[Bug]: nvim-treesitter[jsonc]: Error during tarball extraction · Issue #1578 · LunarVim/LunarVim · GitHub](https://github.com/LunarVim/LunarVim/issues/1578)
+
+#### 1.4.6.37. daf dif 生效 需要 treesittor安装好
 # 2. 相关文章
 
 _摘抄来源，引用出处，参考链接，文档查询_
