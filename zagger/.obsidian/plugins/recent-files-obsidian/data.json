@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "personal token",
+      "path": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md"
+    },
+    {
+      "basename": "汇总所有在线文档",
+      "path": "020 - 工作学习/工作/汇总所有在线文档.md"
+    },
+    {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "a 汇总所有在线文档",
+      "path": "020 - 工作学习/非开发/其他/a 汇总所有在线文档.md"
+    },
+    {
+      "basename": "记事本",
+      "path": "020 - 工作学习/学习/前端/前端杂项/记事本.md"
+    },
+    {
       "basename": "2023年12月22日",
       "path": "000 - 每日日记/DailyNote/2023年12月22日.md"
     },
@@ -43,10 +63,6 @@
     {
       "basename": "slider demo",
       "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/slider demo.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "dragenter",
@@ -145,10 +161,6 @@
       "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/1.13 `模块`.md"
     },
     {
-      "basename": "汇总所有在线文档",
-      "path": "020 - 工作学习/工作/汇总所有在线文档.md"
-    },
-    {
       "basename": "翻墙清单",
       "path": "004 - Resource/资源/翻墙/翻墙清单.md"
     },
@@ -159,10 +171,6 @@
     {
       "basename": "a docker实战 - 禅道卫士维护 2023.0606",
       "path": "020 - 工作学习/学习/后端/docker/a docker讲得比较好的文章/a docker实战 - 禅道卫士维护 2023.0606.md"
-    },
-    {
-      "basename": "记事本",
-      "path": "020 - 工作学习/学习/前端/前端杂项/记事本.md"
     },
     {
       "basename": "js学习计划",
@@ -191,14 +199,6 @@
     {
       "basename": "仓库优化思路梳理",
       "path": "020 - 工作学习/工作/工作计划/未完成工作计划/仓库优化思路梳理.md"
-    },
-    {
-      "basename": "vnc总览",
-      "path": "020 - 工作学习/学习/前端/vnc/vnc总览.md"
-    },
-    {
-      "basename": "00.linux学习清单",
-      "path": "020 - 工作学习/学习/后端/linux/00.linux学习清单.md"
     }
   ],
   "omittedPaths": [],
