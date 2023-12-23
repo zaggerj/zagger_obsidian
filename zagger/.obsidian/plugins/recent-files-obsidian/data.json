@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "vim使用技巧",
+      "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
+    },
+    {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "2023年12月23日",
+      "path": "000 - 每日日记/DailyNote/2023年12月23日.md"
+    },
+    {
       "basename": "personal token",
       "path": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md"
     },
     {
       "basename": "汇总所有在线文档",
       "path": "020 - 工作学习/工作/汇总所有在线文档.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "a 汇总所有在线文档",
@@ -27,10 +35,6 @@
     {
       "basename": "键盘：keydown 和 keyup",
       "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/键盘：keydown 和 keyup.md"
-    },
-    {
-      "basename": "vim使用技巧",
-      "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
     },
     {
       "basename": "a 服务器相关命令",
@@ -195,10 +199,6 @@
     {
       "basename": "2023年12月16日",
       "path": "000 - 每日日记/DailyNote/2023年12月16日.md"
-    },
-    {
-      "basename": "仓库优化思路梳理",
-      "path": "020 - 工作学习/工作/工作计划/未完成工作计划/仓库优化思路梳理.md"
     }
   ],
   "omittedPaths": [],
