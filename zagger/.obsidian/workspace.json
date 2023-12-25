@@ -66,7 +66,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/WeeklyNote/2023年52周记录.md"
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
               }
             }
           },
@@ -193,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/WeeklyNote/2023年52周记录.md",
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/WeeklyNote/2023年52周记录.md",
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +223,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/WeeklyNote/2023年52周记录.md"
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
               }
             }
           },
@@ -302,11 +303,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "03ded7b159e52380",
+  "active": "37b2360993249542",
   "lastOpenFiles": [
     "000 - 每日日记/DailyNote/2023年12月25日.md",
-    "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
     "000 - 每日日记/WeeklyNote/2023年52周记录.md",
+    "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
     "000 - 每日日记/DailyNote/2023年12月24日.md",
     "040 - Obsidian/主页/00. 主页.md",
     "000 - 每日日记/DailyNote/2023年12月23日.md",
