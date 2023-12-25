@@ -387,6 +387,21 @@ Gclog
 
 #### 1.4.6.44. gitsigns 插件 配置
 [GitHub - lewis6991/gitsigns.nvim: Git integration for buffers](https://github.com/lewis6991/gitsigns.nvim)
+
+```vim
+gcaf
+注释掉了整个on_attach代码
+```
+#### 1.4.6.45. fugitive插件工作流 完美替换lazygit插件
+```vim
+" 进入git status 查看状态
+:G
+a 切换 git add 状态
+dd 查看diff文件差别
+cc 提交 git commit 信息
+:Git push 进行远程提交
+```
+
 # 2. 相关文章
 
 _摘抄来源，引用出处，参考链接，文档查询_
