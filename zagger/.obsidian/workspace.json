@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月26日.md",
+                "file": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice异常断开.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -122,8 +122,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "73db95bfb166faa1",
@@ -169,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月26日.md"
+                "file": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice异常断开.md"
               }
             }
           },
@@ -195,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月26日.md",
+                "file": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice异常断开.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月26日.md",
+                "file": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice异常断开.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,7 +223,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月26日.md"
+                "file": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice异常断开.md"
               }
             }
           },
@@ -306,13 +305,15 @@
   },
   "active": "5cf32519863d9fc1",
   "lastOpenFiles": [
-    "020 - 工作学习/工作/工作计划/有成果的工作/剩余未联调的模块.md",
+    "040 - Obsidian/主页/00. 主页.md",
+    "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice异常断开.md",
+    "040 - Obsidian/附件/172.16.201.96-1703553952199.log",
     "000 - 每日日记/DailyNote/2023年12月26日.md",
+    "020 - 工作学习/工作/工作计划/有成果的工作/剩余未联调的模块.md",
     "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
     "000 - 每日日记/DailyNote/2023年12月25日.md",
     "000 - 每日日记/WeeklyNote/2023年52周记录.md",
     "000 - 每日日记/DailyNote/2023年12月24日.md",
-    "040 - Obsidian/主页/00. 主页.md",
     "000 - 每日日记/DailyNote/2023年12月23日.md",
     "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/键盘：keydown 和 keyup.md",
     "000 - 每日日记/DailyNote/2023年12月22日.md",
@@ -330,8 +331,6 @@
     "000 - 每日日记/WeeklyNote/2023年51周记录.md",
     "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/html5 拖拽 demo.md",
     "040 - Obsidian/主页/00. 文件管理.md",
-    "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/事件/浏览器事件简介.md",
-    "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/事件/浏览器默认行为.md",
     "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件",
     "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/事件",
     "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document",

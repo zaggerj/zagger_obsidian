@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "spice异常断开",
+      "path": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice异常断开.md"
+    },
+    {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
       "basename": "2023年12月26日",
       "path": "000 - 每日日记/DailyNote/2023年12月26日.md"
     },
@@ -23,10 +31,6 @@
     {
       "basename": "2023年12月24日",
       "path": "000 - 每日日记/DailyNote/2023年12月24日.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "2023年12月22日",
@@ -195,10 +199,6 @@
     {
       "basename": "彻底理解编译器工作原理",
       "path": "060 - 临时/彻底理解编译器工作原理.md"
-    },
-    {
-      "basename": "替换为外网地址",
-      "path": "060 - 临时/替换为外网地址.md"
     }
   ],
   "omittedPaths": [],
