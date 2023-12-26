@@ -4,37 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "7214e84ad40b93ba",
+        "id": "054c9d1ed41f6ea5",
         "type": "tabs",
         "children": [
           {
-            "id": "fc0c45d6019e85d6",
+            "id": "2e15081f63660ccc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
-            "id": "5cf32519863d9fc1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice异常断开.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5ed25145b95caf05",
+            "id": "0ce5cad87b1a79a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -47,39 +29,7 @@
             }
           }
         ],
-        "currentTab": 2
-      },
-      {
-        "id": "0b7d046712c569ec",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "03ded7b159e52380",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/WeeklyNote/2023年52周记录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "37b2360993249542",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ]
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -245,7 +195,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
@@ -258,7 +210,7 @@
             }
           },
           {
-            "id": "6632a66a1469f6fb",
+            "id": "ba553d6cb591866f",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -266,7 +218,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 8
       },
       {
         "id": "888c3f3084370af3",
@@ -315,7 +267,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "5ed25145b95caf05",
+  "active": "0ce5cad87b1a79a2",
   "lastOpenFiles": [
     "000 - 每日日记/WeeklyNote/2023年52周记录.md",
     "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice异常断开.md",
