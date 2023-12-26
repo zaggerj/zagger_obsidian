@@ -47,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "0b7d046712c569ec",
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice异常断开.md"
+                "file": "000 - 每日日记/DailyNote/2023年12月26日.md"
               }
             }
           },
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice异常断开.md",
+                "file": "000 - 每日日记/DailyNote/2023年12月26日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice异常断开.md",
+                "file": "000 - 每日日记/DailyNote/2023年12月26日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,7 +235,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice异常断开.md"
+                "file": "000 - 每日日记/DailyNote/2023年12月26日.md"
               }
             }
           },
@@ -315,12 +315,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "5cf32519863d9fc1",
+  "active": "5ed25145b95caf05",
   "lastOpenFiles": [
-    "000 - 每日日记/DailyNote/2023年12月26日.md",
     "000 - 每日日记/WeeklyNote/2023年52周记录.md",
-    "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
     "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice异常断开.md",
+    "000 - 每日日记/DailyNote/2023年12月26日.md",
+    "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
     "040 - Obsidian/主页/00. 主页.md",
     "040 - Obsidian/附件/172.16.201.96-1703553952199.log",
     "020 - 工作学习/工作/工作计划/有成果的工作/剩余未联调的模块.md",
