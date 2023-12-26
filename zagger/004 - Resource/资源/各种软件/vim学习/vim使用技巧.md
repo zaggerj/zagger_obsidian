@@ -446,3 +446,8 @@ Page Link::
 	22. [像 VSCode 一样设置 Neovim\_vim\_开源小助理-开源](https://devpress.csdn.net/opensource/62f42b9d7e668234661882d7.html)
 	23. [GitHub - preservim/nerdtree: A tree explorer plugin for vim.](https://github.com/preservim/nerdtree)
 	24. [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua/wiki/Recipes#git-stage-unstage-files-and-directories-from-the-tree)
+7. coc.nvim和nvim-lsp：
+	1. [# Thoughts on coc.nvim](https://fann.im/blog/2021/08/01/thoughts-on-coc.nvim/)
+	2. [nvim-lspconfig or coc.nvim : r/neovim](https://www.reddit.com/r/neovim/comments/p3ji6d/nvimlspconfig_or_cocnvim/?onetap_auto=true)
+	3. [Why is nobody using CoC anymore? : r/neovim](https://www.reddit.com/r/neovim/comments/14pvyo4/why_is_nobody_using_coc_anymore/)
+	4. [2023 年 vim 的 C/C++ 配置 | 工欲善其事,必先利其器](https://martins3.github.io/My-Linux-Config/docs/nvim.html#language-server-protocal)
