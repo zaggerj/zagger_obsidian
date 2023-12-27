@@ -36,9 +36,17 @@ _用自己的话去重述提取的重点内容_
 
 _摘抄部分原文后，进行筛选加粗然后对加粗的继续进行筛选荧光笔选出。_
 
-```sh
+1. 选单界面：使用快捷键：Ctrl+ALT+f1-f7 ，进入federo终端的命令行模式
+2. 使用账号：root，密码：3vclientroot 登录
+3. 使用命令：`find / -name '*flash*'`
+4. ![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/20231227183124.png)
 
-```
+
+![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/20231227190946.png)
+![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/20231227191010.png)
+
+![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/20231227191705.png)
+
 
 
 # 2. 相关文章
