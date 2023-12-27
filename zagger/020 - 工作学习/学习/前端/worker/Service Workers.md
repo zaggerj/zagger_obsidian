@@ -2,7 +2,7 @@
 created: 2023-11-03T22:29
 updated: 2023-11-03T22:29
 ---
-# 通过 Service workers 让 PWA 离线工作
+# 1. 通过 Service workers 让 PWA 离线工作
 
 * [上一页](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps/Tutorials/js13kGames/App_structure)
 * [Overview: js13kGames](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps/Tutorials/js13kGames)
@@ -10,7 +10,7 @@ updated: 2023-11-03T22:29
 
 　　我们已经看到了 js13kPWA 的结构，并且看到了 shell 启动和运行的基本方式，那么现在让我们把目光转向如何使用 Service Worker 实现离线功能。在本文，我们将看到它在 [js13kPWA example](https://mdn.github.io/pwa-examples/js13kpwa/) 中是如何使用的（[另请参阅源代码](https://github.com/mdn/pwa-examples/tree/main/js13kpwa)）。我们将研究如何添加脱机功能。
 
-## [Service Worker 解释](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Offline_Service_workers#service_worker_%E8%A7%A3%E9%87%8A)
+## 1.1. [Service Worker 解释](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Offline_Service_workers#service_worker_%E8%A7%A3%E9%87%8A)
 
 　　Service Worker 是浏览器和网络之间的虚拟代理。它们终于解决了前端开发人员多年来一直在努力解决的一些问题，其中最值得关注的是，解决了如何正确缓存网站资源并使其在离线时可用的问题。
 
@@ -18,21 +18,21 @@ updated: 2023-11-03T22:29
 
 　　它不仅仅提供离线功能，还可以做包括处理通知、在单独的线程上执行繁重的计算等事务。Service workers 非常强大，因为他们可以控制网络请求、修改网络请求、返回缓存的自定义响应，或者合成响应。
 
-### [安全](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Offline_Service_workers#%E5%AE%89%E5%85%A8)
+### 1.1.1. [安全](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Offline_Service_workers#%E5%AE%89%E5%85%A8)
 
 　　因为它们非常强大，所以 Service Worker 只能在安全的上下文中执行（即 HTTPS）。如果您想在将代码推送到生产环境之前先进行实验，则可以始终在本地主机上进行测试或设置 GitHub Pages，这两者都支持 HTTPS。
 
-## [离线优先](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Offline_Service_workers#%E7%A6%BB%E7%BA%BF%E4%BC%98%E5%85%88)
+## 1.2. [离线优先](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Offline_Service_workers#%E7%A6%BB%E7%BA%BF%E4%BC%98%E5%85%88)
 
 　　“离线优先”或“缓存优先”模式是向用户提供内容的最流行策略。如果资源已缓存且可脱机使用，就在尝试从服务器下载资源之前先将其返回；如果它已经不在缓存中，就下载并缓存以备将来使用。
 
-## [PWA 中的 P（渐进，Progressive）](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Offline_Service_workers#pwa_%E4%B8%AD%E7%9A%84_p%EF%BC%88%E6%B8%90%E8%BF%9B%EF%BC%8Cprogressive%EF%BC%89)
+## 1.3. [PWA 中的 P（渐进，Progressive）](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Offline_Service_workers#pwa_%E4%B8%AD%E7%9A%84_p%EF%BC%88%E6%B8%90%E8%BF%9B%EF%BC%8Cprogressive%EF%BC%89)
 
 　　Service Worker 当正确地作为渐进功能实装时，可以为支持其 API 的现代浏览器用户提供离线支持使其受益，但也不会使用旧版浏览器的用户造成负面影响。
 
-## [js13kPWA 应用程序中的 Service worker](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Offline_Service_workers#js13kpwa_%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E4%B8%AD%E7%9A%84_service_worker)
+## 1.4. [js13kPWA 应用程序中的 Service worker](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Offline_Service_workers#js13kpwa_%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E4%B8%AD%E7%9A%84_service_worker)
 
-### [注册 Service Worker](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Offline_Service_workers#%E6%B3%A8%E5%86%8C_service_worker)
+### 1.4.1. [注册 Service Worker](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Offline_Service_workers#%E6%B3%A8%E5%86%8C_service_worker)
 
 　　首先让我们看看在 app.js 文件中注册新 Service Worker 的代码：
 
@@ -46,11 +46,11 @@ if ("serviceWorker" in navigator) {
 
 　　如果浏览器支持 Service Workers API，则使用 [`ServiceWorkerContainer.register()`](https://developer.mozilla.org/zh-CN/docs/Web/API/ServiceWorkerContainer/register)​ 方法在该站点注册。其内容在 sw.js 文件中，可以在注册成功后执行。它是 app.js 文件中唯一与 Service Worker 有关的代码; 其他关于 Service Worker 的内容都写在 sw.js 文件中。
 
-### [Service Worker 的生命周期](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Offline_Service_workers#service_worker_%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F)
+### 1.4.2. [Service Worker 的生命周期](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Offline_Service_workers#service_worker_%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F)
 
 　　注册完成后，sw.js 文件会自动下载、安装，然后激活。
 
-#### 安装
+#### 1.4.2.1. 安装
 
 　　Service Workers API 允许我们为我们感兴趣的关键事件添加事件监听器 - 第一个是 `install`​ 事件：
 
@@ -128,11 +128,11 @@ self.addEventListener("install", function (e) {
 
 　　这里，我们使用给定的名字开启了一个缓存，并且将我们的应用所需要缓存的文件全部添加进去，当我们再次加载这些资源时，由请求 URL 确定的对应缓存就是可用的。
 
-#### 激活
+#### 1.4.2.2. 激活
 
 　　还有一个 `activate`​ 事件，它的用法跟 `install`​ 事件相同。这个事件通常用来删除那些我们已经不需要的文件或者做一些清理工作。因为在我们的 App 里面没有使用到，这里我们暂时跳过它。
 
-### [响应请求](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Offline_Service_workers#%E5%93%8D%E5%BA%94%E8%AF%B7%E6%B1%82)
+### 1.4.3. [响应请求](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Offline_Service_workers#%E5%93%8D%E5%BA%94%E8%AF%B7%E6%B1%82)
 
 　　​`fetch`​ 事件对我们很有用，它在每次应用发起 HTTP 请求的时候被触发。这个事件对我们来说非常有用，它允许我们拦截请求并对请求作出自定义的响应，下面是一个简单的例子：
 
@@ -178,7 +178,7 @@ self.addEventListener("fetch", function (e) {
 
 　　就是这样，我们的应用会在 install 触发时缓存资源，并且在 fetch 事件触发时返回缓存中的资源，这就是它甚至在离线状态下也能使用的原因。当我们添加新的内容时，它也会随时将其缓存下来。
 
-## [更新](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Offline_Service_workers#%E6%9B%B4%E6%96%B0)
+## 1.5. [更新](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Offline_Service_workers#%E6%9B%B4%E6%96%B0)
 
 　　还有一点需要考虑：当我们的应用有了一个新版本，并且它包含了一些可用的新资源时，我们应该如何去更新它的 Service Worker？我们存放在缓存名称中的版本号是这个问题的关键：
 
@@ -208,7 +208,7 @@ self.addEventListener("install", function (e) {
 
 　　这个时候一个新的 Service Worker 会在后台被安装，而旧的 Service Worker 仍然会正常运行，直到没有任何页面使用到它为止，这时候新的 Service Worker 将会被激活，然后接管所有的页面。
 
-## [缓存的清理](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Offline_Service_workers#%E7%BC%93%E5%AD%98%E7%9A%84%E6%B8%85%E7%90%86)
+## 1.6. [缓存的清理](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Offline_Service_workers#%E7%BC%93%E5%AD%98%E7%9A%84%E6%B8%85%E7%90%86)
 
 　　还记得我们前面跳过的那个 `activate`​ 事件吗？它可以用来清理那些我们不再需要的缓存：
 
@@ -232,11 +232,11 @@ self.addEventListener("activate", function (e) {
 
 　　这样能确保只有那些我们需要的文件会保留在缓存中，我们不需要留下任何的垃圾，毕竟[浏览器的缓存空间是有限的](https://developer.mozilla.org/zh-CN/docs/Web/API/Storage_API/Storage_quotas_and_eviction_criteria)，手动清理掉这些不需要的缓存是不错的主意。
 
-## [其他用途](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Offline_Service_workers#%E5%85%B6%E4%BB%96%E7%94%A8%E9%80%94)
+## 1.7. [其他用途](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Offline_Service_workers#%E5%85%B6%E4%BB%96%E7%94%A8%E9%80%94)
 
 　　从缓存中加载资源并不是 Service Worker 的唯一能力，如果你有比较耗时的计算，你可以把它们从主线程中抽离出来，在 Service Worker 中进行计算，最后在它们计算完毕的时候从 Service Worker 中取得计算结果。性能方面，你可以在 Service Worker 中对即将使用到的资源进行预加载，这样当你使用到这些资源的时候，应用的加载速度会更快。
 
-## [总结](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Offline_Service_workers#%E6%80%BB%E7%BB%93)
+## 1.8. [总结](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Offline_Service_workers#%E6%80%BB%E7%BB%93)
 
 　　在这篇文章中我们简单的了解了如何使用 Service Worker 让你的 PWA 实现离线功能。如果你想要学习更多关于 [Service Worker API](https://developer.mozilla.org/zh-CN/docs/Web/API/Service_Worker_API) 的概念，以及使用 Service Worker 方面的相关细节，你可以进一步查阅我们的文档。
 
@@ -244,6 +244,6 @@ self.addEventListener("activate", function (e) {
 
 　　‍
 
-# 参考文档
+# 2. 参考文档
 
 1. [通过 Service workers 让 PWA 离线工作 - 渐进式 Web 应用（PWA） | MDN (mozilla.org)](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Offline_Service_workers)

@@ -2,7 +2,7 @@
 created: 2023-11-03T22:29
 updated: 2023-11-03T22:29
 ---
-# Worker 
+# 1. Worker 
 
 　　‍
 
@@ -10,7 +10,7 @@ updated: 2023-11-03T22:29
 
 　　作者 | 阮一峰
 
-## 1、概述
+## 1.1. 1、概述
 
 　　JavaScript 语言采用的是单线程模型，也就是说，所有任务只能在一个线程上完成，一次只能做一件事。前面的任务没做完，后面的任务只能等着。随着电脑计算能力的增强，尤其是多核 CPU 的出现，单线程带来很大的不便，无法充分发挥计算机的计算能力。
 
@@ -46,9 +46,9 @@ updated: 2023-11-03T22:29
 
 　　Worker 线程无法读取本地文件，即不能打开本机的文件系统（file://），它所加载的脚本，必须来自网络。
 
-## 2、基本用法
+## 1.2. 2、基本用法
 
-### 2.1、主线程
+### 1.2.1. 2.1、主线程
 
 　　主线程采用new命令，调用Worker()构造函数，新建一个 Worker 线程。
 
@@ -88,7 +88,7 @@ function doSomething() {
 worker.terminate();
 ```
 
-### 2.2、Worker 线程
+### 1.2.2. 2.2、Worker 线程
 
 　　Worker 线程内部需要有一个监听函数，监听message事件。
 
@@ -135,7 +135,7 @@ self.addEventListener('message', function (e) {
 
 　　上面代码中，self.close()用于在 Worker 内部关闭自身。
 
-### 2.3、Worker 加载脚本
+### 1.2.3. 2.3、Worker 加载脚本
 
 　　Worker 内部如果要加载其他脚本，有一个专门的方法importScripts()。
 
@@ -149,7 +149,7 @@ importScripts('script1.js');
 importScripts('script1.js', 'script2.js');
 ```
 
-### 2.4、错误处理
+### 1.2.4. 2.4、错误处理
 
 　　主线程可以监听 Worker 是否发生错误。如果发生错误，Worker 会触发主线程的error事件。
 
@@ -168,7 +168,7 @@ worker.addEventListener('error', function (event) {
 
 　　Worker 内部也可以监听error事件。
 
-### 2.5、关闭 Worker
+### 1.2.5. 2.5、关闭 Worker
 
 　　使用完毕，为了节省系统资源，必须关闭 Worker。
 
@@ -180,7 +180,7 @@ worker.terminate();
 self.close();
 ```
 
-## 3、数据通信
+## 1.3. 3、数据通信
 
 　　前面说过，主线程与 Worker 之间的通信内容，可以是文本，也可以是对象。需要注意的是，这种通信是拷贝关系，即是传值而不是传址，Worker 对通信内容的修改，不会影响到主线程。
 
@@ -221,7 +221,7 @@ var ab = new ArrayBuffer(1);
 worker.postMessage(ab, [ab]);
 ```
 
-## 4、同页面的 Web Worker
+## 1.4. 4、同页面的 Web Worker
 
 　　通常情况下，Worker 载入的是一个单独的 JavaScript 脚本文件，但是也可以载入与主线程在同一个网页的代码。
 
@@ -253,7 +253,7 @@ worker.onmessage = function (e) {
 
 　　上面代码中，先将嵌入网页的脚本代码，转成一个二进制对象，然后为这个二进制对象生成 URL，再让 Worker 加载这个 URL。这样就做到了，主线程和 Worker 的代码都在同一个网页上面。
 
-## 5、实例：Worker 线程完成轮询
+## 1.5. 5、实例：Worker 线程完成轮询
 
 　　有时，浏览器需要轮询服务器状态，以便第一时间得知状态改变。这个工作可以放在 Worker 里面。
 
@@ -291,7 +291,7 @@ pollingWorker.postMessage('init');
 
 　　上面代码中，Worker 每秒钟轮询一次数据，然后跟缓存做比较。如果不一致，就说明服务端有了新的变化，因此就要通知主线程。
 
-## 6、实例：Worker 新建 Worker
+## 1.6. 6、实例：Worker 新建 Worker
 
 　　Worker 线程内部还能再新建 Worker 线程（目前只有 Firefox 浏览器支持）。下面的例子是将一个计算密集的任务，分配到10个 Worker。
 
@@ -361,9 +361,9 @@ function work() {
 }
 ```
 
-## 7、API
+## 1.7. 7、API
 
-### 7.1、主线程
+### 1.7.1. 7.1、主线程
 
 　　浏览器原生提供Worker()构造函数，用来供主线程生成 Worker 线程。
 
@@ -389,7 +389,7 @@ self.name // myWorker
 * Worker.postMessage()：向 Worker 线程发送消息。
 * Worker.terminate()：立即终止 Worker 线程。
 
-### 7.2、Worker 线程
+### 1.7.2. 7.2、Worker 线程
 
 　　Web Worker 有自己的全局对象，不是主线程的window，而是一个专门为 Worker 定制的全局对象。因此定义在window上面的对象和方法不是全部都可以使用。
 
@@ -408,7 +408,7 @@ self.name // myWorker
 
 　　​![图片](https://mmbiz.qpic.cn/mmbiz_png/eXCSRjyNYcbZsQ1cq1ic2HWhprhDVANpkwYZPwlAWolqAbQ6YzxPOqgpNiaIDicIicv1OWdmswmSEdDjrrUIdIcvzQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)​
 
-# 参考资料
+# 2. 参考资料
 
 1. [【JavaScript 教程】浏览器模型—Web Worker (qq.com)](https://mp.weixin.qq.com/s?__biz=MjM5MDA2MTI1MA==&mid=2649103699&idx=3&sn=fdf089603040e42bbd6f048505bc7f41&chksm=be583afe892fb3e850758f670b70047adf7a5416fc740b8173ffcdc381d20e4e1e4ee70ea092&scene=27)
 

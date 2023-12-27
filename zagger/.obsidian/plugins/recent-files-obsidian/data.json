@@ -5,12 +5,40 @@
       "path": "020 - 工作学习/工作/业务知识和难题/flash重定向项目/chrome扩展开发相关.md"
     },
     {
-      "basename": "2023年12月27日",
-      "path": "000 - 每日日记/DailyNote/2023年12月27日.md"
+      "basename": "coc.nvim",
+      "path": "004 - Resource/资源/各种软件/vim学习/vim插件/coc.nvim.md"
+    },
+    {
+      "basename": "find",
+      "path": "020 - 工作学习/学习/后端/linux/find.md"
+    },
+    {
+      "basename": "a 服务器相关命令",
+      "path": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
     },
     {
       "basename": "2023年12月26日",
       "path": "000 - 每日日记/DailyNote/2023年12月26日.md"
+    },
+    {
+      "basename": "2023年12月27日",
+      "path": "000 - 每日日记/DailyNote/2023年12月27日.md"
+    },
+    {
+      "basename": "Service Worker API",
+      "path": "020 - 工作学习/学习/前端/worker/mdn/Service Worker API.md"
+    },
+    {
+      "basename": "Worker-mdn",
+      "path": "020 - 工作学习/学习/前端/worker/mdn/Worker-mdn.md"
+    },
+    {
+      "basename": "Worker",
+      "path": "020 - 工作学习/学习/前端/worker/Worker.md"
+    },
+    {
+      "basename": "Service Workers",
+      "path": "020 - 工作学习/学习/前端/worker/Service Workers.md"
     },
     {
       "basename": "00. 主页",
@@ -47,10 +75,6 @@
     {
       "basename": "键盘：keydown 和 keyup",
       "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/键盘：keydown 和 keyup.md"
-    },
-    {
-      "basename": "a 服务器相关命令",
-      "path": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
     },
     {
       "basename": "两种原生拖拽",
@@ -175,30 +199,6 @@
     {
       "basename": "1.13 `模块`",
       "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/1.13 `模块`.md"
-    },
-    {
-      "basename": "汇总所有在线文档",
-      "path": "020 - 工作学习/工作/汇总所有在线文档.md"
-    },
-    {
-      "basename": "翻墙清单",
-      "path": "004 - Resource/资源/翻墙/翻墙清单.md"
-    },
-    {
-      "basename": "2023年12月18日",
-      "path": "000 - 每日日记/DailyNote/2023年12月18日.md"
-    },
-    {
-      "basename": "a docker实战 - 禅道卫士维护 2023.0606",
-      "path": "020 - 工作学习/学习/后端/docker/a docker讲得比较好的文章/a docker实战 - 禅道卫士维护 2023.0606.md"
-    },
-    {
-      "basename": "记事本",
-      "path": "020 - 工作学习/学习/前端/前端杂项/记事本.md"
-    },
-    {
-      "basename": "js学习计划",
-      "path": "020 - 工作学习/学习计划脚本/js学习计划.md"
     }
   ],
   "omittedPaths": [],
