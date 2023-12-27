@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "2023年12月27日",
+      "path": "000 - 每日日记/DailyNote/2023年12月27日.md"
+    },
+    {
       "basename": "2023年12月26日",
       "path": "000 - 每日日记/DailyNote/2023年12月26日.md"
+    },
+    {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "vim使用技巧",
+      "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
     },
     {
       "basename": "2023年52周记录",
@@ -11,14 +23,6 @@
     {
       "basename": "spice异常断开",
       "path": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice异常断开.md"
-    },
-    {
-      "basename": "vim使用技巧",
-      "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "剩余未联调的模块",
@@ -195,10 +199,6 @@
     {
       "basename": "学习清单链接",
       "path": "020 - 工作学习/学习计划脚本/学习清单链接.md"
-    },
-    {
-      "basename": "彻底理解编译器工作原理",
-      "path": "060 - 临时/彻底理解编译器工作原理.md"
     }
   ],
   "omittedPaths": [],

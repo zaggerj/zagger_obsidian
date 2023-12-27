@@ -405,6 +405,9 @@ cc 提交 git commit 信息
 #### 1.4.6.46. Server sh failed to start: Error: spawn UNKNOWN
 ![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/20231225162132.png)
 [[coc.nvim] Server sh failed to start: Error: spawn UNKNOWN · Issue #57 · josa42/coc-sh · GitHub](https://github.com/josa42/coc-sh/issues/57)
+
+#### 1.4.6.47. conform.nvim
+[GitHub - stevearc/conform.nvim: Lightweight yet powerful formatter plugin for Neovim](https://github.com/stevearc/conform.nvim)
 # 2. 相关文章
 
 _摘抄来源，引用出处，参考链接，文档查询_
