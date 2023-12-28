@@ -213,8 +213,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "73db95bfb166faa1",
@@ -260,7 +259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月27日.md"
+                "file": "000 - 每日日记/DailyNote/2023年12月28日.md"
               }
             }
           },
@@ -286,7 +285,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月27日.md",
+                "file": "000 - 每日日记/DailyNote/2023年12月28日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -303,7 +302,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月27日.md",
+                "file": "000 - 每日日记/DailyNote/2023年12月28日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -315,7 +314,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月27日.md"
+                "file": "000 - 每日日记/DailyNote/2023年12月28日.md"
               }
             }
           },
@@ -397,12 +396,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "f2b0ffe519625a29",
+  "active": "0dd5e1eee96d0fc4",
   "lastOpenFiles": [
+    "000 - 每日日记/DailyNote/2023年12月27日.md",
     "000 - 每日日记/DailyNote/2023年12月28日.md",
     "020 - 工作学习/学习/后端/linux/find.md",
     "020 - 工作学习/工作/业务知识和难题/flash重定向项目/nwjs开发相关.md",
-    "000 - 每日日记/DailyNote/2023年12月27日.md",
     "040 - Obsidian/主页/00. 主页.md",
     "000 - 每日日记/DailyNote/2023年12月26日.md",
     "020 - 工作学习/工作/业务知识和难题/flash重定向项目/终端上flash脚本.md",
