@@ -5,12 +5,24 @@
       "path": "000 - 每日日记/DailyNote/2023年12月29日.md"
     },
     {
-      "basename": "2023年52周记录",
-      "path": "000 - 每日日记/WeeklyNote/2023年52周记录.md"
+      "basename": "a 服务器相关命令",
+      "path": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
+    },
+    {
+      "basename": "2023年12月28日",
+      "path": "000 - 每日日记/DailyNote/2023年12月28日.md"
     },
     {
       "basename": "2023年51周记录",
       "path": "000 - 每日日记/WeeklyNote/2023年51周记录.md"
+    },
+    {
+      "basename": "2023年52周记录",
+      "path": "000 - 每日日记/WeeklyNote/2023年52周记录.md"
+    },
+    {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "2023年50周记录",
@@ -31,14 +43,6 @@
     {
       "basename": "2023年12月27日",
       "path": "000 - 每日日记/DailyNote/2023年12月27日.md"
-    },
-    {
-      "basename": "2023年12月28日",
-      "path": "000 - 每日日记/DailyNote/2023年12月28日.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "dragenter",
@@ -79,10 +83,6 @@
     {
       "basename": "coc.nvim",
       "path": "004 - Resource/资源/各种软件/vim学习/vim插件/coc.nvim.md"
-    },
-    {
-      "basename": "a 服务器相关命令",
-      "path": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
     },
     {
       "basename": "Worker",
