@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "054c9d1ed41f6ea5",
+        "id": "8ec2adca7ac11951",
         "type": "tabs",
         "children": [
           {
-            "id": "2e15081f63660ccc",
+            "id": "3f36e53f4c04ad29",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,131 +21,7 @@
             }
           },
           {
-            "id": "bf79e25c841fd43d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b7775d334ff49330",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/后端/linux/find.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4d77ce428ee70df8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月27日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
-        "id": "c0b7c417aac3c80b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6c946d05d94f990e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim插件/coc.nvim.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0f4f1303963c5351",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/前端/worker/mdn/Service Worker API.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e4865e7522e8f742",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/前端/worker/mdn/Worker-mdn.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fe979338f10c66b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/工作/业务知识和难题/flash重定向项目/终端上flash脚本.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e26e5aaa50632dff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/工作/业务知识和难题/flash重定向项目/nwjs开发相关.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "57ded1c6958b744a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0dd5e1eee96d0fc4",
+            "id": "772ca93c62166fc4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -156,9 +32,54 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1ad8b6c846d00e3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2023年12月29日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6c74ecb264009f8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/WeeklyNote/2023年52周记录.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
+      },
+      {
+        "id": "6fe1c031cf3e0aff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "685afa0218a64502",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/WeeklyNote/2023年52周记录.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,7 +117,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vue as",
+                "query": "tag:#工时",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -259,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月28日.md"
+                "file": "000 - 每日日记/DailyNote/2023年12月29日.md"
               }
             }
           },
@@ -285,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月28日.md",
+                "file": "000 - 每日日记/DailyNote/2023年12月29日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -302,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月28日.md",
+                "file": "000 - 每日日记/DailyNote/2023年12月29日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -314,7 +235,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月28日.md"
+                "file": "000 - 每日日记/DailyNote/2023年12月29日.md"
               }
             }
           },
@@ -339,7 +260,7 @@
             }
           },
           {
-            "id": "24356f428ffc8030",
+            "id": "897b9200353f6fe8",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -396,13 +317,15 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "0dd5e1eee96d0fc4",
+  "active": "1ad8b6c846d00e3f",
   "lastOpenFiles": [
-    "000 - 每日日记/DailyNote/2023年12月27日.md",
+    "000 - 每日日记/WeeklyNote/2023年52周记录.md",
+    "000 - 每日日记/DailyNote/2023年12月29日.md",
     "000 - 每日日记/DailyNote/2023年12月28日.md",
+    "040 - Obsidian/主页/00. 主页.md",
+    "000 - 每日日记/DailyNote/2023年12月27日.md",
     "020 - 工作学习/学习/后端/linux/find.md",
     "020 - 工作学习/工作/业务知识和难题/flash重定向项目/nwjs开发相关.md",
-    "040 - Obsidian/主页/00. 主页.md",
     "000 - 每日日记/DailyNote/2023年12月26日.md",
     "020 - 工作学习/工作/业务知识和难题/flash重定向项目/终端上flash脚本.md",
     "020 - 工作学习/工作/业务知识和难题/flash重定向项目/flash重定向.md",
@@ -419,7 +342,6 @@
     "020 - 工作学习/工作/远程、定制化/文本文件读取、图片裁剪上传分享.md",
     "020 - 工作学习/工作/业务知识和难题/flash重定向项目",
     "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
-    "000 - 每日日记/WeeklyNote/2023年52周记录.md",
     "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice异常断开.md",
     "040 - Obsidian/附件/172.16.201.96-1703553952199.log",
     "020 - 工作学习/工作/工作计划/有成果的工作/剩余未联调的模块.md",
@@ -427,7 +349,6 @@
     "000 - 每日日记/DailyNote/2023年12月24日.md",
     "000 - 每日日记/DailyNote/2023年12月23日.md",
     "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/键盘：keydown 和 keyup.md",
-    "000 - 每日日记/DailyNote/2023年12月22日.md",
     "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件",
     "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/事件",
     "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document",

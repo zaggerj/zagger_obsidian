@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "2023年12月29日",
+      "path": "000 - 每日日记/DailyNote/2023年12月29日.md"
+    },
+    {
+      "basename": "2023年52周记录",
+      "path": "000 - 每日日记/WeeklyNote/2023年52周记录.md"
+    },
+    {
       "basename": "2023年12月28日",
       "path": "000 - 每日日记/DailyNote/2023年12月28日.md"
+    },
+    {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "2023年12月27日",
@@ -15,10 +27,6 @@
     {
       "basename": "nwjs开发相关",
       "path": "020 - 工作学习/工作/业务知识和难题/flash重定向项目/nwjs开发相关.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "2023年12月26日",
@@ -63,10 +71,6 @@
     {
       "basename": "vim使用技巧",
       "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
-    },
-    {
-      "basename": "2023年52周记录",
-      "path": "000 - 每日日记/WeeklyNote/2023年52周记录.md"
     },
     {
       "basename": "spice异常断开",
@@ -195,10 +199,6 @@
     {
       "basename": "遍历 DOM",
       "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/遍历 DOM.md"
-    },
-    {
-      "basename": "搜索：getElementxx，querySelectorxx",
-      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/搜索：getElementxx，querySelectorxx.md"
     }
   ],
   "omittedPaths": [],
