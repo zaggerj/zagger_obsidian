@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8ec2adca7ac11951",
+        "id": "646cb227271bcdf5",
         "type": "tabs",
         "children": [
           {
-            "id": "3f36e53f4c04ad29",
+            "id": "9bb4e17f6e05c34e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +21,53 @@
             }
           },
           {
-            "id": "772ca93c62166fc4",
+            "id": "0cd175df8e2fd2d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2023年12月29日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "bfb4af1262df44e1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d7b0f62e994c51c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2023年12月27日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5e574bbfd7b8115b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/工作/业务知识和难题/远程问题/强制显示磁盘性能测试按钮.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1b3a376ac1fd0e7d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,12 +80,12 @@
             }
           },
           {
-            "id": "1ad8b6c846d00e3f",
+            "id": "70ddf7b28d632494",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月29日.md",
+                "file": "000 - 每日日记/WeeklyNote/2023年52周记录.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,12 +93,25 @@
             }
           },
           {
-            "id": "6c74ecb264009f8d",
+            "id": "0ed648065e50d593",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 - 每日日记/WeeklyNote/2023年52周记录.md",
+                "file": "000 - 每日日记/WeeklyNote/2023年51周记录.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5a3ff2cd6849c024",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/WeeklyNote/2023年50周记录.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,26 +119,7 @@
             }
           }
         ],
-        "currentTab": 2
-      },
-      {
-        "id": "6fe1c031cf3e0aff",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "685afa0218a64502",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/WeeklyNote/2023年52周记录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ]
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -117,7 +157,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#工时",
+                "query": "性能测试",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -131,6 +171,14 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "5ca620075b6a18da",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-tab-tree",
               "state": {}
             }
           }
@@ -164,7 +212,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5
+    "width": 275.5
   },
   "right": {
     "id": "49b0f6d6f173189c",
@@ -260,15 +308,14 @@
             }
           },
           {
-            "id": "897b9200353f6fe8",
+            "id": "8eb2ddc65691d6b8",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
               "state": {}
             }
           }
-        ],
-        "currentTab": 8
+        ]
       },
       {
         "id": "888c3f3084370af3",
@@ -281,8 +328,17 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "b6fec8d35877681a",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -290,7 +346,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "local-backup:Run local backup": false,
       "homepage:Open homepage": false,
+      "templater-obsidian:Templater": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -304,26 +362,30 @@
       "audio-recorder:开始/结束录音": false,
       "workspaces:管理工作区布局": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "cmdr:折叠": true,
-      "big-calendar:Big Calendar": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-day-planner:Timeline": false,
-      "templater-obsidian:Templater": false,
+      "cmdr:折叠": true,
+      "custom-sort:Toggle custom sorting": false,
+      "big-calendar:Big Calendar": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "omnisearch:Omnisearch": false,
-      "custom-sort:Toggle custom sorting": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "local-backup:Run local backup": false,
       "periodic-notes:Open today": false,
       "obsidian-memos:Memos": false
     }
   },
-  "active": "1ad8b6c846d00e3f",
+  "active": "0cd175df8e2fd2d1",
   "lastOpenFiles": [
     "000 - 每日日记/WeeklyNote/2023年52周记录.md",
+    "000 - 每日日记/WeeklyNote/2023年51周记录.md",
     "000 - 每日日记/DailyNote/2023年12月29日.md",
+    "000 - 每日日记/WeeklyNote/2023年50周记录.md",
+    "000 - 每日日记/DailyNote/2023年12月23日.md",
+    "000 - 每日日记/DailyNote/2023年12月24日.md",
+    "020 - 工作学习/工作/业务知识和难题/远程问题/强制显示磁盘性能测试按钮.md",
+    "000 - 每日日记/DailyNote/2023年12月27日.md",
     "000 - 每日日记/DailyNote/2023年12月28日.md",
     "040 - Obsidian/主页/00. 主页.md",
-    "000 - 每日日记/DailyNote/2023年12月27日.md",
+    "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/dragenter.md",
     "020 - 工作学习/学习/后端/linux/find.md",
     "020 - 工作学习/工作/业务知识和难题/flash重定向项目/nwjs开发相关.md",
     "000 - 每日日记/DailyNote/2023年12月26日.md",
@@ -342,13 +404,7 @@
     "020 - 工作学习/工作/远程、定制化/文本文件读取、图片裁剪上传分享.md",
     "020 - 工作学习/工作/业务知识和难题/flash重定向项目",
     "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
-    "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice异常断开.md",
     "040 - Obsidian/附件/172.16.201.96-1703553952199.log",
-    "020 - 工作学习/工作/工作计划/有成果的工作/剩余未联调的模块.md",
-    "000 - 每日日记/DailyNote/2023年12月25日.md",
-    "000 - 每日日记/DailyNote/2023年12月24日.md",
-    "000 - 每日日记/DailyNote/2023年12月23日.md",
-    "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/键盘：keydown 和 keyup.md",
     "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件",
     "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/事件",
     "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document",
