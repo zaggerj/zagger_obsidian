@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2024年01月01日",
+      "path": "000 - 每日日记/DailyNote/2024年01月01日.md"
+    },
+    {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
       "basename": "2023年12月29日",
       "path": "000 - 每日日记/DailyNote/2023年12月29日.md"
     },
@@ -19,10 +27,6 @@
     {
       "basename": "2023年52周记录",
       "path": "000 - 每日日记/WeeklyNote/2023年52周记录.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "2023年50周记录",
@@ -195,10 +199,6 @@
     {
       "basename": "修改文档（document）",
       "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/修改文档（document）.md"
-    },
-    {
-      "basename": "特性和属性（Attributes and properties）",
-      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/特性和属性（Attributes and properties）.md"
     }
   ],
   "omittedPaths": [],
