@@ -40,7 +40,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月28日.md",
+                "file": "000 - 每日日记/DailyNote/2024年01月02日.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -131,7 +131,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "73db95bfb166faa1",
@@ -177,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月28日.md"
+                "file": "000 - 每日日记/DailyNote/2024年01月02日.md"
               }
             }
           },
@@ -203,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月28日.md",
+                "file": "000 - 每日日记/DailyNote/2024年01月02日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月28日.md",
+                "file": "000 - 每日日记/DailyNote/2024年01月02日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -232,7 +233,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2023年12月28日.md"
+                "file": "000 - 每日日记/DailyNote/2024年01月02日.md"
               }
             }
           },
@@ -324,16 +325,16 @@
   },
   "active": "d4108a015da538ad",
   "lastOpenFiles": [
+    "000 - 每日日记/WeeklyNote/2024年01周记录.md",
+    "000 - 每日日记/DailyNote/2024年01月02日.md",
+    "000 - 每日日记/DailyNote/2023年12月28日.md",
     "000 - 每日日记/DailyNote/2023年12月29日.md",
     "000 - 每日日记/DailyNote/2023年12月30日.md",
-    "000 - 每日日记/DailyNote/2024年01月02日.md",
     "000 - 每日日记/DailyNote/2024年01月01日.md",
-    "000 - 每日日记/WeeklyNote/2024年01周记录.md",
     "000 - 每日日记/WeeklyNote/2023年52周记录.md",
     "000 - 每日日记/DailyNote/2023年12月31日.md",
     "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
-    "000 - 每日日记/DailyNote/2023年12月28日.md",
     "000 - 每日日记/WeeklyNote/2023年51周记录.md",
     "000 - 每日日记/WeeklyNote/2023年50周记录.md",
     "000 - 每日日记/DailyNote/2023年12月23日.md",
