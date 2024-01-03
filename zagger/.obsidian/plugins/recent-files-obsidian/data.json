@@ -1,20 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "2024年01周记录",
-      "path": "000 - 每日日记/WeeklyNote/2024年01周记录.md"
+      "basename": "shell脚本编写",
+      "path": "020 - 工作学习/学习/后端/bash/shell脚本编写.md"
     },
     {
-      "basename": "2023年12月22日",
-      "path": "000 - 每日日记/DailyNote/2023年12月22日.md"
+      "basename": "2024年01月03日",
+      "path": "000 - 每日日记/DailyNote/2024年01月03日.md"
+    },
+    {
+      "basename": "a 服务器相关命令",
+      "path": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
     },
     {
       "basename": "00. 主页",
       "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
-      "basename": "2024年01月03日",
-      "path": "000 - 每日日记/DailyNote/2024年01月03日.md"
+      "basename": "汇总所有在线文档",
+      "path": "020 - 工作学习/工作/汇总所有在线文档.md"
+    },
+    {
+      "basename": "2024年01周记录",
+      "path": "000 - 每日日记/WeeklyNote/2024年01周记录.md"
+    },
+    {
+      "basename": "2023年12月22日",
+      "path": "000 - 每日日记/DailyNote/2023年12月22日.md"
     },
     {
       "basename": "2024年01月02日",
@@ -43,10 +55,6 @@
     {
       "basename": "2023年12月31日",
       "path": "000 - 每日日记/DailyNote/2023年12月31日.md"
-    },
-    {
-      "basename": "a 服务器相关命令",
-      "path": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
     },
     {
       "basename": "2023年51周记录",
@@ -191,14 +199,6 @@
     {
       "basename": "事件委托",
       "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/事件/事件委托.md"
-    },
-    {
-      "basename": "冒泡和捕获",
-      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/事件/冒泡和捕获.md"
-    },
-    {
-      "basename": "Window 大小和滚动",
-      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/Document/Window 大小和滚动.md"
     }
   ],
   "omittedPaths": [],
