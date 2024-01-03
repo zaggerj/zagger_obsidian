@@ -118,8 +118,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "73db95bfb166faa1",
@@ -165,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月02日.md"
+                "file": "000 - 每日日记/WeeklyNote/2024年01周记录.md"
               }
             }
           },
@@ -191,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月02日.md",
+                "file": "000 - 每日日记/WeeklyNote/2024年01周记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月02日.md",
+                "file": "000 - 每日日记/WeeklyNote/2024年01周记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,7 +219,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月02日.md"
+                "file": "000 - 每日日记/WeeklyNote/2024年01周记录.md"
               }
             }
           },
@@ -310,11 +309,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "d4108a015da538ad",
+  "active": "bffe45689c792cb6",
   "lastOpenFiles": [
+    "000 - 每日日记/DailyNote/2024年01月02日.md",
     "040 - Obsidian/主页/00. 主页.md",
     "000 - 每日日记/WeeklyNote/2024年01周记录.md",
-    "000 - 每日日记/DailyNote/2024年01月02日.md",
     "000 - 每日日记/DailyNote/2023年12月28日.md",
     "000 - 每日日记/DailyNote/2023年12月29日.md",
     "000 - 每日日记/DailyNote/2023年12月30日.md",
