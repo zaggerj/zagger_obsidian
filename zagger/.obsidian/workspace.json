@@ -228,7 +228,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/WeeklyNote/2024年01周记录.md"
+                "file": "020 - 工作学习/学习/后端/bash/shell脚本编写.md"
               }
             }
           },
@@ -254,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/WeeklyNote/2024年01周记录.md",
+                "file": "020 - 工作学习/学习/后端/bash/shell脚本编写.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/WeeklyNote/2024年01周记录.md",
+                "file": "020 - 工作学习/学习/后端/bash/shell脚本编写.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -283,7 +283,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/WeeklyNote/2024年01周记录.md"
+                "file": "020 - 工作学习/学习/后端/bash/shell脚本编写.md"
               }
             }
           },
@@ -342,7 +342,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313
+    "width": 313,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -373,16 +374,16 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "71fa6f6a58f87e09",
+  "active": "71efbcdfad3d6b74",
   "lastOpenFiles": [
+    "000 - 每日日记/WeeklyNote/2024年01周记录.md",
+    "020 - 工作学习/学习/后端/bash/shell脚本编写.md",
     "000 - 每日日记/DailyNote/2024年01月03日.md",
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "020 - 工作学习/工作/远程、定制化/项目定制开发和远程.md",
     "000 - 每日日记/DailyNote/2024年01月04日.md",
-    "020 - 工作学习/学习/后端/bash/shell脚本编写.md",
     "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/工作/汇总所有在线文档.md",
-    "000 - 每日日记/WeeklyNote/2024年01周记录.md",
     "000 - 每日日记/DailyNote/2023年12月22日.md",
     "000 - 每日日记/DailyNote/2024年01月02日.md",
     "000 - 每日日记/DailyNote/2023年12月28日.md",
