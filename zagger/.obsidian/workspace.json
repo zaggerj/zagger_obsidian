@@ -41,12 +41,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "aaa7067b86a222e0",
+            "id": "4232535fe4f64b77",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月03日.md",
+                "file": "020 - 工作学习/工作/远程、定制化/项目定制开发和远程.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,8 +78,48 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "54fd083c118d9f28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2024年01月04日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "345081b6d125a9b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "12de70b20bcdb6a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2024年01月03日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,7 +228,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月03日.md"
+                "file": "000 - 每日日记/WeeklyNote/2024年01周记录.md"
               }
             }
           },
@@ -214,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月03日.md",
+                "file": "000 - 每日日记/WeeklyNote/2024年01周记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月03日.md",
+                "file": "000 - 每日日记/WeeklyNote/2024年01周记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +283,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月03日.md"
+                "file": "000 - 每日日记/WeeklyNote/2024年01周记录.md"
               }
             }
           },
@@ -333,11 +373,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "aaa7067b86a222e0",
+  "active": "71fa6f6a58f87e09",
   "lastOpenFiles": [
-    "020 - 工作学习/学习/后端/bash/shell脚本编写.md",
     "000 - 每日日记/DailyNote/2024年01月03日.md",
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
+    "020 - 工作学习/工作/远程、定制化/项目定制开发和远程.md",
+    "000 - 每日日记/DailyNote/2024年01月04日.md",
+    "020 - 工作学习/学习/后端/bash/shell脚本编写.md",
     "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/工作/汇总所有在线文档.md",
     "000 - 每日日记/WeeklyNote/2024年01周记录.md",
@@ -359,8 +401,6 @@
     "020 - 工作学习/学习/后端/linux/find.md",
     "020 - 工作学习/工作/业务知识和难题/flash重定向项目/nwjs开发相关.md",
     "000 - 每日日记/DailyNote/2023年12月26日.md",
-    "020 - 工作学习/工作/业务知识和难题/flash重定向项目/终端上flash脚本.md",
-    "020 - 工作学习/工作/业务知识和难题/flash重定向项目/flash重定向.md",
     "004 - Resource/资源/各种软件/vim学习/vim插件",
     "020 - 工作学习/学习/前端/worker/mdn",
     "020 - 工作学习/工作/业务知识和难题/flash重定向项目",
