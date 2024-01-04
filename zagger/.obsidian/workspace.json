@@ -188,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "020 - 工作学习/学习/后端/bash/shell脚本编写.md"
+                "file": "000 - 每日日记/DailyNote/2024年01月03日.md"
               }
             }
           },
@@ -214,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "020 - 工作学习/学习/后端/bash/shell脚本编写.md",
+                "file": "000 - 每日日记/DailyNote/2024年01月03日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "020 - 工作学习/学习/后端/bash/shell脚本编写.md",
+                "file": "000 - 每日日记/DailyNote/2024年01月03日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +243,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "020 - 工作学习/学习/后端/bash/shell脚本编写.md"
+                "file": "000 - 每日日记/DailyNote/2024年01月03日.md"
               }
             }
           },
@@ -333,10 +333,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "71efbcdfad3d6b74",
+  "active": "aaa7067b86a222e0",
   "lastOpenFiles": [
-    "000 - 每日日记/DailyNote/2024年01月03日.md",
     "020 - 工作学习/学习/后端/bash/shell脚本编写.md",
+    "000 - 每日日记/DailyNote/2024年01月03日.md",
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/工作/汇总所有在线文档.md",
