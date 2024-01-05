@@ -5,6 +5,14 @@
       "path": "000 - 每日日记/DailyNote/2024年01月05日.md"
     },
     {
+      "basename": "汇总所有在线文档",
+      "path": "020 - 工作学习/工作/汇总所有在线文档.md"
+    },
+    {
+      "basename": "shell脚本编写",
+      "path": "020 - 工作学习/学习/后端/bash/shell脚本编写.md"
+    },
+    {
       "basename": "2024年01月04日",
       "path": "000 - 每日日记/DailyNote/2024年01月04日.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "electron直接打开网址测试",
       "path": "020 - 工作学习/学习/前端/electron/electron直接打开网址测试.md"
-    },
-    {
-      "basename": "shell脚本编写",
-      "path": "020 - 工作学习/学习/后端/bash/shell脚本编写.md"
     },
     {
       "basename": "2024年01周记录",
@@ -39,10 +43,6 @@
     {
       "basename": "00. 主页",
       "path": "040 - Obsidian/主页/00. 主页.md"
-    },
-    {
-      "basename": "汇总所有在线文档",
-      "path": "020 - 工作学习/工作/汇总所有在线文档.md"
     },
     {
       "basename": "2023年12月22日",
