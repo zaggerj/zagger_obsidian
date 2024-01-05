@@ -56,3 +56,14 @@ Page Link::
 [ubuntu如何开放22端口 ubuntu22端口开启\_ubuntu开放22端口-CSDN博客](https://blog.csdn.net/m0_69057918/article/details/130585388)
 [Site Unreachable](https://dashen.wang/1082.html)
 [ubuntu22.04 磁盘分区以及深度学习环境的一些设置\_ubuntu22.04分区方案-CSDN博客](https://blog.csdn.net/qq_41102636/article/details/129903083)
+[物理机ubuntu系统--远程控制-不接显示器-使用虚拟显示器-设置分辨率1920\*1080\_ubuntu 虚拟显示器-CSDN博客](https://blog.csdn.net/m0_72768599/article/details/131245058)
+[安全验证 - 知乎](https://zhuanlan.zhihu.com/p/638263543)
+[ubuntu22.04 磁盘分区以及深度学习环境的一些设置\_ubuntu22.04分区方案-CSDN博客](https://blog.csdn.net/qq_41102636/article/details/129903083)
+[Ubuntu 22.04安装搜狗输入法\_ubuntu22.04 安装搜狗输入法和fixtc5-CSDN博客](https://blog.csdn.net/mr_sudo/article/details/124874239?spm=1001.2014.3001.5506)
+[UBUNTU 22.04 lst 双硬盘分区方案 | 大神网](https://dashen.wang/1082.html)
+[mp.weixin.qq.com/s?\_\_biz=MzkwMzUyNzg5Ng==&mid=2247484365&idx=1&sn=718149a7b570519fabde61a3e0618f6f&chksm=c095af7af7e2266cb68d163b3b748d8c8b714fdb294c00c2b9d2d3942d0d0da30bddd41e2dc0&token=2141174418&lang=zh\_CN#rd](https://mp.weixin.qq.com/s?__biz=MzkwMzUyNzg5Ng==&mid=2247484365&idx=1&sn=718149a7b570519fabde61a3e0618f6f&chksm=c095af7af7e2266cb68d163b3b748d8c8b714fdb294c00c2b9d2d3942d0d0da30bddd41e2dc0&token=2141174418&lang=zh_CN#rd)
+
+linux下clash
+[GitHub - Elegycloud/clash-for-linux-backup: Linux最完整的Clash for Linux的备份仓库，完全可以使用！由Yizuko进行修复及维护](https://github.com/Elegycloud/clash-for-linux-backup)
+OmegaOptions.bak
+[nvim\_config/switchy.bak at main · zaggerj/nvim\_config · GitHub](https://github.com/zaggerj/nvim_config/blob/main/switchy.bak)
