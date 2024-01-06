@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "477d695fc494cddd",
+        "id": "be964754e4e41e97",
         "type": "tabs",
         "children": [
           {
-            "id": "fbd9330537e15868",
+            "id": "f2bb4a0b942180c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "71efbcdfad3d6b74",
+            "id": "af2a191abdc36761",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "020 - 工作学习/学习/后端/bash/shell脚本编写.md",
+                "file": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,116 +34,12 @@
             }
           },
           {
-            "id": "4232535fe4f64b77",
+            "id": "114a0d3488df6729",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "020 - 工作学习/工作/远程、定制化/项目定制开发和远程.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "71fa6f6a58f87e09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/WeeklyNote/2024年01周记录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b1a663a22127f089",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/工作/汇总所有在线文档.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "345081b6d125a9b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "12de70b20bcdb6a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月03日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "54fd083c118d9f28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月04日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a280d7871bb4ea40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/前端/electron/electron直接打开网址测试.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cc599ab9772d8dc2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/后端/linux/ubuntu22.04安装.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1c51fc19cfbdebcc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月05日.md",
+                "file": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -151,26 +47,7 @@
             }
           }
         ],
-        "currentTab": 4
-      },
-      {
-        "id": "fed50a0855982e01",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7a92fd342b105daa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月05日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ]
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -208,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#工时",
+                "query": "token",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -233,7 +110,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "73db95bfb166faa1",
@@ -279,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月05日.md"
+                "file": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md"
               }
             }
           },
@@ -305,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月05日.md",
+                "file": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -322,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月05日.md",
+                "file": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -334,7 +212,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月05日.md"
+                "file": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md"
               }
             }
           },
@@ -359,7 +237,7 @@
             }
           },
           {
-            "id": "b898fe12e4f85a22",
+            "id": "36b0c00f2457bcc6",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -424,8 +302,9 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "7a92fd342b105daa",
+  "active": "af2a191abdc36761",
   "lastOpenFiles": [
+    "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/工作/汇总所有在线文档.md",
     "000 - 每日日记/DailyNote/2024年01月05日.md",
     "020 - 工作学习/学习/后端/bash/shell脚本编写.md",
@@ -436,7 +315,6 @@
     "000 - 每日日记/DailyNote/2024年01月03日.md",
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "020 - 工作学习/工作/远程、定制化/项目定制开发和远程.md",
-    "040 - Obsidian/主页/00. 主页.md",
     "000 - 每日日记/DailyNote/2023年12月22日.md",
     "000 - 每日日记/DailyNote/2024年01月02日.md",
     "000 - 每日日记/DailyNote/2023年12月28日.md",
