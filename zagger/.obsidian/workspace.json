@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "be964754e4e41e97",
+        "id": "53f6ca8dd24c3289",
         "type": "tabs",
         "children": [
           {
-            "id": "f2bb4a0b942180c5",
+            "id": "a22aa55fcef6cce5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "af2a191abdc36761",
+            "id": "4864a504e357d00d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md",
+                "file": "000 - 每日日记/DailyNote/2024年01月06日.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "114a0d3488df6729",
+            "id": "dc7296f41b0c23e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md",
+                "file": "000 - 每日日记/DailyNote/2024年01月07日.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "token",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md"
+                "file": "000 - 每日日记/DailyNote/2024年01月07日.md"
               }
             }
           },
@@ -183,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md",
+                "file": "000 - 每日日记/DailyNote/2024年01月07日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md",
+                "file": "000 - 每日日记/DailyNote/2024年01月07日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,7 +212,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md"
+                "file": "000 - 每日日记/DailyNote/2024年01月07日.md"
               }
             }
           },
@@ -237,7 +237,7 @@
             }
           },
           {
-            "id": "36b0c00f2457bcc6",
+            "id": "f27e27cbf06d8be4",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -302,8 +302,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "af2a191abdc36761",
+  "active": "dc7296f41b0c23e6",
   "lastOpenFiles": [
+    "000 - 每日日记/DailyNote/2024年01月06日.md",
+    "000 - 每日日记/DailyNote/2024年01月07日.md",
     "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/工作/汇总所有在线文档.md",
     "000 - 每日日记/DailyNote/2024年01月05日.md",
@@ -328,8 +330,6 @@
     "000 - 每日日记/DailyNote/2023年12月23日.md",
     "000 - 每日日记/DailyNote/2023年12月24日.md",
     "020 - 工作学习/工作/业务知识和难题/远程问题/强制显示磁盘性能测试按钮.md",
-    "000 - 每日日记/DailyNote/2023年12月27日.md",
-    "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/dragenter.md",
     "004 - Resource/资源/各种软件/vim学习/vim插件",
     "020 - 工作学习/学习/前端/worker/mdn",
     "020 - 工作学习/工作/业务知识和难题/flash重定向项目",
