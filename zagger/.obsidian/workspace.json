@@ -27,19 +27,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7ebfe2b260f20246",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月08日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "98480a869c491086",
             "type": "leaf",
             "state": {
@@ -116,8 +103,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4d8b960fbf0d579a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2024年01月08日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "660bf6b6c53fec04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -155,7 +169,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#工时",
+                "query": "token",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -172,7 +186,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "73db95bfb166faa1",
@@ -218,7 +233,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月08日.md"
+                "file": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md"
               }
             }
           },
@@ -236,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月08日.md",
+                "file": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -253,7 +268,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月08日.md",
+                "file": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +280,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月08日.md"
+                "file": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md"
               }
             }
           },
@@ -354,16 +369,17 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "7ebfe2b260f20246",
+  "active": "660bf6b6c53fec04",
   "lastOpenFiles": [
+    "000 - 每日日记/DailyNote/2024年01月08日.md",
+    "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md",
+    "040 - Obsidian/主页/00. 主页.md",
     "000 - 每日日记/WeeklyNote/2024年02周记录.md",
     "000 - 每日日记/WeeklyNote/2024年01周记录.md",
     "000 - 每日日记/DailyNote/2024年01月07日.md",
     "040 - Obsidian/模板/tp-每日日记模板.md",
     "040 - Obsidian/模板/tp-每周周记模板.md",
-    "000 - 每日日记/DailyNote/2024年01月08日.md",
     "000 - 每日日记/DailyNote/2024年01月05日.md",
-    "040 - Obsidian/主页/00. 主页.md",
     "000 - 每日日记/DailyNote/2024年01月06日.md",
     "020 - 工作学习/工作/汇总所有在线文档.md",
     "020 - 工作学习/学习/后端/bash/shell脚本编写.md",
@@ -381,7 +397,6 @@
     "000 - 每日日记/DailyNote/2024年01月01日.md",
     "000 - 每日日记/WeeklyNote/2023年52周记录.md",
     "000 - 每日日记/DailyNote/2023年12月31日.md",
-    "000 - 每日日记/WeeklyNote/2023年51周记录.md",
     "004 - Resource/资源/各种软件/vim学习/vim插件",
     "020 - 工作学习/学习/前端/worker/mdn",
     "020 - 工作学习/工作/业务知识和难题/flash重定向项目",

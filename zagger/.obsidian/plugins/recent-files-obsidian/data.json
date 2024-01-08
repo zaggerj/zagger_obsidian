@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "personal token",
+      "path": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md"
+    },
+    {
       "basename": "2024年01月08日",
       "path": "000 - 每日日记/DailyNote/2024年01月08日.md"
+    },
+    {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "2024年02周记录",
@@ -27,10 +35,6 @@
     {
       "basename": "2024年01月05日",
       "path": "000 - 每日日记/DailyNote/2024年01月05日.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "汇总所有在线文档",
@@ -195,10 +199,6 @@
     {
       "basename": "指针事件",
       "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/指针事件.md"
-    },
-    {
-      "basename": "2023年12月21日",
-      "path": "000 - 每日日记/DailyNote/2023年12月21日.md"
     }
   ],
   "omittedPaths": [],
