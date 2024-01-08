@@ -1,24 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "2024年01月08日",
+      "path": "000 - 每日日记/DailyNote/2024年01月08日.md"
+    },
+    {
+      "basename": "2024年02周记录",
+      "path": "000 - 每日日记/WeeklyNote/2024年02周记录.md"
+    },
+    {
+      "basename": "2024年01周记录",
+      "path": "000 - 每日日记/WeeklyNote/2024年01周记录.md"
+    },
+    {
       "basename": "2024年01月07日",
       "path": "000 - 每日日记/DailyNote/2024年01月07日.md"
     },
     {
-      "basename": "2024年01月06日",
-      "path": "000 - 每日日记/DailyNote/2024年01月06日.md"
+      "basename": "tp-每日日记模板",
+      "path": "040 - Obsidian/模板/tp-每日日记模板.md"
     },
     {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
-    },
-    {
-      "basename": "personal token",
-      "path": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md"
+      "basename": "tp-每周周记模板",
+      "path": "040 - Obsidian/模板/tp-每周周记模板.md"
     },
     {
       "basename": "2024年01月05日",
       "path": "000 - 每日日记/DailyNote/2024年01月05日.md"
+    },
+    {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "汇总所有在线文档",
@@ -39,10 +51,6 @@
     {
       "basename": "electron直接打开网址测试",
       "path": "020 - 工作学习/学习/前端/electron/electron直接打开网址测试.md"
-    },
-    {
-      "basename": "2024年01周记录",
-      "path": "000 - 每日日记/WeeklyNote/2024年01周记录.md"
     },
     {
       "basename": "2024年01月03日",
@@ -191,14 +199,6 @@
     {
       "basename": "2023年12月21日",
       "path": "000 - 每日日记/DailyNote/2023年12月21日.md"
-    },
-    {
-      "basename": "2023年12月20日",
-      "path": "000 - 每日日记/DailyNote/2023年12月20日.md"
-    },
-    {
-      "basename": "鼠标拖放事件",
-      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/鼠标拖放事件.md"
     }
   ],
   "omittedPaths": [],
