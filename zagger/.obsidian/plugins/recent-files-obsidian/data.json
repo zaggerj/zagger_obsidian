@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "vim使用技巧",
+      "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
+    },
+    {
+      "basename": "2024年01月09日",
+      "path": "000 - 每日日记/DailyNote/2024年01月09日.md"
+    },
+    {
+      "basename": "项目定制开发和远程",
+      "path": "020 - 工作学习/工作/远程、定制化/项目定制开发和远程.md"
+    },
+    {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "a 服务器相关命令",
+      "path": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
+    },
+    {
       "basename": "2024年01月04日",
       "path": "000 - 每日日记/DailyNote/2024年01月04日.md"
     },
     {
       "basename": "2024年01月05日",
       "path": "000 - 每日日记/DailyNote/2024年01月05日.md"
-    },
-    {
-      "basename": "2024年01月09日",
-      "path": "000 - 每日日记/DailyNote/2024年01月09日.md"
     },
     {
       "basename": "tp-每日日记模板",
@@ -31,10 +47,6 @@
     {
       "basename": "2024年01月10日",
       "path": "000 - 每日日记/DailyNote/2024年01月10日.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "personal token",
@@ -67,14 +79,6 @@
     {
       "basename": "2024年01月03日",
       "path": "000 - 每日日记/DailyNote/2024年01月03日.md"
-    },
-    {
-      "basename": "a 服务器相关命令",
-      "path": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
-    },
-    {
-      "basename": "项目定制开发和远程",
-      "path": "020 - 工作学习/工作/远程、定制化/项目定制开发和远程.md"
     },
     {
       "basename": "2023年12月22日",
@@ -179,10 +183,6 @@
     {
       "basename": "Service Workers",
       "path": "020 - 工作学习/学习/前端/worker/Service Workers.md"
-    },
-    {
-      "basename": "vim使用技巧",
-      "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
     },
     {
       "basename": "spice异常断开",
