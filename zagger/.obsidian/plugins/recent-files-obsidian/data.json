@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "tp-每日日记模板",
+      "path": "040 - Obsidian/模板/tp-每日日记模板.md"
+    },
+    {
+      "basename": "2024年02周记录",
+      "path": "000 - 每日日记/WeeklyNote/2024年02周记录.md"
+    },
+    {
+      "basename": "tp-每周周记模板",
+      "path": "040 - Obsidian/模板/tp-每周周记模板.md"
+    },
+    {
       "basename": "2024年01月08日",
       "path": "000 - 每日日记/DailyNote/2024年01月08日.md"
+    },
+    {
+      "basename": "2024年01月10日",
+      "path": "000 - 每日日记/DailyNote/2024年01月10日.md"
+    },
+    {
+      "basename": "2024年01月09日",
+      "path": "000 - 每日日记/DailyNote/2024年01月09日.md"
     },
     {
       "basename": "00. 主页",
@@ -13,24 +33,12 @@
       "path": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md"
     },
     {
-      "basename": "2024年02周记录",
-      "path": "000 - 每日日记/WeeklyNote/2024年02周记录.md"
-    },
-    {
       "basename": "2024年01周记录",
       "path": "000 - 每日日记/WeeklyNote/2024年01周记录.md"
     },
     {
       "basename": "2024年01月07日",
       "path": "000 - 每日日记/DailyNote/2024年01月07日.md"
-    },
-    {
-      "basename": "tp-每日日记模板",
-      "path": "040 - Obsidian/模板/tp-每日日记模板.md"
-    },
-    {
-      "basename": "tp-每周周记模板",
-      "path": "040 - Obsidian/模板/tp-每周周记模板.md"
     },
     {
       "basename": "2024年01月05日",
@@ -191,14 +199,6 @@
     {
       "basename": "键盘：keydown 和 keyup",
       "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/键盘：keydown 和 keyup.md"
-    },
-    {
-      "basename": "两种原生拖拽",
-      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/两种原生拖拽.md"
-    },
-    {
-      "basename": "指针事件",
-      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/指针事件.md"
     }
   ],
   "omittedPaths": [],
