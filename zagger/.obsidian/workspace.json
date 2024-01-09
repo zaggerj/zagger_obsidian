@@ -246,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
+                "file": "020 - 工作学习/工作/远程、定制化/项目定制开发和远程.md"
               }
             }
           },
@@ -264,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
+                "file": "020 - 工作学习/工作/远程、定制化/项目定制开发和远程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
+                "file": "020 - 工作学习/工作/远程、定制化/项目定制开发和远程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -293,7 +293,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
+                "file": "020 - 工作学习/工作/远程、定制化/项目定制开发和远程.md"
               }
             }
           },
@@ -383,8 +383,9 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "1ed0d7459563219a",
+  "active": "ba1230f7c70841a1",
   "lastOpenFiles": [
+    "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
     "000 - 每日日记/DailyNote/2024年01月09日.md",
     "020 - 工作学习/工作/远程、定制化/项目定制开发和远程.md",
     "040 - Obsidian/主页/00. 主页.md",
@@ -410,7 +411,6 @@
     "000 - 每日日记/DailyNote/2023年12月28日.md",
     "000 - 每日日记/DailyNote/2023年12月29日.md",
     "000 - 每日日记/DailyNote/2023年12月30日.md",
-    "000 - 每日日记/DailyNote/2024年01月01日.md",
     "004 - Resource/资源/各种软件/vim学习/vim插件",
     "020 - 工作学习/学习/前端/worker/mdn",
     "020 - 工作学习/工作/业务知识和难题/flash重定向项目",
