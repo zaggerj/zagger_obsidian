@@ -13,6 +13,8 @@ updated: 2023-11-28 15:28:24
 `VDI`端内容主要是通过下载服务器上的zip包资源来更新的，需要访问服务器中指定路径去更改zip包内容来修改文案。
 
 步骤如下：
+![cfbfd259d63724896d66e3dd55011dd7.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/cfbfd259d63724896d66e3dd55011dd7.png)
+
 
 1. 访问服务器路径：`/opt/iso/iso/zip/`
 
@@ -61,7 +63,7 @@ updated: 2023-11-28 15:28:24
    ```
 
    ![image-20230922180106746](http://cdn.chhhh.cn/image-20230922180106746.png)
-
+[unix - zip压缩文件夹 - Zip命令不包括压缩目录本身](https://code-examples.net/zh-CN/q/376457)
 5. 重新压缩文件，并生成对应`md5`值，填写到对应配置文件中保存即可完成`VDI`端文案修改。
 
    ```bash
@@ -70,7 +72,8 @@ updated: 2023-11-28 15:28:24
    # 删除当前资源e-vdi.zip
    rm -rf e-vdi.zip
    # 压缩修改后的目录
-   zip -r e-vdi.zip tempEVdi
+   cd tempEVdi && zip -r ../e-vdi.zip *
+   # zip -r e-vdi.zip tempEVdi 这个命令有坑
    # 获取压缩包md5值
    md5sum e-vdi.zip
    # ed0c6d3f3a823e1a0ea7da9302086911
