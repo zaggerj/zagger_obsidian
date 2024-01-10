@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "37bd5ad5d8c2cb09",
+        "id": "6667ce87539b9717",
         "type": "tabs",
         "children": [
           {
-            "id": "0bb5a066b63468db",
+            "id": "6a63fb43ceba9fb4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,46 +21,7 @@
             }
           },
           {
-            "id": "9c5f525ff44bae6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b575b06a573eb579",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月08日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b629adae7d2209cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月09日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1ed0d7459563219a",
+            "id": "40f77d2e87faa24c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -71,68 +32,9 @@
                 "source": false
               }
             }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
-        "id": "a57601ccff2cac00",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "968910e468a23d3c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "040 - Obsidian/模板/tp-每周周记模板.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           },
           {
-            "id": "cff77c97c0c0717e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "040 - Obsidian/模板/tp-每日日记模板.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c351f53bdd5bad1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/WeeklyNote/2024年02周记录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2681c3e10f37d814",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月04日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ba1230f7c70841a1",
+            "id": "017d2ead76f964e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -144,8 +46,26 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
+      },
+      {
+        "id": "bac5ed72d87f854f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4021a9ce88a2fe80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "040 - Obsidian/主页/每日网站打开.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -246,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/WeeklyNote/2024年02周记录.md"
+                "file": "040 - Obsidian/主页/每日网站打开.md"
               }
             }
           },
@@ -264,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/WeeklyNote/2024年02周记录.md",
+                "file": "040 - Obsidian/主页/每日网站打开.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +201,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/WeeklyNote/2024年02周记录.md",
+                "file": "040 - Obsidian/主页/每日网站打开.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -293,7 +213,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/WeeklyNote/2024年02周记录.md"
+                "file": "040 - Obsidian/主页/每日网站打开.md"
               }
             }
           },
@@ -318,15 +238,14 @@
             }
           },
           {
-            "id": "261791b9d25590a1",
+            "id": "60f463913f17142d",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
               "state": {}
             }
           }
-        ],
-        "currentTab": 7
+        ]
       },
       {
         "id": "888c3f3084370af3",
@@ -358,7 +277,6 @@
     "hiddenItems": {
       "local-backup:Run local backup": false,
       "homepage:Open homepage": false,
-      "templater-obsidian:Templater": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -371,26 +289,30 @@
       "random-note:开始漫游笔记": false,
       "audio-recorder:开始/结束录音": false,
       "workspaces:管理工作区布局": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-day-planner:Timeline": false,
       "cmdr:折叠": true,
       "custom-sort:Toggle custom sorting": false,
       "big-calendar:Big Calendar": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "omnisearch:Omnisearch": false,
       "periodic-notes:Open today": false,
       "obsidian-memos:Memos": false
     }
   },
-  "active": "c351f53bdd5bad1c",
+  "active": "4021a9ce88a2fe80",
   "lastOpenFiles": [
+    "040 - Obsidian/主页/00. 主页.md",
+    "040 - Obsidian/教程/obsidian清单.md",
+    "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
+    "020 - 工作学习/工作/远程、定制化/项目定制开发和远程.md",
+    "040 - Obsidian/主页/每日网站打开.md",
+    "004 - Resource/资源/00.资源导航.md",
     "040 - Obsidian/模板/tp-每周周记模板.md",
     "000 - 每日日记/DailyNote/2024年01月09日.md",
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
-    "020 - 工作学习/工作/远程、定制化/项目定制开发和远程.md",
-    "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
-    "040 - Obsidian/主页/00. 主页.md",
     "000 - 每日日记/DailyNote/2024年01月04日.md",
     "000 - 每日日记/DailyNote/2024年01月05日.md",
     "040 - Obsidian/模板/tp-每日日记模板.md",
@@ -408,9 +330,6 @@
     "000 - 每日日记/DailyNote/2024年01月03日.md",
     "000 - 每日日记/DailyNote/2023年12月22日.md",
     "000 - 每日日记/DailyNote/2024年01月02日.md",
-    "000 - 每日日记/DailyNote/2023年12月28日.md",
-    "000 - 每日日记/DailyNote/2023年12月29日.md",
-    "000 - 每日日记/DailyNote/2023年12月30日.md",
     "004 - Resource/资源/各种软件/vim学习/vim插件",
     "020 - 工作学习/学习/前端/worker/mdn",
     "020 - 工作学习/工作/业务知识和难题/flash重定向项目",

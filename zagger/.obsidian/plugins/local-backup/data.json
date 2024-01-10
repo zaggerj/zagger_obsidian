@@ -1,8 +1,10 @@
 {
-  "versionValue": "0.1.5",
+  "versionValue": "0.1.6",
   "startupBackupStatus": false,
   "lifecycleValue": "3",
   "backupsPerDayValue": "1",
+  "maxRetriesValue": "1",
+  "retryIntervalValue": "100",
   "winSavePathValue": "D:\\OneDrive\\config_sync\\obsidian",
   "unixSavePathValue": "/Users/zagger/obsidian",
   "fileNameFormatValue": "zagger-Backup-%Y_%m_%d-%H_%M_%S",

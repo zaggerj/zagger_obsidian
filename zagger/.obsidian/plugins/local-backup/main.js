@@ -4745,6 +4745,36 @@ var LocalBackupSettingTab = class extends import_obsidian.PluginSettingTab {
         }
       })
     );
+    new import_obsidian.Setting(containerEl).setName("Retry times").setDesc("Set the retry times after backup failed.").addText(
+      (text) => text.setValue(this.plugin.settings.maxRetriesValue).onChange(async (value) => {
+        const numericValue = parseFloat(value);
+        if (isNaN(numericValue) || numericValue <= 0) {
+          new import_obsidian.Notice(
+            "Retry times must be a positive number."
+          );
+          return;
+        } else {
+          this.plugin.settings.maxRetriesValue = value;
+          await this.plugin.saveSettings();
+          await this.plugin.applySettings();
+        }
+      })
+    );
+    new import_obsidian.Setting(containerEl).setName("Retry interval (ms)").setDesc("Set the retry interval (millisecond).").addText(
+      (text) => text.setValue(this.plugin.settings.retryIntervalValue).onChange(async (value) => {
+        const numericValue = parseFloat(value);
+        if (isNaN(numericValue) || numericValue <= 0) {
+          new import_obsidian.Notice(
+            "Backup intervals must be a positive number."
+          );
+          return;
+        } else {
+          this.plugin.settings.retryIntervalValue = value;
+          await this.plugin.saveSettings();
+          await this.plugin.applySettings();
+        }
+      })
+    );
     containerEl.createEl("h3", { text: "File Archiver Settings (Optional)" });
     new import_obsidian.Setting(containerEl).setName("Backup by Calling external file archiver").setDesc("If toggled, backups will be created by calling external file archiver.").addToggle(
       (toggle) => toggle.setValue(this.plugin.settings.callingArchiverStatus).onChange(async (value) => {
@@ -4753,7 +4783,7 @@ var LocalBackupSettingTab = class extends import_obsidian.PluginSettingTab {
       })
     );
     new import_obsidian.Setting(containerEl).setName("Select file archiver").setDesc("The selected archiver must be installed. eg. 7-Zip for Windows, 7-Zip/p7zip for Unix").addDropdown((dropDown) => {
-      dropDown.addOption("sevenZip", "7-Zip").addOption("winRAR", "WinRAR").setValue(this.plugin.settings.archiverTypeValue).onChange(async (value) => {
+      dropDown.addOption("sevenZip", "7-Zip").addOption("winRAR", "WinRAR").addOption("bandizip", "bandizip").setValue(this.plugin.settings.archiverTypeValue).onChange(async (value) => {
         this.plugin.settings.archiverTypeValue = value;
         await this.plugin.saveSettings();
       });
@@ -4764,7 +4794,7 @@ var LocalBackupSettingTab = class extends import_obsidian.PluginSettingTab {
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian.Setting(containerEl).setName("File archiver path (Win)").setDesc("Full path of Archiver. eg. D:\\software\\7-Zip\\7z.exe for Windows.").addText(
+    new import_obsidian.Setting(containerEl).setName("File archiver path (Win)").setDesc("Full path of Archiver. eg. D:\\software\\7-Zip\\7z.exe for Windows. Using bz.exe (Bandizip) for Windows is recommended.").addText(
       (text) => text.setValue(this.plugin.settings.archiverWinPathValue).onChange(async (value) => {
         this.plugin.settings.archiverWinPathValue = value;
         await this.plugin.saveSettings();
@@ -4966,6 +4996,21 @@ async function createFileByArchiver(archiverType, archiverPath, archiveFileType,
         });
       });
       return winRARPromise;
+    case "bandizip":
+      const bandizipPromise = new Promise((resolve, reject) => {
+        const command = `"${archiverPath}" c "${backupFilePath}" "${vaultPath}"`;
+        console.log(`command: ${command}`);
+        (0, import_child_process.exec)(command, (error, stdout, stderr) => {
+          if (error) {
+            console.error("Failed to create file by Bandizip:", error);
+            reject(error);
+          } else {
+            console.log("File created by Bandizip successfully.");
+            resolve();
+          }
+        });
+      });
+      return bandizipPromise;
     default:
       break;
   }
@@ -4992,16 +5037,18 @@ var NewVersionNotifyModal = class extends import_obsidian2.Modal {
   }
   onOpen() {
     const { contentEl } = this;
-    const release = "0.1.5";
+    const release = "0.1.6";
     const header = `### New in Local Backup ${release}
 `;
-    const text = `Thank you for using Local Backup!`;
+    const text = `Thank you for using Local Backup!
+`;
     const contentDiv = contentEl.createDiv("local-backup-update-modal");
     const releaseNotes = [
-      "1. Add ribbon icon toggle by @trey-wallis",
-      "2. Add a notice after clicking ribbon icon."
+      "1. Update the text in modal.",
+      "2. Add customized retry after backup failed.",
+      "3. Add support for Bandizip."
     ].join("\n");
-    const andNow = `And now, here is everything new in Local Backup since your last update:`;
+    const andNow = `Here are the updates in the latest version:`;
     const markdownStr = `${header}
 ${text}
 ${andNow}
@@ -5043,6 +5090,8 @@ var DEFAULT_SETTINGS = {
   startupBackupStatus: false,
   lifecycleValue: "3",
   backupsPerDayValue: "3",
+  maxRetriesValue: "1",
+  retryIntervalValue: "100",
   winSavePathValue: getDefaultPath(),
   unixSavePathValue: getDefaultPath(),
   fileNameFormatValue: getDefaultName(),
@@ -5076,20 +5125,44 @@ var LocalBackupPlugin = class extends import_obsidian3.Plugin {
       id: "run-local-backup",
       name: "Run local backup",
       callback: async () => {
-        await this.archiveVaultAsync();
+        await this.archiveVaultWithRetryAsync();
       }
     });
     if (this.settings.showRibbonIcon) {
       (0, import_obsidian3.addIcon)("sidebar-icon", ICON_DATA);
       this.addRibbonIcon("sidebar-icon", "Run local backup", () => {
         new import_obsidian3.Notice("Running local backup...");
-        this.archiveVaultAsync();
+        this.archiveVaultWithRetryAsync();
       });
     }
     if (this.settings.startupBackupStatus) {
-      await this.archiveVaultAsync();
+      await this.archiveVaultWithRetryAsync();
     }
     await this.applySettings();
+  }
+  /**
+   * Archive vault with retry method
+   */
+  async archiveVaultWithRetryAsync() {
+    const maxRetries = parseInt(this.settings.maxRetriesValue);
+    let retryCount = 0;
+    const retryInterval = parseInt(this.settings.retryIntervalValue);
+    while (retryCount < maxRetries) {
+      try {
+        await this.archiveVaultAsync();
+        break;
+      } catch (error) {
+        console.error(`Error during archive attempt ${retryCount + 1}: ${error}`);
+        retryCount++;
+        if (retryCount < maxRetries) {
+          await this.delay(retryInterval);
+          console.log(`Retrying archive attempt ${retryCount + 1}...`);
+        } else {
+          console.error(`Failed to create vault backup after ${maxRetries} attempts.`);
+          new import_obsidian3.Notice(`Failed to create vault backup after ${maxRetries} attempts: ${error}`);
+        }
+      }
+    }
   }
   /**
    * Archive vault method
@@ -5134,9 +5207,16 @@ var LocalBackupPlugin = class extends import_obsidian3.Plugin {
         this.settings.backupsPerDayValue
       );
     } catch (error) {
-      new import_obsidian3.Notice(`Failed to create vault backup: ${error}`);
-      console.log(error);
+      throw error;
     }
+  }
+  /**
+   * delay function
+   * @param ms 
+   * @returns 
+   */
+  async delay(ms) {
+    return new Promise((resolve) => setTimeout(resolve, ms));
   }
   /**
    * Start an interval to run archiveVaultAsync method at regular intervals
@@ -5147,7 +5227,7 @@ var LocalBackupPlugin = class extends import_obsidian3.Plugin {
       clearInterval(this.intervalId);
     }
     this.intervalId = setInterval(async () => {
-      await this.archiveVaultAsync();
+      await this.archiveVaultWithRetryAsync();
     }, intervalMinutes * 60 * 1e3);
     new import_obsidian3.Notice(
       `Auto backup interval started: Running every ${intervalMinutes} minutes.`
@@ -5199,6 +5279,8 @@ var LocalBackupPlugin = class extends import_obsidian3.Plugin {
     this.settings.startupBackupStatus = DEFAULT_SETTINGS.startupBackupStatus;
     this.settings.lifecycleValue = DEFAULT_SETTINGS.lifecycleValue;
     this.settings.backupsPerDayValue = DEFAULT_SETTINGS.backupsPerDayValue;
+    this.settings.maxRetriesValue = DEFAULT_SETTINGS.maxRetriesValue;
+    this.settings.retryIntervalValue = DEFAULT_SETTINGS.retryIntervalValue;
     this.settings.winSavePathValue = DEFAULT_SETTINGS.winSavePathValue;
     this.settings.unixSavePathValue = DEFAULT_SETTINGS.unixSavePathValue;
     this.settings.fileNameFormatValue = DEFAULT_SETTINGS.fileNameFormatValue;
