@@ -119,7 +119,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -220,7 +220,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月11日.md"
+                "file": "000 - 每日日记/DailyNote/2024年01月10日.md"
               }
             }
           },
@@ -238,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月11日.md",
+                "file": "000 - 每日日记/DailyNote/2024年01月10日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,7 +255,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月11日.md",
+                "file": "000 - 每日日记/DailyNote/2024年01月10日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -267,7 +267,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月11日.md"
+                "file": "000 - 每日日记/DailyNote/2024年01月10日.md"
               }
             }
           },
@@ -356,10 +356,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "8120d65b68b4eeee",
+  "active": "1bb9bb55b4b65abf",
   "lastOpenFiles": [
-    "000 - 每日日记/DailyNote/2024年01月10日.md",
     "000 - 每日日记/DailyNote/2024年01月11日.md",
+    "000 - 每日日记/DailyNote/2024年01月10日.md",
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/工作/远程、定制化/项目定制开发和远程.md",
