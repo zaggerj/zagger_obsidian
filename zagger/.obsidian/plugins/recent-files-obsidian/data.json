@@ -5,6 +5,14 @@
       "path": "000 - 每日日记/DailyNote/2024年01月11日.md"
     },
     {
+      "basename": "babel入门学习",
+      "path": "060 - 临时/babel入门学习.md"
+    },
+    {
+      "basename": "2024年01月09日",
+      "path": "000 - 每日日记/DailyNote/2024年01月09日.md"
+    },
+    {
       "basename": "2024年01月10日",
       "path": "000 - 每日日记/DailyNote/2024年01月10日.md"
     },
@@ -23,10 +31,6 @@
     {
       "basename": "每日网站打开",
       "path": "040 - Obsidian/主页/每日网站打开.md"
-    },
-    {
-      "basename": "2024年01月09日",
-      "path": "000 - 每日日记/DailyNote/2024年01月09日.md"
     },
     {
       "basename": "vim使用技巧",
@@ -195,10 +199,6 @@
     {
       "basename": "spice异常断开",
       "path": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice异常断开.md"
-    },
-    {
-      "basename": "剩余未联调的模块",
-      "path": "020 - 工作学习/工作/工作计划/有成果的工作/剩余未联调的模块.md"
     }
   ],
   "omittedPaths": [],
