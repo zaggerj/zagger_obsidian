@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2024年01月12日",
+      "path": "000 - 每日日记/DailyNote/2024年01月12日.md"
+    },
+    {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
       "basename": "2024年01月11日",
       "path": "000 - 每日日记/DailyNote/2024年01月11日.md"
     },
@@ -19,10 +27,6 @@
     {
       "basename": "a 服务器相关命令",
       "path": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "项目定制开发和远程",
@@ -195,10 +199,6 @@
     {
       "basename": "Service Workers",
       "path": "020 - 工作学习/学习/前端/worker/Service Workers.md"
-    },
-    {
-      "basename": "spice异常断开",
-      "path": "020 - 工作学习/工作/业务知识和难题/spice/spice问题/spice异常断开.md"
     }
   ],
   "omittedPaths": [],
