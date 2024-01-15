@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "vim使用技巧",
+      "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
+    },
+    {
+      "basename": "2024年01月13日",
+      "path": "000 - 每日日记/DailyNote/2024年01月13日.md"
+    },
+    {
       "basename": "2024年01月12日",
       "path": "000 - 每日日记/DailyNote/2024年01月12日.md"
     },
@@ -35,10 +43,6 @@
     {
       "basename": "每日网站打开",
       "path": "040 - Obsidian/主页/每日网站打开.md"
-    },
-    {
-      "basename": "vim使用技巧",
-      "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
     },
     {
       "basename": "2024年02周记录",
@@ -195,10 +199,6 @@
     {
       "basename": "Worker",
       "path": "020 - 工作学习/学习/前端/worker/Worker.md"
-    },
-    {
-      "basename": "Service Workers",
-      "path": "020 - 工作学习/学习/前端/worker/Service Workers.md"
     }
   ],
   "omittedPaths": [],
