@@ -1,32 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "2024年01月15日",
+      "path": "000 - 每日日记/DailyNote/2024年01月15日.md"
+    },
+    {
       "basename": "2024年01月13日",
       "path": "000 - 每日日记/DailyNote/2024年01月13日.md"
-    },
-    {
-      "basename": "2024年01周记录",
-      "path": "000 - 每日日记/WeeklyNote/2024年01周记录.md"
-    },
-    {
-      "basename": "2024年02周记录",
-      "path": "000 - 每日日记/WeeklyNote/2024年02周记录.md"
     },
     {
       "basename": "每日网站打开",
       "path": "040 - Obsidian/主页/每日网站打开.md"
     },
     {
-      "basename": "shell脚本编写",
-      "path": "020 - 工作学习/学习/后端/bash/shell脚本编写.md"
+      "basename": "vim使用技巧",
+      "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
+    },
+    {
+      "basename": "2024年02周记录",
+      "path": "000 - 每日日记/WeeklyNote/2024年02周记录.md"
+    },
+    {
+      "basename": "2024年03周记录",
+      "path": "000 - 每日日记/WeeklyNote/2024年03周记录.md"
     },
     {
       "basename": "2024年01月12日",
       "path": "000 - 每日日记/DailyNote/2024年01月12日.md"
     },
     {
-      "basename": "vim使用技巧",
-      "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
+      "basename": "2024年01周记录",
+      "path": "000 - 每日日记/WeeklyNote/2024年01周记录.md"
+    },
+    {
+      "basename": "shell脚本编写",
+      "path": "020 - 工作学习/学习/后端/bash/shell脚本编写.md"
     },
     {
       "basename": "00. 主页",
@@ -191,14 +199,6 @@
     {
       "basename": "Worker-mdn",
       "path": "020 - 工作学习/学习/前端/worker/mdn/Worker-mdn.md"
-    },
-    {
-      "basename": "coc.nvim",
-      "path": "004 - Resource/资源/各种软件/vim学习/vim插件/coc.nvim.md"
-    },
-    {
-      "basename": "Worker",
-      "path": "020 - 工作学习/学习/前端/worker/Worker.md"
     }
   ],
   "omittedPaths": [],
