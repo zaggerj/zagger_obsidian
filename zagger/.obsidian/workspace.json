@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md",
-                "mode": "preview",
+                "file": "020 - 工作学习/学习/后端/bash/shell脚本编写.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -64,9 +64,56 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ee8470183a018f61",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/WeeklyNote/2024年01周记录.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "926d2578bce31c54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/WeeklyNote/2024年02周记录.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e5687ce860effd33",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "040 - Obsidian/主页/每日网站打开.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3c0ddbfe6f9ce782",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
+                "file": "000 - 每日日记/DailyNote/2024年01月13日.md"
               }
             }
           },
@@ -185,7 +232,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
+                "file": "000 - 每日日记/DailyNote/2024年01月13日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +249,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
+                "file": "000 - 每日日记/DailyNote/2024年01月13日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,7 +261,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
+                "file": "000 - 每日日记/DailyNote/2024年01月13日.md"
               }
             }
           },
@@ -304,10 +351,15 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "6d55162dd0e22363",
+  "active": "7ada8e3c6398ac47",
   "lastOpenFiles": [
-    "000 - 每日日记/DailyNote/2024年01月13日.md",
+    "000 - 每日日记/WeeklyNote/2024年01周记录.md",
+    "000 - 每日日记/WeeklyNote/2024年02周记录.md",
+    "040 - Obsidian/主页/每日网站打开.md",
+    "020 - 工作学习/学习/后端/bash/shell脚本编写.md",
     "000 - 每日日记/DailyNote/2024年01月12日.md",
+    "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
+    "000 - 每日日记/DailyNote/2024年01月13日.md",
     "040 - Obsidian/主页/00. 主页.md",
     "060 - 临时/babel入门学习.md",
     "000 - 每日日记/DailyNote/2024年01月09日.md",
@@ -316,22 +368,17 @@
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "020 - 工作学习/工作/远程、定制化/项目定制开发和远程.md",
     "020 - 工作学习/学习计划脚本/js学习计划.md",
-    "040 - Obsidian/主页/每日网站打开.md",
     "040 - Obsidian/教程/obsidian清单.md",
-    "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
     "004 - Resource/资源/00.资源导航.md",
     "040 - Obsidian/模板/tp-每周周记模板.md",
     "000 - 每日日记/DailyNote/2024年01月04日.md",
     "000 - 每日日记/DailyNote/2024年01月05日.md",
     "040 - Obsidian/模板/tp-每日日记模板.md",
-    "000 - 每日日记/WeeklyNote/2024年02周记录.md",
     "000 - 每日日记/DailyNote/2024年01月08日.md",
     "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md",
-    "000 - 每日日记/WeeklyNote/2024年01周记录.md",
     "000 - 每日日记/DailyNote/2024年01月07日.md",
     "000 - 每日日记/DailyNote/2024年01月06日.md",
     "020 - 工作学习/工作/汇总所有在线文档.md",
-    "020 - 工作学习/学习/后端/bash/shell脚本编写.md",
     "004 - Resource/资源/各种软件/vim学习/vim插件",
     "020 - 工作学习/学习/前端/worker/mdn",
     "020 - 工作学习/工作/业务知识和难题/flash重定向项目",
