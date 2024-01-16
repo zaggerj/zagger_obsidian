@@ -8,9 +8,27 @@ aliases:
 created: 2023-11-03T22:29
 updated: 2023-11-28 15:28:24
 ---
-# 1. 图标和字体存在iconfont
+# 1. rustdesk `198793Peng` `284 037 269`
+# 2. nova
+```bash
+nova get-vnc-console {uuid} novnc
+```
+# 3. patch windows上出错了 估计是换行符问题导致出错了 实测linux上创建文件，然后diff 之后patch是没有问题的
+[（原）patching file 出现 Hunk #1 FAILED at xxx(different line endings). - lihaiping - 博客园](https://www.cnblogs.com/lihaiping/p/15895156.html)
+windows上用`patch -l --binary tea.md tea.patch`，参考链接：[tag - 我如何在Windows上應用diff補丁?](https://code-examples.net/zh-TW/q/7e489)| [使用diff和patch命令协同开发 | 良许嵌入式](https://www.lxlinux.net/e/linux/linux-diff-patch.html#%E6%A0%B9%E6%8D%AE%E5%B7%AE%E5%BC%82%E5%88%9B%E5%BB%BApatch%E6%96%87%E4%BB%B6)
+![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/20240116140851.png)
+
+# 4. `grep '需求\|bug' ./src/components/gateway/*.vue`
+
+这里需要注意的是，始终要用单引号将正则表达式括起来，因为单引号内的内容原样输出，被单引号括起的内容不管是常量还是变量不会发生替换。
+
+使用基本正则表达式时，元字符被解释为字面字符。要保留元字符的特殊含义，必须用反斜杠（ \ ）对它们进行转义。这就是为什么我们要转义 **OR** 运算符（**|**）。
+
+![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/20240116110108.png)
+[如何使用Grep命令查找多个字符串 | 良许嵌入式](https://www.lxlinux.net/e/linux/find-multiple-strings-using-grep-command.html)
+# 5. 图标和字体存在iconfont
 [iconfont-阿里巴巴矢量图标库](https://www.iconfont.cn/notifications?tab=official)
-# 2. 修改`VDI`端版权信息
+# 6. 修改`VDI`端版权信息
 
 `VDI`端内容主要是通过下载服务器上的zip包资源来更新的，需要访问服务器中指定路径去更改zip包内容来修改文案。
 
@@ -96,20 +114,20 @@ updated: 2023-11-28 15:28:24
    ```
 
 6. 重启`VDI`端即可查看更新后的内容
-# 3. spice排查问题
+# 7. spice排查问题
 1. 查找6082是否被代理了，`grep -rn '6082' /etc/nginx/**/*.conf`
 ![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/20240103162220.png)
 2. 排查防火墙端口是否放开了，`firewall-cmd --list-ports | grep -rn '6082'`
 3. ip和浏览器ip是否一致，如果不一致，多半是网络原因需要后端排查网络，通过本地ping下spice连接的ip。
-# 4. 远程
+# 8. 远程
 1. [隧道列表 - Cpolar](http://localhost:9200/#/tunnels/list)
 2. [cpolar - secure introspectable tunnels to localhost](https://dashboard.cpolar.com/get-started)
-# 5. 忽略lint-staged
+# 9. 忽略lint-staged
 `git commit --no-verify -m 'fix: 1. 退出登录报错问题 2. loadLanguageAsync在初始化vue实例之前调用 3.解决eslint报错`
-# 6. 查看盘使用情况
+# 10. 查看盘使用情况
 ![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/20231110153702.png)
 
-# 7. 禁用canvas鼠标右键功能
+# 11. 禁用canvas鼠标右键功能
 ```js
 idpCanvas.oncontextmenu = (e) => {
       e.preventDefault()
@@ -117,7 +135,7 @@ idpCanvas.oncontextmenu = (e) => {
       return false
     }
 ```
-# 8. windows git bash 中 查询端口占用 并干掉
+# 12. windows git bash 中 查询端口占用 并干掉
 `netstat -ano | grep 9527|awk '{print $5}' | xargs kill -9`
 ![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian20231109165847.png)
 
@@ -137,10 +155,10 @@ service vdi-thor-gunicorn restart
 ```
 
 
-# 9. 快速清空工作区 #clean #empty
+# 13. 快速清空工作区 #clean #empty
 `git checkout -- .;git clean -fd;`
 
-# 10. mac干掉不要的文件 #find #\.DS_Store
+# 14. mac干掉不要的文件 #find #\.DS_Store
 `find . -type f -name ".DS_Store" | xargs rm -rf`
 
 #查看etc目录占用比较大的目录
@@ -187,7 +205,7 @@ tar -zxvf ./patch/update_2023-09-21.tar.gz -C update
 ```bash
 sudo lsof -i :端口号
 ```
-# 11. 外网环境搭建
+# 15. 外网环境搭建
 ```bash
 # 大家测试外网映射功能如果没有环境的话也可以通过ssh的方式实现  
 ssh -L 0.0.0.0:1443:172.16.65.143:443 -NC root@172.16.65.143  
@@ -204,7 +222,7 @@ ssh -L 0.0.0.0:6082:172.16.65.143:6082 -NC root@172.16.65.143
 
 ```
 ![[Pasted image 20230901094555.png]]
-# 12. 修改服务器时间
+# 16. 修改服务器时间
 ```bash
 # 设置服务器时间
 date -s "20220622 14:30:22"
@@ -213,7 +231,7 @@ yum install ntpdate
 ntpdate -u cn.pool.ntp.org  
 ```
 
-# 13. shutdown
+# 17. shutdown
 ```bash
 shutdown -r -t 5
 ```
@@ -231,7 +249,7 @@ cp dist/oevdi.min.js ../ngconsole/js/libs/spice/
 
 [authorized_key – Adds or removes an SSH authorized key — Ansible Documentation](https://docs.ansible.com/ansible/2.9/modules/authorized_key_module.html)
 
-# 14. idp服务器配置文件
+# 18. idp服务器配置文件
 
 ```bash
 > http://172.16.65.147/
@@ -240,7 +258,7 @@ cp dist/oevdi.min.js ../ngconsole/js/libs/spice/
 > oeidp.enable= false
 ```
 
-# 15. wsl2
+# 19. wsl2
 
 [WSL2 配置代理 - 哔哩哔哩 (bilibili.com)](https://www.bilibili.com/read/cv22203257/)
 
@@ -251,15 +269,15 @@ cp dist/oevdi.min.js ../ngconsole/js/libs/spice/
 
 　　‍
 
-# 16. 终端业务
+# 20. 终端业务
 
 [终端连桌面业务详解--ShowDoc](http://192.168.0.161:4999/web/#/3/3848)
 
-## 16.1. token 失效条件
+## 20.1. token 失效条件
 
 ​![image](40%20-%20Obsidian/附件/Attachment/assets%206-zagger/image-20230706085205-41m19po.png)​
 
-## 16.2. 局域网追踪网络走向命令
+## 20.2. 局域网追踪网络走向命令
 
 　　​![image](40%20-%20Obsidian/附件/Attachment/assets%206-zagger/image-20230705084016-l62i7y8.png)​
 
@@ -269,14 +287,14 @@ cp dist/oevdi.min.js ../ngconsole/js/libs/spice/
 tracert 58.48.71.131
 ```
 
-# 17. 部署前端文档 #上传
+# 21. 部署前端文档 #上传
 
 ```bash
 ssh-copy-id -i ~/.ssh/id_rsa.pub root@192.168.0.161
 scp -r dist/* root@192.168.0.161:/usr/share/nginx/html/fedoc
 ```
 
-# 18. consoleui 打包 bash 命令 #上传
+# 22. consoleui 打包 bash 命令 #上传
 
 ```bash
 PV=$(node -p 'require("./package.json").version')
@@ -284,7 +302,7 @@ tar cf $PV.tar.gz consoleui/package.json consoleui/dist
 scp -r 0.0.106.tar.gz root@192.168.0.161:/usr/local/vsftpd-compose/vsftpd/data/oseasy/trunk/console_ui
 ```
 
-# 19. 服务器代码 #上传 | [[汇总所有在线文档#^ce3eb8|scp]]
+# 23. 服务器代码 #上传 | [[汇总所有在线文档#^ce3eb8|scp]]
 
 ```bash
 scp -r js built resources views  css fonts includes view-front img init.html Cloud_r00t@172.16.201.47:/var/www/html                
@@ -308,7 +326,7 @@ Vdi&Voi@r00t
 
 ^e6bdc2
 
-# 20. ssh 服务器代码 #上传 windows
+# 24. ssh 服务器代码 #上传 windows
 
 ```bash
 scp -r dist/* root@172.16.101.22:/var/www/edaas/
@@ -317,14 +335,14 @@ oseasy@141
 ```
 
 
-# 21. 获取笔记本 WiFi 密码
+# 25. 获取笔记本 WiFi 密码
 
 ```bash
 netsh wlan show profiles name=HUAWEI-AF1UL2 key=clear 
 netsh wlan show profiles name=zagger key=clear
 ```
 
-# 22. 安装git报错
+# 26. 安装git报错
 
 ```bash
 scoop install -g git@2.39.2.windows.1  
@@ -335,13 +353,13 @@ Line |  239 |      return $null -ne (Select-CurrentVersion -AppName $ app -Globa
 
 　　‍
 
-# 23. 启动weboeidpproxy服务
+# 27. 启动weboeidpproxy服务
 
 ```bash
 cd weboeidpproxy/ ./html5proxy --config=./spice.json --nova-config=/etc/nova/nova.conf
 ```
 
-# 24. #修改分支名称
+# 28. #修改分支名称
 
 ```bash
 git branch -m oldBranchName newBranchName 
@@ -349,7 +367,7 @@ git push origin :oldBranchName
 git push --set-upstream origin newBranchName
 ```
 
-# 25. #打tags
+# 29. #打tags
 
 ```bash
 git tag -a 5.5.0-release -m '发布版本'
@@ -375,7 +393,7 @@ git push --tags
 3. [git tag 打标签（我看过最透彻的文章）_黒客与画家的博客-CSDN博客](https://blog.csdn.net/TIAN20121221/article/details/119737274)
 
 
-# 26. 共享目录，voi 客户端包
+# 30. 共享目录，voi 客户端包
 
 ```bash
 ftp://172.16.227.19/CTSC%20files/%B2%FA%C6%B7%B0%E6%B1%BE/E-VOI/V5.5/VOI/5.5.0.6628/x86/
@@ -385,13 +403,13 @@ user
 ftp://172.16.227.19/CTSC%20files/%B2%FA%C6%B7%B0%E6%B1%BE/E-VOI/0_VOI%BD%CC%D3%FD%B0%E6/5.5.1/5.5.1-64/x86/
 ```
 
-# 27. 融合客户端：设置密码
+# 31. 融合客户端：设置密码
 
 ```bash
  osadmin
 ```
 
-# 28. 融合端：切换命令行：
+# 32. 融合端：切换命令行：
 
 ```bash
 C+ALT+f1-f7 切换命令行
@@ -422,7 +440,7 @@ centos6.5设置桥接模式，虚拟机无法ping通宿主机，主机可以ping
 (5条消息) 虚拟机ping不通的几种原因及解决办法_萌褚的博客-CSDN博客_虚拟机ping主机ping不通
 ```
 
-# 29. weboeidp 172.19.20.119 hzj 账号
+# 33. weboeidp 172.19.20.119 hzj 账号
 
 ```bash
 ssh Cloud_r00t@172.19.20.119
@@ -431,13 +449,13 @@ cd weboeidpproxy
 ./html5proxy --config=./spice.json --nova-config=/etc/nova/nova.conf
 ```
 
-# 30. weboeidp 172.16.201.136 getConnectInfo 补丁 nwy admin1
+# 34. weboeidp 172.16.201.136 getConnectInfo 补丁 nwy admin1
 
 ```bash
  var url = '/api/instances/connection'; var json = { instance_id: t.uuid }; s.a.post(url, json).then( function (resp) { t.instance = resp.data.instance; if (!t.instance) { return setTimeout(e, 500) } ;var data = t.instance.connect; data.port = 6082; var connectInfo = t.connectInfo; var status = connectInfo.status; if (status && status === 'ERROR') { self.onlyReset = true; return } ;t.instance = connectInfo.instance; console.log('newToken:', data.token) ;resolve(data) }, function () {} )
 ```
 
-# 31. tspace 服务，服务器修改服务名称，避免其自动重启
+# 35. tspace 服务，服务器修改服务名称，避免其自动重启
 
 ```bash
 ssh root@172.16.65.145
@@ -514,7 +532,7 @@ find / -type f -perm 0777 -print -exec chmod 644 {} \;
 # 如果以 root 身份运行这样的命令，您可能
 ```
 
-# 32. 改變所屬群組, chgrp:change group
+# 36. 改變所屬群組, chgrp:change group
 
 ```bash
 chgrp [-R] dirname/filename ...
@@ -529,7 +547,7 @@ chgrp [-R] dirname/filename ...
 chgrp: invalid group:  `testing' <== 發生錯誤訊息囉～找不到這個群組名～
 ```
 
-# 33. 改變檔案擁有者, chown:change owner
+# 37. 改變檔案擁有者, chown:change owner
 
 ```bash
 chown [-R] 帳號名稱 檔案或目錄
@@ -556,7 +574,7 @@ chown [-R] 帳號名稱 檔案或目錄
 
 　　‍
 
-# 34. 改變權限, chmod
+# 38. 改變權限, chmod
 
 ```bash
 Linux檔案的基本權限就有九個，分別是owner/group/others三種身份各有自己的read/write/execute權限， 先複習一下剛剛上面提到的資料：檔案的權限字元為：『-rwxrwxrwx』， 這九個權限是三個三個一組的！其中，我們可以使用數字來代表各個權限，各權限的分數對照表如下：
@@ -611,7 +629,7 @@ guid则表示执行相应脚本的用户将具有该文件所属用户组中用�
 
 　　‍
 
-# 35. 定位文件和应用
+# 39. 定位文件和应用
 
 ```bash
 which 命令只会在系统定义的搜索路径中，查找可执行的文件，通常用于识别命令。如果您对输入 
@@ -627,7 +645,7 @@ updatedb 进行的。
 
 　　‍
 
-# 36. grep使用方法
+# 40. grep使用方法
 
 　　grep 使用格式： grep [OPTIONS] PATTERN [FILE...]
 
@@ -649,13 +667,13 @@ grep -rn 'bootstrap' ./ --exclude-dir={.git,node_modules,resources,built} --excl
 
 ![[3%RR_1SP42(6{)_06%9QTC1.png]]
 
-# 37. 查看 spice 的日志
+# 41. 查看 spice 的日志
 
 ```bash
  tail -f /var/log/html5proxy/spice.log
 ```
 
-# 38. 正则表达式：
+# 42. 正则表达式：
 
 ```bash
 (?<=<(\w+)>).*(?=<\/\1>)
@@ -685,7 +703,7 @@ str.replace(/\B(?=(?:\d{3})+\b)/g, ',');
 
 　　‍
 
-# 39. 远程服务器
+# 43. 远程服务器
 
 ```bash
 ssh root@172.16.65.141
@@ -700,25 +718,25 @@ ServerR00t
 vim /var/www/html/views/vdi/help/activeAuth.html
 ```
 
-# 40. dms:开发服务器
+# 44. dms:开发服务器
 
 ```bash
 http://172.16.162.200:7735  http://172.16.65.124:7735
 ```
 
-# 41. 服务器查看日志：
+# 45. 服务器查看日志：
 
 ```bash
 tail -f -n 10 /etc/thor/log/thorconsole.log
 ```
 
-# 42. 重启 supervisor 服务：
+# 46. 重启 supervisor 服务：
 
 ```bash
 systemctl restart thor-supervisor
 ```
 
-# 43. ssh-copy-id -i ~/.ssh/id_rsa.pub [zhangyao@172.16.103.196](mailto:zhangyao@172.16.103.196)
+# 47. ssh-copy-id -i ~/.ssh/id_rsa.pub [zhangyao@172.16.103.196](mailto:zhangyao@172.16.103.196)
 
 ```bash
 ssh-copy-id -i ~/.ssh/id_rsa.pub zhangyao@172.16.103.196
@@ -727,7 +745,7 @@ cat ~/.ssh/id_rsa.pub | ssh Cloud_r00t@172.16.201.47 "mkdir -p ~/.ssh && cat >> 
 chmod 644 ~/.ssh/authorized_keys
 ```
 
-# 44. console-vscode 插件
+# 48. console-vscode 插件
 
 ```bash
 ctrl + alt + l 选中变量之后，使用这个快捷键生成 console.log
@@ -736,14 +754,14 @@ alt + shift + u 启用所有 console.log
 alt + shift + d 删除所有 console.log
 ```
 
-# 45. mac 上传代码到服务器 docker 中指定端口
+# 49. mac 上传代码到服务器 docker 中指定端口
 
 ```bash
 rsync -avz -e 'ssh -p 10240' js built resources views p css fonts includes img init.html root@172.16.201.9:/var/www/html/
 直接进入服务器的10240端口，进入docker中。
 ```
 
-# 46. ssh 动态
+# 50. ssh 动态
 
 ```bash
 ssh Cloud_r00t@59.175.233.194 -p8181
@@ -754,7 +772,7 @@ ssh Cloud_r00t@59.175.233.194 -p8181
 
 
 
-# 47. 端口占用问题解决
+# 51. 端口占用问题解决
 
 ```bash
 netstat -aon|findstr 8088
@@ -765,7 +783,7 @@ netstat -aon|findstr 8088
 lsof -i:8080
 ```
 
-# 48. 端口转发
+# 52. 端口转发
 
 ```bash
 待验证
@@ -773,7 +791,7 @@ lsof -i:8080
 ssh -D10101 Cloud_r00t@59.175.233.194 -p8181
 ```
 
-### 48.1.1. Vdi&[Voi@r00t](http://Voi@r00t)
+### 52.1.1. Vdi&[Voi@r00t](http://Voi@r00t)
 
 　　​![image](40%20-%20Obsidian/附件/Attachment/assets%206-zagger/image-20230705092131-dvexqxp.png)​
 
@@ -797,13 +815,13 @@ scp -r js views built v img css includes fonts ssh_terminal vnc zips types Cloud
 Vdi&Voi@r00t
 ```
 
-# 49. 清空 chatgpt 缓存
+# 53. 清空 chatgpt 缓存
 
 ```bash
 javascript:window.localStorage.removeItem(Object.keys(window.localStorage).find(i=>i.startsWith('@@auth0spajs')))
 ```
 
-# 50. [环境配置相关](siyuan://blocks/20230705103954-dsr1hc8 "环境配置相关-不常用")
+# 54. [环境配置相关](siyuan://blocks/20230705103954-dsr1hc8 "环境配置相关-不常用")
 
 　　‍
 

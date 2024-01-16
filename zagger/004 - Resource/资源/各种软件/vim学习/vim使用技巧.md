@@ -149,15 +149,25 @@ tab之于window 如果window之于buffer, tab和window都只是布局而已,真�
 
 - vim命令打开的参数对应一个列表 - `arguments`参数列表
     - 列表 - `:args`
-    - 添加 - `:arga`
+	    - 示例：
+		- `:argsa file3.txt`：将 `file3.txt` 添加到当前文件列表的末尾。
+	- 添加 - `:arga`  
+		- 示例：
+		- `:argsa file3.txt`：将 `file3.txt` 添加到当前文件列表的末尾。
     - 删除 - `:argd`
+	    - 示例：
+		- `:argsd file2.txt`：从当前文件列表中删除所有名为 `file2.txt` 的文件。
     - 执行命令 - `:argdo`
+	    - 示例：
+		- `:argdo %s/foo/bar/g | update`：在文件列表中的每个文件上执行替换命令，将每个文件中的所有 `foo` 替换为 `bar`，然后保存文件。
 - 打开的文件缓存对应一个列表 - `buffers`缓存列表
     - 列表 - `:ls`
     - 添加 - `:e .`
     - 切换 - `:b1`
     - 关闭 - `:bd`
     - 执行命令 - `:bufdo`
+	    - 示例：
+		- `:bufdo %s/foo/bar/g | update`：在所有打开的缓冲区中执行替换命令，将每个缓冲区中的所有 `foo` 替换为 `bar`，然后保存文件。
 - tab选项卡对应一个列表 - `tabs`选项卡列表
     - 列表 - `:tabs`
     - 打开 - `:tabnew`
@@ -170,9 +180,8 @@ tab之于window 如果window之于buffer, tab和window都只是布局而已,真�
     - 关闭 - `:q`
     - 执行命令 - `:windo`
 ```vim
-:tabnew filename #打开一个tab 
-:tabedit #当前window 创建tab
-:tabe 新建一个tab用来打开一个文件
+:tabnew filename #打开一个tab  命令总是在一个新选项卡中打开文件
+:tabedit #当前window 创建tab 简写:tabe 新建一个tab用来打开一个文件 :tabe 和 :tabedit 命令会根据情况在当前选项卡或新选项卡中打开文件。
 :tabs用来查看tab列表
 :gt 切换下一个tab
 :gT切换上一个tab
@@ -196,6 +205,8 @@ tab之于window 如果window之于buffer, tab和window都只是布局而已,真�
 #### 1.4.6.20. tab 使用:tabc
 #### 1.4.6.21. window 使用:q
 #### 1.4.6.22. 使用marks跳转
+![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/20240116153057.png)
+
 ```vim
 " 简写为normal mode mQ
 :mark Q
@@ -505,6 +516,8 @@ cc 提交 git commit 信息
 
 _摘抄来源，引用出处，参考链接，文档查询_
 Page Link::
+vim基础：
+1. [Vim查找与替换命令大全，功能完爆IDE！ - 良许Linux - 博客园](https://www.cnblogs.com/yychuyu/p/12671147.html)
 1. vim寄存器相关：
 	1. [vim 从嫌弃到依赖(15)——寄存器 - 知乎](https://zhuanlan.zhihu.com/p/523486683)
 	2. vim寄存器：[vim寄存器](https://codeleading.com/article/89514035966/)
