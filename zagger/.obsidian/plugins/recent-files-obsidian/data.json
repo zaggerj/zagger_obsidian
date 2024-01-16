@@ -1,8 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "2024年01月16日",
+      "path": "000 - 每日日记/DailyNote/2024年01月16日.md"
+    },
+    {
+      "basename": "cut命令",
+      "path": "020 - 工作学习/学习/后端/linux/cut命令.md"
+    },
+    {
+      "basename": "a 服务器相关命令",
+      "path": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
+    },
+    {
       "basename": "00. 主页",
       "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "shell脚本编写",
+      "path": "020 - 工作学习/学习/后端/bash/shell脚本编写.md"
+    },
+    {
+      "basename": "vim使用技巧",
+      "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
+    },
+    {
+      "basename": "每日网站打开",
+      "path": "040 - Obsidian/主页/每日网站打开.md"
+    },
+    {
+      "basename": "2024年03周记录",
+      "path": "000 - 每日日记/WeeklyNote/2024年03周记录.md"
     },
     {
       "basename": "2024年01月15日",
@@ -13,20 +41,8 @@
       "path": "000 - 每日日记/DailyNote/2024年01月13日.md"
     },
     {
-      "basename": "每日网站打开",
-      "path": "040 - Obsidian/主页/每日网站打开.md"
-    },
-    {
-      "basename": "vim使用技巧",
-      "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
-    },
-    {
       "basename": "2024年02周记录",
       "path": "000 - 每日日记/WeeklyNote/2024年02周记录.md"
-    },
-    {
-      "basename": "2024年03周记录",
-      "path": "000 - 每日日记/WeeklyNote/2024年03周记录.md"
     },
     {
       "basename": "2024年01月12日",
@@ -35,10 +51,6 @@
     {
       "basename": "2024年01周记录",
       "path": "000 - 每日日记/WeeklyNote/2024年01周记录.md"
-    },
-    {
-      "basename": "shell脚本编写",
-      "path": "020 - 工作学习/学习/后端/bash/shell脚本编写.md"
     },
     {
       "basename": "2024年01月11日",
@@ -55,10 +67,6 @@
     {
       "basename": "2024年01月10日",
       "path": "000 - 每日日记/DailyNote/2024年01月10日.md"
-    },
-    {
-      "basename": "a 服务器相关命令",
-      "path": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
     },
     {
       "basename": "项目定制开发和远程",
@@ -191,14 +199,6 @@
     {
       "basename": "chrome扩展开发相关",
       "path": "020 - 工作学习/工作/业务知识和难题/flash重定向项目/chrome扩展开发相关.md"
-    },
-    {
-      "basename": "Service Worker API",
-      "path": "020 - 工作学习/学习/前端/worker/mdn/Service Worker API.md"
-    },
-    {
-      "basename": "Worker-mdn",
-      "path": "020 - 工作学习/学习/前端/worker/mdn/Worker-mdn.md"
     }
   ],
   "omittedPaths": [],
