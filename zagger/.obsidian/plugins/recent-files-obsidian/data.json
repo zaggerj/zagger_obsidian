@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2023年12月12日",
+      "path": "000 - 每日日记/DailyNote/2023年12月12日.md"
+    },
+    {
       "basename": "vim使用技巧",
       "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "flash重定向",
       "path": "020 - 工作学习/工作/业务知识和难题/flash重定向项目/flash重定向.md"
-    },
-    {
-      "basename": "chrome扩展开发相关",
-      "path": "020 - 工作学习/工作/业务知识和难题/flash重定向项目/chrome扩展开发相关.md"
     }
   ],
   "omittedPaths": [],
