@@ -4,16 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "69c8ae75b462dfd6",
+        "id": "a2aa799a46937514",
         "type": "tabs",
         "children": [
           {
-            "id": "6173969943ed3f48",
+            "id": "80867fc459997898",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "020 - 工作学习/学习/后端/bash/shell脚本编写.md",
+                "file": "040 - Obsidian/主页/00. 主页.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1d15c6cfc981733e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +34,12 @@
             }
           },
           {
-            "id": "9fced8a91bc4db86",
+            "id": "181531ec852989fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月15日.md",
+                "file": "020 - 工作学习/工作/汇总所有在线文档.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,64 +47,12 @@
             }
           },
           {
-            "id": "7ada8e3c6398ac47",
+            "id": "485f3b4041a219e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月13日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e5687ce860effd33",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "040 - Obsidian/主页/每日网站打开.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6d55162dd0e22363",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "926d2578bce31c54",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/WeeklyNote/2024年02周记录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a6ab137a5469fa1e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/WeeklyNote/2024年03周记录.md",
+                "file": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -137,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "token",
+                "query": "personal token",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -153,8 +114,17 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "5ca620075b6a18da",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-tab-tree",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "73db95bfb166faa1",
@@ -184,7 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5
+    "width": 395.5
   },
   "right": {
     "id": "49b0f6d6f173189c",
@@ -200,8 +170,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月15日.md"
+                "file": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md"
               }
+            }
+          },
+          {
+            "id": "93bfebab27d6467f",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
             }
           },
           {
@@ -218,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月15日.md",
+                "file": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月15日.md",
+                "file": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -247,7 +225,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月15日.md"
+                "file": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md"
               }
             }
           },
@@ -272,7 +250,7 @@
             }
           },
           {
-            "id": "4a8d93ffa0c21959",
+            "id": "1cfa8f7a628730ff",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -280,7 +258,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       },
       {
         "id": "888c3f3084370af3",
@@ -312,6 +290,7 @@
     "hiddenItems": {
       "local-backup:Run local backup": false,
       "homepage:Open homepage": false,
+      "templater-obsidian:Templater": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -324,47 +303,46 @@
       "random-note:开始漫游笔记": false,
       "audio-recorder:开始/结束录音": false,
       "workspaces:管理工作区布局": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-day-planner:Timeline": false,
       "cmdr:折叠": true,
       "custom-sort:Toggle custom sorting": false,
       "big-calendar:Big Calendar": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "omnisearch:Omnisearch": false,
       "periodic-notes:Open today": false,
       "obsidian-memos:Memos": false
     }
   },
-  "active": "9fced8a91bc4db86",
+  "active": "485f3b4041a219e7",
   "lastOpenFiles": [
-    "000 - 每日日记/DailyNote/2024年01月13日.md",
-    "000 - 每日日记/DailyNote/2024年01月15日.md",
-    "040 - Obsidian/主页/每日网站打开.md",
-    "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
-    "000 - 每日日记/WeeklyNote/2024年02周记录.md",
-    "000 - 每日日记/WeeklyNote/2024年03周记录.md",
-    "000 - 每日日记/DailyNote/2024年01月12日.md",
-    "000 - 每日日记/WeeklyNote/2024年01周记录.md",
-    "020 - 工作学习/学习/后端/bash/shell脚本编写.md",
+    "020 - 工作学习/工作/汇总所有在线文档.md",
+    "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
+    "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md",
     "040 - Obsidian/主页/00. 主页.md",
     "060 - 临时/babel入门学习.md",
-    "000 - 每日日记/DailyNote/2024年01月09日.md",
+    "040 - Obsidian/主页/每日网站打开.md",
+    "000 - 每日日记/WeeklyNote/2024年03周记录.md",
+    "000 - 每日日记/WeeklyNote/2024年02周记录.md",
+    "000 - 每日日记/DailyNote/2024年01月15日.md",
+    "000 - 每日日记/DailyNote/2024年01月13日.md",
+    "000 - 每日日记/DailyNote/2024年01月12日.md",
     "000 - 每日日记/DailyNote/2024年01月11日.md",
     "000 - 每日日记/DailyNote/2024年01月10日.md",
-    "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
-    "020 - 工作学习/工作/远程、定制化/项目定制开发和远程.md",
-    "020 - 工作学习/学习计划脚本/js学习计划.md",
-    "040 - Obsidian/教程/obsidian清单.md",
-    "004 - Resource/资源/00.资源导航.md",
-    "040 - Obsidian/模板/tp-每周周记模板.md",
-    "000 - 每日日记/DailyNote/2024年01月04日.md",
-    "000 - 每日日记/DailyNote/2024年01月05日.md",
-    "040 - Obsidian/模板/tp-每日日记模板.md",
+    "000 - 每日日记/DailyNote/2024年01月09日.md",
     "000 - 每日日记/DailyNote/2024年01月08日.md",
-    "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md",
+    "000 - 每日日记/DailyNote/2024年01月06日.md",
     "000 - 每日日记/DailyNote/2024年01月07日.md",
+    "000 - 每日日记/DailyNote/2024年01月05日.md",
+    "020 - 工作学习/学习/后端/bash/shell脚本编写.md",
+    "000 - 每日日记/DailyNote/2024年01月04日.md",
+    "020 - 工作学习/学习/后端/linux/ubuntu22.04安装.md",
+    "020 - 工作学习/学习/前端/electron/electron直接打开网址测试.md",
+    "000 - 每日日记/WeeklyNote/2024年01周记录.md",
+    "000 - 每日日记/DailyNote/2024年01月03日.md",
+    "020 - 工作学习/工作/远程、定制化/项目定制开发和远程.md",
+    "000 - 每日日记/DailyNote/2023年12月22日.md",
     "004 - Resource/资源/各种软件/vim学习/vim插件",
     "020 - 工作学习/学习/前端/worker/mdn",
     "020 - 工作学习/工作/业务知识和难题/flash重定向项目",
