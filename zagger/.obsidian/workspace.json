@@ -47,6 +47,19 @@
             }
           },
           {
+            "id": "90e428834fad53c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ab7b54fa94ff55bc",
             "type": "leaf",
             "state": {
@@ -60,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       },
       {
         "id": "95142cd71ccbb3ba",
@@ -220,7 +233,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月16日.md"
+                "file": "000 - 每日日记/WeeklyNote/2024年03周记录.md"
               }
             }
           },
@@ -238,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月16日.md",
+                "file": "000 - 每日日记/WeeklyNote/2024年03周记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,7 +268,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月16日.md",
+                "file": "000 - 每日日记/WeeklyNote/2024年03周记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -267,7 +280,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月16日.md"
+                "file": "000 - 每日日记/WeeklyNote/2024年03周记录.md"
               }
             }
           },
@@ -357,11 +370,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "ec0f4846098f6579",
+  "active": "ab7b54fa94ff55bc",
   "lastOpenFiles": [
-    "020 - 工作学习/学习/后端/linux/cut命令.md",
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "000 - 每日日记/DailyNote/2024年01月16日.md",
+    "020 - 工作学习/学习/后端/linux/cut命令.md",
     "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/学习/后端/bash/shell脚本编写.md",
     "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
