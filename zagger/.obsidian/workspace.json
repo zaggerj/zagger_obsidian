@@ -231,6 +231,7 @@
     ],
     "direction": "horizontal",
     "width": 243.5
+    "width": 243.5
   },
   "right": {
     "id": "49b0f6d6f173189c",
@@ -327,6 +328,7 @@
           }
         ],
         "currentTab": 7
+        "currentTab": 7
       },
       {
         "id": "888c3f3084370af3",
@@ -375,6 +377,8 @@
       "cmdr:折叠": true,
       "custom-sort:Toggle custom sorting": false,
       "big-calendar:Big Calendar": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
