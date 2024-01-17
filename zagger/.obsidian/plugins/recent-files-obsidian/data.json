@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "2024年01月16日",
+      "path": "000 - 每日日记/DailyNote/2024年01月16日.md"
+    },
+    {
+      "basename": "2024年01月17日",
+      "path": "000 - 每日日记/DailyNote/2024年01月17日.md"
+    },
+    {
       "basename": "2023年12月12日",
       "path": "000 - 每日日记/DailyNote/2023年12月12日.md"
     },
@@ -11,10 +23,6 @@
     {
       "basename": "a 服务器相关命令",
       "path": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
-    },
-    {
-      "basename": "2024年01月16日",
-      "path": "000 - 每日日记/DailyNote/2024年01月16日.md"
     },
     {
       "basename": "每日网站打开",
@@ -31,10 +39,6 @@
     {
       "basename": "cut命令",
       "path": "020 - 工作学习/学习/后端/linux/cut命令.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "2024年01月15日",
@@ -81,20 +85,32 @@
       "path": "040 - Obsidian/模板/tp-每周周记模板.md"
     },
     {
-      "basename": "2024年01月06日",
-      "path": "000 - 每日日记/DailyNote/2024年01月06日.md"
+      "basename": "2024年01月04日",
+      "path": "000 - 每日日记/DailyNote/2024年01月04日.md"
     },
     {
       "basename": "2024年01月05日",
       "path": "000 - 每日日记/DailyNote/2024年01月05日.md"
     },
     {
-      "basename": "shell脚本编写",
-      "path": "020 - 工作学习/学习/后端/bash/shell脚本编写.md"
+      "basename": "tp-每日日记模板",
+      "path": "040 - Obsidian/模板/tp-每日日记模板.md"
     },
     {
-      "basename": "2024年01月04日",
-      "path": "000 - 每日日记/DailyNote/2024年01月04日.md"
+      "basename": "2024年01月08日",
+      "path": "000 - 每日日记/DailyNote/2024年01月08日.md"
+    },
+    {
+      "basename": "personal token",
+      "path": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md"
+    },
+    {
+      "basename": "2024年01月07日",
+      "path": "000 - 每日日记/DailyNote/2024年01月07日.md"
+    },
+    {
+      "basename": "汇总所有在线文档",
+      "path": "020 - 工作学习/工作/汇总所有在线文档.md"
     },
     {
       "basename": "ubuntu22.04安装",
@@ -105,16 +121,8 @@
       "path": "020 - 工作学习/学习/前端/electron/electron直接打开网址测试.md"
     },
     {
-      "basename": "2024年01周记录",
-      "path": "000 - 每日日记/WeeklyNote/2024年01周记录.md"
-    },
-    {
       "basename": "2024年01月03日",
       "path": "000 - 每日日记/DailyNote/2024年01月03日.md"
-    },
-    {
-      "basename": "项目定制开发和远程",
-      "path": "020 - 工作学习/工作/远程、定制化/项目定制开发和远程.md"
     },
     {
       "basename": "2023年12月22日",
@@ -191,10 +199,6 @@
     {
       "basename": "终端上flash脚本",
       "path": "020 - 工作学习/工作/业务知识和难题/flash重定向项目/终端上flash脚本.md"
-    },
-    {
-      "basename": "flash重定向",
-      "path": "020 - 工作学习/工作/业务知识和难题/flash重定向项目/flash重定向.md"
     }
   ],
   "omittedPaths": [],
