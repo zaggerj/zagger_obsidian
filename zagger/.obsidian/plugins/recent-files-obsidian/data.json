@@ -5,6 +5,10 @@
       "path": "000 - 每日日记/DailyNote/2024年01月17日.md"
     },
     {
+      "basename": "vim使用技巧",
+      "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
+    },
+    {
       "basename": "00. 主页",
       "path": "040 - Obsidian/主页/00. 主页.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "2023年12月12日",
       "path": "000 - 每日日记/DailyNote/2023年12月12日.md"
-    },
-    {
-      "basename": "vim使用技巧",
-      "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
     },
     {
       "basename": "a 服务器相关命令",
