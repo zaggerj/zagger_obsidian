@@ -5,16 +5,20 @@
       "path": "000 - 每日日记/DailyNote/2024年01月17日.md"
     },
     {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "2024年01月18日",
+      "path": "000 - 每日日记/DailyNote/2024年01月18日.md"
+    },
+    {
       "basename": "personal token",
       "path": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md"
     },
     {
       "basename": "汇总所有在线文档",
       "path": "020 - 工作学习/工作/汇总所有在线文档.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "2024年01月16日",
@@ -195,10 +199,6 @@
     {
       "basename": "2023年12月26日",
       "path": "000 - 每日日记/DailyNote/2023年12月26日.md"
-    },
-    {
-      "basename": "终端上flash脚本",
-      "path": "020 - 工作学习/工作/业务知识和难题/flash重定向项目/终端上flash脚本.md"
     }
   ],
   "omittedPaths": [],
