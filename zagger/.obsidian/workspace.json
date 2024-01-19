@@ -195,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Obsidian/主页/每日网站打开.md"
+                "file": "000 - 每日日记/DailyNote/2024年01月19日.md"
               }
             }
           },
@@ -213,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "040 - Obsidian/主页/每日网站打开.md",
+                "file": "000 - 每日日记/DailyNote/2024年01月19日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "040 - Obsidian/主页/每日网站打开.md",
+                "file": "000 - 每日日记/DailyNote/2024年01月19日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +242,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "040 - Obsidian/主页/每日网站打开.md"
+                "file": "000 - 每日日记/DailyNote/2024年01月19日.md"
               }
             }
           },
@@ -332,8 +332,9 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "830532e14a845214",
+  "active": "439cefbdf3bb0a2c",
   "lastOpenFiles": [
+    "040 - Obsidian/主页/每日网站打开.md",
     "040 - Obsidian/主页/00. 主页.md",
     "000 - 每日日记/DailyNote/2024年01月19日.md",
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
@@ -346,7 +347,6 @@
     "020 - 工作学习/学习/后端/bash/shell脚本编写.md",
     "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
     "000 - 每日日记/DailyNote/2024年01月16日.md",
-    "040 - Obsidian/主页/每日网站打开.md",
     "000 - 每日日记/WeeklyNote/2024年03周记录.md",
     "020 - 工作学习/学习/后端/linux/cut命令.md",
     "000 - 每日日记/DailyNote/2024年01月13日.md",
