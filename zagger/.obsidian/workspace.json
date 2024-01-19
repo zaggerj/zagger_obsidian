@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "d4dc5ea57dc73516",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "830532e14a845214",
             "type": "leaf",
             "state": {
@@ -131,7 +144,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "spice-web-client",
+                "query": "Gclog",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -334,9 +347,10 @@
   },
   "active": "439cefbdf3bb0a2c",
   "lastOpenFiles": [
-    "040 - Obsidian/主页/每日网站打开.md",
+    "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
     "040 - Obsidian/主页/00. 主页.md",
     "000 - 每日日记/DailyNote/2024年01月19日.md",
+    "040 - Obsidian/主页/每日网站打开.md",
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "000 - 每日日记/DailyNote/2024年01月18日.md",
     "000 - 每日日记/DailyNote/2024年01月17日.md",
@@ -345,7 +359,6 @@
     "020 - 工作学习/工作/汇总所有在线文档.md",
     "conflict-files-obsidian-git.md",
     "020 - 工作学习/学习/后端/bash/shell脚本编写.md",
-    "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
     "000 - 每日日记/DailyNote/2024年01月16日.md",
     "000 - 每日日记/WeeklyNote/2024年03周记录.md",
     "020 - 工作学习/学习/后端/linux/cut命令.md",

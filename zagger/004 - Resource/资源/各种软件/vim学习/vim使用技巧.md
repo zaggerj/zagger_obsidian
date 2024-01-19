@@ -503,6 +503,15 @@ dd 查看diff文件差别
 cc 提交 git commit 信息
 :Git push 进行远程提交
 ```
+![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/20240119170958.png)
+```
+:git blame
+O new tab
+p previous
+o h
+
+
+```
 
 #### 1.4.6.46. Server sh failed to start: Error: spawn UNKNOWN
 ![image.png](https://raw.githubusercontent.com/zaggerj/obsidian_picgo/main/obsidian/20231225162132.png)
