@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bbd9b2770fa802fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "07d651efebd9b4a2",
@@ -90,7 +104,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "token",
+                "query": "spice-web-client",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +121,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "73db95bfb166faa1",
@@ -153,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月17日.md"
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
               }
             }
           },
@@ -171,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月17日.md",
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月17日.md",
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +215,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月17日.md"
+                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
               }
             }
           },
@@ -290,12 +305,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "538a73f06a0a29cc",
+  "active": "bbd9b2770fa802fd",
   "lastOpenFiles": [
     "040 - Obsidian/主页/00. 主页.md",
+    "000 - 每日日记/DailyNote/2024年01月17日.md",
     "000 - 每日日记/DailyNote/2024年01月18日.md",
     "020 - 工作学习/工作/业务知识和难题/各种问题/客户端远程改资源.md",
-    "000 - 每日日记/DailyNote/2024年01月17日.md",
     "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md",
     "020 - 工作学习/工作/汇总所有在线文档.md",
     "conflict-files-obsidian-git.md",
