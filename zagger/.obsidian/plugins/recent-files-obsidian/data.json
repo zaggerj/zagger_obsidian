@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "vim使用技巧",
+      "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
+    },
+    {
+      "basename": "2024年01月22日",
+      "path": "000 - 每日日记/DailyNote/2024年01月22日.md"
+    },
+    {
+      "basename": "2024年01月21日",
+      "path": "000 - 每日日记/DailyNote/2024年01月21日.md"
+    },
+    {
+      "basename": "2024年01月20日",
+      "path": "000 - 每日日记/DailyNote/2024年01月20日.md"
+    },
+    {
       "basename": "2024年01月19日",
       "path": "000 - 每日日记/DailyNote/2024年01月19日.md"
     },
     {
-      "basename": "vim使用技巧",
-      "path": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md"
+      "basename": "2024年01月18日",
+      "path": "000 - 每日日记/DailyNote/2024年01月18日.md"
+    },
+    {
+      "basename": "2024年01月17日",
+      "path": "000 - 每日日记/DailyNote/2024年01月17日.md"
+    },
+    {
+      "basename": "2024年04周记录",
+      "path": "000 - 每日日记/WeeklyNote/2024年04周记录.md"
     },
     {
       "basename": "00. 主页",
@@ -19,14 +43,6 @@
     {
       "basename": "a 服务器相关命令",
       "path": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
-    },
-    {
-      "basename": "2024年01月18日",
-      "path": "000 - 每日日记/DailyNote/2024年01月18日.md"
-    },
-    {
-      "basename": "2024年01月17日",
-      "path": "000 - 每日日记/DailyNote/2024年01月17日.md"
     },
     {
       "basename": "personal token",
@@ -183,22 +199,6 @@
     {
       "basename": "强制显示磁盘性能测试按钮",
       "path": "020 - 工作学习/工作/业务知识和难题/远程问题/强制显示磁盘性能测试按钮.md"
-    },
-    {
-      "basename": "2023年12月27日",
-      "path": "000 - 每日日记/DailyNote/2023年12月27日.md"
-    },
-    {
-      "basename": "dragenter",
-      "path": "020 - 工作学习/学习计划脚本/js文档学习笔记/浏览器：文档，事件，接口/UI 事件/dragenter.md"
-    },
-    {
-      "basename": "find",
-      "path": "020 - 工作学习/学习/后端/linux/find.md"
-    },
-    {
-      "basename": "nwjs开发相关",
-      "path": "020 - 工作学习/工作/业务知识和难题/flash重定向项目/nwjs开发相关.md"
     }
   ],
   "omittedPaths": [],
