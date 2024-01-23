@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "669ff1719635bc89",
+        "id": "381e392b26c547ec",
         "type": "tabs",
         "children": [
           {
-            "id": "18b71cad541c367f",
+            "id": "1fed9ae5a6c9929d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,79 +21,7 @@
             }
           },
           {
-            "id": "d4dc5ea57dc73516",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "830532e14a845214",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "040 - Obsidian/主页/每日网站打开.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bbd9b2770fa802fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "07d651efebd9b4a2",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "472bfa027010d7ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月22日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9a6813a02e2e8515",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/WeeklyNote/2024年04周记录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "53b568d87d653271",
+            "id": "be13676c67f1ab0f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -104,9 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0e448a1f29b5d57f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2024年01月22日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -279,7 +220,7 @@
             }
           },
           {
-            "id": "a0cc06b7cd817e82",
+            "id": "38e90845f3cab4d0",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -344,10 +285,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "53b568d87d653271",
+  "active": "be13676c67f1ab0f",
   "lastOpenFiles": [
-    "000 - 每日日记/DailyNote/2024年01月23日.md",
     "000 - 每日日记/DailyNote/2024年01月22日.md",
+    "000 - 每日日记/DailyNote/2024年01月23日.md",
+    "040 - Obsidian/主页/00. 主页.md",
     "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
     "000 - 每日日记/DailyNote/2024年01月21日.md",
     "000 - 每日日记/DailyNote/2024年01月20日.md",
@@ -355,7 +297,6 @@
     "000 - 每日日记/DailyNote/2024年01月18日.md",
     "000 - 每日日记/DailyNote/2024年01月17日.md",
     "000 - 每日日记/WeeklyNote/2024年04周记录.md",
-    "040 - Obsidian/主页/00. 主页.md",
     "040 - Obsidian/主页/每日网站打开.md",
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "020 - 工作学习/工作/业务知识和难题/各种问题/客户端远程改资源.md",
