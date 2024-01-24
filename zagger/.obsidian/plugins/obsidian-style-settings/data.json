@@ -16,7 +16,7 @@
   "anuppuccin-theme-settings@@anp-simple-rainbow-icon-toggle": false,
   "anuppuccin-theme-settings@@anp-header-color-toggle": true,
   "anuppuccin-theme-settings@@callout-radius": 3,
-  "blue-topaz-theme@@font-family-change-to-default": false,
+  "blue-topaz-theme@@font-family-change-to-default": true,
   "sharetype@@sharetype-color@@light": "#69BBE4",
   "sharetype@@sharetype2-color@@light": "#A9E58E",
   "blue-topaz-theme@@color-scheme-options": "color-scheme-options-avocado-topaz",

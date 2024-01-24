@@ -1,10 +1,10 @@
 {
   "accentColor": "",
   "cssTheme": "Blue Topaz",
-  "interfaceFontFamily": "FantasqueSansM Nerd Font Propo",
-  "textFontFamily": "",
-  "monospaceFontFamily": "",
-  "baseFontSize": 11,
+  "interfaceFontFamily": "霞鹜文楷等宽",
+  "textFontFamily": "霞鹜文楷等宽",
+  "monospaceFontFamily": "霞鹜文楷等宽",
+  "baseFontSize": 14,
   "theme": "system",
   "enabledCssSnippets": [
     "【边栏图标】sidepane",
