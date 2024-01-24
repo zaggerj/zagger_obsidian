@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "381e392b26c547ec",
+        "id": "d443146c8db9e84b",
         "type": "tabs",
         "children": [
           {
-            "id": "1fed9ae5a6c9929d",
+            "id": "07e3521d9dd5322a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,33 +21,7 @@
             }
           },
           {
-            "id": "be13676c67f1ab0f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月23日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0e448a1f29b5d57f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月22日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "21481353d1366bd7",
+            "id": "83bf5ebe219d802a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -60,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -161,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月22日.md"
+                "file": "000 - 每日日记/DailyNote/2024年01月24日.md"
               }
             }
           },
@@ -179,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月22日.md",
+                "file": "000 - 每日日记/DailyNote/2024年01月24日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月22日.md",
+                "file": "000 - 每日日记/DailyNote/2024年01月24日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +182,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月22日.md"
+                "file": "000 - 每日日记/DailyNote/2024年01月24日.md"
               }
             }
           },
@@ -233,7 +207,7 @@
             }
           },
           {
-            "id": "38e90845f3cab4d0",
+            "id": "4334b040061b9d7b",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -271,9 +245,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "local-backup:Run local backup": false,
       "homepage:Open homepage": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -288,22 +260,19 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-day-planner:Timeline": false,
       "cmdr:折叠": true,
-      "custom-sort:Toggle custom sorting": false,
       "big-calendar:Big Calendar": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "omnisearch:Omnisearch": false,
-      "periodic-notes:Open today": false,
-      "obsidian-memos:Memos": false
+      "periodic-notes:Open today": false
     }
   },
-  "active": "0e448a1f29b5d57f",
+  "active": "83bf5ebe219d802a",
   "lastOpenFiles": [
-    "000 - 每日日记/DailyNote/2024年01月23日.md",
-    "000 - 每日日记/DailyNote/2024年01月24日.md",
-    "000 - 每日日记/DailyNote/2024年01月22日.md",
     "040 - Obsidian/主页/00. 主页.md",
+    "000 - 每日日记/DailyNote/2024年01月24日.md",
+    "000 - 每日日记/DailyNote/2024年01月23日.md",
+    "000 - 每日日记/DailyNote/2024年01月22日.md",
     "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
     "000 - 每日日记/DailyNote/2024年01月21日.md",
     "000 - 每日日记/DailyNote/2024年01月20日.md",
