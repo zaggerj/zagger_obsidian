@@ -27,3 +27,8 @@ updated: 2023-11-06T08:20
 6. [i5ting/node-debug-tutorial: 3法3例细说node-debug (github.com)](https://github.com/i5ting/node-debug-tutorial)
 7. [parro-it/awesome-micro-npm-packages: A curated list of small, focused npm packages. (github.com)](https://github.com/parro-it/awesome-micro-npm-packages)
 8. [迷茫时学习Node.js最好的方法 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/29625882)
+9. [七天学会NodeJS (nqdeng.github.io)](https://nqdeng.github.io/7-days-nodejs/)
+10. [i5ting/How-to-learn-node-correctly: [全文]如何正确的学习Node.js (github.com)](https://github.com/i5ting/How-to-learn-node-correctly)
+11. [模块概览 | Node.js学习指南 (poetries.top)](https://blog.poetries.top/node-learning-notes/notes/modules/-1.0%20%E6%9C%AC%E5%9C%B0%E8%B7%AF%E5%BE%84%E5%A4%84%E7%90%86%20path.html#%E6%A8%A1%E5%9D%97%E6%A6%82%E8%A7%88)
+12. [推荐 9 个 Node.js 学习、进阶、debugging 分析、实战 的重磅开源项目 👍 - 掘金 (juejin.cn)](https://juejin.cn/post/6961101653709684772)
+13. [Node.js 教程_w3cschool](https://www.w3cschool.cn/nodejs/nodejs-tutorial.html)
