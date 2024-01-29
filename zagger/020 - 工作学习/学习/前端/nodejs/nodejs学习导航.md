@@ -20,3 +20,10 @@ updated: 2023-11-06T08:20
 
 # 2. 学习线路
 1. [Nodejs学习路线图 - CNode技术社区 (cnodejs.org)](https://cnodejs.org/topic/53a7fee7a087f45620e08521)
+2. [CNode：Node.js专业中文社区 (cnodejs.org)](https://cnodejs.org/?tab=good)
+3. [Express 开发与部署最佳实践 - CNode技术社区 (cnodejs.org)](https://cnodejs.org/topic/56a3c8f47ec020ed4b96b2cd)
+4. [如果你用GitHub，可以这样提高效率 - CNode技术社区 (cnodejs.org)](https://cnodejs.org/topic/5698d752adf526da2aeb237f)
+5. [【全文】狼叔：如何正确的学习Node.js - CNode技术社区 (cnodejs.org)](https://cnodejs.org/topic/5ab3166be7b166bb7b9eccf7)
+6. [i5ting/node-debug-tutorial: 3法3例细说node-debug (github.com)](https://github.com/i5ting/node-debug-tutorial)
+7. [parro-it/awesome-micro-npm-packages: A curated list of small, focused npm packages. (github.com)](https://github.com/parro-it/awesome-micro-npm-packages)
+8. [迷茫时学习Node.js最好的方法 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/29625882)

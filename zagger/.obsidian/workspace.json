@@ -47,6 +47,19 @@
             }
           },
           {
+            "id": "2dc8c0b33eaa79c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "040 - Obsidian/主页/每日网站打开.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "db1db065fb8c8a71",
             "type": "leaf",
             "state": {
@@ -60,38 +73,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "89a3b0d6330f8c28",
         "type": "tabs",
         "children": [
-          {
-            "id": "f5bd011636954835",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月27日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a0b9c2dc7b0edf11",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月28日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
           {
             "id": "380323a3940b6fd1",
             "type": "leaf",
@@ -117,9 +104,34 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "97daf0e64727de9a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2024年01月25日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7803af92b129d255",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2024年01月26日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -354,29 +366,29 @@
   },
   "active": "380323a3940b6fd1",
   "lastOpenFiles": [
-    "000 - 每日日记/WeeklyNote/2024年05周记录.md",
-    "000 - 每日日记/DailyNote/2024年01月29日.md",
     "020 - 工作学习/学习/前端/nodejs/nodejs学习导航.md",
-    "000 - 每日日记/DailyNote/2024年01月24日.md",
-    "040 - Obsidian/主页/00. 主页.md",
     "000 - 每日日记/WeeklyNote/2024年04周记录.md",
-    "020 - 工作学习/学习/前端/nodejs/学习nodejs相关链接-20230709191710-tz0t240.md",
-    "020 - 工作学习/非开发/脚本/js脚本/nodejs.md",
-    "000 - 每日日记/DailyNote/2024年01月28日.md",
-    "000 - 每日日记/DailyNote/2024年01月27日.md",
-    "000 - 每日日记/DailyNote/2024年01月26日.md",
     "000 - 每日日记/DailyNote/2024年01月25日.md",
-    "000 - 每日日记/DailyNote/日记/2023-10-13.md",
-    "000 - 每日日记/DailyNote/2024年01月04日.md",
+    "000 - 每日日记/DailyNote/2024年01月26日.md",
+    "000 - 每日日记/DailyNote/2024年01月24日.md",
     "000 - 每日日记/DailyNote/2024年01月23日.md",
     "000 - 每日日记/DailyNote/2024年01月22日.md",
+    "000 - 每日日记/DailyNote/2024年01月29日.md",
+    "000 - 每日日记/DailyNote/2024年01月27日.md",
+    "000 - 每日日记/DailyNote/2024年01月28日.md",
+    "040 - Obsidian/主页/每日网站打开.md",
+    "000 - 每日日记/WeeklyNote/2024年05周记录.md",
+    "040 - Obsidian/主页/00. 主页.md",
+    "020 - 工作学习/学习/前端/nodejs/学习nodejs相关链接-20230709191710-tz0t240.md",
+    "020 - 工作学习/非开发/脚本/js脚本/nodejs.md",
+    "000 - 每日日记/DailyNote/日记/2023-10-13.md",
+    "000 - 每日日记/DailyNote/2024年01月04日.md",
     "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
     "000 - 每日日记/DailyNote/2024年01月21日.md",
     "000 - 每日日记/DailyNote/2024年01月20日.md",
     "000 - 每日日记/DailyNote/2024年01月19日.md",
     "000 - 每日日记/DailyNote/2024年01月18日.md",
     "000 - 每日日记/DailyNote/2024年01月17日.md",
-    "040 - Obsidian/主页/每日网站打开.md",
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "020 - 工作学习/工作/业务知识和难题/各种问题/客户端远程改资源.md",
     "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md",
