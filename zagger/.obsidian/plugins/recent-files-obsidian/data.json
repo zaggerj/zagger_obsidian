@@ -5,12 +5,20 @@
       "path": "000 - 每日日记/DailyNote/2024年01月29日.md"
     },
     {
+      "basename": "nodejs学习导航",
+      "path": "020 - 工作学习/学习/前端/nodejs/nodejs学习导航.md"
+    },
+    {
+      "basename": "课程-Node.js工程师养成计划",
+      "path": "020 - 工作学习/学习/前端/nodejs/课程-Node.js工程师养成计划.md"
+    },
+    {
       "basename": "每日网站打开",
       "path": "040 - Obsidian/主页/每日网站打开.md"
     },
     {
-      "basename": "nodejs学习导航",
-      "path": "020 - 工作学习/学习/前端/nodejs/nodejs学习导航.md"
+      "basename": "2024年05周记录",
+      "path": "000 - 每日日记/WeeklyNote/2024年05周记录.md"
     },
     {
       "basename": "2024年04周记录",
@@ -43,10 +51,6 @@
     {
       "basename": "2024年01月28日",
       "path": "000 - 每日日记/DailyNote/2024年01月28日.md"
-    },
-    {
-      "basename": "2024年05周记录",
-      "path": "000 - 每日日记/WeeklyNote/2024年05周记录.md"
     },
     {
       "basename": "00. 主页",
@@ -195,10 +199,6 @@
     {
       "basename": "项目定制开发和远程",
       "path": "020 - 工作学习/工作/远程、定制化/项目定制开发和远程.md"
-    },
-    {
-      "basename": "2023年12月22日",
-      "path": "000 - 每日日记/DailyNote/2023年12月22日.md"
     }
   ],
   "omittedPaths": [],

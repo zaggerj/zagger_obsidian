@@ -32,3 +32,9 @@ updated: 2023-11-06T08:20
 11. [模块概览 | Node.js学习指南 (poetries.top)](https://blog.poetries.top/node-learning-notes/notes/modules/-1.0%20%E6%9C%AC%E5%9C%B0%E8%B7%AF%E5%BE%84%E5%A4%84%E7%90%86%20path.html#%E6%A8%A1%E5%9D%97%E6%A6%82%E8%A7%88)
 12. [推荐 9 个 Node.js 学习、进阶、debugging 分析、实战 的重磅开源项目 👍 - 掘金 (juejin.cn)](https://juejin.cn/post/6961101653709684772)
 13. [Node.js 教程_w3cschool](https://www.w3cschool.cn/nodejs/nodejs-tutorial.html)
+
+# 3. 知识点
+1. SNI技术：[SSL / TLS协议解析！SNI 识别 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/446371370)
+2. [Node.js工程师养成计划_实战课程_慕课网 (imooc.com)](https://coding.imooc.com/class/chapter/584.html#Anchor)
+3. [Node.js 系统学习，掌握从基础入门到深入大厂级别的用法_订购学习路线_编程项目实战_慕课网 (imooc.com)](https://coding.imooc.com/learningpath/orderline?pathId=26)
+4. [前端设计模式大全（汇总详细版） - 掘金 (juejin.cn)](https://juejin.cn/post/7223185420157993017)
