@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "03a82d98e4b50890",
+        "id": "f7e008387eb2fa02",
         "type": "tabs",
         "children": [
           {
-            "id": "c8c722d34d1aacdf",
+            "id": "588eee010fc02f88",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "cb5b3c68c45eb282",
+            "id": "ad84ce4093f7e09f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月25日.md",
+                "file": "000 - 每日日记/DailyNote/2024年01月24日.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,20 +34,7 @@
             }
           },
           {
-            "id": "2a269639a11f7588",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/日记/2023-10-13.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4e4964664bddab74",
+            "id": "6964e004a1489c0d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -60,12 +47,12 @@
             }
           },
           {
-            "id": "b1890c96c1f97d0c",
+            "id": "db1db065fb8c8a71",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月26日.md",
+                "file": "000 - 每日日记/WeeklyNote/2024年05周记录.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,7 +60,66 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
+      },
+      {
+        "id": "89a3b0d6330f8c28",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f5bd011636954835",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2024年01月27日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a0b9c2dc7b0edf11",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2024年01月28日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "380323a3940b6fd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2024年01月29日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "37d38ffdedc04f61",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020 - 工作学习/学习/前端/nodejs/nodejs学习导航.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -174,7 +220,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月26日.md"
+                "file": "000 - 每日日记/DailyNote/2024年01月29日.md"
               }
             }
           },
@@ -192,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月26日.md",
+                "file": "000 - 每日日记/DailyNote/2024年01月29日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +255,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月26日.md",
+                "file": "000 - 每日日记/DailyNote/2024年01月29日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,7 +267,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月26日.md"
+                "file": "000 - 每日日记/DailyNote/2024年01月29日.md"
               }
             }
           },
@@ -246,14 +292,15 @@
             }
           },
           {
-            "id": "7265215812b1f431",
+            "id": "86518da5d0523a9f",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 7
       },
       {
         "id": "888c3f3084370af3",
@@ -305,15 +352,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b1890c96c1f97d0c",
+  "active": "380323a3940b6fd1",
   "lastOpenFiles": [
+    "000 - 每日日记/WeeklyNote/2024年05周记录.md",
+    "000 - 每日日记/DailyNote/2024年01月29日.md",
+    "020 - 工作学习/学习/前端/nodejs/nodejs学习导航.md",
+    "000 - 每日日记/DailyNote/2024年01月24日.md",
+    "040 - Obsidian/主页/00. 主页.md",
+    "000 - 每日日记/WeeklyNote/2024年04周记录.md",
+    "020 - 工作学习/学习/前端/nodejs/学习nodejs相关链接-20230709191710-tz0t240.md",
+    "020 - 工作学习/非开发/脚本/js脚本/nodejs.md",
+    "000 - 每日日记/DailyNote/2024年01月28日.md",
+    "000 - 每日日记/DailyNote/2024年01月27日.md",
     "000 - 每日日记/DailyNote/2024年01月26日.md",
     "000 - 每日日记/DailyNote/2024年01月25日.md",
     "000 - 每日日记/DailyNote/日记/2023-10-13.md",
-    "000 - 每日日记/WeeklyNote/2024年04周记录.md",
-    "040 - Obsidian/主页/00. 主页.md",
     "000 - 每日日记/DailyNote/2024年01月04日.md",
-    "000 - 每日日记/DailyNote/2024年01月24日.md",
     "000 - 每日日记/DailyNote/2024年01月23日.md",
     "000 - 每日日记/DailyNote/2024年01月22日.md",
     "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
@@ -326,13 +380,6 @@
     "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md",
     "020 - 工作学习/工作/业务知识和难题/各种问题/客户端远程改资源.md",
     "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md",
-    "020 - 工作学习/工作/汇总所有在线文档.md",
-    "conflict-files-obsidian-git.md",
-    "020 - 工作学习/学习/后端/bash/shell脚本编写.md",
-    "000 - 每日日记/DailyNote/2024年01月16日.md",
-    "000 - 每日日记/WeeklyNote/2024年03周记录.md",
-    "020 - 工作学习/学习/后端/linux/cut命令.md",
-    "000 - 每日日记/DailyNote/2024年01月13日.md",
     "004 - Resource/资源/各种软件/vim学习/vim插件",
     "020 - 工作学习/学习/前端/worker/mdn",
     "020 - 工作学习/工作/业务知识和难题/flash重定向项目",
