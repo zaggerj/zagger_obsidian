@@ -18,7 +18,9 @@ updated: 2023-11-06T08:20
 13. [practicajs/practica: Node.js solution starter that is production-ready, packed with ✅ best practices and built with simplicity in mind (github.com)](https://github.com/practicajs/practica)
 14. [Node.js Tutorial (w3schools.com)](https://www.w3schools.com/nodejs/)
 
-# 2. 学习线路
+# 2. Nodejs安装
+1. Node.js 安装配置：[Node.js 教程_w3cschool-nodejs-install-setup](https://www.w3cschool.cn/nodejs/nodejs-install-setup.html)
+# 3. 学习线路
 1. [Nodejs学习路线图 - CNode技术社区 (cnodejs.org)](https://cnodejs.org/topic/53a7fee7a087f45620e08521)
 2. [CNode：Node.js专业中文社区 (cnodejs.org)](https://cnodejs.org/?tab=good)
 3. [Express 开发与部署最佳实践 - CNode技术社区 (cnodejs.org)](https://cnodejs.org/topic/56a3c8f47ec020ed4b96b2cd)
@@ -33,8 +35,10 @@ updated: 2023-11-06T08:20
 12. [推荐 9 个 Node.js 学习、进阶、debugging 分析、实战 的重磅开源项目 👍 - 掘金 (juejin.cn)](https://juejin.cn/post/6961101653709684772)
 13. [Node.js 教程_w3cschool](https://www.w3cschool.cn/nodejs/nodejs-tutorial.html)
 
-# 3. 知识点
+# 4. 知识点
 1. SNI技术：[SSL / TLS协议解析！SNI 识别 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/446371370)
 2. [Node.js工程师养成计划_实战课程_慕课网 (imooc.com)](https://coding.imooc.com/class/chapter/584.html#Anchor)
 3. [Node.js 系统学习，掌握从基础入门到深入大厂级别的用法_订购学习路线_编程项目实战_慕课网 (imooc.com)](https://coding.imooc.com/learningpath/orderline?pathId=26)
 4. [前端设计模式大全（汇总详细版） - 掘金 (juejin.cn)](https://juejin.cn/post/7223185420157993017)
+5. 深入理解：文件、二进制、字符集(编码)三者之间的区别与联系：[深入理解：文件、二进制、字符集(编码)三者之间的区别与联系_文件格式和进制的关系-CSDN博客](https://blog.csdn.net/weixin_48033662/article/details/125862979)
+6. 字符集与字符编码那些事：[字符集与字符编码那些事_charset.forname-CSDN博客](https://blog.csdn.net/qq_38309645/article/details/104888860)

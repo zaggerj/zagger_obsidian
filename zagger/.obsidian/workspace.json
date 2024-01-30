@@ -144,7 +144,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -199,7 +199,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "73db95bfb166faa1",
@@ -245,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "020 - 工作学习/学习/前端/nodejs/nodejs学习导航.md"
+                "file": "000 - 每日日记/DailyNote/2024年01月30日.md"
               }
             }
           },
@@ -263,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "020 - 工作学习/学习/前端/nodejs/nodejs学习导航.md",
+                "file": "000 - 每日日记/DailyNote/2024年01月30日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -280,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "020 - 工作学习/学习/前端/nodejs/nodejs学习导航.md",
+                "file": "000 - 每日日记/DailyNote/2024年01月30日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -292,7 +293,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "020 - 工作学习/学习/前端/nodejs/nodejs学习导航.md"
+                "file": "000 - 每日日记/DailyNote/2024年01月30日.md"
               }
             }
           },
@@ -377,10 +378,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "37d38ffdedc04f61",
+  "active": "91ec9f9cf889b4b6",
   "lastOpenFiles": [
-    "040 - Obsidian/主页/00. 主页.md",
     "020 - 工作学习/学习/前端/nodejs/nodejs学习导航.md",
+    "040 - Obsidian/主页/00. 主页.md",
     "000 - 每日日记/DailyNote/2024年01月24日.md",
     "000 - 每日日记/DailyNote/2024年01月30日.md",
     "000 - 每日日记/DailyNote/2024年01月29日.md",
