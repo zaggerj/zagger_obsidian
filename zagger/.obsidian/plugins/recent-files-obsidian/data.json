@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "2024年01月29日",
-      "path": "000 - 每日日记/DailyNote/2024年01月29日.md"
-    },
-    {
       "basename": "nodejs学习导航",
       "path": "020 - 工作学习/学习/前端/nodejs/nodejs学习导航.md"
+    },
+    {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "2024年01月24日",
+      "path": "000 - 每日日记/DailyNote/2024年01月24日.md"
+    },
+    {
+      "basename": "2024年01月30日",
+      "path": "000 - 每日日记/DailyNote/2024年01月30日.md"
+    },
+    {
+      "basename": "2024年01月29日",
+      "path": "000 - 每日日记/DailyNote/2024年01月29日.md"
     },
     {
       "basename": "课程-Node.js工程师养成计划",
@@ -33,10 +45,6 @@
       "path": "000 - 每日日记/DailyNote/2024年01月26日.md"
     },
     {
-      "basename": "2024年01月24日",
-      "path": "000 - 每日日记/DailyNote/2024年01月24日.md"
-    },
-    {
       "basename": "2024年01月23日",
       "path": "000 - 每日日记/DailyNote/2024年01月23日.md"
     },
@@ -51,10 +59,6 @@
     {
       "basename": "2024年01月28日",
       "path": "000 - 每日日记/DailyNote/2024年01月28日.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "学习nodejs相关链接-20230709191710-tz0t240",
@@ -195,10 +199,6 @@
     {
       "basename": "2024年01月03日",
       "path": "000 - 每日日记/DailyNote/2024年01月03日.md"
-    },
-    {
-      "basename": "项目定制开发和远程",
-      "path": "020 - 工作学习/工作/远程、定制化/项目定制开发和远程.md"
     }
   ],
   "omittedPaths": [],
