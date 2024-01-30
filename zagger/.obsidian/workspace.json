@@ -72,7 +72,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "89a3b0d6330f8c28",
@@ -168,9 +169,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "75c418424b444345",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - 每日日记/DailyNote/2024年01月30日.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -271,7 +285,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md"
+                "file": "000 - 每日日记/DailyNote/2024年01月30日.md"
               }
             }
           },
@@ -289,7 +303,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md",
+                "file": "000 - 每日日记/DailyNote/2024年01月30日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -306,7 +320,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md",
+                "file": "000 - 每日日记/DailyNote/2024年01月30日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,7 +332,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "040 - Obsidian/主页/00. 主页.md"
+                "file": "000 - 每日日记/DailyNote/2024年01月30日.md"
               }
             }
           },
@@ -403,22 +417,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "588eee010fc02f88",
+  "active": "75c418424b444345",
   "lastOpenFiles": [
-    "020 - 工作学习/工作/绩效考核/2023年年终绩效面谈.md",
-    "020 - 工作学习/工作/汇总所有在线文档.md",
-    "020 - 工作学习/工作/绩效考核",
+    "040 - Obsidian/主页/每日网站打开.md",
+    "000 - 每日日记/DailyNote/2024年01月30日.md",
     "000 - 每日日记/DailyNote/2024年01月29日.md",
     "020 - 工作学习/学习/前端/nodejs/nodejs学习导航.md",
-    "000 - 每日日记/DailyNote/2024年01月30日.md",
-    "040 - Obsidian/主页/00. 主页.md",
-    "000 - 每日日记/DailyNote/2024年01月24日.md",
-    "020 - 工作学习/学习/前端/nodejs/课程-Node.js工程师养成计划.md",
-    "040 - Obsidian/主页/每日网站打开.md",
-    "000 - 每日日记/WeeklyNote/2024年05周记录.md",
-    "000 - 每日日记/WeeklyNote/2024年04周记录.md",
     "000 - 每日日记/DailyNote/2024年01月25日.md",
     "000 - 每日日记/DailyNote/2024年01月26日.md",
+    "020 - 工作学习/工作/汇总所有在线文档.md",
+    "020 - 工作学习/工作/绩效考核/2023年年终绩效面谈.md",
+    "040 - Obsidian/主页/00. 主页.md",
+    "020 - 工作学习/工作/绩效考核",
+    "000 - 每日日记/DailyNote/2024年01月24日.md",
+    "020 - 工作学习/学习/前端/nodejs/课程-Node.js工程师养成计划.md",
+    "000 - 每日日记/WeeklyNote/2024年05周记录.md",
+    "000 - 每日日记/WeeklyNote/2024年04周记录.md",
     "000 - 每日日记/DailyNote/2024年01月23日.md",
     "000 - 每日日记/DailyNote/2024年01月22日.md",
     "000 - 每日日记/DailyNote/2024年01月27日.md",
