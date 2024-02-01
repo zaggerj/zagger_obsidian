@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2024年02月01日",
+      "path": "000 - 每日日记/DailyNote/2024年02月01日.md"
+    },
+    {
       "basename": "2024年01月31日",
       "path": "000 - 每日日记/DailyNote/2024年01月31日.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "ubuntu22.04安装",
       "path": "020 - 工作学习/学习/后端/linux/ubuntu22.04安装.md"
-    },
-    {
-      "basename": "electron直接打开网址测试",
-      "path": "020 - 工作学习/学习/前端/electron/electron直接打开网址测试.md"
     }
   ],
   "omittedPaths": [],
