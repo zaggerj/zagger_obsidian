@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0febe18cbf7791b3",
+        "id": "8a0ce21c6b1ac77f",
         "type": "tabs",
         "children": [
           {
-            "id": "156eae2cf17a200e",
+            "id": "b92fbe012be94574",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,74 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "525c2f3dbd37f704",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2024年01月31日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bce0dad0399552ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "004 - Resource/资源/各种软件/vim学习/vim使用技巧.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c1eb5ee3222ad545",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/WeeklyNote/2024年05周记录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0153cf3dfa014e79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/WeeklyNote/2024年04周记录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c1510cff08ebdb3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - 每日日记/DailyNote/2024年02月01日.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -187,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年02月01日.md"
+                "file": "040 - Obsidian/主页/00. 主页.md"
               }
             }
           },
@@ -205,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年02月01日.md",
+                "file": "040 - Obsidian/主页/00. 主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年02月01日.md",
+                "file": "040 - Obsidian/主页/00. 主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +168,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000 - 每日日记/DailyNote/2024年02月01日.md"
+                "file": "040 - Obsidian/主页/00. 主页.md"
               }
             }
           },
@@ -259,14 +193,15 @@
             }
           },
           {
-            "id": "84ffb865fdac7ee0",
+            "id": "686c5560f8ec3f57",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 7
       },
       {
         "id": "888c3f3084370af3",
@@ -318,7 +253,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c1510cff08ebdb3b",
+  "active": "b92fbe012be94574",
   "lastOpenFiles": [
     "000 - 每日日记/DailyNote/2024年02月01日.md",
     "000 - 每日日记/DailyNote/2024年01月31日.md",
