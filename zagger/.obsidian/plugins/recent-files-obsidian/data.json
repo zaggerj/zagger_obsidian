@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "2024年02月06日",
+      "path": "000 - 每日日记/DailyNote/2024年02月06日.md"
+    },
+    {
+      "basename": "personal token",
+      "path": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md"
+    },
+    {
+      "basename": "00. 主页",
+      "path": "040 - Obsidian/主页/00. 主页.md"
+    },
+    {
+      "basename": "汇总所有在线文档",
+      "path": "020 - 工作学习/工作/汇总所有在线文档.md"
+    },
+    {
+      "basename": "a 服务器相关命令",
+      "path": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
+    },
+    {
       "basename": "2024年02月04日",
       "path": "000 - 每日日记/DailyNote/2024年02月04日.md"
     },
     {
       "basename": "2024年05周记录",
       "path": "000 - 每日日记/WeeklyNote/2024年05周记录.md"
-    },
-    {
-      "basename": "00. 主页",
-      "path": "040 - Obsidian/主页/00. 主页.md"
     },
     {
       "basename": "2024年02月03日",
@@ -59,10 +75,6 @@
     {
       "basename": "2024年01月26日",
       "path": "000 - 每日日记/DailyNote/2024年01月26日.md"
-    },
-    {
-      "basename": "汇总所有在线文档",
-      "path": "020 - 工作学习/工作/汇总所有在线文档.md"
     },
     {
       "basename": "2023年年终绩效面谈",
@@ -129,14 +141,6 @@
       "path": "000 - 每日日记/DailyNote/2024年01月17日.md"
     },
     {
-      "basename": "a 服务器相关命令",
-      "path": "020 - 工作学习/学习/后端/服务器相关知识/a 服务器相关命令.md"
-    },
-    {
-      "basename": "personal token",
-      "path": "004 - Resource/资源/环境安装和软件安装/家庭办公远程/personal token.md"
-    },
-    {
       "basename": "2024年01月16日",
       "path": "000 - 每日日记/DailyNote/2024年01月16日.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "项目定制开发和远程",
       "path": "020 - 工作学习/工作/远程、定制化/项目定制开发和远程.md"
-    },
-    {
-      "basename": "tp-每周周记模板",
-      "path": "040 - Obsidian/模板/tp-每周周记模板.md"
     }
   ],
   "omittedPaths": [],
